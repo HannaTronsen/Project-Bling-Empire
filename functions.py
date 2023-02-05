@@ -2,8 +2,7 @@ import os
 import pandas as pd
 
 from stockCollectionClass import StockCollection
-from stockCollectionClass import STANDARD_AND_POOR_500
-from stockCollectionClass import NORWAY
+from stockCollectionClass import GERMANY, HONG_KONG, NORWAY, STANDARD_AND_POOR_500
 
 # Const
 TICKERS_PATH = 'tickers/'
@@ -16,43 +15,92 @@ def initializeEnvironment():
 
 
 def fetch_tickers(stockCollection: list[StockCollection]):
-
     for collection in stockCollection:
         match collection.name:
             case STANDARD_AND_POOR_500.name:
                 df = getDataFrame(
                     source=STANDARD_AND_POOR_500.source,
-                    tableIndex=0
+                    tableIndexRange=STANDARD_AND_POOR_500.tableIndexRange
                 )
-
                 dataFrameToCsv(
                     df=df,
                     fileName=STANDARD_AND_POOR_500.csvSymbols,
-                    columns=['Symbol']
+                    columns=STANDARD_AND_POOR_500.columns
                 )
-
             case NORWAY.name:
                 df = getDataFrame(
                     source=NORWAY.source,
-                    tableIndex=1
+                    tableIndexRange=NORWAY.tableIndexRange
                 )
-
-                # The format that yfinance accepts for norwegian stocks
-                df['Ticker'] = df['Ticker'].str.replace('OSE: ', '') + '.OL'
-
+                dataFrameToCsv(
+                    df=modifyTickers(NORWAY.name, df),
+                    fileName=NORWAY.csvSymbols,
+                    columns=NORWAY.columns
+                )
+            case  GERMANY.name:
+                df = getDataFrame(
+                    source=GERMANY.source,
+                    tableIndexRange=GERMANY.tableIndexRange
+                )
                 dataFrameToCsv(
                     df=df,
-                    fileName=NORWAY.csvSymbols,
-                    columns=['Ticker']
+                    fileName=GERMANY.csvSymbols,
+                    columns=GERMANY.columns
+                )
+            case HONG_KONG.name:
+                df = getDataFrame(
+                    source=HONG_KONG.source,
+                    tableIndexRange=HONG_KONG.tableIndexRange
+                )
+                dataFrameToCsv(
+                    df=modifyTickers(HONG_KONG.name, df),
+                    fileName=HONG_KONG.csvSymbols,
+                    columns=HONG_KONG.columns
                 )
 
 
-def getDataFrame(source, tableIndex):
-    table = pd.read_html(source)
-    df = table[tableIndex]
-    return df
+def getDataFrame(
+    source,
+    tableIndexRange
+):
+    tables = pd.read_html(source)
+
+    firstTableIndex = tableIndexRange[0]
+    lastTableIndex = tableIndexRange[-1]
+
+    if (firstTableIndex != lastTableIndex):
+        df = pd.DataFrame()
+        for tableIndex in range(firstTableIndex, lastTableIndex):
+            df = pd.concat([df, tables[tableIndex]], axis=0)
+        return df
+    return tables[firstTableIndex]
 
 
-def dataFrameToCsv(df, fileName, columns, header=False, index=False):
-    df.to_csv(TICKERS_PATH+fileName, columns=columns,
-              header=header, index=index)
+def dataFrameToCsv(
+    df,
+    fileName,
+    columns,
+    header=False,
+    index=False
+):
+    df.to_csv(
+        TICKERS_PATH+fileName,
+        columns=columns,
+        header=header,
+        index=index
+    )
+
+
+def modifyTickers(
+    stockCollectionName,
+    df
+):
+    match stockCollectionName:
+        case NORWAY.name:
+            return df['Ticker'].str.replace('OSE: ', '') + '.OL'
+
+        case HONG_KONG.name:
+            # Limit posibility of getting digit in company name
+            df[0] = df[0].str[:10]
+            df[0] = df[0].str.replace(r'(\D+)', '', regex=True)
+            return df[0].str.zfill(4) + '.HK'
