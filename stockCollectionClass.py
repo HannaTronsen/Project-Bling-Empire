@@ -20,8 +20,7 @@ STANDARD_AND_POOR_500 = StockCollection(
     country='US',
     source='https://en.wikipedia.org/wiki/List_of_S%26P_500_companies',
     tableIndexRange = [0,0],
-    columns= ['Symbol']
-    
+    columns= ['Symbol']   
 )
 
 NORWAY = StockCollection(
@@ -46,4 +45,28 @@ HONG_KONG = StockCollection(
     source='https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Hong_Kong_Stock_Exchange',
     tableIndexRange=[1,27],
     columns=[0]
+)
+
+UNITED_KINGDOM = StockCollection(
+    name="FTSE350",
+    country='UK',
+    source='https://www.fidelity.co.uk/shares/ftse-350/',
+    tableIndexRange=[0],
+    columns=['EPIC']
+)
+
+NETHERLAND = StockCollection(
+    name="AEX",
+    country='NE',
+    source='https://topforeignstocks.com/listed-companies-lists/the-complete-list-of-listed-companies-in-the-netherlands/',
+    tableIndexRange=[0],
+    columns=['Ticker']
+)
+
+FRANCE = StockCollection(
+    name="PEX",
+    country='FR',
+    source='https://topforeignstocks.com/listed-companies-lists/the-complete-list-of-listed-companies-in-france/',
+    tableIndexRange=[0],
+    columns=['Ticker']
 )

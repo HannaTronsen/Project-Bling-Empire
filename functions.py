@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-from stockCollectionClass import StockCollection
+from stockCollectionClass import FRANCE, NETHERLAND, UNITED_KINGDOM, StockCollection
 from stockCollectionClass import GERMANY, HONG_KONG, NORWAY, STANDARD_AND_POOR_500
 
 # Const
@@ -57,6 +57,37 @@ def fetch_tickers(stockCollection: list[StockCollection]):
                     fileName=HONG_KONG.csvSymbols,
                     columns=HONG_KONG.columns
                 )
+            case UNITED_KINGDOM.name:
+                df = getDataFrame(
+                    source=UNITED_KINGDOM.source,
+                    tableIndexRange=UNITED_KINGDOM.tableIndexRange
+                )
+                dataFrameToCsv(
+                    df=df,
+                    fileName=UNITED_KINGDOM.csvSymbols,
+                    columns=UNITED_KINGDOM.columns
+                )
+            case NETHERLAND.name:
+                df = getDataFrame(
+                    source=NETHERLAND.source,
+                    tableIndexRange=NETHERLAND.tableIndexRange
+                )
+                dataFrameToCsv(
+                    df=modifyTickers(NETHERLAND.name, df),
+                    fileName=NETHERLAND.csvSymbols,
+                    columns=NETHERLAND.columns
+                )
+            
+            case FRANCE.name:
+                df = getDataFrame(
+                    source=FRANCE.source,
+                    tableIndexRange=FRANCE.tableIndexRange
+                )
+                dataFrameToCsv(
+                    df=modifyTickers(FRANCE.name, df),
+                    fileName=FRANCE.csvSymbols,
+                    columns=FRANCE.columns
+                )
 
 
 def getDataFrame(
@@ -104,3 +135,9 @@ def modifyTickers(
             df[0] = df[0].str[:10]
             df[0] = df[0].str.replace(r'(\D+)', '', regex=True)
             return df[0].str.zfill(4) + '.HK'
+
+        case NETHERLAND.name:
+            return df['Ticker'] +'.AS'
+
+        case FRANCE.name:
+            return df['Ticker'] +'.PA'
