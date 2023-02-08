@@ -1,6 +1,6 @@
 import yfinance
 from functions import fetch_tickers, initializeEnvironment
-from stockCollectionClass import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
+from stockCollections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
 
 def checkIfValidYahooTicker():
     print(yfinance.Ticker('AGN.AS').financials)
