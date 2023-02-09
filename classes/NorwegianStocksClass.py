@@ -14,7 +14,6 @@ class NorwegianStocksClass(StockCollection):
         tickerSignature
     ):  
         # :param tableIndex: The index of the stock data table.
-        # :param tableIndex: The index of the stock data table.
         # :param ticketSignature: The Stock ticker ending required by yfinance 
         self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
