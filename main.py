@@ -3,6 +3,7 @@ from functions import fetchTickers, initializeEnvironment, validateAndGetYahooFi
 
 
 def checkIfValidYahooTicker():
+    #https://github.com/ranaroussi/yfinance/issues/1407
     print(yfinance.Ticker('AAPL').earnings)
     pass
 
