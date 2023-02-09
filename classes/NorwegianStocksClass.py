@@ -1,5 +1,6 @@
 from classes.StockCollectionClass import StockCollection
 
+
 class NorwegianStocksClass(StockCollection):
     """A class representing the Norwegian stocks collection."""
 
@@ -10,17 +11,14 @@ class NorwegianStocksClass(StockCollection):
         source,
         tableIndex,
         column,
-    ):  # Initialize a new instance of a `NorwegianStocks` class.
-
-        super().__init__(
-            name=name,
-            country=country,
-            source=source,
-            column=column
-        )
-
+        tickerSignature
+    ):  
         # :param tableIndex: The index of the stock data table.
+        # :param tableIndex: The index of the stock data table.
+        # :param ticketSignature: The Stock ticker ending required by yfinance 
+        self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
+        self.tickerSignature = tickerSignature
 
     def convertDataFrameToCsv(self):
         df = self.getDataFrame(
@@ -34,4 +32,4 @@ class NorwegianStocksClass(StockCollection):
         )
 
     def modifyTickers(self, df):
-        return df['Ticker'].str.replace('OSE: ', '') + '.OL'
+        return df[self.column].str.replace('OSE: ', '') + self.tickerSignature

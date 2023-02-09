@@ -10,16 +10,9 @@ class StandardAndPoor500StocksClass(StockCollection):
         source,
         tableIndex,
         column,
-    ):  # Initialize a new instance of a `StandardAndPoor500` class.
-
-        super().__init__(
-            name=name,
-            country=country,
-            source=source,
-            column=column
-        )
-
+    ):  
         # :param tableIndex: The index of the stock data table.
+        self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
 
     def convertDataFrameToCsv(self):

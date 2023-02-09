@@ -11,17 +11,13 @@ class HongKongStocksClass(StockCollection):
         source,
         tableIndexRange,
         column,
-    ):  # Initialize a new instance of a `HongKongStocks` class.
-
-        super().__init__(
-            name=name,
-            country=country,
-            source=source,
-            column=column
-        )
-
+        tickerSignature
+    ):  
         # :param tableIndex: The index of the stock data table.
+        # :param ticketSignature: The Stock ticker ending required by yfinance 
+        self.set_attributes(name, country, source, column)
         self.tableIndexRange = tableIndexRange
+        self.tickerSignature = tickerSignature
 
     def getDataFrame(
         self,
@@ -52,4 +48,4 @@ class HongKongStocksClass(StockCollection):
         # Limit posibility of getting digit in company name
         df[0] = df[0].str[:10]
         df[0] = df[0].str.replace(r'(\D+)', '', regex=True)
-        return df[0].str.zfill(4) + '.HK'
+        return df[0].str.zfill(4) + self.tickerSignature

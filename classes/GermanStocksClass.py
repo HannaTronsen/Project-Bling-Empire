@@ -10,16 +10,10 @@ class GermanStocksClass(StockCollection):
         source,
         tableIndex,
         column,
-    ):  # Initialize a new instance of a `GermanStocks` class.
-
-        super().__init__(
-            name=name,
-            country=country,
-            source=source,
-            column=column
-        )
-
+    ):  
         # :param tableIndex: The index of the stock data table.
+        # :param ticketSignature: The Stock ticker ending required by yfinance 
+        self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
 
     def convertDataFrameToCsv(self):

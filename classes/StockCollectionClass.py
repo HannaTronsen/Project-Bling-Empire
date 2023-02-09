@@ -1,7 +1,5 @@
-from abc import ABC, abstractmethod
-
 import pandas as pd
-
+from abc import ABC, abstractmethod
 from const import CSV_SYMBOL_FILE_NAME, TICKERS_PATH
 
 class StockCollection(ABC):
@@ -14,7 +12,12 @@ class StockCollection(ABC):
         :param country: The country of the stock collection.
         :param source: The source of the stock data.
         :param column: The column where the Tickers are located.
+
+        :def set_attributes: Results in less code for each subclass of this class
         """
+        self.set_attributes(name, country, source, column)
+
+    def set_attributes(self, name, country, source, column):
         self.name = name
         self.country = country
         self.source = source
@@ -31,7 +34,7 @@ class StockCollection(ABC):
     ):
         df.to_csv(
             TICKERS_PATH+fileName,
-            columns=column,
+            columns=[column],
             header=header,
             index=index
         )
@@ -50,3 +53,7 @@ class StockCollection(ABC):
 
     def __str__(self):
         return self.name
+    
+
+
+
