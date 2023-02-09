@@ -1,8 +1,8 @@
-from classes.StockCollectionClass import StockCollection
-from const import TICKERS_PATH
 import os
-
+from const import TICKERS_PATH
+from stockCollections import stockCollectionsList
 from stockCollections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
+
 
 def initializeEnvironment():
 
@@ -10,8 +10,8 @@ def initializeEnvironment():
         os.makedirs(TICKERS_PATH)
 
 
-def fetch_tickers(stockCollection: list[StockCollection]):
-    for collection in stockCollection:
+def fetchTickers():
+    for collection in stockCollectionsList:
         match collection.name:
             case STANDARD_AND_POOR_500.name:
                 STANDARD_AND_POOR_500.convertDataFrameToCsv()

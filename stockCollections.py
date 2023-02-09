@@ -10,8 +10,8 @@ STANDARD_AND_POOR_500 = StandardAndPoor500StocksClass(
     name='S&P500',
     country='US',
     source='https://en.wikipedia.org/wiki/List_of_S%26P_500_companies',
-    tableIndex = 0,
-    column= 'Symbol'  
+    tableIndex=0,
+    column='Symbol'
 )
 NORWAY = NorwegianStocksClass(
     name='OBEX',
@@ -33,7 +33,7 @@ HONG_KONG = HongKongStocksClass(
     country='HK',
     source='https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Hong_Kong_Stock_Exchange',
     tableIndexRange=[1, 27],
-    column=[0],
+    column=0,
     tickerSignature='.HK'
 )
 UNITED_KINGDOM = UnitedKingdomStocksClass(
@@ -59,3 +59,13 @@ FRANCE = FrenchStocksClass(
     column='Ticker',
     tickerSignature='.PA'
 )
+
+stockCollectionsList = [
+    STANDARD_AND_POOR_500,
+    NORWAY,
+    GERMANY,
+    HONG_KONG,
+    UNITED_KINGDOM,
+    NETHERLAND,
+    FRANCE
+]
