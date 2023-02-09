@@ -1,6 +1,6 @@
 import pandas as pd
 from abc import ABC, abstractmethod
-from const import CSV_SYMBOL_FILE_NAME, TICKERS_PATH
+from const import CSV_SYMBOL_FILE_NAME, STOCK_COLLECTIONS_PATH
 
 class StockCollection(ABC):
 
@@ -33,7 +33,7 @@ class StockCollection(ABC):
         index=False
     ):
         df.to_csv(
-            TICKERS_PATH+fileName,
+            STOCK_COLLECTIONS_PATH+fileName,
             columns=[column],
             header=header,
             index=index

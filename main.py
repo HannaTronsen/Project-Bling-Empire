@@ -1,19 +1,20 @@
 import yfinance
-from functions import fetchTickers, initializeEnvironment
+from functions import fetchTickers, initializeEnvironment, validateAndGetYahooFinanceTickerObjects
 
 
 def checkIfValidYahooTicker():
-    print(yfinance.Ticker('AGN.AS').financials)
+    print(yfinance.Ticker('AAPL').earnings)
     pass
 
 
 def main():
 
-    RUN_YAHOO_CHECK = False
+    RUN_YAHOO_CHECK = True
 
     if (not RUN_YAHOO_CHECK):
         initializeEnvironment()
         fetchTickers()
+        validateAndGetYahooFinanceTickerObjects()
     else:
         checkIfValidYahooTicker()
 

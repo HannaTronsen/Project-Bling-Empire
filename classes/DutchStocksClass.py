@@ -10,13 +10,13 @@ class DutchStocksClass(StockCollection):
         source,
         tableIndex,
         column,
-        tickerSignature
+        stockTickerSignature
     ):  
         # :param tableIndex: The index of the stock data table.
-        # :param ticketSignature: The Stock ticker ending required by yfinance 
+        # :param stockTickerSignature: The Stock ticker ending required by yfinance 
         self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
-        self.tickerSignature = tickerSignature
+        self.stockTickerSignature = stockTickerSignature
 
     def convertDataFrameToCsv(self):
         df = self.getDataFrame(
@@ -30,4 +30,4 @@ class DutchStocksClass(StockCollection):
         )
 
     def modifyTickers(self, df):
-        return df[self.column] + self.tickerSignature
+        return df[self.column] + self.stockTickerSignature
