@@ -16,12 +16,5 @@ class GermanStocksClass(StockCollection):
         self.tableIndex = tableIndex
 
     def convertDataFrameToCsv(self):
-        df = self.getDataFrame(
-            source=self.source,
-            tableIndex=self.tableIndex
-        )
-        self.dataFrameToCsv(
-            df=df,
-            fileName=self.csvSymbols,
-            column=self.column
-        )
+        df = self.getDataFrame(tableIndex=self.tableIndex)
+        self.dataFrameToCsv(df=df)

@@ -21,10 +21,9 @@ class HongKongStocksClass(StockCollection):
 
     def getDataFrame(
         self,
-        source,
         tableIndexRange
     ):
-        tables = pd.read_html(source)
+        tables = pd.read_html(self.source)
         firstTableIndex = tableIndexRange[0]
         lastTableIndex = tableIndexRange[-1]
 
@@ -34,15 +33,8 @@ class HongKongStocksClass(StockCollection):
         return df
 
     def convertDataFrameToCsv(self):
-        df = self.getDataFrame(
-            source=self.source,
-            tableIndexRange=self.tableIndexRange
-        )
-        self.dataFrameToCsv(
-            df=self.modifyTickers(df),
-            fileName=self.csvSymbols,
-            column=self.column
-        )
+        df = self.getDataFrame(tableIndexRange=self.tableIndexRange)
+        self.dataFrameToCsv(df=self.modifyTickers(df))
 
     def modifyTickers(self, df):
         # Limit posibility of getting digit in company name

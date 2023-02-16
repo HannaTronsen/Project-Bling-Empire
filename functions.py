@@ -1,7 +1,8 @@
 import os
-
-from const import AUTO_GENERATED_FILE_STRING, BLACKLISTED_STOCK_TICKERS_PATH, STOCK_COLLECTIONS_PATH
+import re
+import yfinance
 from stockCollections import stockCollectionsList
+from const import AUTO_GENERATED_FILE_STRING, BLACKLISTED_STOCK_TICKERS_PATH, STOCK_COLLECTIONS_PATH
 from stockCollections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
 
 
@@ -35,13 +36,34 @@ def fetchTickers():
                 FRANCE.convertDataFrameToCsv()
 
 
-def validateAndGetYahooFinanceTickerObjects():
+def getYahooFinanceTickerObject():
+    pass
 
-    def getYahooFinanceTickerObject(ticker):
-        pass
 
-    def validateYahooFinanceTickerObjects():
-        pass
-    blacklistedStocksFile = open(BLACKLISTED_STOCK_TICKERS_PATH, 'a+')
-    validateYahooFinanceTickerObjects()
+def putYahooFinanceTickerObject(ticker):
+    # Figure out what information I want later
+    pass
+
+
+def validateYahooFinanceTickerObjects():
+    blacklistedStocksFile = open(BLACKLISTED_STOCK_TICKERS_PATH, 'r+')
+    blacklistedStocksFileContent = blacklistedStocksFile.read()
+    newLine = blacklistedStocksFile.write("\n")
+
+    for stockCollection in stockCollectionsList:
+        stockTickersFile = open(stockCollection.filePath, 'r').readlines()
+
+        for ticker in stockTickersFile:
+            yFinanceTicker = yfinance.Ticker(ticker)
+           
+            
+            if re.search(ticker, blacklistedStocksFileContent) is not None:
+                # Skip for now, will handle this case later
+                pass
+            elif not bool(yFinanceTicker.info):
+                print(f"No information found for ticker '{ticker}'.")
+                blacklistedStocksFile.write(ticker) + newLine
+            else:
+                putYahooFinanceTickerObject(ticker)
+
     blacklistedStocksFile.close()

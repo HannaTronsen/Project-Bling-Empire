@@ -1,24 +1,24 @@
-import yfinance
-from functions import fetchTickers, initializeEnvironment, validateAndGetYahooFinanceTickerObjects
+import unittest
 
+from functions import fetchTickers, initializeEnvironment
+from yFinanceRepository import validateAndGetYahooFinanceTickerObjects
 
-def checkIfValidYahooTicker():
-    #https://github.com/ranaroussi/yfinance/issues/1407
-    print(yfinance.Ticker('AAPL').earnings)
-    pass
-
+RUN_TESTS = False
+RUN_CODE = True
 
 def main():
 
-    RUN_YAHOO_CHECK = True
-
-    if (not RUN_YAHOO_CHECK):
-        initializeEnvironment()
-        fetchTickers()
-        validateAndGetYahooFinanceTickerObjects()
-    else:
-        checkIfValidYahooTicker()
+    initializeEnvironment()
+    fetchTickers()
+    validateAndGetYahooFinanceTickerObjects()
 
 
 if __name__ == '__main__':
-    main()
+
+    if RUN_TESTS:
+        test_loader = unittest.TestLoader()
+        test_suite = test_loader.discover('tests')
+        unittest.TextTestRunner().run(test_suite)
+
+    if RUN_CODE:
+        main()

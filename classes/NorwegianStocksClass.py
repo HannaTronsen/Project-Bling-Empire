@@ -1,6 +1,5 @@
 from classes.StockCollectionClass import StockCollection
 
-
 class NorwegianStocksClass(StockCollection):
     """A class representing the Norwegian stocks collection."""
 
@@ -20,15 +19,8 @@ class NorwegianStocksClass(StockCollection):
         self.stockTickerSignature = stockTickerSignature
 
     def convertDataFrameToCsv(self):
-        df = self.getDataFrame(
-            source=self.source,
-            tableIndex=self.tableIndex
-        )
-        self.dataFrameToCsv(
-            df=self.modifyTickers(df),
-            fileName=self.csvSymbols,
-            column=self.column
-        )
+        df = self.getDataFrame(tableIndex=self.tableIndex)
+        self.dataFrameToCsv(df=self.modifyTickers(df))
 
     def modifyTickers(self, df):
         return df[self.column].str.replace('OSE: ', '') + self.stockTickerSignature

@@ -1,6 +1,6 @@
 import pandas as pd
 from abc import ABC, abstractmethod
-from const import CSV_SYMBOL_FILE_NAME, STOCK_COLLECTIONS_PATH
+from const import FILE_NAME_SUFFIX, STOCK_COLLECTIONS_PATH
 
 class StockCollection(ABC):
 
@@ -21,20 +21,19 @@ class StockCollection(ABC):
         self.name = name
         self.country = country
         self.source = source
-        self.csvSymbols = self.name + CSV_SYMBOL_FILE_NAME
+        self.fileName = self.name + FILE_NAME_SUFFIX
+        self.filePath = f"{STOCK_COLLECTIONS_PATH}{self.fileName}"
         self.column = column
 
     def dataFrameToCsv(
         self,
         df,
-        fileName,
-        column,
         header=False,
         index=False
     ):
         df.to_csv(
-            STOCK_COLLECTIONS_PATH+fileName,
-            columns=[column],
+            self.filePath,
+            columns=[self.column],
             header=header,
             index=index
         )
@@ -45,15 +44,11 @@ class StockCollection(ABC):
 
     def getDataFrame(
         self,
-        source,
         tableIndex
     ):
-        tables = pd.read_html(source)
+        tables = pd.read_html(self.source)
         return tables[tableIndex]
 
     def __str__(self):
         return self.name
-    
-
-
 
