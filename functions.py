@@ -41,32 +41,6 @@ def getYahooFinanceTickerObject():
 
 
 def putYahooFinanceTickerObject(ticker):
-    # Figure out what information I want later
-    #:fast_info
-    #:history & metadata
-    #:dividends
-    #:splits
-    #:income statement
-    #:balance sheet
-    #:cash flow statement
-    #: .get_income_stmt() for more options
-
-
-    #:major_holders
-    #:institutional_holders
-    #:mutualfund_holders
-
-    #:earnings
-    #:susatinability (?)
-
-    #:recommendations
-    #:recommendations summary
-    #:analyst price target
-    #:revenue forcasts
-    #:earnings forcast
-    #:earnings trend
-
-    #:news
     pass
 
 
