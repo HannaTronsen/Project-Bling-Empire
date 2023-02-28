@@ -1,3 +1,4 @@
+import pandas as pd
 from classes.StockCollectionClass import StockCollection
 
 class UnitedKingdomStocksClass(StockCollection):
@@ -10,11 +11,26 @@ class UnitedKingdomStocksClass(StockCollection):
         source,
         tableIndex,
         column,
+        stockTickerSuffixes
     ):  
         # :param tableIndex: The index of the stock data table.
+        # :param stockTickerSuffixes: The possibble stock ticker endings required by yfinance 
         self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
+        self.stockTickerSuffixes = stockTickerSuffixes
 
-    def convertDataFrameToCsv(self):
+    #@override
+    def fetchStockTickers(self):
         df = self.getDataFrame(tableIndex=self.tableIndex)
-        self.dataFrameToCsv(df=df)
+        self.dataFrameToCsv(df=self.modifyTickers(df))
+
+    def modifyTickers(self, df):
+
+        L = self.stockTickerSuffixes[0]
+        IL =  self.stockTickerSuffixes[1]
+
+        df1 = df[self.column]
+        df2 = df.copy()[self.column] + L
+        df3 = df.copy()[self.column] + IL
+
+        return pd.concat([df1, df2, df3])

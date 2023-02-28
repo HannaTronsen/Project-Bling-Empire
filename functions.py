@@ -5,7 +5,6 @@ from stockCollections import stockCollectionsList
 from const import AUTO_GENERATED_FILE_STRING, BLACKLISTED_STOCK_TICKERS_PATH, STOCK_COLLECTIONS_PATH
 from stockCollections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
 
-
 def initializeEnvironment():
 
     if not os.path.exists(STOCK_COLLECTIONS_PATH):
@@ -21,19 +20,19 @@ def fetchTickers():
     for collection in stockCollectionsList:
         match collection.name:
             case STANDARD_AND_POOR_500.name:
-                STANDARD_AND_POOR_500.convertDataFrameToCsv()
+                STANDARD_AND_POOR_500.fetchStockTickers()
             case NORWAY.name:
-                NORWAY.convertDataFrameToCsv()
+                NORWAY.fetchStockTickers()
             case  GERMANY.name:
-                GERMANY.convertDataFrameToCsv()
+                GERMANY.fetchStockTickers()
             case HONG_KONG.name:
-                HONG_KONG.convertDataFrameToCsv()
+                HONG_KONG.fetchStockTickers()
             case UNITED_KINGDOM.name:
-                UNITED_KINGDOM.convertDataFrameToCsv()
+                UNITED_KINGDOM.fetchStockTickers()
             case NETHERLAND.name:
-                NETHERLAND.convertDataFrameToCsv()
+                NETHERLAND.fetchStockTickers()
             case FRANCE.name:
-                FRANCE.convertDataFrameToCsv()
+                FRANCE.fetchStockTickers()
 
 
 def getYahooFinanceTickerObject():

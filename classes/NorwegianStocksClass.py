@@ -10,17 +10,19 @@ class NorwegianStocksClass(StockCollection):
         source,
         tableIndex,
         column,
-        stockTickerSignature
+        stockTickerSuffixes
     ):  
         # :param tableIndex: The index of the stock data table.
-        # :param stockTickerSignature: The Stock ticker ending required by yfinance 
+        # :param stockTickerSuffixes: The possibble stock ticker endings required by yfinance 
         self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
-        self.stockTickerSignature = stockTickerSignature
+        self.stockTickerSuffixes = stockTickerSuffixes
 
-    def convertDataFrameToCsv(self):
+    #@override
+    def fetchStockTickers(self):
         df = self.getDataFrame(tableIndex=self.tableIndex)
         self.dataFrameToCsv(df=self.modifyTickers(df))
 
     def modifyTickers(self, df):
-        return df[self.column].str.replace('OSE: ', '') + self.stockTickerSignature
+        OL = self.stockTickerSuffixes[0]
+        return df[self.column].str.replace('OSE: ', '') + OL

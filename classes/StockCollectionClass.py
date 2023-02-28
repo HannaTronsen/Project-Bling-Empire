@@ -39,7 +39,7 @@ class StockCollection(ABC):
         )
 
     @abstractmethod
-    def convertDataFrameToCsv(self):
+    def fetchStockTickers(self):
         pass
 
     def getDataFrame(

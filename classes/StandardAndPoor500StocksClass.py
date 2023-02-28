@@ -15,6 +15,7 @@ class StandardAndPoor500StocksClass(StockCollection):
         self.set_attributes(name, country, source, column)
         self.tableIndex = tableIndex
 
-    def convertDataFrameToCsv(self):
+    #@override
+    def fetchStockTickers(self):
         df = self.getDataFrame(tableIndex=self.tableIndex)
         self.dataFrameToCsv(df=df)

@@ -3,15 +3,15 @@ import unittest
 from functions import fetchTickers, initializeEnvironment
 from yFinanceRepository import validateAndGetYahooFinanceTickerObjects
 
-RUN_TESTS = True
-RUN_CODE = False
+RUN_TESTS = False
+RUN_CODE = True
 
 
 def main():
 
     initializeEnvironment()
     fetchTickers()
-    validateAndGetYahooFinanceTickerObjects()
+    #validateAndGetYahooFinanceTickerObjects()
 
 
 if __name__ == '__main__':
