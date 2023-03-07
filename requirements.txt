@@ -1,2 +1,4 @@
-yfinance=0.2.12
-pandas=1.5.3
+yfinance==0.2.12
+pandas==1.5.3
+pylint==2.16.4
+autopep8==2.0.2
