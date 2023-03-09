@@ -5,16 +5,10 @@ runPylint() {
     pylint $(git ls-files '*.py');  
 }
 
-runAutopep() {
-    echo
-    """
-    ----------------Running Auto PEP------------------
-    """
-    find . -name '*.py' -exec autopep8 --in-place '{}' \;
-    echo
-    """
-    ----------------Auto PEP finished------------------
-    """
+runAutoPep() {
+   echo "----------------Running Auto PEP------------------"
+    find . -name '*.py' ! -path '*/env/*' -exec autopep8 -v --in-place --aggressive --aggressive '{}' \;
+    echo "----------------Auto PEP finished------------------"
 }
 
 runReportAndFix() {

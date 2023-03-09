@@ -7,6 +7,7 @@ RUN_PYLINT = True
 RUN_TESTS = False
 RUN_CODE = True
 
+
 def main():
     initializeEnvironment()
     fetchTickers()

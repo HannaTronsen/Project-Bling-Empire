@@ -1,6 +1,7 @@
 from classes.StockCollectionClass import StockCollection
 import pandas as pd
 
+
 class HongKongStocksClass(StockCollection):
     """A class representing the Hong Kong stocks collection."""
 
@@ -12,14 +13,14 @@ class HongKongStocksClass(StockCollection):
         tableIndexRange,
         column,
         stockTickerSuffixes
-    ):  
+    ):
         # :param tableIndex: The index of the stock data table.
-        # :param stockTickerSuffixes: The possibble stock ticker endings required by yfinance 
+        # :param stockTickerSuffixes: The possibble stock ticker endings required by yfinance
         self.set_attributes(name, country, source, column)
         self.tableIndexRange = tableIndexRange
         self.stockTickerSuffixes = stockTickerSuffixes
 
-    #@override
+    # @override
     def getDataFrame(
         self,
         tableIndexRange
@@ -33,7 +34,7 @@ class HongKongStocksClass(StockCollection):
             df = pd.concat([df, tables[tableIndex]], axis=0)
         return df
 
-    #@override
+    # @override
     def fetchStockTickers(self):
         df = self.getDataFrame(tableIndexRange=self.tableIndexRange)
         self.dataFrameToCsv(df=self.modifyTickers(df))

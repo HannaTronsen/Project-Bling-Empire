@@ -2,6 +2,7 @@ import pandas as pd
 from abc import ABC, abstractmethod
 from const import FILE_NAME_SUFFIX, STOCK_COLLECTIONS_PATH
 
+
 class StockCollection(ABC):
 
     def __init__(self, name, country, source, column):
@@ -51,4 +52,3 @@ class StockCollection(ABC):
 
     def __str__(self):
         return self.name
-

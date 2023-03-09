@@ -5,6 +5,7 @@ from stockCollections import stockCollectionsList
 from const import AUTO_GENERATED_FILE_STRING, BLACKLISTED_STOCK_TICKERS_PATH, STOCK_COLLECTIONS_PATH
 from stockCollections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
 
+
 def initializeEnvironment():
 
     if not os.path.exists(STOCK_COLLECTIONS_PATH):
@@ -53,8 +54,7 @@ def validateYahooFinanceTickerObjects():
 
         for ticker in stockTickersFile:
             yFinanceTicker = yfinance.Ticker(ticker)
-           
-            
+
             if re.search(ticker, blacklistedStocksFileContent) is not None:
                 # Skip for now, will handle this case later
                 pass
