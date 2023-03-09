@@ -13,7 +13,7 @@ runAutoPep() {
 
 runReportAndFix() {
     runPylint
-    runAutopep
+    runAutoPep
 }
 
 
