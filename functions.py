@@ -1,12 +1,12 @@
 import os
 import re
 import yfinance
-from stockCollections import stockCollectionsList
+from stock_collections import stock_collection_classsList
 from const import AUTO_GENERATED_FILE_STRING, BLACKLISTED_STOCK_TICKERS_PATH, STOCK_COLLECTIONS_PATH
-from stockCollections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
+from stock_collections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
 
 
-def initializeEnvironment():
+def initialize_environment():
 
     if not os.path.exists(STOCK_COLLECTIONS_PATH):
         os.makedirs(STOCK_COLLECTIONS_PATH)
@@ -17,8 +17,8 @@ def initializeEnvironment():
         file.close()
 
 
-def fetchTickers():
-    for collection in stockCollectionsList:
+def fetch_tickers():
+    for collection in stock_collection_classsList:
         match collection.name:
             case STANDARD_AND_POOR_500.name:
                 STANDARD_AND_POOR_500.fetchStockTickers()
@@ -36,21 +36,21 @@ def fetchTickers():
                 FRANCE.fetchStockTickers()
 
 
-def getYahooFinanceTickerObject():
+def get_yahoo_finance_ticker_object():
     pass
 
 
-def putYahooFinanceTickerObject(ticker):
+def put_yahoo_finance_ticker_object(ticker):
     pass
 
 
-def validateYahooFinanceTickerObjects():
+def validate_yahoo_finance_ticker_objects():
     blacklistedStocksFile = open(BLACKLISTED_STOCK_TICKERS_PATH, 'r+')
     blacklistedStocksFileContent = blacklistedStocksFile.read()
     newLine = blacklistedStocksFile.write("\n")
 
-    for stockCollection in stockCollectionsList:
-        stockTickersFile = open(stockCollection.filePath, 'r').readlines()
+    for stock_collection_class in stock_collection_classsList:
+        stockTickersFile = open(stock_collection_class.filePath, 'r').readlines()
 
         for ticker in stockTickersFile:
             yFinanceTicker = yfinance.Ticker(ticker)
@@ -62,6 +62,6 @@ def validateYahooFinanceTickerObjects():
                 print(f"No information found for ticker '{ticker}'.")
                 blacklistedStocksFile.write(ticker) + newLine
             else:
-                putYahooFinanceTickerObject(ticker)
+                put_yahoo_finance_ticker_object(ticker)
 
     blacklistedStocksFile.close()

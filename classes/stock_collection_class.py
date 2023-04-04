@@ -3,11 +3,11 @@ from abc import ABC, abstractmethod
 from const import FILE_NAME_SUFFIX, STOCK_COLLECTIONS_PATH
 
 
-class StockCollection(ABC):
+class stock_collection_class(ABC):
 
     def __init__(self, name, country, source, column):
         """
-        Initialize a new instance of a `StockCollection` class.
+        Initialize a new instance of a `stock_collection_class`.
 
         :param name: The name of the stock collection.
         :param country: The country of the stock collection.

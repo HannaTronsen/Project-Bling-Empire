@@ -1,7 +1,8 @@
 import subprocess
 import unittest
-from functions import fetchTickers, initializeEnvironment
-from yFinanceRepository import validateAndGetYahooFinanceTickerObjects
+from functions import fetch_tickers, initialize_environment
+from yfinance_repository import validate_and_get_yahoo_finance_ticker_objects
+
 
 RUN_PYLINT = True
 RUN_TESTS = False
@@ -9,9 +10,9 @@ RUN_CODE = True
 
 
 def main():
-    initializeEnvironment()
-    fetchTickers()
-    validateAndGetYahooFinanceTickerObjects()
+    initialize_environment()
+    fetch_tickers()
+    validate_and_get_yahoo_finance_ticker_objects()
 
 
 if __name__ == '__main__':

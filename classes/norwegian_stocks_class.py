@@ -1,8 +1,10 @@
-from classes.StockCollectionClass import StockCollection
+from classes.stock_collection_class import stock_collection_class
 
 
-class NorwegianStocksClass(StockCollection):
-    """A class representing the Norwegian stocks collection."""
+class norwegian_stocks_class(stock_collection_class):
+    """
+    A class representing the Norwegian stocks collection.
+    """
 
     def __init__(
         self,

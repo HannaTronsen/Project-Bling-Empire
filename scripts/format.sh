@@ -2,7 +2,7 @@
 
 runPylint() {
     echo "Running pylint on all tracked files..."
-    pylint $(git ls-files '*.py');  
+    pylint --clear-cache-post-run=y $(git ls-files '*.py');  
 }
 
 runAutoPep() {

@@ -6,10 +6,10 @@ import yfinance
 # https://github.com/ranaroussi/yfinance/issues/1407
 
 
-class TestYFinance(unittest.TestCase):
+class test_yfinance(unittest.TestCase):
 
     def __init__(self, *args, **kwargs):
-        super(TestYFinance, self).__init__(*args, **kwargs)
+        super(test_yfinance, self).__init__(*args, **kwargs)
         try:
             self.error_prefix = "yfinance.Ticker('MSFT')"
             self.error_suffix = "caused and exception:"

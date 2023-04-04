@@ -1,9 +1,11 @@
 import pandas as pd
-from classes.StockCollectionClass import StockCollection
+from classes.stock_collection_class import stock_collection_class
 
 
-class UnitedKingdomStocksClass(StockCollection):
-    """A class representing the United Kingdom stocks collection."""
+class united_kingdom_stocks_class(stock_collection_class):
+    """
+    A class representing the United Kingdom stocks collection.
+    """
 
     def __init__(
         self,
