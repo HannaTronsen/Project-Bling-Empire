@@ -19,8 +19,7 @@ NORWAY = NorwegianStocksClass(
     source='https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Oslo_Stock_Exchange',
     table_index=1,
     column='Ticker',
-    stock_ticker_suffixes=['.OL']
-)
+    stock_ticker_suffixes=['.OL'])
 GERMANY = GermanStocksClass(
     name='DAX',
     country='GE',
@@ -36,8 +35,7 @@ HONG_KONG = HongKongStocksClass(
         1,
         27],
     column=0,
-    stock_ticker_suffixes=['.HK']
-)
+    stock_ticker_suffixes=['.HK'])
 UNITED_KINGDOM = UnitedKingdomStocksClass(
     name="FTSE350",
     country='UK',
@@ -52,8 +50,7 @@ NETHERLAND = DutchStocksClass(
     source='https://topforeignstocks.com/listed-companies-lists/the-complete-list-of-listed-companies-in-the-netherlands/',
     table_index=0,
     column='Ticker',
-    stock_ticker_suffixes=['.AS']
-)
+    stock_ticker_suffixes=['.AS'])
 FRANCE = FrenchStocksClass(
     name="PEX",
     country='FR',
@@ -62,15 +59,14 @@ FRANCE = FrenchStocksClass(
     column='Ticker',
     stock_ticker_suffixes=[
         '.PA',
-        '.NX']
-)
+         '.NX'])
 
 stock_collection_list = [
     STANDARD_AND_POOR_500,
     NORWAY,
     GERMANY,
     HONG_KONG,
-    #UNITED_KINGDOM, They changed table format
+    # UNITED_KINGDOM, They changed table format
     NETHERLAND,
     FRANCE
 ]

@@ -2,6 +2,7 @@ import pandas as pd
 
 from classes.stock_collection import StockCollectionClass
 
+
 class FrenchStocksClass(StockCollectionClass):
     """
     A class representing the French stocks collection.
