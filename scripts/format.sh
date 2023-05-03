@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-runPylint() {
-    echo "Running pylint on all tracked files..."
-    pylint --clear-cache-post-run=y $(git ls-files '*.py');  
-}
-
 runAutoPep() {
    echo "----------------Running Auto PEP------------------"
     find . -name '*.py' ! -path '*/env/*' -exec autopep8 -v --in-place --aggressive --aggressive '{}' \;
@@ -12,7 +7,6 @@ runAutoPep() {
 }
 
 runReportAndFix() {
-    runPylint
     runAutoPep
 }
 

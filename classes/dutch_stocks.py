@@ -1,25 +1,21 @@
 from classes.stock_collection import StockCollectionClass
 
-
 class DutchStocksClass(StockCollectionClass):
-    """
-    A class representing the Dutch stocks collection.
-    """
-
+    
     def __init__(
         self,
         name,
         country,
         source,
-        table_index,
         column,
+        table_index,
         stock_ticker_suffixes
     ):
         """
         :param table_index: The index of the stock data table.
         :param stock_ticker_suffixes: The possible stock ticker endings required by yfinance
         """
-        super().__init__(name, country, source, column)
+        self.set_attributes(name, country, source, column)
         self.table_index = table_index
         self.stock_ticker_suffixes = stock_ticker_suffixes
 

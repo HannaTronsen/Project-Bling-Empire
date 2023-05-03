@@ -1,10 +1,8 @@
-import subprocess
 import unittest
 from functions import fetch_tickers, initialize_environment
 from yfinance_repository import validate_and_get_yahoo_finance_ticker_objects
 
 
-RUN_PYLINT = False
 RUN_TESTS = False
 RUN_CODE = True
 
@@ -16,9 +14,6 @@ def main():
 
 
 if __name__ == '__main__':
-
-    if RUN_PYLINT:
-        subprocess.run(["scripts/format.sh runPylint"], shell=True)
 
     if RUN_TESTS:
         test_loader = unittest.TestLoader()

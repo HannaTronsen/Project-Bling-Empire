@@ -22,10 +22,18 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 
 - Plan B is to use this project as a launchingpad for aquiring a 9-5 job and to show at least what I can do with code
 
+## Supported stock exchanges
+    STANDARD_AND_POOR_500
+    NORWAY
+    GERMANY
+    HONG_KONG
+    UNITED_KINGDOM | They changed table format [NOT SUPPORTED]
+    NETHERLAND
+    FRANCE
+
 
 ## MVP - Stock Assistant V2 
 - Periodically add more tickers [on-going]
-- [ ] Reformat code to fit PEP8 standard
 - [ ] Pick a suitable API for fetching stock ticker data
 - [ ] Write test to confirm that API working and to detect when used endpoint response signatures have changed
 - [ ] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock

@@ -2,16 +2,10 @@ import pandas as pd
 from abc import ABC, abstractmethod
 from const import FILE_NAME_SUFFIX, STOCK_COLLECTIONS_PATH
 
-
 class StockCollectionClass(ABC):
-    """
-    A base abstract class for stock collections.
-    """
 
     def __init__(self, name, country, source, column):
         """
-        Initialize a new instance of a `StockCollectionClass`.
-
         :param name: The name of the stock collection.
         :param country: The country of the stock collection.
         :param source: The source of the stock data.
