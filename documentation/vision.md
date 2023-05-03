@@ -3,7 +3,7 @@
 ![image](https://m.media-amazon.com/images/M/MV5BMDJjYzY0YTEtNDJiOS00Yzk1LTgyZTctYmM0YTU3NzQwYmViXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg)
 
 
-This project is inspired firstly by my first stock assistant tool I made in 2020 and that is described on my personal website: https://hannatronsen.herokuapp.com/projects
+This project is inspired firstly by my first stock assistant tool I made in 2020 and that is described on my [personal website](https://hannatronsen.herokuapp.com/projects)
 but then later also by the netflix tv show named Bling Empire. My stock analysis tool was developed in an attempt to make picking stocks easier and less risk prone, but considering my lack
 of coding experience back then, only a fool (like me) would actually trust the assistant;  Though I have to say that my stock assistant picked Kitron to be Oslo Børs number one stock pick,
 and I have monitored Kitron's stock price shoot up to the moon while silently watching from the side line after taking profit too early in the run-up... 
