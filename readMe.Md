@@ -1,3 +1,6 @@
+### Project Bling Empire 
+[Read more about the project](/documentation/yfinance.md)
+
 ### Setup
 
 1. python3 -m venv env
