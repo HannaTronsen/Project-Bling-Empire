@@ -1,9 +1,21 @@
 import os
 import re
 import yfinance
-from stock_collections import stock_collection_classsList
-from const import AUTO_GENERATED_FILE_STRING, BLACKLISTED_STOCK_TICKERS_PATH, STOCK_COLLECTIONS_PATH
-from stock_collections import FRANCE, GERMANY, HONG_KONG, NETHERLAND, NORWAY, STANDARD_AND_POOR_500, UNITED_KINGDOM
+from stock_collections import stock_collection_list
+from const import (
+    AUTO_GENERATED_FILE_STRING,
+    BLACKLISTED_STOCK_TICKERS_PATH,
+    STOCK_COLLECTIONS_PATH,
+)
+from stock_collections import (
+    FRANCE,
+    GERMANY,
+    HONG_KONG,
+    NETHERLAND,
+    NORWAY,
+    STANDARD_AND_POOR_500,
+    UNITED_KINGDOM,
+)
 
 
 def initialize_environment():
@@ -12,28 +24,27 @@ def initialize_environment():
         os.makedirs(STOCK_COLLECTIONS_PATH)
 
     if not os.path.exists(BLACKLISTED_STOCK_TICKERS_PATH):
-        file = open(BLACKLISTED_STOCK_TICKERS_PATH, 'a+')
-        file.write(AUTO_GENERATED_FILE_STRING)
-        file.close()
+        with open(BLACKLISTED_STOCK_TICKERS_PATH, "a+") as file:
+            file.write(AUTO_GENERATED_FILE_STRING)
 
 
 def fetch_tickers():
-    for collection in stock_collection_classsList:
+    for collection in stock_collection_list:
         match collection.name:
             case STANDARD_AND_POOR_500.name:
-                STANDARD_AND_POOR_500.fetchStockTickers()
+                STANDARD_AND_POOR_500.fetch_stock_tickers()
             case NORWAY.name:
-                NORWAY.fetchStockTickers()
-            case  GERMANY.name:
-                GERMANY.fetchStockTickers()
+                NORWAY.fetch_stock_tickers()
+            case GERMANY.name:
+                GERMANY.fetch_stock_tickers()
             case HONG_KONG.name:
-                HONG_KONG.fetchStockTickers()
+                HONG_KONG.fetch_stock_tickers()
             case UNITED_KINGDOM.name:
-                UNITED_KINGDOM.fetchStockTickers()
+                UNITED_KINGDOM.fetch_stock_tickers()
             case NETHERLAND.name:
-                NETHERLAND.fetchStockTickers()
+                NETHERLAND.fetch_stock_tickers()
             case FRANCE.name:
-                FRANCE.fetchStockTickers()
+                FRANCE.fetch_stock_tickers()
 
 
 def get_yahoo_finance_ticker_object():
@@ -45,23 +56,23 @@ def put_yahoo_finance_ticker_object(ticker):
 
 
 def validate_yahoo_finance_ticker_objects():
-    blacklistedStocksFile = open(BLACKLISTED_STOCK_TICKERS_PATH, 'r+')
-    blacklistedStocksFileContent = blacklistedStocksFile.read()
-    newLine = blacklistedStocksFile.write("\n")
+    blacklisted_stocks_file = open(BLACKLISTED_STOCK_TICKERS_PATH, "r+")
+    blacklisted_stocks_file_content = blacklisted_stocks_file.read()
+    new_line = blacklisted_stocks_file.write("\n")
 
-    for stock_collection_class in stock_collection_classsList:
-        stockTickersFile = open(stock_collection_class.filePath, 'r').readlines()
+    for stock_collection in stock_collection_list:
+        stock_tickers_file = open(stock_collection.file_path, "r").readlines()
 
-        for ticker in stockTickersFile:
-            yFinanceTicker = yfinance.Ticker(ticker)
+        for ticker in stock_tickers_file:
+            yfinance_ticker = yfinance.Ticker(ticker.strip())
 
-            if re.search(ticker, blacklistedStocksFileContent) is not None:
+            if re.search(ticker, blacklisted_stocks_file_content) is not None:
                 # Skip for now, will handle this case later
                 pass
-            elif not bool(yFinanceTicker.info):
+                """"elif not bool(yfinance_ticker.info):
                 print(f"No information found for ticker '{ticker}'.")
-                blacklistedStocksFile.write(ticker) + newLine
+                blacklisted_stocks_file.write(ticker.strip() + new_line)"""
             else:
-                put_yahoo_finance_ticker_object(ticker)
+                put_yahoo_finance_ticker_object(ticker.strip())
 
-    blacklistedStocksFile.close()
+    blacklisted_stocks_file.close()

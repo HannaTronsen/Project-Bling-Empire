@@ -1,6 +1,6 @@
 # Const
 BLACKLISTED_STOCK_TICKERS_PATH = 'blackListedStockTickers.txt'
-STOCK_COLLECTIONS_PATH = 'stock_collection_classs/'
+STOCK_COLLECTIONS_PATH = 'stockCollections/'
 FILE_NAME_SUFFIX = '-symbols.csv'
 
 # Strings

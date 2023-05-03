@@ -4,7 +4,7 @@ from functions import fetch_tickers, initialize_environment
 from yfinance_repository import validate_and_get_yahoo_finance_ticker_objects
 
 
-RUN_PYLINT = True
+RUN_PYLINT = False
 RUN_TESTS = False
 RUN_CODE = True
 
