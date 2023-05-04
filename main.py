@@ -1,16 +1,16 @@
 import unittest
 from functions import fetch_tickers, initialize_environment
-from yfinance_repository import validate_and_get_yahoo_finance_ticker_objects
+from yquery_repository import validate_and_get_yahoo_query_ticker_objects
 
 
-RUN_TESTS = False
-RUN_CODE = True
+RUN_TESTS = True
+RUN_CODE = False
 
 
 def main():
     initialize_environment()
     fetch_tickers()
-    validate_and_get_yahoo_finance_ticker_objects()
+    validate_and_get_yahoo_query_ticker_objects()
 
 
 if __name__ == '__main__':

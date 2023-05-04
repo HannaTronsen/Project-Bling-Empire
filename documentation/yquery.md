@@ -1,4 +1,4 @@
-### Yfinance Calls & Responses
+### yquery Calls & Responses
 
 ## Fast Info
 ```

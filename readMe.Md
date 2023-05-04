@@ -10,10 +10,10 @@
 
 ## Documentation
 
-### Yfinance calls and responses that are used in the repository
-[Relevant YFinance documentation](/documentation/yfinance.md)
+### YahooQuery calls and responses that are used in the repository
+[Relevant YahooQuery documentation](/documentation/yquery.md)
 
-We are using Yfinance python module in this repo. In order to understand what calls are being made and the response that are given back, we document it here. Integration tests against YFinance module should be based on what calls we would like our repo to call.
+We are using YahooQuery python module in this repo. In order to understand what calls are being made and the response that are given back, we document it here. Integration tests against YahooQuery module should be based on what calls we would like our repo to call.
 
 ### Linting and Formating
 In order to ensure quality of code, it's important to also have a codebase that throughout the project always ensures that all files follow the same coding practices and standards. In this specific project, we are following the PEP8 practices, and currently only utilizes AUTOPEP in combination with a bash script to reinforce clean code. If the source code will be publically available in the future, a more rigid process of ensuring PEP8 code syntax should be put in place.

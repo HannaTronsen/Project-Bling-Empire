@@ -15,7 +15,7 @@ class HongKongStocksClass(StockCollectionClass):
     ):
         """
         :param table_index_range: The range of indices of the stock data tables.
-        :param stock_ticker_suffixes: The possible stock ticker endings required by yfinance.
+        :param stock_ticker_suffixes: The possible stock ticker endings required by yquery.
         """
         self.set_attributes(name, country, source, column)
         self.table_index_range = table_index_range

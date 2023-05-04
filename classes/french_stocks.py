@@ -15,7 +15,7 @@ class FrenchStocksClass(StockCollectionClass):
     ):
         """
         :param table_index: The index of the stock data table.
-        :param stock_ticker_suffixes: The possible stock ticker endings required by yfinance.
+        :param stock_ticker_suffixes: The possible stock ticker endings required by yquery.
         """
         self.set_attributes(name, country, source, column)
         self.table_index = table_index

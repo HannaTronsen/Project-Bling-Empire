@@ -61,12 +61,3 @@ FRANCE = FrenchStocksClass(
         '.PA',
          '.NX'])
 
-stock_collection_list = [
-    STANDARD_AND_POOR_500,
-    NORWAY,
-    GERMANY,
-    HONG_KONG,
-    # UNITED_KINGDOM, They changed table format
-    NETHERLAND,
-    FRANCE
-]

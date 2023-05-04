@@ -34,8 +34,8 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 
 ## MVP - Stock Assistant V2 
 - Periodically add more tickers [on-going]
-- [ ] Pick a suitable API for fetching stock ticker data
-- [ ] Write test to confirm that API working and to detect when used endpoint response signatures have changed
+- [X] Pick a suitable API for fetching stock ticker data
+- [X] Write test to confirm that API working
 - [ ] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
 - [ ] Crunch the data and write tests for the values being given by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
