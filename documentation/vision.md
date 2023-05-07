@@ -36,11 +36,14 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - Periodically add more tickers [on-going]
 - [X] Pick a suitable API for fetching stock ticker data
 - [X] Write test to confirm that API working
-- [ ] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
+- [X] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
+- [ ] Sort the key metrics for determening the value of a stock in decending order
 - [ ] Crunch the data and write tests for the values being given by the formulas I write
+    - [ ] Get the current price of a stock
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
 
 ## Future vision
 
-Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies
+Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies. In the report it would be
+good to also read about investing and to learn the theories applied to come up with the sorted stock list. 
     
