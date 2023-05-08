@@ -17,7 +17,8 @@ if __name__ == '__main__':
 
     if RUN_TESTS:
         test_loader = unittest.TestLoader()
-        test_suite = test_loader.discover('tests/integrationTests')
+        #test_suite = test_loader.discover('tests/integration_tests', 'tests/unit_tests')
+        test_suite = test_loader.discover('tests/unit_tests')
         unittest.TextTestRunner().run(test_suite)
 
     if RUN_CODE:

@@ -39,7 +39,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - [X] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
 - [X] Sort the key metrics for determening the value of a stock in decending order
 - [ ] Create a common Stock Data class that will handle metrics and formulas related to:
-    - [ ] General stock information
+    - [X] General stock information
     - [ ] Revenue and earnings
     - [ ] Debt to equity
     - [ ] Return on Investment (ROI) & Return on Invested Capital (ROIC)
@@ -54,6 +54,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [ ] Price to cash flow (P/CF) ratio
     - [ ] Insider trading
     - [ ] Recommendations
+- [ ] Refactor
 - [ ] Crunch the data and write tests for the values being given by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
 
