@@ -37,9 +37,24 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - [X] Pick a suitable API for fetching stock ticker data
 - [X] Write test to confirm that API working
 - [X] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
-- [ ] Sort the key metrics for determening the value of a stock in decending order
+- [X] Sort the key metrics for determening the value of a stock in decending order
+- [ ] Create a common Stock Data class that will handle metrics and formulas related to:
+    - [ ] General stock information
+    - [ ] Revenue and earnings
+    - [ ] Debt to equity
+    - [ ] Return on Investment (ROI) & Return on Invested Capital (ROIC)
+    - [ ] Cash flow
+    - [ ] Gross profit margin
+    - [ ] Operating margin
+    - [ ] Price to earnings (P/E) ratio
+    - [ ] Price to book (P/B) ratio
+    - [ ] Market share
+    - [ ] Enterprise value to EBITDA (EV/EBITDA) ratio
+    - [ ] Dividend yield
+    - [ ] Price to cash flow (P/CF) ratio
+    - [ ] Insider trading
+    - [ ] Recommendations
 - [ ] Crunch the data and write tests for the values being given by the formulas I write
-    - [ ] Get the current price of a stock
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
 
 ## Future vision
