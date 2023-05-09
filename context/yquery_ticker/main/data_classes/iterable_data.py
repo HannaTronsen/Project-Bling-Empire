@@ -20,7 +20,7 @@ class IterableDataInterface(ABC):
             #If any type of invalid values are given, we set a universal `None` value
             if value is None or value == "" or value == 'N/A':
                 if SHOW_PRINT:
-                    print(f'{field} has invalid or null value and will be handled')
+                    print(f'\n {field} has invalid or null value and will be handled')
                 controlled_values[field] = None
             else:
                 controlled_values[field] = value

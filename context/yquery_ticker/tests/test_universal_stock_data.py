@@ -1,8 +1,7 @@
 import unittest
-from classes.data_classes.financial_summary import FinancialSummary
-from classes.data_classes.general_stock_info import GeneralStockInfo
-
-from classes.universal_stock_data import UniversalStockDataClass
+from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
+from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
+from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 
 
 class test_universal_stock_data(unittest.TestCase):
@@ -31,7 +30,7 @@ class test_universal_stock_data(unittest.TestCase):
                     currency=None
                 )
             )
-        ).general_stock_info
+        ).general_stock_info 
         self.assertIsNone(stock.country)
         self.assertIsNone(stock.long_business_summary)
         self.assertIsNone(stock.financial_summary.market_cap)

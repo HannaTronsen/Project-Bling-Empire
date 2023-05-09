@@ -1,17 +1,16 @@
-from classes.stock_collection import StockCollectionClass
+from .stock_collection import StockCollectionClass
 
 class GermanStocksClass(StockCollectionClass):
 
     def __init__(
         self,
-        name,
-        country,
+        stock_index_name,
         source,
         column,
         table_index,
     ):
         #:param table_index: The index of the stock data table.  
-        self.set_attributes(name, country, source, column)
+        self.set_attributes(stock_index_name, source, column)
         self.table_index = table_index
 
     def fetch_stock_tickers(self):

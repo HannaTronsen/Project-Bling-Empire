@@ -1,7 +1,6 @@
 from dataclasses import dataclass
-from classes.data_classes.iterable_data import IterableDataInterface
-
-from enums.currency import Currency
+from .iterable_data import IterableDataInterface
+from ..enums.currency import Currency
 
 @dataclass
 class FinancialSummary(IterableDataInterface):

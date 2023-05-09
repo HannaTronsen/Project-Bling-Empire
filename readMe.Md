@@ -11,7 +11,7 @@
 ## Documentation
 
 ### YahooQuery calls and responses that are used in the repository
-[Relevant YahooQuery documentation](/documentation/yquery.md)
+[Relevant YahooQuery documentation](https://yahooquery.dpguthrie.com/)
 
 We are using YahooQuery python module in this repo. In order to understand what calls are being made and the response that are given back, we document it here. Integration tests against YahooQuery module should be based on what calls we would like our repo to call.
 

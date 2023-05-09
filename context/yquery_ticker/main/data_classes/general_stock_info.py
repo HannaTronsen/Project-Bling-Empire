@@ -1,8 +1,7 @@
 from dataclasses import dataclass
-from classes.data_classes.financial_summary import FinancialSummary
-from classes.data_classes.iterable_data import IterableDataInterface
-
-from enums.country import Country
+from .financial_summary import FinancialSummary
+from .iterable_data import IterableDataInterface
+from ..enums.country import Country
 
 @dataclass
 class GeneralStockInfo(IterableDataInterface):

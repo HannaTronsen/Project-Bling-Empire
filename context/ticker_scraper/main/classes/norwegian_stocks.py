@@ -1,23 +1,20 @@
-import pandas as pd
+from .stock_collection import StockCollectionClass
 
-from classes.stock_collection import StockCollectionClass
-
-class FrenchStocksClass(StockCollectionClass):
+class NorwegianStocksClass(StockCollectionClass):
 
     def __init__(
         self,
-        name,
-        country,
+        stock_index_name,
         source,
-        column,
         table_index,
+        column,
         stock_ticker_suffixes
     ):
         """
         :param table_index: The index of the stock data table.
         :param stock_ticker_suffixes: The possible stock ticker endings required by yquery.
         """
-        self.set_attributes(name, country, source, column)
+        self.set_attributes(stock_index_name, source, column)
         self.table_index = table_index
         self.stock_ticker_suffixes = stock_ticker_suffixes
 
@@ -26,10 +23,5 @@ class FrenchStocksClass(StockCollectionClass):
         self.data_frame_to_csv(df=self.modify_tickers(df))
 
     def modify_tickers(self, df):
-        pa = self.stock_ticker_suffixes[0]
-        nx = self.stock_ticker_suffixes[1]
-
-        df1 = df[self.column] + pa
-        df2 = df.copy()[self.column] + nx
-
-        return pd.concat([df1, df2])
+        ol = self.stock_ticker_suffixes[0]
+        return df[self.column].str.replace('OSE: ', '') + ol

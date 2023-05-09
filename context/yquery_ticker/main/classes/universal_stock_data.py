@@ -1,7 +1,5 @@
-import pandas as pd
 
-from classes.data_classes.general_stock_info import GeneralStockInfo
-
+from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 
 class UniversalStockDataClass():
 

@@ -1,6 +1,5 @@
 from enum import Enum
-
-from enums.country import Country
+from .country import Country
 
 class Currency(Enum):
     NOK = Country.NO

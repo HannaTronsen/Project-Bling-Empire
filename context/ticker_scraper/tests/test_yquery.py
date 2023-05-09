@@ -1,7 +1,6 @@
 import unittest
 from yahooquery import Ticker
 
-
 class test_yquery(unittest.TestCase):
 
     def __init__(self, *args, **kwargs):

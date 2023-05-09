@@ -1,25 +1,26 @@
 import pandas as pd
 from abc import ABC, abstractmethod
-from const import FILE_NAME_SUFFIX, STOCK_COLLECTIONS_PATH
+
+
+from context.ticker_scraper.main.const import FILE_NAME_SUFFIX, STOCK_COLLECTIONS_PATH
+
 
 class StockCollectionClass(ABC):
 
-    def __init__(self, name, country, source, column):
+    def __init__(self, stock_index_name, source, column):
         """
-        :param name: The name of the stock collection.
-        :param country: The country of the stock collection.
+        :param stock_index_name: The name of the stock collection.
         :param source: The source of the stock data.
         :param column: The column where the tickers are located.
 
         :def set_attributes: Results in less code for each subclass of this class
         """
-        self.set_attributes(name, country, source, column)
+        self.set_attributes(stock_index_name, source, column)
 
-    def set_attributes(self, name, country, source, column):
-        self.name = name
-        self.country = country
+    def set_attributes(self, stock_index_name, source, column):
+        self.stock_index_name = stock_index_name
         self.source = source
-        self.file_name = self.name + FILE_NAME_SUFFIX
+        self.file_name = self.stock_index_name + FILE_NAME_SUFFIX
         self.file_path = f"{STOCK_COLLECTIONS_PATH}{self.file_name}"
         self.column = column
 
@@ -55,4 +56,4 @@ class StockCollectionClass(ABC):
         return tables[table_index]
 
     def __str__(self):
-        return self.name
+        return self.stock_index_name
