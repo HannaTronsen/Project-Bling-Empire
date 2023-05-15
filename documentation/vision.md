@@ -40,8 +40,9 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - [X] Sort the key metrics for determening the value of a stock in decending order
 - [ ] Create a common Stock Data class that will handle metrics and formulas related to yquery modules:
     - [X] General stock information
-    - [ ] Revenue and earnings
-    - [ ] Debt to equity
+    - [ ] Revenue data
+    - [ ] Earnings data
+    - [X] Debt data
     - [ ] Return on Investment (ROI) & Return on Invested Capital (ROIC)
     - [ ] Cash flow
     - [ ] Gross profit margin
