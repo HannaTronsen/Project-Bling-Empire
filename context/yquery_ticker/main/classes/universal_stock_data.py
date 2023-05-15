@@ -2,6 +2,7 @@
 from typing import Type
 from context.yquery_ticker.main.data_classes.financial_data import FinancialData
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
+from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
 class UniversalStockDataClass():
@@ -16,13 +17,13 @@ class UniversalStockDataClass():
 
     def get_revenue_data(self):
         return {
-            'total_revenue' : self.financial_data.total_revenue,
-            'revenue_per_share': self.financial_data.revenue_per_share,
-            'revenue_growth': self.financial_data.revenue_growth
+            DictKey.TOTAl_REVENUE : self.financial_data.total_revenue,
+            DictKey.REVENUE_PER_SHARE: self.financial_data.revenue_per_share,
+            DictKey.REVENUE_GROWTH: self.financial_data.revenue_growth
         }
     
     def get_debt_data(self):
         return {
-            'total_debt': self.financial_data.total_debt,
-            'debt_to_equity': self.financial_data.debt_to_equity
+            DictKey.TOTAL_DEBT: self.financial_data.total_debt,
+            DictKey.DEBT_TO_EQUIT: self.financial_data.debt_to_equity
         }
