@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from dataclasses import is_dataclass
 
 """
@@ -8,9 +8,13 @@ from dataclasses import is_dataclass
 """
 SHOW_PRINT = True
 class IterableDataInterface(ABC):
+
+    def apply_local_rules(self):
+        pass
     
     def handle_null_values(self):
         controlled_values = {}
+        self.apply_local_rules()
         for field, value in self.__iter__():
             #This check for nested data classes and will perform
             #a recursive handling of null_values

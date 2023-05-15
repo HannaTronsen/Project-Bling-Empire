@@ -20,3 +20,9 @@ class UniversalStockDataClass():
             'revenue_per_share': self.financial_data.revenue_per_share,
             'revenue_growth': self.financial_data.revenue_growth
         }
+    
+    def get_debt_data(self):
+        return {
+            'total_debt': self.financial_data.total_debt,
+            'debt_to_equity': self.financial_data.debt_to_equity
+        }

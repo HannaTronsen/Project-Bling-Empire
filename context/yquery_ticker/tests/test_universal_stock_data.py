@@ -47,8 +47,11 @@ class test_universal_stock_data(unittest.TestCase):
             financial_data= FinancialData(
                 total_revenue=0.00000,
                 revenue_per_share="",
-                revenue_growth="N/A"
+                revenue_growth="N/A",
+                total_debt=-1,
+                debt_to_equity=0
             )
         ).financial_data
         self.assertIsNone(stock.revenue_per_share)
         self.assertIsNone(stock.revenue_growth)
+        self.assertIsNone(stock.total_debt)
