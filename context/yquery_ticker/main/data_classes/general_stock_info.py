@@ -14,4 +14,17 @@ class GeneralStockInfo(IterableDataInterface):
     long_business_summary: str
     financial_summary: FinancialSummary
 
+    @classmethod
+    def mockk(cls):
+        return GeneralStockInfo(
+            ticker= 'aapl',
+            company_name='Apple Inc',
+            country=Country.US,
+            industry='Computer',
+            sector='Electronics',
+            website='apple.com',
+            long_business_summary='Long summary',
+            financial_summary=None
+        )
+
     

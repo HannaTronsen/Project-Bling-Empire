@@ -4,7 +4,7 @@ from ..enums.currency import Currency
 
 @dataclass
 class FinancialSummary(IterableDataInterface):
-   previousClose: float
+   previous_close: float
    open: float
    dividend_rate: float
    beta: float
