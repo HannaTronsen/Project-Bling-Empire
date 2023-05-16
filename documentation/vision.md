@@ -52,7 +52,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [ ] Market share
     - [X] Enterprise value to EBITDA (EV/EBITDA) ratio
     - [X] Dividend yield
-    - [C] Price to cash flow (P/CF) ratio
+    - [X] Price to cash flow (P/CF) ratio
     - [ ] Insider trading
     - [ ] Recommendations
 - [ ] Extend Stock Data class that will handle dataframe metrics and formulas reated to yqeruy financials
