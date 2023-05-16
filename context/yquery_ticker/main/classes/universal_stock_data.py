@@ -35,13 +35,6 @@ class UniversalStockDataClass():
             DictKey.OPERATING_MARGINS: self.financial_data.operating_margins
         }
     
-    """"
-    dividendRate": 3.28,
-    "dividendYield": 0.0086,
-    "fiveYearAvgDividendYield": 1.57,
-    "trailingAnnualDividendRate": 3.08,
-    "trailingAnnualDividendYield": 0.008101852,
-    """
     
     def get_dividend_data(self):
         return {
