@@ -55,7 +55,9 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [ ] Price to cash flow (P/CF) ratio
     - [ ] Insider trading
     - [ ] Recommendations
-- [ ] [Extend Stock Data class that will handle dataframe metrics and formulas reated to yqeruy financials](https://yahooquery.dpguthrie.com/guide/ticker/financials/)
+- [ ] [Extend Stock Data class that will handle dataframe metrics and formulas reated to yqeruy financials](https://
+yahooquery.dpguthrie.com/guide/ticker/financials/)
+- check if key_stats that has duplicated value is the same as previous defined values
 - [ ] Refactor
 - [ ] Crunch the data and write tests for the values being given by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column

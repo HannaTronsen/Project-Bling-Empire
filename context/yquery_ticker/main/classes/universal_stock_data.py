@@ -1,4 +1,3 @@
-
 from typing import Type
 from context.yquery_ticker.main.data_classes.financial_data import FinancialData
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
@@ -43,4 +42,15 @@ class UniversalStockDataClass():
             DictKey.FIVE_YEAR_AVG_DIVIDEND_YIELD: self.financial_data.five_year_avg_dividend_yield,
             DictKey.TRAILING_ANNUAL_DIVIDEND_RATE: self.financial_data.trailing_annual_dividend_rate,
             DictKey.TRAILING_ANNUAL_DIVIDEND_YIELD: self.financial_data.trailing_annual_dividend_yield,
+        }
+    
+    def get_financial_ratio_data(self):
+        return {
+            DictKey.DEBT_TO_EQUIT: self.financial_data.debt_to_equity,
+            DictKey.PRICE_TO_CASH_FLOW: self.financial_data.calculate_price_to_cashflow(),
+            DictKey.ENTERPRISE_TO_EBITDA: self.financial_data.enterprise_to_ebitda,
+            DictKey.PRICE_TO_BOOK: self.financial_data.price_to_book,
+            DictKey.PRICE_TO_EARNINGS: self.financial_data.price_to_earnings,
+            DictKey.EARNINGS_PER_SHARE: self.financial_data.earnings_per_share,
+            DictKey.ENTERPRISE_TO_REVENUE: self.financial_data.enterprise_to_revenue
         }
