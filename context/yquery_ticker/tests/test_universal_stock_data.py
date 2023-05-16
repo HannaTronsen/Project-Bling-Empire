@@ -49,9 +49,15 @@ class test_universal_stock_data(unittest.TestCase):
                 revenue_per_share="",
                 revenue_growth="N/A",
                 total_debt=-1,
-                debt_to_equity=0
+                debt_to_equity=0,
+                profit_margins=3,
+                gross_profit_margins="N/A",
+                operating_margins=None
             )
         ).financial_data
         self.assertIsNone(stock.revenue_per_share)
         self.assertIsNone(stock.revenue_growth)
         self.assertIsNone(stock.total_debt)
+        self.assertIsNone(stock.total_debt)
+        self.assertIsNone(stock.gross_profit_margins)
+        self.assertIsNone(stock.operating_margins)

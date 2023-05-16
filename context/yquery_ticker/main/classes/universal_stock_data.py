@@ -27,3 +27,10 @@ class UniversalStockDataClass():
             DictKey.TOTAL_DEBT: self.financial_data.total_debt,
             DictKey.DEBT_TO_EQUIT: self.financial_data.debt_to_equity
         }
+    
+    def get_margins_data(self):
+        return {
+            DictKey.PROFIT_MARGINS: self.financial_data.profit_margins,
+            DictKey.GROSS_PROFIT_MARGINS: self.financial_data.gross_profit_margins,
+            DictKey.OPERATING_MARGINS: self.financial_data.operating_margins
+        }
