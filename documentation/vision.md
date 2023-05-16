@@ -40,30 +40,28 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - [X] Sort the key metrics for determening the value of a stock in decending order
 - [ ] Create a common Stock Data class that will handle metrics and formulas related to yquery modules:
     - [X] General stock information
-    - [ ] Revenue data
+    - [X] Revenue data
     - [ ] Earnings data
     - [X] Debt data
     - [ ] Return on Investment (ROI) & Return on Invested Capital (ROIC)
     - [ ] Cash flow
-    - [ ] Gross profit margin
-    - [ ] Operating margin
-    - [ ] Price to earnings (P/E) ratio
-    - [ ] Price to book (P/B) ratio
+    - [X] Gross profit margin
+    - [X] Operating margin
+    - [X] Price to earnings (P/E) ratio
+    - [X] Price to book (P/B) ratio
     - [ ] Market share
-    - [ ] Enterprise value to EBITDA (EV/EBITDA) ratio
-    - [ ] Dividend yield
-    - [ ] Price to cash flow (P/CF) ratio
+    - [X] Enterprise value to EBITDA (EV/EBITDA) ratio
+    - [X] Dividend yield
+    - [C] Price to cash flow (P/CF) ratio
     - [ ] Insider trading
     - [ ] Recommendations
-- [ ] [Extend Stock Data class that will handle dataframe metrics and formulas reated to yqeruy financials](https://
-yahooquery.dpguthrie.com/guide/ticker/financials/)
-- check if key_stats that has duplicated value is the same as previous defined values
-- [ ] Refactor
-- [ ] Crunch the data and write tests for the values being given by the formulas I write
+- [ ] Extend Stock Data class that will handle dataframe metrics and formulas reated to yqeruy financials
+- [ ] Crunch the data by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
+- [ ] Refactor
+- [ ] Have comprehensive test coverage
 
 ## Future vision
 
-Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies. In the report it would be
-good to also read about investing and to learn the theories applied to come up with the sorted stock list. 
+Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies. In the report it would be good to also read about investing and to learn the theories applied to come up with the sorted stock list. 
     
