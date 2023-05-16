@@ -34,3 +34,20 @@ class UniversalStockDataClass():
             DictKey.GROSS_PROFIT_MARGINS: self.financial_data.gross_profit_margins,
             DictKey.OPERATING_MARGINS: self.financial_data.operating_margins
         }
+    
+    """"
+    dividendRate": 3.28,
+    "dividendYield": 0.0086,
+    "fiveYearAvgDividendYield": 1.57,
+    "trailingAnnualDividendRate": 3.08,
+    "trailingAnnualDividendYield": 0.008101852,
+    """
+    
+    def get_dividend_data(self):
+        return {
+            DictKey.DIVIDEND_RATE: self.financial_data.dividend_rate,
+            DictKey.DIVIDEND_YIELD: self.financial_data.dividend_yield,
+            DictKey.FIVE_YEAR_AVG_DIVIDEND_YIELD: self.financial_data.five_year_avg_dividend_yield,
+            DictKey.TRAILING_ANNUAL_DIVIDEND_RATE: self.financial_data.trailing_annual_dividend_rate,
+            DictKey.TRAILING_ANNUAL_DIVIDEND_YIELD: self.financial_data.trailing_annual_dividend_yield,
+        }

@@ -31,11 +31,10 @@ class test_universal_stock_data(unittest.TestCase):
                     market_cap=None,
                     currency=None
                 )
-            ), 
+            ),
             financial_data=FinancialData.mockk()
         ).general_stock_info
-        
-        
+
         self.assertIsNone(stock.country)
         self.assertIsNone(stock.long_business_summary)
         self.assertIsNone(stock.financial_summary.market_cap)
@@ -44,7 +43,7 @@ class test_universal_stock_data(unittest.TestCase):
     def test_financial_data(self):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
-            financial_data= FinancialData(
+            financial_data=FinancialData(
                 total_revenue=0.00000,
                 revenue_per_share="",
                 revenue_growth="N/A",
@@ -52,7 +51,12 @@ class test_universal_stock_data(unittest.TestCase):
                 debt_to_equity=0,
                 profit_margins=3,
                 gross_profit_margins="N/A",
-                operating_margins=None
+                operating_margins=None,
+                dividend_rate=0,
+                dividend_yield=0,
+                five_year_avg_dividend_yield=0,
+                trailing_annual_dividend_rate=0,
+                trailing_annual_dividend_yield=0
             )
         ).financial_data
         self.assertIsNone(stock.revenue_per_share)
