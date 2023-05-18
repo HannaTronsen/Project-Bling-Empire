@@ -16,6 +16,8 @@ class DictKey(Enum):
     TRAILING_ANNUAL_DIVIDEND_RATE = 'trailing_annual_dividend_rate'
     TRAILING_ANNUAL_DIVIDEND_YIELD = 'trailing_annual_dividend_yield'
     PRICE_TO_CASH_FLOW = 'price_to_cash_flow'
+    FREE_CASH_FLOW = 'free_to_cash_flow'
+    OPERATING_CASH_FLOW = 'operating_to_cash_flow'
     ENTERPRISE_TO_EBITDA = 'enterprise_to_ebitda'
     PRICE_TO_BOOK='price_to_book'
     PRICE_TO_EARNINGS = 'price_to_earnings'

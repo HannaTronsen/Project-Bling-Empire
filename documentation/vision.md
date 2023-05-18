@@ -44,7 +44,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [ ] Earnings data
     - [X] Debt data
     - [ ] Return on Investment (ROI) & Return on Invested Capital (ROIC)
-    - [ ] Cash flow
+    - [X] Cash flow
     - [X] Gross profit margin
     - [X] Operating margin
     - [X] Price to earnings (P/E) ratio

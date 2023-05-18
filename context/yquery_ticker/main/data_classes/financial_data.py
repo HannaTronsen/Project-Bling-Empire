@@ -1,6 +1,9 @@
 from dataclasses import dataclass
-from .iterable_data import IterableDataInterface
 
+from context.yquery_ticker.main.const import DEFAULT_CASH_FLOW_METRIC
+from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
+
+from .iterable_data import IterableDataInterface
 
 @dataclass
 class PriceToEarnings(IterableDataInterface):
@@ -28,7 +31,8 @@ class FinancialData(IterableDataInterface):
     five_year_avg_dividend_yield: float
     trailing_annual_dividend_rate: float
     trailing_annual_dividend_yield: float
-    cash_flow: float
+    free_cash_flow: float
+    operating_cash_flow: float
     enterprise_to_ebitda: float
     price_to_book: float
     price_to_earnings: PriceToEarnings
@@ -39,10 +43,24 @@ class FinancialData(IterableDataInterface):
         if self.total_debt < 0:
             self.total_debt = None
 
+    def get_cash_flow(self, cash_flow_type: CashFlowType = DEFAULT_CASH_FLOW_METRIC): 
+        if cash_flow_type == CashFlowType.FREE_CASH_FLOW:
+            return self.free_cash_flow 
+        elif cash_flow_type ==  CashFlowType.OPERATING_CASH_FLOW:
+            return self.operating_cash_flow
+        return None
+            
+    def set_cash_flow(self, cash_flow, cash_flow_type: CashFlowType = DEFAULT_CASH_FLOW_METRIC): 
+        if cash_flow_type == CashFlowType.FREE_CASH_FLOW:
+            self.free_cash_flow = cash_flow
+        elif cash_flow_type == CashFlowType.OPERATING_CASH_FLOW:
+            self.operating_cash_flow = cash_flow
+
     def calculate_price_to_cashflow(self): 
-        if self.price is not None and self.cash_flow is not None:
-            if float(self.cash_flow) != 0.0:
-                return self.price / self.cash_flow
+        cash_flow = self.get_cash_flow()
+        if self.price is not None and cash_flow is not None:
+            if float(cash_flow) != 0.0:
+                return self.price / cash_flow
         return None
         
 
@@ -63,10 +81,13 @@ class FinancialData(IterableDataInterface):
             five_year_avg_dividend_yield=0,
             trailing_annual_dividend_rate=0,
             trailing_annual_dividend_yield=0,
-            cash_flow=0,
+            free_cash_flow=0,
+            operating_cash_flow=0,
             enterprise_to_ebitda=0,
             price_to_book=0,
             price_to_earnings = None,
             earnings_per_share = None,
             enterprise_to_revenue=0
         )
+
+

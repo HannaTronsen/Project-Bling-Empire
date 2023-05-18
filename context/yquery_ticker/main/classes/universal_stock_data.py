@@ -54,3 +54,9 @@ class UniversalStockDataClass():
             DictKey.EARNINGS_PER_SHARE: self.financial_data.earnings_per_share,
             DictKey.ENTERPRISE_TO_REVENUE: self.financial_data.enterprise_to_revenue
         }
+    
+    def get_cash_flow_data(self):
+        return {
+            DictKey.FREE_CASH_FLOW: self.financial_data.free_cash_flow,
+            DictKey.OPERATING_CASH_FLOW: self.financial_data.operating_cash_flow,
+        }

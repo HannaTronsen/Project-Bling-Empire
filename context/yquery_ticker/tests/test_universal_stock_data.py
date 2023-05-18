@@ -3,6 +3,7 @@ from context.yquery_ticker.main.classes.universal_stock_data import UniversalSto
 from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
+from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 
 
 def assert_price_to_cash_flow(
@@ -12,7 +13,7 @@ def assert_price_to_cash_flow(
     expected: float
 ):
     stock.price = price
-    stock.cash_flow = cash_flow
+    stock.set_cash_flow(cash_flow=cash_flow)
     assert stock.calculate_price_to_cashflow() == expected
 
 
@@ -68,7 +69,8 @@ class test_universal_stock_data(unittest.TestCase):
                 five_year_avg_dividend_yield=0,
                 trailing_annual_dividend_rate=0,
                 trailing_annual_dividend_yield=0,
-                cash_flow=0,
+                free_cash_flow=0,
+                operating_cash_flow=0,
                 enterprise_to_ebitda=0,
                 price_to_book=0,
                 price_to_earnings=PriceToEarnings(
@@ -107,3 +109,20 @@ class test_universal_stock_data(unittest.TestCase):
         assert_price_to_cash_flow(stock=stock, price=-100.0, cash_flow=10.0, expected=-10)
         assert_price_to_cash_flow(stock=stock, price=-100.0, cash_flow=-10.0, expected=10)
         assert_price_to_cash_flow(stock=stock, price=100.0, cash_flow=10.0, expected=10.0)
+
+    def test_get_and_set_cash_flow(self):
+        stock = UniversalStockDataClass(
+            general_stock_info=GeneralStockInfo.mockk(),
+            financial_data=FinancialData.mockk()
+        ).financial_data
+
+        stock.free_cash_flow = 10
+        cash_flow_type = CashFlowType.OPERATING_CASH_FLOW
+        stock.set_cash_flow(cash_flow=100, cash_flow_type=cash_flow_type)
+        assert stock.get_cash_flow(cash_flow_type=cash_flow_type) == stock.operating_cash_flow 
+
+        
+        stock.operating_cash_flow = 100
+        cash_flow_type = CashFlowType.FREE_CASH_FLOW
+        stock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.FREE_CASH_FLOW)
+        assert stock.get_cash_flow(cash_flow_type=CashFlowType.FREE_CASH_FLOW) == stock.free_cash_flow
