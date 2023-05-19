@@ -60,3 +60,13 @@ class UniversalStockDataClass():
             DictKey.FREE_CASH_FLOW: self.financial_data.free_cash_flow,
             DictKey.OPERATING_CASH_FLOW: self.financial_data.operating_cash_flow,
         }
+    
+    def get_profitability_and_return_data(self):
+        return {
+            DictKey.RETURN_ON_EQUITY: self.financial_data.return_on_equity,
+            DictKey.RETURN_ON_ASSETS: self.financial_data.return_on_assets,
+            DictKey.RETURN_ON_INVESTED_CAPITAL: self.financial_data.calculate_return_on_invested_capital()
+        }
+        
+		#TODO return_on_investment 
+        

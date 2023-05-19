@@ -23,3 +23,6 @@ class DictKey(Enum):
     PRICE_TO_EARNINGS = 'price_to_earnings'
     EARNINGS_PER_SHARE = 'earnings_per_share'
     ENTERPRISE_TO_REVENUE = 'enterprise_to_revenue'
+    RETURN_ON_EQUITY = 'return_on_equity'
+    RETURN_ON_ASSETS = 'return_on_assets'
+    RETURN_ON_INVESTED_CAPITAL = 'return_on_invested_capital'

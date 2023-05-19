@@ -6,7 +6,7 @@ from dataclasses import is_dataclass
     being given to a data class and check for invalid values. Since data classes can 
     indefinetily nested inside other data classes, we need to make checking all the nested fields recursively. 
 """
-SHOW_PRINT = True
+SHOW_PRINT = False
 class IterableDataInterface(ABC):
 
     def apply_local_rules(self):

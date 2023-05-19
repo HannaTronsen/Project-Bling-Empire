@@ -34,6 +34,9 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 
 ## MVP - Stock Assistant V2 
 - Periodically add more tickers [on-going]
+- Refactor [on-going]
+- Have comprehensive test coverage [on-going]
+
 - [X] Pick a suitable API for fetching stock ticker data
 - [X] Write test to confirm that API working
 - [X] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
@@ -43,23 +46,21 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [X] Revenue data
     - [ ] Earnings data
     - [X] Debt data
-    - [ ] Return on Investment (ROI) & Return on Invested Capital (ROIC)
+    - [X] Return on equity (ROE)
+    - [X] Return on invested capital (ROIC)
+    - [X] Return on assets (ROA)
+    - [ ] Return on investments(ROI)
     - [X] Cash flow
     - [X] Gross profit margin
     - [X] Operating margin
     - [X] Price to earnings (P/E) ratio
     - [X] Price to book (P/B) ratio
-    - [ ] Market share
     - [X] Enterprise value to EBITDA (EV/EBITDA) ratio
     - [X] Dividend yield
     - [X] Price to cash flow (P/CF) ratio
-    - [ ] Insider trading
-    - [ ] Recommendations
 - [ ] Extend Stock Data class that will handle dataframe metrics and formulas reated to yqeruy financials
 - [ ] Crunch the data by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
-- [ ] Refactor
-- [ ] Have comprehensive test coverage
 
 ## Future vision
 
