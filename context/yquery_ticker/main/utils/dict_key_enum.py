@@ -22,6 +22,8 @@ class DictKey(Enum):
     PRICE_TO_BOOK='price_to_book'
     PRICE_TO_EARNINGS = 'price_to_earnings'
     EARNINGS_PER_SHARE = 'earnings_per_share'
+    NET_EARNINGS = 'net_earnings'
+    EARNINGS_GROWTH = 'earnings_growth'
     ENTERPRISE_TO_REVENUE = 'enterprise_to_revenue'
     RETURN_ON_EQUITY = 'return_on_equity'
     RETURN_ON_ASSETS = 'return_on_assets'

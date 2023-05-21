@@ -43,7 +43,8 @@ class FinancialData(IterableDataInterface):
     enterprise_to_revenue: float
     return_on_equity: float
     return_on_assets: float
-    net_income_to_common: float
+    net_income_to_common: float #net earnings
+    earnings_growth: float
     book_value: float
 
     def apply_local_rules(self):
@@ -109,5 +110,6 @@ class FinancialData(IterableDataInterface):
             return_on_equity=0,
             return_on_assets=0,
             net_income_to_common=0,
+            earnings_growth=0,
             book_value=0
         )

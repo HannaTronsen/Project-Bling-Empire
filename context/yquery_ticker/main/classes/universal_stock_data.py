@@ -21,6 +21,13 @@ class UniversalStockDataClass():
             DictKey.REVENUE_GROWTH: self.financial_data.revenue_growth
         }
     
+    def get_earnings_data(self):
+        return {
+            DictKey.EARNINGS_PER_SHARE: self.financial_data.earnings_per_share,
+            DictKey.NET_EARNINGS: self.financial_data.net_income_to_common,
+            DictKey.EARNINGS_GROWTH: self.financial_data.earnings_growth
+        }
+    
     def get_debt_data(self):
         return {
             DictKey.TOTAL_DEBT: self.financial_data.total_debt,

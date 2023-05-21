@@ -44,7 +44,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - [ ] Create a common Stock Data class that will handle metrics and formulas related to yquery modules:
     - [X] General stock information
     - [X] Revenue data
-    - [ ] Earnings data
+    - [X] Earnings data
     - [X] Debt data
     - [X] Return on equity (ROE)
     - [X] Return on invested capital (ROIC)

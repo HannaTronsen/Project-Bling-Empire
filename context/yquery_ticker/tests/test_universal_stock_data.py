@@ -94,6 +94,7 @@ class test_universal_stock_data(unittest.TestCase):
                 return_on_assets=0,
                 return_on_equity=0,
                 net_income_to_common=0, 
+                earnings_growth=0,
                 book_value=0,
                 price_to_earnings=PriceToEarnings(
                     trailing_pe=None,
