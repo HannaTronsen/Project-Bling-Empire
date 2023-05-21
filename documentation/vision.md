@@ -41,7 +41,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - [X] Write test to confirm that API working
 - [X] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
 - [X] Sort the key metrics for determening the value of a stock in decending order
-- [ ] Create a common Stock Data class that will handle metrics and formulas related to yquery modules:
+- [X] Create a common Stock Data class that will handle metrics and formulas related to yquery modules:
     - [X] General stock information
     - [X] Revenue data
     - [X] Earnings data
@@ -49,7 +49,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [X] Return on equity (ROE)
     - [X] Return on invested capital (ROIC)
     - [X] Return on assets (ROA)
-    - [ ] Return on investments(ROI)
+    - [X] Return on investments(ROI)
     - [X] Cash flow
     - [X] Gross profit margin
     - [X] Operating margin
@@ -58,7 +58,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [X] Enterprise value to EBITDA (EV/EBITDA) ratio
     - [X] Dividend yield
     - [X] Price to cash flow (P/CF) ratio
-- [ ] Extend Stock Data class that will handle dataframe metrics and formulas reated to yqeruy financials
+- [ ] Extend Stock Data class that will handle dataframe metrics, historical metrics and formulas reated to yqeruy financials
 - [ ] Crunch the data by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
 

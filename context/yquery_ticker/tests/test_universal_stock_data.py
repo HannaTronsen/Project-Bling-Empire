@@ -1,5 +1,6 @@
 import unittest
 from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
+from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
 from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
@@ -39,6 +40,22 @@ class test_universal_stock_data(unittest.TestCase):
             assert round(result, 2) == expected
         else: 
             assert result == expected
+    
+    def assert_return_on_investment(
+        self,
+        stock: FinancialData,
+        expenses: Expenses,
+        expected: float
+    ) :
+        stock.net_income_to_common = 100
+        stock.expenses = expenses
+        result = stock.calculate_return_on_investment()
+       
+        if result is not False:
+            assert round(result, 2) == expected
+        else: 
+            assert result == expected
+    
 
     def test_general_stock_info(self):
         stock = UniversalStockDataClass(
@@ -104,8 +121,8 @@ class test_universal_stock_data(unittest.TestCase):
                     trailing_eps=2,
                     forward_eps=None
                 ),
-                enterprise_to_revenue=0
-
+                enterprise_to_revenue=0,
+                expenses=None
             )
         ).financial_data
         self.assertIsNone(stock.revenue_per_share)
@@ -116,6 +133,7 @@ class test_universal_stock_data(unittest.TestCase):
         self.assertIsNone(stock.operating_margins)
         self.assertIsNone(stock.price_to_earnings.trailing_pe)
         self.assertIsNone(stock.earnings_per_share.forward_eps)
+        self.assertIsNone(stock.expenses)
 
     def test_calculate_price_to_cashflow(self):
         stock = UniversalStockDataClass(
@@ -206,3 +224,86 @@ class test_universal_stock_data(unittest.TestCase):
             total_debt=-1000,
             expected=1.00
         ) 
+
+    def test_calculate_return_on_investment(self):
+        stock = UniversalStockDataClass(
+            general_stock_info=GeneralStockInfo.mockk(),
+            financial_data=FinancialData.mockk()
+        ).financial_data
+
+        self.assert_return_on_investment(
+            stock=stock, 
+            expenses= Expenses(
+                capital_expenditure=0,
+                interest_expense=None,
+                interest_expense_non_operating=0,
+                total_other_finance_cost=0
+            ),
+            expected=False
+        )
+        self.assert_return_on_investment(
+            stock=stock, 
+            expenses= Expenses(
+                capital_expenditure=0,
+                interest_expense=0,
+                interest_expense_non_operating=0,
+                total_other_finance_cost=0
+            ),
+            expected=False
+        )
+        self.assert_return_on_investment(
+            stock=stock, 
+            expenses= Expenses(
+                capital_expenditure=0,
+                interest_expense=1,
+                interest_expense_non_operating=0,
+                total_other_finance_cost=0
+            ),
+            expected=1.0
+        )
+        self.assert_return_on_investment(
+            stock=stock,
+            expenses=Expenses(
+                capital_expenditure=1,
+                interest_expense=1,
+                interest_expense_non_operating=0,
+                total_other_finance_cost=0
+            ),
+            expected=0.5
+        )
+        self.assert_return_on_investment(
+            stock=stock,
+            expenses=Expenses(
+                capital_expenditure=-1,
+                interest_expense=-1,
+                interest_expense_non_operating=0,
+                total_other_finance_cost=0
+            ),
+            expected=-0.5
+        )
+    
+    def test_sum_expenses(self):
+        assert Expenses(
+            capital_expenditure = 1,
+            interest_expense= 0,
+            interest_expense_non_operating = 0,
+            total_other_finance_cost = 0
+        ).sum() == 1
+        assert Expenses(
+            capital_expenditure = 1,
+            interest_expense= -2,
+            interest_expense_non_operating = 0,
+            total_other_finance_cost = 0
+        ).sum() == -1
+        assert  Expenses(
+            capital_expenditure = 1,
+            interest_expense= 1,
+            interest_expense_non_operating = 2,
+            total_other_finance_cost = 0
+        ).sum(exclude=[ExpensesFields.INTEREST_EXPENSE_NON_OPERATING]) == 2
+        assert Expenses(
+            capital_expenditure = 1,
+            interest_expense= 1,
+            interest_expense_non_operating = 3,
+            total_other_finance_cost = 2
+        ).sum(exclude=[ExpensesFields.TOTAL_OTHER_FINANCE_COST]) == 5

@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
 from context.yquery_ticker.main.const import DEFAULT_CASH_FLOW_METRIC
+from context.yquery_ticker.main.data_classes.expenses import Expenses
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 
 from .iterable_data import IterableDataInterface
@@ -43,9 +44,10 @@ class FinancialData(IterableDataInterface):
     enterprise_to_revenue: float
     return_on_equity: float
     return_on_assets: float
-    net_income_to_common: float #net earnings
+    net_income_to_common: float  # net earnings
     earnings_growth: float
     book_value: float
+    expenses: Expenses
 
     def apply_local_rules(self):
         if self.total_debt < 0:
@@ -76,12 +78,30 @@ class FinancialData(IterableDataInterface):
             self.net_income_to_common is not None
             and self.book_value is not None
             and self.total_debt is not None
-        ): 
+        ):
             numerator = self.book_value + self.total_debt
-            if  numerator != 0:
+            if numerator != 0:
                 return self.net_income_to_common / numerator
-         
+
         return None
+
+    def calculate_return_on_investment(self):
+        if (
+            self.net_income_to_common is not None
+            and self.expenses.check_has_invalid_value(
+                [
+                    self.expenses.capital_expenditure,
+                    self.expenses.interest_expense,
+                    self.expenses.interest_expense_non_operating,
+                    self.expenses.total_other_finance_cost
+                ]
+            ) == False
+        ):
+            sum_expenses = self.expenses.sum()
+            if(sum_expenses != 0):
+                return self.net_income_to_common / ((sum_expenses) * 100)
+
+        return False
 
     @classmethod
     def mockk(cls):
@@ -111,5 +131,6 @@ class FinancialData(IterableDataInterface):
             return_on_assets=0,
             net_income_to_common=0,
             earnings_growth=0,
-            book_value=0
+            book_value=0,
+            expenses=None
         )

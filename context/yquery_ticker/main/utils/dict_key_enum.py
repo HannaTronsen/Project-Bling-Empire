@@ -28,3 +28,4 @@ class DictKey(Enum):
     RETURN_ON_EQUITY = 'return_on_equity'
     RETURN_ON_ASSETS = 'return_on_assets'
     RETURN_ON_INVESTED_CAPITAL = 'return_on_invested_capital'
+    RETURN_ON_INVESTMENT = 'return_on_investment'
