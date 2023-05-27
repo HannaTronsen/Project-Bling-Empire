@@ -58,7 +58,21 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
     - [X] Enterprise value to EBITDA (EV/EBITDA) ratio
     - [X] Dividend yield
     - [X] Price to cash flow (P/CF) ratio
+    V2 Implementations:
+        -News Data
+        -Insider Trading
+        -Recommendations
+
 - [ ] Extend Stock Data class that will handle dataframe metrics, historical metrics and formulas reated to yqeruy financials
+    - [ ] Earnings & Earnings History 
+    - [ ] Financials (Use notion.so for required data)
+    V2 Implementations:
+        -Grading History
+        -Insider Holdings
+        -Insider Transactions
+        -Institution Ownsership
+        -Recomendation Trend 
+
 - [ ] Crunch the data by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
 
