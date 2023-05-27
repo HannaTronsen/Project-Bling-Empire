@@ -5,8 +5,6 @@ from context.yquery_ticker.main.data_classes.financial_data import EarningsPerSh
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
-from context.yquery_ticker.main.enums.country import Country
-
 
 class test_universal_stock_data(unittest.TestCase):
 
@@ -133,7 +131,7 @@ class test_universal_stock_data(unittest.TestCase):
         self.assertIsNone(stock.total_debt)
         self.assertIsNone(stock.gross_profit_margins)
         self.assertIsNone(stock.operating_margins)
-        #self.assertIsNone(stock.price_to_earnings.trailing_pe)
+        self.assertIsNone(stock.price_to_earnings.trailing_pe)
         self.assertIsNone(stock.earnings_per_share.forward_eps)
         self.assertIsNone(stock.expenses)
 
