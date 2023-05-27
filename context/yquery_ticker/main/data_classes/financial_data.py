@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
 from context.yquery_ticker.main.const import DEFAULT_CASH_FLOW_METRIC
+from context.yquery_ticker.main.data_classes.castable_data import CastableDataInterface
 from context.yquery_ticker.main.data_classes.expenses import Expenses
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 
@@ -8,19 +9,19 @@ from .iterable_data import IterableDataInterface
 
 
 @dataclass
-class PriceToEarnings(IterableDataInterface):
+class PriceToEarnings(IterableDataInterface, CastableDataInterface):
     trailing_pe: float
     forward_pe: float
 
 
 @dataclass
-class EarningsPerShare(IterableDataInterface):
+class EarningsPerShare(IterableDataInterface, CastableDataInterface):
     trailing_eps: float
     forward_eps: float
 
 
 @dataclass
-class FinancialData(IterableDataInterface):
+class FinancialData(IterableDataInterface, CastableDataInterface):
     price: float
     total_revenue: float
     revenue_per_share: float
@@ -99,7 +100,7 @@ class FinancialData(IterableDataInterface):
         ):
             sum_expenses = self.expenses.sum()
             if(sum_expenses != 0):
-                return self.net_income_to_common / ((sum_expenses) * 100)
+                return self.net_income_to_common / (sum_expenses * 100)
 
         return False
 

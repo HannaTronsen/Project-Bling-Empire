@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 import dataclasses
+
+from context.yquery_ticker.main.data_classes.castable_data import CastableDataInterface
 from .iterable_data import IterableDataInterface
 from enum import Enum, auto
 
@@ -10,7 +12,7 @@ class ExpensesFields(Enum):
     TOTAL_OTHER_FINANCE_COST = auto()
 
 @dataclass
-class Expenses(IterableDataInterface):
+class Expenses(IterableDataInterface, CastableDataInterface):
     capital_expenditure: float
     interest_expense: float
     interest_expense_non_operating: float

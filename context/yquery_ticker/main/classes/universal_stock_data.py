@@ -1,4 +1,5 @@
 from typing import Type
+from context.yquery_ticker.main.data_classes.castable_data import CastableDataInterface
 from context.yquery_ticker.main.data_classes.financial_data import FinancialData
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
@@ -11,8 +12,8 @@ class UniversalStockDataClass():
         general_stock_info: GeneralStockInfo,
         financial_data: FinancialData
     ):
-        self.general_stock_info: Type[GeneralStockInfo] = general_stock_info.handle_null_values()
-        self.financial_data: Type[FinancialData] = financial_data.handle_null_values()
+        self.general_stock_info: Type[GeneralStockInfo] = general_stock_info.normalize_values()
+        self.financial_data: Type[FinancialData] = financial_data.normalize_values()
 
     def get_revenue_data(self):
         return {

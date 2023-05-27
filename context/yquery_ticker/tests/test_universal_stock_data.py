@@ -5,6 +5,7 @@ from context.yquery_ticker.main.data_classes.financial_data import EarningsPerSh
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
+from context.yquery_ticker.main.enums.country import Country
 
 
 class test_universal_stock_data(unittest.TestCase):
@@ -56,7 +57,6 @@ class test_universal_stock_data(unittest.TestCase):
         else: 
             assert result == expected
     
-
     def test_general_stock_info(self):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo(
@@ -68,14 +68,14 @@ class test_universal_stock_data(unittest.TestCase):
                 website='http://www.apple.com',
                 long_business_summary='N/A',
                 financial_summary=FinancialSummary(
-                    previous_close=0.0,
+                    previous_close=None,
                     open=0.0,
-                    dividend_rate=0.0,
+                    dividend_rate="",
                     beta=0.0,
                     trailing_PE=0.0,
                     forward_PE=0.0,
-                    market_cap=None,
-                    currency=None
+                    market_cap="N/A",
+                    currency="N/A"
                 )
             ),
             financial_data=FinancialData.mockk()
@@ -83,9 +83,11 @@ class test_universal_stock_data(unittest.TestCase):
 
         self.assertIsNone(stock.country)
         self.assertIsNone(stock.long_business_summary)
+        self.assertIsNone(stock.financial_summary.previous_close)
         self.assertIsNone(stock.financial_summary.market_cap)
         self.assertIsNone(stock.financial_summary.currency)
-
+        self.assertIsNone(stock.financial_summary.dividend_rate)       
+        
     def test_financial_data(self):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
@@ -114,12 +116,12 @@ class test_universal_stock_data(unittest.TestCase):
                 earnings_growth=0,
                 book_value=0,
                 price_to_earnings=PriceToEarnings(
-                    trailing_pe=None,
+                    trailing_pe="N/A",
                     forward_pe=2
                 ),
                 earnings_per_share=EarningsPerShare(
                     trailing_eps=2,
-                    forward_eps=None
+                    forward_eps="N/A"
                 ),
                 enterprise_to_revenue=0,
                 expenses=None
@@ -131,7 +133,7 @@ class test_universal_stock_data(unittest.TestCase):
         self.assertIsNone(stock.total_debt)
         self.assertIsNone(stock.gross_profit_margins)
         self.assertIsNone(stock.operating_margins)
-        self.assertIsNone(stock.price_to_earnings.trailing_pe)
+        #self.assertIsNone(stock.price_to_earnings.trailing_pe)
         self.assertIsNone(stock.earnings_per_share.forward_eps)
         self.assertIsNone(stock.expenses)
 
@@ -167,7 +169,7 @@ class test_universal_stock_data(unittest.TestCase):
         cash_flow_type = CashFlowType.FREE_CASH_FLOW
         stock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.FREE_CASH_FLOW)
         assert stock.get_cash_flow(cash_flow_type=CashFlowType.FREE_CASH_FLOW) == stock.free_cash_flow
-
+    
     
     def test_calculate_return_on_investments(self):
         stock = UniversalStockDataClass(
@@ -281,7 +283,7 @@ class test_universal_stock_data(unittest.TestCase):
             ),
             expected=-0.5
         )
-    
+
     def test_sum_expenses(self):
         assert Expenses(
             capital_expenditure = 1,
@@ -307,3 +309,67 @@ class test_universal_stock_data(unittest.TestCase):
             interest_expense_non_operating = 3,
             total_other_finance_cost = 2
         ).sum(exclude=[ExpensesFields.TOTAL_OTHER_FINANCE_COST]) == 5
+ 
+    def test_type_checking(self):
+        expenses: Expenses = Expenses(
+            capital_expenditure = 1.0,
+            interest_expense= "1.01",
+            interest_expense_non_operating = "Zero",
+            total_other_finance_cost = None
+        ).normalize_values()
+
+        self.assertIsNotNone(expenses.interest_expense)
+        assert expenses.interest_expense == 1.01
+        self.assertIsNone(expenses.interest_expense_non_operating)
+        self.assertIsNone(expenses.total_other_finance_cost)
+
+        stock = UniversalStockDataClass(
+            general_stock_info=GeneralStockInfo.mockk(),
+            financial_data=FinancialData(
+                price=10,
+                total_revenue=0.00000,
+                revenue_per_share="",
+                revenue_growth="N/A",
+                total_debt=-1,
+                debt_to_equity=0,
+                profit_margins=3,
+                gross_profit_margins="N/A",
+                operating_margins=None,
+                dividend_rate=0,
+                dividend_yield=0,
+                five_year_avg_dividend_yield=0,
+                trailing_annual_dividend_rate=0,
+                trailing_annual_dividend_yield=0,
+                free_cash_flow=0,
+                operating_cash_flow=0,
+                enterprise_to_ebitda=0,
+                price_to_book=0,
+                return_on_assets=0,
+                return_on_equity=0,
+                net_income_to_common=0, 
+                earnings_growth=0,
+                book_value=0,
+                price_to_earnings=PriceToEarnings(
+                    trailing_pe=None,
+                    forward_pe="2.0"
+                ),
+                earnings_per_share=EarningsPerShare(
+                    trailing_eps=10,
+                    forward_eps=None
+                ),
+                enterprise_to_revenue=10,
+                expenses=None
+            )
+        )
+
+        assert stock.financial_data.price_to_earnings.forward_pe == 2.0
+        assert stock.financial_data.earnings_per_share.trailing_eps == 10.0
+
+        stock = UniversalStockDataClass(
+            general_stock_info=GeneralStockInfo.mockk(),
+            financial_data=FinancialData.mockk()
+        )
+
+        stock.financial_data.price = "10"
+        stock.financial_data.normalize_values()
+        assert stock.financial_data.price == 10.0

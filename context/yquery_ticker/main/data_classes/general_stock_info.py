@@ -1,10 +1,12 @@
 from dataclasses import dataclass
+
+from context.yquery_ticker.main.data_classes.castable_data import CastableDataInterface
 from .financial_summary import FinancialSummary
 from .iterable_data import IterableDataInterface
 from ..enums.country import Country
 
 @dataclass
-class GeneralStockInfo(IterableDataInterface):
+class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
     ticker: str
     company_name: str
     country: Country
