@@ -1,11 +1,11 @@
 from dataclasses import dataclass
+from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
 
 from context.yquery_ticker.main.const import DEFAULT_CASH_FLOW_METRIC
-from context.yquery_ticker.main.data_classes.castable_data import CastableDataInterface
+from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
 from context.yquery_ticker.main.data_classes.expenses import Expenses
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
-
-from .iterable_data import IterableDataInterface
+from ..classes.iterable_data import IterableDataInterface
 
 
 @dataclass
@@ -49,6 +49,7 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
     earnings_growth: float
     book_value: float
     expenses: Expenses
+    historical_earnings: HistoricalEarnings
 
     def apply_local_rules(self):
         if self.total_debt < 0:
@@ -133,5 +134,6 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
             net_income_to_common=0,
             earnings_growth=0,
             book_value=0,
-            expenses=None
+            expenses=None,
+            historical_earnings=None
         )

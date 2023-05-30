@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from context.yquery_ticker.main.data_classes.castable_data import CastableDataInterface
-from .iterable_data import IterableDataInterface
+from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
+from ..classes.iterable_data import IterableDataInterface
 from ..enums.currency import Currency
 
 @dataclass

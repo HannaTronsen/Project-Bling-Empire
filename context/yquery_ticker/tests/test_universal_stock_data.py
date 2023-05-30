@@ -122,7 +122,8 @@ class test_universal_stock_data(unittest.TestCase):
                     forward_eps="N/A"
                 ),
                 enterprise_to_revenue=0,
-                expenses=None
+                expenses=None,
+                historical_earnings=None
             )
         ).financial_data
         self.assertIsNone(stock.revenue_per_share)
@@ -356,7 +357,8 @@ class test_universal_stock_data(unittest.TestCase):
                     forward_eps="Test"
                 ),
                 enterprise_to_revenue=10,
-                expenses=None
+                expenses=None,
+                historical_earnings=None
             )
         ).financial_data
 

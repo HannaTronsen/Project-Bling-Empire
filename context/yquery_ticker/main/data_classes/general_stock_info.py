@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 
-from context.yquery_ticker.main.data_classes.castable_data import CastableDataInterface
+from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
 from .financial_summary import FinancialSummary
-from .iterable_data import IterableDataInterface
+from ..classes.iterable_data import IterableDataInterface
 from ..enums.country import Country
 
 @dataclass
