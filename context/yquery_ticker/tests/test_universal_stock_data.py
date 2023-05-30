@@ -331,7 +331,7 @@ class test_universal_stock_data(unittest.TestCase):
                 total_debt=-1,
                 debt_to_equity=0,
                 profit_margins=3,
-                gross_profit_margins="N/A",
+                gross_profit_margins="n/a",
                 operating_margins=None,
                 dividend_rate=0,
                 dividend_yield=0,
@@ -348,12 +348,12 @@ class test_universal_stock_data(unittest.TestCase):
                 earnings_growth=0,
                 book_value=0,
                 price_to_earnings=PriceToEarnings(
-                    trailing_pe=None,
+                    trailing_pe="N/A",
                     forward_pe="2.0"
                 ),
                 earnings_per_share=EarningsPerShare(
                     trailing_eps=10,
-                    forward_eps=None
+                    forward_eps="Test"
                 ),
                 enterprise_to_revenue=10,
                 expenses=None
@@ -361,7 +361,10 @@ class test_universal_stock_data(unittest.TestCase):
         )
 
         assert stock.financial_data.price_to_earnings.forward_pe == 2.0
+        assert stock.financial_data.price_to_earnings.trailing_pe == None
         assert stock.financial_data.earnings_per_share.trailing_eps == 10.0
+        assert stock.financial_data.earnings_per_share.forward_eps == None
+        assert stock.financial_data.gross_profit_margins == None
 
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
