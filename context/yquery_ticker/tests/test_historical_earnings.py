@@ -17,6 +17,8 @@ class test_histoical_earnings(unittest.TestCase):
         assert HistoricalEarnings.convert_date(value="2Q2020") == Date(year=2020, quarter=Quarter.SECOND_QUARTER)
         assert HistoricalEarnings.convert_date(value="2Q") == Date(year=datetime.datetime.year, quarter=Quarter.SECOND_QUARTER)
         assert HistoricalEarnings.convert_date(value="2q") == Date(year=datetime.datetime.year, quarter=Quarter.SECOND_QUARTER)
+        self.assertIsNone(HistoricalEarnings.convert_date(value=-2020))
+        self.assertIsNone(HistoricalEarnings.convert_date(value="-2022"))
         self.assertIsNone(HistoricalEarnings.convert_date(value="2022.2"))
         self.assertIsNone(HistoricalEarnings.convert_date(value=2022.2))
         self.assertIsNone(HistoricalEarnings.convert_date(value="2Q2"))

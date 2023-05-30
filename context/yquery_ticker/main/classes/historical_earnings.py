@@ -14,17 +14,22 @@ class HistoricalEarnings(TimeSeriesDataCollection):
 
     @classmethod
     def convert_date(self, value) -> Date:
-        is_year_int = type(value) != str and type(value) != float
 
         if value is None or value == "" or value == "N/A":
             return None
 
-        if (is_year_int):
+        is_valid_year_int = (
+            type(value) != str
+            and type(value) != float
+            and value >= 0
+        )
+        if (is_valid_year_int):
             return Date(year=value)
 
         elif (type(value) == str):
-            
-            quarter_and_year = re.search(QUARTER_YEAR_REGEX, value, re.IGNORECASE)
+
+            quarter_and_year = re.search(
+                QUARTER_YEAR_REGEX, value, re.IGNORECASE)
             if quarter_and_year:
                 quarter_date = str(quarter_and_year.group(1)).upper()
                 year = int(quarter_and_year.group(2))
