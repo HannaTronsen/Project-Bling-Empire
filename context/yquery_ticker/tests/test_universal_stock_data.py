@@ -358,19 +358,24 @@ class test_universal_stock_data(unittest.TestCase):
                 enterprise_to_revenue=10,
                 expenses=None
             )
-        )
+        ).financial_data
 
-        assert stock.financial_data.price_to_earnings.forward_pe == 2.0
-        assert stock.financial_data.price_to_earnings.trailing_pe == None
-        assert stock.financial_data.earnings_per_share.trailing_eps == 10.0
-        assert stock.financial_data.earnings_per_share.forward_eps == None
-        assert stock.financial_data.gross_profit_margins == None
+        assert stock.price_to_earnings.forward_pe == 2.0
+        assert stock.earnings_per_share.trailing_eps == 10.0
+        self.assertIsNone(stock.price_to_earnings.trailing_pe)
+        self.assertIsNone(stock.gross_profit_margins)
+        self.assertIsNone(stock.earnings_per_share.forward_eps)
 
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
             financial_data=FinancialData.mockk()
-        )
+        ).financial_data
 
-        stock.financial_data.price = "10"
-        stock.financial_data.normalize_values()
-        assert stock.financial_data.price == 10.0
+        stock.price = "10"
+        stock.five_year_avg_dividend_yield = "n/a"
+        stock.debt_to_equity = "Test"
+        stock.normalize_values()
+
+        assert stock.price == 10.0
+        self.assertIsNone(stock.five_year_avg_dividend_yield)
+        self.assertIsNone(stock.debt_to_equity)
