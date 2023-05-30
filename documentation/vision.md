@@ -70,14 +70,14 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 
 Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies. In the report it would be good to also read about investing and to learn the theories applied to come up with the sorted stock list. 
     
-V2 Implementations:
-    -News Data
-    -Insider Trading
-    -Recommendations
-    -Grading History
-    -Insider Holdings
-    -Insider Transactions
-    -Institution Ownsership
-    -Recomendation Trend 
-    -Earnings Trend
-    -Estimates VS actual values 
+### V2 Implementations: 
+- News Data
+- Insider Trading
+- Recommendations
+- Grading History
+- Insider Holdings
+- Insider Transactions
+- Institution Ownsership
+- Recomendation Trend 
+- Earnings Trend
+- Estimates VS actual values 
