@@ -72,6 +72,8 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
         -Insider Transactions
         -Institution Ownsership
         -Recomendation Trend 
+        -Earnings Trend
+        -Estimates VS actual values 
 
 - [ ] Crunch the data by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column

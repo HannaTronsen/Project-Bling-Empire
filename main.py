@@ -2,9 +2,10 @@ import unittest
 from context.ticker_scraper.main.functions import fetch_tickers, initialize_environment
 from context.yquery_ticker.main.functions import validate_and_get_yahoo_query_ticker_objects
 from const import TEST_PATHS
+from yahooquery import Ticker
 
 
-RUN_TESTS = True
+RUN_TESTS = False
 RUN_CODE = False
 
 
@@ -15,6 +16,9 @@ def main():
 
 
 if __name__ == '__main__':
+
+    aapl = Ticker('aapl')
+    print(aapl.earning_history)
 
     if RUN_TESTS:
         test_suite = unittest.TestSuite()
