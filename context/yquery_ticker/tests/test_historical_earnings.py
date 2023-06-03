@@ -3,7 +3,7 @@ import unittest
 from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.data_classes.charts import Date, QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart
-from context.yquery_ticker.main.enums.quarter import Quarter, QuarterId
+from context.yquery_ticker.main.enums.quarter import Quarter
 
 
 class test_historical_earnings(unittest.TestCase):
