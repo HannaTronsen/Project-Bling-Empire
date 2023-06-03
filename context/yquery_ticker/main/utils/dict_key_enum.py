@@ -29,3 +29,7 @@ class DictKey(Enum):
     RETURN_ON_ASSETS = 'return_on_assets'
     RETURN_ON_INVESTED_CAPITAL = 'return_on_invested_capital'
     RETURN_ON_INVESTMENT = 'return_on_investment'
+
+    YEARLY_FINANCIALS_DATA_JSON_PATH = {'financialsChart': {'yearly'}}
+    QUARTERLY_FINANCIALS_DATA_JSON_PATH = {'financialsChart': {'quarterly'}}
+    QUARTERLY_EARNINGS_DATA_JSON_PATH = {'earningsChart': {'quarterly'}}

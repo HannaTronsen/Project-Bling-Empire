@@ -1,9 +1,11 @@
 import re
 from dataclasses import dataclass
+from abc import ABC
 from typing import Any
 from context.yquery_ticker.main.const import QUARTER_REGEX, QUARTER_YEAR_REGEX, YEAR_REGEX
 from context.yquery_ticker.main.enums.quarter import Quarter
 import datetime
+from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
 @dataclass
@@ -67,17 +69,33 @@ class Date:
 class QuarterlyEarningsDataChart:
     date: Date
     actual: float
+    estimate: float #just to map to model for now
 
+    def convert_date(self): 
+        self.date = Date.convert_date(value=self.date)
+        return self
+    
+    @classmethod
+    def get_json_path(cls): return DictKey.QUARTERLY_EARNINGS_DATA_JSON_PATH
+    
 
 @dataclass
-class QuarterlyFinancialsDataChart:
+class FinancialsDataChart(ABC):
     date: Date
     revenue: float
     earnings: float
 
+    def convert_date(self): 
+        self.date = Date.convert_date(value=self.date)
+        return self
+    
+@dataclass
+class QuarterlyFinancialsDataChart(FinancialsDataChart):
+    @classmethod
+    def get_json_path(cls): return DictKey.QUARTERLY_FINANCIALS_DATA_JSON_PATH
 
 @dataclass
-class YearlyFinancialsDataChart:
-    date: Date
-    revenue: float
-    earnings: float
+class YearlyFinancialsDataChart(FinancialsDataChart):
+    @classmethod
+    def get_json_path(cls): return DictKey.YEARLY_FINANCIALS_DATA_JSON_PATH
+    

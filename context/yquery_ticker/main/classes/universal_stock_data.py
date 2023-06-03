@@ -1,5 +1,4 @@
 from typing import Type
-from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
 from context.yquery_ticker.main.data_classes.financial_data import FinancialData
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
