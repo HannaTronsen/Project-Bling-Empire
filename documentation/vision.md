@@ -61,6 +61,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 - [ ] Extend Stock Data class that will handle dataframe metrics, historical metrics and formulas reated to yqeruy financials
     - [ ] Earnings & Earnings History 
     - [ ] Financials (Use notion.so for required data)
+- [ ] Make sure that the formulas work correctly by knowing the expected values for each test (I was too lazy to check -_-)
 - [ ] Crunch the data by the formulas I write
 - [ ] Export the data in a CSV file with possibility to sort the rows by column
 
