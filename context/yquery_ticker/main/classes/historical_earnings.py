@@ -12,13 +12,7 @@ class HistoricalEarnings(TimeSeriesDataCollection):
     yearlyFinancialsDataChart: list[YearlyFinancialsDataChart]
 
     def convert_json_to_model_list(self, ticker, data, model: Optional[Type]) -> Type:
-        if model == QuarterlyEarningsDataChart:
-            data = data[ticker] + QuarterlyEarningsDataChart.get_json_path()
-            return ([QuarterlyEarningsDataChart(**item).convert_date() for item in data])
-        if model == QuarterlyFinancialsDataChart:
-            data = data[ticker] + QuarterlyEarningsDataChart.get_json_path()
-            return ([QuarterlyFinancialsDataChart(**item).convert_date() for item in data])
-        if model == YearlyFinancialsDataChart:
-            data = data[ticker] + YearlyFinancialsDataChart.get_json_path()
-            return ([YearlyFinancialsDataChart(**item).convert_date() for item in data])
-    
+        if model in [QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart]:
+            data_path = model.get_json_path()
+            return [model(**item).convert_date() for item in data[ticker] + data_path]
+
