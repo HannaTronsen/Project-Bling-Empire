@@ -3,7 +3,7 @@ from enum import Enum
 SHOW_PRINT = True
 
 class QuarterId(Enum):
-    Q1 = "1Q",
+    Q1 = "1Q"
     Q2 = "2Q"
     Q3 = "3Q"
     Q4 = "4Q"
