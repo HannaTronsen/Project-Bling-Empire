@@ -2,7 +2,7 @@ from ctypes import Union
 import json
 from typing import Optional, Type
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
-from context.yquery_ticker.main.data_classes.charts import QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart
+from context.yquery_ticker.main.data_classes.charts import Chart, QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart
 
 
 class HistoricalEarnings(TimeSeriesDataCollection):
@@ -11,8 +11,9 @@ class HistoricalEarnings(TimeSeriesDataCollection):
     quarterlyFinancialsDataChart: list[QuarterlyFinancialsDataChart]
     yearlyFinancialsDataChart: list[YearlyFinancialsDataChart]
 
-    def convert_json_to_model_list(self, ticker, data, model: Optional[Type]) -> Type:
+    def convert_json_to_model_list(self, ticker, data, model: Type[Chart]) -> list[Chart]:
         if model in [QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart]:
-            data_path = model.get_json_path()
-            return [model(**item).convert_date() for item in data[ticker] + data_path]
+            data = model.get_section_from_json_path(base = data[ticker])
+            return [model(**item).convert_date() for item in data]
+        raise TypeError(f"Wrong model type: {model}.")
 

@@ -34,8 +34,10 @@ class test_historical_earnings(unittest.TestCase):
             YearlyFinancialsDataChart(date=Date(year=2022),  revenue=394328000000, earnings=99803000000)
         ]
 
-    def convert_json_to_model_list(self):
+    def test_convert_json_to_model_list(self):
         assert HistoricalEarnings().convert_json_to_model_list(ticker=self.ticker,data=self.data, model=QuarterlyEarningsDataChart) == self.quarterly_earnings_data_chart_expected_list
         assert HistoricalEarnings().convert_json_to_model_list(ticker=self.ticker, data=self.data, model=QuarterlyFinancialsDataChart) == self.quarterly_financials_data_chart_expected_list    
         assert HistoricalEarnings().convert_json_to_model_list(ticker=self.ticker, data=self.data, model=YearlyFinancialsDataChart) == self.yearly_financials_data_chart_expected_list
-    
+
+        class WrongClass(): pass
+        self.assertRaises(TypeError, HistoricalEarnings().convert_json_to_model_list, ticker=self.ticker,data=self.data, model=WrongClass)

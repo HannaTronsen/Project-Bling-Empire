@@ -1,6 +1,6 @@
 import re
 from dataclasses import dataclass
-from abc import ABC
+from abc import ABC, abstractmethod
 from typing import Any
 from context.yquery_ticker.main.const import QUARTER_REGEX, QUARTER_YEAR_REGEX, YEAR_REGEX
 from context.yquery_ticker.main.enums.quarter import Quarter
@@ -63,39 +63,38 @@ class Date:
                     date = self.is_valid_quarter_only(value)
 
         return date
+    
+@dataclass
+class Chart(ABC):
+    date: Date
 
+    def convert_date(self): 
+        self.date = Date.convert_date(value=self.date)
+        return self
+    
+    @abstractmethod
+    def get_section_from_json_path(self):
+        pass
+    
 
 @dataclass
-class QuarterlyEarningsDataChart:
-    date: Date
+class QuarterlyEarningsDataChart(Chart):
     actual: float
     estimate: float #just to map to model for now
-
-    def convert_date(self): 
-        self.date = Date.convert_date(value=self.date)
-        return self
     
-    @classmethod
-    def get_json_path(cls): return DictKey.QUARTERLY_EARNINGS_DATA_JSON_PATH
+    def get_section_from_json_path(base): return base ['earningsChart'] ['quarterly']
     
 
 @dataclass
-class FinancialsDataChart(ABC):
-    date: Date
+class FinancialsDataChart(Chart):
     revenue: float
     earnings: float
-
-    def convert_date(self): 
-        self.date = Date.convert_date(value=self.date)
-        return self
     
 @dataclass
 class QuarterlyFinancialsDataChart(FinancialsDataChart):
-    @classmethod
-    def get_json_path(cls): return DictKey.QUARTERLY_FINANCIALS_DATA_JSON_PATH
+    def get_section_from_json_path(base): return base ['financialsChart'] ['quarterly']
 
 @dataclass
 class YearlyFinancialsDataChart(FinancialsDataChart):
-    @classmethod
-    def get_json_path(cls): return DictKey.YEARLY_FINANCIALS_DATA_JSON_PATH
+    def get_section_from_json_path(base): return base ['financialsChart'] ['yearly']
     
