@@ -37,7 +37,7 @@ class IterableDataInterface(ABC):
             # If any type of invalid values are given, we set a universal `None` value
             if value is None or value == "" or value == 'N/A':
                 if SHOW_PRINT:
-                    print(INVALID_FIELD_STRING.format(**{"%$FIELD%":field}))
+                    print(INVALID_FIELD_STRING.format(field=field))
                 setattr(self, field, None)
             else:
                 setattr(self, field, value)

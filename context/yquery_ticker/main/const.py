@@ -8,6 +8,9 @@ QUARTER_YEAR_REGEX = r"([1-4]Q)(\d{4})"
 YEAR_REGEX = r"^(\d{4})$"
 QUARTER_REGEX = r"^([1-4]Q)$"
 
-INVALID_FIELD_STRING = '\n {%$FIELD%} has invalid or null value and will be handled.'
-NO_CASTABLE_DEFINITION_ERROR_STRING = "{%$FIELD_TYPE%} don't have a castable definition yet. Implemented it in 'CastableDataInterface'."
-CASTABLE_ERROR_STRING = "Casting failed. The value: '{%$VALUE%}' is not convertible to '{%$FIELD_TYPE%}'."
+ATTRIBUTE_ERROR_STRING = "Failed to retrieve attribute '{attribute}' from chart at index {index}"
+WRONG_TYPE_STRING = "Wrong type: {type}."
+INVALID_LIST_LENGTH_STRING = "List of values is either empty or too small: {chart_list}."
+INVALID_FIELD_STRING = '\n {field} has invalid or null value and will be handled.'
+NO_CASTABLE_DEFINITION_ERROR_STRING = "{field_type} don't have a castable definition yet. Implemented it in 'CastableDataInterface'."
+CASTABLE_ERROR_STRING = "Casting failed. The value: '{value}' is not convertible to '{field_type}'."

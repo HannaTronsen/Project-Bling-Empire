@@ -19,8 +19,7 @@ class CastableDataInterface():
             return cast(value)
         except:
             if SHOW_PRINT:
-                print(CASTABLE_ERROR_STRING
-                    .format(**{"%$VALUE%": value, "%$FIELD_TYPE%": field_type_name}))
+                print(CASTABLE_ERROR_STRING.format(value=value, field_type=field_type_name))
 
     def try_to_cast(self, field_type_name, value):
         casting_value = None
@@ -32,8 +31,7 @@ class CastableDataInterface():
             casting_value = self._cast(field_type_name=field_type_name, value=value, cast=str)
         else:
             if SHOW_PRINT:
-                print(NO_CASTABLE_DEFINITION_ERROR_STRING
-                    .format(**{"%$FIELD_TYPE%": field_type_name}))
+                print(NO_CASTABLE_DEFINITION_ERROR_STRING .format(field_type=field_type_name))
 
         return casting_value
     

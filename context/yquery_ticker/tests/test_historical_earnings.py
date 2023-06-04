@@ -41,6 +41,9 @@ class test_historical_earnings(unittest.TestCase):
             YearlyFinancialsDataChart(date=Date(year=2019), revenue= 0, earnings=0),
             YearlyFinancialsDataChart(date=Date(year=2020),  revenue=-50, earnings=50),
         ]
+        self.one_value_list = [
+            YearlyFinancialsDataChart(date=Date(year=2019), revenue= 0, earnings=0),
+        ]
 
     def test_convert_json_to_model_list(self):
         assert HistoricalEarnings().convert_json_to_model_list(ticker=self.ticker,data=self.data, model=QuarterlyEarningsDataChart) == self.quarterly_earnings_data_chart_expected_list
@@ -53,9 +56,16 @@ class test_historical_earnings(unittest.TestCase):
     
     def test_is_consistently_up_trending(self):
         assert HistoricalEarnings().is_consistently_up_trending(chart_list=self.quarterly_earnings_data_chart_expected_list, attribute = 'actual') == False
-        assert HistoricalEarnings().is_consistently_up_trending(chart_list= [self.quarterly_financials_data_chart_expected_list.pop()], attribute = 'revenue') == True
+        assert HistoricalEarnings().is_consistently_up_trending(chart_list= self.quarterly_financials_data_chart_expected_list, attribute = 'revenue') == False
         assert HistoricalEarnings().is_consistently_up_trending(chart_list= self.quarterly_earnings_data_chart_expected_list, attribute = 'estimate') == False
         assert HistoricalEarnings().is_consistently_up_trending(chart_list= self.excpetion_list, attribute = 'revenue') == False
         assert HistoricalEarnings().is_consistently_up_trending(chart_list= self.excpetion_list, attribute = 'earnings') == False
         assert HistoricalEarnings().is_consistently_up_trending(chart_list= self.negative_values_list, attribute = 'revenue') == False
         assert HistoricalEarnings().is_consistently_up_trending(chart_list= self.negative_values_list, attribute = 'earnings') == True
+        self.assertRaises(ValueError, HistoricalEarnings().is_consistently_up_trending, chart_list=[], attribute = 'earnings')
+        self.assertRaises(ValueError, HistoricalEarnings().is_consistently_up_trending, chart_list=self.one_value_list, attribute = 'earnings')
+        self.assertRaises(AttributeError, HistoricalEarnings().is_consistently_up_trending, chart_list=self.quarterly_earnings_data_chart_expected_list, attribute = 'none')
+        assert HistoricalEarnings().is_consistently_up_trending(chart_list= [1,2,3]) == True
+        assert HistoricalEarnings().is_consistently_up_trending(chart_list= [1,3,2]) == False
+        assert HistoricalEarnings().is_consistently_up_trending(chart_list= [1,3]) == True
+        self.assertRaises(ValueError, HistoricalEarnings().is_consistently_up_trending, chart_list=[1])
