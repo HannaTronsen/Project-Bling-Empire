@@ -1,7 +1,7 @@
 # Project Bling Empire 
 [Read more about the project vision](/documentation/vision.md)
 
-[Project planing documentation](https://relieved-walker-58b.notion.site/Project-Bling-Empire-dbee9a3b0f1a41febc0098a6e901188c?pvs=4)
+[Project planning documentation](https://relieved-walker-58b.notion.site/Project-Bling-Empire-dbee9a3b0f1a41febc0098a6e901188c?pvs=4)
 
 ## Setup
 

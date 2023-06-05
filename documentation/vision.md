@@ -33,52 +33,15 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 
 
 ## MVP - Stock Assistant V2 
-- Periodically add more tickers [on-going]
-- Refactor [on-going]
-- Have comprehensive test coverage [on-going]
-
-- [X] Pick a suitable API for fetching stock ticker data
-- [X] Write test to confirm that API working
-- [X] Figure out what data I want to save and what stock indicators to emphasize when determening the value of a stock
-- [X] Sort the key metrics for determening the value of a stock in decending order
-- [X] Create a common Stock Data class that will handle metrics and formulas related to yquery modules:
-    - [X] General stock information
-    - [X] Revenue data
-    - [X] Earnings data
-    - [X] Debt data
-    - [X] Return on equity (ROE)
-    - [X] Return on invested capital (ROIC)
-    - [X] Return on assets (ROA)
-    - [X] Return on investments(ROI)
-    - [X] Cash flow
-    - [X] Gross profit margin
-    - [X] Operating margin
-    - [X] Price to earnings (P/E) ratio
-    - [X] Price to book (P/B) ratio
-    - [X] Enterprise value to EBITDA (EV/EBITDA) ratio
-    - [X] Dividend yield
-    - [X] Price to cash flow (P/CF) ratio
-- [ ] Extend Stock Data class that will handle dataframe metrics, historical metrics and formulas reated to yqeruy financials
-    - [ ] Earnings & Earnings History 
-    - [ ] Financials (Use notion.so for required data)
-- [ ] Make sure that the formulas work correctly by knowing the expected values for each test (I was too lazy to check -_-)
-- [ ] Crunch the data by the formulas I write
-- [ ] Export the data in a CSV file with possibility to sort the rows by column
+The MVP of this project is just to evaluate stocks from different stock exchanges and give them a rating. The
+results will in the first iteration only be exported into a sortable csv file with the top performing companies at the top. It will behave much like V1 of the stock assistant described on my [hobby page](https://hannatronsen.herokuapp.com/projects) but with better and more reliable code. By using coorporate coding standards and testing approaches, we can trust the result more than we could we V1. It will also have better error handeling and scalability possibilites.
 
 
+## Future vision
+- Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies. It should give a run down of why the company passed the stock evaluation check and back the findings with real investing theories and best practices applied in order to deem the stock as a safe investment in the long run. 
 
-## Future vision & V2 specs
+-  Make the report more tailored to each specific user.
 
-Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies. In the report it would be good to also read about investing and to learn the theories applied to come up with the sorted stock list. 
-    
-### V2 Implementations: 
-- News Data
-- Insider Trading
-- Recommendations
-- Grading History
-- Insider Holdings
-- Insider Transactions
-- Institution Ownsership
-- Recomendation Trend 
-- Earnings Trend
-- Estimates VS actual values 
+- Provide a macro economic overview to inform the investor about possible economic dampeners.
+
+- Make a suggestive budget and finance managing tool (possibly powered by some AI?)
