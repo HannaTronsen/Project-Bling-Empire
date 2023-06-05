@@ -33,9 +33,7 @@ I bought around 17-18 NOK and now I just cry in my sleep 😭
 
 
 ## MVP - Stock Assistant V2 
-The MVP of this project is just to evaluate stocks from different stock exchanges and give them a rating. The
-results will in the first iteration only be exported into a sortable csv file with the top performing companies at the top. It will behave much like V1 of the stock assistant described on my [hobby page](https://hannatronsen.herokuapp.com/projects) but with better and more reliable code. By using coorporate coding standards and testing approaches, we can trust the result more than we could we V1. It will also have better error handeling and scalability possibilites.
-
+The primary goal of this project is to assess stocks from various stock exchanges and assign them ratings. Initially, the results will be exported into a sortable CSV file, where the top-performing companies will be listed at the beginning. This iteration will resemble Version 1 of the stock assistant mentioned on my [hobby page](https://hannatronsen.herokuapp.com/projects), but with improved and more reliable code. By adhering to corporate coding standards and employing thorough testing methodologies, we can place greater confidence in the accuracy and reliability of the results compared to Version 1. Moreover, the updated version features more enhanced error handling capabilities and also provide better scalability options for future expansion.
 
 ## Future vision
 - Make the CSV data into an interactive report that will only give you the most important information and the most interesting companies. It should give a run down of why the company passed the stock evaluation check and back the findings with real investing theories and best practices applied in order to deem the stock as a safe investment in the long run. 
