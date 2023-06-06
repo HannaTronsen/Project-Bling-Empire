@@ -1,4 +1,5 @@
 import unittest
+from context.yquery_ticker.main.classes.data_frame_data import DataFrameData
 from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
 from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
 from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
@@ -78,7 +79,8 @@ class test_universal_stock_data(unittest.TestCase):
                 )
             ),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).general_stock_info
 
         self.assertIsNone(stock.country)
@@ -126,7 +128,8 @@ class test_universal_stock_data(unittest.TestCase):
                 enterprise_to_revenue=0,
                 expenses=None
             ),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).financial_data
         self.assertIsNone(stock.revenue_per_share)
         self.assertIsNone(stock.revenue_growth)
@@ -142,7 +145,8 @@ class test_universal_stock_data(unittest.TestCase):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).financial_data
 
         self.assert_price_to_cash_flow(stock=stock, price=None, cash_flow=10, expected=None)
@@ -159,7 +163,8 @@ class test_universal_stock_data(unittest.TestCase):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).financial_data
 
         stock.free_cash_flow = 10
@@ -178,7 +183,8 @@ class test_universal_stock_data(unittest.TestCase):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).financial_data
 
         self.assert_return_on_invested_capital(
@@ -235,7 +241,8 @@ class test_universal_stock_data(unittest.TestCase):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).financial_data
 
         self.assert_return_on_investment(
@@ -365,7 +372,8 @@ class test_universal_stock_data(unittest.TestCase):
                 enterprise_to_revenue=10,
                 expenses=None,
             ),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).financial_data
 
         assert stock.price_to_earnings.forward_pe == 2.0
@@ -377,7 +385,8 @@ class test_universal_stock_data(unittest.TestCase):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk()
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
         ).financial_data
 
         stock.price = "10"

@@ -1,4 +1,5 @@
 from typing import Type
+from context.yquery_ticker.main.classes.data_frame_data import DataFrameData
 from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
 from context.yquery_ticker.main.data_classes.financial_data import FinancialData
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
@@ -11,11 +12,14 @@ class UniversalStockDataClass():
         self,
         general_stock_info: GeneralStockInfo,
         financial_data: FinancialData, 
-        historical_earnings: HistoricalEarnings
+        historical_earnings: HistoricalEarnings,
+        test_data_frame_data: DataFrameData
     ):
         self.general_stock_info: Type[GeneralStockInfo] = general_stock_info.normalize_values()
         self.financial_data: Type[FinancialData] = financial_data.normalize_values()
         self.historical_earnings: HistoricalEarnings = historical_earnings
+        self.test_data_frame_data: DataFrameData  = test_data_frame_data
+
 
 
     def get_revenue_data(self):

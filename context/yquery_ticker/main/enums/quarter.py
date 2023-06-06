@@ -1,5 +1,7 @@
 from enum import Enum
 
+from context.yquery_ticker.main.const import NO_MATCHING_ENUM_MEMBER_STRING
+
 SHOW_PRINT = True
 
 class QuarterId(Enum):
@@ -7,6 +9,7 @@ class QuarterId(Enum):
     Q2 = "2Q"
     Q3 = "3Q"
     Q4 = "4Q"
+
 
 class Quarter(Enum):
     FIRST_QUARTER = (QuarterId.Q1, 1)
@@ -21,23 +24,53 @@ class Quarter(Enum):
     @property
     def __int__(self):
         return self.value[1]
-    
+
     @classmethod
     def from_quarter_date(cls, quarter_date: str):
         for enum in cls:
             if enum.__id__.value == quarter_date:
                 return enum
         if SHOW_PRINT:
-            print(f"No matching enum member found for quarter date: {quarter_date}")
-        
+            print(NO_MATCHING_ENUM_MEMBER_STRING.format(identifier="quarter date", value=quarter_date))
         return None
-    
+
     @classmethod
     def from_id(cls, quarter_id: QuarterId):
         for enum in cls:
             if enum.__id__ == quarter_id:
                 return enum
         if SHOW_PRINT:
-            print(f"No matching enum member found for quarter id: {quarter_id}")
-        
+            print(NO_MATCHING_ENUM_MEMBER_STRING.format(identifier="quarter id", value=quarter_id))
+        return None
+
+
+class Month(Enum):
+    JAN = (Quarter.FIRST_QUARTER, "01")
+    FEB = (Quarter.FIRST_QUARTER, "02")
+    MAR = (Quarter.FIRST_QUARTER, "03")
+    APR = (Quarter.SECOND_QUARTER, "04")
+    MAY = (Quarter.SECOND_QUARTER, "05")
+    JUN = (Quarter.SECOND_QUARTER, "06")
+    JUL = (Quarter.THIRD_QUARTER, "07")
+    AUG = (Quarter.THIRD_QUARTER, "08")
+    SEP = (Quarter.THIRD_QUARTER, "09")
+    OCT = (Quarter.FOURTH_QUARTER, "10")
+    NOV = (Quarter.FOURTH_QUARTER, "11")
+    DEC = (Quarter.FOURTH_QUARTER, "12")
+
+    @property
+    def __quarter__(self) -> Quarter:
+        return self.value[0]
+
+    @property
+    def __month_str__(self):
+        return self.value[1]
+
+    @classmethod
+    def from_month(cls, month: str):
+        for enum in cls:
+            if enum.__month_str__ == month:
+                return enum
+        if SHOW_PRINT:
+            print(NO_MATCHING_ENUM_MEMBER_STRING.format(identifier="month", value=month))
         return None
