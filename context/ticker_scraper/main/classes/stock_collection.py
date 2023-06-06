@@ -24,7 +24,7 @@ class StockCollectionClass(ABC):
         self.file_path = f"{STOCK_COLLECTIONS_PATH}{self.file_name}"
         self.column = column
 
-    def data_frame_to_csv(self, df, header=False, index=False):
+    def data_frame_to_csv(self, df: pd.DataFrame, header=False, index=False):
         """
         Save a dataframe as a CSV file.
 

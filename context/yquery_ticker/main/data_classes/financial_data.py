@@ -49,7 +49,7 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
     earnings_growth: float
     book_value: float
     expenses: Expenses
-    historical_earnings: HistoricalEarnings
+
 
     def apply_local_rules(self):
         if self.total_debt < 0:
@@ -135,5 +135,4 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
             earnings_growth=0,
             book_value=0,
             expenses=None,
-            historical_earnings=None
         )

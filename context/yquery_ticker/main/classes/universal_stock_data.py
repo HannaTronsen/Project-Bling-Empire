@@ -1,4 +1,5 @@
 from typing import Type
+from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
 from context.yquery_ticker.main.data_classes.financial_data import FinancialData
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
@@ -9,10 +10,13 @@ class UniversalStockDataClass():
     def __init__(
         self,
         general_stock_info: GeneralStockInfo,
-        financial_data: FinancialData
+        financial_data: FinancialData, 
+        historical_earnings: HistoricalEarnings
     ):
         self.general_stock_info: Type[GeneralStockInfo] = general_stock_info.normalize_values()
         self.financial_data: Type[FinancialData] = financial_data.normalize_values()
+        self.historical_earnings: HistoricalEarnings = historical_earnings
+
 
     def get_revenue_data(self):
         return {

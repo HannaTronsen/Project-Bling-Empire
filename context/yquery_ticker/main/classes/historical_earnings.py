@@ -15,3 +15,7 @@ class HistoricalEarnings(TimeSeriesDataCollection):
             data = model.get_section_from_json_path(base=data[ticker])
             return [model(**item).convert_date() for item in data]
         raise TypeError(WRONG_TYPE_STRING.format(type=model))
+    
+    @classmethod
+    def mockk(cls):
+        return HistoricalEarnings()
