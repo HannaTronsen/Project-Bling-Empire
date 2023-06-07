@@ -42,17 +42,21 @@ class TimeSeriesDataCollection(ABC):
                 interval += 1
             else:
                 return interval
-    
+            
+    @classmethod
+    def _passes_percentage_increase_requirements(cls, series, percentage_requirement) -> bool:
+        return all(percent >= percentage_requirement for percent in series)
+
     @classmethod
     def _calculate_percentage_increase_for_data_set(self, chart_list: list[Chart], attribute: str = None):
-        percentage_increase_series = []
+        series = []
         for index in range(len(chart_list) - 1):
             i, j = self._get_attribute_values(index, chart_list, attribute) if attribute != None else (chart_list[index], chart_list[index + 1])
             if i != 0:
                 percentage_increase = round(number=((j) - (i)) / abs(i) * 100, ndigits=2)
-                percentage_increase_series.append(percentage_increase)
-            else: percentage_increase_series.append(0)
-        return percentage_increase_series
+                series.append(percentage_increase)
+            else: series.append(0)
+        return series
     
     @classmethod
     def is_consistently_up_trending(self, chart_list: list[Chart], attribute: str = None) -> bool:

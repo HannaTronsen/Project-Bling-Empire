@@ -103,9 +103,19 @@ class test_historical_earnings(unittest.TestCase):
         result, interval = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= [0,-1,-4,-3,-4]);  assert result == False and interval == 1
         result, interval = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= [0,-1,-4,-3,-5,-4]);  assert result == False and interval == 2
     
+    def test_passes_percentage_increase_requirements(self):
+        series = series=[100,50]
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=series, percentage_requirement=50) == True
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=series, percentage_requirement=51) == False
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=series, percentage_requirement=49) == True
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=series, percentage_requirement=101) == False
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=series, percentage_requirement=100) == False
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=[33.33, 50, 100, 0], percentage_requirement=1) == False
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=[26.67,281.82], percentage_requirement=26) == True
+        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=[26.67,281.82], percentage_requirement=26.68) == False
 
     def test_calculate_percentage_increase_for_data_set(self):
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list= [1,2,3]) == [100,50]
+        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list= [1,2,3]) == [100,50]; 
         assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list= [1,3]) == [200]
         assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list= [1,3, 4.5]) == [200,50]
         assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list= [-3,-2.2,4]) == [26.67,281.82]
