@@ -31,4 +31,5 @@ def validate_yahoo_query_ticker_objects():
 
 def validate_and_get_yahoo_query_ticker_objects():
     validate_yahoo_query_ticker_objects()
+
     

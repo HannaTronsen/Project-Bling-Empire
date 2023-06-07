@@ -81,8 +81,7 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
             and self.book_value is not None
             and self.total_debt is not None
         ):
-            numerator = self.book_value + self.total_debt
-            if numerator != 0:
+            if (numerator := self.book_value + self.total_debt) != 0:
                 return self.net_income_to_common / numerator
 
         return None
@@ -99,8 +98,7 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
                 ]
             ) == False
         ):
-            sum_expenses = self.expenses.sum()
-            if(sum_expenses != 0):
+            if (sum_expenses := self.expenses.sum()) != 0:
                 return self.net_income_to_common / (sum_expenses * 100)
 
         return False
