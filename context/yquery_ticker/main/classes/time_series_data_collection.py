@@ -48,7 +48,7 @@ class TimeSeriesDataCollection(ABC):
         return all(percent >= percentage_requirement for percent in series)
 
     @classmethod
-    def _calculate_percentage_increase_for_data_set(self, chart_list: list[Chart], attribute: str = None):
+    def _calculate_percentage_increase_for_data_set(self, chart_list: list[Chart], attribute: str = None) -> list:
         series = []
         for index in range(len(chart_list) - 1):
             i, j = self._get_attribute_values(index, chart_list, attribute) if attribute != None else (chart_list[index], chart_list[index + 1])
