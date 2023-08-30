@@ -8,6 +8,7 @@ from context.yquery_ticker.main.data_classes.financial_summary import FinancialS
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 
+
 class test_universal_stock_data(unittest.TestCase):
 
     def __init__(self, *args, **kwargs):

@@ -1,6 +1,6 @@
-from typing import Type
-from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from pandas import DataFrame
+
+from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.enums.data_frame import DataFrame as DF
 
 

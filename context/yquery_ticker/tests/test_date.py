@@ -3,12 +3,12 @@ import unittest
 from context.yquery_ticker.main.data_classes.charts import Date
 from context.yquery_ticker.main.enums.quarter import Quarter, QuarterId
 
+
 class test_date(unittest.TestCase):
 
     def __init__(self, *args, **kwargs):
         super(test_date, self).__init__(*args, **kwargs)
 
-    
     def test_convert_date(self):
         assert Date.convert_date(value=2022) == Date(year=2022)
         assert Date.convert_date(value="2022") == Date(year=2022)
