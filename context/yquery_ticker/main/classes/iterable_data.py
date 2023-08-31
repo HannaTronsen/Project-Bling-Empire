@@ -7,9 +7,10 @@ from context.yquery_ticker.main.classes.castable_data import CastableDataInterfa
 """
     This 'IterableDataInterface' makes it possible to more easily control the values
     being given to a data class and check for invalid values. Since data classes can 
-    indefinetily nested inside other data classes, we need to make checking all the nested fields recursively. 
+    indefinitely nested inside other data classes, we need to make checking all the nested fields recursively. 
 """
 SHOW_PRINT = False
+
 
 class IterableDataInterface(ABC):
 
@@ -25,12 +26,12 @@ class IterableDataInterface(ABC):
     def normalize_values(self):
         self.apply_local_rules()
         for field, value in self.__iter__():
-            value:IterableDataInterface
+            value: IterableDataInterface
             # This check for nested data classes and will perform
             # a recursive handling of null_values
             if is_dataclass(type(value)):
                 value.normalize_values()
-            else:     
+            else:
                 # Check for wrong types and cast if possible
                 value = self.cast_check(field=field, value=value)
 
