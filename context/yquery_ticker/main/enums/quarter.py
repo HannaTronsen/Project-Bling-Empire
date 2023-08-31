@@ -4,6 +4,7 @@ from context.yquery_ticker.main.const import NO_MATCHING_ENUM_MEMBER_STRING
 
 SHOW_PRINT = True
 
+
 class QuarterId(Enum):
     Q1 = "1Q"
     Q2 = "2Q"

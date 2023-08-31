@@ -1,9 +1,11 @@
 from dataclasses import dataclass
+from typing import Optional
 
 from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
 from .financial_summary import FinancialSummary
 from ..classes.iterable_data import IterableDataInterface
 from ..enums.country import Country
+
 
 @dataclass
 class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
@@ -14,12 +16,12 @@ class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
     sector: str
     website: str
     long_business_summary: str
-    financial_summary: FinancialSummary
+    financial_summary: Optional[FinancialSummary]
 
     @classmethod
     def mockk(cls):
         return GeneralStockInfo(
-            ticker= 'aapl',
+            ticker='aapl',
             company_name='Apple Inc',
             country=Country.US,
             industry='Computer',
@@ -28,5 +30,3 @@ class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
             long_business_summary='Long summary',
             financial_summary=None
         )
-
-    

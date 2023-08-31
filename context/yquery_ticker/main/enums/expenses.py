@@ -1,5 +1,6 @@
 from enum import Enum, auto
 
+
 class ExpensesFields(Enum):
     CAPITAL_EXPENDITURE = auto()
     INTEREST_EXPENSE = auto()

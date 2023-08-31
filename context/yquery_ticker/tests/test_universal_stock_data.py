@@ -14,50 +14,50 @@ class test_universal_stock_data(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         super(test_universal_stock_data, self).__init__(*args, **kwargs)
 
+    @staticmethod
     def assert_price_to_cash_flow(
-        self,
-        stock: FinancialData,
-        price: float,
-        cash_flow: float,
-        expected: float
+            stock: FinancialData,
+            price: float,
+            cash_flow: float,
+            expected: float
     ):
         stock.price = price
         stock.set_cash_flow(cash_flow=cash_flow)
         assert stock.calculate_price_to_cashflow() == expected
 
+    @staticmethod
     def assert_return_on_invested_capital(
-        self,
-        stock: FinancialData, 
-        net_income_to_common: float,
-        book_value: float,
-        total_debt: float,
-        expected: float  
-    ) :
+            stock: FinancialData,
+            net_income_to_common: float,
+            book_value: float,
+            total_debt: float,
+            expected: float
+    ):
         stock.net_income_to_common = net_income_to_common
         stock.book_value = book_value
         stock.total_debt = total_debt
         result = stock.calculate_return_on_invested_capital()
-       
+
         if result is not None:
             assert round(result, 2) == expected
-        else: 
+        else:
             assert result == expected
-    
+
+    @staticmethod
     def assert_return_on_investment(
-        self,
-        stock: FinancialData,
-        expenses: Expenses,
-        expected: float
-    ) :
+            stock: FinancialData,
+            expenses: Expenses,
+            expected: float
+    ):
         stock.net_income_to_common = 100
         stock.expenses = expenses
         result = stock.calculate_return_on_investment()
-       
+
         if result is not False:
             assert round(result, 2) == expected
-        else: 
+        else:
             assert result == expected
-    
+
     def test_general_stock_info(self):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo(
@@ -89,8 +89,8 @@ class test_universal_stock_data(unittest.TestCase):
         self.assertIsNone(stock.financial_summary.previous_close)
         self.assertIsNone(stock.financial_summary.market_cap)
         self.assertIsNone(stock.financial_summary.currency)
-        self.assertIsNone(stock.financial_summary.dividend_rate)       
-        
+        self.assertIsNone(stock.financial_summary.dividend_rate)
+
     def test_financial_data(self):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
@@ -115,7 +115,7 @@ class test_universal_stock_data(unittest.TestCase):
                 price_to_book=0,
                 return_on_assets=0,
                 return_on_equity=0,
-                net_income_to_common=0, 
+                net_income_to_common=0,
                 earnings_growth=0,
                 book_value=0,
                 price_to_earnings=PriceToEarnings(
@@ -169,17 +169,13 @@ class test_universal_stock_data(unittest.TestCase):
         ).financial_data
 
         stock.free_cash_flow = 10
-        cash_flow_type = CashFlowType.OPERATING_CASH_FLOW
-        stock.set_cash_flow(cash_flow=100, cash_flow_type=cash_flow_type)
-        assert stock.get_cash_flow(cash_flow_type=cash_flow_type) == stock.operating_cash_flow 
+        stock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.OPERATING_CASH_FLOW)
+        assert stock.get_cash_flow(cash_flow_type=CashFlowType.OPERATING_CASH_FLOW) == stock.operating_cash_flow
 
-        
         stock.operating_cash_flow = 100
-        cash_flow_type = CashFlowType.FREE_CASH_FLOW
         stock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.FREE_CASH_FLOW)
         assert stock.get_cash_flow(cash_flow_type=CashFlowType.FREE_CASH_FLOW) == stock.free_cash_flow
-    
-    
+
     def test_calculate_return_on_investments(self):
         stock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
@@ -189,54 +185,54 @@ class test_universal_stock_data(unittest.TestCase):
         ).financial_data
 
         self.assert_return_on_invested_capital(
-            stock=stock, 
-            net_income_to_common=1000, 
+            stock=stock,
+            net_income_to_common=1000,
             book_value=2000,
             total_debt=1000,
             expected=0.33
         )
         self.assert_return_on_invested_capital(
-            stock=stock, 
-            net_income_to_common=0, 
+            stock=stock,
+            net_income_to_common=0,
             book_value=2000,
             total_debt=1000,
             expected=0.0
         )
         self.assert_return_on_invested_capital(
-            stock=stock, 
-            net_income_to_common=1000, 
+            stock=stock,
+            net_income_to_common=1000,
             book_value=0,
             total_debt=0,
             expected=None
         )
         self.assert_return_on_invested_capital(
-            stock=stock, 
-            net_income_to_common=0, 
+            stock=stock,
+            net_income_to_common=0,
             book_value=0,
             total_debt=0,
             expected=None
         )
         self.assert_return_on_invested_capital(
-            stock=stock, 
-            net_income_to_common=None, 
+            stock=stock,
+            net_income_to_common=None,
             book_value=None,
             total_debt=None,
             expected=None
         )
         self.assert_return_on_invested_capital(
-            stock=stock, 
-            net_income_to_common=-1000, 
+            stock=stock,
+            net_income_to_common=-1000,
             book_value=2000,
             total_debt=1000,
             expected=-0.33
         )
         self.assert_return_on_invested_capital(
-            stock=stock, 
-            net_income_to_common=1000, 
+            stock=stock,
+            net_income_to_common=1000,
             book_value=2000,
             total_debt=-1000,
             expected=1.00
-        ) 
+        )
 
     def test_calculate_return_on_investment(self):
         stock = UniversalStockDataClass(
@@ -247,8 +243,8 @@ class test_universal_stock_data(unittest.TestCase):
         ).financial_data
 
         self.assert_return_on_investment(
-            stock=stock, 
-            expenses= Expenses(
+            stock=stock,
+            expenses=Expenses(
                 capital_expenditure=0,
                 interest_expense=None,
                 interest_expense_non_operating=0,
@@ -257,8 +253,8 @@ class test_universal_stock_data(unittest.TestCase):
             expected=False
         )
         self.assert_return_on_investment(
-            stock=stock, 
-            expenses= Expenses(
+            stock=stock,
+            expenses=Expenses(
                 capital_expenditure=0,
                 interest_expense=0,
                 interest_expense_non_operating=0,
@@ -267,8 +263,8 @@ class test_universal_stock_data(unittest.TestCase):
             expected=False
         )
         self.assert_return_on_investment(
-            stock=stock, 
-            expenses= Expenses(
+            stock=stock,
+            expenses=Expenses(
                 capital_expenditure=0,
                 interest_expense=1,
                 interest_expense_non_operating=0,
@@ -299,36 +295,36 @@ class test_universal_stock_data(unittest.TestCase):
 
     def test_sum_expenses(self):
         assert Expenses(
-            capital_expenditure = 1,
-            interest_expense= 0,
-            interest_expense_non_operating = 0,
-            total_other_finance_cost = 0
+            capital_expenditure=1,
+            interest_expense=0,
+            interest_expense_non_operating=0,
+            total_other_finance_cost=0
         ).sum() == 1
         assert Expenses(
-            capital_expenditure = 1,
-            interest_expense= -2,
-            interest_expense_non_operating = 0,
-            total_other_finance_cost = 0
+            capital_expenditure=1,
+            interest_expense=-2,
+            interest_expense_non_operating=0,
+            total_other_finance_cost=0
         ).sum() == -1
-        assert  Expenses(
-            capital_expenditure = 1,
-            interest_expense= 1,
-            interest_expense_non_operating = 2,
-            total_other_finance_cost = 0
+        assert Expenses(
+            capital_expenditure=1,
+            interest_expense=1,
+            interest_expense_non_operating=2,
+            total_other_finance_cost=0
         ).sum(exclude=[ExpensesFields.INTEREST_EXPENSE_NON_OPERATING]) == 2
         assert Expenses(
-            capital_expenditure = 1,
-            interest_expense= 1,
-            interest_expense_non_operating = 3,
-            total_other_finance_cost = 2
+            capital_expenditure=1,
+            interest_expense=1,
+            interest_expense_non_operating=3,
+            total_other_finance_cost=2
         ).sum(exclude=[ExpensesFields.TOTAL_OTHER_FINANCE_COST]) == 5
- 
+
     def test_type_checking(self):
         expenses: Expenses = Expenses(
-            capital_expenditure = 1.0,
-            interest_expense= "1.01",
-            interest_expense_non_operating = "Zero",
-            total_other_finance_cost = None
+            capital_expenditure=1.0,
+            interest_expense="1.01",
+            interest_expense_non_operating="Zero",
+            total_other_finance_cost=None
         ).normalize_values()
 
         self.assertIsNotNone(expenses.interest_expense)
@@ -359,7 +355,7 @@ class test_universal_stock_data(unittest.TestCase):
                 price_to_book=0,
                 return_on_assets=0,
                 return_on_equity=0,
-                net_income_to_common=0, 
+                net_income_to_common=0,
                 earnings_growth=0,
                 book_value=0,
                 price_to_earnings=PriceToEarnings(

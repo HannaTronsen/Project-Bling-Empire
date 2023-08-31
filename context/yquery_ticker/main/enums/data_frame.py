@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class DataFrame(Enum):
     AS_OF_DATE = ('asOfDate', str)
 

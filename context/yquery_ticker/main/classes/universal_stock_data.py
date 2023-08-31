@@ -39,7 +39,7 @@ class UniversalStockDataClass():
     def get_debt_data(self):
         return {
             DictKey.TOTAL_DEBT: self.financial_data.total_debt,
-            DictKey.DEBT_TO_EQUIT: self.financial_data.debt_to_equity
+            DictKey.DEBT_TO_EQUITY: self.financial_data.debt_to_equity
         }
     
     def get_margins_data(self):
@@ -61,7 +61,7 @@ class UniversalStockDataClass():
     
     def get_financial_ratio_data(self):
         return {
-            DictKey.DEBT_TO_EQUIT: self.financial_data.debt_to_equity,
+            DictKey.DEBT_TO_EQUITY: self.financial_data.debt_to_equity,
             DictKey.PRICE_TO_CASH_FLOW: self.financial_data.calculate_price_to_cashflow(),
             DictKey.ENTERPRISE_TO_EBITDA: self.financial_data.enterprise_to_ebitda,
             DictKey.PRICE_TO_BOOK: self.financial_data.price_to_book,

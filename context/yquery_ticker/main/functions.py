@@ -4,6 +4,7 @@ from const import (BLACKLISTED_STOCK_TICKERS_PATH, CONST_COLLECTION)
 
 
 def put_yahoo_query_ticker_object(ticker):
+    # TODO
     pass
 
 
