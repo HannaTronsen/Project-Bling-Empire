@@ -13,7 +13,7 @@ from context.yquery_ticker.main.const import CASTABLE_ERROR_STRING, NO_CASTABLE_
 SHOW_PRINT = False
 
 
-class CastableDataInterface():
+class CastableDataInterface:
 
     @staticmethod
     def _cast(field_type_name, value, cast):

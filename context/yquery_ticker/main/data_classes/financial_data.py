@@ -10,44 +10,44 @@ from ..classes.iterable_data import IterableDataInterface
 
 @dataclass
 class PriceToEarnings(IterableDataInterface, CastableDataInterface):
-    trailing_pe: float
-    forward_pe: float
+    trailing_pe: Optional[float]
+    forward_pe: Optional[float]
 
 
 @dataclass
 class EarningsPerShare(IterableDataInterface, CastableDataInterface):
-    trailing_eps: float
-    forward_eps: float
+    trailing_eps: Optional[float]
+    forward_eps: Optional[float]
 
 
 @dataclass
 class FinancialData(IterableDataInterface, CastableDataInterface):
-    price: float
-    total_revenue: float
-    revenue_per_share: float
-    revenue_growth: float
-    total_debt: Optional[float]
-    debt_to_equity: float
-    gross_profit_margins: float
-    operating_margins: float
-    profit_margins: float
-    dividend_rate: float
-    dividend_yield: float
-    five_year_avg_dividend_yield: float
-    trailing_annual_dividend_rate: float
-    trailing_annual_dividend_yield: float
-    free_cash_flow: float
-    operating_cash_flow: float
-    enterprise_to_ebitda: float
-    price_to_book: float
+    price: Optional[float]
+    total_revenue: Optional[float]
+    revenue_per_share: Optional[float]
+    revenue_growth: Optional[float]
+    total_debt: Optional[Optional[float]]
+    debt_to_equity: Optional[float]
+    gross_profit_margins: Optional[float]
+    operating_margins: Optional[float]
+    profit_margins: Optional[float]
+    dividend_rate: Optional[float]
+    dividend_yield: Optional[float]
+    five_year_avg_dividend_yield: Optional[float]
+    trailing_annual_dividend_rate: Optional[float]
+    trailing_annual_dividend_yield: Optional[float]
+    free_cash_flow: Optional[float]
+    operating_cash_flow: Optional[float]
+    enterprise_to_ebitda: Optional[float]
+    price_to_book: Optional[float]
     price_to_earnings: Optional[PriceToEarnings]
     earnings_per_share: Optional[EarningsPerShare]
-    enterprise_to_revenue: float
-    return_on_equity: float
-    return_on_assets: float
-    net_income_to_common: float  # net earnings
-    earnings_growth: float
-    book_value: float
+    enterprise_to_revenue: Optional[float]
+    return_on_equity: Optional[float]
+    return_on_assets: Optional[float]
+    net_income_to_common: Optional[float]  # net earnings
+    earnings_growth: Optional[float]
+    book_value: Optional[float]
     expenses: Optional[Expenses]
 
     def apply_local_rules(self):

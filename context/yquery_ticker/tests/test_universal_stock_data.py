@@ -1,4 +1,5 @@
 import unittest
+from typing import Optional
 from context.yquery_ticker.main.classes.data_frame_data import DataFrameData
 from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
 from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
@@ -17,9 +18,9 @@ class test_universal_stock_data(unittest.TestCase):
     @staticmethod
     def assert_price_to_cash_flow(
             stock: FinancialData,
-            price: float,
-            cash_flow: float,
-            expected: float
+            price: Optional[float],
+            cash_flow: Optional[float],
+            expected: Optional[float]
     ):
         stock.price = price
         stock.set_cash_flow(cash_flow=cash_flow)
@@ -28,10 +29,10 @@ class test_universal_stock_data(unittest.TestCase):
     @staticmethod
     def assert_return_on_invested_capital(
             stock: FinancialData,
-            net_income_to_common: float,
-            book_value: float,
-            total_debt: float,
-            expected: float
+            net_income_to_common: Optional[float],
+            book_value: Optional[float],
+            total_debt: Optional[float],
+            expected: Optional[float]
     ):
         stock.net_income_to_common = net_income_to_common
         stock.book_value = book_value
@@ -47,7 +48,7 @@ class test_universal_stock_data(unittest.TestCase):
     def assert_return_on_investment(
             stock: FinancialData,
             expenses: Expenses,
-            expected: float
+            expected: Optional[float]
     ):
         stock.net_income_to_common = 100
         stock.expenses = expenses
@@ -63,10 +64,10 @@ class test_universal_stock_data(unittest.TestCase):
             general_stock_info=GeneralStockInfo(
                 ticker='aapl',
                 company_name='Apple Inc',
-                country=None,
+                country=None,  # type: ignore
                 industry='Consumer Electronics',
                 sector='Technology',
-                website='http://www.apple.com',
+                website='https://www.apple.com',
                 long_business_summary='N/A',
                 financial_summary=FinancialSummary(
                     previous_close=None,

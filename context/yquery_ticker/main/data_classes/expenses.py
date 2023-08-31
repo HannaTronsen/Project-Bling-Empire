@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 import dataclasses
+from typing import Optional
+
 from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
 from context.yquery_ticker.main.enums.expenses import ExpensesFields
 from ..classes.iterable_data import IterableDataInterface
@@ -7,10 +9,10 @@ from ..classes.iterable_data import IterableDataInterface
 
 @dataclass
 class Expenses(IterableDataInterface, CastableDataInterface):
-    capital_expenditure: float
-    interest_expense: float
-    interest_expense_non_operating: float
-    total_other_finance_cost: float
+    capital_expenditure: Optional[float]
+    interest_expense: Optional[float]
+    interest_expense_non_operating: Optional[float]
+    total_other_finance_cost: Optional[float]
 
     @staticmethod
     def check_has_invalid_value(values):
