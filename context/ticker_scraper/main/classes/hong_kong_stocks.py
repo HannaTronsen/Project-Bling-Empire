@@ -1,20 +1,15 @@
 import pandas as pd
 from .stock_collection import StockCollectionClass
 
+
 class HongKongStocksClass(StockCollectionClass):
 
-    def __init__(
-        self,
-        stock_index_name,
-        source,
-        table_index_range,
-        column,
-        stock_ticker_suffixes
-    ):
+    def __init__(self, stock_index_name, source, table_index_range, column, stock_ticker_suffixes):
         """
         :param table_index_range: The range of indices of the stock data tables.
         :param stock_ticker_suffixes: The possible stock ticker endings required by yquery.
         """
+        super().__init__(stock_index_name, source, column)
         self.set_attributes(stock_index_name, source, column)
         self.table_index_range = table_index_range
         self.stock_ticker_suffixes = stock_ticker_suffixes
@@ -34,7 +29,7 @@ class HongKongStocksClass(StockCollectionClass):
         self.data_frame_to_csv(df=self.modify_tickers(df))
 
     def modify_tickers(self, df):
-        hk = self.stock_ticker_suffixes[0]
+        HK = self.stock_ticker_suffixes[0]
         df[0] = df[0].str[:10]
         df[0] = df[0].str.replace(r'(\D+)', '', regex=True)
-        return df[0].str.zfill(4) + hk
+        return df[0].str.zfill(4) + HK

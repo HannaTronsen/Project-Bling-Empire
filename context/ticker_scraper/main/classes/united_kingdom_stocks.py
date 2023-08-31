@@ -1,18 +1,13 @@
 import pandas as pd
 from .stock_collection import StockCollectionClass
 
+
 class UnitedKingdomStocksClass(StockCollectionClass):
 
-    def __init__(
-        self,
-        stock_index_name,
-        source,
-        table_index,
-        column,
-        stock_ticker_suffixes
-    ):
+    def __init__(self, stock_index_name, source, table_index, column, stock_ticker_suffixes):
         # :param table_index: The index of the stock data table.
         # :param stock_ticker_suffixes: The possible stock ticker endings required by yquery
+        super().__init__(stock_index_name, source, column)
         self.set_attributes(stock_index_name, source, column)
         self.table_index = table_index
         self.stock_ticker_suffixes = stock_ticker_suffixes

@@ -26,7 +26,7 @@ class test_yquery(unittest.TestCase):
 
     def test_history(self):
         try:
-            self.ticker.history
+            self.ticker.history()
         except Exception as e:
             self.throw_generic_error("test_history()", e)
         self.assertIsNone(None)
@@ -89,7 +89,7 @@ class test_yquery(unittest.TestCase):
             self.throw_generic_error("test_news()", e)
         self.assertIsNone(None)
 
-    def throw_generic_error(self, methodName, e):
+    def throw_generic_error(self, method_name, e):
         self.fail(
-            f'{self.error_prefix} {methodName} {self.error_suffix} {e}'
+            f'{self.error_prefix} {method_name} {self.error_suffix} {e}'
         )
