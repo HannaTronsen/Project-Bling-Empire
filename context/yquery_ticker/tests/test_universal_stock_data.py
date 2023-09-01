@@ -1,13 +1,13 @@
 import unittest
 from typing import Optional
-from context.yquery_ticker.main.classes.data_frame_data import DataFrameData
-from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
-from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
-from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
-from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
-from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
-from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
-from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
+from ..main.classes.data_frame_data import DataFrameData
+from ..main.classes.historical_earnings import HistoricalEarnings
+from ..main.classes.universal_stock_data import UniversalStockDataClass
+from ..main.data_classes.expenses import Expenses, ExpensesFields
+from ..main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
+from ..main.data_classes.financial_summary import FinancialSummary
+from ..main.data_classes.general_stock_info import GeneralStockInfo
+from ..main.enums.cash_flow_type import CashFlowType
 
 originalMockStock = Optional[
     UniversalStockDataClass(
