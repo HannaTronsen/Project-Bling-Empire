@@ -12,12 +12,7 @@ class StockCollectionClass(ABC):
         :param stock_index_name: The name of the stock collection.
         :param source: The source of the stock data.
         :param column: The column where the tickers are located.
-
-        :def set_attributes: Results in less code for each subclass of this class
         """
-        self.set_attributes(stock_index_name, source, column)
-
-    def set_attributes(self, stock_index_name, source, column):
         self.stock_index_name = stock_index_name
         self.source = source
         self.file_name = self.stock_index_name + FILE_NAME_SUFFIX

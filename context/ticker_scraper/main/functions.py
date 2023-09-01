@@ -1,10 +1,10 @@
 import os
+from .const import STOCK_COLLECTIONS_PATH
 from const import (
     AUTO_GENERATED_FILE_STRING,
     BLACKLISTED_STOCK_TICKERS_PATH,
     CONST_COLLECTION
 )
-from context.ticker_scraper.main.const import STOCK_COLLECTIONS_PATH
 
 
 def initialize_environment():

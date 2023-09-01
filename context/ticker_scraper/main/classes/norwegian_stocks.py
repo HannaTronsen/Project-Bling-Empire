@@ -9,7 +9,6 @@ class NorwegianStocksClass(StockCollectionClass):
         :param stock_ticker_suffixes: The possible stock ticker endings required by yquery.
         """
         super().__init__(stock_index_name, source, column)
-        self.set_attributes(stock_index_name, source, column)
         self.table_index = table_index
         self.stock_ticker_suffixes = stock_ticker_suffixes
 
