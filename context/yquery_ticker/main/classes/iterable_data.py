@@ -1,3 +1,4 @@
+import dataclasses
 from abc import ABC
 from dataclasses import is_dataclass
 from context.yquery_ticker.main.const import INVALID_FIELD_STRING
@@ -12,7 +13,11 @@ from context.yquery_ticker.main.classes.castable_data import CastableDataInterfa
 SHOW_PRINT = False
 
 
+@dataclasses.dataclass
 class IterableDataInterface(ABC):
+
+    def __init__(self):
+        self.__dataclass_fields__ = None
 
     def apply_local_rules(self):
         pass
