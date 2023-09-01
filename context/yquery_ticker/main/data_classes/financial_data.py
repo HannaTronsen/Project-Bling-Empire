@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from typing import Optional
-
 from ..classes.castable_data import CastableDataInterface
 from ..const import DEFAULT_CASH_FLOW_METRIC
 from ..data_classes.expenses import Expenses

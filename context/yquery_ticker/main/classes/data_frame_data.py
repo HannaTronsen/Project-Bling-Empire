@@ -1,7 +1,7 @@
 from pandas import DataFrame
 
-from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
-from context.yquery_ticker.main.enums.data_frame import DataFrame as DF
+from ..classes.time_series_data_collection import TimeSeriesDataCollection
+from ..enums.data_frame import DataFrame as DF
 
 
 class DataFrameData(TimeSeriesDataCollection):

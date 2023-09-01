@@ -1,9 +1,9 @@
 import dataclasses
 from abc import ABC
 from dataclasses import is_dataclass
-from context.yquery_ticker.main.const import INVALID_FIELD_STRING
+from ..classes.castable_data import CastableDataInterface
+from ..const import INVALID_FIELD_STRING
 
-from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
 
 """
     This 'IterableDataInterface' makes it possible to more easily control the values

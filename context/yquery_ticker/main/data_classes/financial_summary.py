@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from typing import Optional
-
 from ..classes.castable_data import CastableDataInterface
 from ..classes.iterable_data import IterableDataInterface
 from ..enums.currency import Currency

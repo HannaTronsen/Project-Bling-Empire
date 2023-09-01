@@ -1,9 +1,9 @@
 from typing import Type
-from context.yquery_ticker.main.classes.data_frame_data import DataFrameData
-from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
-from context.yquery_ticker.main.data_classes.financial_data import FinancialData
-from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
-from context.yquery_ticker.main.utils.dict_key_enum import DictKey
+from ..classes.data_frame_data import DataFrameData
+from ..classes.historical_earnings import HistoricalEarnings
+from ..data_classes.financial_data import FinancialData
+from ..data_classes.general_stock_info import GeneralStockInfo
+from ..utils.dict_key_enum import DictKey
 
 
 class UniversalStockDataClass:

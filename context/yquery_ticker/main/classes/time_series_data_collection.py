@@ -1,11 +1,11 @@
 from abc import ABC
 from typing import Any
-from context.yquery_ticker.main.const import (
+from ..data_classes.charts import Chart
+from ..const import (
     ATTRIBUTE_ERROR_STRING,
-    INVALID_LIST_LENGTH_STRING, 
+    INVALID_LIST_LENGTH_STRING,
     INVALID_VALUE_COMPARISON
 )
-from context.yquery_ticker.main.data_classes.charts import Chart
 
 
 class TimeSeriesDataCollection(ABC):

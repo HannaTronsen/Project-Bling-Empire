@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from context.yquery_ticker.main.data_classes.date import Date
+from ..data_classes.date import Date
 
 
 @dataclass

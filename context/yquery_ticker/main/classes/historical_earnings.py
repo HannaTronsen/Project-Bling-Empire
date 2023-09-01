@@ -1,7 +1,7 @@
 from typing import Type
-from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
-from context.yquery_ticker.main.const import WRONG_TYPE_STRING
-from context.yquery_ticker.main.data_classes.charts import (
+from ..classes.time_series_data_collection import TimeSeriesDataCollection
+from ..const import WRONG_TYPE_STRING
+from ..data_classes.charts import (
     Chart,
     QuarterlyEarningsDataChart,
     QuarterlyFinancialsDataChart,

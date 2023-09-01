@@ -1,13 +1,13 @@
 import unittest
 from typing import Optional
-from ..main.classes.data_frame_data import DataFrameData
-from ..main.classes.historical_earnings import HistoricalEarnings
-from ..main.classes.universal_stock_data import UniversalStockDataClass
-from ..main.data_classes.expenses import Expenses, ExpensesFields
-from ..main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
-from ..main.data_classes.financial_summary import FinancialSummary
-from ..main.data_classes.general_stock_info import GeneralStockInfo
-from ..main.enums.cash_flow_type import CashFlowType
+from context.yquery_ticker.main.classes.data_frame_data import DataFrameData
+from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
+from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
+from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
+from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
+from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
+from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
+from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 
 originalMockStock = Optional[
     UniversalStockDataClass(
@@ -84,12 +84,12 @@ class test_universal_stock_data(unittest.TestCase):
                 financial_summary=FinancialSummary(
                     previous_close=None,
                     open=0.0,
-                    dividend_rate="",
+                    dividend_rate="",  # type: ignore
                     beta=0.0,
                     trailing_PE=0.0,
                     forward_PE=0.0,
-                    market_cap="N/A",
-                    currency="N/A"
+                    market_cap="N/A",  # type: ignore
+                    currency="N/A"  # type: ignore
                 )
             ),
             financial_data=FinancialData.mockk(),
@@ -110,12 +110,12 @@ class test_universal_stock_data(unittest.TestCase):
             financial_data=FinancialData(
                 price=10,
                 total_revenue=0.00000,
-                revenue_per_share="",
-                revenue_growth="N/A",
+                revenue_per_share="",  # type: ignore
+                revenue_growth="N/A",  # type: ignore
                 total_debt=-1,
                 debt_to_equity=0,
                 profit_margins=3,
-                gross_profit_margins="N/A",
+                gross_profit_margins="N/A",  # type: ignore
                 operating_margins=None,
                 dividend_rate=0,
                 dividend_yield=0,
@@ -132,12 +132,12 @@ class test_universal_stock_data(unittest.TestCase):
                 earnings_growth=0,
                 book_value=0,
                 price_to_earnings=PriceToEarnings(
-                    trailing_pe="N/A",
+                    trailing_pe="N/A",  # type: ignore
                     forward_pe=2
                 ),
                 earnings_per_share=EarningsPerShare(
                     trailing_eps=2,
-                    forward_eps="N/A"
+                    forward_eps="N/A"  # type: ignore
                 ),
                 enterprise_to_revenue=0,
                 expenses=None
@@ -171,7 +171,8 @@ class test_universal_stock_data(unittest.TestCase):
 
         self.mockStock.free_cash_flow = 10
         self.mockStock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.OPERATING_CASH_FLOW)
-        assert self.mockStock.get_cash_flow(cash_flow_type=CashFlowType.OPERATING_CASH_FLOW) == self.mockStock.operating_cash_flow
+        assert self.mockStock.get_cash_flow(
+            cash_flow_type=CashFlowType.OPERATING_CASH_FLOW) == self.mockStock.operating_cash_flow
 
         self.mockStock.operating_cash_flow = 100
         self.mockStock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.FREE_CASH_FLOW)
@@ -311,8 +312,8 @@ class test_universal_stock_data(unittest.TestCase):
     def test_type_checking(self):
         expenses: Expenses = Expenses(
             capital_expenditure=1.0,
-            interest_expense="1.01",
-            interest_expense_non_operating="Zero",
+            interest_expense="1.01",  # type: ignore
+            interest_expense_non_operating="Zero",  # type: ignore
             total_other_finance_cost=None
         ).normalize_values()
 
@@ -326,12 +327,12 @@ class test_universal_stock_data(unittest.TestCase):
             financial_data=FinancialData(
                 price=10,
                 total_revenue=0.00000,
-                revenue_per_share="",
-                revenue_growth="N/A",
+                revenue_per_share="",  # type: ignore
+                revenue_growth="N/A",  # type: ignore
                 total_debt=-1,
                 debt_to_equity=0,
                 profit_margins=3,
-                gross_profit_margins="n/a",
+                gross_profit_margins="n/a",  # type: ignore
                 operating_margins=None,
                 dividend_rate=0,
                 dividend_yield=0,
@@ -348,12 +349,12 @@ class test_universal_stock_data(unittest.TestCase):
                 earnings_growth=0,
                 book_value=0,
                 price_to_earnings=PriceToEarnings(
-                    trailing_pe="N/A",
-                    forward_pe="2.0"
+                    trailing_pe="N/A",  # type: ignore
+                    forward_pe="2.0"  # type: ignore
                 ),
                 earnings_per_share=EarningsPerShare(
                     trailing_eps=10,
-                    forward_eps="Test"
+                    forward_eps="Test"  # type: ignore
                 ),
                 enterprise_to_revenue=10,
                 expenses=None,
