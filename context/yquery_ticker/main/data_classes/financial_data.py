@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 from typing import Optional
 
-from context.yquery_ticker.main.classes.castable_data import CastableDataInterface
-from context.yquery_ticker.main.const import DEFAULT_CASH_FLOW_METRIC
-from context.yquery_ticker.main.data_classes.expenses import Expenses
-from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
+from ..classes.castable_data import CastableDataInterface
+from ..const import DEFAULT_CASH_FLOW_METRIC
+from ..data_classes.expenses import Expenses
+from ..enums.cash_flow_type import CashFlowType
 from ..classes.iterable_data import IterableDataInterface
 
 
@@ -85,16 +85,15 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
         return None
 
     def calculate_return_on_investment(self):
+        has_invalid_expenses_value = self.expenses.has_invalid_value(
+            self.expenses.capital_expenditure,
+            self.expenses.interest_expense,
+            self.expenses.interest_expense_non_operating,
+            self.expenses.total_other_finance_cost
+        )
         if (
                 self.net_income_to_common is not None
-                and self.expenses.check_has_invalid_value(
-            [
-                self.expenses.capital_expenditure,
-                self.expenses.interest_expense,
-                self.expenses.interest_expense_non_operating,
-                self.expenses.total_other_finance_cost
-            ]
-        ) == False
+                and not has_invalid_expenses_value
         ):
             if (sum_expenses := self.expenses.sum()) != 0:
                 return self.net_income_to_common / (sum_expenses * 100)

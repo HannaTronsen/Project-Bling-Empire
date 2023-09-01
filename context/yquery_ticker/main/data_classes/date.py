@@ -1,8 +1,8 @@
 import re
 from dataclasses import dataclass
 from typing import Any
-from context.yquery_ticker.main.const import QUARTER_REGEX, QUARTER_YEAR_REGEX, TIME_STAMP_REGEX, YEAR_REGEX
-from context.yquery_ticker.main.enums.quarter import Month, Quarter
+from ..const import QUARTER_REGEX, QUARTER_YEAR_REGEX, TIME_STAMP_REGEX, YEAR_REGEX
+from ..enums.quarter import Month, Quarter
 import datetime
 
 

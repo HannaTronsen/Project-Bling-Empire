@@ -1,6 +1,6 @@
 from enum import Enum
 
-from context.yquery_ticker.main.const import NO_MATCHING_ENUM_MEMBER_STRING
+from ..const import NO_MATCHING_ENUM_MEMBER_STRING
 
 SHOW_PRINT = True
 
