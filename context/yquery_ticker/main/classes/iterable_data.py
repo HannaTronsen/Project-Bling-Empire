@@ -3,8 +3,6 @@ from abc import ABC
 from dataclasses import is_dataclass
 from ..classes.castable_data import CastableDataInterface
 from ..const import INVALID_FIELD_STRING
-
-
 """
     This 'IterableDataInterface' makes it possible to more easily control the values
     being given to a data class and check for invalid values. Since data classes can 
@@ -25,8 +23,15 @@ class IterableDataInterface(ABC):
     def cast_check(self: CastableDataInterface, field, value):
         field_type = self.__annotations__.get(field)
         if field_type is not isinstance(value, field_type):
-            value = self.try_to_cast(field_type_name=field_type.__name__, value=value)
-        return value
+            # Only relevant if we deal with Optionals
+            underlying_type = None
+            if hasattr(field_type, '__args__') and field_type.__args__:
+                underlying_type = field_type.__args__[0].__name__
+            return self.try_to_cast(
+                field_type_name=field_type.__name__,
+                underlying_type=underlying_type,
+                value=value,
+            )
 
     def normalize_values(self):
         self.apply_local_rules()

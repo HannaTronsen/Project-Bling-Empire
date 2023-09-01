@@ -9,15 +9,6 @@ from context.yquery_ticker.main.data_classes.financial_summary import FinancialS
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 
-originalMockStock = Optional[
-    UniversalStockDataClass(
-        general_stock_info=GeneralStockInfo.mockk(),
-        financial_data=FinancialData.mockk(),
-        historical_earnings=HistoricalEarnings.mockk(),
-        test_data_frame_data=DataFrameData.mockk(),
-    ).financial_data
-]
-
 
 class test_universal_stock_data(unittest.TestCase):
 
@@ -25,7 +16,12 @@ class test_universal_stock_data(unittest.TestCase):
         super(test_universal_stock_data, self).__init__(*args, **kwargs)
 
     def setUp(self):
-        self.mockStock = originalMockStock
+        self.mockStock = UniversalStockDataClass(
+            general_stock_info=GeneralStockInfo.mockk(),
+            financial_data=FinancialData.mockk(),
+            historical_earnings=HistoricalEarnings.mockk(),
+            test_data_frame_data=DataFrameData.mockk(),
+        ).financial_data.mockk()
 
     @staticmethod
     def assert_price_to_cash_flow(
@@ -374,6 +370,6 @@ class test_universal_stock_data(unittest.TestCase):
         self.mockStock.debt_to_equity = "Test"
         self.mockStock.normalize_values()
 
-        assert stock.price == 10.0
-        self.assertIsNone(stock.five_year_avg_dividend_yield)
-        self.assertIsNone(stock.debt_to_equity)
+        assert self.mockStock.price == 10.0
+        self.assertIsNone(self.mockStock.five_year_avg_dividend_yield)
+        self.assertIsNone(self.mockStock.debt_to_equity)
