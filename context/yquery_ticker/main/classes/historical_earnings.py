@@ -18,7 +18,7 @@ class HistoricalEarnings(TimeSeriesDataCollection):
     def convert_json_to_model_list(cls, ticker, data, model: Type[Chart]) -> list[Chart]:
         if model in [QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart]:
             data = model.get_section_from_json_path(data[ticker])
-            return [model.convert_date(item) for item in data]
+            return [model(**item).convert_date() for item in data]  # type: ignore
         raise TypeError(WRONG_TYPE_STRING.format(type=model))
 
     @classmethod

@@ -3,13 +3,13 @@ import unittest
 from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
+from context.yquery_ticker.main.enums.quarter import Quarter
 from context.yquery_ticker.main.data_classes.charts import (
     Date,
     QuarterlyEarningsDataChart,
     QuarterlyFinancialsDataChart,
     YearlyFinancialsDataChart
 )
-from context.yquery_ticker.main.enums.quarter import Quarter
 
 
 class test_historical_earnings(unittest.TestCase):
@@ -45,7 +45,7 @@ class test_historical_earnings(unittest.TestCase):
             QuarterlyEarningsDataChart(date=Date(year=2023, quarter=Quarter.FIRST_QUARTER), actual=1.52, estimate=1.43)
         ]
         self.quarterly_financials_data_chart_expected_list = [
-            QuarterlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.SECOND_QUARTER), revenue= 82959000000, earnings=19442000000),
+            QuarterlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.SECOND_QUARTER), revenue=82959000000, earnings=19442000000),
             QuarterlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.THIRD_QUARTER),  revenue=90146000000, earnings=20721000000),
             QuarterlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.FOURTH_QUARTER),  revenue=117154000000, earnings=29998000000),
             QuarterlyFinancialsDataChart(date=Date(year=2023, quarter=Quarter.SECOND_QUARTER),  revenue=0, earnings=0,)
@@ -61,15 +61,15 @@ class test_historical_earnings(unittest.TestCase):
             YearlyFinancialsDataChart(date=Date(year=2020), revenue=None, earnings=""),
         ]
         self.negative_values_list = [
-            YearlyFinancialsDataChart(date=Date(year=2019), revenue= 0, earnings=0),
+            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
             YearlyFinancialsDataChart(date=Date(year=2020),  revenue=-50, earnings=50),
         ]
         self.one_value_list = [
-            YearlyFinancialsDataChart(date=Date(year=2019), revenue= 0, earnings=0),
+            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
         ]
 
     def test_convert_json_to_model_list(self):
-        assert HistoricalEarnings.convert_json_to_model_list(ticker=self.ticker,data=self.data, model=QuarterlyEarningsDataChart) == self.quarterly_earnings_data_chart_expected_list
+        assert HistoricalEarnings.convert_json_to_model_list(ticker=self.ticker, data=self.data, model=QuarterlyEarningsDataChart) == self.quarterly_earnings_data_chart_expected_list
         assert HistoricalEarnings.convert_json_to_model_list(ticker=self.ticker, data=self.data, model=QuarterlyFinancialsDataChart) == self.quarterly_financials_data_chart_expected_list
         assert HistoricalEarnings.convert_json_to_model_list(ticker=self.ticker, data=self.data, model=YearlyFinancialsDataChart) == self.yearly_financials_data_chart_expected_list
 
@@ -89,11 +89,11 @@ class test_historical_earnings(unittest.TestCase):
         self.assertRaises(ValueError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=[], attribute = 'earnings')
         self.assertRaises(ValueError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=self.one_value_list, attribute = 'earnings')
         self.assertRaises(AttributeError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=self.quarterly_earnings_data_chart_expected_list, attribute = 'none')
-        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= [1,2,3]); assert result == True
-        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= [0,-1,-2,-3]); assert result == False
-        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= [-3,-2,-1,0]); assert result == True
-        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= [1,3,2]); assert result == False
-        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= [1,3]); assert result == True
+        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[1,2,3]); assert result == True
+        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[0,-1,-2,-3]); assert result == False
+        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[-3,-2,-1,0]); assert result == True
+        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[1,3,2]); assert result == False
+        result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[1,3]); assert result == True
         self.assertRaises(ValueError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=[1])
 
     def test_get_consecutive_upward_trend_interval(self):
