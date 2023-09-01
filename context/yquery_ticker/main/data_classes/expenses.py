@@ -26,10 +26,8 @@ class Expenses(IterableDataInterface, CastableDataInterface):
     def sum(self, exclude: list[ExpensesFields] = None):
         if exclude is None:
             exclude = []
-
         total = 0
         for data_class_field in dataclasses.fields(self):
             if data_class_field.name not in [enum.name.lower() for enum in exclude]:
                 total += getattr(self, data_class_field.name)
-
         return total

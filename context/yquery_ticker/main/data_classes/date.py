@@ -1,15 +1,19 @@
 import re
 from dataclasses import dataclass
-from typing import Any
-from ..const import QUARTER_REGEX, QUARTER_YEAR_REGEX, TIME_STAMP_REGEX, YEAR_REGEX
+from typing import Any, Optional
+from ..const import (
+    QUARTER_REGEX,
+    QUARTER_YEAR_REGEX,
+    TIME_STAMP_REGEX,
+    YEAR_REGEX
+)
 from ..enums.quarter import Month, Quarter
-import datetime
 
 
 @dataclass
 class Date:
-    year: int
-    quarter: Quarter = None
+    year: Optional[int] = None
+    quarter: Optional[Quarter] = None
 
     @classmethod
     def is_valid_year(cls, value: Any) -> bool:
@@ -32,7 +36,7 @@ class Date:
         match = re.search(f'^{QUARTER_REGEX}$', value, re.IGNORECASE)
         if match:
             quarter_date = str(match.group()).upper()
-            return Date(year=datetime.datetime.year, quarter=Quarter.from_quarter_date(quarter_date=quarter_date))
+            return Date(quarter=Quarter.from_quarter_date(quarter_date=quarter_date))
         return None
 
     @classmethod
