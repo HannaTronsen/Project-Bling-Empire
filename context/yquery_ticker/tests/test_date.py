@@ -1,4 +1,3 @@
-import datetime
 import unittest
 from context.yquery_ticker.main.data_classes.charts import Date
 from context.yquery_ticker.main.enums.quarter import Quarter, QuarterId
@@ -14,8 +13,8 @@ class test_date(unittest.TestCase):
         assert Date.convert_date(value="2022") == Date(year=2022)
         assert Date.convert_date(value="3Q2023") == Date(year=2023, quarter=Quarter.from_id(QuarterId.Q3))
         assert Date.convert_date(value="2Q2020") == Date(year=2020, quarter=Quarter.SECOND_QUARTER)
-        assert Date.convert_date(value="2Q") == Date(year=datetime.datetime.year, quarter=Quarter.SECOND_QUARTER)
-        assert Date.convert_date(value="2q") == Date(year=datetime.datetime.year, quarter=Quarter.SECOND_QUARTER)
+        assert Date.convert_date(value="2Q") == Date(quarter=Quarter.SECOND_QUARTER)
+        assert Date.convert_date(value="2q") == Date(quarter=Quarter.SECOND_QUARTER)
         assert Date.convert_date(value="2020-09-30") == Date(year=2020, quarter=Quarter.THIRD_QUARTER)
         assert Date.convert_date(value="2023-01-30") == Date(year=2023, quarter=Quarter.FIRST_QUARTER)
         self.assertIsNone(Date.convert_date(value="2023-01-32"))
