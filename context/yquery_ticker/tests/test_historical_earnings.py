@@ -13,7 +13,6 @@ from context.yquery_ticker.main.enums.quarter import Quarter
 
 
 class test_historical_earnings(unittest.TestCase):
-    # noqa: E501
     def __init__(self, *args, **kwargs):
         super(test_historical_earnings, self).__init__(*args, **kwargs)
 

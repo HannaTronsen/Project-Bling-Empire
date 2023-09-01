@@ -9,11 +9,23 @@ from context.yquery_ticker.main.data_classes.financial_summary import FinancialS
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 
+originalMockStock = Optional[
+    UniversalStockDataClass(
+        general_stock_info=GeneralStockInfo.mockk(),
+        financial_data=FinancialData.mockk(),
+        historical_earnings=HistoricalEarnings.mockk(),
+        test_data_frame_data=DataFrameData.mockk(),
+    ).financial_data
+]
+
 
 class test_universal_stock_data(unittest.TestCase):
 
     def __init__(self, *args, **kwargs):
         super(test_universal_stock_data, self).__init__(*args, **kwargs)
+
+    def setUp(self):
+        self.mockStock = originalMockStock
 
     @staticmethod
     def assert_price_to_cash_flow(
@@ -144,91 +156,73 @@ class test_universal_stock_data(unittest.TestCase):
         self.assertIsNone(stock.expenses)
 
     def test_calculate_price_to_cashflow(self):
-        stock = UniversalStockDataClass(
-            general_stock_info=GeneralStockInfo.mockk(),
-            financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
-        ).financial_data
 
-        self.assert_price_to_cash_flow(stock=stock, price=None, cash_flow=10, expected=None)
-        self.assert_price_to_cash_flow(stock=stock, price=10, cash_flow=None, expected=None)
-        self.assert_price_to_cash_flow(stock=stock, price=100.0, cash_flow=10.0, expected=10.0)
-        self.assert_price_to_cash_flow(stock=stock, price=0.0, cash_flow=10.0, expected=0.0)
-        self.assert_price_to_cash_flow(stock=stock, price=0.0, cash_flow=0.0, expected=None)
-        self.assert_price_to_cash_flow(stock=stock, price=100.0, cash_flow=-10.0, expected=-10)
-        self.assert_price_to_cash_flow(stock=stock, price=-100.0, cash_flow=10.0, expected=-10)
-        self.assert_price_to_cash_flow(stock=stock, price=-100.0, cash_flow=-10.0, expected=10)
-        self.assert_price_to_cash_flow(stock=stock, price=100.0, cash_flow=10.0, expected=10.0)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=None, cash_flow=10, expected=None)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=10, cash_flow=None, expected=None)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=100.0, cash_flow=10.0, expected=10.0)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=0.0, cash_flow=10.0, expected=0.0)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=0.0, cash_flow=0.0, expected=None)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=100.0, cash_flow=-10.0, expected=-10)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=-100.0, cash_flow=10.0, expected=-10)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=-100.0, cash_flow=-10.0, expected=10)
+        self.assert_price_to_cash_flow(stock=self.mockStock, price=100.0, cash_flow=10.0, expected=10.0)
 
     def test_get_and_set_cash_flow(self):
-        stock = UniversalStockDataClass(
-            general_stock_info=GeneralStockInfo.mockk(),
-            financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
-        ).financial_data
 
-        stock.free_cash_flow = 10
-        stock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.OPERATING_CASH_FLOW)
-        assert stock.get_cash_flow(cash_flow_type=CashFlowType.OPERATING_CASH_FLOW) == stock.operating_cash_flow
+        self.mockStock.free_cash_flow = 10
+        self.mockStock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.OPERATING_CASH_FLOW)
+        assert self.mockStock.get_cash_flow(cash_flow_type=CashFlowType.OPERATING_CASH_FLOW) == self.mockStock.operating_cash_flow
 
-        stock.operating_cash_flow = 100
-        stock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.FREE_CASH_FLOW)
-        assert stock.get_cash_flow(cash_flow_type=CashFlowType.FREE_CASH_FLOW) == stock.free_cash_flow
+        self.mockStock.operating_cash_flow = 100
+        self.mockStock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.FREE_CASH_FLOW)
+        assert self.mockStock.get_cash_flow(cash_flow_type=CashFlowType.FREE_CASH_FLOW) == self.mockStock.free_cash_flow
 
     def test_calculate_return_on_investments(self):
-        stock = UniversalStockDataClass(
-            general_stock_info=GeneralStockInfo.mockk(),
-            financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
-        ).financial_data
 
         self.assert_return_on_invested_capital(
-            stock=stock,
+            stock=self.mockStock,
             net_income_to_common=1000,
             book_value=2000,
             total_debt=1000,
             expected=0.33
         )
         self.assert_return_on_invested_capital(
-            stock=stock,
+            stock=self.mockStock,
             net_income_to_common=0,
             book_value=2000,
             total_debt=1000,
             expected=0.0
         )
         self.assert_return_on_invested_capital(
-            stock=stock,
+            stock=self.mockStock,
             net_income_to_common=1000,
             book_value=0,
             total_debt=0,
             expected=None
         )
         self.assert_return_on_invested_capital(
-            stock=stock,
+            stock=self.mockStock,
             net_income_to_common=0,
             book_value=0,
             total_debt=0,
             expected=None
         )
         self.assert_return_on_invested_capital(
-            stock=stock,
+            stock=self.mockStock,
             net_income_to_common=None,
             book_value=None,
             total_debt=None,
             expected=None
         )
         self.assert_return_on_invested_capital(
-            stock=stock,
+            stock=self.mockStock,
             net_income_to_common=-1000,
             book_value=2000,
             total_debt=1000,
             expected=-0.33
         )
         self.assert_return_on_invested_capital(
-            stock=stock,
+            stock=self.mockStock,
             net_income_to_common=1000,
             book_value=2000,
             total_debt=-1000,
@@ -236,15 +230,9 @@ class test_universal_stock_data(unittest.TestCase):
         )
 
     def test_calculate_return_on_investment(self):
-        stock = UniversalStockDataClass(
-            general_stock_info=GeneralStockInfo.mockk(),
-            financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
-        ).financial_data
 
         self.assert_return_on_investment(
-            stock=stock,
+            stock=self.mockStock,
             expenses=Expenses(
                 capital_expenditure=0,
                 interest_expense=None,
@@ -254,7 +242,7 @@ class test_universal_stock_data(unittest.TestCase):
             expected=False
         )
         self.assert_return_on_investment(
-            stock=stock,
+            stock=self.mockStock,
             expenses=Expenses(
                 capital_expenditure=0,
                 interest_expense=0,
@@ -264,7 +252,7 @@ class test_universal_stock_data(unittest.TestCase):
             expected=False
         )
         self.assert_return_on_investment(
-            stock=stock,
+            stock=self.mockStock,
             expenses=Expenses(
                 capital_expenditure=0,
                 interest_expense=1,
@@ -274,7 +262,7 @@ class test_universal_stock_data(unittest.TestCase):
             expected=1.0
         )
         self.assert_return_on_investment(
-            stock=stock,
+            stock=self.mockStock,
             expenses=Expenses(
                 capital_expenditure=1,
                 interest_expense=1,
@@ -284,7 +272,7 @@ class test_universal_stock_data(unittest.TestCase):
             expected=0.5
         )
         self.assert_return_on_investment(
-            stock=stock,
+            stock=self.mockStock,
             expenses=Expenses(
                 capital_expenditure=-1,
                 interest_expense=-1,
@@ -380,17 +368,10 @@ class test_universal_stock_data(unittest.TestCase):
         self.assertIsNone(stock.gross_profit_margins)
         self.assertIsNone(stock.earnings_per_share.forward_eps)
 
-        stock = UniversalStockDataClass(
-            general_stock_info=GeneralStockInfo.mockk(),
-            financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
-        ).financial_data
-
-        stock.price = "10"
-        stock.five_year_avg_dividend_yield = "n/a"
-        stock.debt_to_equity = "Test"
-        stock.normalize_values()
+        self.mockStock.price = "10"
+        self.mockStock.five_year_avg_dividend_yield = "n/a"
+        self.mockStock.debt_to_equity = "Test"
+        self.mockStock.normalize_values()
 
         assert stock.price == 10.0
         self.assertIsNone(stock.five_year_avg_dividend_yield)
