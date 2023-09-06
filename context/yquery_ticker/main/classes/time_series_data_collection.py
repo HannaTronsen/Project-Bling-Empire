@@ -22,10 +22,11 @@ class TimeSeriesDataCollection(ABC):
         return cls._not_up_trending(i, j)
 
     @classmethod
+    def _passes_percentage_increase_requirements(cls, series, percentage_requirement) -> bool:
+        return all(percent >= percentage_requirement for percent in series)
+
+    @classmethod
     def _get_attribute_values(cls, index, chart_list, attribute):
-        """ TODO improve this functionality so that we don't need to do checks and 
-                error handling that has already been done on the same list of inputs
-        """
         try:
             i = getattr(chart_list[index], attribute)
             j = getattr(chart_list[index + 1], attribute)
@@ -33,24 +34,24 @@ class TimeSeriesDataCollection(ABC):
             raise AttributeError(ATTRIBUTE_ERROR_STRING.format(attribute=attribute, index=index))
         return i, j
 
+    """
+    This function is relevant only when the function 'is_consistently_up_trending()' returns False.
+    It performs calculations in reverse chronological order by comparing earlier time points with 
+    later time points. In this context, it is expected that the values at later time points are lower
+    than the current time point, indicating a linear upward trend when the list is reversed to its
+    original order. If the values at later time points are higher than the current value, reversing
+    the list would result in a dip in the trajectory.
+
+    Interval is set to 1 because a valid time interval can not be 0.
+    Since the interval is inherently going to be returned inside the for loop, 
+    there is no need to include a final return statement for it.
+    """
     @classmethod
     def _get_consecutive_down_trending_interval_from_reversed_list(
             cls,
             chart_list: list[Chart],
             attribute: str = None
     ) -> int:
-        """
-        This function is relevant only when the function 'is_consistently_up_trending()' returns False.
-        It performs calculations in reverse chronological order by comparing earlier time points with 
-        later time points. In this context, it is expected that the values at later time points are lower
-        than the current time point, indicating a linear upward trend when the list is reversed to its
-        original order. If the values at later time points are higher than the current value, reversing
-        the list would result in a dip in the trajectory.
-
-        Interval is set to 1 because a valid time interval can not be 0.
-        Since the interval is inherently going to be returned inside the for loop, 
-        there is no need to include a final return statement for it.
-        """
         reversed_chart_list = list(reversed(chart_list))
         interval = 1
         for index in range(len(reversed_chart_list) - 1):
@@ -61,10 +62,6 @@ class TimeSeriesDataCollection(ABC):
                 interval += 1
             else:
                 return interval
-
-    @classmethod
-    def _passes_percentage_increase_requirements(cls, series, percentage_requirement) -> bool:
-        return all(percent >= percentage_requirement for percent in series)
 
     @classmethod
     def _calculate_percentage_increase_for_data_set(cls, chart_list: list[Chart], attribute: str = None) -> list:
@@ -79,17 +76,16 @@ class TimeSeriesDataCollection(ABC):
                 series.append(0)
         return series
 
-    # TODO: Fix the return type
+    """
+    If the function 'is_consistently_up_trending()' returns False,
+    then a private call to 'cls._get_consecutive_down_trending_interval_from_reversed_list()' 
+    will be made to determine the most recent time interval that exhibited an upward trend.
+
+    This ensures only valid lists will be passed to the _get_consecutive_down_trending_interval_from_reversed_list()
+    function, meaning we don't need to have the same error handling right again.
+    """
     @classmethod
     def is_consistently_up_trending(cls, chart_list: list[Chart], attribute: str = None) -> Any:
-        """
-        If the function 'is_consistently_up_trending()' returns False,
-        then a private call to 'cls._get_consecutive_down_trending_interval_from_reversed_list()' 
-        will be made to determine the most recent time interval that exhibited an upward trend.
-
-        This ensures only valid lists will be passed to the _get_consecutive_down_trending_interval_from_reversed_list()
-        function, meaning we don't need to have the same error handling right again.
-        """
         if len(chart_list) < 2:
             raise ValueError(INVALID_LIST_LENGTH_STRING.format(chart_list=chart_list))
 
@@ -104,4 +100,5 @@ class TimeSeriesDataCollection(ABC):
                     chart_list=chart_list,
                     attribute=attribute)
                         )
+        # TODO: Fix the return type
         return True, chart_list
