@@ -15,7 +15,7 @@ class HistoricalEarnings(TimeSeriesDataCollection):
     yearlyFinancialsDataChart: list[YearlyFinancialsDataChart]
 
     @classmethod
-    def convert_json_to_model_list(cls, ticker, data, model: Type[Chart]) -> list[Chart]:
+    def convert_json_to_time_series_model(cls, ticker, data, model: Type[Chart]) -> list[Chart]:
         if model in [QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart]:
             data = model.get_section_from_json_path(data[ticker])
             return [model(**item).convert_date() for item in data]  # type: ignore

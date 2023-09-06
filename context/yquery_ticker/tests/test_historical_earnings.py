@@ -58,7 +58,7 @@ class test_historical_earnings(unittest.TestCase):
         ]
         self.exception_list = [
             YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
-            YearlyFinancialsDataChart(date=Date(year=2020), revenue=None, earnings=""),
+            YearlyFinancialsDataChart(date=Date(year=2020), revenue=None, earnings=""),  # type: Ignore
         ]
         self.negative_values_list = [
             YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
@@ -69,12 +69,21 @@ class test_historical_earnings(unittest.TestCase):
         ]
 
     def test_convert_json_to_model_list(self):
-        assert HistoricalEarnings.convert_json_to_model_list(ticker=self.ticker, data=self.data, model=QuarterlyEarningsDataChart) == self.quarterly_earnings_data_chart_expected_list
-        assert HistoricalEarnings.convert_json_to_model_list(ticker=self.ticker, data=self.data, model=QuarterlyFinancialsDataChart) == self.quarterly_financials_data_chart_expected_list
-        assert HistoricalEarnings.convert_json_to_model_list(ticker=self.ticker, data=self.data, model=YearlyFinancialsDataChart) == self.yearly_financials_data_chart_expected_list
+        models_with_expected_results = [
+            (QuarterlyEarningsDataChart, self.quarterly_earnings_data_chart_expected_list),
+            (QuarterlyFinancialsDataChart, self.quarterly_financials_data_chart_expected_list),
+            (YearlyFinancialsDataChart, self.yearly_financials_data_chart_expected_list)
+        ]
+        for model, expected in models_with_expected_results:
+            assert HistoricalEarnings.convert_json_to_time_series_model(
+                ticker=self.ticker,
+                data=self.data,
+                model=model
+            ) == expected
 
-        class WrongClass: pass
-        self.assertRaises(TypeError, HistoricalEarnings.convert_json_to_model_list, ticker=self.ticker,data=self.data, model=WrongClass)
+        class WrongClass:
+            pass
+        self.assertRaises(TypeError, HistoricalEarnings.convert_json_to_time_series_model, ticker=self.ticker, data=self.data, model=WrongClass)
 
     def test_is_consistently_up_trending(self):
         result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=self.quarterly_earnings_data_up_trending_list, attribute = 'actual'); assert result == True

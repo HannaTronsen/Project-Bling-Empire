@@ -23,7 +23,7 @@ class IterableDataInterface(ABC):
     def cast_check(self: CastableDataInterface, field, value):
         field_type = self.__annotations__.get(field)
         if field_type is not isinstance(value, field_type):
-            # Only relevant if we deal with Optionals
+            # Only relevant if we deal with Optional type
             underlying_type = None
             if hasattr(field_type, '__args__') and field_type.__args__:
                 underlying_type = field_type.__args__[0].__name__

@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
+from typing import Optional
+
 from ..data_classes.date import Date
 
 
@@ -32,8 +34,8 @@ class QuarterlyEarningsDataChart(Chart):
 
 @dataclass
 class FinancialsDataChart(Chart, ABC):
-    revenue: float
-    earnings: float
+    revenue: Optional[float]
+    earnings: Optional[float]
 
 
 @dataclass
