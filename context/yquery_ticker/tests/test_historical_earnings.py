@@ -79,7 +79,7 @@ class test_historical_earnings(unittest.TestCase):
                 ticker=self.ticker,
                 data=self.data,
                 model=model
-            ) is expected
+            ) == expected
 
         class WrongClass:
             pass
@@ -132,9 +132,9 @@ class test_historical_earnings(unittest.TestCase):
         assert TimeSeriesDataCollection._passes_percentage_increase_requirements(series=[26.67, 281.82], percentage_requirement=26.68) is False
 
     def test_calculate_percentage_increase_for_data_set(self):
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[1,2, 3]) is [100, 50];
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[1, 3]) is [200]
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[1, 3, 4.5]) is [200, 50]
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[-3, -2.2, 4]) is [26.67, 281.82]
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[-3, -2, -1, 0, 1]) is [33.33, 50, 100, 0]
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=self.quarterly_earnings_data_up_trending_list, attribute='actual') is [7.5, 45.74, 2.13]
+        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[1,2, 3]) == [100, 50]
+        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[1, 3]) == [200]
+        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[1, 3, 4.5]) == [200, 50]
+        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[-3, -2.2, 4]) == [26.67, 281.82]
+        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=[-3, -2, -1, 0, 1]) == [33.33, 50, 100, 0]
+        assert TimeSeriesDataCollection._calculate_percentage_increase_for_data_set(chart_list=self.quarterly_earnings_data_up_trending_list, attribute='actual') == [7.5, 45.74, 2.13]
