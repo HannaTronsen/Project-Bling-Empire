@@ -15,6 +15,12 @@ class Chart(ABC):
     def get_section_from_json_path(self):
         pass
 
+    def __getitem__(self, key):
+        if key in self.date:
+            return getattr(self, key, None)
+        else:
+            raise KeyError(f"Key '{key}' not found in data container")
+
 
 @dataclass
 class QuarterlyEarningsDataChart(Chart):
