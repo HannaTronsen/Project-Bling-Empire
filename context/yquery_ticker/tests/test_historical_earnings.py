@@ -97,7 +97,7 @@ class test_historical_earnings(unittest.TestCase):
         result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list= self.negative_values_list, attribute = 'earnings'); assert result == True
         self.assertRaises(ValueError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=[], attribute = 'earnings')
         self.assertRaises(ValueError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=self.one_value_list, attribute = 'earnings')
-        self.assertRaises(AttributeError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=self.quarterly_earnings_data_chart_expected_list, attribute = 'none')
+        self.assertRaises(AttributeError, TimeSeriesDataCollection.is_consistently_up_trending, chart_list=self.quarterly_earnings_data_chart_expected_list, attribute='none')
         result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[1,2,3]); assert result == True
         result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[0,-1,-2,-3]); assert result == False
         result, _ = TimeSeriesDataCollection.is_consistently_up_trending(chart_list=[-3,-2,-1,0]); assert result == True

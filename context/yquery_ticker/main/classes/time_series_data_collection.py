@@ -54,10 +54,11 @@ class TimeSeriesDataCollection(ABC):
     ) -> int:
         reversed_chart_list = list(reversed(chart_list))
         interval = 1
+        isValidAttribute = attribute is not None and type(attribute) == str
         for index in range(len(reversed_chart_list) - 1):
-            i, j = cls._get_attribute_values(index, reversed_chart_list, attribute) if attribute is not None else (
-                reversed_chart_list[index], reversed_chart_list[index + 1])
-
+            i, j = cls._get_attribute_values(index, reversed_chart_list, attribute) if isValidAttribute else (
+                reversed_chart_list[index], reversed_chart_list[index + 1]
+            )
             if cls._is_down_trending(i, j):
                 interval += 1
             else:
@@ -66,9 +67,11 @@ class TimeSeriesDataCollection(ABC):
     @classmethod
     def _calculate_percentage_increase_for_data_set(cls, chart_list: list[Chart], attribute: str = None) -> list:
         series = []
+        isValidAttribute = attribute is not None and type(attribute) == str
         for index in range(len(chart_list) - 1):
-            i, j = cls._get_attribute_values(index, chart_list, attribute) if attribute is not None else (
-                chart_list[index], chart_list[index + 1])
+            i, j = cls._get_attribute_values(index, chart_list, attribute) if isValidAttribute else (
+                chart_list[index], chart_list[index + 1]
+            )
             if i != 0:
                 percentage_increase = round(number=(j - i) / abs(i) * 100, ndigits=2)
                 series.append(percentage_increase)
@@ -89,10 +92,11 @@ class TimeSeriesDataCollection(ABC):
         if len(chart_list) < 2:
             raise ValueError(INVALID_LIST_LENGTH_STRING.format(chart_list=chart_list))
 
+        isValidAttribute = attribute is not None and type(attribute) == str
         for index in range(len(chart_list) - 1):
-            i, j = cls._get_attribute_values(index, chart_list, attribute) if attribute is not None else (
-                chart_list[index], chart_list[index + 1])
-
+            i, j = cls._get_attribute_values(index, chart_list, attribute) if isValidAttribute else (
+                chart_list[index], chart_list[index + 1]
+            )
             if cls._is_invalid_comparison(i, j):
                 raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(i), value2=type(j)))
             elif cls._not_up_trending(i, j):
