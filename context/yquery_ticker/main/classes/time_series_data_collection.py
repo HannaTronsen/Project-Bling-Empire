@@ -34,8 +34,8 @@ class TimeSeriesDataCollection(ABC):
         return earlier, later
 
     """
-    This function is relevant only when the function 'is_consistently_up_trending()' returns False.
-    It performs calculations in reverse chronological order by comparing earlier time points with 
+    These two functions below are relevant only when the function 'is_consistently_up_trending()' returns False.
+    They performs calculations in reverse chronological order by comparing earlier time points with 
     later time points. In this context, it is expected that the values at later time points are lower
     than the current time point, indicating a linear upward trend when the list is reversed to its
     original order. If the values at later time points are higher than the current value, reversing
