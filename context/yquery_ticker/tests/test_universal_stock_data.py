@@ -152,7 +152,6 @@ class test_universal_stock_data(unittest.TestCase):
         self.assertIsNone(stock.expenses)
 
     def test_calculate_price_to_cashflow(self):
-
         self.assert_price_to_cash_flow(stock=self.mockStock, price=None, cash_flow=10, expected=None)
         self.assert_price_to_cash_flow(stock=self.mockStock, price=10, cash_flow=None, expected=None)
         self.assert_price_to_cash_flow(stock=self.mockStock, price=100.0, cash_flow=10.0, expected=10.0)
@@ -164,7 +163,6 @@ class test_universal_stock_data(unittest.TestCase):
         self.assert_price_to_cash_flow(stock=self.mockStock, price=100.0, cash_flow=10.0, expected=10.0)
 
     def test_get_and_set_cash_flow(self):
-
         self.mockStock.free_cash_flow = 10
         self.mockStock.set_cash_flow(cash_flow=100, cash_flow_type=CashFlowType.OPERATING_CASH_FLOW)
         assert self.mockStock.get_cash_flow(
@@ -175,7 +173,6 @@ class test_universal_stock_data(unittest.TestCase):
         assert self.mockStock.get_cash_flow(cash_flow_type=CashFlowType.FREE_CASH_FLOW) == self.mockStock.free_cash_flow
 
     def test_calculate_return_on_investments(self):
-
         self.assert_return_on_invested_capital(
             stock=self.mockStock,
             net_income_to_common=1000,
@@ -227,7 +224,6 @@ class test_universal_stock_data(unittest.TestCase):
         )
 
     def test_calculate_return_on_investment(self):
-
         self.assert_return_on_investment(
             stock=self.mockStock,
             expenses=Expenses(

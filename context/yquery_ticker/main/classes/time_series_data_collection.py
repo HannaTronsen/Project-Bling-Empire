@@ -1,5 +1,4 @@
 from abc import ABC
-from typing import Any
 from ..data_classes.charts import Chart
 from ..const import (
     ATTRIBUTE_ERROR_STRING,
@@ -10,16 +9,16 @@ from ..const import (
 
 class TimeSeriesDataCollection(ABC):
     @classmethod
-    def _is_invalid_comparison(cls, i, j):
-        return i is None or j is None or type(i) != type(j)
+    def _is_invalid_comparison(cls, earlier, later):
+        return earlier is None or later is None or type(earlier) != type(later)
 
     @classmethod
-    def _not_up_trending(cls, i, j):
-        return i > j
+    def _not_up_trending(cls, earlier, later):
+        return earlier > later
 
     @classmethod
-    def _is_down_trending(cls, i, j):
-        return cls._not_up_trending(i, j)
+    def _is_down_trending(cls, earlier, later):
+        return cls._not_up_trending(earlier, later)
 
     @classmethod
     def _passes_percentage_increase_requirements(cls, series, percentage_requirement) -> bool:
@@ -28,11 +27,11 @@ class TimeSeriesDataCollection(ABC):
     @classmethod
     def _get_attribute_values(cls, index, chart_list, attribute):
         try:
-            i = getattr(chart_list[index], attribute)
-            j = getattr(chart_list[index + 1], attribute)
+            earlier = getattr(chart_list[index], attribute)
+            later = getattr(chart_list[index + 1], attribute)
         except AttributeError:
             raise AttributeError(ATTRIBUTE_ERROR_STRING.format(attribute=attribute, index=index))
-        return i, j
+        return earlier, later
 
     """
     This function is relevant only when the function 'is_consistently_up_trending()' returns False.
@@ -46,63 +45,102 @@ class TimeSeriesDataCollection(ABC):
     Since the interval is inherently going to be returned inside the for loop, 
     there is no need to include a final return statement for it.
     """
+
     @classmethod
-    def _get_consecutive_down_trending_interval_from_reversed_list(
+    def _get_consecutive_down_trending_interval_from_reversed_series(
             cls,
-            chart_list: list[Chart],
-            attribute: str = None
+            series: list[float | int],
     ) -> int:
-        reversed_chart_list = list(reversed(chart_list))
+        reversed_series = list(reversed(series))
         interval = 1
-        isValidAttribute = attribute is not None and type(attribute) == str
-        for index in range(len(reversed_chart_list) - 1):
-            i, j = cls._get_attribute_values(index, reversed_chart_list, attribute) if isValidAttribute else (
-                reversed_chart_list[index], reversed_chart_list[index + 1]
-            )
-            if cls._is_down_trending(i, j):
+        for index in range(len(reversed_series) - 1):
+            earlier, later = reversed_series[index], reversed_series[index + 1]
+
+            if cls._is_down_trending(earlier, later):
                 interval += 1
             else:
                 return interval
 
     @classmethod
-    def _calculate_percentage_increase_for_data_set(cls, chart_list: list[Chart], attribute: str = None) -> list:
-        series = []
-        isValidAttribute = attribute is not None and type(attribute) == str
-        for index in range(len(chart_list) - 1):
-            i, j = cls._get_attribute_values(index, chart_list, attribute) if isValidAttribute else (
-                chart_list[index], chart_list[index + 1]
-            )
-            if i != 0:
-                percentage_increase = round(number=(j - i) / abs(i) * 100, ndigits=2)
-                series.append(percentage_increase)
+    def _get_consecutive_down_trending_interval_from_reversed_list(
+            cls,
+            chart_list: list[Chart],
+            attribute: str
+    ) -> int:
+        reversed_chart_list = list(reversed(chart_list))
+        interval = 1
+        for index in range(len(reversed_chart_list) - 1):
+            earlier, later = cls._get_attribute_values(index, reversed_chart_list, attribute)
+
+            if cls._is_down_trending(earlier, later):
+                interval += 1
             else:
-                series.append(0)
-        return series
+                return interval
 
-    """
-    If the function 'is_consistently_up_trending()' returns False,
-    then a private call to 'cls._get_consecutive_down_trending_interval_from_reversed_list()' 
-    will be made to determine the most recent time interval that exhibited an upward trend.
-
-    This ensures only valid lists will be passed to the _get_consecutive_down_trending_interval_from_reversed_list()
-    function, meaning we don't need to have the same error handling right again.
-    """
     @classmethod
-    def is_consistently_up_trending(cls, chart_list: list[Chart], attribute: str = None) -> Any:
+    def _calculate_percentage_increase_for_series(cls, series: list[int | float]) -> list:
+        result = []
+        for index in range(len(series) - 1):
+            earlier, later = series[index], series[index + 1]
+
+            if earlier != 0:
+                percentage_increase = round(number=(later - earlier) / abs(earlier) * 100, ndigits=2)
+                result.append(percentage_increase)
+            else:
+                result.append(0)
+        return result
+
+    @classmethod
+    def _calculate_percentage_increase_for_chart_list(cls, chart_list: list[Chart], attribute: str) -> list:
+        result = []
+        for index in range(len(chart_list) - 1):
+            earlier, later = cls._get_attribute_values(index, chart_list, attribute)
+
+            if earlier != 0:
+                percentage_increase = round(number=(later - earlier) / abs(earlier) * 100, ndigits=2)
+                result.append(percentage_increase)
+            else:
+                result.append(0)
+        return result
+
+    """
+   If the function 'is_consistently_up_trending()' returns False,
+   then a private call to 'cls._get_consecutive_down_trending_interval_from_reversed_series/list()' 
+   will be made to determine the most recent time interval that exhibited an upward trend.
+
+   This ensures only valid lists will be passed to the _get_consecutive_down_trending_interval_from_reversed_list()
+   function, meaning we don't need to have the same error handling right again.
+   """
+
+    @classmethod
+    def is_consistently_up_trending_series(cls, series: list[int | float]) -> [bool, list[int | float]]:
+        if len(series) < 2:
+            raise ValueError(INVALID_LIST_LENGTH_STRING.format(chart_list=series))
+
+        for index in range(len(series) - 1):
+            earlier, later = series[index], series[index + 1]
+
+            if cls._is_invalid_comparison(earlier, later):
+                raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
+            elif cls._not_up_trending(earlier, later):
+                return False, cls._get_consecutive_down_trending_interval_from_reversed_series(
+                    series=series,
+                )
+        return True, series
+
+    @classmethod
+    def is_consistently_up_trending_chart_list(cls, chart_list: list[Chart], attribute: str) -> [bool, list[Chart]]:
         if len(chart_list) < 2:
             raise ValueError(INVALID_LIST_LENGTH_STRING.format(chart_list=chart_list))
 
-        isValidAttribute = attribute is not None and type(attribute) == str
         for index in range(len(chart_list) - 1):
-            i, j = cls._get_attribute_values(index, chart_list, attribute) if isValidAttribute else (
-                chart_list[index], chart_list[index + 1]
-            )
-            if cls._is_invalid_comparison(i, j):
-                raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(i), value2=type(j)))
-            elif cls._not_up_trending(i, j):
-                return (False, cls._get_consecutive_down_trending_interval_from_reversed_list(
+            earlier, later = cls._get_attribute_values(index, chart_list, attribute)
+
+            if cls._is_invalid_comparison(earlier, later):
+                raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
+            elif cls._not_up_trending(earlier, later):
+                return False, cls._get_consecutive_down_trending_interval_from_reversed_list(
                     chart_list=chart_list,
-                    attribute=attribute)
-                        )
-        # TODO: Fix the return type
+                    attribute=attribute
+                )
         return True, chart_list
