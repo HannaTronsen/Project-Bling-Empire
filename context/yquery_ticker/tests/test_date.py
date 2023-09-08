@@ -9,6 +9,7 @@ class test_date(unittest.TestCase):
         super(test_date, self).__init__(*args, **kwargs)
 
     def test_convert_date(self):
+        # Test valid date conversions
         assert Date.convert_date(value=2022) == Date(year=2022)
         assert Date.convert_date(value="2022") == Date(year=2022)
         assert Date.convert_date(value="3Q2023") == Date(year=2023, quarter=Quarter.from_id(QuarterId.Q3))
@@ -17,6 +18,8 @@ class test_date(unittest.TestCase):
         assert Date.convert_date(value="2q") == Date(quarter=Quarter.SECOND_QUARTER)
         assert Date.convert_date(value="2020-09-30") == Date(year=2020, quarter=Quarter.THIRD_QUARTER)
         assert Date.convert_date(value="2023-01-30") == Date(year=2023, quarter=Quarter.FIRST_QUARTER)
+
+        # Test invalid date conversions (should return None)
         self.assertIsNone(Date.convert_date(value="2023-01-32"))
         self.assertIsNone(Date.convert_date(value="2020-13-30"))
         self.assertIsNone(Date.convert_date(value="2020-0-30"))
