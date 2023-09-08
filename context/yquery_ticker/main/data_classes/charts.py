@@ -10,7 +10,7 @@ class Chart(ABC):
     date: Date
 
     def convert_date(self):
-        self.date = Date.convert_date(value=self.date)
+        self.date = Date.convert_date(date_input=self.date)
         return self
 
     @abstractmethod
