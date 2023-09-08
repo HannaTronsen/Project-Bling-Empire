@@ -78,16 +78,21 @@ class TimeSeriesDataCollection(ABC):
                 return interval
 
     @classmethod
+    def _get_percentage_increase(cls, earlier, later) -> float | int:
+        if earlier != 0:
+            return round(number=(later - earlier) / abs(earlier) * 100, ndigits=2)
+        else:
+            if later != 0:
+                return round(number=(later - earlier) / 1 * 100, ndigits=2)
+            else:
+                return 0
+
+    @classmethod
     def _calculate_percentage_increase_for_series(cls, series: list[int | float]) -> list:
         result = []
         for index in range(len(series) - 1):
             earlier, later = series[index], series[index + 1]
-
-            if earlier != 0:
-                percentage_increase = round(number=(later - earlier) / abs(earlier) * 100, ndigits=2)
-                result.append(percentage_increase)
-            else:
-                result.append(0)
+            result.append(cls._get_percentage_increase(earlier=earlier, later=later))
         return result
 
     @classmethod
@@ -95,22 +100,17 @@ class TimeSeriesDataCollection(ABC):
         result = []
         for index in range(len(chart_list) - 1):
             earlier, later = cls._get_attribute_values(index, chart_list, attribute)
-
-            if earlier != 0:
-                percentage_increase = round(number=(later - earlier) / abs(earlier) * 100, ndigits=2)
-                result.append(percentage_increase)
-            else:
-                result.append(0)
+            result.append(cls._get_percentage_increase(earlier=earlier, later=later))
         return result
 
     """
-   If the function 'is_consistently_up_trending()' returns False,
-   then a private call to 'cls._get_consecutive_down_trending_interval_from_reversed_series/list()' 
-   will be made to determine the most recent time interval that exhibited an upward trend.
+    If the function 'is_consistently_up_trending()' returns False,
+    then a private call to 'cls._get_consecutive_down_trending_interval_from_reversed_series/list()' 
+    will be made to determine the most recent time interval that exhibited an upward trend.
 
-   This ensures only valid lists will be passed to the _get_consecutive_down_trending_interval_from_reversed_list()
-   function, meaning we don't need to have the same error handling right again.
-   """
+    This ensures only valid lists will be passed to the _get_consecutive_down_trending_interval_from_reversed_list()
+    function, meaning we don't need to have the same error handling right again.
+    """
 
     @classmethod
     def is_consistently_up_trending_series(cls, series: list[int | float]) -> [bool, list[int | float]]:
