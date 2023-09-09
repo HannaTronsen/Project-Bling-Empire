@@ -1,5 +1,5 @@
 from typing import Type
-from ..classes.earnings_history import EarningsAndEarningsHistory
+from ..classes.earnings_and_earnings_history import EarningsAndEarningsHistory
 from ..data_classes.financial_data import FinancialData
 from ..data_classes.general_stock_info import GeneralStockInfo
 from ..utils.dict_key_enum import DictKey

@@ -1,6 +1,6 @@
 import unittest
 from typing import Optional
-from context.yquery_ticker.main.classes.earnings_history import EarningsAndEarningsHistory
+from context.yquery_ticker.main.classes.earnings_and_earnings_history import EarningsAndEarningsHistory
 from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
 from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
 from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings

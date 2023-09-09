@@ -7,7 +7,7 @@ DEFAULT_CASH_FLOW_METRIC = CashFlowType.FREE_CASH_FLOW
 
 ATTRIBUTE_ERROR_STRING = "Failed to retrieve attribute '{attribute}' from chart at index {index}"
 WRONG_TYPE_STRING = "Wrong type: {type}."
-INVALID_LIST_LENGTH_STRING = "List of values is either empty or too small: {chart_list}."
+INVALID_LIST_LENGTH_STRING = "List of values is either empty or too small: {list}."
 INVALID_VALUE_COMPARISON = "Couldn't compare values. They could be 'None' type or not the same type. value1 type:{value1}, value2 type: {value2}"
 INVALID_FIELD_STRING = '\n {field} has invalid or null value and will be handled.'
 NO_CASTABLE_DEFINITION_ERROR_STRING = "{field_type} don't have a castable definition yet. Implemented it in 'CastableDataInterface'."

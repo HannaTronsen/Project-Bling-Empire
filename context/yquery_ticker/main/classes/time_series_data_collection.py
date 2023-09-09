@@ -5,6 +5,7 @@ from ..const import (
     INVALID_LIST_LENGTH_STRING,
     INVALID_VALUE_COMPARISON
 )
+from ..data_classes.yq_data_frame_data.yq_data_frame_data import YQDataFrameData
 
 
 class TimeSeriesDataCollection(ABC):
@@ -21,14 +22,14 @@ class TimeSeriesDataCollection(ABC):
         return cls._not_up_trending(earlier, later)
 
     @classmethod
-    def _passes_percentage_increase_requirements(cls, series, percentage_requirement) -> bool:
-        return all(percent >= percentage_requirement for percent in series)
+    def _passes_percentage_increase_requirements(cls, percentages, percentage_requirement) -> bool:
+        return all(percent >= percentage_requirement for percent in percentages)
 
     @classmethod
-    def _get_attribute_values(cls, index, chart_list, attribute):
+    def _get_attribute_values(cls, index, model_list, attribute):
         try:
-            earlier = getattr(chart_list[index], attribute)
-            later = getattr(chart_list[index + 1], attribute)
+            earlier = getattr(model_list[index], attribute)
+            later = getattr(model_list[index + 1], attribute)
         except AttributeError:
             raise AttributeError(ATTRIBUTE_ERROR_STRING.format(attribute=attribute, index=index))
         return earlier, later
@@ -47,11 +48,11 @@ class TimeSeriesDataCollection(ABC):
     """
 
     @classmethod
-    def _get_consecutive_down_trending_interval_from_reversed_series(
+    def _get_consecutive_down_trending_interval_from_reversed_simple_list(
             cls,
-            series: list[float | int],
+            simple_list: list[float | int],
     ) -> int:
-        reversed_series = list(reversed(series))
+        reversed_series = list(reversed(simple_list))
         interval = 1
         for index in range(len(reversed_series) - 1):
             earlier, later = reversed_series[index], reversed_series[index + 1]
@@ -62,15 +63,15 @@ class TimeSeriesDataCollection(ABC):
                 return interval
 
     @classmethod
-    def _get_consecutive_down_trending_interval_from_reversed_list(
+    def _get_consecutive_down_trending_interval_from_reversed_model_list(
             cls,
-            chart_list: list[Chart],
+            model_list: list[Chart | YQDataFrameData],
             attribute: str
     ) -> int:
-        reversed_chart_list = list(reversed(chart_list))
+        reversed_model_list = list(reversed(model_list))
         interval = 1
-        for index in range(len(reversed_chart_list) - 1):
-            earlier, later = cls._get_attribute_values(index, reversed_chart_list, attribute)
+        for index in range(len(reversed_model_list) - 1):
+            earlier, later = cls._get_attribute_values(index, reversed_model_list, attribute)
 
             if cls._is_down_trending(earlier, later):
                 interval += 1
@@ -88,18 +89,19 @@ class TimeSeriesDataCollection(ABC):
                 return 0
 
     @classmethod
-    def _calculate_percentage_increase_for_series(cls, series: list[int | float]) -> list:
+    def _calculate_percentage_increase_for_simple_list(cls, simple_list: list[int | float]) -> list:
         result = []
-        for index in range(len(series) - 1):
-            earlier, later = series[index], series[index + 1]
+        for index in range(len(simple_list) - 1):
+            earlier, later = simple_list[index], simple_list[index + 1]
             result.append(cls._get_percentage_increase(earlier=earlier, later=later))
         return result
 
     @classmethod
-    def _calculate_percentage_increase_for_chart_list(cls, chart_list: list[Chart], attribute: str) -> list:
+    def _calculate_percentage_increase_for_model_list(cls, model_list: list[Chart | YQDataFrameData],
+                                                      attribute: str) -> list:
         result = []
-        for index in range(len(chart_list) - 1):
-            earlier, later = cls._get_attribute_values(index, chart_list, attribute)
+        for index in range(len(model_list) - 1):
+            earlier, later = cls._get_attribute_values(index, model_list, attribute)
             result.append(cls._get_percentage_increase(earlier=earlier, later=later))
         return result
 
@@ -113,34 +115,38 @@ class TimeSeriesDataCollection(ABC):
     """
 
     @classmethod
-    def is_consistently_up_trending_series(cls, series: list[int | float]) -> [bool, list[int | float]]:
-        if len(series) < 2:
-            raise ValueError(INVALID_LIST_LENGTH_STRING.format(chart_list=series))
+    def is_consistently_up_trending_simple_list(cls, simple_list: list[int | float]) -> [bool, list[int | float]]:
+        if len(simple_list) < 2:
+            raise ValueError(INVALID_LIST_LENGTH_STRING.format(list=simple_list))
 
-        for index in range(len(series) - 1):
-            earlier, later = series[index], series[index + 1]
+        for index in range(len(simple_list) - 1):
+            earlier, later = simple_list[index], simple_list[index + 1]
 
             if cls._is_invalid_comparison(earlier, later):
                 raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
             elif cls._not_up_trending(earlier, later):
-                return False, cls._get_consecutive_down_trending_interval_from_reversed_series(
-                    series=series,
+                return False, cls._get_consecutive_down_trending_interval_from_reversed_simple_list(
+                    simple_list=simple_list,
                 )
-        return True, series
+        return True, simple_list
 
     @classmethod
-    def is_consistently_up_trending_chart_list(cls, chart_list: list[Chart], attribute: str) -> [bool, list[Chart]]:
-        if len(chart_list) < 2:
-            raise ValueError(INVALID_LIST_LENGTH_STRING.format(chart_list=chart_list))
+    def is_consistently_up_trending_model_list(
+            cls,
+            model_list: list[Chart | YQDataFrameData],
+            attribute: str
+    ) -> [bool, list[Chart | YQDataFrameData]]:
+        if len(model_list) < 2:
+            raise ValueError(INVALID_LIST_LENGTH_STRING.format(list=model_list))
 
-        for index in range(len(chart_list) - 1):
-            earlier, later = cls._get_attribute_values(index, chart_list, attribute)
+        for index in range(len(model_list) - 1):
+            earlier, later = cls._get_attribute_values(index, model_list, attribute)
 
             if cls._is_invalid_comparison(earlier, later):
                 raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
             elif cls._not_up_trending(earlier, later):
-                return False, cls._get_consecutive_down_trending_interval_from_reversed_list(
-                    chart_list=chart_list,
+                return False, cls._get_consecutive_down_trending_interval_from_reversed_model_list(
+                    model_list=model_list,
                     attribute=attribute
                 )
-        return True, chart_list
+        return True, model_list

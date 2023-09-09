@@ -21,7 +21,7 @@ class EarningsAndEarningsHistory(TimeSeriesDataCollection):
     quarterly_earnings_data: list[QuarterlyEarningsDataChart]
     quarterly_financials_data: list[QuarterlyFinancialsDataChart]
     yearly_financials_data: list[YearlyFinancialsDataChart]
-    earnings_history: list[EarningsHistoryDataClass]
+    earnings_history_data: list[EarningsHistoryDataClass]
 
     @classmethod
     def convert_json_to_time_series_model(cls, ticker, data, model: Type[Chart]) -> list[Chart]:
@@ -31,7 +31,7 @@ class EarningsAndEarningsHistory(TimeSeriesDataCollection):
         raise TypeError(WRONG_TYPE_STRING.format(type=model))
 
     @classmethod
-    def convert_csv_to_yq_data_frame_data(cls, csv):
+    def convert_csv_to_time_series_model(cls, csv):
         df = pd.read_csv(csv)
         earnings_history: list[EarningsHistoryDataClass] = []
         for index, row in df.iterrows():

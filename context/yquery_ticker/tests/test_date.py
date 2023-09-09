@@ -6,6 +6,7 @@ from context.yquery_ticker.main.enums.quarter import Quarter, QuarterId
 class test_date(unittest.TestCase):
 
     # TODO (Hanna): "2019-02-29" Add tests for leap year
+    # TODO (Hanna): Add tests for different time formats
 
     def __init__(self, *args, **kwargs):
         super(test_date, self).__init__(*args, **kwargs)
