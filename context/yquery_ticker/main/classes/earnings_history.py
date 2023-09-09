@@ -1,6 +1,7 @@
 from typing import Type
 
-from .yq_data_frame_data import YQDataFrameData
+import pandas as pd
+from ..data_classes.date import Date
 from ..classes.time_series_data_collection import TimeSeriesDataCollection
 from ..const import WRONG_TYPE_STRING
 from ..data_classes.charts import (
@@ -9,13 +10,18 @@ from ..data_classes.charts import (
     QuarterlyFinancialsDataChart,
     YearlyFinancialsDataChart
 )
+from ..data_classes.yq_data_frame_data.earnings_history import (
+    EarningsHistoryDataClass,
+    EPS_ACTUAL, EPS_ESTIMATE,
+    EPS_DIFFERENCE, EPS_QUARTER
+)
 
 
-class EarningsHistory(TimeSeriesDataCollection):
+class EarningsAndEarningsHistory(TimeSeriesDataCollection):
     quarterly_earnings_data: list[QuarterlyEarningsDataChart]
     quarterly_financials_data: list[QuarterlyFinancialsDataChart]
     yearly_financials_data: list[YearlyFinancialsDataChart]
-    earnings_history: YQDataFrameData
+    earnings_history: list[EarningsHistoryDataClass]
 
     @classmethod
     def convert_json_to_time_series_model(cls, ticker, data, model: Type[Chart]) -> list[Chart]:
@@ -26,8 +32,19 @@ class EarningsHistory(TimeSeriesDataCollection):
 
     @classmethod
     def convert_csv_to_yq_data_frame_data(cls, csv):
-        pass
+        df = pd.read_csv(csv)
+        earnings_history: list[EarningsHistoryDataClass] = []
+        for index, row in df.iterrows():
+            earnings_history.append(
+                EarningsHistoryDataClass(
+                    epsActual=row[EPS_ACTUAL],
+                    epsEstimate=row[EPS_ESTIMATE],
+                    epsDifference=row[EPS_DIFFERENCE],
+                    quarter=Date.convert_date(date_input=row[EPS_QUARTER])
+                )
+            )
+        return earnings_history
 
     @classmethod
     def mockk(cls):
-        return EarningsHistory()
+        return EarningsAndEarningsHistory()

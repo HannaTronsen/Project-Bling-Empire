@@ -1,6 +1,6 @@
 import json
 import unittest
-from context.yquery_ticker.main.classes.earnings_history import EarningsHistory
+from context.yquery_ticker.main.classes.earnings_history import EarningsAndEarningsHistory
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import HISTORICAL_EARNINGS_TEST_PATH
 from context.yquery_ticker.main.enums.quarter import Quarter
@@ -12,9 +12,9 @@ from context.yquery_ticker.main.data_classes.charts import (
 )
 
 
-class test_historical_earnings(unittest.TestCase):
+class test_earnings(unittest.TestCase):
     def __init__(self, *args, **kwargs):
-        super(test_historical_earnings, self).__init__(*args, **kwargs)
+        super(test_earnings, self).__init__(*args, **kwargs)
 
         self.quarterly_earnings_data_up_trending_list = [
             QuarterlyEarningsDataChart(
@@ -194,7 +194,7 @@ class test_historical_earnings(unittest.TestCase):
         ]
 
         for model, expected in models_with_expected_results:
-            assert EarningsHistory.convert_json_to_time_series_model(
+            assert EarningsAndEarningsHistory.convert_json_to_time_series_model(
                 ticker=ticker,
                 data=data,
                 model=model
@@ -205,7 +205,7 @@ class test_historical_earnings(unittest.TestCase):
 
         self.assertRaises(
             TypeError,
-            EarningsHistory.convert_json_to_time_series_model,
+            EarningsAndEarningsHistory.convert_json_to_time_series_model,
             ticker=ticker,
             data=data,
             model=WrongClass

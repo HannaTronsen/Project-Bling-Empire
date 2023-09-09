@@ -5,13 +5,6 @@ YQUERY_TEST_PATH = f'{RELATIVE_PATH}/tests/'
 HISTORICAL_EARNINGS_TEST_PATH = f'{YQUERY_TEST_PATH}/historical_earnings/'
 DEFAULT_CASH_FLOW_METRIC = CashFlowType.FREE_CASH_FLOW
 
-YEAR_REGEX = r"(\d{4})"
-QUARTER_REGEX = r"([1-4]Q)"
-MONTH_REGEX = r"(0[1-9]|1[0-2])"
-DAY_REGEX = r"(0[1-9]|1\d|2\d|3[01])"
-QUARTER_YEAR_REGEX = fr"^{QUARTER_REGEX}{YEAR_REGEX}$"
-TIME_STAMP_REGEX = fr"^{YEAR_REGEX}-{MONTH_REGEX}-{DAY_REGEX}$"
-
 ATTRIBUTE_ERROR_STRING = "Failed to retrieve attribute '{attribute}' from chart at index {index}"
 WRONG_TYPE_STRING = "Wrong type: {type}."
 INVALID_LIST_LENGTH_STRING = "List of values is either empty or too small: {chart_list}."
