@@ -1,7 +1,8 @@
 from enum import Enum
 
 
-class DataFrame(Enum):
+# Might change later
+class IncomeStatement(Enum):
     AS_OF_DATE = ('asOfDate', str)
 
     @property

@@ -1,4 +1,6 @@
 from typing import Type
+
+from .yq_data_frame_data import YQDataFrameData
 from ..classes.time_series_data_collection import TimeSeriesDataCollection
 from ..const import WRONG_TYPE_STRING
 from ..data_classes.charts import (
@@ -9,10 +11,11 @@ from ..data_classes.charts import (
 )
 
 
-class HistoricalEarnings(TimeSeriesDataCollection):
-    quarterlyEarningsDataChart: list[QuarterlyEarningsDataChart]
-    quarterlyFinancialsDataChart: list[QuarterlyFinancialsDataChart]
-    yearlyFinancialsDataChart: list[YearlyFinancialsDataChart]
+class EarningsHistory(TimeSeriesDataCollection):
+    quarterly_earnings_data: list[QuarterlyEarningsDataChart]
+    quarterly_financials_data: list[QuarterlyFinancialsDataChart]
+    yearly_financials_data: list[YearlyFinancialsDataChart]
+    earnings_history: YQDataFrameData
 
     @classmethod
     def convert_json_to_time_series_model(cls, ticker, data, model: Type[Chart]) -> list[Chart]:
@@ -22,5 +25,9 @@ class HistoricalEarnings(TimeSeriesDataCollection):
         raise TypeError(WRONG_TYPE_STRING.format(type=model))
 
     @classmethod
+    def convert_csv_to_yq_data_frame_data(cls, csv):
+        pass
+
+    @classmethod
     def mockk(cls):
-        return HistoricalEarnings()
+        return EarningsHistory()

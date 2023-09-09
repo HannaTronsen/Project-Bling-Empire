@@ -1,7 +1,7 @@
 import unittest
 from typing import Optional
-from context.yquery_ticker.main.classes.data_frame_data import DataFrameData
-from context.yquery_ticker.main.classes.historical_earnings import HistoricalEarnings
+from context.yquery_ticker.main.classes.yq_data_frame_data import YQDataFrameData
+from context.yquery_ticker.main.classes.earnings_history import EarningsHistory
 from context.yquery_ticker.main.classes.universal_stock_data import UniversalStockDataClass
 from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
 from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
@@ -19,8 +19,8 @@ class test_universal_stock_data(unittest.TestCase):
         self.mockStock = UniversalStockDataClass(
             general_stock_info=GeneralStockInfo.mockk(),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
+            historical_earnings=EarningsHistory.mockk(),
+            test_data_frame_data=YQDataFrameData.mockk(),
         ).financial_data.mockk()
 
     @staticmethod
@@ -89,8 +89,8 @@ class test_universal_stock_data(unittest.TestCase):
                 )
             ),
             financial_data=FinancialData.mockk(),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
+            historical_earnings=EarningsHistory.mockk(),
+            test_data_frame_data=YQDataFrameData.mockk(),
         ).general_stock_info
 
         self.assertIsNone(stock.country)
@@ -138,8 +138,8 @@ class test_universal_stock_data(unittest.TestCase):
                 enterprise_to_revenue=0,
                 expenses=None
             ),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
+            historical_earnings=EarningsHistory.mockk(),
+            test_data_frame_data=YQDataFrameData.mockk(),
         ).financial_data
         self.assertIsNone(stock.revenue_per_share)
         self.assertIsNone(stock.revenue_growth)
@@ -351,8 +351,8 @@ class test_universal_stock_data(unittest.TestCase):
                 enterprise_to_revenue=10,
                 expenses=None,
             ),
-            historical_earnings=HistoricalEarnings.mockk(),
-            test_data_frame_data=DataFrameData.mockk(),
+            historical_earnings=EarningsHistory.mockk(),
+            test_data_frame_data=YQDataFrameData.mockk(),
         ).financial_data
 
         assert stock.price_to_earnings.forward_pe == 2.0

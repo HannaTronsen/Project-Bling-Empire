@@ -1,6 +1,6 @@
 from typing import Type
-from ..classes.data_frame_data import DataFrameData
-from ..classes.historical_earnings import HistoricalEarnings
+from ..classes.yq_data_frame_data import YQDataFrameData
+from ..classes.earnings_history import EarningsHistory
 from ..data_classes.financial_data import FinancialData
 from ..data_classes.general_stock_info import GeneralStockInfo
 from ..utils.dict_key_enum import DictKey
@@ -12,13 +12,13 @@ class UniversalStockDataClass:
             self,
             general_stock_info: GeneralStockInfo,
             financial_data: FinancialData,
-            historical_earnings: HistoricalEarnings,
-            test_data_frame_data: DataFrameData
+            historical_earnings: EarningsHistory,
+            test_data_frame_data: YQDataFrameData
     ):
         self.general_stock_info: Type[GeneralStockInfo] = general_stock_info.normalize_values()
         self.financial_data: Type[FinancialData] = financial_data.normalize_values()
-        self.historical_earnings: HistoricalEarnings = historical_earnings
-        self.test_data_frame_data: DataFrameData = test_data_frame_data
+        self.historical_earnings: EarningsHistory = historical_earnings
+        self.test_data_frame_data: YQDataFrameData = test_data_frame_data
 
     def get_revenue_data(self):
         return {
