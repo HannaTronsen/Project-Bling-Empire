@@ -16,10 +16,6 @@ class test_historical_earnings(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         super(test_historical_earnings, self).__init__(*args, **kwargs)
 
-        json_file_name = "data.json"
-        self.data = json.loads(open(f'{YQUERY_TEST_PATH}{json_file_name}').read())
-        self.ticker = next(iter(self.data.keys()))
-
         self.quarterly_earnings_data_up_trending_list = [
             QuarterlyEarningsDataChart(
                 date=Date(year=2022, quarter=Quarter.SECOND_QUARTER),
@@ -85,7 +81,46 @@ class test_historical_earnings(unittest.TestCase):
                 estimate=-2.0
             )
         ]
-        self.quarterly_earnings_data_chart_expected_list = [
+        self.yearly_financials_data__dip_in_up_trend_list = [
+            YearlyFinancialsDataChart(
+                date=Date(year=2019),
+                revenue=260174000000,
+                earnings=55256000000
+            ),
+            YearlyFinancialsDataChart(
+                date=Date(year=2020),
+                revenue=274515000000,
+                earnings=57411000000
+            ),
+            YearlyFinancialsDataChart(
+                date=Date(year=2021),
+                revenue=365817000000,
+                earnings=94680000000
+            ),
+            YearlyFinancialsDataChart(
+                date=Date(year=2022),
+                revenue=500,
+                earnings=99803000000
+            )
+        ]
+        self.exception_list = [
+            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
+            YearlyFinancialsDataChart(date=Date(year=2020), revenue=None, earnings=""),  # type: Ignore
+        ]
+        self.negative_values_list = [
+            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
+            YearlyFinancialsDataChart(date=Date(year=2020), revenue=-50, earnings=50),
+        ]
+        self.one_value_list = [
+            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
+        ]
+
+    def test_convert_json_to_model_list(self):
+        json_file_name = "data.json"
+        data = json.loads(open(f'{YQUERY_TEST_PATH}{json_file_name}').read())
+        ticker = next(iter(data.keys()))
+
+        quarterly_earnings_data_expected_list = [
             QuarterlyEarningsDataChart(
                 date=Date(year=2022, quarter=Quarter.SECOND_QUARTER),
                 actual=1.2,
@@ -107,7 +142,7 @@ class test_historical_earnings(unittest.TestCase):
                 estimate=1.43
             )
         ]
-        self.quarterly_financials_data_chart_expected_list = [
+        quarterly_financials_data_expected_list = [
             QuarterlyFinancialsDataChart(
                 date=Date(year=2022, quarter=Quarter.SECOND_QUARTER),
                 revenue=82959000000,
@@ -129,7 +164,7 @@ class test_historical_earnings(unittest.TestCase):
                 earnings=0,
             )
         ]
-        self.yearly_financials_data_chart_expected_list = [
+        yearly_financials_data_expected_list = [
             YearlyFinancialsDataChart(
                 date=Date(year=2019),
                 revenue=260174000000,
@@ -151,29 +186,17 @@ class test_historical_earnings(unittest.TestCase):
                 earnings=99803000000
             )
         ]
-        self.exception_list = [
-            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
-            YearlyFinancialsDataChart(date=Date(year=2020), revenue=None, earnings=""),  # type: Ignore
-        ]
-        self.negative_values_list = [
-            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
-            YearlyFinancialsDataChart(date=Date(year=2020), revenue=-50, earnings=50),
-        ]
-        self.one_value_list = [
-            YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
-        ]
 
-    def test_convert_json_to_model_list(self):
         models_with_expected_results = [
-            (QuarterlyEarningsDataChart, self.quarterly_earnings_data_chart_expected_list),
-            (QuarterlyFinancialsDataChart, self.quarterly_financials_data_chart_expected_list),
-            (YearlyFinancialsDataChart, self.yearly_financials_data_chart_expected_list)
+            (QuarterlyEarningsDataChart, quarterly_earnings_data_expected_list),
+            (QuarterlyFinancialsDataChart, quarterly_financials_data_expected_list),
+            (YearlyFinancialsDataChart, yearly_financials_data_expected_list)
         ]
 
         for model, expected in models_with_expected_results:
             assert HistoricalEarnings.convert_json_to_time_series_model(
-                ticker=self.ticker,
-                data=self.data,
+                ticker=ticker,
+                data=data,
                 model=model
             ) == expected
 
@@ -183,8 +206,8 @@ class test_historical_earnings(unittest.TestCase):
         self.assertRaises(
             TypeError,
             HistoricalEarnings.convert_json_to_time_series_model,
-            ticker=self.ticker,
-            data=self.data,
+            ticker=ticker,
+            data=data,
             model=WrongClass
         )
 
@@ -210,9 +233,9 @@ class test_historical_earnings(unittest.TestCase):
         test_cases = [
             # chart_list, attribute, expected_result
             (self.quarterly_earnings_data_up_trending_list, 'actual', True),
-            (self.quarterly_earnings_data_chart_expected_list, 'actual', False),
-            (self.quarterly_earnings_data_chart_expected_list, 'estimate', False),
-            (self.quarterly_financials_data_chart_expected_list, 'revenue', False),
+            (self.quarterly_earnings_data_dip_in_up_trend_list, 'actual', False),
+            (self.quarterly_earnings_data_dip_in_up_trend_list, 'estimate', False),
+            (self.yearly_financials_data__dip_in_up_trend_list, 'revenue', False),
         ]
 
         for chart, attribute, expected_result in test_cases:
@@ -225,11 +248,11 @@ class test_historical_earnings(unittest.TestCase):
         test_cases = [
             # chart_list, attribute, expected_exception
             (self.quarterly_earnings_data_up_trending_list, 'estimate', ValueError),
+            (self.quarterly_earnings_data_up_trending_list, 'none', AttributeError),
             (self.exception_list, 'revenue', ValueError),
             (self.exception_list, 'earnings', ValueError),
             ([], 'earnings', ValueError),
             (self.one_value_list, 'earnings', ValueError),
-            (self.quarterly_earnings_data_chart_expected_list, 'none', AttributeError),
         ]
 
         for chart, attribute, expected_exception in test_cases:
