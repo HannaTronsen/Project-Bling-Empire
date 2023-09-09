@@ -19,6 +19,9 @@ class test_time_series(unittest.TestCase):
             ([1, 2, 2, 3, 2, 4, 5], False),  # Plateau broken by a decrease
             ([5, 10, 15, 20, 25, 30], True),  # Larger increments
             ([5, 10, 15, 14, 20, 25, 30], False),  # Decrease in the middle
+            ([3.1251e+10, 4.5687e+10, 1.7043e+11], True),  # Decrease in the middle
+            ([1.7043e+11, 4.5687e+10, 3.1251e+10], False),  # Decrease in the middle
+            ([-2.5687e+10, 1.7043e+11, -1.1251e+10], False)
         ]
 
         for series_input, expected_result in test_cases:
