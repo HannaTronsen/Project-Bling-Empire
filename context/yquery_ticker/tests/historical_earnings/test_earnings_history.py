@@ -1,6 +1,6 @@
 import unittest
 
-from context.yquery_ticker.main.classes.earnings_and_earnings_history import EarningsAndEarningsHistory
+from context.yquery_ticker.main.classes.historical_earnings_data import HistoricalEarningsData
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import HISTORICAL_EARNINGS_TEST_PATH
 from context.yquery_ticker.main.data_classes.date import Date
@@ -65,7 +65,7 @@ class test_earnings_history(unittest.TestCase):
         json_file_name = "aapl.data.csv"
         data = f'{HISTORICAL_EARNINGS_TEST_PATH}{json_file_name}'
 
-        assert EarningsAndEarningsHistory.convert_csv_to_time_series_model(
+        assert HistoricalEarningsData.convert_csv_to_time_series_model(
             csv=data
         ) == self.aapl_earnings_history_expected_list
 

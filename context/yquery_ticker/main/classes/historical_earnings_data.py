@@ -17,7 +17,7 @@ from ..data_classes.yq_data_frame_data.earnings_history import (
 )
 
 
-class EarningsAndEarningsHistory(TimeSeriesDataCollection):
+class HistoricalEarningsData(TimeSeriesDataCollection):
     quarterly_earnings_data: list[QuarterlyEarningsDataChart]
     quarterly_financials_data: list[QuarterlyFinancialsDataChart]
     yearly_financials_data: list[YearlyFinancialsDataChart]
@@ -47,4 +47,4 @@ class EarningsAndEarningsHistory(TimeSeriesDataCollection):
 
     @classmethod
     def mockk(cls):
-        return EarningsAndEarningsHistory()
+        return HistoricalEarningsData()

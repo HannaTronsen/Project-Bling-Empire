@@ -1,6 +1,6 @@
 import json
 import unittest
-from context.yquery_ticker.main.classes.earnings_and_earnings_history import EarningsAndEarningsHistory
+from context.yquery_ticker.main.classes.historical_earnings_data import HistoricalEarningsData
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import HISTORICAL_EARNINGS_TEST_PATH
 from context.yquery_ticker.main.enums.quarter import Quarter
@@ -194,7 +194,7 @@ class test_earnings(unittest.TestCase):
         ]
 
         for model, expected in models_with_expected_results:
-            assert EarningsAndEarningsHistory.convert_json_to_time_series_model(
+            assert HistoricalEarningsData.convert_json_to_time_series_model(
                 ticker=ticker,
                 data=data,
                 model=model
@@ -205,7 +205,7 @@ class test_earnings(unittest.TestCase):
 
         self.assertRaises(
             TypeError,
-            EarningsAndEarningsHistory.convert_json_to_time_series_model,
+            HistoricalEarningsData.convert_json_to_time_series_model,
             ticker=ticker,
             data=data,
             model=WrongClass
