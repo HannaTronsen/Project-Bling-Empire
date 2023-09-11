@@ -1,7 +1,5 @@
 import unittest
 
-from yahooquery import Ticker
-
 from const import TEST_PATHS
 from context.ticker_scraper.main.functions import fetch_tickers, initialize_environment
 from context.yquery_ticker.main.functions import validate_and_get_yahoo_query_ticker_objects
@@ -18,9 +16,6 @@ def main():
 
 if __name__ == '__main__':
 
-    # aaplDataFrame = Ticker("aapl").earning_history
-    # file_path = "context/yquery_ticker/tests/historical_earnings/aapl.data.csv"
-    # aaplDataFrame.to_csv(file_path, index=False)
     if RUN_TESTS:
         test_suite = unittest.TestSuite()
         for path in TEST_PATHS:

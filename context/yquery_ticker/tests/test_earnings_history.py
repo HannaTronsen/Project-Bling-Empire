@@ -2,7 +2,7 @@ import unittest
 
 from context.yquery_ticker.main.classes.historical_earnings_data import HistoricalEarningsData
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
-from context.yquery_ticker.main.const import HISTORICAL_EARNINGS_TEST_PATH
+from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.earnings_history import EarningsHistoryDataClass
 from context.yquery_ticker.main.enums.quarter import Quarter
@@ -62,8 +62,8 @@ class test_earnings_history(unittest.TestCase):
         ]
 
     def test_convert_data_frame_to_model(self):
-        json_file_name = "aapl.data.csv"
-        data = f'{HISTORICAL_EARNINGS_TEST_PATH}{json_file_name}'
+        json_file_name = "resources/aapl.data.earnings.csv"
+        data = f'{YQUERY_TEST_PATH}{json_file_name}'
 
         assert HistoricalEarningsData.convert_csv_to_time_series_model(
             csv=data

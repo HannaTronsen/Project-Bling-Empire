@@ -1,14 +1,23 @@
-from enum import Enum
+from dataclasses import dataclass
+from enum import Enum, auto
+from typing import Optional
+from context.yquery_ticker.main.data_classes.date import Date
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import YQDataFrameData
 
 
-# Might change later
-class IncomeStatement(Enum):
-    AS_OF_DATE = ('asOfDate', str)
+class PeriodType(Enum):
+    MONTH_3 = auto()
+    MONTH_12 = auto()
+    TTM = auto()
 
-    @property
-    def __name__(self):
-        return self.value[0]
 
-    @property
-    def __type__(self):
-        return self.value[1]
+AS_OF_DATE = 'asOfDate'
+PERIOD_TYPE = 'periodType'
+NET_INCOME = 'NetIncome'
+
+
+@dataclass
+class IncomeStatementDataClass(YQDataFrameData):
+    asOfDate: Date
+    periodType: PeriodType
+    netIncome: Optional[float]

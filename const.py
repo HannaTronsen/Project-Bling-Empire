@@ -1,6 +1,6 @@
 from context.ticker_scraper.main.const import TICKER_SCRAPER_TEST_PATH
 from context.ticker_scraper.main.stock_collections import NORWAY
-from context.yquery_ticker.main.const import YQUERY_TEST_PATH, HISTORICAL_EARNINGS_TEST_PATH
+from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 
 
 class CONST_COLLECTION:
@@ -21,6 +21,5 @@ AUTO_GENERATED_FILE_STRING = " ### This file is auto generated and shouldn't be 
 TEST_PATHS = [
     TICKER_SCRAPER_TEST_PATH,
     YQUERY_TEST_PATH,
-    HISTORICAL_EARNINGS_TEST_PATH
 ]
 CONST_COLLECTION = CONST_COLLECTION()

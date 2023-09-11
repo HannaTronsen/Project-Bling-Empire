@@ -2,7 +2,7 @@ import json
 import unittest
 from context.yquery_ticker.main.classes.historical_earnings_data import HistoricalEarningsData
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
-from context.yquery_ticker.main.const import HISTORICAL_EARNINGS_TEST_PATH
+from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.enums.quarter import Quarter
 from context.yquery_ticker.main.data_classes.charts import (
     Date,
@@ -116,8 +116,8 @@ class test_earnings(unittest.TestCase):
         ]
 
     def test_convert_json_to_model_list(self):
-        json_file_name = "data.json"
-        data = json.loads(open(f'{HISTORICAL_EARNINGS_TEST_PATH}{json_file_name}').read())
+        json_file_name = "resources/data.json"
+        data = json.loads(open(f'{YQUERY_TEST_PATH}{json_file_name}').read())
         ticker = next(iter(data.keys()))
 
         quarterly_earnings_data_expected_list = [
