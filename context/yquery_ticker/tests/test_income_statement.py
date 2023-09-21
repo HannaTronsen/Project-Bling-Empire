@@ -77,14 +77,14 @@ class test_income_statement(unittest.TestCase):
         ]
 
     def test_convert_data_frame_to_model(self):
-        json_file_name = "resources/aapl.data.income_statement.annually.csv"
+        json_file_name = "resources/income_statement/aapl.data.income_statement.annually.csv"
         data = f'{YQUERY_TEST_PATH}{json_file_name}'
 
         assert IncomeStatementData.convert_csv_to_time_series_model(
             csv=data
         ) == self.annual_income_statement_expected_list
 
-        json_file_name = "resources/aapl.data.income_statement.quarterly.csv"
+        json_file_name = "resources/income_statement/aapl.data.income_statement.quarterly.csv"
         data = f'{YQUERY_TEST_PATH}{json_file_name}'
 
         assert IncomeStatementData.convert_csv_to_time_series_model(
