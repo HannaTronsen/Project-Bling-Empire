@@ -5,6 +5,7 @@ from ..const import DEFAULT_CASH_FLOW_METRIC
 from ..data_classes.expenses import Expenses
 from ..enums.cash_flow_type import CashFlowType
 from ..classes.iterable_data import IterableDataInterface
+from ..errors.generic_error import GenericError
 
 
 @dataclass
@@ -84,20 +85,20 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
         return None
 
     def calculate_return_on_investment(self):
-        has_invalid_expenses_value = self.expenses.has_invalid_value(
-            self.expenses.capital_expenditure,
-            self.expenses.interest_expense,
-            self.expenses.interest_expense_non_operating,
-            self.expenses.total_other_finance_cost
-        )
-        if (
-                self.net_income_to_common is not None
-                and not has_invalid_expenses_value
-        ):
-            if (sum_expenses := self.expenses.sum()) != 0:
-                return self.net_income_to_common / (sum_expenses * 100)
-
-        return False
+        if self.expenses is not None:
+            has_invalid_expenses_value = self.expenses.has_invalid_value(
+                self.expenses.capital_expenditure,
+                self.expenses.interest_expense,
+                self.expenses.interest_expense_non_operating,
+                self.expenses.total_other_finance_cost
+            )
+            if (
+                    self.net_income_to_common is not None
+                    and not has_invalid_expenses_value
+            ):
+                if (sum_expenses := self.expenses.sum()) != 0:
+                    return self.net_income_to_common / (sum_expenses * 100)
+        return GenericError(reason="Expenses fields is `None` or has invalid values")
 
     @classmethod
     def mockk(cls):

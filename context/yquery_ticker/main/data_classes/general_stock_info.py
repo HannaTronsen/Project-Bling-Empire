@@ -9,7 +9,7 @@ from ..enums.country import Country
 @dataclass
 class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
     ticker: str
-    company_name: str
+    company: str
     country: Country
     industry: str
     sector: str
@@ -21,7 +21,7 @@ class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
     def mockk(cls):
         return GeneralStockInfo(
             ticker='aapl',
-            company_name='Apple Inc',
+            company='Apple Inc',
             country=Country.US,
             industry='Computer',
             sector='Electronics',

@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional
+
+from .financial_data import PriceToEarnings
 from ..classes.castable_data import CastableDataInterface
 from ..classes.iterable_data import IterableDataInterface
 from ..enums.currency import Currency
@@ -11,7 +13,6 @@ class FinancialSummary(IterableDataInterface, CastableDataInterface):
     open: Optional[float]
     dividend_rate: Optional[float]
     beta: Optional[float]
-    trailing_PE: Optional[float]
-    forward_PE: Optional[float]
+    price_to_earnings: Optional[PriceToEarnings]
     market_cap: Optional[float]
     currency: Currency

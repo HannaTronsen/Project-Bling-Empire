@@ -16,7 +16,8 @@ class CONST_COLLECTION:
     ]
 
 
-BLACKLISTED_STOCK_TICKERS_PATH = f'black_listed_stock_tickers.txt'
+GENERATED_CSV_FILES_PATH = "generated_csv_files"
+BLACKLISTED_STOCK_TICKERS_PATH = 'black_listed_stock_tickers.txt'
 AUTO_GENERATED_FILE_STRING = " ### This file is auto generated and shouldn't be touched! ### "
 TEST_PATHS = [
     TICKER_SCRAPER_TEST_PATH,
