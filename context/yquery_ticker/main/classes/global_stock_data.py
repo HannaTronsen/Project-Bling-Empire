@@ -53,7 +53,7 @@ class GlobalStockDataClass:
                 currency=summary_detail["currency"],
 
             )
-        ).normalize_values()
+        )  # .normalize_values() TODO(Hanna): Fix for multi word strings
 
         self.financial_data: FinancialData = FinancialData(
             price=financial_data["currentPrice"],
