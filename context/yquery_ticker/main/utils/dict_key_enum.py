@@ -29,3 +29,6 @@ class DictKey(Enum):
     RETURN_ON_ASSETS = 'Return on Assets'
     RETURN_ON_INVESTED_CAPITAL = 'Return on Invested Capital'
     RETURN_ON_INVESTMENT = 'Return on Investment'
+
+    EARNINGS_HISTORY = "Earnings History"
+    REVENUE_HISTORY = "Revenue History"

@@ -118,7 +118,7 @@ class test_earnings(unittest.TestCase):
     def test_convert_json_to_model_list(self):
         json_file_name = "resources/data.json"
         data = json.loads(open(f'{YQUERY_TEST_PATH}{json_file_name}').read())
-        ticker = next(iter(data.keys()))
+        ticker_symbol = next(iter(data.keys()))
 
         quarterly_earnings_data_expected_list = [
             QuarterlyEarningsDataChart(
@@ -195,7 +195,7 @@ class test_earnings(unittest.TestCase):
 
         for model, expected in models_with_expected_results:
             assert HistoricalEarningsData.convert_json_to_time_series_model(
-                ticker=ticker,
+                ticker_symbol=ticker_symbol,
                 data=data,
                 model=model
             ) == expected
@@ -206,7 +206,7 @@ class test_earnings(unittest.TestCase):
         self.assertRaises(
             TypeError,
             HistoricalEarningsData.convert_json_to_time_series_model,
-            ticker=ticker,
+            ticker=ticker_symbol,
             data=data,
             model=WrongClass
         )

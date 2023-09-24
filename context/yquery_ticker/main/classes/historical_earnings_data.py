@@ -1,3 +1,4 @@
+import json
 from typing import Type
 
 import pandas as pd
@@ -15,18 +16,16 @@ from ..data_classes.yq_data_frame_data.earnings_history import (
     EPS_ACTUAL, EPS_ESTIMATE,
     EPS_DIFFERENCE, EPS_QUARTER
 )
+from ..enums.growth_criteria import GrowthCriteria
+from ..utils.dict_key_enum import DictKey
 
 
 class HistoricalEarningsData(TimeSeriesDataCollection):
-    quarterly_earnings_data: list[QuarterlyEarningsDataChart]
-    quarterly_financials_data: list[QuarterlyFinancialsDataChart]
-    yearly_financials_data: list[YearlyFinancialsDataChart]
-    earnings_history_data: list[EarningsHistoryDataClass]
 
     @classmethod
-    def convert_json_to_time_series_model(cls, ticker, data, model: Type[Chart]) -> list[Chart]:
+    def convert_json_to_time_series_model(cls, ticker_symbol: str, data: json, model: Type[Chart]) -> list[Chart]:
         if model in [QuarterlyEarningsDataChart, QuarterlyFinancialsDataChart, YearlyFinancialsDataChart]:
-            data = model.get_section_from_json_path(data[ticker])
+            data = model.get_section_from_json_path(data[ticker_symbol])
             return [model(**item).convert_date() for item in data]  # type: ignore
         raise TypeError(WRONG_TYPE_STRING.format(type=model))
 
@@ -44,6 +43,27 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
                 )
             )
         return earnings_history
+
+    @classmethod
+    def evaluate_growth_criteria(cls, chart_list: [Chart], attribute: DictKey) -> bool:
+        if attribute == DictKey.EARNINGS_HISTORY:
+            return TimeSeriesDataCollection._passes_percentage_increase_requirements(
+                percentages=TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
+                    model_list=chart_list,
+                    attribute=GrowthCriteria.EARNINGS.__str__
+                ),
+                percentage_requirement=GrowthCriteria.EARNINGS.__percentage_criteria__
+            )
+        elif attribute == DictKey.REVENUE_HISTORY:
+            return TimeSeriesDataCollection._passes_percentage_increase_requirements(
+                percentages=TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
+                    model_list=chart_list,
+                    attribute=GrowthCriteria.REVENUE.__str__
+                ),
+                percentage_requirement=GrowthCriteria.REVENUE.__percentage_criteria__
+            )
+        else:
+            raise TypeError(WRONG_TYPE_STRING.format(type=attribute))
 
     @classmethod
     def mockk(cls):

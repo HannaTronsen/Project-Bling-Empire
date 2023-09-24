@@ -21,7 +21,6 @@ def initialize_environment():
 
 
 def fetch_tickers():
-
     for collection in CONST_COLLECTION.STCOK_COLLECTION_LIST:
         match collection.stock_index_name:
             case CONST_COLLECTION.STANDARD_AND_POOR_500.stock_index_name:

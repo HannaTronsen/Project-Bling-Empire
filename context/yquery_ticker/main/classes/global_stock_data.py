@@ -2,6 +2,8 @@ from enum import Enum
 
 from yahooquery import Ticker
 
+from .historical_earnings_data import HistoricalEarningsData
+from ..data_classes.charts import YearlyFinancialsDataChart
 from ..data_classes.financial_data import FinancialData, PriceToEarnings, EarningsPerShare
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
@@ -19,13 +21,12 @@ class Section(Enum):
     FINANCIAL_RATIO_DATA = "FINANCIAL RATIO DATA"
     CASH_FLOW_DATA = "CASH FLOW DATA"
     PROFITABILITY_DATA = "PROFITABILITY DATA"
+    GROWTH_CRITERIA_DATA = "GROWTH CRITERIA DATA"
 
 
 class GlobalStockDataClass:
 
     def __init__(self, ticker_symbol: str):
-        # self.earnings_and_earnings_history: HistoricalEarningsData = earnings_and_earnings_history
-
         YQTicker = Ticker(ticker_symbol)
         financial_data = YQTicker.financial_data[ticker_symbol]
         asset_profile = YQTicker.asset_profile[ticker_symbol]
@@ -91,6 +92,12 @@ class GlobalStockDataClass:
             expenses=None  # TODO (Hanna): These values come from dataframes
         ).normalize_values()
 
+        self.earnings_and_earnings_history = HistoricalEarningsData.convert_json_to_time_series_model(
+            ticker_symbol=ticker_symbol,
+            data=YQTicker.earnings,
+            model=YearlyFinancialsDataChart
+        )
+
     def get_revenue_data(self):
         return {
             DictKey.TOTAL_REVENUE: self.financial_data.total_revenue,
@@ -152,6 +159,18 @@ class GlobalStockDataClass:
             DictKey.RETURN_ON_INVESTMENT: self.financial_data.calculate_return_on_investment()
         }
 
+    def get_growth_criteria(self):
+        return {
+            DictKey.EARNINGS_HISTORY: HistoricalEarningsData.evaluate_growth_criteria(
+                chart_list=self.earnings_and_earnings_history,
+                attribute=DictKey.EARNINGS_HISTORY
+            ),
+            DictKey.REVENUE_HISTORY: HistoricalEarningsData.evaluate_growth_criteria(
+                chart_list=self.earnings_and_earnings_history,
+                attribute=DictKey.REVENUE_HISTORY
+            )
+        }
+
     def map_section_headers_with_data(self):
         return {
             Section.REVENUE_DATA: lambda: self.get_revenue_data(),
@@ -162,4 +181,5 @@ class GlobalStockDataClass:
             Section.FINANCIAL_RATIO_DATA: lambda: self.get_financial_ratio_data(),
             Section.CASH_FLOW_DATA: lambda: self.get_cash_flow_data(),
             Section.PROFITABILITY_DATA: lambda: self.get_profitability_data(),
+            Section.GROWTH_CRITERIA_DATA: lambda: self.get_growth_criteria()
         }
