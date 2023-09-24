@@ -46,8 +46,7 @@ def generate_csv_for_ticker(ticker_symbol: str):
 
 
 def put_yahoo_query_ticker_object(ticker):
-    # TODO (Hanna)
-    pass
+    pass  # TODO (Hanna)
 
 
 def validate_yahoo_query_ticker_objects():

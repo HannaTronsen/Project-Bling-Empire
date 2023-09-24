@@ -98,7 +98,7 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
             ):
                 if (sum_expenses := self.expenses.sum()) != 0:
                     return self.net_income_to_common / (sum_expenses * 100)
-        return GenericError(reason="Expenses fields is `None` or has invalid values")
+        return GenericError(reason="Expenses fields is `None` or has invalid values for calculations")
 
     @classmethod
     def mockk(cls):

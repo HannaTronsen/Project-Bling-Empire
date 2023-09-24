@@ -14,7 +14,7 @@ from context.yquery_ticker.main.functions import (
 
 RUN_TESTS = True
 RUN_PROD_CODE = False
-RUN_DEV_CODE = True
+RUN_DEV_CODE = False
 
 
 # Will be removed when all relevant testing csv files have been created
