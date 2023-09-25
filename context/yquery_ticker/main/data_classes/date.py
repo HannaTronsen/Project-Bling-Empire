@@ -3,6 +3,8 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Any, Optional
 
+import pandas as pd
+
 from ..enums.country import Country
 from ..enums.quarter import Month, Quarter
 
@@ -78,6 +80,12 @@ class Date:
             month = str(match.group(2))
             return Date(year=year, quarter=Month.from_month(month).__quarter__)
         return None
+
+    @classmethod
+    def from_data_frame(cls, date):
+        if isinstance(date, pd.Timestamp):
+            return date.strftime("%Y-%m-%d")
+        return date
 
     @classmethod
     def convert_date(cls, date_input, date_time_format: Country = None):

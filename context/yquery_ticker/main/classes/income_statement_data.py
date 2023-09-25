@@ -1,28 +1,20 @@
-from typing import List
-
 import pandas as pd
 
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.data_classes.date import Date
-from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import IncomeStatementDataClass, \
-    PeriodType, AS_OF_DATE, PERIOD_TYPE, NET_INCOME
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import (
+    IncomeStatementDataClass,
+    NET_INCOME
+)
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import (
+    PERIOD_TYPE,
+    AS_OF_DATE,
+    to_period_type
+)
 from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 
 
-def _to_period_type(period_type) -> PeriodType:
-    if period_type == "12M":
-        return PeriodType.MONTH_12
-    elif period_type == "3M":
-        return PeriodType.MONTH_3
-    elif period_type == "TTM":
-        return PeriodType.TTM
-    else:
-        raise ValueError(f"asOfDate value was either null or not an expected value. period_type: {period_type}")
-
-
 class IncomeStatementData(TimeSeriesDataCollection):
-    annual: List[IncomeStatementDataClass]
-    quarterly: List[IncomeStatementDataClass]
 
     @classmethod
     def convert_data_frame_to_time_series_model(cls, data_frame):
@@ -30,8 +22,8 @@ class IncomeStatementData(TimeSeriesDataCollection):
         for index, row in data_frame.iterrows():
             result.append(
                 IncomeStatementDataClass(
-                    asOfDate=Date.convert_date(row[AS_OF_DATE].strftime("%Y-%m-%d")),
-                    periodType=_to_period_type(row[PERIOD_TYPE]),
+                    asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
+                    periodType=to_period_type(row[PERIOD_TYPE]),
                     netIncome=row[NET_INCOME],
                 )
             )

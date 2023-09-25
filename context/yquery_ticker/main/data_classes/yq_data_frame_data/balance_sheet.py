@@ -2,9 +2,9 @@ from dataclasses import dataclass
 from typing import Optional
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import YQDataFrameData
 
-NET_INCOME = 'NetIncome'
+COMMON_STOCK_EQUITY = 'CommonStockEquity'
 
 
 @dataclass
-class IncomeStatementDataClass(YQDataFrameData):
-    netIncome: Optional[float]
+class BalanceSheetDataClass(YQDataFrameData):
+    commonStockEquity: Optional[float]

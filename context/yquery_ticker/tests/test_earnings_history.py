@@ -18,25 +18,33 @@ class test_earnings_history(unittest.TestCase):
                 epsActual=1.29,
                 epsEstimate=1.27,
                 epsDifference=0.02,
-                quarter=Date(year=2022, quarter=Quarter.THIRD_QUARTER)
+                quarter=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                asOfDate=None,
+                periodType=None
             ),
             EarningsHistoryDataClass(
                 epsActual=1.88,
                 epsEstimate=1.94,
                 epsDifference=-0.06,
-                quarter=Date(year=2022, quarter=Quarter.FOURTH_QUARTER)
+                quarter=Date(year=2022, quarter=Quarter.FOURTH_QUARTER),
+                asOfDate=None,
+                periodType=None
             ),
             EarningsHistoryDataClass(
                 epsActual=1.52,
                 epsEstimate=1.43,
                 epsDifference=0.09,
-                quarter=Date(year=2023, quarter=Quarter.FIRST_QUARTER)
+                quarter=Date(year=2023, quarter=Quarter.FIRST_QUARTER),
+                asOfDate=None,
+                periodType=None
             ),
             EarningsHistoryDataClass(
                 epsActual=1.17,
                 epsEstimate=1.11,
                 epsDifference=0.06,
-                quarter=Date(year=2023, quarter=Quarter.SECOND_QUARTER)
+                quarter=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
+                asOfDate=None,
+                periodType=None
             )
         ]
 
@@ -45,19 +53,25 @@ class test_earnings_history(unittest.TestCase):
                 epsActual=1.29,
                 epsEstimate=1.27,
                 epsDifference=0.02,
-                quarter=Date(year=2022, quarter=Quarter.THIRD_QUARTER)
+                quarter=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                asOfDate=None,
+                periodType=None
             ),
             EarningsHistoryDataClass(
                 epsActual=1.88,
                 epsEstimate=1.94,
                 epsDifference=-0.06,
-                quarter=Date(year=2022, quarter=Quarter.FOURTH_QUARTER)
+                quarter=Date(year=2022, quarter=Quarter.FOURTH_QUARTER),
+                asOfDate=None,
+                periodType=None
             ),
             EarningsHistoryDataClass(
                 epsActual=1.92,
                 epsEstimate=1.43,
                 epsDifference=0.09,
-                quarter=Date(year=2023, quarter=Quarter.FIRST_QUARTER)
+                quarter=Date(year=2023, quarter=Quarter.FIRST_QUARTER),
+                asOfDate=None,
+                periodType=None
             ),
         ]
 

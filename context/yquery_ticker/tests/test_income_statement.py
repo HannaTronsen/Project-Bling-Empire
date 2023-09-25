@@ -5,11 +5,9 @@ import pandas as pd
 from context.yquery_ticker.main.classes.income_statement_data import IncomeStatementData
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import PeriodType
 from context.yquery_ticker.main.enums.quarter import Quarter
-from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import (
-    IncomeStatementDataClass,
-    PeriodType
-)
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import IncomeStatementDataClass
 
 
 class test_income_statement(unittest.TestCase):

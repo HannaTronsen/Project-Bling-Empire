@@ -39,7 +39,9 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
                     epsActual=row[EPS_ACTUAL],
                     epsEstimate=row[EPS_ESTIMATE],
                     epsDifference=row[EPS_DIFFERENCE],
-                    quarter=Date.convert_date(date_input=row[EPS_QUARTER])
+                    quarter=Date.convert_date(date_input=row[EPS_QUARTER]),
+                    asOfDate=None,
+                    periodType=None
                 )
             )
         return earnings_history
