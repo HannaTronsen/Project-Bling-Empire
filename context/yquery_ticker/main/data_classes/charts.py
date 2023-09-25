@@ -26,8 +26,8 @@ class Chart(ABC):
 
 @dataclass
 class QuarterlyEarningsDataChart(Chart):
-    actual: float
-    estimate: float  # Just to map to model for now
+    actual: Optional[float]
+    estimate: Optional[float]  # Just to map to model for now
 
     def get_section_from_json_path(self): return self['earningsChart']['quarterly']
 

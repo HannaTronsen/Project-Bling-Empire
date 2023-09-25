@@ -12,9 +12,9 @@ from context.yquery_ticker.main.functions import (
     generate_csv_for_ticker
 )
 
-RUN_TESTS = True
+RUN_TESTS = False
 RUN_PROD_CODE = False
-RUN_DEV_CODE = False
+RUN_DEV_CODE = True
 
 
 # Will be removed when all relevant testing csv files have been created
@@ -41,7 +41,7 @@ if __name__ == '__main__':
         unittest.TextTestRunner().run(test_suite)
 
     if RUN_DEV_CODE:
-        generate_csv_for_ticker(ticker_symbol="ACR.OL")
+        generate_csv_for_ticker(ticker_symbol="AAPL")
 
     if RUN_PROD_CODE:
         main()

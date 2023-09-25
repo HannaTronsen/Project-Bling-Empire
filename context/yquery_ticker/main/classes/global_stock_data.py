@@ -3,7 +3,9 @@ from enum import Enum
 from yahooquery import Ticker
 
 from .historical_earnings_data import HistoricalEarningsData
+from .income_statement_data import IncomeStatementData
 from ..data_classes.charts import YearlyFinancialsDataChart
+from ..data_classes.date import Frequency
 from ..data_classes.financial_data import FinancialData, PriceToEarnings, EarningsPerShare
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
@@ -13,15 +15,15 @@ from ..utils.dict_key_enum import DictKey
 # Enum for csv section headers
 class Section(Enum):
     GENERAL_STOCK_INFO = "GENERAL STOCK INFO"
-    REVENUE_DATA = "REVENUE DATA"
-    EARNINGS_DATA = "EARNINGS DATA"
-    DEBT_DATA = "DEBT DATA"
-    MARGINS_DATA = "MARGINS DATA"
-    DIVIDEND_DATA = "DIVIDEND DATA"
-    FINANCIAL_RATIO_DATA = "FINANCIAL RATIO DATA"
-    CASH_FLOW_DATA = "CASH FLOW DATA"
-    PROFITABILITY_DATA = "PROFITABILITY DATA"
-    GROWTH_CRITERIA_DATA = "GROWTH CRITERIA DATA"
+    REVENUE = "REVENUE"
+    EARNINGS = "EARNINGS"
+    DEBT = "DEBT"
+    MARGINS = "MARGINS"
+    DIVIDEND = "DIVIDEND"
+    FINANCIAL_RATIO = "FINANCIAL RATIO"
+    CASH_FLOW = "CASH FLOW"
+    PROFITABILITY = "PROFITABILITY"
+    GROWTH_CRITERIA = "PASSES GROWTH CRITERIA"
 
 
 class GlobalStockDataClass:
@@ -98,6 +100,10 @@ class GlobalStockDataClass:
             model=YearlyFinancialsDataChart
         )
 
+        self.income_statement = IncomeStatementData.convert_data_frame_to_time_series_model(
+            data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
+        )
+
     def get_revenue_data(self):
         return {
             DictKey.TOTAL_REVENUE: self.financial_data.total_revenue,
@@ -168,18 +174,21 @@ class GlobalStockDataClass:
             DictKey.REVENUE_HISTORY: HistoricalEarningsData.evaluate_growth_criteria(
                 chart_list=self.earnings_and_earnings_history,
                 attribute=DictKey.REVENUE_HISTORY
+            ),
+            DictKey.NET_INCOME: IncomeStatementData.evaluate_growth_criteria(
+                income_statement=self.income_statement
             )
         }
 
     def map_section_headers_with_data(self):
         return {
-            Section.REVENUE_DATA: lambda: self.get_revenue_data(),
-            Section.EARNINGS_DATA: lambda: self.get_earnings_data(),
-            Section.DEBT_DATA: lambda: self.get_debt_data(),
-            Section.MARGINS_DATA: lambda: self.get_margins_data(),
-            Section.DIVIDEND_DATA: lambda: self.get_dividend_data(),
-            Section.FINANCIAL_RATIO_DATA: lambda: self.get_financial_ratio_data(),
-            Section.CASH_FLOW_DATA: lambda: self.get_cash_flow_data(),
-            Section.PROFITABILITY_DATA: lambda: self.get_profitability_data(),
-            Section.GROWTH_CRITERIA_DATA: lambda: self.get_growth_criteria()
+            Section.REVENUE: lambda: self.get_revenue_data(),
+            Section.EARNINGS: lambda: self.get_earnings_data(),
+            Section.DEBT: lambda: self.get_debt_data(),
+            Section.MARGINS: lambda: self.get_margins_data(),
+            Section.DIVIDEND: lambda: self.get_dividend_data(),
+            Section.FINANCIAL_RATIO: lambda: self.get_financial_ratio_data(),
+            Section.CASH_FLOW: lambda: self.get_cash_flow_data(),
+            Section.PROFITABILITY: lambda: self.get_profitability_data(),
+            Section.GROWTH_CRITERIA: lambda: self.get_growth_criteria()
         }

@@ -12,6 +12,7 @@ def generate_csv_for_ticker(ticker_symbol: str):
     ticker = GlobalStockDataClass(
         ticker_symbol=ticker_symbol
     )
+
     csv_file = f"{ticker_symbol}.csv"
     with open(f"{GENERATED_CSV_FILES_PATH}/{csv_file}", mode='w', newline='') as file:
         writer = csv.writer(file)
@@ -28,7 +29,7 @@ def generate_csv_for_ticker(ticker_symbol: str):
 
         # Write each section
         for section, data_func in ticker.map_section_headers_with_data().items():
-            if section == Section.GROWTH_CRITERIA_DATA:
+            if section == Section.GROWTH_CRITERIA:
                 writer.writerows([[], []])
 
             writer.writerow([section.value])  # Write section header

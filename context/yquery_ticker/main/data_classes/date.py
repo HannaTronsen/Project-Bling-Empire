@@ -1,9 +1,15 @@
 import re
 from dataclasses import dataclass
+from enum import Enum
 from typing import Any, Optional
 
 from ..enums.country import Country
 from ..enums.quarter import Month, Quarter
+
+
+class Frequency(Enum):
+    ANNUALLY = 'a'
+    QUARTERLY = 'q'
 
 
 class TimeRegex:
