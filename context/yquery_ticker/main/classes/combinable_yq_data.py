@@ -6,6 +6,7 @@ from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
+# TODO(Hanna): Find out if we should do result.append(balance_sheet_entry.commonStockEquity + abs(cashDividendsPaid))
 class CombinableYQData(TimeSeriesDataCollection):
     def __init__(
             self,
