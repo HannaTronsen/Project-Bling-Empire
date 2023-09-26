@@ -1,14 +1,17 @@
 from enum import Enum
-
 from yahooquery import Ticker
-
-from .historical_earnings_data import HistoricalEarningsData
-from .income_statement_data import IncomeStatementData
+from context.yquery_ticker.main.classes.yahoo.balance_sheet_data import BalanceSheetData
+from context.yquery_ticker.main.classes.yahoo.cash_flow_data import CashFlowData
+from context.yquery_ticker.main.classes.yahoo.historical_earnings_data import HistoricalEarningsData
+from context.yquery_ticker.main.classes.yahoo.income_statement_data import IncomeStatementData
+from .time_series_data_collection import TimeSeriesDataCollection
+from ..const import WRONG_TYPE_STRING
 from ..data_classes.charts import YearlyFinancialsDataChart
 from ..data_classes.date import Frequency
 from ..data_classes.financial_data import FinancialData, PriceToEarnings, EarningsPerShare
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
+from ..enums.growth_criteria import GrowthCriteria
 from ..utils.dict_key_enum import DictKey
 
 
@@ -104,6 +107,16 @@ class GlobalStockDataClass:
             data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
         )
 
+        self.balance_sheet = BalanceSheetData.convert_data_frame_to_time_series_model(
+            data_frame=YQTicker.balance_sheet(frequency=Frequency.ANNUALLY.value, trailing=True)
+        )
+
+        self.cash_flow = CashFlowData(
+            entries=CashFlowData.convert_data_frame_to_time_series_model(
+                data_frame=YQTicker.cash_flow(frequency=Frequency.ANNUALLY.value, trailing=True)
+            )
+        )
+
     def get_revenue_data(self):
         return {
             DictKey.TOTAL_REVENUE: self.financial_data.total_revenue,
@@ -177,8 +190,32 @@ class GlobalStockDataClass:
             ),
             DictKey.NET_INCOME: IncomeStatementData.evaluate_growth_criteria(
                 income_statement=self.income_statement
+            ),
+            DictKey.BOOK_VALUE_AND_DIVIDENDS: self._combine_process_and_evaluate_growth_criteria(
+                combination=DictKey.BOOK_VALUE_AND_DIVIDENDS
             )
         }
+
+    def _combine_process_and_evaluate_growth_criteria(self, combination: DictKey):
+        result = []
+        if combination == DictKey.BOOK_VALUE_AND_DIVIDENDS:
+            # we want one to be the key of the other
+            for balance_sheet_entry in self.balance_sheet:
+                cashDividendsPaid = self.cash_flow.get_entry_of(
+                    as_of_date=balance_sheet_entry.asOfDate,
+                    period_type=balance_sheet_entry.periodType
+                )
+                commonStockEquity = balance_sheet_entry.commonStockEquity
+                result.append(commonStockEquity + cashDividendsPaid)
+
+            return TimeSeriesDataCollection.passes_percentage_increase_requirements(
+                percentages=TimeSeriesDataCollection.calculate_percentage_increase_for_simple_list(
+                    simple_list=result
+                ),
+                percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
+            )
+        else:
+            raise TypeError(WRONG_TYPE_STRING.format(type=combination))
 
     def map_section_headers_with_data(self):
         return {

@@ -8,7 +8,7 @@
 
     If the value is not castable, it will return None
 """
-from ..const import (
+from context.yquery_ticker.main.const import (
     CASTABLE_ERROR_STRING,
     NO_CASTABLE_DEFINITION_ERROR_STRING
 )

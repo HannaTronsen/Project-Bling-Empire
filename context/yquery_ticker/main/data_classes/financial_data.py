@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import Optional
-from ..classes.castable_data import CastableDataInterface
+from context.yquery_ticker.main.interfaces.castable_data import CastableDataInterface
 from ..const import DEFAULT_CASH_FLOW_METRIC
 from ..data_classes.expenses import Expenses
 from ..enums.cash_flow_type import CashFlowType

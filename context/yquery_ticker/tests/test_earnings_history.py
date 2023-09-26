@@ -1,6 +1,6 @@
 import unittest
 
-from context.yquery_ticker.main.classes.historical_earnings_data import HistoricalEarningsData
+from context.yquery_ticker.main.classes.yahoo.historical_earnings_data import HistoricalEarningsData
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.data_classes.date import Date

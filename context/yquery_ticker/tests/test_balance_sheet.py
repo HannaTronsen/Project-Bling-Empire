@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from context.yquery_ticker.main.classes.balance_sheet_data import BalanceSheetData
+from context.yquery_ticker.main.classes.yahoo.balance_sheet_data import BalanceSheetData
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.balance_sheet import BalanceSheetDataClass

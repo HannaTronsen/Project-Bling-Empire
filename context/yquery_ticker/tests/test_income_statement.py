@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from context.yquery_ticker.main.classes.income_statement_data import IncomeStatementData
+from context.yquery_ticker.main.classes.yahoo.income_statement_data import IncomeStatementData
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import PeriodType

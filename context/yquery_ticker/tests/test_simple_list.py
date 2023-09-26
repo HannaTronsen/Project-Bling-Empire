@@ -74,7 +74,7 @@ class test_time_series(unittest.TestCase):
         ]
 
         for percentages, percentage_requirement, expected_output in test_cases:
-            assert TimeSeriesDataCollection._passes_percentage_increase_requirements(
+            assert TimeSeriesDataCollection.passes_percentage_increase_requirements(
                 percentages=percentages,
                 percentage_requirement=percentage_requirement
             ) is expected_output
@@ -97,6 +97,6 @@ class test_time_series(unittest.TestCase):
         ]
 
         for series_input, expected_result in test_cases:
-            assert TimeSeriesDataCollection._calculate_percentage_increase_for_simple_list(
+            assert TimeSeriesDataCollection.calculate_percentage_increase_for_simple_list(
                 simple_list=series_input
             ) == expected_result

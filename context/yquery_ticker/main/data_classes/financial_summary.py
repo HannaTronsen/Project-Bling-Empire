@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import Optional
 
 from .financial_data import PriceToEarnings
-from ..classes.castable_data import CastableDataInterface
+from context.yquery_ticker.main.interfaces.castable_data import CastableDataInterface
 from ..classes.iterable_data import IterableDataInterface
 from ..enums.currency import Currency
 

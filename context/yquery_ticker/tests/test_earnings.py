@@ -1,6 +1,6 @@
 import json
 import unittest
-from context.yquery_ticker.main.classes.historical_earnings_data import HistoricalEarningsData
+from context.yquery_ticker.main.classes.yahoo.historical_earnings_data import HistoricalEarningsData
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.enums.quarter import Quarter
@@ -271,17 +271,17 @@ class test_earnings(unittest.TestCase):
             model_list=self.quarterly_earnings_data_up_trending_list,
             attribute='actual'
         )
-        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(
+        assert TimeSeriesDataCollection.passes_percentage_increase_requirements(
             percentages=percentages,
             percentage_requirement=40
         ) is False
 
-        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(
+        assert TimeSeriesDataCollection.passes_percentage_increase_requirements(
             percentages=percentages,
             percentage_requirement=2
         ) is True
 
-        assert TimeSeriesDataCollection._passes_percentage_increase_requirements(
+        assert TimeSeriesDataCollection.passes_percentage_increase_requirements(
             percentages=[10, 15],
             percentage_requirement=20
         ) is False

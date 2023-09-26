@@ -1,12 +1,16 @@
 import re
 from dataclasses import dataclass
-from enum import Enum
+from enum import Enum, auto
 from typing import Any, Optional
-
 import pandas as pd
-
 from ..enums.country import Country
 from ..enums.quarter import Month, Quarter
+
+
+class PeriodType(Enum):
+    MONTH_3 = auto()
+    MONTH_12 = auto()
+    TTM = auto()
 
 
 class Frequency(Enum):
@@ -86,6 +90,17 @@ class Date:
         if isinstance(date, pd.Timestamp):
             return date.strftime("%Y-%m-%d")
         return date
+
+    @classmethod
+    def to_period_type(cls, period_type) -> PeriodType:
+        if period_type == "12M":
+            return PeriodType.MONTH_12
+        elif period_type == "3M":
+            return PeriodType.MONTH_3
+        elif period_type == "TTM":
+            return PeriodType.TTM
+        else:
+            raise ValueError(f"asOfDate value was either null or not an expected value. period_type: {period_type}")
 
     @classmethod
     def convert_date(cls, date_input, date_time_format: Country = None):

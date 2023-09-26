@@ -2,22 +2,22 @@ import json
 from typing import Type
 
 import pandas as pd
-from ..data_classes.date import Date
-from ..classes.time_series_data_collection import TimeSeriesDataCollection
-from ..const import WRONG_TYPE_STRING
-from ..data_classes.charts import (
+from context.yquery_ticker.main.data_classes.date import Date
+from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
+from context.yquery_ticker.main.const import WRONG_TYPE_STRING
+from context.yquery_ticker.main.data_classes.charts import (
     Chart,
     QuarterlyEarningsDataChart,
     QuarterlyFinancialsDataChart,
     YearlyFinancialsDataChart
 )
-from ..data_classes.yq_data_frame_data.earnings_history import (
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.earnings_history import (
     EarningsHistoryDataClass,
     EPS_ACTUAL, EPS_ESTIMATE,
     EPS_DIFFERENCE, EPS_QUARTER
 )
-from ..enums.growth_criteria import GrowthCriteria
-from ..utils.dict_key_enum import DictKey
+from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
+from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
 class HistoricalEarningsData(TimeSeriesDataCollection):
@@ -49,7 +49,7 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
     @classmethod
     def evaluate_growth_criteria(cls, chart_list: [Chart], attribute: DictKey) -> bool:
         if attribute == DictKey.EARNINGS_HISTORY:
-            return TimeSeriesDataCollection._passes_percentage_increase_requirements(
+            return TimeSeriesDataCollection.passes_percentage_increase_requirements(
                 percentages=TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
                     model_list=chart_list,
                     attribute=GrowthCriteria.EARNINGS.__str__
@@ -57,7 +57,7 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
                 percentage_requirement=GrowthCriteria.EARNINGS.__percentage_criteria__
             )
         elif attribute == DictKey.REVENUE_HISTORY:
-            return TimeSeriesDataCollection._passes_percentage_increase_requirements(
+            return TimeSeriesDataCollection.passes_percentage_increase_requirements(
                 percentages=TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
                     model_list=chart_list,
                     attribute=GrowthCriteria.REVENUE.__str__

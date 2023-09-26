@@ -22,7 +22,7 @@ class TimeSeriesDataCollection(ABC):
         return cls._not_up_trending(earlier, later)
 
     @classmethod
-    def _passes_percentage_increase_requirements(cls, percentages, percentage_requirement) -> bool:
+    def passes_percentage_increase_requirements(cls, percentages, percentage_requirement) -> bool:
         return all(percent >= percentage_requirement for percent in percentages)
 
     @classmethod
@@ -89,7 +89,7 @@ class TimeSeriesDataCollection(ABC):
                 return 0
 
     @classmethod
-    def _calculate_percentage_increase_for_simple_list(cls, simple_list: list[int | float]) -> list:
+    def calculate_percentage_increase_for_simple_list(cls, simple_list: list[int | float]) -> list:
         result = []
         for index in range(len(simple_list) - 1):
             earlier, later = simple_list[index], simple_list[index + 1]
