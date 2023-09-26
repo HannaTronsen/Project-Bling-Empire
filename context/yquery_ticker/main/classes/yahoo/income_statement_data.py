@@ -28,8 +28,8 @@ class IncomeStatementData(TimeSeriesDataCollection):
 
     @classmethod
     def evaluate_growth_criteria(cls, income_statement) -> bool:
-        return TimeSeriesDataCollection.passes_percentage_increase_requirements(
-            percentages=TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
+        return cls.passes_percentage_increase_requirements(
+            percentages=cls.calculate_percentage_increase_for_model_list(
                 model_list=income_statement,
                 attribute=GrowthCriteria.NET_INCOME.__str__
             ),

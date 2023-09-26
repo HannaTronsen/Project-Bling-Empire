@@ -97,7 +97,7 @@ class TimeSeriesDataCollection(ABC):
         return result
 
     @classmethod
-    def _calculate_percentage_increase_for_model_list(
+    def calculate_percentage_increase_for_model_list(
             cls,
             model_list: list[Chart | YQDataFrameData],
             attribute: str

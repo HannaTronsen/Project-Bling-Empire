@@ -261,13 +261,13 @@ class test_earnings(unittest.TestCase):
             assert result is expected_bool and interval is expected_interval
 
     def test_calculate_percentage_increase_for_data_set(self):
-        assert TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
+        assert TimeSeriesDataCollection.calculate_percentage_increase_for_model_list(
             model_list=self.quarterly_earnings_data_up_trending_list,
             attribute='actual'
         ) == [7.5, 45.74, 2.13]
 
     def test_passes_percentage_increase_requirements(self):
-        percentages = TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
+        percentages = TimeSeriesDataCollection.calculate_percentage_increase_for_model_list(
             model_list=self.quarterly_earnings_data_up_trending_list,
             attribute='actual'
         )

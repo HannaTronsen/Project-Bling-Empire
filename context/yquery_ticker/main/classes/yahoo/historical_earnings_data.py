@@ -1,6 +1,5 @@
 import json
 from typing import Type
-
 import pandas as pd
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
@@ -49,16 +48,16 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
     @classmethod
     def evaluate_growth_criteria(cls, chart_list: [Chart], attribute: DictKey) -> bool:
         if attribute == DictKey.EARNINGS_HISTORY:
-            return TimeSeriesDataCollection.passes_percentage_increase_requirements(
-                percentages=TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
+            return cls.passes_percentage_increase_requirements(
+                percentages=cls.calculate_percentage_increase_for_model_list(
                     model_list=chart_list,
                     attribute=GrowthCriteria.EARNINGS.__str__
                 ),
                 percentage_requirement=GrowthCriteria.EARNINGS.__percentage_criteria__
             )
         elif attribute == DictKey.REVENUE_HISTORY:
-            return TimeSeriesDataCollection.passes_percentage_increase_requirements(
-                percentages=TimeSeriesDataCollection._calculate_percentage_increase_for_model_list(
+            return cls.passes_percentage_increase_requirements(
+                percentages=cls.calculate_percentage_increase_for_model_list(
                     model_list=chart_list,
                     attribute=GrowthCriteria.REVENUE.__str__
                 ),

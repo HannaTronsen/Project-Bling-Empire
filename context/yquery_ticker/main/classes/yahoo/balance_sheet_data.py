@@ -1,3 +1,4 @@
+from context.yquery_ticker.main.classes.iterable_data import IterableDataInterface
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.balance_sheet import(
@@ -10,7 +11,7 @@ from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_da
 )
 
 
-class BalanceSheetData(TimeSeriesDataCollection):
+class BalanceSheetData(IterableDataInterface, TimeSeriesDataCollection):
 
     @classmethod
     def convert_data_frame_to_time_series_model(cls, data_frame):

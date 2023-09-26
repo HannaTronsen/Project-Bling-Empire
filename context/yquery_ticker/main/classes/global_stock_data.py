@@ -4,14 +4,12 @@ from context.yquery_ticker.main.classes.yahoo.balance_sheet_data import BalanceS
 from context.yquery_ticker.main.classes.yahoo.cash_flow_data import CashFlowData
 from context.yquery_ticker.main.classes.yahoo.historical_earnings_data import HistoricalEarningsData
 from context.yquery_ticker.main.classes.yahoo.income_statement_data import IncomeStatementData
-from .time_series_data_collection import TimeSeriesDataCollection
-from ..const import WRONG_TYPE_STRING
+from .combinable_yq_data import CombinableYQData
 from ..data_classes.charts import YearlyFinancialsDataChart
 from ..data_classes.date import Frequency
 from ..data_classes.financial_data import FinancialData, PriceToEarnings, EarningsPerShare
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
-from ..enums.growth_criteria import GrowthCriteria
 from ..utils.dict_key_enum import DictKey
 
 
@@ -178,7 +176,7 @@ class GlobalStockDataClass:
             DictKey.RETURN_ON_INVESTMENT: self.financial_data.calculate_return_on_investment()
         }
 
-    def get_growth_criteria(self):
+    def get_evaluated_growth_criteria(self):
         return {
             DictKey.EARNINGS_HISTORY: HistoricalEarningsData.evaluate_growth_criteria(
                 chart_list=self.earnings_and_earnings_history,
@@ -191,31 +189,12 @@ class GlobalStockDataClass:
             DictKey.NET_INCOME: IncomeStatementData.evaluate_growth_criteria(
                 income_statement=self.income_statement
             ),
-            DictKey.BOOK_VALUE_AND_DIVIDENDS: self._combine_process_and_evaluate_growth_criteria(
-                combination=DictKey.BOOK_VALUE_AND_DIVIDENDS
-            )
+            DictKey.BOOK_VALUE_AND_DIVIDENDS: CombinableYQData(
+                combination=DictKey.BOOK_VALUE_AND_DIVIDENDS,
+                balance_sheet=self.balance_sheet,
+                cash_flow=self.cash_flow,
+            ).combine_process_and_evaluate_growth_criteria()
         }
-
-    def _combine_process_and_evaluate_growth_criteria(self, combination: DictKey):
-        result = []
-        if combination == DictKey.BOOK_VALUE_AND_DIVIDENDS:
-            # we want one to be the key of the other
-            for balance_sheet_entry in self.balance_sheet:
-                cashDividendsPaid = self.cash_flow.get_entry_of(
-                    as_of_date=balance_sheet_entry.asOfDate,
-                    period_type=balance_sheet_entry.periodType
-                )
-                commonStockEquity = balance_sheet_entry.commonStockEquity
-                result.append(commonStockEquity + cashDividendsPaid)
-
-            return TimeSeriesDataCollection.passes_percentage_increase_requirements(
-                percentages=TimeSeriesDataCollection.calculate_percentage_increase_for_simple_list(
-                    simple_list=result
-                ),
-                percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
-            )
-        else:
-            raise TypeError(WRONG_TYPE_STRING.format(type=combination))
 
     def map_section_headers_with_data(self):
         return {
@@ -227,5 +206,5 @@ class GlobalStockDataClass:
             Section.FINANCIAL_RATIO: lambda: self.get_financial_ratio_data(),
             Section.CASH_FLOW: lambda: self.get_cash_flow_data(),
             Section.PROFITABILITY: lambda: self.get_profitability_data(),
-            Section.GROWTH_CRITERIA: lambda: self.get_growth_criteria()
+            Section.GROWTH_CRITERIA: lambda: self.get_evaluated_growth_criteria()
         }
