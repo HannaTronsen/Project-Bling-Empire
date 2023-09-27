@@ -22,7 +22,7 @@ class CashFlowData(TimeSeriesDataCollection):
                 CashFlowDataClass(
                     asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
                     periodType=Date.to_period_type(row[PERIOD_TYPE]),
-                    cashDividendsPaid=row[CASH_DIVIDENDS_PAID],
+                    cashDividendsPaid=row[CASH_DIVIDENDS_PAID] if CASH_DIVIDENDS_PAID in data_frame.columns else 0,
                 )
             )
         return result

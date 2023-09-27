@@ -25,7 +25,7 @@ def create_testing_csv():
 
 
 def main():
-    initialize_environment()
+    # initialize_environment()
     # fetch_tickers()
     ticker_objects = validate_and_get_yahoo_query_ticker_objects()
 
@@ -41,7 +41,7 @@ if __name__ == '__main__':
         unittest.TextTestRunner().run(test_suite)
 
     if RUN_DEV_CODE:
-        generate_csv_for_ticker(ticker_symbol="HLNG.OL")
+        generate_csv_for_ticker(ticker_symbol="CARA.OL")
 
     if RUN_PROD_CODE:
         main()

@@ -63,21 +63,20 @@ class GlobalStockDataClass:
             website=asset_profile["website"] if asset_profile is not None else "asset_profile missing",
             long_business_summary=asset_profile[
                 "longBusinessSummary"] if asset_profile is not None else "asset_profile missing",
-            financial_summary=None
-            # financial_summary=FinancialSummary(
-            #     previous_close=summary_detail["previousClose"],
-            #     open=summary_detail["open"],
-            #     dividend_rate=summary_detail["dividendRate"],
-            #     beta=summary_detail["beta"],
-            #     price_to_earnings=PriceToEarnings(
-            #         trailing_pe=summary_detail["trailingPE"],
-            #         forward_pe=summary_detail["forwardPE"]
-            #     ),
-            #     market_cap=summary_detail["marketCap"],
-            #     currency=summary_detail["currency"],
-            #
-            # )
-        )  # .normalize_values() TODO(Hanna): Fix for multi word strings
+            financial_summary=FinancialSummary(
+                previous_close=summary_detail["previousClose"],
+                open=summary_detail["open"],
+                dividend_rate=summary_detail["dividendRate"],
+                beta=summary_detail["beta"],
+                price_to_earnings=PriceToEarnings(
+                    trailing_pe=summary_detail["trailingPE"] if "trailingPE" in summary_detail else None,
+                    forward_pe=summary_detail["forwardPE"]
+                ),
+                market_cap=summary_detail["marketCap"],
+                currency=summary_detail["currency"],
+
+            )
+        )  # .normalize_values() TODO(Hanna): Fix for multi word string
 
         self.financial_data: FinancialData = FinancialData(
             price=financial_data["currentPrice"],
@@ -99,16 +98,16 @@ class GlobalStockDataClass:
             five_year_avg_dividend_yield=summary_detail["fiveYearAvgDividendYield"],
             trailing_annual_dividend_rate=summary_detail["trailingAnnualDividendRate"],
             trailing_annual_dividend_yield=summary_detail["trailingAnnualDividendYield"],
-            price_to_earnings=None,
-            # price_to_earnings=PriceToEarnings(
-            #     trailing_pe=summary_detail["trailingPE"],
-            #     forward_pe=summary_detail["forwardPE"]
-            # ),
+            price_to_earnings=PriceToEarnings(
+                trailing_pe=summary_detail["trailingPE"] if "trailingPE" in summary_detail else None,
+                forward_pe=summary_detail["forwardPE"]
+            ),
             earnings_per_share=EarningsPerShare(
                 trailing_eps=key_stats["trailingEps"] if key_stats is not None else "key_stats is missing",
                 forward_eps=key_stats["forwardEps"] if key_stats is not None else "key_stats is missing"
             ),
-            net_income_to_common=key_stats["netIncomeToCommon"] if key_stats is not None else "key_stats is missing", # net earnings
+            net_income_to_common=key_stats["netIncomeToCommon"] if key_stats is not None else "key_stats is missing",
+            # net earnings
             book_value=key_stats["bookValue"] if key_stats is not None else "key_stats is missing",
             enterprise_to_ebitda=key_stats["enterpriseToEbitda"] if key_stats is not None else "key_stats is missing",
             enterprise_to_revenue=key_stats["enterpriseToRevenue"] if key_stats is not None else "key_stats is missing",
@@ -116,11 +115,11 @@ class GlobalStockDataClass:
             expenses=None  # TODO (Hanna): These values come from dataframes
         ).normalize_values()
 
-        # self.earnings_and_earnings_history = HistoricalEarningsData.convert_json_to_time_series_model(
-        #     ticker_symbol=ticker_symbol,
-        #     data=YQTicker.earnings,
-        #     model=YearlyFinancialsDataChart
-        # )
+        self.earnings_and_earnings_history = HistoricalEarningsData.convert_json_to_time_series_model(
+            ticker_symbol=ticker_symbol,
+            data=YQTicker.earnings,
+            model=YearlyFinancialsDataChart
+        )
 
         self.income_statement = IncomeStatementData.convert_data_frame_to_time_series_model(
             data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
@@ -130,11 +129,11 @@ class GlobalStockDataClass:
             data_frame=YQTicker.balance_sheet(frequency=Frequency.ANNUALLY.value, trailing=True)
         )
 
-        # self.cash_flow = CashFlowData(
-        #     entries=CashFlowData.convert_data_frame_to_time_series_model(
-        #         data_frame=YQTicker.cash_flow(frequency=Frequency.ANNUALLY.value, trailing=True)
-        #     )
-        # )
+        self.cash_flow = CashFlowData(
+            entries=CashFlowData.convert_data_frame_to_time_series_model(
+                data_frame=YQTicker.cash_flow(frequency=Frequency.ANNUALLY.value, trailing=True)
+            )
+        )
 
     def get_revenue_data(self):
         return {

@@ -51,7 +51,7 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
     expenses: Optional[Expenses]
 
     def apply_local_rules(self):
-        if self.total_debt is None:
+        if self.total_debt is None or not self.total_debt:
             return
 
         if self.total_debt < 0:

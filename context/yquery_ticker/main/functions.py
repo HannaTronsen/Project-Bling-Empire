@@ -52,9 +52,11 @@ def generate_csv_for_ticker(ticker_symbol: str):
 
 def passed_yahoo_query_validation_check(ticker_symbol: str, ticker: Ticker) -> bool:
     try:
-        if ("Quote not found for ticker symbol" in ticker.summary_detail.get(ticker_symbol)) or \
-                ("Quote not found for ticker symbol" in ticker.financial_data.get(ticker_symbol)) or \
-                ("Quote not found for ticker symbol" in ticker.key_stats.get(ticker_symbol)):
+        if "Quote not found for ticker symbol" in ticker.summary_detail.get(ticker_symbol) or \
+                "Quote not found for ticker symbol" in ticker.financial_data.get(ticker_symbol) or \
+                "Quote not found for ticker symbol" in ticker.key_stats.get(ticker_symbol) or \
+                ticker.earnings.values() == {} or \
+                ticker.cash_flow().empty:
             return False
     except Exception as e:
         print(f"Failed yahoo query validation check for ticker: {ticker_symbol} - {e}")
