@@ -10,7 +10,7 @@ from ..enums.country import Country
 class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
     ticker: str
     company: str
-    country: Country
+    country: str  # TODO(Hanna): Fix support for type 'Country'
     industry: str
     sector: str
     website: str
@@ -22,7 +22,7 @@ class GeneralStockInfo(IterableDataInterface, CastableDataInterface):
         return GeneralStockInfo(
             ticker='aapl',
             company='Apple Inc',
-            country=Country.US,
+            country="US",
             industry='Computer',
             sector='Electronics',
             website='apple.com',

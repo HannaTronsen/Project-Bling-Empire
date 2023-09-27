@@ -1,4 +1,6 @@
 from enum import Enum
+from typing import Optional
+
 from yahooquery import Ticker
 from context.yquery_ticker.main.classes.yahoo.balance_sheet_data import BalanceSheetData
 from context.yquery_ticker.main.classes.yahoo.cash_flow_data import CashFlowData
@@ -27,36 +29,54 @@ class Section(Enum):
     GROWTH_CRITERIA = "PASSES GROWTH CRITERIA"
 
 
+def get_asset_profile_or_null(ticker_symbol: str, ticker: Ticker) -> Optional[dict]:
+    try:
+        return ticker.asset_profile[ticker_symbol]
+    except Exception as e:
+        print(f"An error occurred when fetching asset_profile for ticker {ticker_symbol}- {e}")
+        return None
+
+
+def get_key_stats_or_null(ticker_symbol: str, ticker: Ticker) -> Optional[dict]:
+    try:
+        return ticker.key_stats[ticker_symbol]
+    except Exception as e:
+        print(f"An error occurred when fetching key_stats for ticker {ticker_symbol}- {e}")
+        return None
+
+
 class GlobalStockDataClass:
 
-    def __init__(self, ticker_symbol: str):
-        YQTicker = Ticker(ticker_symbol)
+    def __init__(self, ticker_symbol: str, ticker: Optional[Ticker] = None):
+        YQTicker = ticker if ticker is not None else Ticker(ticker_symbol)
         financial_data = YQTicker.financial_data[ticker_symbol]
-        asset_profile = YQTicker.asset_profile[ticker_symbol]
+        asset_profile = get_asset_profile_or_null(ticker_symbol=ticker_symbol, ticker=ticker)
         summary_detail = YQTicker.summary_detail[ticker_symbol]
-        key_stats = YQTicker.key_stats[ticker_symbol]
+        key_stats = get_key_stats_or_null(ticker_symbol=ticker_symbol, ticker=ticker)
 
         self.general_stock_info: GeneralStockInfo = GeneralStockInfo(
             ticker=ticker_symbol,
             company=YQTicker.quote_type[ticker_symbol]["longName"],
-            country=asset_profile["country"],
-            industry=asset_profile["industry"],
-            sector=asset_profile["sector"],
-            website=asset_profile["website"],
-            long_business_summary=asset_profile["longBusinessSummary"],
-            financial_summary=FinancialSummary(
-                previous_close=summary_detail["previousClose"],
-                open=summary_detail["open"],
-                dividend_rate=summary_detail["dividendRate"],
-                beta=summary_detail["beta"],
-                price_to_earnings=PriceToEarnings(
-                    trailing_pe=summary_detail["trailingPE"],
-                    forward_pe=summary_detail["forwardPE"]
-                ),
-                market_cap=summary_detail["marketCap"],
-                currency=summary_detail["currency"],
-
-            )
+            country=asset_profile["country"] if asset_profile is not None else "asset_profile missing",
+            industry=asset_profile["industry"] if asset_profile is not None else "asset_profile missing",
+            sector=asset_profile["sector"] if asset_profile is not None else "asset_profile missing",
+            website=asset_profile["website"] if asset_profile is not None else "asset_profile missing",
+            long_business_summary=asset_profile[
+                "longBusinessSummary"] if asset_profile is not None else "asset_profile missing",
+            financial_summary=None
+            # financial_summary=FinancialSummary(
+            #     previous_close=summary_detail["previousClose"],
+            #     open=summary_detail["open"],
+            #     dividend_rate=summary_detail["dividendRate"],
+            #     beta=summary_detail["beta"],
+            #     price_to_earnings=PriceToEarnings(
+            #         trailing_pe=summary_detail["trailingPE"],
+            #         forward_pe=summary_detail["forwardPE"]
+            #     ),
+            #     market_cap=summary_detail["marketCap"],
+            #     currency=summary_detail["currency"],
+            #
+            # )
         )  # .normalize_values() TODO(Hanna): Fix for multi word strings
 
         self.financial_data: FinancialData = FinancialData(
@@ -79,27 +99,28 @@ class GlobalStockDataClass:
             five_year_avg_dividend_yield=summary_detail["fiveYearAvgDividendYield"],
             trailing_annual_dividend_rate=summary_detail["trailingAnnualDividendRate"],
             trailing_annual_dividend_yield=summary_detail["trailingAnnualDividendYield"],
-            price_to_earnings=PriceToEarnings(
-                trailing_pe=summary_detail["trailingPE"],
-                forward_pe=summary_detail["forwardPE"]
-            ),
+            price_to_earnings=None,
+            # price_to_earnings=PriceToEarnings(
+            #     trailing_pe=summary_detail["trailingPE"],
+            #     forward_pe=summary_detail["forwardPE"]
+            # ),
             earnings_per_share=EarningsPerShare(
-                trailing_eps=key_stats["trailingEps"],
-                forward_eps=key_stats["forwardEps"]
+                trailing_eps=key_stats["trailingEps"] if key_stats is not None else "key_stats is missing",
+                forward_eps=key_stats["forwardEps"] if key_stats is not None else "key_stats is missing"
             ),
-            net_income_to_common=key_stats["netIncomeToCommon"],  # net earnings
-            book_value=key_stats["bookValue"],
-            enterprise_to_ebitda=key_stats["enterpriseToEbitda"],
-            enterprise_to_revenue=key_stats["enterpriseToRevenue"],
-            price_to_book=key_stats["priceToBook"],
+            net_income_to_common=key_stats["netIncomeToCommon"] if key_stats is not None else "key_stats is missing", # net earnings
+            book_value=key_stats["bookValue"] if key_stats is not None else "key_stats is missing",
+            enterprise_to_ebitda=key_stats["enterpriseToEbitda"] if key_stats is not None else "key_stats is missing",
+            enterprise_to_revenue=key_stats["enterpriseToRevenue"] if key_stats is not None else "key_stats is missing",
+            price_to_book=key_stats["priceToBook"] if key_stats is not None else "key_stats is missing",
             expenses=None  # TODO (Hanna): These values come from dataframes
         ).normalize_values()
 
-        self.earnings_and_earnings_history = HistoricalEarningsData.convert_json_to_time_series_model(
-            ticker_symbol=ticker_symbol,
-            data=YQTicker.earnings,
-            model=YearlyFinancialsDataChart
-        )
+        # self.earnings_and_earnings_history = HistoricalEarningsData.convert_json_to_time_series_model(
+        #     ticker_symbol=ticker_symbol,
+        #     data=YQTicker.earnings,
+        #     model=YearlyFinancialsDataChart
+        # )
 
         self.income_statement = IncomeStatementData.convert_data_frame_to_time_series_model(
             data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
@@ -109,11 +130,11 @@ class GlobalStockDataClass:
             data_frame=YQTicker.balance_sheet(frequency=Frequency.ANNUALLY.value, trailing=True)
         )
 
-        self.cash_flow = CashFlowData(
-            entries=CashFlowData.convert_data_frame_to_time_series_model(
-                data_frame=YQTicker.cash_flow(frequency=Frequency.ANNUALLY.value, trailing=True)
-            )
-        )
+        # self.cash_flow = CashFlowData(
+        #     entries=CashFlowData.convert_data_frame_to_time_series_model(
+        #         data_frame=YQTicker.cash_flow(frequency=Frequency.ANNUALLY.value, trailing=True)
+        #     )
+        # )
 
     def get_revenue_data(self):
         return {
