@@ -1,14 +1,21 @@
 import csv
+import os
+from datetime import datetime
 from typing import Optional
 
 from yahooquery import Ticker
 import re
-from const import (BLACKLISTED_STOCK_TICKERS_PATH, CONST_COLLECTION, GENERATED_CSV_FILES_PATH)
+from const import (
+    BLACKLISTED_STOCK_TICKERS_PATH,
+    CONST_COLLECTION,
+    GENERATED_CSV_FILES_PATH,
+    OBEX_COMPARISON_CSV_FILES_PATH
+)
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass, Section
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.errors.generic_error import GenericError
 
-GENERATE_DEV_CSV = False
+GENERATE_DEV_CSV = True
 GENERATE_PROD_CSV = True
 
 
@@ -28,8 +35,7 @@ def passed_yahoo_query_validation_check(ticker_symbol: str, ticker: Ticker) -> b
 
 def generate_csv_for_ticker(ticker_symbol: str, ticker: GlobalStockDataClass):
     if GENERATE_DEV_CSV or GENERATE_PROD_CSV:
-        csv_file = f"{ticker_symbol}.csv"
-        with open(f"{GENERATED_CSV_FILES_PATH}/{csv_file}", mode='w', newline='') as file:
+        with open(f"{GENERATED_CSV_FILES_PATH}/{ticker_symbol}.csv", mode='w', newline='') as file:
             writer = csv.writer(file)
 
             # Write general stock information section
@@ -39,7 +45,7 @@ def generate_csv_for_ticker(ticker_symbol: str, ticker: GlobalStockDataClass):
                     writer.writerow([key.capitalize(), value])
                 else:
                     if value is None:
-                        writer.writerow([f'{key.capitalize()}', "None"])
+                        writer.writerow([key.capitalize(), "None"])
             writer.writerow([])
 
             # Write each section
@@ -51,14 +57,49 @@ def generate_csv_for_ticker(ticker_symbol: str, ticker: GlobalStockDataClass):
 
                 for key, value in data_func().items():
                     if not isinstance(value, GenericError) and value is not None:
-                        writer.writerow([f'{key.value}', value])
+                        writer.writerow([key.value, value])
                     else:
                         if value is None:
-                            writer.writerow([f'{key.value}', "None"])
+                            writer.writerow([key.value, "None"])
                         else:
                             error = GenericError(value.reason)
-                            writer.writerow([f'{key.value}', error.reason])
+                            writer.writerow([key.value, error.reason])
                 writer.writerow([])
+            writer.writerows([[], []])
+            writer.writerow(["CRITERIA PASS COUNT", ticker.criteria_pass_count])
+        file.close()
+
+
+def generate_comparable_csv_for_tickers(tickers: list[GlobalStockDataClass]):
+    if GENERATE_DEV_CSV or GENERATE_PROD_CSV:
+        print("generating comparable csv for tickers")
+        time_stamp = datetime.now().strftime("%Y-%m-%d")
+        pathPrefix = f'{GENERATED_CSV_FILES_PATH}{OBEX_COMPARISON_CSV_FILES_PATH}{time_stamp}/'
+        if not os.path.exists(pathPrefix):
+            os.makedirs(pathPrefix)
+        with open(
+                file=f"{pathPrefix}ticker_comparison_by_criteria.csv",
+                mode='w',
+                newline=''
+        ) as file:
+            writer = csv.writer(file)
+            writer.writerow(["TICKER", "COMPANY", "WEBSITE", "INDUSTRY", "SECTOR", "CRITERIA PASSED"])
+            for ticker in tickers:
+                ticker_symbol = ticker.general_stock_info.ticker
+                company_name = ticker.general_stock_info.company
+                website = ticker.general_stock_info.website
+                industry = ticker.general_stock_info.industry
+                sector = ticker.general_stock_info.sector
+                criteria_pass_count = ticker.criteria_pass_count
+
+                writer.writerow([
+                    ticker_symbol,
+                    company_name,
+                    website,
+                    industry,
+                    sector,
+                    criteria_pass_count,
+                ])
         file.close()
 
 

@@ -118,34 +118,37 @@ class GlobalStockDataClass:
             )
         )
 
-    def get_revenue_data(self):
+        self._evaluated_growth_criteria = self.get_evaluated_growth_criteria()
+        self.criteria_pass_count = sum(1 for value in self._evaluated_growth_criteria.values() if value is True)
+
+    def _get_revenue_data(self):
         return {
             DictKey.TOTAL_REVENUE: self.financial_data.total_revenue,
             DictKey.REVENUE_PER_SHARE: self.financial_data.revenue_per_share,
             DictKey.REVENUE_GROWTH: self.financial_data.revenue_growth
         }
 
-    def get_earnings_data(self):
+    def _get_earnings_data(self):
         return {
             DictKey.EARNINGS_PER_SHARE: self.financial_data.earnings_per_share,
             DictKey.NET_EARNINGS: self.financial_data.net_income_to_common,
             DictKey.EARNINGS_GROWTH: self.financial_data.earnings_growth
         }
 
-    def get_debt_data(self):
+    def _get_debt_data(self):
         return {
             DictKey.TOTAL_DEBT: self.financial_data.total_debt,
             DictKey.DEBT_TO_EQUITY: self.financial_data.debt_to_equity
         }
 
-    def get_margins_data(self):
+    def _get_margins_data(self):
         return {
             DictKey.PROFIT_MARGINS: self.financial_data.profit_margins,
             DictKey.GROSS_PROFIT_MARGINS: self.financial_data.gross_profit_margins,
             DictKey.OPERATING_MARGINS: self.financial_data.operating_margins
         }
 
-    def get_dividend_data(self):
+    def _get_dividend_data(self):
         return {
             DictKey.DIVIDEND_RATE: self.financial_data.dividend_rate,
             DictKey.DIVIDEND_YIELD: self.financial_data.dividend_yield,
@@ -154,7 +157,7 @@ class GlobalStockDataClass:
             DictKey.TRAILING_ANNUAL_DIVIDEND_YIELD: self.financial_data.trailing_annual_dividend_yield,
         }
 
-    def get_financial_ratio_data(self):
+    def _get_financial_ratio_data(self):
         return {
             DictKey.DEBT_TO_EQUITY: self.financial_data.debt_to_equity,
             DictKey.PRICE_TO_CASH_FLOW: self.financial_data.calculate_price_to_cashflow(),
@@ -165,13 +168,13 @@ class GlobalStockDataClass:
             DictKey.ENTERPRISE_TO_REVENUE: self.financial_data.enterprise_to_revenue
         }
 
-    def get_cash_flow_data(self):
+    def _get_cash_flow_data(self):
         return {
             DictKey.FREE_CASH_FLOW: self.financial_data.free_cash_flow,
             DictKey.OPERATING_CASH_FLOW: self.financial_data.operating_cash_flow,
         }
 
-    def get_profitability_data(self):
+    def _get_profitability_data(self):
         return {
             DictKey.RETURN_ON_EQUITY: self.financial_data.return_on_equity,
             DictKey.RETURN_ON_ASSETS: self.financial_data.return_on_assets,
@@ -201,13 +204,13 @@ class GlobalStockDataClass:
 
     def map_section_headers_with_data(self):
         return {
-            Section.REVENUE: lambda: self.get_revenue_data(),
-            Section.EARNINGS: lambda: self.get_earnings_data(),
-            Section.DEBT: lambda: self.get_debt_data(),
-            Section.MARGINS: lambda: self.get_margins_data(),
-            Section.DIVIDEND: lambda: self.get_dividend_data(),
-            Section.FINANCIAL_RATIO: lambda: self.get_financial_ratio_data(),
-            Section.CASH_FLOW: lambda: self.get_cash_flow_data(),
-            Section.PROFITABILITY: lambda: self.get_profitability_data(),
-            Section.GROWTH_CRITERIA: lambda: self.get_evaluated_growth_criteria()
+            Section.REVENUE: lambda: self._get_revenue_data(),
+            Section.EARNINGS: lambda: self._get_earnings_data(),
+            Section.DEBT: lambda: self._get_debt_data(),
+            Section.MARGINS: lambda: self._get_margins_data(),
+            Section.DIVIDEND: lambda: self._get_dividend_data(),
+            Section.FINANCIAL_RATIO: lambda: self._get_financial_ratio_data(),
+            Section.CASH_FLOW: lambda: self._get_cash_flow_data(),
+            Section.PROFITABILITY: lambda: self._get_profitability_data(),
+            Section.GROWTH_CRITERIA: lambda: self._evaluated_growth_criteria
         }

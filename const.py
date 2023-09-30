@@ -17,6 +17,7 @@ class CONST_COLLECTION:
 
 
 GENERATED_CSV_FILES_PATH = "generated_csv_files"
+OBEX_COMPARISON_CSV_FILES_PATH = "/comparison/OBEX/"
 BLACKLISTED_STOCK_TICKERS_PATH = 'black_listed_stock_tickers.txt'
 AUTO_GENERATED_FILE_STRING = " ### This file is auto generated and shouldn't be touched! ### "
 TEST_PATHS = [

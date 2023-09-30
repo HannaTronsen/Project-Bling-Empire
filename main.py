@@ -7,18 +7,23 @@ from context.ticker_scraper.main.functions import (
 )
 from context.yquery_ticker.main.functions import (
     validate_and_get_yahoo_query_ticker_objects,
-    validate_and_get_yahoo_query_ticker_object
+    validate_and_get_yahoo_query_ticker_object,
+    generate_comparable_csv_for_tickers
 )
 
-RUN_TESTS = True
-RUN_PROD_CODE = False
+RUN_TESTS = False
+RUN_PROD_CODE = True
 RUN_DEV_CODE = False
 
 
 def main():
     initialize_environment()
     fetch_tickers()
-    validate_and_get_yahoo_query_ticker_objects()
+    generate_comparable_csv_for_tickers(tickers=sorted(
+        validate_and_get_yahoo_query_ticker_objects(),
+        key=lambda ticker: ticker.criteria_pass_count,
+        reverse=True
+    ))
 
 
 if __name__ == '__main__':
