@@ -10,9 +10,9 @@ from context.yquery_ticker.main.functions import (
     validate_and_get_yahoo_query_ticker_object
 )
 
-RUN_TESTS = False
-RUN_PROD_CODE = True
-RUN_DEV_CODE = True
+RUN_TESTS = True
+RUN_PROD_CODE = False
+RUN_DEV_CODE = False
 
 
 def main():
