@@ -6,10 +6,10 @@
 ## Possible CSV Generation
 
 ### Single Ticker CSV
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/47b4af9c-a11e-4949-906d-8d3949520639/7fe0feb7-47e1-4977-bd5f-627c624700d3/Untitled.png)
+![Untitled (1)](https://github.com/HannaTronsen/Project-Bling-Empire/assets/85925436/a0a22d16-9782-4e14-a3f3-e06bae6c3af6)
 
 ### Comparable Ticker CSV
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/47b4af9c-a11e-4949-906d-8d3949520639/6bbacaf2-9b0e-4cf9-9a20-4d6f4ed0deb0/Untitled.png)
+![Untitled (1)](https://github.com/HannaTronsen/Project-Bling-Empire/assets/85925436/c771bbc8-78cf-4141-94e7-b933e9884724)
 
 ## Setup
 
