@@ -3,6 +3,14 @@
 
 [Project planning documentation](https://relieved-walker-58b.notion.site/Project-Bling-Empire-dbee9a3b0f1a41febc0098a6e901188c?pvs=4)
 
+## Possible CSV Generation
+
+### Single Ticker CSV
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/47b4af9c-a11e-4949-906d-8d3949520639/7fe0feb7-47e1-4977-bd5f-627c624700d3/Untitled.png)
+
+### Comparable Ticker CSV
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/47b4af9c-a11e-4949-906d-8d3949520639/6bbacaf2-9b0e-4cf9-9a20-4d6f4ed0deb0/Untitled.png)
+
 ## Setup
 
 1. python3 -m venv env
