@@ -1,10 +1,10 @@
 GENERAL STOCK INFO
 Ticker,IDEX.OL
 Company,IDEX Biometrics ASA
-Country,asset_profile missing
-Industry,asset_profile missing
-Sector,asset_profile missing
-Website,asset_profile missing
+Country,Norway
+Industry,Software—Application
+Sector,Technology
+Website,https://www.idexbiometrics.com
 
 REVENUE
 Total Revenue,4698000.0
@@ -12,8 +12,8 @@ Revenue Per Share,0.004
 Revenue Growth,0.32
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
-Net Earnings,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=-1.56)"
+Net Earnings,-29978000.0
 Earnings Growth,None
 
 DEBT
@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,10.914
-Price to Cash Flow,-2.5630733720293923e-08
-Enterprise to EBITDA,None
-Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.30192307)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
-Enterprise to Revenue,None
+Price to Cash Flow,-2.6419790278561995e-08
+Enterprise to EBITDA,-21.761
+Price to Book,32.36667
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.31121796)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=-1.56)"
+Enterprise to Revenue,134.125
 
 CASH FLOW
 Free to Cash Flow,-18376376.0
@@ -48,7 +48,7 @@ Operating to Cash Flow,-30043000.0
 PROFITABILITY
 Return on Equity,-1.41396
 Return on Assets,-0.70885
-Return on Invested Capital,None
+Return on Invested Capital,-14.008411116763472
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -57,5 +57,11 @@ PASSES GROWTH CRITERIA
 Earnings History,False
 Revenue History,True
 Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
 Book Value + Dividends,False
 
+
+
+CRITERIA PASS COUNT,1

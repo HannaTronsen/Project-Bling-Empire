@@ -1,10 +1,10 @@
 GENERAL STOCK INFO
 Ticker,HAVI.OL
 Company,Havila Shipping ASA
-Country,asset_profile missing
-Industry,asset_profile missing
-Sector,asset_profile missing
-Website,asset_profile missing
+Country,Norway
+Industry,Marine Shipping
+Sector,Industrials
+Website,https://www.havilashipping.no
 
 REVENUE
 Total Revenue,710344000.0
@@ -12,8 +12,8 @@ Revenue Per Share,29.876
 Revenue Growth,0.076
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
-Net Earnings,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.48, forward_eps=-2.0)"
+Net Earnings,-16302000.0
 Earnings Growth,None
 
 DEBT
@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,6927.928
-Price to Cash Flow,5.206284307082412e-08
-Enterprise to EBITDA,None
-Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-4.69)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
-Enterprise to Revenue,None
+Price to Cash Flow,5.161881029410067e-08
+Enterprise to EBITDA,5.943
+Price to Book,11.341464
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-4.65)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.48, forward_eps=-2.0)"
+Enterprise to Revenue,2.111
 
 CASH FLOW
 Free to Cash Flow,180166880.0
@@ -48,7 +48,7 @@ Operating to Cash Flow,134535008.0
 PROFITABILITY
 Return on Equity,-0.59025
 Return on Assets,0.037100002
-Return on Invested Capital,None
+Return on Invested Capital,-0.01206462553369946
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -57,5 +57,11 @@ PASSES GROWTH CRITERIA
 Earnings History,False
 Revenue History,False
 Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
 Book Value + Dividends,False
 
+
+
+CRITERIA PASS COUNT,0

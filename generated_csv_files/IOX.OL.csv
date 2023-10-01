@@ -1,10 +1,10 @@
 GENERAL STOCK INFO
 Ticker,IOX.OL
 Company,Interoil Exploration and Production ASA
-Country,asset_profile missing
-Industry,asset_profile missing
-Sector,asset_profile missing
-Website,asset_profile missing
+Country,Norway
+Industry,Oil & Gas E&P
+Sector,Energy
+Website,https://www.interoil.no
 
 REVENUE
 Total Revenue,14085000.0
@@ -12,8 +12,8 @@ Revenue Per Share,0.104
 Revenue Growth,-0.417
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
-Net Earnings,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.31, forward_eps=0.01)"
+Net Earnings,-5515000.0
 Earnings Growth,None
 
 DEBT
@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.040290088638195e-06
-Enterprise to EBITDA,None
+Price to Cash Flow,2.088638195004029e-06
+Enterprise to EBITDA,63.77
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=63.300003)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
-Enterprise to Revenue,None
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=64.8)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.31, forward_eps=0.01)"
+Enterprise to Revenue,10.768
 
 CASH FLOW
 Free to Cash Flow,310250.0
@@ -48,7 +48,7 @@ Operating to Cash Flow,-3922710.0
 PROFITABILITY
 Return on Equity,None
 Return on Assets,-0.00875
-Return on Invested Capital,None
+Return on Invested Capital,-0.2237504058485985
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -57,5 +57,11 @@ PASSES GROWTH CRITERIA
 Earnings History,False
 Revenue History,False
 Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
 Book Value + Dividends,True
 
+
+
+CRITERIA PASS COUNT,1

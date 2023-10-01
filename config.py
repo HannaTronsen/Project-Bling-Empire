@@ -7,7 +7,7 @@ from const import (
 )
 
 RUN_TESTS = True
-RUN_PROD_CODE = False
+RUN_PROD_CODE = True
 RUN_DEV_CODE = True
 
 GENERATE_DEV_CSV = True

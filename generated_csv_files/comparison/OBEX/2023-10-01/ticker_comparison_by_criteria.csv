@@ -1,5 +1,6 @@
 TICKER,COMPANY,WEBSITE,INDUSTRY,SECTOR,CRITERIA PASSED
 GIG.OL,Gaming Innovation Group Inc.,https://www.gig.com,Gambling,Consumer Cyclical,4
+SOGN.OL,Sogn Sparebank,https://sognbank.no,Banks—Regional,Financial Services,3
 NAVA.OL,Navamedic ASA,https://www.navamedic.com,Medical Distribution,Healthcare,3
 NOD.OL,Nordic Semiconductor ASA,https://www.nordicsemi.com,Semiconductors,Technology,3
 AKSO.OL,Aker Solutions ASA,https://akersolutions.com,Oil & Gas Equipment & Services,Energy,2
@@ -20,6 +21,8 @@ ENDUR.OL,Endúr ASA,https://endur.no,Conglomerates,Industrials,1
 EIOF.OL,Eidesvik Offshore ASA,https://www.eidesvik.no,Oil & Gas Equipment & Services,Energy,1
 ELK.OL,Elkem ASA,https://www.elkem.com,Specialty Chemicals,Basic Materials,1
 FLNG.OL,FLEX LNG Ltd.,https://www.flexlng.com,Oil & Gas Midstream,Energy,1
+IDEX.OL,IDEX Biometrics ASA,https://www.idexbiometrics.com,Software—Application,Technology,1
+IOX.OL,Interoil Exploration and Production ASA,https://www.interoil.no,Oil & Gas E&P,Energy,1
 KID.OL,Kid ASA,https://www.kid.no,Specialty Retail,Consumer Cyclical,1
 KIT.OL,Kitron ASA,https://www.kitron.com,Electronic Components,Technology,1
 KOG.OL,Kongsberg Gruppen ASA,https://www.kongsberg.com,Aerospace & Defense,Industrials,1
@@ -63,6 +66,10 @@ GJF.OL,Gjensidige Forsikring ASA,https://www.gjensidige.no,Insurance—Property 
 GOGL.OL,Golden Ocean Group Limited,https://www.goldenocean.bm,Marine Shipping,Industrials,0
 GOD.OL,Goodtech ASA,https://www.goodtech.no,Engineering & Construction,Industrials,0
 GSF.OL,Grieg Seafood ASA,https://griegseafood.com,Farm Products,Consumer Defensive,0
+HAVI.OL,Havila Shipping ASA,https://www.havilashipping.no,Marine Shipping,Industrials,0
+HELG.OL,SpareBank 1 Helgeland,https://www.sparebank1.no/nb/helgeland/privat.html,Banks—Regional,Financial Services,0
+HEX.OL,Hexagon Composites ASA,https://www.hexagongroup.com,Packaging & Containers,Consumer Cyclical,0
+HSPG.OL,Høland og Setskog Sparebank,https://hsbank.no,Banks—Regional,Financial Services,0
 JIN.OL,Jinhui Shipping and Transportation Limited,https://www.jinhuiship.com,Marine Shipping,Industrials,0
 KOA.OL,Kongsberg Automotive ASA,https://www.kongsbergautomotive.com,Auto Parts,Consumer Cyclical,0
 LSG.OL,Lerøy Seafood Group ASA,https://www.leroyseafood.com,Packaged Foods,Consumer Defensive,0
