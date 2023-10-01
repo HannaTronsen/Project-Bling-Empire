@@ -200,7 +200,12 @@ class GlobalStockDataClass:
                 income_statement=self.income_statement,
                 attribute=DictKey.SALES
             ),
-            DictKey.OPERATING_CASH_FLOW: self.cash_flow.evaluate_growth_criteria(),
+            DictKey.OPERATING_CASH_FLOW: self.cash_flow.evaluate_growth_criteria(
+                attribute=DictKey.OPERATING_CASH_FLOW
+            ),
+            DictKey.FREE_CASH_FLOW: self.cash_flow.evaluate_growth_criteria(
+                attribute=DictKey.FREE_CASH_FLOW
+            ),
             DictKey.BOOK_VALUE_AND_DIVIDENDS: CombinableYQData(
                 combination=DictKey.BOOK_VALUE_AND_DIVIDENDS,
                 balance_sheet=self.balance_sheet,

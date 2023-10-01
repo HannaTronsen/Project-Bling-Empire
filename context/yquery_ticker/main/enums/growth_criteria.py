@@ -8,6 +8,7 @@ class GrowthCriteria(Enum):
     BOOK_VALUE_AND_DIVIDENDS = ("Book Value + Dividends", 10)
     SALES = ("totalRevenue", 10)
     OPERATING_CASH_FLOW = ("operatingCashFlow", 10)
+    FREE_CASH_FLOW = ("freeCashFlow", 1)
 
     @property
     def __str__(self):
