@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,PARB.OL
+Company,Pareto Bank ASA
+Country,Norway
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://www.paretobank.no
+
+REVENUE
+Total Revenue,974915008.0
+Revenue Per Share,13.283
+Revenue Growth,0.143
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.06, forward_eps=7.96)"
+Net Earnings,590926016.0
+Earnings Growth,0.103
+
+DEBT
+Total Debt,8649052160.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.60613
+Gross Profit Margins,0.0
+Operating Margins,0.79737
+
+DIVIDEND
+Dividend Rate,3.86
+Dividend Yield,0.0719
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,3.86
+Trailing Annual Dividend Yield,0.07188082
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,0.9591727
+Price to Earnings,"PriceToEarnings(trailing_pe=6.6749377, forward_pe=6.758794)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.06, forward_eps=7.96)"
+Enterprise to Revenue,10.556
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,-788388992.0
+
+PROFITABILITY
+Return on Equity,0.14259
+Return on Assets,0.02563
+Return on Invested Capital,0.06832263249615823
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,True
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,2

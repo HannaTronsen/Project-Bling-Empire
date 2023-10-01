@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,SIOFF.OL
+Company,Siem Offshore Inc.
+Country,Norway
+Industry,Oil & Gas Equipment & Services
+Sector,Energy
+Website,https://www.siemoffshore.com
+
+REVENUE
+Total Revenue,303327008.0
+Revenue Per Share,1.27
+Revenue Growth,0.18
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.96, forward_eps=3.67)"
+Net Earnings,64601000.0
+Earnings Growth,0.556
+
+DEBT
+Total Debt,555912000.0
+Debt to Equity,136.406
+
+MARGINS
+Profit Margins,0.21297
+Gross Profit Margins,0.47979
+Operating Margins,0.23671
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,136.406
+Price to Cash Flow,3.7436483419806165e-07
+Enterprise to EBITDA,57.912
+Price to Book,16.61833
+Price to Earnings,"PriceToEarnings(trailing_pe=9.679054, forward_pe=7.806539)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.96, forward_eps=3.67)"
+Enterprise to Revenue,24.018
+
+CASH FLOW
+Free to Cash Flow,76529624.0
+Operating to Cash Flow,117570000.0
+
+PROFITABILITY
+Return on Equity,0.16399
+Return on Assets,0.043270003
+Return on Invested Capital,0.11620724107351293
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

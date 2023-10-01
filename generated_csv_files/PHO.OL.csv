@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,PHO.OL
+Company,Photocure ASA
+Country,Norway
+Industry,Drug Manufacturers—Specialty & Generic
+Sector,Healthcare
+Website,https://www.photocure.com
+
+REVENUE
+Total Revenue,461529984.0
+Revenue Per Share,17.026
+Revenue Growth,0.435
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.44, forward_eps=0.48)"
+Net Earnings,-38837000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,26700000.0
+Debt to Equity,5.711
+
+MARGINS
+Profit Margins,-0.08415
+Gross Profit Margins,0.94632006
+Operating Margins,-0.03328
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,5.711
+Price to Cash Flow,2.317904077029553e-06
+Enterprise to EBITDA,3381.062
+Price to Book,3.1190212
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=112.083336)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.44, forward_eps=0.48)"
+Enterprise to Revenue,2.586
+
+CASH FLOW
+Free to Cash Flow,23210624.0
+Operating to Cash Flow,42065000.0
+
+PROFITABILITY
+Return on Equity,-0.08243
+Return on Assets,-0.0133299995
+Return on Invested Capital,-1.4545683486947771
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

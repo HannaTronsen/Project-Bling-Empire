@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,SVEG.OL
+Company,Sparebanken Vest
+Country,Norway
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://www.spv.no
+
+REVENUE
+Total Revenue,5670000128.0
+Revenue Per Share,52.214
+Revenue Growth,0.295
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.43, forward_eps=12.49)"
+Net Earnings,1240999936.0
+Earnings Growth,0.374
+
+DEBT
+Total Debt,139444994048.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.55591
+Gross Profit Margins,0.0
+Operating Margins,0.69065005
+
+DIVIDEND
+Dividend Rate,5.5
+Dividend Yield,0.052199997
+Five Year Avg Dividend Yield,4.61
+Trailing Annual Dividend Rate,5.5
+Trailing Annual Dividend Yield,0.05228137
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,0.55920756
+Price to Earnings,"PriceToEarnings(trailing_pe=9.221347, forward_pe=8.438751)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.43, forward_eps=12.49)"
+Enterprise to Revenue,25.256
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,3544000000.0
+
+PROFITABILITY
+Return on Equity,0.15008001
+Return on Assets,0.01163
+Return on Invested Capital,0.008899566046059867
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,BMA.OL
+Company,Byggma ASA
+Country,Norway
+Industry,Building Products & Equipment
+Sector,Industrials
+Website,https://www.byggma.no
+
+REVENUE
+Total Revenue,2318147072.0
+Revenue Per Share,33.19
+Revenue Growth,-0.203
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.56, forward_eps=None)"
+Net Earnings,183810000.0
+Earnings Growth,-0.579
+
+DEBT
+Total Debt,1501200000.0
+Debt to Equity,161.194
+
+MARGINS
+Profit Margins,0.07929
+Gross Profit Margins,0.53336
+Operating Margins,0.13428001
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,161.194
+Price to Cash Flow,1.4194538462296924e-07
+Enterprise to EBITDA,7.42
+Price to Book,1.5368469
+Price to Earnings,"PriceToEarnings(trailing_pe=8.0078125, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.56, forward_eps=None)"
+Enterprise to Revenue,1.263
+
+CASH FLOW
+Free to Cash Flow,144421744.0
+Operating to Cash Flow,242479008.0
+
+PROFITABILITY
+Return on Equity,0.23084
+Return on Assets,0.07675
+Return on Invested Capital,0.12244204527494375
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,True
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,2

@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,BRG.OL
+Company,Borregaard ASA
+Country,Norway
+Industry,Specialty Chemicals
+Sector,Basic Materials
+Website,https://www.borregaard.com
+
+REVENUE
+Total Revenue,7335000064.0
+Revenue Per Share,73.55
+Revenue Growth,0.126
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.37, forward_eps=9.63)"
+Net Earnings,937000000.0
+Earnings Growth,0.123
+
+DEBT
+Total Debt,2584999936.0
+Debt to Equity,62.53
+
+MARGINS
+Profit Margins,0.12774
+Gross Profit Margins,0.59714
+Operating Margins,0.17832
+
+DIVIDEND
+Dividend Rate,3.25
+Dividend Yield,0.020499999
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,3.25
+Trailing Annual Dividend Yield,0.020543616
+
+FINANCIAL RATIO
+Debt to Equity,62.53
+Price to Cash Flow,2.34204179179692e-07
+Enterprise to EBITDA,10.664
+Price to Book,3.8602493
+Price to Earnings,"PriceToEarnings(trailing_pe=16.862328, forward_pe=16.40706)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.37, forward_eps=9.63)"
+Enterprise to Revenue,2.458
+
+CASH FLOW
+Free to Cash Flow,674625024.0
+Operating to Cash Flow,1147000064.0
+
+PROFITABILITY
+Return on Equity,0.2237
+Return on Assets,0.09965
+Return on Invested Capital,0.36247582528522915
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,True
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,2

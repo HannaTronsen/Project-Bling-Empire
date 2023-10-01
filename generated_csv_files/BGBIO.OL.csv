@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,BGBIO.OL
+Company,BerGenBio ASA
+Country,Norway
+Industry,Biotechnology
+Sector,Healthcare
+Website,https://www.bergenbio.com
+
+REVENUE
+Total Revenue,389000.0
+Revenue Per Share,0.003
+Revenue Growth,None
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.69, forward_eps=-0.09)"
+Net Earnings,-257819008.0
+Earnings Growth,None
+
+DEBT
+Total Debt,0.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.0
+Gross Profit Margins,1.0
+Operating Margins,-665.85095
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,-5.707448272940978e-10
+Enterprise to EBITDA,-0.218
+Price to Book,1.4972223
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-1.1977777)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.69, forward_eps=-0.09)"
+Enterprise to Revenue,145.276
+
+CASH FLOW
+Free to Cash Flow,-188876000.0
+Operating to Cash Flow,-282060992.0
+
+PROFITABILITY
+Return on Equity,-1.2514399
+Return on Assets,-0.59247
+Return on Invested Capital,-3580819555.555556
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

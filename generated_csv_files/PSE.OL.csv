@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,PSE.OL
+Company,Petrolia SE
+Country,Cyprus
+Industry,Oil & Gas Equipment & Services
+Sector,Energy
+Website,https://www.petrolia.eu
+
+REVENUE
+Total Revenue,57988000.0
+Revenue Per Share,0.981
+Revenue Growth,0.093
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=None)"
+Net Earnings,428000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,15117000.0
+Debt to Equity,37.545
+
+MARGINS
+Profit Margins,0.00738
+Gross Profit Margins,0.97049004
+Operating Margins,0.12082
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,37.545
+Price to Cash Flow,1.018060572381217e-06
+Enterprise to EBITDA,33.172
+Price to Book,7.292993
+Price to Earnings,"PriceToEarnings(trailing_pe=114.5, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=None)"
+Enterprise to Revenue,4.793
+
+CASH FLOW
+Free to Cash Flow,4498750.0
+Operating to Cash Flow,9009000.0
+
+PROFITABILITY
+Return on Equity,0.02944
+Return on Assets,0.06665
+Return on Invested Capital,0.028312494689406185
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

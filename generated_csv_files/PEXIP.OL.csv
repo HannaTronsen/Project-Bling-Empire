@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,PEXIP.OL
+Company,Pexip Holding ASA
+Country,Norway
+Industry,Software—Application
+Sector,Technology
+Website,https://www.pexip.com
+
+REVENUE
+Total Revenue,943179008.0
+Revenue Per Share,9.434
+Revenue Growth,0.195
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.05, forward_eps=0.58)"
+Net Earnings,-105979000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,65501000.0
+Debt to Equity,4.016
+
+MARGINS
+Profit Margins,-0.11236
+Gross Profit Margins,0.3032
+Operating Margins,-0.13902001
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,4.016
+Price to Cash Flow,1.5575174417991673e-07
+Enterprise to EBITDA,-18.734
+Price to Book,1.1274238
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=31.379313)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.05, forward_eps=0.58)"
+Enterprise to Revenue,1.481
+
+CASH FLOW
+Free to Cash Flow,116852624.0
+Operating to Cash Flow,42966000.0
+
+PROFITABILITY
+Return on Equity,-0.0636
+Return on Assets,-0.03829
+Return on Invested Capital,-1.6179748993302576
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,BWLPG.OL
+Company,BW LPG Limited
+Country,Singapore
+Industry,Marine Shipping
+Sector,Industrials
+Website,https://www.bwlpg.com
+
+REVENUE
+Total Revenue,2266492928.0
+Revenue Per Share,17.004
+Revenue Growth,0.282
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.45, forward_eps=7.57)"
+Net Earnings,340750016.0
+Earnings Growth,1.262
+
+DEBT
+Total Debt,619633984.0
+Debt to Equity,40.465
+
+MARGINS
+Profit Margins,0.15034
+Gross Profit Margins,0.24472
+Operating Margins,0.14382
+
+DIVIDEND
+Dividend Rate,34.83
+Dividend Yield,0.2586
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,2.53
+Trailing Annual Dividend Yield,0.018685378
+
+FINANCIAL RATIO
+Debt to Equity,40.465
+Price to Cash Flow,3.4671837518636816e-07
+Enterprise to EBITDA,39.744
+Price to Book,12.43997
+Price to Earnings,"PriceToEarnings(trailing_pe=4.9071035, forward_pe=17.793922)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.45, forward_eps=7.57)"
+Enterprise to Revenue,7.983
+
+CASH FLOW
+Free to Cash Flow,388499744.0
+Operating to Cash Flow,625417984.0
+
+PROFITABILITY
+Return on Equity,0.23228
+Return on Assets,0.09009
+Return on Invested Capital,0.5499214356284414
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

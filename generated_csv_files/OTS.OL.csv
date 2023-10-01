@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,OTS.OL
+Company,Oceanteam ASA
+Country,Norway
+Industry,Marine Shipping
+Sector,Industrials
+Website,https://www.oceanteam.nl
+
+REVENUE
+Total Revenue,70000.0
+Revenue Per Share,0.002
+Revenue Growth,0.333
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.32, forward_eps=None)"
+Net Earnings,-1011000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,0.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.0
+Gross Profit Margins,1.0
+Operating Margins,-15.428571
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,-1.1024710558147571e-06
+Enterprise to EBITDA,-32.522
+Price to Book,17.722221
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.32, forward_eps=None)"
+Enterprise to Revenue,748.928
+
+CASH FLOW
+Free to Cash Flow,-1446750.0
+Operating to Cash Flow,-1383000.0
+
+PROFITABILITY
+Return on Equity,-0.13619
+Return on Assets,-0.06346
+Return on Invested Capital,-11233333.333333334
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

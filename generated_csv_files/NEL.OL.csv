@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,NEL.OL
+Company,Nel ASA
+Country,Norway
+Industry,Specialty Industrial Machinery
+Sector,Industrials
+Website,https://nelhydrogen.com
+
+REVENUE
+Total Revenue,1365944960.0
+Revenue Per Share,0.855
+Revenue Growth,1.695
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.99, forward_eps=-0.29)"
+Net Earnings,-1514916992.0
+Earnings Growth,None
+
+DEBT
+Total Debt,247994000.0
+Debt to Equity,3.797
+
+MARGINS
+Profit Margins,-1.1090599
+Gross Profit Margins,0.46175998
+Operating Margins,-0.65309
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,3.797
+Price to Cash Flow,-1.9537298672256914e-08
+Enterprise to EBITDA,-14.0
+Price to Book,2.1479018
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-28.944828)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.99, forward_eps=-0.29)"
+Enterprise to Revenue,7.432
+
+CASH FLOW
+Free to Cash Flow,-429639744.0
+Operating to Cash Flow,-646632000.0
+
+PROFITABILITY
+Return on Equity,-0.23436001
+Return on Assets,-0.07093
+Return on Invested Capital,-6.1086839525442675
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,True
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,2

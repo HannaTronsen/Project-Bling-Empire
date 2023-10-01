@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,KOG.OL
+Company,Kongsberg Gruppen ASA
+Country,Norway
+Industry,Aerospace & Defense
+Sector,Industrials
+Website,https://www.kongsberg.com
+
+REVENUE
+Total Revenue,35892998144.0
+Revenue Per Share,203.308
+Revenue Growth,0.271
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.1, forward_eps=22.96)"
+Net Earnings,3379000064.0
+Earnings Growth,0.47
+
+DEBT
+Total Debt,5578999808.0
+Debt to Equity,38.636
+
+MARGINS
+Profit Margins,0.09413999
+Gross Profit Margins,0.59872
+Operating Margins,0.11612
+
+DIVIDEND
+Dividend Rate,12.0
+Dividend Yield,0.0272
+Five Year Avg Dividend Yield,1.63
+Trailing Annual Dividend Rate,3.6
+Trailing Annual Dividend Yield,0.008108108
+
+FINANCIAL RATIO
+Debt to Equity,38.636
+Price to Cash Flow,3.3226020416573204e-07
+Enterprise to EBITDA,16.68
+Price to Book,5.59657
+Price to Earnings,"PriceToEarnings(trailing_pe=23.099476, forward_pe=19.21603)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.1, forward_eps=22.96)"
+Enterprise to Revenue,2.263
+
+CASH FLOW
+Free to Cash Flow,1327874944.0
+Operating to Cash Flow,2742000128.0
+
+PROFITABILITY
+Return on Equity,0.26054
+Return on Assets,0.06171
+Return on Invested Capital,0.6056641212655648
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

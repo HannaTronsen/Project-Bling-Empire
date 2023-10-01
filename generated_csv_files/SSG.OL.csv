@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,SSG.OL
+Company,Self Storage Group ASA
+Country,Norway
+Industry,Specialty Business Services
+Sector,Industrials
+Website,https://www.selfstoragegroup.no
+
+REVENUE
+Total Revenue,411697984.0
+Revenue Per Share,4.348
+Revenue Growth,0.065
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.77, forward_eps=1.39)"
+Net Earnings,-72497000.0
+Earnings Growth,-0.427
+
+DEBT
+Total Debt,1745863040.0
+Debt to Equity,94.465
+
+MARGINS
+Profit Margins,-0.17608999
+Gross Profit Margins,0.74354
+Operating Margins,0.52336
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,94.465
+Price to Cash Flow,7.136954017583425e-07
+Enterprise to EBITDA,22.594
+Price to Book,2.0184426
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=28.345325)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.77, forward_eps=1.39)"
+Enterprise to Revenue,12.982
+
+CASH FLOW
+Free to Cash Flow,55205624.0
+Operating to Cash Flow,210224000.0
+
+PROFITABILITY
+Return on Equity,-0.03888
+Return on Assets,0.036310002
+Return on Invested Capital,-0.041525020879891926
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

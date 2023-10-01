@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,RISH.OL
+Company,GC Rieber Shipping ASA
+Country,Norway
+Industry,Marine Shipping
+Sector,Industrials
+Website,https://www.gcrieber-shipping.com
+
+REVENUE
+Total Revenue,-2354000.0
+Revenue Per Share,-0.027
+Revenue Growth,None
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.24, forward_eps=None)"
+Net Earnings,106459000.0
+Earnings Growth,0.479
+
+DEBT
+Total Debt,1503000.0
+Debt to Equity,0.118
+
+MARGINS
+Profit Margins,0.0
+Gross Profit Margins,0.0
+Operating Margins,23.321579
+
+DIVIDEND
+Dividend Rate,0.25
+Dividend Yield,0.041500002
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.25
+Trailing Annual Dividend Yield,0.040983606
+
+FINANCIAL RATIO
+Debt to Equity,0.118
+Price to Cash Flow,-7.85437412130168e-09
+Enterprise to EBITDA,-5.007
+Price to Book,0.40645465
+Price to Earnings,"PriceToEarnings(trailing_pe=4.854839, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.24, forward_eps=None)"
+Enterprise to Revenue,-77.366
+
+CASH FLOW
+Free to Cash Flow,-766451904.0
+Operating to Cash Flow,19507000.0
+
+PROFITABILITY
+Return on Equity,0.08535
+Return on Assets,-0.02713
+Return on Invested Capital,70.83030667486882
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,AKSO.OL
+Company,Aker Solutions ASA
+Country,Norway
+Industry,Oil & Gas Equipment & Services
+Sector,Energy
+Website,https://akersolutions.com
+
+REVENUE
+Total Revenue,48049999872.0
+Revenue Per Share,98.739
+Revenue Growth,0.344
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=4.52)"
+Net Earnings,1660999936.0
+Earnings Growth,0.966
+
+DEBT
+Total Debt,4951000064.0
+Debt to Equity,47.139
+
+MARGINS
+Profit Margins,0.03457
+Gross Profit Margins,0.40955
+Operating Margins,0.05322
+
+DIVIDEND
+Dividend Rate,1.0
+Dividend Yield,0.0231
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,1.0
+Trailing Annual Dividend Yield,0.022563176
+
+FINANCIAL RATIO
+Debt to Equity,47.139
+Price to Cash Flow,8.952904380540722e-09
+Enterprise to EBITDA,6.644
+Price to Book,2.010518
+Price to Earnings,"PriceToEarnings(trailing_pe=12.668622, forward_pe=9.557523)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=4.52)"
+Enterprise to Revenue,0.374
+
+CASH FLOW
+Free to Cash Flow,4825249792.0
+Operating to Cash Flow,6456999936.0
+
+PROFITABILITY
+Return on Equity,0.17093
+Return on Assets,0.0462
+Return on Invested Capital,0.33548776152699605
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,True
+Free to Cash Flow,True
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,2

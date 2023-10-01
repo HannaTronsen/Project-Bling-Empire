@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,SDRL.OL
+Company,Seadrill Limited
+Country,Bermuda
+Industry,Oil & Gas Drilling
+Sector,Energy
+Website,https://www.seadrill.com
+
+REVENUE
+Total Revenue,1143000064.0
+Revenue Per Share,19.899
+Revenue Growth,0.672
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=658.2, forward_eps=45.4)"
+Net Earnings,96000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,362000000.0
+Debt to Equity,11.757
+
+MARGINS
+Profit Margins,0.32371
+Gross Profit Margins,0.34296
+Operating Margins,0.16098
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,11.757
+Price to Cash Flow,-3.147967479674797e-05
+Enterprise to EBITDA,113.545
+Price to Book,12.554473
+Price to Earnings,"PriceToEarnings(trailing_pe=0.7353388, forward_pe=10.660792)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=658.2, forward_eps=45.4)"
+Enterprise to Revenue,33.775
+
+CASH FLOW
+Free to Cash Flow,-15375000.0
+Operating to Cash Flow,131000000.0
+
+PROFITABILITY
+Return on Equity,0.04221
+Return on Assets,0.03304
+Return on Invested Capital,0.2651933419233875
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

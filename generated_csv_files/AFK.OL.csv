@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,AFK.OL
+Company,Arendals Fossekompani ASA
+Country,Norway
+Industry,Conglomerates
+Sector,Industrials
+Website,https://arendalsfossekompani.no
+
+REVENUE
+Total Revenue,5276120064.0
+Revenue Per Share,96.189
+Revenue Growth,0.323
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.07, forward_eps=None)"
+Net Earnings,61744000.0
+Earnings Growth,0.744
+
+DEBT
+Total Debt,2180999936.0
+Debt to Equity,55.952
+
+MARGINS
+Profit Margins,0.0117
+Gross Profit Margins,0.66810995
+Operating Margins,0.11504
+
+DIVIDEND
+Dividend Rate,4.0
+Dividend Yield,0.029000001
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,3.9
+Trailing Annual Dividend Yield,0.028634362
+
+FINANCIAL RATIO
+Debt to Equity,55.952
+Price to Cash Flow,1.052929175612999e-06
+Enterprise to EBITDA,10.966
+Price to Book,2.3591447
+Price to Earnings,"PriceToEarnings(trailing_pe=128.78505, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.07, forward_eps=None)"
+Enterprise to Revenue,1.594
+
+CASH FLOW
+Free to Cash Flow,130873000.0
+Operating to Cash Flow,147124000.0
+
+PROFITABILITY
+Return on Equity,0.00454
+Return on Assets,0.04699
+Return on Invested Capital,0.028309949636966675
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

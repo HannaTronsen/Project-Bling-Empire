@@ -1,0 +1,61 @@
+GENERAL STOCK INFO
+Ticker,HEX.OL
+Company,Hexagon Composites ASA
+Country,asset_profile missing
+Industry,asset_profile missing
+Sector,asset_profile missing
+Website,asset_profile missing
+
+REVENUE
+Total Revenue,5468302848.0
+Revenue Per Share,23.33
+Revenue Growth,0.323
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
+Net Earnings,None
+Earnings Growth,None
+
+DEBT
+Total Debt,2223910912.0
+Debt to Equity,51.49
+
+MARGINS
+Profit Margins,0.37078997
+Gross Profit Margins,0.45536
+Operating Margins,-0.06604
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,51.49
+Price to Cash Flow,-7.143190107281941e-08
+Enterprise to EBITDA,None
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=65.12)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=None, forward_eps=None)"
+Enterprise to Revenue,None
+
+CASH FLOW
+Free to Cash Flow,-455818752.0
+Operating to Cash Flow,136583008.0
+
+PROFITABILITY
+Return on Equity,-0.10411
+Return on Assets,-0.02891
+Return on Invested Capital,None
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Book Value + Dividends,False
+

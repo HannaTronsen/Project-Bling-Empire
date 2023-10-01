@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,BOR.OL
+Company,Borgestad ASA
+Country,Norway
+Industry,Building Products & Equipment
+Sector,Industrials
+Website,https://borgestad.no
+
+REVENUE
+Total Revenue,1020358976.0
+Revenue Per Share,9.177
+Revenue Growth,0.321
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.78, forward_eps=0.07)"
+Net Earnings,-84790000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,728411008.0
+Debt to Equity,129.532
+
+MARGINS
+Profit Margins,-0.083100006
+Gross Profit Margins,0.57973
+Operating Margins,0.03691
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,129.532
+Price to Cash Flow,-1.1660557734765182e-07
+Enterprise to EBITDA,16.867
+Price to Book,0.40804082
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=19.428572)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.78, forward_eps=0.07)"
+Enterprise to Revenue,0.907
+
+CASH FLOW
+Free to Cash Flow,-11663250.0
+Operating to Cash Flow,19201000.0
+
+PROFITABILITY
+Return on Equity,-0.15113
+Return on Assets,0.0148599995
+Return on Invested Capital,-0.11640406127967971
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

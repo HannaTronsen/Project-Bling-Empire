@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,MULTI.OL
+Company,Multiconsult ASA
+Country,Norway
+Industry,Engineering & Construction
+Sector,Industrials
+Website,https://www.multiconsultgroup.com
+
+REVENUE
+Total Revenue,4466636800.0
+Revenue Per Share,162.946
+Revenue Growth,0.1
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.58, forward_eps=11.41)"
+Net Earnings,317684000.0
+Earnings Growth,-0.383
+
+DEBT
+Total Debt,1249862016.0
+Debt to Equity,127.979
+
+MARGINS
+Profit Margins,0.07112
+Gross Profit Margins,0.3506
+Operating Margins,0.09656999
+
+DIVIDEND
+Dividend Rate,9.0
+Dividend Yield,0.0672
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,9.0
+Trailing Annual Dividend Yield,0.066176474
+
+FINANCIAL RATIO
+Debt to Equity,127.979
+Price to Cash Flow,3.05923668483214e-07
+Enterprise to EBITDA,10.173
+Price to Book,3.9816961
+Price to Earnings,"PriceToEarnings(trailing_pe=11.571675, forward_pe=11.744084)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.58, forward_eps=11.41)"
+Enterprise to Revenue,1.11
+
+CASH FLOW
+Free to Cash Flow,438017760.0
+Operating to Cash Flow,599240000.0
+
+PROFITABILITY
+Return on Equity,0.34436
+Return on Assets,0.07909
+Return on Invested Capital,0.25417525085103965
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

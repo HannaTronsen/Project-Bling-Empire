@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,SALM.OL
+Company,SalMar ASA
+Country,Norway
+Industry,Farm Products
+Sector,Consumer Defensive
+Website,https://www.salmar.no
+
+REVENUE
+Total Revenue,23845675008.0
+Revenue Per Share,188.606
+Revenue Growth,0.412
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.74, forward_eps=34.05)"
+Net Earnings,908582976.0
+Earnings Growth,None
+
+DEBT
+Total Debt,23320000512.0
+Debt to Equity,105.163
+
+MARGINS
+Profit Margins,0.05389
+Gross Profit Margins,0.54186
+Operating Margins,0.24809
+
+DIVIDEND
+Dividend Rate,20.0
+Dividend Yield,0.0368
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,20.0
+Trailing Annual Dividend Yield,0.0373413
+
+FINANCIAL RATIO
+Debt to Equity,105.163
+Price to Cash Flow,-6.452338888066467e-08
+Enterprise to EBITDA,14.291
+Price to Book,4.073738
+Price to Earnings,"PriceToEarnings(trailing_pe=80.62315, forward_pe=15.958885)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.74, forward_eps=34.05)"
+Enterprise to Revenue,4.135
+
+CASH FLOW
+Free to Cash Flow,-8421752320.0
+Operating to Cash Flow,6024860160.0
+
+PROFITABILITY
+Return on Equity,0.0675
+Return on Assets,0.07739
+Return on Invested Capital,0.03896153305551361
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

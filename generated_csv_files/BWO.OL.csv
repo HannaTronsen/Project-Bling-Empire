@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,BWO.OL
+Company,BW Offshore Limited
+Country,Bermuda
+Industry,Oil & Gas Equipment & Services
+Sector,Energy
+Website,https://www.bwoffshore.com
+
+REVENUE
+Total Revenue,720099968.0
+Revenue Per Share,3.983
+Revenue Growth,-0.138
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.7, forward_eps=6.73)"
+Net Earnings,100600000.0
+Earnings Growth,0.017
+
+DEBT
+Total Debt,1375299968.0
+Debt to Equity,119.56
+
+MARGINS
+Profit Margins,0.1397
+Gross Profit Margins,0.54715
+Operating Margins,0.17859
+
+DIVIDEND
+Dividend Rate,1.5
+Dividend Yield,0.061
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.14
+Trailing Annual Dividend Yield,0.00567721
+
+FINANCIAL RATIO
+Debt to Equity,119.56
+Price to Cash Flow,-3.924775017856131e-08
+Enterprise to EBITDA,18.401
+Price to Book,4.667046
+Price to Earnings,"PriceToEarnings(trailing_pe=4.3157897, forward_pe=3.6552749)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.7, forward_eps=6.73)"
+Enterprise to Revenue,8.05
+
+CASH FLOW
+Free to Cash Flow,-626787520.0
+Operating to Cash Flow,579000000.0
+
+PROFITABILITY
+Return on Equity,0.08939999
+Return on Assets,0.024130002
+Return on Invested Capital,0.07314767829212848
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

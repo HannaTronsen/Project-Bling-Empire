@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,B2H.OL
+Company,B2 Impact ASA
+Country,Norway
+Industry,Credit Services
+Sector,Financial Services
+Website,https://www.b2holding.no
+
+REVENUE
+Total Revenue,3011000064.0
+Revenue Per Share,7.778
+Revenue Growth,0.263
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.18, forward_eps=1.25)"
+Net Earnings,459000000.0
+Earnings Growth,6.0
+
+DEBT
+Total Debt,11804999680.0
+Debt to Equity,201.485
+
+MARGINS
+Profit Margins,0.15244001
+Gross Profit Margins,0.73331
+Operating Margins,0.24709
+
+DIVIDEND
+Dividend Rate,0.2
+Dividend Yield,0.029000001
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.2
+Trailing Annual Dividend Yield,0.028985508
+
+FINANCIAL RATIO
+Debt to Equity,201.485
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,0.45846033
+Price to Earnings,"PriceToEarnings(trailing_pe=5.864407, forward_pe=5.5360003)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.18, forward_eps=1.25)"
+Enterprise to Revenue,4.572
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,3520000000.0
+
+PROFITABILITY
+Return on Equity,0.084359996
+Return on Assets,0.02645
+Return on Invested Capital,0.03888183073742511
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,PCIB.OL
+Company,PCI Biotech Holding ASA
+Country,Norway
+Industry,Biotechnology
+Sector,Healthcare
+Website,https://www.pcibiotech.com
+
+REVENUE
+Total Revenue,2792000.0
+Revenue Per Share,0.075
+Revenue Growth,-0.844
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.79, forward_eps=-2.92)"
+Net Earnings,-29197000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,572000.0
+Debt to Equity,1.219
+
+MARGINS
+Profit Margins,0.0
+Gross Profit Margins,1.0
+Operating Margins,-10.99928
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,1.219
+Price to Cash Flow,-5.869529726978518e-08
+Enterprise to EBITDA,-0.329
+Price to Book,1.2155927
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.52328765)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.79, forward_eps=-2.92)"
+Enterprise to Revenue,4.308
+
+CASH FLOW
+Free to Cash Flow,-26032750.0
+Operating to Cash Flow,-30126000.0
+
+PROFITABILITY
+Return on Equity,-0.47537
+Return on Assets,-0.26334998
+Return on Invested Capital,-51.0435941227311
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,True
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

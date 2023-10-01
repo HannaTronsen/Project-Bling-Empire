@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,VOLUE.OL
+Company,Volue ASA
+Country,Norway
+Industry,Software—Application
+Sector,Technology
+Website,https://www.volue.com
+
+REVENUE
+Total Revenue,1373985024.0
+Revenue Per Share,9.394
+Revenue Growth,0.339
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.38, forward_eps=1.28)"
+Net Earnings,54881000.0
+Earnings Growth,2.286
+
+DEBT
+Total Debt,370944992.0
+Debt to Equity,42.255
+
+MARGINS
+Profit Margins,0.03994
+Gross Profit Margins,0.32411
+Operating Margins,0.06303
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,42.255
+Price to Cash Flow,-5.562482017838304e-06
+Enterprise to EBITDA,29.276
+Price to Book,3.6280234
+Price to Earnings,"PriceToEarnings(trailing_pe=57.236843, forward_pe=16.992188)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.38, forward_eps=1.28)"
+Enterprise to Revenue,2.325
+
+CASH FLOW
+Free to Cash Flow,-3910125.0
+Operating to Cash Flow,237099008.0
+
+PROFITABILITY
+Return on Equity,0.06573
+Return on Assets,0.029560002
+Return on Invested Capital,0.14794915768277794
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

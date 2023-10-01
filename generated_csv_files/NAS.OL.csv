@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,NAS.OL
+Company,Norwegian Air Shuttle ASA
+Country,Norway
+Industry,Airlines
+Sector,Industrials
+Website,https://www.norwegian.com
+
+REVENUE
+Total Revenue,21862000640.0
+Revenue Per Share,23.46
+Revenue Growth,0.391
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.14, forward_eps=1.57)"
+Net Earnings,218500000.0
+Earnings Growth,-0.57
+
+DEBT
+Total Debt,13017199616.0
+Debt to Equity,351.171
+
+MARGINS
+Profit Margins,0.015360001
+Gross Profit Margins,0.106029995
+Operating Margins,0.032899998
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,351.171
+Price to Cash Flow,1.6756001459105232e-09
+Enterprise to EBITDA,7.9
+Price to Book,2.2158237
+Price to Earnings,"PriceToEarnings(trailing_pe=61.014286, forward_pe=5.440764)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.14, forward_eps=1.57)"
+Enterprise to Revenue,0.543
+
+CASH FLOW
+Free to Cash Flow,5097874944.0
+Operating to Cash Flow,4870600192.0
+
+PROFITABILITY
+Return on Equity,0.091239996
+Return on Assets,0.01651
+Return on Invested Capital,0.016785484311596807
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

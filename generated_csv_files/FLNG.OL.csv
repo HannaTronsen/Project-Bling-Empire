@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,FLNG.OL
+Company,FLEX LNG Ltd.
+Country,Bermuda
+Industry,Oil & Gas Midstream
+Sector,Energy
+Website,https://www.flexlng.com
+
+REVENUE
+Total Revenue,368392992.0
+Revenue Per Share,6.89
+Revenue Growth,0.031
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.48, forward_eps=29.24)"
+Net Earnings,143568000.0
+Earnings Growth,-0.133
+
+DEBT
+Total Debt,1864041984.0
+Debt to Equity,214.325
+
+MARGINS
+Profit Margins,0.38971
+Gross Profit Margins,0.81438005
+Operating Margins,0.58915
+
+DIVIDEND
+Dividend Rate,31.94
+Dividend Yield,0.0998
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,3.0
+Trailing Annual Dividend Yield,0.009225092
+
+FINANCIAL RATIO
+Debt to Equity,214.325
+Price to Cash Flow,1.792084506103302e-06
+Enterprise to EBITDA,66.51
+Price to Book,19.751867
+Price to Earnings,"PriceToEarnings(trailing_pe=11.235955, forward_pe=10.9439125)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.48, forward_eps=29.24)"
+Enterprise to Revenue,50.469
+
+CASH FLOW
+Free to Cash Flow,178563008.0
+Operating to Cash Flow,199903008.0
+
+PROFITABILITY
+Return on Equity,0.16135
+Return on Assets,0.04967
+Return on Invested Capital,0.0770197237962015
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1

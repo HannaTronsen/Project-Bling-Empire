@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,PLT.OL
+Company,poLight ASA
+Country,Norway
+Industry,Electronic Components
+Sector,Technology
+Website,https://www.polight.com
+
+REVENUE
+Total Revenue,23677000.0
+Revenue Per Share,0.426
+Revenue Growth,1.847
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.15, forward_eps=None)"
+Net Earnings,-66105000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,3561000.0
+Debt to Equity,1.468
+
+MARGINS
+Profit Margins,-2.79195
+Gross Profit Margins,0.53161
+Operating Margins,-2.8521302
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,1.468
+Price to Cash Flow,-1.7158108403954296e-07
+Enterprise to EBITDA,-9.751
+Price to Book,3.3012583
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.15, forward_eps=None)"
+Enterprise to Revenue,27.494
+
+CASH FLOW
+Free to Cash Flow,-77980624.0
+Operating to Cash Flow,-91352000.0
+
+PROFITABILITY
+Return on Equity,-0.31430998
+Return on Assets,-0.17934999
+Return on Invested Capital,-18.56358460033463
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

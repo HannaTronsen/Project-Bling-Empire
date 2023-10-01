@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,NODL.OL
+Company,Northern Drilling Ltd.
+Country,Bermuda
+Industry,Oil & Gas Drilling
+Sector,Energy
+Website,https://www.northerndrillingltd.com
+
+REVENUE
+Total Revenue,None
+Revenue Per Share,None
+Revenue Growth,None
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-5.72, forward_eps=-2.8)"
+Net Earnings,-10014000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,0.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.0
+Gross Profit Margins,0.0
+Operating Margins,0.0
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,-2.1428314141274616e-08
+Enterprise to EBITDA,None
+Price to Book,0.33869258
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-1.4821429)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-5.72, forward_eps=-2.8)"
+Enterprise to Revenue,None
+
+CASH FLOW
+Free to Cash Flow,-193668992.0
+Operating to Cash Flow,-17225000.0
+
+PROFITABILITY
+Return on Equity,-0.04223
+Return on Assets,-0.02695
+Return on Invested Capital,-817269.2401860768
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,False
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,67 @@
+GENERAL STOCK INFO
+Ticker,ENDUR.OL
+Company,Endúr ASA
+Country,Norway
+Industry,Conglomerates
+Sector,Industrials
+Website,https://endur.no
+
+REVENUE
+Total Revenue,2289499904.0
+Revenue Per Share,77.233
+Revenue Growth,-0.147
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.93, forward_eps=5.0)"
+Net Earnings,-29600000.0
+Earnings Growth,-0.029
+
+DEBT
+Total Debt,640099968.0
+Debt to Equity,62.693
+
+MARGINS
+Profit Margins,-0.01293
+Gross Profit Margins,0.39091998
+Operating Margins,0.043109998
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,62.693
+Price to Cash Flow,5.060006487187804e-07
+Enterprise to EBITDA,8.202
+Price to Book,1.2450517
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.8)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.93, forward_eps=5.0)"
+Enterprise to Revenue,0.769
+
+CASH FLOW
+Free to Cash Flow,77075000.0
+Operating to Cash Flow,231900000.0
+
+PROFITABILITY
+Return on Equity,-0.03073
+Return on Assets,0.025829999
+Return on Invested Capital,-0.04624277461531029
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings History,False
+Revenue History,True
+Net Income,False
+Sales,False
+Operating to Cash Flow,False
+Free to Cash Flow,False
+Book Value + Dividends,False
+
+
+
+CRITERIA PASS COUNT,1
