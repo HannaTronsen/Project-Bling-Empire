@@ -9,7 +9,7 @@ class test_yquery(unittest.TestCase):
         try:
             self.error_message_prefix = "yquery.Ticker('MSFT')"
             self.error_message_suffix = "caused and exception:"
-            self.ticker = Ticker('MSFT')
+            self.ticker = Ticker("MSFT")
             self.ticker_fields = [
                 (self.ticker.summary_detail, "summary_detail"),
                 (self.ticker.summary_profile, "summary_profile"),
@@ -42,3 +42,6 @@ class test_yquery(unittest.TestCase):
         self.fail(
             f'{self.error_message_prefix} {method_name} {self.error_message_suffix} {e}'
         )
+
+    if __name__ == '__main__':
+        unittest.main()

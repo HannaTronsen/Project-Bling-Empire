@@ -8,11 +8,11 @@
 
     If the value is not castable, it will return None
 """
+from config import CASTABLE_DATA_SHOW_DEBUG_PRINT
 from context.yquery_ticker.main.const import (
     CASTABLE_ERROR_STRING,
     NO_CASTABLE_DEFINITION_ERROR_STRING
 )
-SHOW_PRINT = False
 
 
 class CastableDataInterface:
@@ -22,7 +22,7 @@ class CastableDataInterface:
         try:
             return cast(value)
         except (ValueError, TypeError) as e:
-            if SHOW_PRINT:
+            if CASTABLE_DATA_SHOW_DEBUG_PRINT:
                 print(f'_cast with cast value {cast} threw an exception: {e}')
                 print(CASTABLE_ERROR_STRING.format(value=value, field_type=field_type_name))
 
@@ -34,5 +34,5 @@ class CastableDataInterface:
         elif field_type_name == 'str':
             return self._cast(field_type_name=field_type_name, value=value, cast=str)
         else:
-            if SHOW_PRINT:
+            if CASTABLE_DATA_SHOW_DEBUG_PRINT:
                 print(NO_CASTABLE_DEFINITION_ERROR_STRING.format(field_type=field_type_name))

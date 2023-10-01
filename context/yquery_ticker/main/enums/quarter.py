@@ -1,8 +1,7 @@
 from enum import Enum
 
+from config import QUARTER_SHOW_DEBUG_PRINT
 from ..const import NO_MATCHING_ENUM_MEMBER_STRING
-
-SHOW_PRINT = True
 
 
 class QuarterId(Enum):
@@ -31,7 +30,7 @@ class Quarter(Enum):
         for enum in cls:
             if enum.__id__.value == quarter_date:
                 return enum
-        if SHOW_PRINT:
+        if QUARTER_SHOW_DEBUG_PRINT:
             print(NO_MATCHING_ENUM_MEMBER_STRING.format(identifier="quarter date", value=quarter_date))
         return None
 
@@ -40,7 +39,7 @@ class Quarter(Enum):
         for enum in cls:
             if enum.__id__ == quarter_id:
                 return enum
-        if SHOW_PRINT:
+        if QUARTER_SHOW_DEBUG_PRINT:
             print(NO_MATCHING_ENUM_MEMBER_STRING.format(identifier="quarter id", value=quarter_id))
         return None
 
@@ -72,6 +71,6 @@ class Month(Enum):
         for enum in cls:
             if enum.__month_str__ == month:
                 return enum
-        if SHOW_PRINT:
+        if QUARTER_SHOW_DEBUG_PRINT:
             print(NO_MATCHING_ENUM_MEMBER_STRING.format(identifier="month", value=month))
         return None

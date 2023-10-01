@@ -1,10 +1,10 @@
 import csv
 import os
+import re
 from datetime import datetime
 from typing import Optional
-
 from yahooquery import Ticker
-import re
+from config import GENERATE_DEV_CSV, GENERATE_PROD_CSV
 from const import (
     BLACKLISTED_STOCK_TICKERS_PATH,
     CONST_COLLECTION,
@@ -14,9 +14,6 @@ from const import (
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass, Section
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.errors.generic_error import GenericError
-
-GENERATE_DEV_CSV = True
-GENERATE_PROD_CSV = True
 
 
 def passed_yahoo_query_validation_check(ticker_symbol: str, ticker: Ticker) -> bool:

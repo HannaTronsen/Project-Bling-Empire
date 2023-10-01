@@ -1,19 +1,15 @@
 import unittest
 
+from config import initialize_environment, RUN_TESTS, RUN_DEV_CODE, RUN_PROD_CODE
 from const import TEST_PATHS
 from context.ticker_scraper.main.functions import (
-    fetch_tickers,
-    initialize_environment,
+    fetch_tickers
 )
 from context.yquery_ticker.main.functions import (
     validate_and_get_yahoo_query_ticker_objects,
     validate_and_get_yahoo_query_ticker_object,
     generate_comparable_csv_for_tickers
 )
-
-RUN_TESTS = True
-RUN_PROD_CODE = True
-RUN_DEV_CODE = False
 
 
 def main():

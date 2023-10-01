@@ -1,6 +1,7 @@
 import dataclasses
 from abc import ABC
 from dataclasses import is_dataclass
+from config import ITERABLE_DATA_SHOW_DEBUG_PRINT
 from context.yquery_ticker.main.interfaces.castable_data import CastableDataInterface
 from ..const import INVALID_FIELD_STRING
 """
@@ -8,7 +9,6 @@ from ..const import INVALID_FIELD_STRING
     being given to a data class and check for invalid values. Since data classes can 
     indefinitely nested inside other data classes, we need to make checking all the nested fields recursively. 
 """
-SHOW_PRINT = False
 
 
 @dataclasses.dataclass
@@ -47,7 +47,7 @@ class IterableDataInterface(ABC):
 
             # If any type of invalid values are given, we set a universal `None` value
             if value is None or value == "" or value == 'N/A':
-                if SHOW_PRINT:
+                if ITERABLE_DATA_SHOW_DEBUG_PRINT:
                     print(INVALID_FIELD_STRING.format(field=field))
                 setattr(self, field, None)
             else:
