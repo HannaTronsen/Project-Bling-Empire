@@ -19,27 +19,32 @@ class test_income_statement(unittest.TestCase):
             IncomeStatementDataClass(
                 asOfDate=Date(year=2019, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                netIncome=55256000000.0
+                netIncome=55256000000.0,
+                totalRevenue=260174000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2020, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                netIncome=57411000000.0
+                netIncome=57411000000.0,
+                totalRevenue=274515000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2021, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                netIncome=94680000000.0
+                netIncome=94680000000.0,
+                totalRevenue=365817000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                netIncome=99803000000.0
+                netIncome=99803000000.0,
+                totalRevenue=394328000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.TTM,
-                netIncome=94760000000.0
+                netIncome=94760000000.0,
+                totalRevenue=383933000000.0,
             )
         ]
 
@@ -47,32 +52,38 @@ class test_income_statement(unittest.TestCase):
             IncomeStatementDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                netIncome=19442000000.0
+                netIncome=19442000000.0,
+                totalRevenue=82959000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                netIncome=20721000000.0
+                netIncome=20721000000.0,
+                totalRevenue=90146000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.FOURTH_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                netIncome=29998000000.0
+                netIncome=29998000000.0,
+                totalRevenue=117154000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.FIRST_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                netIncome=24160000000.0
+                netIncome=24160000000.0,
+                totalRevenue=94836000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                netIncome=19881000000.0
+                netIncome=19881000000.0,
+                totalRevenue=81797000000.0,
             ),
             IncomeStatementDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.TTM,
-                netIncome=94760000000.0
+                netIncome=94760000000.0,
+                totalRevenue=383933000000.0,
             )
         ]
 

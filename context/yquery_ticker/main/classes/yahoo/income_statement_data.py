@@ -1,14 +1,16 @@
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
+from context.yquery_ticker.main.const import WRONG_TYPE_STRING
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import (
     IncomeStatementDataClass,
-    NET_INCOME
+    NET_INCOME, TOTAL_REVENUE
 )
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import (
     PERIOD_TYPE,
     AS_OF_DATE,
 )
 from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
+from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
 class IncomeStatementData(TimeSeriesDataCollection):
@@ -22,19 +24,30 @@ class IncomeStatementData(TimeSeriesDataCollection):
                     asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
                     periodType=Date.to_period_type(row[PERIOD_TYPE]),
                     netIncome=row[NET_INCOME],
+                    totalRevenue=row[TOTAL_REVENUE],
                 )
             )
         return result
 
     @classmethod
-    def evaluate_growth_criteria(cls, income_statement) -> bool:
-        return cls.passes_percentage_increase_requirements(
-            percentages=cls.calculate_percentage_increase_for_model_list(
-                model_list=income_statement,
-                attribute=GrowthCriteria.NET_INCOME.__str__
-            ),
-            percentage_requirement=GrowthCriteria.NET_INCOME.__percentage_criteria__
-        )
+    def evaluate_growth_criteria(cls, income_statement, attribute: DictKey) -> bool:
+        if attribute == DictKey.NET_INCOME:
+            return cls.passes_percentage_increase_requirements(
+                percentages=cls.calculate_percentage_increase_for_model_list(
+                    model_list=income_statement,
+                    attribute=GrowthCriteria.NET_INCOME.__str__
+                ),
+                percentage_requirement=GrowthCriteria.NET_INCOME.__percentage_criteria__
+            )
+        elif attribute == DictKey.SALES:
+            return cls.passes_percentage_increase_requirements(
+                percentages=cls.calculate_percentage_increase_for_model_list(
+                    model_list=income_statement,
+                    attribute=GrowthCriteria.SALES.__str__
+                ),
+                percentage_requirement=GrowthCriteria.SALES.__percentage_criteria__
+            )
+        raise TypeError(WRONG_TYPE_STRING.format(type=attribute))
 
     @classmethod
     def mockk(cls):

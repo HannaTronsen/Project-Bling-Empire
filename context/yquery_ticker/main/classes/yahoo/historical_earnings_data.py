@@ -63,8 +63,7 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
                 ),
                 percentage_requirement=GrowthCriteria.REVENUE.__percentage_criteria__
             )
-        else:
-            raise TypeError(WRONG_TYPE_STRING.format(type=attribute))
+        raise TypeError(WRONG_TYPE_STRING.format(type=attribute))
 
     @classmethod
     def mockk(cls):

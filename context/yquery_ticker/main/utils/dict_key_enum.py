@@ -35,3 +35,4 @@ class DictKey(Enum):
     REVENUE_HISTORY = "Revenue History"
     NET_INCOME = "Net Income"
     BOOK_VALUE_AND_DIVIDENDS = "Book Value + Dividends"
+    SALES = "Sales"

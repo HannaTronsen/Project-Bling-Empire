@@ -11,7 +11,7 @@ from context.yquery_ticker.main.functions import (
     generate_comparable_csv_for_tickers
 )
 
-RUN_TESTS = False
+RUN_TESTS = True
 RUN_PROD_CODE = True
 RUN_DEV_CODE = False
 

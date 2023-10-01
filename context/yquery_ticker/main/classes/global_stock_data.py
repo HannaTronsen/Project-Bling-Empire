@@ -193,13 +193,18 @@ class GlobalStockDataClass:
                 attribute=DictKey.REVENUE_HISTORY
             ),
             DictKey.NET_INCOME: IncomeStatementData.evaluate_growth_criteria(
-                income_statement=self.income_statement
+                income_statement=self.income_statement,
+                attribute=DictKey.NET_INCOME
+            ),
+            DictKey.SALES: IncomeStatementData.evaluate_growth_criteria(
+                income_statement=self.income_statement,
+                attribute=DictKey.SALES
             ),
             DictKey.BOOK_VALUE_AND_DIVIDENDS: CombinableYQData(
                 combination=DictKey.BOOK_VALUE_AND_DIVIDENDS,
                 balance_sheet=self.balance_sheet,
                 cash_flow=self.cash_flow,
-            ).combine_process_and_evaluate_growth_criteria()
+            ).combine_process_and_evaluate_growth_criteria(),
         }
 
     def map_section_headers_with_data(self):
