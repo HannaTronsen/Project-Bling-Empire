@@ -17,27 +17,32 @@ class test_cash_flow(unittest.TestCase):
             CashFlowDataClass(
                 asOfDate=Date(year=2019, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                cashDividendsPaid=-14119000000.0
+                cashDividendsPaid=-14119000000.0,
+                operatingCashFlow=69391000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2020, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                cashDividendsPaid=-14081000000.0
+                cashDividendsPaid=-14081000000.0,
+                operatingCashFlow=80674000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2021, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                cashDividendsPaid=-14467000000.0
+                cashDividendsPaid=-14467000000.0,
+                operatingCashFlow=104038000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                cashDividendsPaid=-14841000000.0
+                cashDividendsPaid=-14841000000.0,
+                operatingCashFlow=122151000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.TTM,
-                cashDividendsPaid=-14970000000.0
+                cashDividendsPaid=-14970000000.0,
+                operatingCashFlow=113072000000.0
             ),
         ]
 
@@ -45,34 +50,38 @@ class test_cash_flow(unittest.TestCase):
             CashFlowDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                cashDividendsPaid=-3811000000.0
+                cashDividendsPaid=-3811000000.0,
+                operatingCashFlow=22892000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                cashDividendsPaid=-3703000000.0
+                cashDividendsPaid=-3703000000.0,
+                operatingCashFlow=24127000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.FOURTH_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                cashDividendsPaid=-3768000000.0
+                cashDividendsPaid=-3768000000.0,
+                operatingCashFlow=34005000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.FIRST_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                cashDividendsPaid=-3650000000.0
+                cashDividendsPaid=-3650000000.0,
+                operatingCashFlow=28560000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                cashDividendsPaid=-3849000000.0
-
+                cashDividendsPaid=-3849000000.0,
+                operatingCashFlow=26380000000.0
             ),
             CashFlowDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.TTM,
-                cashDividendsPaid=-14970000000.0
-
+                cashDividendsPaid=-14970000000.0,
+                operatingCashFlow=113072000000.0
             ),
         ]
 
