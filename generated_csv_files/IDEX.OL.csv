@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,IDEX.OL
 Company,IDEX Biometrics ASA
 Country,Norway
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.idexbiometrics.com
 
@@ -12,7 +12,7 @@ Revenue Per Share,0.004
 Revenue Growth,0.32
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=-1.56)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.25, forward_eps=-1.59)"
 Net Earnings,-29978000.0
 Earnings Growth,None
 
@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,10.914
-Price to Cash Flow,-2.6419790278561995e-08
-Enterprise to EBITDA,-21.761
-Price to Book,32.36667
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.31121796)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=-1.56)"
-Enterprise to Revenue,134.125
+Price to Cash Flow,-2.4760050621515362e-08
+Enterprise to EBITDA,-22.738
+Price to Book,30.333334
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.28616354)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.25, forward_eps=-1.59)"
+Enterprise to Revenue,140.148
 
 CASH FLOW
 Free to Cash Flow,-18376376.0

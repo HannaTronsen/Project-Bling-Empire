@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,GJF.OL
 Company,Gjensidige Forsikring ASA
 Country,Norway
-Industry,Insurance—Property & Casualty
+Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.gjensidige.no
 
@@ -12,7 +12,7 @@ Revenue Per Share,72.829
 Revenue Growth,0.305
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.01, forward_eps=11.74)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.85, forward_eps=11.51)"
 Net Earnings,5497099776.0
 Earnings Growth,2.4
 
@@ -30,15 +30,15 @@ Dividend Rate,8.25
 Dividend Yield,0.052399997
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,8.25
-Trailing Annual Dividend Yield,0.053157218
+Trailing Annual Dividend Yield,0.052380953
 
 FINANCIAL RATIO
 Debt to Equity,16.805
-Price to Cash Flow,-2.598402557408311e-09
+Price to Cash Flow,-2.637997263045009e-09
 Enterprise to EBITDA,3.081
-Price to Book,3.7525911
-Price to Earnings,"PriceToEarnings(trailing_pe=14.305177, forward_pe=13.415673)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.01, forward_eps=11.74)"
+Price to Book,3.8097732
+Price to Earnings,"PriceToEarnings(trailing_pe=14.737326, forward_pe=13.892267)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.85, forward_eps=11.51)"
 Enterprise to Revenue,0.657
 
 CASH FLOW

@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SPOG.OL
 Company,Sparebanken Øst
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.oest.no
 
@@ -12,7 +12,7 @@ Revenue Per Share,38.763
 Revenue Growth,0.352
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.52, forward_eps=5.83)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.66, forward_eps=5.83)"
 Net Earnings,97900000.0
 Earnings Growth,0.407
 
@@ -30,16 +30,16 @@ Dividend Rate,None
 Dividend Yield,None
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,3.8
-Trailing Annual Dividend Yield,0.08067941
+Trailing Annual Dividend Yield,0.080168776
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.22496705
-Price to Earnings,"PriceToEarnings(trailing_pe=8.56884, forward_pe=8.113208)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.52, forward_eps=5.83)"
-Enterprise to Revenue,22.171
+Price to Book,0.2235402
+Price to Earnings,"PriceToEarnings(trailing_pe=8.303887, forward_pe=8.061749)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.66, forward_eps=5.83)"
+Enterprise to Revenue,22.179
 
 CASH FLOW
 Free to Cash Flow,None

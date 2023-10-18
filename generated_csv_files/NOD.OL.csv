@@ -7,23 +7,23 @@ Sector,Technology
 Website,https://www.nordicsemi.com
 
 REVENUE
-Total Revenue,693105984.0
-Revenue Per Share,3.615
-Revenue Growth,-0.23
+Total Revenue,None
+Revenue Per Share,4.059
+Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.23, forward_eps=3.19)"
-Net Earnings,74492000.0
-Earnings Growth,-0.52
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=2.7)"
+Net Earnings,None
+Earnings Growth,None
 
 DEBT
-Total Debt,35875000.0
-Debt to Equity,5.888
+Total Debt,None
+Debt to Equity,None
 
 MARGINS
-Profit Margins,0.107480004
-Gross Profit Margins,0.54238
-Operating Margins,0.13873
+Profit Margins,0.0
+Gross Profit Margins,0.0
+Operating Margins,0.0
 
 DIVIDEND
 Dividend Rate,None
@@ -33,22 +33,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,5.888
-Price to Cash Flow,4.019654863492811e-06
-Enterprise to EBITDA,180.659
-Price to Book,35.00946
-Price to Earnings,"PriceToEarnings(trailing_pe=26.252956, forward_pe=34.811913)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.23, forward_eps=3.19)"
-Enterprise to Revenue,30.465
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,29.645437
+Price to Earnings,"PriceToEarnings(trailing_pe=26.25, forward_pe=33.444447)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=2.7)"
+Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,27626750.0
-Operating to Cash Flow,-16857000.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.13149
-Return on Assets,0.08053
-Return on Invested Capital,2.07643187215493
+Return on Equity,None
+Return on Assets,None
+Return on Invested Capital,None
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

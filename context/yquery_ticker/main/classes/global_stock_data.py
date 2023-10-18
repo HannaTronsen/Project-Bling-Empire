@@ -57,9 +57,8 @@ class GlobalStockDataClass:
                 ),
                 market_cap=summary_detail.get("marketCap"),
                 currency=summary_detail.get("currency"),
-
             )
-        )  # .normalize_values() TODO(Hanna): Fix for multi word string
+        ).normalize_values()
 
         self.financial_data: FinancialData = FinancialData(
             price=financial_data.get("currentPrice"),

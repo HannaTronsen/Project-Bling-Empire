@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SOR.OL
 Company,Sparebanken Sør
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sor.no
 
@@ -30,7 +30,7 @@ Dividend Rate,6.0
 Dividend Yield,0.0469
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,6.0
-Trailing Annual Dividend Yield,0.046875
+Trailing Annual Dividend Yield,0.046511628
 
 FINANCIAL RATIO
 Debt to Equity,None

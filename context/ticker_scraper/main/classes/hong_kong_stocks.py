@@ -9,7 +9,7 @@ class HongKongStocksClass(StockCollectionClass):
         :param table_index_range: The range of indices of the stock data tables.
         :param stock_ticker_suffixes: The possible stock ticker endings required by yquery.
         """
-        super().__init__(stock_index_name, source, column)
+        super().__init__(stock_index_name, source, column, None)
         self.table_index_range = table_index_range
         self.stock_ticker_suffixes = stock_ticker_suffixes
 
@@ -23,9 +23,11 @@ class HongKongStocksClass(StockCollectionClass):
             df = pd.concat([df, tables[table_index]], axis=0)
         return df
 
-    def fetch_stock_tickers(self):
-        df = self.get_data_frame(table_index_range=self.table_index_range)
-        self.data_frame_to_csv(df=self.modify_tickers(df))
+    def fetch_stock_tickers_data_frame(self):
+        return self.get_data_frame(table_index_range=self.table_index_range)
+
+    def save_stock_tickers_data_frame_to_csv(self, data_frame):
+        self._data_frame_to_csv(data_frame=self.modify_tickers(data_frame))
 
     def modify_tickers(self, df):
         HK = self.stock_ticker_suffixes[0]

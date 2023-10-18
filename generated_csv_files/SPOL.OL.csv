@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SPOL.OL
 Company,SpareBank 1 Østlandet
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/en/ostlandet/personal.html
 
@@ -12,7 +12,7 @@ Revenue Per Share,42.39
 Revenue Growth,0.295
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.35, forward_eps=15.67)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.37, forward_eps=15.67)"
 Net Earnings,1546000000.0
 Earnings Growth,0.662
 
@@ -27,19 +27,19 @@ Operating Margins,0.57699
 
 DIVIDEND
 Dividend Rate,6.8
-Dividend Yield,0.051
+Dividend Yield,0.0507
 Five Year Avg Dividend Yield,4.31
 Trailing Annual Dividend Rate,6.8
-Trailing Annual Dividend Yield,0.051282052
+Trailing Annual Dividend Yield,0.050670642
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.83135974
-Price to Earnings,"PriceToEarnings(trailing_pe=9.992509, forward_pe=8.513082)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.35, forward_eps=15.67)"
-Enterprise to Revenue,12.174
+Price to Book,0.83385265
+Price to Earnings,"PriceToEarnings(trailing_pe=10.00748, forward_pe=8.538609)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.37, forward_eps=15.67)"
+Enterprise to Revenue,12.193
 
 CASH FLOW
 Free to Cash Flow,None

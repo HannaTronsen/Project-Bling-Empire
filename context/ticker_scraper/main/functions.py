@@ -5,4 +5,5 @@ from const import (
 
 def fetch_tickers():
     for collection in CONST_COLLECTION.STCOK_COLLECTION_LIST:
-        collection.fetch_stock_tickers()
+        data_frame = collection.fetch_stock_tickers_data_frame()
+        collection.save_stock_tickers_data_frame_to_csv(data_frame=data_frame)
