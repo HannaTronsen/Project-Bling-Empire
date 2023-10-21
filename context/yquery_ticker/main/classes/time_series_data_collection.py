@@ -11,7 +11,11 @@ from ..data_classes.yq_data_frame_data.yq_data_frame_data import YQDataFrameData
 class TimeSeriesDataCollection(ABC):
     @classmethod
     def _is_invalid_comparison(cls, earlier, later):
-        return earlier is None or later is None or type(earlier) != type(later)
+        if earlier is None or later is None:
+            return True
+        if not (isinstance(earlier, (int, float)) and isinstance(later, (int, float))):
+            return True
+        return False
 
     @classmethod
     def _not_up_trending(cls, earlier, later):

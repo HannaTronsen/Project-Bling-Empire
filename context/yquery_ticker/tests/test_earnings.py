@@ -229,7 +229,6 @@ class test_earnings(unittest.TestCase):
 
         test_cases = [
             # model_list, attribute, expected_exception
-            (self.quarterly_earnings_data_up_trending_list, 'estimate', ValueError),
             (self.quarterly_earnings_data_up_trending_list, 'none', AttributeError),
             (self.exception_list, 'revenue', ValueError),
             (self.exception_list, 'earnings', ValueError),
