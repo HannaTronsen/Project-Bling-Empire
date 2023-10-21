@@ -42,7 +42,7 @@ class CashFlowData(TimeSeriesDataCollection):
         if attribute == DictKey.OPERATING_CASH_FLOW:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=self.entries,
+                    model_list=self.sorted(self.entries),
                     attribute=GrowthCriteria.OPERATING_CASH_FLOW.__str__
                 ),
                 percentage_requirement=GrowthCriteria.OPERATING_CASH_FLOW.__percentage_criteria__
@@ -50,7 +50,7 @@ class CashFlowData(TimeSeriesDataCollection):
         elif attribute == DictKey.FREE_CASH_FLOW:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=self.entries,
+                    model_list=self.sorted(self.entries),
                     attribute=GrowthCriteria.FREE_CASH_FLOW.__str__
                 ),
                 percentage_requirement=GrowthCriteria.FREE_CASH_FLOW.__percentage_criteria__

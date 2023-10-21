@@ -34,7 +34,7 @@ class IncomeStatementData(TimeSeriesDataCollection):
         if attribute == DictKey.NET_INCOME:
             return cls.passes_percentage_increase_requirements(
                 percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=income_statement,
+                    model_list=cls.sorted(income_statement),
                     attribute=GrowthCriteria.NET_INCOME.__str__
                 ),
                 percentage_requirement=GrowthCriteria.NET_INCOME.__percentage_criteria__
@@ -42,7 +42,7 @@ class IncomeStatementData(TimeSeriesDataCollection):
         elif attribute == DictKey.SALES:
             return cls.passes_percentage_increase_requirements(
                 percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=income_statement,
+                    model_list=cls.sorted(income_statement),
                     attribute=GrowthCriteria.SALES.__str__
                 ),
                 percentage_requirement=GrowthCriteria.SALES.__percentage_criteria__
