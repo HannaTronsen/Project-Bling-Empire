@@ -1,6 +1,6 @@
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import WRONG_TYPE_STRING
-from context.yquery_ticker.main.data_classes.date import Date
+from context.yquery_ticker.main.data_classes.date import Date, PeriodType
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import (
     IncomeStatementDataClass,
     NET_INCOME, TOTAL_REVENUE
@@ -15,6 +15,9 @@ from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 class IncomeStatementData(TimeSeriesDataCollection):
 
+    def __init__(self, entries):
+        self.entries: list[IncomeStatementDataClass] = entries
+
     @classmethod
     def convert_data_frame_to_time_series_model(cls, data_frame):
         result = []
@@ -28,6 +31,12 @@ class IncomeStatementData(TimeSeriesDataCollection):
                 )
             )
         return result
+
+    def get_entry_of(self, as_of_date: Date, period_type: PeriodType):
+        for entry in self.entries:
+            if entry.asOfDate == as_of_date and entry.periodType == period_type:
+                return entry.netIncome
+        return 0
 
     @classmethod
     def evaluate_growth_criteria(cls, income_statement, attribute: DictKey) -> bool:
@@ -51,4 +60,4 @@ class IncomeStatementData(TimeSeriesDataCollection):
 
     @classmethod
     def mockk(cls):
-        return IncomeStatementData()
+        return IncomeStatementData(entries=[])

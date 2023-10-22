@@ -103,8 +103,10 @@ class GlobalStockDataClass:
             model=YearlyFinancialsDataChart
         )
 
-        self.income_statement = IncomeStatementData.convert_data_frame_to_time_series_model(
-            data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
+        self.income_statement = IncomeStatementData(
+            entries=IncomeStatementData.convert_data_frame_to_time_series_model(
+                data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
+            )
         )
 
         self.balance_sheet = BalanceSheetData.convert_data_frame_to_time_series_model(
@@ -209,6 +211,11 @@ class GlobalStockDataClass:
                 combination=DictKey.BOOK_VALUE_AND_DIVIDENDS,
                 balance_sheet=self.balance_sheet,
                 cash_flow=self.cash_flow,
+            ).combine_process_and_evaluate_growth_criteria(),
+            DictKey.ROIC: CombinableYQData(
+                combination=DictKey.ROIC,
+                balance_sheet=self.balance_sheet,
+                income_statement=self.income_statement,
             ).combine_process_and_evaluate_growth_criteria(),
         }
 

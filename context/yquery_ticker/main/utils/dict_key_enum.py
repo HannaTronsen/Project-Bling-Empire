@@ -36,3 +36,4 @@ class DictKey(Enum):
     NET_INCOME = "Net Income"
     BOOK_VALUE_AND_DIVIDENDS = "Book Value + Dividends"
     SALES = "Sales"
+    ROIC = "Return On Income Capital"

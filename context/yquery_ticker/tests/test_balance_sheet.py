@@ -17,22 +17,26 @@ class test_balance_sheet(unittest.TestCase):
             BalanceSheetDataClass(
                 asOfDate=Date(year=2019, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=90488000000.0
+                commonStockEquity=90488000000.0,
+                totalDebt=108047000000.0
             ),
             BalanceSheetDataClass(
                 asOfDate=Date(year=2020, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=65339000000.0
+                commonStockEquity=65339000000.0,
+                totalDebt=112436000000.0
             ),
             BalanceSheetDataClass(
                 asOfDate=Date(year=2021, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=63090000000.0
+                commonStockEquity=63090000000.0,
+                totalDebt=124719000000.0
             ),
             BalanceSheetDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=50672000000.0
+                commonStockEquity=50672000000.0,
+                totalDebt=120069000000.0
             ),
         ]
 
@@ -40,27 +44,32 @@ class test_balance_sheet(unittest.TestCase):
             BalanceSheetDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=58107000000.0
+                commonStockEquity=58107000000.0,
+                totalDebt=119691000000.0
             ),
             BalanceSheetDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=50672000000.0
+                commonStockEquity=50672000000.0,
+                totalDebt=120069000000.0
             ),
             BalanceSheetDataClass(
                 asOfDate=Date(year=2022, quarter=Quarter.FOURTH_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=56727000000.0
+                commonStockEquity=56727000000.0,
+                totalDebt=111110000000.0
             ),
             BalanceSheetDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.FIRST_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=62158000000.0
+                commonStockEquity=62158000000.0,
+                totalDebt=109615000000.0
             ),
             BalanceSheetDataClass(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=60274000000.0
+                commonStockEquity=60274000000.0,
+                totalDebt=109280000000.0
             ),
         ]
 
