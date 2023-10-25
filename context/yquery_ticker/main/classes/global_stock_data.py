@@ -193,12 +193,10 @@ class GlobalStockDataClass:
                 chart_list=self.earnings_and_earnings_history,
                 attribute=DictKey.REVENUE_HISTORY
             ),
-            DictKey.NET_INCOME: IncomeStatementData.evaluate_growth_criteria(
-                income_statement=self.income_statement,
+            DictKey.NET_INCOME: self.income_statement.evaluate_growth_criteria(
                 attribute=DictKey.NET_INCOME
             ),
-            DictKey.SALES: IncomeStatementData.evaluate_growth_criteria(
-                income_statement=self.income_statement,
+            DictKey.SALES: self.income_statement.evaluate_growth_criteria(
                 attribute=DictKey.SALES
             ),
             DictKey.OPERATING_CASH_FLOW: self.cash_flow.evaluate_growth_criteria(

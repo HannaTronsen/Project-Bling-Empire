@@ -7,48 +7,48 @@ Sector,Basic Materials
 Website,https://www.yara.com
 
 REVENUE
-Total Revenue,19661000704.0
-Revenue Per Share,77.185
-Revenue Growth,-0.383
+Total Revenue,17362999296.0
+Revenue Per Share,68.164
+Revenue Growth,-0.374
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=41.75, forward_eps=41.45)"
-Net Earnings,973000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.92, forward_eps=39.97)"
+Net Earnings,573000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,4482999808.0
-Debt to Equity,62.342
+Total Debt,4107000064.0
+Debt to Equity,57.392
 
 MARGINS
-Profit Margins,0.049489997
-Gross Profit Margins,0.22506
-Operating Margins,0.07929
+Profit Margins,0.033
+Gross Profit Margins,0.22167999
+Operating Margins,0.024419999
 
 DIVIDEND
 Dividend Rate,55.0
-Dividend Yield,0.14029999
+Dividend Yield,0.1521
 Five Year Avg Dividend Yield,4.68
 Trailing Annual Dividend Rate,5.583
-Trailing Annual Dividend Yield,0.014242347
+Trailing Annual Dividend Yield,0.015435443
 
 FINANCIAL RATIO
-Debt to Equity,62.342
-Price to Cash Flow,2.1475365090675302e-07
-Enterprise to EBITDA,43.931
-Price to Book,13.841678
-Price to Earnings,"PriceToEarnings(trailing_pe=9.343713, forward_pe=9.411339)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=41.75, forward_eps=41.45)"
-Enterprise to Revenue,5.275
+Debt to Equity,57.392
+Price to Cash Flow,1.362072241855289e-07
+Enterprise to EBITDA,53.649
+Price to Book,12.846851
+Price to Earnings,"PriceToEarnings(trailing_pe=14.454254, forward_pe=9.011759)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.92, forward_eps=39.97)"
+Enterprise to Revenue,5.494
 
 CASH FLOW
-Free to Cash Flow,1816499968.0
-Operating to Cash Flow,2295000064.0
+Free to Cash Flow,2644499968.0
+Operating to Cash Flow,3207000064.0
 
 PROFITABILITY
-Return on Equity,0.13077
-Return on Assets,0.05689
-Return on Invested Capital,0.21704216719946393
+Return on Equity,0.07683
+Return on Assets,0.03611
+Return on Invested Capital,0.13951789314805263
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -61,6 +61,7 @@ Sales,False
 Operating to Cash Flow,False
 Free to Cash Flow,False
 Book Value + Dividends,False
+Return On Income Capital,False
 
 
 

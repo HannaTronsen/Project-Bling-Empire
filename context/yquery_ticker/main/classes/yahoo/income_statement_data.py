@@ -38,20 +38,19 @@ class IncomeStatementData(TimeSeriesDataCollection):
                 return entry.netIncome
         return 0
 
-    @classmethod
-    def evaluate_growth_criteria(cls, income_statement, attribute: DictKey) -> bool:
+    def evaluate_growth_criteria(self, attribute: DictKey) -> bool:
         if attribute == DictKey.NET_INCOME:
-            return cls.passes_percentage_increase_requirements(
-                percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=cls.sorted(income_statement),
+            return self.passes_percentage_increase_requirements(
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=self.entries,
                     attribute=GrowthCriteria.NET_INCOME.__str__
                 ),
                 percentage_requirement=GrowthCriteria.NET_INCOME.__percentage_criteria__
             )
         elif attribute == DictKey.SALES:
-            return cls.passes_percentage_increase_requirements(
-                percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=cls.sorted(income_statement),
+            return self.passes_percentage_increase_requirements(
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=self.entries,
                     attribute=GrowthCriteria.SALES.__str__
                 ),
                 percentage_requirement=GrowthCriteria.SALES.__percentage_criteria__

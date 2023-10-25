@@ -7,48 +7,48 @@ Sector,Real Estate
 Website,https://www.entra.no
 
 REVENUE
-Total Revenue,3255000064.0
-Revenue Per Share,17.872
+Total Revenue,3305999872.0
+Revenue Per Share,18.152
 Revenue Growth,0.058
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-23.89, forward_eps=6.78)"
-Net Earnings,-4351000064.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-23.89, forward_eps=6.82)"
+Net Earnings,-3105999872.0
 Earnings Growth,None
 
 DEBT
-Total Debt,39014998016.0
-Debt to Equity,130.971
+Total Debt,38910001152.0
+Debt to Equity,137.905
 
 MARGINS
-Profit Margins,-1.3367101
-Gross Profit Margins,0.91366994
-Operating Margins,0.8682
+Profit Margins,-0.9395
+Gross Profit Margins,0.91379
+Operating Margins,0.86765
 
 DIVIDEND
 Dividend Rate,5.0
-Dividend Yield,0.0561
+Dividend Yield,0.057800002
 Five Year Avg Dividend Yield,3.58
 Trailing Annual Dividend Rate,2.5
 Trailing Annual Dividend Yield,0.02891845
 
 FINANCIAL RATIO
-Debt to Equity,130.971
-Price to Cash Flow,1.546907034275618e-08
-Enterprise to EBITDA,19.934
-Price to Book,0.5657372
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.780236)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-23.89, forward_eps=6.78)"
-Enterprise to Revenue,17.331
+Debt to Equity,137.905
+Price to Cash Flow,1.5859196328459216e-08
+Enterprise to EBITDA,19.584
+Price to Book,0.585167
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.419354)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-23.89, forward_eps=6.82)"
+Enterprise to Revenue,17.043
 
 CASH FLOW
-Free to Cash Flow,5601500160.0
-Operating to Cash Flow,1398000000.0
+Free to Cash Flow,5340749824.0
+Operating to Cash Flow,1416000000.0
 
 PROFITABILITY
-Return on Equity,-0.13662
-Return on Assets,0.02155
-Return on Invested Capital,-0.11152121666479993
+Return on Equity,-0.1042
+Return on Assets,0.02261
+Return on Invested Capital,-0.07982523177812978
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -61,6 +61,7 @@ Sales,False
 Operating to Cash Flow,False
 Free to Cash Flow,False
 Book Value + Dividends,False
+Return On Income Capital,False
 
 
 

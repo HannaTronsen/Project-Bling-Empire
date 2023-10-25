@@ -23,30 +23,30 @@ Debt to Equity,3.797
 MARGINS
 Profit Margins,-1.1090599
 Gross Profit Margins,0.46175998
-Operating Margins,-0.65309
+Operating Margins,-0.4148
 
 DIVIDEND
 Dividend Rate,None
-Dividend Yield,None
+Dividend Yield,0.0097
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,3.797
-Price to Cash Flow,-1.7838200741503096e-08
-Enterprise to EBITDA,-12.898
-Price to Book,1.9611055
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-25.546665)"
+Price to Cash Flow,-1.6013416114501735e-08
+Enterprise to EBITDA,-11.746
+Price to Book,1.7604914
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-22.933332)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.96, forward_eps=-0.3)"
-Enterprise to Revenue,6.848
+Enterprise to Revenue,6.236
 
 CASH FLOW
 Free to Cash Flow,-429639744.0
 Operating to Cash Flow,-646632000.0
 
 PROFITABILITY
-Return on Equity,-0.23436001
+Return on Equity,-0.23437001
 Return on Assets,-0.07093
 Return on Invested Capital,-6.1086839525442675
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
@@ -57,11 +57,12 @@ PASSES GROWTH CRITERIA
 Earnings History,False
 Revenue History,True
 Net Income,False
-Sales,True
+Sales,False
 Operating to Cash Flow,False
 Free to Cash Flow,False
 Book Value + Dividends,False
+Return On Income Capital,False
 
 
 
-CRITERIA PASS COUNT,2
+CRITERIA PASS COUNT,1

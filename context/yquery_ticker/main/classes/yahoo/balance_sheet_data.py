@@ -22,7 +22,7 @@ class BalanceSheetData(IterableDataInterface, TimeSeriesDataCollection):
                     asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
                     periodType=Date.to_period_type(row[PERIOD_TYPE]),
                     commonStockEquity=row[COMMON_STOCK_EQUITY],
-                    totalDebt=row[TOTAL_DEBT]
+                    totalDebt=row[TOTAL_DEBT] if row[TOTAL_DEBT] in data_frame.columns else 0,
                 )
             )
         return result

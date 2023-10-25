@@ -6,9 +6,9 @@ from const import (
     GENERATED_CSV_FILES_PATH
 )
 
-RUN_TESTS = True
-RUN_PROD_CODE = False
-RUN_DEV_CODE = False
+RUN_TESTS = False
+RUN_PROD_CODE = True
+RUN_DEV_CODE = True
 
 GENERATE_DEV_CSV = True
 GENERATE_PROD_CSV = True

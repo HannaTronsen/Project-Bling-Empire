@@ -12,7 +12,7 @@ Revenue Per Share,19.899
 Revenue Growth,0.672
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=639.5, forward_eps=46.28)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=672.44, forward_eps=46.59)"
 Net Earnings,96000000.0
 Earnings Growth,None
 
@@ -23,7 +23,7 @@ Debt to Equity,11.757
 MARGINS
 Profit Margins,0.32371
 Gross Profit Margins,0.34296
-Operating Margins,0.16098
+Operating Margins,0.30653
 
 DIVIDEND
 Dividend Rate,None
@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,11.757
-Price to Cash Flow,-3.066666666666667e-05
-Enterprise to EBITDA,108.495
-Price to Book,12.230235
-Price to Earnings,"PriceToEarnings(trailing_pe=0.73729473, forward_pe=10.187986)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=639.5, forward_eps=46.28)"
-Enterprise to Revenue,32.273
+Price to Cash Flow,-2.9528455284552845e-05
+Enterprise to EBITDA,106.733
+Price to Book,11.776302
+Price to Earnings,"PriceToEarnings(trailing_pe=0.6751532, forward_pe=9.74458)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=672.44, forward_eps=46.59)"
+Enterprise to Revenue,31.749
 
 CASH FLOW
 Free to Cash Flow,-15375000.0
@@ -47,7 +47,7 @@ Operating to Cash Flow,131000000.0
 
 PROFITABILITY
 Return on Equity,0.04221
-Return on Assets,0.03304
+Return on Assets,0.03305
 Return on Invested Capital,0.2651933419233875
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
@@ -61,6 +61,7 @@ Sales,False
 Operating to Cash Flow,False
 Free to Cash Flow,False
 Book Value + Dividends,False
+Return On Income Capital,False
 
 
 

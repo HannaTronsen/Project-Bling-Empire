@@ -7,48 +7,48 @@ Sector,Technology
 Website,https://www.nordicsemi.com
 
 REVENUE
-Total Revenue,None
-Revenue Per Share,4.059
-Revenue Growth,None
+Total Revenue,626049984.0
+Revenue Per Share,3.262
+Revenue Growth,-0.332
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=2.7)"
-Net Earnings,None
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.9, forward_eps=1.59)"
+Net Earnings,51508000.0
+Earnings Growth,-0.952
 
 DEBT
-Total Debt,None
-Debt to Equity,None
+Total Debt,35545000.0
+Debt to Equity,5.809
 
 MARGINS
-Profit Margins,0.0
-Gross Profit Margins,0.0
-Operating Margins,0.0
+Profit Margins,0.082270004
+Gross Profit Margins,0.52448004
+Operating Margins,0.01554
 
 DIVIDEND
 Dividend Rate,None
-Dividend Yield,None
+Dividend Yield,0.0137
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,None
-Price to Cash Flow,None
-Enterprise to EBITDA,None
-Price to Book,29.645437
-Price to Earnings,"PriceToEarnings(trailing_pe=26.25, forward_pe=33.444447)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=2.7)"
-Enterprise to Revenue,None
+Debt to Equity,5.809
+Price to Cash Flow,-2.506424681938308e-06
+Enterprise to EBITDA,247.788
+Price to Book,28.007544
+Price to Earnings,"PriceToEarnings(trailing_pe=30.731035, forward_pe=56.050316)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.9, forward_eps=1.59)"
+Enterprise to Revenue,28.031
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,-35556624.0
+Operating to Cash Flow,-74446000.0
 
 PROFITABILITY
-Return on Equity,None
-Return on Assets,None
-Return on Invested Capital,None
+Return on Equity,0.08878
+Return on Assets,0.040700004
+Return on Invested Capital,1.4490925696718933
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -61,7 +61,8 @@ Sales,False
 Operating to Cash Flow,False
 Free to Cash Flow,False
 Book Value + Dividends,True
+Return On Income Capital,True
 
 
 
-CRITERIA PASS COUNT,3
+CRITERIA PASS COUNT,4
