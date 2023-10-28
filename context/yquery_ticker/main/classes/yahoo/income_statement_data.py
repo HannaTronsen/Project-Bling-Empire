@@ -7,7 +7,7 @@ from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement
 )
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import (
     PERIOD_TYPE,
-    AS_OF_DATE,
+    AS_OF_DATE, YQDataFrameData,
 )
 from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
@@ -42,7 +42,7 @@ class IncomeStatementData(TimeSeriesDataCollection):
         if attribute == DictKey.NET_INCOME:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=self.entries,
+                    model_list=YQDataFrameData.sorted(self.entries),
                     attribute=GrowthCriteria.NET_INCOME.__str__
                 ),
                 percentage_requirement=GrowthCriteria.NET_INCOME.__percentage_criteria__
@@ -50,7 +50,7 @@ class IncomeStatementData(TimeSeriesDataCollection):
         elif attribute == DictKey.SALES:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=self.entries,
+                    model_list=YQDataFrameData.sorted(self.entries),
                     attribute=GrowthCriteria.SALES.__str__
                 ),
                 percentage_requirement=GrowthCriteria.SALES.__percentage_criteria__

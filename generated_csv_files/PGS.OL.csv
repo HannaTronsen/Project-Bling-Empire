@@ -7,13 +7,13 @@ Sector,Energy
 Website,https://www.pgs.com
 
 REVENUE
-Total Revenue,714300032.0
-Revenue Per Share,0.862
-Revenue Growth,-0.43
+Total Revenue,673100032.0
+Revenue Per Share,0.767
+Revenue Growth,-0.208
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.77, forward_eps=1.16)"
-Net Earnings,-70500000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.01, forward_eps=1.16)"
+Net Earnings,-79900000.0
 Earnings Growth,None
 
 DEBT
@@ -21,9 +21,9 @@ Total Debt,853100032.0
 Debt to Equity,192.313
 
 MARGINS
-Profit Margins,-0.0987
-Gross Profit Margins,0.53423
-Operating Margins,0.17563999
+Profit Margins,-0.1187
+Gross Profit Margins,0.51761
+Operating Margins,0.07438
 
 DIVIDEND
 Dividend Rate,0.7
@@ -34,21 +34,21 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,192.313
-Price to Cash Flow,5.654420621744062e-08
-Enterprise to EBITDA,28.629
-Price to Book,18.331966
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.712069)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.77, forward_eps=1.16)"
-Enterprise to Revenue,12.589
+Price to Cash Flow,None
+Enterprise to EBITDA,27.171
+Price to Book,19.897541
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.37069)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.01, forward_eps=1.16)"
+Enterprise to Revenue,14.181
 
 CASH FLOW
-Free to Cash Flow,158212496.0
-Operating to Cash Flow,498100000.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,-0.1817
-Return on Assets,0.03941
-Return on Invested Capital,-0.08263978116891195
+Return on Equity,None
+Return on Assets,None
+Return on Invested Capital,-0.0936584186581002
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

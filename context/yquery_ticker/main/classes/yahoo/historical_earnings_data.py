@@ -50,7 +50,7 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
         if attribute == DictKey.EARNINGS_HISTORY:
             return cls.passes_percentage_increase_requirements(
                 percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=chart_list,
+                    model_list=Chart.sorted(chart_list),
                     attribute=GrowthCriteria.EARNINGS.__str__
                 ),
                 percentage_requirement=GrowthCriteria.EARNINGS.__percentage_criteria__
@@ -58,7 +58,7 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
         elif attribute == DictKey.REVENUE_HISTORY:
             return cls.passes_percentage_increase_requirements(
                 percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=chart_list,
+                    model_list=Chart.sorted(chart_list),
                     attribute=GrowthCriteria.REVENUE.__str__
                 ),
                 percentage_requirement=GrowthCriteria.REVENUE.__percentage_criteria__

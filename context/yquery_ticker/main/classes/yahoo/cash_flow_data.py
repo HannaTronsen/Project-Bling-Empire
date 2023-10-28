@@ -7,7 +7,7 @@ from context.yquery_ticker.main.data_classes.yq_data_frame_data.cash_flow import
 )
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import (
     PERIOD_TYPE,
-    AS_OF_DATE,
+    AS_OF_DATE, YQDataFrameData,
 )
 from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
@@ -42,7 +42,7 @@ class CashFlowData(TimeSeriesDataCollection):
         if attribute == DictKey.OPERATING_CASH_FLOW:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=self.sorted(self.entries),
+                    model_list=YQDataFrameData.sorted(self.entries),
                     attribute=GrowthCriteria.OPERATING_CASH_FLOW.__str__
                 ),
                 percentage_requirement=GrowthCriteria.OPERATING_CASH_FLOW.__percentage_criteria__
@@ -50,7 +50,7 @@ class CashFlowData(TimeSeriesDataCollection):
         elif attribute == DictKey.FREE_CASH_FLOW:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=self.sorted(self.entries),
+                    model_list=YQDataFrameData.sorted(self.entries),
                     attribute=GrowthCriteria.FREE_CASH_FLOW.__str__
                 ),
                 percentage_requirement=GrowthCriteria.FREE_CASH_FLOW.__percentage_criteria__

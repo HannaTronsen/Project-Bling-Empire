@@ -5,6 +5,8 @@ from context.yquery_ticker.main.classes.yahoo.balance_sheet_data import BalanceS
 from context.yquery_ticker.main.classes.yahoo.cash_flow_data import CashFlowData
 from context.yquery_ticker.main.classes.yahoo.income_statement_data import IncomeStatementData
 from context.yquery_ticker.main.const import WRONG_TYPE_STRING
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.combinable_data import CombinableDataClass
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import YQDataFrameData
 from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
@@ -31,10 +33,17 @@ class CombinableYQData(TimeSeriesDataCollection):
                     as_of_date=balance_sheet_entry.asOfDate,
                     period_type=balance_sheet_entry.periodType,
                 )
-                result.append(balance_sheet_entry.commonStockEquity + cashDividendsPaid)
+                result.append(
+                    CombinableDataClass(
+                        asOfDate=balance_sheet_entry.asOfDate,
+                        periodType=balance_sheet_entry.periodType,
+                        value=balance_sheet_entry.commonStockEquity + cashDividendsPaid
+                    )
+                )
             return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_simple_list(
-                    simple_list=result
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=YQDataFrameData.sorted(result),
+                    attribute="value"
                 ),
                 percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
             )
@@ -46,12 +55,25 @@ class CombinableYQData(TimeSeriesDataCollection):
                 )
                 denominator = balance_sheet_entry.commonStockEquity + balance_sheet_entry.totalDebt
                 if denominator != 0:
-                    result.append(net_income / denominator)
+                    result.append(
+                        CombinableDataClass(
+                            asOfDate=balance_sheet_entry.asOfDate,
+                            periodType=balance_sheet_entry.periodType,
+                            value=net_income / denominator
+                        )
+                    )
                 else:
-                    result.append(0)
+                    result.append(
+                        CombinableDataClass(
+                            asOfDate=balance_sheet_entry.asOfDate,
+                            periodType=balance_sheet_entry.periodType,
+                            value=0
+                        )
+                    )
             return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_simple_list(
-                    simple_list=result
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=YQDataFrameData.sorted(result),
+                    attribute="value"
                 ),
                 percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
             )

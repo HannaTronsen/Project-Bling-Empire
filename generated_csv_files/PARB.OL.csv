@@ -7,48 +7,48 @@ Sector,Financial Services
 Website,https://www.paretobank.no
 
 REVENUE
-Total Revenue,974915008.0
-Revenue Per Share,13.283
-Revenue Growth,0.143
+Total Revenue,1005811968.0
+Revenue Per Share,14.399
+Revenue Growth,0.138
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=8.06, forward_eps=7.94)"
-Net Earnings,590926016.0
-Earnings Growth,0.103
+Net Earnings,612694976.0
+Earnings Growth,0.201
 
 DEBT
-Total Debt,8649052160.0
+Total Debt,8416999936.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.60613
+Profit Margins,0.60915
 Gross Profit Margins,0.0
-Operating Margins,0.79683
+Operating Margins,0.80157
 
 DIVIDEND
 Dividend Rate,3.86
-Dividend Yield,0.075
+Dividend Yield,0.0763
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,3.86
-Trailing Annual Dividend Yield,0.074951455
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.90212154
+Price to Book,0.72816235
 Price to Earnings,"PriceToEarnings(trailing_pe=6.277915, forward_pe=6.3727956)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=8.06, forward_eps=7.94)"
-Enterprise to Revenue,10.391
+Enterprise to Revenue,None
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-788388992.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.14259
-Return on Assets,0.02563
-Return on Invested Capital,0.06832263249615823
+Return on Equity,0.13758999
+Return on Assets,0.02609
+Return on Invested Capital,0.07279255977193405
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

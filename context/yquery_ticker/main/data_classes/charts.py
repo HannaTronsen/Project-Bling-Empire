@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from typing import Optional
 
 from ..data_classes.date import Date
+from ..enums.quarter import Quarter
 
 
 @dataclass
@@ -22,6 +23,14 @@ class Chart(ABC):
             return getattr(self, key, None)
         else:
             raise KeyError(f"Key '{key}' not found in data container")
+
+    @classmethod
+    def sorted(cls, unsorted_model_list: list['Chart']):
+        def date_sort_key(item):
+            if item.date is None or item.date.quarter is None:
+                return 0, Quarter.FIRST_QUARTER
+            return item.date.year or 0, item.date.quarter.__int__ or Quarter.FIRST_QUARTER.__int__
+        return sorted(unsorted_model_list, key=date_sort_key)
 
 
 @dataclass

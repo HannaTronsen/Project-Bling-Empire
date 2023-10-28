@@ -3,6 +3,7 @@ import unittest
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.data_classes.date import Date, PeriodType
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import IncomeStatementDataClass
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import YQDataFrameData
 from context.yquery_ticker.main.enums.quarter import Quarter
 
 
@@ -88,7 +89,7 @@ class test_time_series_data_collection(unittest.TestCase):
                 totalRevenue=0
             )
         ]
-        assert TimeSeriesDataCollection.sorted(
+        assert YQDataFrameData.sorted(
             unsorted_model_list=[
                 IncomeStatementDataClass(
                     asOfDate=Date(
@@ -167,7 +168,7 @@ class test_time_series_data_collection(unittest.TestCase):
                 totalRevenue=0
             )
         ]
-        assert TimeSeriesDataCollection.sorted(
+        assert YQDataFrameData.sorted(
             unsorted_model_list=[
                 IncomeStatementDataClass(
                     asOfDate=Date(

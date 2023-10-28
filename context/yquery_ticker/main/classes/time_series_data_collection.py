@@ -159,12 +159,4 @@ class TimeSeriesDataCollection(ABC):
                 )
         return True, model_list
 
-    @classmethod
-    def sorted(cls, unsorted_model_list: list[Chart | YQDataFrameData]):
-        def date_sort_key(item):
-            if item.asOfDate is None:
-                return 0, Quarter.FIRST_QUARTER
-            return item.asOfDate.year or 0, item.asOfDate.quarter.__int__ or Quarter.FIRST_QUARTER.__int__
-        return sorted(unsorted_model_list, key=date_sort_key)
-
 

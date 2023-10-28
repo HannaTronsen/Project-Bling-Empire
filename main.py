@@ -32,7 +32,7 @@ if __name__ == '__main__':
         unittest.TextTestRunner().run(test_suite)
 
     if RUN_DEV_CODE:
-        validate_and_get_yahoo_query_ticker_object(ticker_symbol="ACR.OL")
+        validate_and_get_yahoo_query_ticker_object(ticker_symbol="AIRX.OL")
 
     if RUN_PROD_CODE:
         main()
