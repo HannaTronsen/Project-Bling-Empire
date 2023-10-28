@@ -11,7 +11,6 @@ from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
-# TODO(Hanna): Find out if we should do result.append(balance_sheet_entry.commonStockEquity + abs(cashDividendsPaid))
 class CombinableYQData(TimeSeriesDataCollection):
     def __init__(
             self,
@@ -37,7 +36,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                     CombinableDataClass(
                         asOfDate=balance_sheet_entry.asOfDate,
                         periodType=balance_sheet_entry.periodType,
-                        value=balance_sheet_entry.commonStockEquity + cashDividendsPaid
+                        value=balance_sheet_entry.commonStockEquity + abs(cashDividendsPaid)
                     )
                 )
             return self.passes_percentage_increase_requirements(
@@ -54,6 +53,36 @@ class CombinableYQData(TimeSeriesDataCollection):
                     period_type=balance_sheet_entry.periodType
                 )
                 denominator = balance_sheet_entry.commonStockEquity + balance_sheet_entry.totalDebt
+                if denominator != 0:
+                    result.append(
+                        CombinableDataClass(
+                            asOfDate=balance_sheet_entry.asOfDate,
+                            periodType=balance_sheet_entry.periodType,
+                            value=net_income / denominator
+                        )
+                    )
+                else:
+                    result.append(
+                        CombinableDataClass(
+                            asOfDate=balance_sheet_entry.asOfDate,
+                            periodType=balance_sheet_entry.periodType,
+                            value=0
+                        )
+                    )
+            return self.passes_percentage_increase_requirements(
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=YQDataFrameData.sorted(result),
+                    attribute="value"
+                ),
+                percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
+            )
+        elif self.combination == DictKey.ROE:
+            for balance_sheet_entry in self.balance_sheet:
+                net_income = self.income_statement.get_entry_of(
+                    as_of_date=balance_sheet_entry.asOfDate,
+                    period_type=balance_sheet_entry.periodType
+                )
+                denominator = balance_sheet_entry.commonStockEquity
                 if denominator != 0:
                     result.append(
                         CombinableDataClass(

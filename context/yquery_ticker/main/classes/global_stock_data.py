@@ -215,6 +215,11 @@ class GlobalStockDataClass:
                 balance_sheet=self.balance_sheet,
                 income_statement=self.income_statement,
             ).combine_process_and_evaluate_growth_criteria(),
+            DictKey.ROE: CombinableYQData(
+                combination=DictKey.ROE,
+                balance_sheet=self.balance_sheet,
+                income_statement=self.income_statement,
+            ).combine_process_and_evaluate_growth_criteria(),
         }
 
     def map_section_headers_with_data(self):

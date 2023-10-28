@@ -10,6 +10,7 @@ class GrowthCriteria(Enum):
     OPERATING_CASH_FLOW = ("operatingCashFlow", 10)
     FREE_CASH_FLOW = ("freeCashFlow", 1)
     ROIC = ("returnOnIncomeCapital", 15)
+    ROE = ("returnOnEquity", 15)
 
     @property
     def __str__(self):

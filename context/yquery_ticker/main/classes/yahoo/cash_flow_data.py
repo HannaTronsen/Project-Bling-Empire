@@ -35,7 +35,7 @@ class CashFlowData(TimeSeriesDataCollection):
     def get_entry_of(self, as_of_date: Date, period_type: PeriodType):
         for entry in self.entries:
             if entry.asOfDate == as_of_date and entry.periodType == period_type:
-                return abs(entry.cashDividendsPaid)
+                return entry.cashDividendsPaid
         return 0
 
     def evaluate_growth_criteria(self, attribute: DictKey) -> bool:

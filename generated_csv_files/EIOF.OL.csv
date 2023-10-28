@@ -62,7 +62,8 @@ Operating to Cash Flow,False
 Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,True
+Return On Equity,True
 
 
 
-CRITERIA PASS COUNT,2
+CRITERIA PASS COUNT,3

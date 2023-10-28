@@ -37,3 +37,4 @@ class DictKey(Enum):
     BOOK_VALUE_AND_DIVIDENDS = "Book Value + Dividends"
     SALES = "Sales"
     ROIC = "Return On Income Capital"
+    ROE = "Return On Equity"
