@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.q-free.com
 
 REVENUE
-Total Revenue,1054233984.0
-Revenue Per Share,9.27
-Revenue Growth,0.359
+Total Revenue,1143885056.0
+Revenue Per Share,10.32
+Revenue Growth,0.416
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.04, forward_eps=0.22)"
-Net Earnings,-3658000.0
-Earnings Growth,-0.611
+Net Earnings,-1709000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,272288000.0
-Debt to Equity,48.079
+Total Debt,260196000.0
+Debt to Equity,47.778
 
 MARGINS
-Profit Margins,-0.00347
-Gross Profit Margins,0.59235
-Operating Margins,0.06267
+Profit Margins,-0.00149
+Gross Profit Margins,0.56939
+Operating Margins,0.03453
 
 DIVIDEND
 Dividend Rate,None
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,48.079
-Price to Cash Flow,-2.520599012941899e-07
-Enterprise to EBITDA,31.824
-Price to Book,2.2880213
+Debt to Equity,47.778
+Price to Cash Flow,3.9351526525078334e-07
+Enterprise to EBITDA,15.352
+Price to Book,1.2805337
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=54.090908)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.04, forward_eps=0.22)"
-Enterprise to Revenue,1.446
+Enterprise to Revenue,0.783
 
 CASH FLOW
-Free to Cash Flow,-47211000.0
-Operating to Cash Flow,95451000.0
+Free to Cash Flow,30240250.0
+Operating to Cash Flow,166162000.0
 
 PROFITABILITY
-Return on Equity,-0.0070999996
-Return on Assets,0.01969
-Return on Invested Capital,-0.013434304597074356
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,-0.00316
+Return on Assets,0.023659999
+Return on Invested Capital,-0.006568125332297234
+Return on Investment,0.0005226459524756108
 
 
 

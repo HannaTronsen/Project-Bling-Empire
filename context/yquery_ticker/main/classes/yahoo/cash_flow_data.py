@@ -3,7 +3,7 @@ from context.yquery_ticker.main.const import WRONG_TYPE_STRING
 from context.yquery_ticker.main.data_classes.date import Date, PeriodType
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.cash_flow import (
     CashFlowDataClass,
-    CASH_DIVIDENDS_PAID, OPERATING_CASH_FLOW, FREE_CASH_FLOW
+    CASH_DIVIDENDS_PAID, OPERATING_CASH_FLOW, FREE_CASH_FLOW, CAPITAL_EXPENDITURE
 )
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import (
     PERIOD_TYPE,
@@ -28,7 +28,20 @@ class CashFlowData(TimeSeriesDataCollection):
                     cashDividendsPaid=row[CASH_DIVIDENDS_PAID] if CASH_DIVIDENDS_PAID in data_frame.columns else 0,
                     operatingCashFlow=row[OPERATING_CASH_FLOW] if OPERATING_CASH_FLOW in data_frame.columns else 0,
                     freeCashFlow=row[FREE_CASH_FLOW] if FREE_CASH_FLOW in data_frame.columns else 0,
+                    capitalExpenditure=row[CAPITAL_EXPENDITURE] if CAPITAL_EXPENDITURE in data_frame.columns else 0,
                 )
+            )
+        return result
+
+    @classmethod
+    def extract_date_time_information(cls, entries: list[CashFlowDataClass]):
+        result = []
+        for entry in entries:
+            result.append(
+                CashFlowDataClass.mockk(
+                    asOfDate=entry.asOfDate,
+                    periodType=entry.periodType
+                ),
             )
         return result
 
@@ -37,6 +50,10 @@ class CashFlowData(TimeSeriesDataCollection):
             if entry.asOfDate == as_of_date and entry.periodType == period_type:
                 return entry.cashDividendsPaid
         return 0
+
+    def get_most_recent_capital_expenditure(self):
+        entry: CashFlowDataClass = YQDataFrameData.get_most_recent_entry(self.entries)
+        return entry.capitalExpenditure
 
     def evaluate_growth_criteria(self, attribute: DictKey) -> bool:
         if attribute == DictKey.OPERATING_CASH_FLOW:

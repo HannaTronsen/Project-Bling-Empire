@@ -1,9 +1,11 @@
 import dataclasses
+import math
 from abc import ABC
 from dataclasses import is_dataclass
 from config import ITERABLE_DATA_SHOW_DEBUG_PRINT
 from context.yquery_ticker.main.interfaces.castable_data import CastableDataInterface
 from ..const import INVALID_FIELD_STRING
+
 """
     This 'IterableDataInterface' makes it possible to more easily control the values
     being given to a data class and check for invalid values. Since data classes can 
@@ -46,7 +48,7 @@ class IterableDataInterface(ABC):
                 value = self.cast_check(field=field, value=value)
 
             # If any type of invalid values are given, we set a universal `None` value
-            if value is None or value == "" or value == 'N/A':
+            if value is None or value == "" or value == 'N/A' or isinstance(value, float | int) and math.isnan(value):  # type: ignore
                 if ITERABLE_DATA_SHOW_DEBUG_PRINT:
                     print(INVALID_FIELD_STRING.format(field=field))
                 setattr(self, field, None)

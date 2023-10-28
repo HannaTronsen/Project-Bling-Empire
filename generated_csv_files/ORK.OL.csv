@@ -7,23 +7,23 @@ Sector,Consumer Defensive
 Website,https://www.orkla.no
 
 REVENUE
-Total Revenue,64104001536.0
-Revenue Per Share,64.283
-Revenue Growth,0.196
+Total Revenue,66134999040.0
+Revenue Per Share,66.254
+Revenue Growth,0.138
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.37, forward_eps=6.04)"
-Net Earnings,5308000256.0
-Earnings Growth,0.075
+Net Earnings,5354999808.0
+Earnings Growth,0.04
 
 DEBT
-Total Debt,24323000320.0
-Debt to Equity,53.633
+Total Debt,21486999552.0
+Debt to Equity,46.727
 
 MARGINS
-Profit Margins,0.0828
-Gross Profit Margins,0.45314
-Operating Margins,0.103649996
+Profit Margins,0.080970004
+Gross Profit Margins,0.43596
+Operating Margins,0.10904
 
 DIVIDEND
 Dividend Rate,3.0
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,3.0
 Trailing Annual Dividend Yield,0.04011768
 
 FINANCIAL RATIO
-Debt to Equity,53.633
-Price to Cash Flow,4.28078250863061e-08
-Enterprise to EBITDA,10.81
-Price to Book,1.6985137
+Debt to Equity,46.727
+Price to Cash Flow,2.9774888015685695e-08
+Enterprise to EBITDA,10.675
+Price to Book,1.66283
 Price to Earnings,"PriceToEarnings(trailing_pe=13.854749, forward_pe=12.317882)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.37, forward_eps=6.04)"
-Enterprise to Revenue,1.546
+Enterprise to Revenue,1.45
 
 CASH FLOW
-Free to Cash Flow,1738000000.0
-Operating to Cash Flow,5927000064.0
+Free to Cash Flow,2498749952.0
+Operating to Cash Flow,6832999936.0
 
 PROFITABILITY
-Return on Equity,0.13016
-Return on Assets,0.05619
-Return on Invested Capital,0.21822966643125405
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.12708999
+Return on Assets,0.05409
+Return on Invested Capital,0.249220454623721
+Return on Investment,-0.04440298348258707
 
 
 

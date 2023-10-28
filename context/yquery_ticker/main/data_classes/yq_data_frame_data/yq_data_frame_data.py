@@ -21,3 +21,11 @@ class YQDataFrameData(ABC, CastableDataInterface):
                 return 0, Quarter.FIRST_QUARTER
             return item.asOfDate.year or 0, item.asOfDate.quarter.__int__ or Quarter.FIRST_QUARTER.__int__
         return sorted(unsorted_model_list, key=date_sort_key)
+
+    @classmethod
+    def get_most_recent_entry(cls, sorted_list: list['YQDataFrameData']):
+        return sorted_list[-1]
+
+    @classmethod
+    def get_oldest_entry(cls, sorted_list: list['YQDataFrameData']):
+        return sorted_list[0]

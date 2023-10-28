@@ -38,6 +38,28 @@ class GlobalStockDataClass:
         summary_detail = YQTicker.summary_detail.get(ticker_symbol)
         key_stats = YQTicker.key_stats.get(ticker_symbol)
 
+        self.income_statement = IncomeStatementData(
+            entries=IncomeStatementData.convert_data_frame_to_time_series_model(
+                data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
+            )
+        )
+
+        self.earnings_and_earnings_history = HistoricalEarningsData.convert_json_to_time_series_model(
+            ticker_symbol=ticker_symbol,
+            data=YQTicker.earnings,
+            model=YearlyFinancialsDataChart
+        )
+
+        self.balance_sheet = BalanceSheetData.convert_data_frame_to_time_series_model(
+            data_frame=YQTicker.balance_sheet(frequency=Frequency.ANNUALLY.value, trailing=True)
+        )
+
+        self.cash_flow = CashFlowData(
+            entries=CashFlowData.convert_data_frame_to_time_series_model(
+                data_frame=YQTicker.cash_flow(frequency=Frequency.ANNUALLY.value, trailing=True)
+            )
+        )
+
         self.general_stock_info: GeneralStockInfo = GeneralStockInfo(
             ticker=ticker_symbol,
             company=YQTicker.quote_type.get(ticker_symbol).get("longName"),
@@ -94,30 +116,10 @@ class GlobalStockDataClass:
             enterprise_to_ebitda=key_stats.get("enterpriseToEbitda"),
             enterprise_to_revenue=key_stats.get("enterpriseToRevenue"),
             price_to_book=key_stats.get("priceToBook"),
-            expenses=None  # TODO (Hanna): These values come from dataframes
+            expenses=self.income_statement.get_most_recent_expenses(
+                capital_expenditure=self.cash_flow.get_most_recent_capital_expenditure()
+            ).normalize_values(),
         ).normalize_values()
-
-        self.earnings_and_earnings_history = HistoricalEarningsData.convert_json_to_time_series_model(
-            ticker_symbol=ticker_symbol,
-            data=YQTicker.earnings,
-            model=YearlyFinancialsDataChart
-        )
-
-        self.income_statement = IncomeStatementData(
-            entries=IncomeStatementData.convert_data_frame_to_time_series_model(
-                data_frame=YQTicker.income_statement(frequency=Frequency.ANNUALLY.value, trailing=True)
-            )
-        )
-
-        self.balance_sheet = BalanceSheetData.convert_data_frame_to_time_series_model(
-            data_frame=YQTicker.balance_sheet(frequency=Frequency.ANNUALLY.value, trailing=True)
-        )
-
-        self.cash_flow = CashFlowData(
-            entries=CashFlowData.convert_data_frame_to_time_series_model(
-                data_frame=YQTicker.cash_flow(frequency=Frequency.ANNUALLY.value, trailing=True)
-            )
-        )
 
         self._evaluated_growth_criteria = self.get_evaluated_growth_criteria()
         self.criteria_pass_count = sum(1 for value in self._evaluated_growth_criteria.values() if value is True)

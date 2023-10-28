@@ -7,23 +7,23 @@ Sector,Consumer Cyclical
 Website,https://www.satsgroup.com
 
 REVENUE
-Total Revenue,4449999872.0
-Revenue Per Share,21.944
-Revenue Growth,0.174
+Total Revenue,4588000256.0
+Revenue Per Share,22.668
+Revenue Growth,0.144
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.25, forward_eps=1.07)"
-Net Earnings,-45000000.0
-Earnings Growth,6.749
+Net Earnings,39000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,6856999936.0
-Debt to Equity,702.561
+Total Debt,6808999936.0
+Debt to Equity,666.243
 
 MARGINS
-Profit Margins,-0.01011
-Gross Profit Margins,0.5982
-Operating Margins,0.16833
+Profit Margins,0.0085
+Gross Profit Margins,0.60854
+Operating Margins,0.14014
 
 DIVIDEND
 Dividend Rate,None
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,702.561
-Price to Cash Flow,1.092039189603034e-08
-Enterprise to EBITDA,804.381
-Price to Book,2.3821442
+Debt to Equity,666.243
+Price to Cash Flow,1.0305696038696917e-08
+Enterprise to EBITDA,13.065
+Price to Book,2.3094034
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.672896)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.25, forward_eps=1.07)"
-Enterprise to Revenue,1.988
+Enterprise to Revenue,1.902
 
 CASH FLOW
-Free to Cash Flow,1045750016.0
-Operating to Cash Flow,1472000000.0
+Free to Cash Flow,1108125056.0
+Operating to Cash Flow,1607000064.0
 
 PROFITABILITY
-Return on Equity,-0.0446
-Return on Assets,0.01986
-Return on Invested Capital,-0.006562636778262721
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.03888
+Return on Assets,0.03075
+Return on Invested Capital,0.005727713370281997
+Return on Investment,0.0007707509881422924
 
 
 

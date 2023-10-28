@@ -150,6 +150,23 @@ class test_global_stock_data(unittest.TestCase):
         for test_case in test_cases:
             self.assertIsNone(test_case)
 
+    def test_expenses(self):
+        expenses = Expenses(
+            capital_expenditure=float('nan'),
+            interest_expense=None,
+            interest_expense_non_operating="N/A",  # type: ignore
+            total_other_finance_cost=0
+        ).normalize_values()
+
+        test_cases = [
+            expenses.capital_expenditure,
+            expenses.interest_expense,
+            expenses.interest_expense_non_operating
+        ]
+
+        for test_case in test_cases:
+            self.assertIsNone(test_case)
+
     def test_calculate_price_to_cashflow(self):
         test_cases = [
             # price, cash flow, expected

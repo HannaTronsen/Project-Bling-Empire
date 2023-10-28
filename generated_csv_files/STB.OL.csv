@@ -7,23 +7,23 @@ Sector,Financial Services
 Website,https://www.storebrand.no
 
 REVENUE
-Total Revenue,110016004096.0
-Revenue Per Share,236.67
+Total Revenue,111589998592.0
+Revenue Per Share,241.681
 Revenue Growth,None
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=8.27)"
-Net Earnings,2699000064.0
-Earnings Growth,0.75
+Net Earnings,2912999936.0
+Earnings Growth,0.645
 
 DEBT
-Total Debt,49851998208.0
-Debt to Equity,172.486
+Total Debt,49894998016.0
+Debt to Equity,172.408
 
 MARGINS
-Profit Margins,0.02473
-Gross Profit Margins,0.94478995
-Operating Margins,0.84893996
+Profit Margins,0.02633
+Gross Profit Margins,0.9423
+Operating Margins,1.71339
 
 DIVIDEND
 Dividend Rate,3.7
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,3.7
 Trailing Annual Dividend Yield,0.041322313
 
 FINANCIAL RATIO
-Debt to Equity,172.486
-Price to Cash Flow,1.3583581062965293e-09
-Enterprise to EBITDA,0.802
-Price to Book,1.4546448
+Debt to Equity,172.408
+Price to Cash Flow,1.474007701792156e-09
+Enterprise to EBITDA,0.769
+Price to Book,1.4327309
 Price to Earnings,"PriceToEarnings(trailing_pe=14.348653, forward_pe=10.948005)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=8.27)"
-Enterprise to Revenue,0.703
+Enterprise to Revenue,0.672
 
 CASH FLOW
-Free to Cash Flow,66653999104.0
-Operating to Cash Flow,-3959000064.0
+Free to Cash Flow,61424373760.0
+Operating to Cash Flow,-883000000.0
 
 PROFITABILITY
-Return on Equity,0.08224
-Return on Assets,0.07526
-Return on Invested Capital,0.05414025831761103
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.08861
+Return on Assets,0.075229995
+Return on Invested Capital,0.05838260443214063
+Return on Investment,0.005449953107577175
 
 
 

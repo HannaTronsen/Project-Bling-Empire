@@ -52,160 +52,127 @@ class test_time_series_data_collection(unittest.TestCase):
 
     def test_sorted_model_list(self):
         sorted_model_list = [
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2022,
                     quarter=Quarter.FIRST_QUARTER
                 ),
-                periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
+                periodType=PeriodType.MONTH_12
             ),
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2022,
                     quarter=Quarter.SECOND_QUARTER
                 ),
                 periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
             ),
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2022,
                     quarter=Quarter.THIRD_QUARTER
                 ),
                 periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
             ),
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2022,
                     quarter=Quarter.FOURTH_QUARTER
                 ),
                 periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
-            )
+            ),
         ]
         assert YQDataFrameData.sorted(
             unsorted_model_list=[
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2022,
                         quarter=Quarter.SECOND_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
                 ),
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2022,
                         quarter=Quarter.FIRST_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
                 ),
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2022,
                         quarter=Quarter.FOURTH_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
                 ),
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2022,
                         quarter=Quarter.THIRD_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
                 ),
             ]
         ) == sorted_model_list
 
         sorted_model_list = [
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2019,
                     quarter=Quarter.FIRST_QUARTER
                 ),
                 periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
             ),
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2021,
                     quarter=Quarter.SECOND_QUARTER
                 ),
                 periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
             ),
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2023,
                     quarter=Quarter.THIRD_QUARTER
                 ),
                 periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
             ),
-            IncomeStatementDataClass(
+            IncomeStatementDataClass.mockk(
                 asOfDate=Date(
                     year=2024,
                     quarter=Quarter.FOURTH_QUARTER
                 ),
                 periodType=PeriodType.MONTH_12,
-                netIncome=0,
-                totalRevenue=0
-            )
+            ),
         ]
         assert YQDataFrameData.sorted(
             unsorted_model_list=[
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2021,
                         quarter=Quarter.SECOND_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
                 ),
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2024,
                         quarter=Quarter.FOURTH_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
                 ),
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2023,
                         quarter=Quarter.THIRD_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
                 ),
-                IncomeStatementDataClass(
+                IncomeStatementDataClass.mockk(
                     asOfDate=Date(
                         year=2019,
                         quarter=Quarter.FIRST_QUARTER
                     ),
                     periodType=PeriodType.MONTH_12,
-                    netIncome=0,
-                    totalRevenue=0
-                ),
+                )
             ]
         ) == sorted_model_list
-
