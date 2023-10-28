@@ -21,8 +21,8 @@ class BalanceSheetData(IterableDataInterface, TimeSeriesDataCollection):
                 BalanceSheetDataClass(
                     asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
                     periodType=Date.to_period_type(row[PERIOD_TYPE]),
-                    commonStockEquity=row[COMMON_STOCK_EQUITY],
-                    totalDebt=row[TOTAL_DEBT] if row[TOTAL_DEBT] in data_frame.columns else 0,
+                    commonStockEquity=row[COMMON_STOCK_EQUITY] if COMMON_STOCK_EQUITY in data_frame.columns else 0,
+                    totalDebt=row[TOTAL_DEBT] if TOTAL_DEBT in data_frame.columns else 0,
                 )
             )
         return result
