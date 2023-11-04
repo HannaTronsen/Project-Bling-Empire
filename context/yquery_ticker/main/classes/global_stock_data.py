@@ -50,8 +50,10 @@ class GlobalStockDataClass:
             model=YearlyFinancialsDataChart
         )
 
-        self.balance_sheet = BalanceSheetData.convert_data_frame_to_time_series_model(
-            data_frame=YQTicker.balance_sheet(frequency=Frequency.ANNUALLY.value, trailing=True)
+        self.balance_sheet = BalanceSheetData(
+            entries=BalanceSheetData.convert_data_frame_to_time_series_model(
+                data_frame=YQTicker.balance_sheet(frequency=Frequency.ANNUALLY.value, trailing=True)
+            )
         )
 
         self.cash_flow = CashFlowData(
@@ -221,6 +223,12 @@ class GlobalStockDataClass:
                 combination=DictKey.ROE,
                 balance_sheet=self.balance_sheet,
                 income_statement=self.income_statement,
+            ).combine_process_and_evaluate_growth_criteria(),
+            DictKey.OWNER_EARNINGS: CombinableYQData(
+                combination=DictKey.ROE,
+                balance_sheet=self.balance_sheet,
+                income_statement=self.income_statement,
+                cash_flow=self.cash_flow,
             ).combine_process_and_evaluate_growth_criteria(),
         }
 

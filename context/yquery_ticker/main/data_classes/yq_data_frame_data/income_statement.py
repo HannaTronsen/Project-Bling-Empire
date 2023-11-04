@@ -7,6 +7,7 @@ TOTAL_REVENUE = 'TotalRevenue'
 INTEREST_EXPENSE = 'InterestExpense'
 INTEREST_EXPENSE_NON_OPERATING = 'InterestExpenseNonOperating'
 TOTAL_OTHER_FINANCE_COST = 'TotalOtherFinanceCost'
+TAX_PROVISION = 'TaxProvision'
 
 
 @dataclass
@@ -16,6 +17,7 @@ class IncomeStatementDataClass(YQDataFrameData):
     interest_expense: Optional[float]
     interest_expense_non_operating: Optional[float]
     total_other_finance_cost: Optional[float]
+    taxProvision: Optional[float]
 
     @classmethod
     def mockk(cls, asOfDate, periodType):
@@ -26,5 +28,6 @@ class IncomeStatementDataClass(YQDataFrameData):
             totalRevenue=None,
             interest_expense=None,
             interest_expense_non_operating=None,
-            total_other_finance_cost=None
+            total_other_finance_cost=None,
+            taxProvision=None,
         )

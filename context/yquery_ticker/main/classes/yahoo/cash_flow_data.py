@@ -3,7 +3,7 @@ from context.yquery_ticker.main.const import WRONG_TYPE_STRING
 from context.yquery_ticker.main.data_classes.date import Date, PeriodType
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.cash_flow import (
     CashFlowDataClass,
-    CASH_DIVIDENDS_PAID, OPERATING_CASH_FLOW, FREE_CASH_FLOW, CAPITAL_EXPENDITURE
+    CASH_DIVIDENDS_PAID, OPERATING_CASH_FLOW, FREE_CASH_FLOW, CAPITAL_EXPENDITURE, DEPRECIATION_AND_AMORTIZATION
 )
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import (
     PERIOD_TYPE,
@@ -29,6 +29,7 @@ class CashFlowData(TimeSeriesDataCollection):
                     operatingCashFlow=row[OPERATING_CASH_FLOW] if OPERATING_CASH_FLOW in data_frame.columns else 0,
                     freeCashFlow=row[FREE_CASH_FLOW] if FREE_CASH_FLOW in data_frame.columns else 0,
                     capitalExpenditure=row[CAPITAL_EXPENDITURE] if CAPITAL_EXPENDITURE in data_frame.columns else 0,
+                    depreciationAndAmortization=row[DEPRECIATION_AND_AMORTIZATION] if DEPRECIATION_AND_AMORTIZATION in data_frame.columns else 0,
                 )
             )
         return result
@@ -48,7 +49,7 @@ class CashFlowData(TimeSeriesDataCollection):
     def get_entry_of(self, as_of_date: Date, period_type: PeriodType):
         for entry in self.entries:
             if entry.asOfDate == as_of_date and entry.periodType == period_type:
-                return entry.cashDividendsPaid
+                return entry
         return 0
 
     def get_most_recent_capital_expenditure(self):

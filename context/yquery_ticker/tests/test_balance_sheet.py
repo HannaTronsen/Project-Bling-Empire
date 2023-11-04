@@ -14,62 +14,44 @@ class test_balance_sheet(unittest.TestCase):
         super(test_balance_sheet, self).__init__(*args, **kwargs)
 
         self.annual_balance_sheet_expected_list = [
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2019, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=90488000000.0,
-                totalDebt=108047000000.0
             ),
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2020, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=65339000000.0,
-                totalDebt=112436000000.0
             ),
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2021, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=63090000000.0,
-                totalDebt=124719000000.0
             ),
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_12,
-                commonStockEquity=50672000000.0,
-                totalDebt=120069000000.0
             ),
         ]
 
         self.quarter_balance_sheet_expected_list = [
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2022, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=58107000000.0,
-                totalDebt=119691000000.0
             ),
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=50672000000.0,
-                totalDebt=120069000000.0
             ),
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2022, quarter=Quarter.FOURTH_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=56727000000.0,
-                totalDebt=111110000000.0
             ),
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2023, quarter=Quarter.FIRST_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=62158000000.0,
-                totalDebt=109615000000.0
             ),
-            BalanceSheetDataClass(
+            BalanceSheetDataClass.mockk(
                 asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
                 periodType=PeriodType.MONTH_3,
-                commonStockEquity=60274000000.0,
-                totalDebt=109280000000.0
             ),
         ]
 
@@ -77,13 +59,19 @@ class test_balance_sheet(unittest.TestCase):
         json_file_name = "resources/balance_sheet/aapl.data.balance_sheet.annually.csv"
         data = f'{YQUERY_TEST_PATH}{json_file_name}'
 
-        assert BalanceSheetData.convert_data_frame_to_time_series_model(
-            data_frame=pd.read_csv(data)
+        assert BalanceSheetData.extract_date_time_information(
+            entries=BalanceSheetData.convert_data_frame_to_time_series_model(
+                data_frame=pd.read_csv(data)
+            )
         ) == self.annual_balance_sheet_expected_list
 
         json_file_name = "resources/balance_sheet/aapl.data.balance_sheet.quarterly.csv"
         data = f'{YQUERY_TEST_PATH}{json_file_name}'
 
-        assert BalanceSheetData.convert_data_frame_to_time_series_model(
-            data_frame=pd.read_csv(data)
+        assert BalanceSheetData.extract_date_time_information(
+            entries=BalanceSheetData.convert_data_frame_to_time_series_model(
+                data_frame=pd.read_csv(data)
+            )
         ) == self.quarter_balance_sheet_expected_list
+
+

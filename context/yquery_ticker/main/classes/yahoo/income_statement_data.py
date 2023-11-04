@@ -7,7 +7,7 @@ from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement
     NET_INCOME, TOTAL_REVENUE,
     INTEREST_EXPENSE,
     INTEREST_EXPENSE_NON_OPERATING,
-    TOTAL_OTHER_FINANCE_COST
+    TOTAL_OTHER_FINANCE_COST, TAX_PROVISION
 )
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_data import (
     PERIOD_TYPE,
@@ -35,6 +35,7 @@ class IncomeStatementData(TimeSeriesDataCollection):
                     interest_expense=row[INTEREST_EXPENSE] if INTEREST_EXPENSE in data_frame.columns else 0,
                     interest_expense_non_operating=row[INTEREST_EXPENSE_NON_OPERATING] if INTEREST_EXPENSE_NON_OPERATING in data_frame.columns else 0,
                     total_other_finance_cost=row[TOTAL_OTHER_FINANCE_COST] if TOTAL_OTHER_FINANCE_COST in data_frame.columns else 0,
+                    taxProvision=row[TAX_PROVISION] if TAX_PROVISION in data_frame.columns else 0,
                 )
             )
         return result
@@ -49,12 +50,12 @@ class IncomeStatementData(TimeSeriesDataCollection):
                     periodType=entry.periodType
                 ),
             )
-        return result
+        return  result
 
     def get_entry_of(self, as_of_date: Date, period_type: PeriodType):
         for entry in self.entries:
             if entry.asOfDate == as_of_date and entry.periodType == period_type:
-                return entry.netIncome
+                return entry
         return 0
 
     def get_most_recent_expenses(self, capital_expenditure):

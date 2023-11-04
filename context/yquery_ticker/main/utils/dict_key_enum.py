@@ -38,3 +38,4 @@ class DictKey(Enum):
     SALES = "Sales"
     ROIC = "Return On Income Capital"
     ROE = "Return On Equity"
+    OWNER_EARNINGS = "Owner Earnings"

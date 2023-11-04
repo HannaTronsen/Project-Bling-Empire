@@ -8,6 +8,7 @@ CASH_DIVIDENDS_PAID = 'CashDividendsPaid'
 OPERATING_CASH_FLOW = 'OperatingCashFlow'
 FREE_CASH_FLOW = 'FreeCashFlow'
 CAPITAL_EXPENDITURE = 'CapitalExpenditure'
+DEPRECIATION_AND_AMORTIZATION = 'DepreciationAndAmortization'
 
 
 @dataclass
@@ -16,6 +17,7 @@ class CashFlowDataClass(IterableDataInterface, YQDataFrameData):
     operatingCashFlow: Optional[float]
     freeCashFlow: Optional[float]
     capitalExpenditure: Optional[float]
+    depreciationAndAmortization: Optional[float]
 
     @classmethod
     def mockk(cls, asOfDate, periodType):
@@ -25,5 +27,6 @@ class CashFlowDataClass(IterableDataInterface, YQDataFrameData):
             cashDividendsPaid=None,
             operatingCashFlow=None,
             freeCashFlow=None,
-            capitalExpenditure=None
+            capitalExpenditure=None,
+            depreciationAndAmortization=None,
         )

@@ -1,12 +1,12 @@
 from abc import ABC
-from ..data_classes.charts import Chart
+
 from ..const import (
     ATTRIBUTE_ERROR_STRING,
     INVALID_LIST_LENGTH_STRING,
     INVALID_VALUE_COMPARISON
 )
+from ..data_classes.charts import Chart
 from ..data_classes.yq_data_frame_data.yq_data_frame_data import YQDataFrameData
-from ..enums.quarter import Quarter
 
 
 class TimeSeriesDataCollection(ABC):

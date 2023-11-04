@@ -27,11 +27,11 @@ class CombinableYQData(TimeSeriesDataCollection):
     def combine_process_and_evaluate_growth_criteria(self):
         result = []
         if self.combination == DictKey.BOOK_VALUE_AND_DIVIDENDS:
-            for balance_sheet_entry in self.balance_sheet:
+            for balance_sheet_entry in self.balance_sheet.entries:
                 cashDividendsPaid = self.cash_flow.get_entry_of(
                     as_of_date=balance_sheet_entry.asOfDate,
                     period_type=balance_sheet_entry.periodType,
-                )
+                ).cashDividendsPaid
                 result.append(
                     CombinableDataClass(
                         asOfDate=balance_sheet_entry.asOfDate,
@@ -47,11 +47,11 @@ class CombinableYQData(TimeSeriesDataCollection):
                 percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
             )
         elif self.combination == DictKey.ROIC:
-            for balance_sheet_entry in self.balance_sheet:
+            for balance_sheet_entry in self.balance_sheet.entries:
                 net_income = self.income_statement.get_entry_of(
                     as_of_date=balance_sheet_entry.asOfDate,
                     period_type=balance_sheet_entry.periodType
-                )
+                ).netIncome
                 denominator = balance_sheet_entry.commonStockEquity + balance_sheet_entry.totalDebt
                 if denominator != 0:
                     result.append(
@@ -77,7 +77,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                 percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
             )
         elif self.combination == DictKey.ROE:
-            for balance_sheet_entry in self.balance_sheet:
+            for balance_sheet_entry in self.balance_sheet.entries:
                 net_income = self.income_statement.get_entry_of(
                     as_of_date=balance_sheet_entry.asOfDate,
                     period_type=balance_sheet_entry.periodType
@@ -106,5 +106,30 @@ class CombinableYQData(TimeSeriesDataCollection):
                 ),
                 percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
             )
+        elif self.combination == DictKey.OWNER_EARNINGS:
+            for income_statement_entry in self.income_statement.entries:
+                cash_flow_entry = self.cash_flow.get_entry_of(
+                    as_of_date=income_statement_entry.asOfDate,
+                    period_type=income_statement_entry.periodType,
+                )
+                balance_sheet_entry = self.balance_sheet.get_entry_of(
+                    as_of_date=income_statement_entry.asOfDate,
+                    period_type=income_statement_entry.periodType
+                )
+
+                result.append(
+                    CombinableDataClass(
+                        asOfDate=income_statement_entry.asOfDate,
+                        periodType=income_statement_entry.periodType,
+                        value=(abs(income_statement_entry.netIncome) +
+                               abs(cash_flow_entry.depreciationAndAmortization) +
+                               abs(balance_sheet_entry.accountsReceivable) +
+                               abs(balance_sheet_entry.accountsPayable) +
+                               abs(income_statement_entry.taxProvision) +
+                               abs(cash_flow_entry.capitalExpenditure)
+                               )
+                    )
+                )
+
         else:
             raise TypeError(WRONG_TYPE_STRING.format(type=self.combination))
