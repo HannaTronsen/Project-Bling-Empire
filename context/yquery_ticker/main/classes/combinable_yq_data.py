@@ -81,7 +81,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                 net_income = self.income_statement.get_entry_of(
                     as_of_date=balance_sheet_entry.asOfDate,
                     period_type=balance_sheet_entry.periodType
-                )
+                ).netIncome
                 denominator = balance_sheet_entry.commonStockEquity
                 if denominator != 0:
                     result.append(
