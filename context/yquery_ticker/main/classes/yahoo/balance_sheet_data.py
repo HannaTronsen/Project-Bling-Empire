@@ -36,7 +36,10 @@ class BalanceSheetData(TimeSeriesDataCollection):
         for entry in self.entries:
             if entry.asOfDate == as_of_date and entry.periodType == period_type:
                 return entry
-        return 0
+        return BalanceSheetDataClass.mockk(
+            asOfDate=as_of_date,
+            periodType=period_type,
+        )
 
     @classmethod
     def extract_date_time_information(cls, entries: list[BalanceSheetDataClass]):

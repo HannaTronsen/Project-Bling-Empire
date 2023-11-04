@@ -50,13 +50,15 @@ class IncomeStatementData(TimeSeriesDataCollection):
                     periodType=entry.periodType
                 ),
             )
-        return  result
 
     def get_entry_of(self, as_of_date: Date, period_type: PeriodType):
         for entry in self.entries:
             if entry.asOfDate == as_of_date and entry.periodType == period_type:
                 return entry
-        return 0
+        return IncomeStatementDataClass.mockk(
+            asOfDate=as_of_date,
+            periodType=period_type,
+        )
 
     def get_most_recent_expenses(self, capital_expenditure):
         entry: IncomeStatementDataClass = YQDataFrameData.get_most_recent_entry(self.entries)

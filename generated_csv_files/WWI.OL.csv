@@ -7,49 +7,49 @@ Sector,Industrials
 Website,https://www.wilhelmsen.com
 
 REVENUE
-Total Revenue,994000000.0
-Revenue Per Share,22.347
-Revenue Growth,0.092
+Total Revenue,1012000000.0
+Revenue Per Share,22.809
+Revenue Growth,0.076
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=118.94, forward_eps=7.89)"
-Net Earnings,458000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=110.08, forward_eps=7.89)"
+Net Earnings,601000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,616000000.0
-Debt to Equity,23.821
+Total Debt,587000000.0
+Debt to Equity,21.581
 
 MARGINS
-Profit Margins,0.46076
-Gross Profit Margins,0.32394
-Operating Margins,0.10345
+Profit Margins,0.59387
+Gross Profit Margins,0.31719
+Operating Margins,0.086610004
 
 DIVIDEND
 Dividend Rate,6.0
-Dividend Yield,0.019
-Five Year Avg Dividend Yield,2.39
-Trailing Annual Dividend Rate,0.609
-Trailing Annual Dividend Yield,0.0019364071
+Dividend Yield,0.0182
+Five Year Avg Dividend Yield,2.37
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,23.821
-Price to Cash Flow,-1.6363636363636363e-05
-Enterprise to EBITDA,131.97
-Price to Book,5.7012544
-Price to Earnings,"PriceToEarnings(trailing_pe=2.648394, forward_pe=39.923954)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=118.94, forward_eps=7.89)"
-Enterprise to Revenue,14.472
+Debt to Equity,21.581
+Price to Cash Flow,-1.180269058295964e-05
+Enterprise to EBITDA,139.801
+Price to Book,5.6456456
+Price to Earnings,"PriceToEarnings(trailing_pe=2.9887354, forward_pe=41.698353)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=110.08, forward_eps=7.89)"
+Enterprise to Revenue,14.781
 
 CASH FLOW
-Free to Cash Flow,-19250000.0
-Operating to Cash Flow,116000000.0
+Free to Cash Flow,-27875000.0
+Operating to Cash Flow,157000000.0
 
 PROFITABILITY
-Return on Equity,0.19656
-Return on Assets,0.0153
-Return on Invested Capital,0.7435064268190363
-Return on Investment,0.26941176470588235
+Return on Equity,0.26719
+Return on Assets,0.014630001
+Return on Invested Capital,1.0238499835351655
+Return on Investment,0.16694444444444445
 
 
 
@@ -63,6 +63,7 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 

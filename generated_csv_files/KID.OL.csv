@@ -27,17 +27,17 @@ Operating Margins,0.10504
 
 DIVIDEND
 Dividend Rate,9.5
-Dividend Yield,0.1033
+Dividend Yield,0.1018
 Five Year Avg Dividend Yield,7.28
 Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.0330033
+Trailing Annual Dividend Yield,0.03314917
 
 FINANCIAL RATIO
 Debt to Equity,161.861
-Price to Cash Flow,1.9999549227551324e-07
+Price to Cash Flow,2.028215155359281e-07
 Enterprise to EBITDA,None
-Price to Book,3.164666
-Price to Earnings,"PriceToEarnings(trailing_pe=20.95672, forward_pe=10.849057)"
+Price to Book,3.2093842
+Price to Earnings,"PriceToEarnings(trailing_pe=21.25285, forward_pe=11.002359)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=4.39, forward_eps=8.48)"
 Enterprise to Revenue,None
 
@@ -55,7 +55,7 @@ Return on Investment,Expenses fields is `None` or has invalid values for calcula
 
 PASSES GROWTH CRITERIA
 Earnings History,False
-Revenue History,True
+Revenue History,False
 Net Income,False
 Sales,False
 Operating to Cash Flow,False
@@ -63,7 +63,8 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,1
+CRITERIA PASS COUNT,0

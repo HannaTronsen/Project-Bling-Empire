@@ -30,7 +30,7 @@ Dividend Rate,10.05
 Dividend Yield,0.0419
 Five Year Avg Dividend Yield,4.32
 Trailing Annual Dividend Rate,10.5
-Trailing Annual Dividend Yield,0.048611112
+Trailing Annual Dividend Yield,0.047727272
 
 FINANCIAL RATIO
 Debt to Equity,None
@@ -63,6 +63,7 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 

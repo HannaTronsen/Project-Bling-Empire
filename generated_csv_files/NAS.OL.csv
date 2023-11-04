@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.norwegian.com
 
 REVENUE
-Total Revenue,21862000640.0
-Revenue Per Share,23.46
-Revenue Growth,0.391
+Total Revenue,23789400064.0
+Revenue Per Share,24.741
+Revenue Growth,0.257
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.14, forward_eps=1.41)"
-Net Earnings,218500000.0
-Earnings Growth,-0.57
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.41)"
+Net Earnings,1379299968.0
+Earnings Growth,1.651
 
 DEBT
-Total Debt,13017199616.0
-Debt to Equity,351.171
+Total Debt,13709299712.0
+Debt to Equity,221.887
 
 MARGINS
-Profit Margins,0.015360001
-Gross Profit Margins,0.106029995
-Operating Margins,0.09842
+Profit Margins,0.06159
+Gross Profit Margins,0.15827
+Operating Margins,0.24733
 
 DIVIDEND
 Dividend Rate,None
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,351.171
-Price to Cash Flow,1.555157803415901e-09
-Enterprise to EBITDA,7.508
-Price to Book,2.05655
-Price to Earnings,"PriceToEarnings(trailing_pe=56.62857, forward_pe=5.622695)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.14, forward_eps=1.41)"
-Enterprise to Revenue,0.516
+Debt to Equity,221.887
+Price to Cash Flow,2.2026055109340835e-09
+Enterprise to EBITDA,3.973
+Price to Book,1.4895735
+Price to Earnings,"PriceToEarnings(trailing_pe=7.3630767, forward_pe=6.7886524)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.41)"
+Enterprise to Revenue,0.568
 
 CASH FLOW
-Free to Cash Flow,5097874944.0
-Operating to Cash Flow,4870600192.0
+Free to Cash Flow,4345762304.0
+Operating to Cash Flow,4375799808.0
 
 PROFITABILITY
-Return on Equity,0.091239996
-Return on Assets,0.01651
-Return on Invested Capital,0.016785484311596807
-Return on Investment,0.006039248203427308
+Return on Equity,0.26549
+Return on Assets,0.041199997
+Return on Invested Capital,0.10061053418696145
+Return on Investment,0.012990205010359766
 
 
 
@@ -63,6 +63,7 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 

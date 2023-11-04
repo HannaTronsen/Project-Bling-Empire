@@ -7,23 +7,23 @@ Sector,Technology
 Website,https://www.nextbiometrics.com
 
 REVENUE
-Total Revenue,41392000.0
-Revenue Per Share,0.449
-Revenue Growth,-0.357
+Total Revenue,33334000.0
+Revenue Per Share,0.358
+Revenue Growth,-0.585
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.6, forward_eps=-0.25)"
-Net Earnings,-55726000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.7, forward_eps=-0.25)"
+Net Earnings,-65513000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,3212000.0
-Debt to Equity,4.588
+Total Debt,2463000.0
+Debt to Equity,2.293
 
 MARGINS
-Profit Margins,-1.3463
-Gross Profit Margins,0.28605
-Operating Margins,-2.64385
+Profit Margins,-1.96535
+Gross Profit Margins,0.15051
+Operating Margins,-3.22746
 
 DIVIDEND
 Dividend Rate,None
@@ -33,22 +33,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,4.588
-Price to Cash Flow,-2.0481025558681415e-07
-Enterprise to EBITDA,-9.216
-Price to Book,7.2273326
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-22.0)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.6, forward_eps=-0.25)"
-Enterprise to Revenue,11.368
+Debt to Equity,2.293
+Price to Cash Flow,-2.2937072469352792e-07
+Enterprise to EBITDA,-7.352
+Price to Book,4.8401036
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-22.4)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.7, forward_eps=-0.25)"
+Enterprise to Revenue,13.086
 
 CASH FLOW
-Free to Cash Flow,-26854124.0
-Operating to Cash Flow,-42380000.0
+Free to Cash Flow,-24414624.0
+Operating to Cash Flow,-41416000.0
 
 PROFITABILITY
-Return on Equity,-0.59744
-Return on Assets,-0.29473
-Return on Invested Capital,-17.349310958024397
+Return on Equity,-0.60025
+Return on Assets,-0.29626
+Return on Invested Capital,-26.598850680117646
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -63,6 +63,7 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 

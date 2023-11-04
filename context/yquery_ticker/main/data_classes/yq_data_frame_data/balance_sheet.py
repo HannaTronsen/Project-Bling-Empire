@@ -22,8 +22,8 @@ class BalanceSheetDataClass(IterableDataInterface, YQDataFrameData):
         return BalanceSheetDataClass(
             asOfDate=asOfDate,
             periodType=periodType,
-            commonStockEquity=None,
-            totalDebt=None,
-            accountsReceivable=None,
-            accountsPayable=None,
+            commonStockEquity=0,
+            totalDebt=0,
+            accountsReceivable=0,
+            accountsPayable=0,
         )

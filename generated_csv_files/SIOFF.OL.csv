@@ -7,23 +7,23 @@ Sector,Energy
 Website,https://www.siemoffshore.com
 
 REVENUE
-Total Revenue,303327008.0
-Revenue Per Share,1.27
-Revenue Growth,0.18
+Total Revenue,315211008.0
+Revenue Per Share,1.32
+Revenue Growth,0.161
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=3.82)"
-Net Earnings,64601000.0
-Earnings Growth,0.556
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.12, forward_eps=3.82)"
+Net Earnings,68062000.0
+Earnings Growth,0.349
 
 DEBT
-Total Debt,555912000.0
-Debt to Equity,136.406
+Total Debt,519591008.0
+Debt to Equity,122.653
 
 MARGINS
-Profit Margins,0.21297
-Gross Profit Margins,0.47979
-Operating Margins,0.32237998
+Profit Margins,0.21593
+Gross Profit Margins,0.48509997
+Operating Margins,0.28094998
 
 DIVIDEND
 Dividend Rate,0.1
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,136.406
-Price to Cash Flow,3.567246064086242e-07
-Enterprise to EBITDA,55.348
-Price to Book,15.835266
-Price to Earnings,"PriceToEarnings(trailing_pe=8.694267, forward_pe=7.146597)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=3.82)"
-Enterprise to Revenue,22.954
+Debt to Equity,122.653
+Price to Cash Flow,3.805290876434595e-07
+Enterprise to EBITDA,48.057
+Price to Book,13.927577
+Price to Earnings,"PriceToEarnings(trailing_pe=8.012821, forward_pe=6.5445027)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.12, forward_eps=3.82)"
+Enterprise to Revenue,20.259
 
 CASH FLOW
-Free to Cash Flow,76529624.0
-Operating to Cash Flow,117570000.0
+Free to Cash Flow,65698000.0
+Operating to Cash Flow,116658000.0
 
 PROFITABILITY
-Return on Equity,0.16399999
-Return on Assets,0.043270003
-Return on Invested Capital,0.11620724107351293
-Return on Investment,0.01739906811387325
+Return on Equity,0.16506
+Return on Assets,0.048060004
+Return on Invested Capital,0.13099148891520132
+Return on Investment,0.018471517355551335
 
 
 
@@ -63,6 +63,7 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 

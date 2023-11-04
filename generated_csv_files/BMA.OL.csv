@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.byggma.no
 
 REVENUE
-Total Revenue,2318147072.0
-Revenue Per Share,33.19
-Revenue Growth,-0.203
+Total Revenue,2241146880.0
+Revenue Per Share,32.121
+Revenue Growth,-0.157
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.63, forward_eps=None)"
-Net Earnings,183810000.0
-Earnings Growth,-0.579
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
+Net Earnings,128510000.0
+Earnings Growth,-0.543
 
 DEBT
-Total Debt,1501200000.0
-Debt to Equity,161.194
+Total Debt,1479299968.0
+Debt to Equity,153.486
 
 MARGINS
-Profit Margins,0.07929
-Gross Profit Margins,0.53336
-Operating Margins,0.0872
+Profit Margins,0.057340004
+Gross Profit Margins,0.5346
+Operating Margins,0.05355
 
 DIVIDEND
 Dividend Rate,1.0
@@ -33,29 +33,29 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,161.194
-Price to Cash Flow,1.2117288931229082e-07
-Enterprise to EBITDA,6.837
-Price to Book,1.3119425
-Price to Earnings,"PriceToEarnings(trailing_pe=6.653992, forward_pe=None)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.63, forward_eps=None)"
-Enterprise to Revenue,1.164
+Debt to Equity,153.486
+Price to Cash Flow,3.095367562388731e-07
+Enterprise to EBITDA,8.577
+Price to Book,1.2244456
+Price to Earnings,"PriceToEarnings(trailing_pe=8.268293, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
+Enterprise to Revenue,1.172
 
 CASH FLOW
-Free to Cash Flow,144421744.0
-Operating to Cash Flow,242479008.0
+Free to Cash Flow,54759248.0
+Operating to Cash Flow,221979008.0
 
 PROFITABILITY
-Return on Equity,0.23084
-Return on Assets,0.07676
-Return on Invested Capital,0.12244204527494375
-Return on Investment,0.0558642069112239
+Return on Equity,0.16398
+Return on Assets,0.049650002
+Return on Invested Capital,0.0868721703355222
+Return on Investment,0.03905722882411938
 
 
 
 PASSES GROWTH CRITERIA
 Earnings History,True
-Revenue History,True
+Revenue History,False
 Net Income,False
 Sales,False
 Operating to Cash Flow,False
@@ -63,7 +63,8 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,2
+CRITERIA PASS COUNT,1

@@ -24,10 +24,10 @@ class IncomeStatementDataClass(YQDataFrameData):
         return IncomeStatementDataClass(
             asOfDate=asOfDate,
             periodType=periodType,
-            netIncome=None,
-            totalRevenue=None,
-            interest_expense=None,
-            interest_expense_non_operating=None,
-            total_other_finance_cost=None,
-            taxProvision=None,
+            netIncome=0,
+            totalRevenue=0,
+            interest_expense=0,
+            interest_expense_non_operating=0,
+            total_other_finance_cost=0,
+            taxProvision=0,
         )

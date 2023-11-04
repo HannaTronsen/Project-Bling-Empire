@@ -8,11 +8,11 @@ Website,https://www.xxlasa.com
 
 REVENUE
 Total Revenue,8175000064.0
-Revenue Per Share,7.66
-Revenue Growth,-0.143
+Revenue Per Share,19.949
+Revenue Growth,-0.102
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.79, forward_eps=-0.16)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.35, forward_eps=-0.16)"
 Net Earnings,-976000000.0
 Earnings Growth,None
 
@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,101.801
-Price to Cash Flow,1.3961540774483336e-10
-Enterprise to EBITDA,-11.655
-Price to Book,0.15597276
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-4.725)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.79, forward_eps=-0.16)"
-Enterprise to Revenue,0.435
+Price to Cash Flow,1.4330893705025222e-10
+Enterprise to EBITDA,-5.631
+Price to Book,0.38722557
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-4.8500004)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.35, forward_eps=-0.16)"
+Enterprise to Revenue,0.529
 
 CASH FLOW
 Free to Cash Flow,5414875136.0
@@ -48,7 +48,7 @@ Operating to Cash Flow,91000000.0
 PROFITABILITY
 Return on Equity,-0.29051
 Return on Assets,-0.0728
-Return on Invested Capital,-0.2877358486454435
+Return on Invested Capital,-0.28773584888660886
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -63,6 +63,7 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 

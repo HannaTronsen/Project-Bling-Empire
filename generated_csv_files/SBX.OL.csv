@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,54.811
-Price to Cash Flow,-2.8455804046858358e-06
-Enterprise to EBITDA,57.682
-Price to Book,12.879178
-Price to Earnings,"PriceToEarnings(trailing_pe=11.133334, forward_pe=31.312502)"
+Price to Cash Flow,-3.0046148384806533e-06
+Enterprise to EBITDA,60.791
+Price to Book,13.598971
+Price to Earnings,"PriceToEarnings(trailing_pe=11.755556, forward_pe=33.0625)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.45, forward_eps=0.16)"
-Enterprise to Revenue,13.37
+Enterprise to Revenue,14.091
 
 CASH FLOW
 Free to Cash Flow,-1760625.0
@@ -54,7 +54,7 @@ Return on Investment,-0.018183642749623682
 
 
 PASSES GROWTH CRITERIA
-Earnings History,True
+Earnings History,False
 Revenue History,False
 Net Income,False
 Sales,False
@@ -63,7 +63,8 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,1
+CRITERIA PASS COUNT,0

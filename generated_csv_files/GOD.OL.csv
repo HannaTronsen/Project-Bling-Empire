@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.goodtech.no
 
 REVENUE
-Total Revenue,644428032.0
-Revenue Per Share,24.264
-Revenue Growth,0.692
+Total Revenue,746627968.0
+Revenue Per Share,30.09
+Revenue Growth,0.904
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.05, forward_eps=0.77)"
-Net Earnings,1673000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=0.77)"
+Net Earnings,1073000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,113500000.0
-Debt to Equity,42.037
+Total Debt,81900000.0
+Debt to Equity,29.934
 
 MARGINS
-Profit Margins,0.0049
-Gross Profit Margins,0.64536005
-Operating Margins,0.00983
+Profit Margins,-0.001
+Gross Profit Margins,0.58756
+Operating Margins,0.0069700005
 
 DIVIDEND
 Dividend Rate,0.65
@@ -33,22 +33,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,42.037
-Price to Cash Flow,-1.9916094949254033e-07
-Enterprise to EBITDA,20.557
-Price to Book,0.99293643
-Price to Earnings,"PriceToEarnings(trailing_pe=196.8, forward_pe=12.779222)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.05, forward_eps=0.77)"
-Enterprise to Revenue,0.459
+Debt to Equity,29.934
+Price to Cash Flow,-4.89721310079059e-07
+Enterprise to EBITDA,16.413
+Price to Book,1.0007967
+Price to Earnings,"PriceToEarnings(trailing_pe=251.25002, forward_pe=13.051949)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=0.77)"
+Enterprise to Revenue,0.38
 
 CASH FLOW
-Free to Cash Flow,-49407276.0
-Operating to Cash Flow,8824000.0
+Free to Cash Flow,-20521876.0
+Operating to Cash Flow,40824000.0
 
 PROFITABILITY
-Return on Equity,0.00563
-Return on Assets,0.00971
-Return on Invested Capital,0.014740086818728983
+Return on Equity,0.00416
+Return on Assets,0.01368
+Return on Invested Capital,0.013101341494949069
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
@@ -63,6 +63,7 @@ Free to Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
+Owner Earnings,False
 
 
 

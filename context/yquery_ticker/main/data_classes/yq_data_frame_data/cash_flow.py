@@ -24,9 +24,9 @@ class CashFlowDataClass(IterableDataInterface, YQDataFrameData):
         return CashFlowDataClass(
             asOfDate=asOfDate,
             periodType=periodType,
-            cashDividendsPaid=None,
-            operatingCashFlow=None,
-            freeCashFlow=None,
-            capitalExpenditure=None,
-            depreciationAndAmortization=None,
+            cashDividendsPaid=0,
+            operatingCashFlow=0,
+            freeCashFlow=0,
+            capitalExpenditure=0,
+            depreciationAndAmortization=0,
         )
