@@ -20,16 +20,19 @@ class CashFlowData(TimeSeriesDataCollection):
     @classmethod
     def convert_data_frame_to_time_series_model(cls, data_frame):
         result = []
+        data_columns = [
+            ('cashDividendsPaid', CASH_DIVIDENDS_PAID),
+            ('operatingCashFlow', OPERATING_CASH_FLOW),
+            ('freeCashFlow', FREE_CASH_FLOW),
+            ('capitalExpenditure', CAPITAL_EXPENDITURE),
+            ('depreciationAndAmortization', DEPRECIATION_AND_AMORTIZATION),
+        ]
         for index, row in data_frame.iterrows():
             result.append(
                 CashFlowDataClass(
                     asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
                     periodType=Date.to_period_type(row[PERIOD_TYPE]),
-                    cashDividendsPaid=row[CASH_DIVIDENDS_PAID] if CASH_DIVIDENDS_PAID in data_frame.columns else 0,
-                    operatingCashFlow=row[OPERATING_CASH_FLOW] if OPERATING_CASH_FLOW in data_frame.columns else 0,
-                    freeCashFlow=row[FREE_CASH_FLOW] if FREE_CASH_FLOW in data_frame.columns else 0,
-                    capitalExpenditure=row[CAPITAL_EXPENDITURE] if CAPITAL_EXPENDITURE in data_frame.columns else 0,
-                    depreciationAndAmortization=row[DEPRECIATION_AND_AMORTIZATION] if DEPRECIATION_AND_AMORTIZATION in data_frame.columns else 0,
+                    **{key: row[column] if column in data_frame.columns else 0 for key, column in data_columns}
                 )
             )
         return result

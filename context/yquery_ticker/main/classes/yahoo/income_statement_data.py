@@ -22,19 +22,21 @@ class IncomeStatementData(TimeSeriesDataCollection):
     @classmethod
     def convert_data_frame_to_time_series_model(cls, data_frame):
         result = []
+        data_columns = [
+            ('netIncome', NET_INCOME),
+            ('totalRevenue', TOTAL_REVENUE),
+            ('interest_expense', INTEREST_EXPENSE),
+            ('interest_expense_non_operating', INTEREST_EXPENSE_NON_OPERATING),
+            ('total_other_finance_cost', TOTAL_OTHER_FINANCE_COST),
+            ('taxProvision', TAX_PROVISION),
+        ]
+
         for index, row in data_frame.iterrows():
             result.append(
                 IncomeStatementDataClass(
                     asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
                     periodType=Date.to_period_type(row[PERIOD_TYPE]),
-                    netIncome=row[NET_INCOME],
-                    totalRevenue=row[TOTAL_REVENUE],
-                    interest_expense=row[INTEREST_EXPENSE] if INTEREST_EXPENSE in data_frame.columns else 0,
-                    interest_expense_non_operating=row[
-                        INTEREST_EXPENSE_NON_OPERATING] if INTEREST_EXPENSE_NON_OPERATING in data_frame.columns else 0,
-                    total_other_finance_cost=row[
-                        TOTAL_OTHER_FINANCE_COST] if TOTAL_OTHER_FINANCE_COST in data_frame.columns else 0,
-                    taxProvision=row[TAX_PROVISION] if TAX_PROVISION in data_frame.columns else 0,
+                    **{key: row[column] if column in data_frame.columns else 0 for key, column in data_columns}
                 )
             )
         return result

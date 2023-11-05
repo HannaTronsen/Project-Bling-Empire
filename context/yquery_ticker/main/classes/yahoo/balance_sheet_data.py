@@ -19,15 +19,18 @@ class BalanceSheetData(TimeSeriesDataCollection):
     @classmethod
     def convert_data_frame_to_time_series_model(cls, data_frame):
         result = []
+        data_columns = [
+            ('commonStockEquity', COMMON_STOCK_EQUITY),
+            ('totalDebt', TOTAL_DEBT),
+            ('accountsReceivable', ACCOUNTS_RECEIVABLE),
+            ('accountsPayable', ACCOUNTS_PAYABLE),
+        ]
         for index, row in data_frame.iterrows():
             result.append(
                 BalanceSheetDataClass(
                     asOfDate=Date.convert_date(Date.from_data_frame(row[AS_OF_DATE])),
                     periodType=Date.to_period_type(row[PERIOD_TYPE]),
-                    commonStockEquity=row[COMMON_STOCK_EQUITY] if COMMON_STOCK_EQUITY in data_frame.columns else 0,
-                    totalDebt=row[TOTAL_DEBT] if TOTAL_DEBT in data_frame.columns else 0,
-                    accountsReceivable=row[ACCOUNTS_RECEIVABLE] if ACCOUNTS_RECEIVABLE in data_frame.columns else 0,
-                    accountsPayable=row[ACCOUNTS_PAYABLE] if ACCOUNTS_PAYABLE in data_frame.columns else 0,
+                    **{key: row[column] if column in data_frame.columns else 0 for key, column in data_columns}
                 )
             )
         return result
