@@ -192,29 +192,29 @@ class GlobalStockDataClass:
         return {
             GrowthCriteria.EARNINGS.__str__: HistoricalEarningsData.evaluate_growth_criteria(
                 chart_list=self.earnings_and_earnings_history,
-                percentage_criteria=GrowthCriteria.EARNINGS.__percentage_criteria__,
-                attribute=GrowthCriteria.EARNINGS.__attribute__
+                percentage_criteria=GrowthCriteria.EARNINGS.percentage_criteria,
+                attribute=GrowthCriteria.EARNINGS.attribute
             ),
             GrowthCriteria.REVENUE.__str__: HistoricalEarningsData.evaluate_growth_criteria(
                 chart_list=self.earnings_and_earnings_history,
-                percentage_criteria=GrowthCriteria.REVENUE.__percentage_criteria__,
-                attribute=GrowthCriteria.REVENUE.__attribute__
+                percentage_criteria=GrowthCriteria.REVENUE.percentage_criteria,
+                attribute=GrowthCriteria.REVENUE.attribute
             ),
             GrowthCriteria.NET_INCOME.__str__: self.income_statement.evaluate_growth_criteria(
-                percentage_criteria=GrowthCriteria.NET_INCOME.__percentage_criteria__,
-                attribute=GrowthCriteria.NET_INCOME.__attribute__
+                percentage_criteria=GrowthCriteria.NET_INCOME.percentage_criteria,
+                attribute=GrowthCriteria.NET_INCOME.attribute
             ),
             GrowthCriteria.SALES.__str__: self.income_statement.evaluate_growth_criteria(
-                percentage_criteria=GrowthCriteria.SALES.__percentage_criteria__,
-                attribute=GrowthCriteria.SALES.__attribute__
+                percentage_criteria=GrowthCriteria.SALES.percentage_criteria,
+                attribute=GrowthCriteria.SALES.attribute
             ),
             GrowthCriteria.OPERATING_CASH_FLOW.__str__: self.cash_flow.evaluate_growth_criteria(
-                percentage_criteria=GrowthCriteria.OPERATING_CASH_FLOW.__percentage_criteria__,
-                attribute=GrowthCriteria.OPERATING_CASH_FLOW.__attribute__
+                percentage_criteria=GrowthCriteria.OPERATING_CASH_FLOW.percentage_criteria,
+                attribute=GrowthCriteria.OPERATING_CASH_FLOW.attribute
             ),
             GrowthCriteria.FREE_CASH_FLOW.__str__: self.cash_flow.evaluate_growth_criteria(
-                percentage_criteria=GrowthCriteria.FREE_CASH_FLOW.__percentage_criteria__,
-                attribute=GrowthCriteria.FREE_CASH_FLOW.__attribute__,
+                percentage_criteria=GrowthCriteria.FREE_CASH_FLOW.percentage_criteria,
+                attribute=GrowthCriteria.FREE_CASH_FLOW.attribute,
             ),
             GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__str__: CombinableYQData(
                 combination=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS,

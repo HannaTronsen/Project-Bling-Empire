@@ -116,7 +116,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                     model_list=YQDataFrameData.sorted(self.get_book_value_and_dividends_list()),
                     attribute="value"
                 ),
-                percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
+                percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.percentage_criteria
             )
         elif self.combination == GrowthCriteria.ROIC:
             return self.passes_percentage_increase_requirements(
@@ -124,7 +124,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                     model_list=YQDataFrameData.sorted(self.get_return_on_income_capital_list()),
                     attribute="value"
                 ),
-                percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
+                percentage_requirement=GrowthCriteria.ROIC.percentage_criteria
             )
         elif self.combination == GrowthCriteria.ROE:
             return self.passes_percentage_increase_requirements(
@@ -132,7 +132,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                     model_list=YQDataFrameData.sorted(self.get_return_on_equity_list()),
                     attribute="value"
                 ),
-                percentage_requirement=GrowthCriteria.ROE.__percentage_criteria__
+                percentage_requirement=GrowthCriteria.ROE.percentage_criteria
             )
         elif self.combination == GrowthCriteria.OWNER_EARNINGS:
             return self.passes_percentage_increase_requirements(
@@ -140,7 +140,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                     model_list=YQDataFrameData.sorted(self.get_owner_earnings_list()),
                     attribute="value"
                 ),
-                percentage_requirement=GrowthCriteria.OWNER_EARNINGS.__percentage_criteria__
+                percentage_requirement=GrowthCriteria.OWNER_EARNINGS.percentage_criteria
             )
         else:
             raise TypeError(WRONG_TYPE_STRING.format(type=self.combination))
