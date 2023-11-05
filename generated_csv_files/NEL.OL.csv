@@ -54,12 +54,12 @@ Return on Investment,Expenses fields is `None` or has invalid values for calcula
 
 
 PASSES GROWTH CRITERIA
-Earnings History,False
-Revenue History,True
+Earnings,False
+Revenue,True
 Net Income,False
-Sales,True
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,True
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False

@@ -54,12 +54,12 @@ Return on Investment,0.03905722882411938
 
 
 PASSES GROWTH CRITERIA
-Earnings History,True
-Revenue History,False
+Earnings,True
+Revenue,False
 Net Income,False
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False

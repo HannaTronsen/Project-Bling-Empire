@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,HSPG.OL
 Company,Høland og Setskog Sparebank
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.hsbank.no
 
@@ -54,12 +54,12 @@ Return on Investment,0.00040042973466012136
 
 
 PASSES GROWTH CRITERIA
-Earnings History,False
-Revenue History,False
+Earnings,False
+Revenue,False
 Net Income,False
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False

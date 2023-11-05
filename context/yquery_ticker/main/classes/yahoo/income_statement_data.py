@@ -33,8 +33,10 @@ class IncomeStatementData(TimeSeriesDataCollection):
                     netIncome=row[NET_INCOME],
                     totalRevenue=row[TOTAL_REVENUE],
                     interest_expense=row[INTEREST_EXPENSE] if INTEREST_EXPENSE in data_frame.columns else 0,
-                    interest_expense_non_operating=row[INTEREST_EXPENSE_NON_OPERATING] if INTEREST_EXPENSE_NON_OPERATING in data_frame.columns else 0,
-                    total_other_finance_cost=row[TOTAL_OTHER_FINANCE_COST] if TOTAL_OTHER_FINANCE_COST in data_frame.columns else 0,
+                    interest_expense_non_operating=row[
+                        INTEREST_EXPENSE_NON_OPERATING] if INTEREST_EXPENSE_NON_OPERATING in data_frame.columns else 0,
+                    total_other_finance_cost=row[
+                        TOTAL_OTHER_FINANCE_COST] if TOTAL_OTHER_FINANCE_COST in data_frame.columns else 0,
                     taxProvision=row[TAX_PROVISION] if TAX_PROVISION in data_frame.columns else 0,
                 )
             )
@@ -69,24 +71,14 @@ class IncomeStatementData(TimeSeriesDataCollection):
             total_other_finance_cost=entry.total_other_finance_cost
         )
 
-    def evaluate_growth_criteria(self, attribute: DictKey) -> bool:
-        if attribute == DictKey.NET_INCOME:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.entries),
-                    attribute=GrowthCriteria.NET_INCOME.__str__
-                ),
-                percentage_requirement=GrowthCriteria.NET_INCOME.__percentage_criteria__
-            )
-        elif attribute == DictKey.SALES:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.entries),
-                    attribute=GrowthCriteria.SALES.__str__
-                ),
-                percentage_requirement=GrowthCriteria.SALES.__percentage_criteria__
-            )
-        raise TypeError(WRONG_TYPE_STRING.format(type=attribute))
+    def evaluate_growth_criteria(self, percentage_criteria: int, attribute: str) -> bool:
+        return self.passes_percentage_increase_requirements(
+            percentages=self.calculate_percentage_increase_for_model_list(
+                model_list=YQDataFrameData.sorted(self.entries),
+                attribute=attribute
+            ),
+            percentage_requirement=percentage_criteria
+        )
 
     @classmethod
     def mockk(cls):

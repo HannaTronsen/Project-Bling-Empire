@@ -59,24 +59,15 @@ class CashFlowData(TimeSeriesDataCollection):
         entry: CashFlowDataClass = YQDataFrameData.get_most_recent_entry(self.entries)
         return entry.capitalExpenditure
 
-    def evaluate_growth_criteria(self, attribute: DictKey) -> bool:
-        if attribute == DictKey.OPERATING_CASH_FLOW:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.entries),
-                    attribute=GrowthCriteria.OPERATING_CASH_FLOW.__str__
-                ),
-                percentage_requirement=GrowthCriteria.OPERATING_CASH_FLOW.__percentage_criteria__
-            )
-        elif attribute == DictKey.FREE_CASH_FLOW:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.entries),
-                    attribute=GrowthCriteria.FREE_CASH_FLOW.__str__
-                ),
-                percentage_requirement=GrowthCriteria.FREE_CASH_FLOW.__percentage_criteria__
-            )
-        raise TypeError(WRONG_TYPE_STRING.format(type=attribute))
+    def evaluate_growth_criteria(self, percentage_criteria: int, attribute: str) -> bool:
+        return self.passes_percentage_increase_requirements(
+            percentages=self.calculate_percentage_increase_for_model_list(
+                model_list=YQDataFrameData.sorted(self.entries),
+                attribute=attribute
+            ),
+            percentage_requirement=percentage_criteria
+        )
+
 
     @classmethod
     def mockk(cls):

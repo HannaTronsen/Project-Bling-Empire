@@ -13,6 +13,7 @@ from const import (
 )
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass, Section
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
+from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.errors.generic_error import GenericError
 
 
@@ -54,13 +55,13 @@ def generate_csv_for_ticker(ticker_symbol: str, ticker: GlobalStockDataClass):
 
                 for key, value in data_func().items():
                     if not isinstance(value, GenericError) and value is not None:
-                        writer.writerow([key.value, value])
+                        writer.writerow([key, value])
                     else:
                         if value is None:
-                            writer.writerow([key.value, "None"])
+                            writer.writerow([key, "None"])
                         else:
                             error = GenericError(value.reason)
-                            writer.writerow([key.value, error.reason])
+                            writer.writerow([key, error.reason])
                 writer.writerow([])
             writer.writerows([[], []])
             writer.writerow(["CRITERIA PASS COUNT", ticker.criteria_pass_count])

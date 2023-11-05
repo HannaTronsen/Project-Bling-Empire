@@ -14,7 +14,7 @@ from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 class CombinableYQData(TimeSeriesDataCollection):
     def __init__(
             self,
-            combination: DictKey,
+            combination: GrowthCriteria,
             balance_sheet: Optional[BalanceSheetData] = None,
             cash_flow: Optional[CashFlowData] = None,
             income_statement: Optional[IncomeStatementData] = None
@@ -26,7 +26,7 @@ class CombinableYQData(TimeSeriesDataCollection):
 
     def combine_process_and_evaluate_growth_criteria(self):
         result = []
-        if self.combination == DictKey.BOOK_VALUE_AND_DIVIDENDS:
+        if self.combination == GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS:
             for balance_sheet_entry in self.balance_sheet.entries:
                 cashDividendsPaid = self.cash_flow.get_entry_of(
                     as_of_date=balance_sheet_entry.asOfDate,
@@ -46,7 +46,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                 ),
                 percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
             )
-        elif self.combination == DictKey.ROIC:
+        elif self.combination == GrowthCriteria.ROIC:
             for balance_sheet_entry in self.balance_sheet.entries:
                 net_income = self.income_statement.get_entry_of(
                     as_of_date=balance_sheet_entry.asOfDate,
@@ -76,7 +76,7 @@ class CombinableYQData(TimeSeriesDataCollection):
                 ),
                 percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
             )
-        elif self.combination == DictKey.ROE:
+        elif self.combination == GrowthCriteria.ROE:
             for balance_sheet_entry in self.balance_sheet.entries:
                 net_income = self.income_statement.get_entry_of(
                     as_of_date=balance_sheet_entry.asOfDate,
@@ -104,9 +104,9 @@ class CombinableYQData(TimeSeriesDataCollection):
                     model_list=YQDataFrameData.sorted(result),
                     attribute="value"
                 ),
-                percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
+                percentage_requirement=GrowthCriteria.ROE.__percentage_criteria__
             )
-        elif self.combination == DictKey.OWNER_EARNINGS:
+        elif self.combination == GrowthCriteria.OWNER_EARNINGS:
             for income_statement_entry in self.income_statement.entries:
                 cash_flow_entry = self.cash_flow.get_entry_of(
                     as_of_date=income_statement_entry.asOfDate,
@@ -130,6 +130,13 @@ class CombinableYQData(TimeSeriesDataCollection):
                                )
                     )
                 )
+            return self.passes_percentage_increase_requirements(
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=YQDataFrameData.sorted(result),
+                    attribute="value"
+                ),
+                percentage_requirement=GrowthCriteria.OWNER_EARNINGS.__percentage_criteria__
+            )
 
         else:
             raise TypeError(WRONG_TYPE_STRING.format(type=self.combination))

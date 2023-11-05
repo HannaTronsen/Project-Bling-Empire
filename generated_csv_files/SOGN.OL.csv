@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SOGN.OL
 Company,Sogn Sparebank
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://sognbank.no
 
@@ -54,12 +54,12 @@ Return on Investment,0.0008714237791728566
 
 
 PASSES GROWTH CRITERIA
-Earnings History,True
-Revenue History,False
+Earnings,True
+Revenue,False
 Net Income,True
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False

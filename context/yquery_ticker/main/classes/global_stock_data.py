@@ -12,6 +12,7 @@ from ..data_classes.date import Frequency
 from ..data_classes.financial_data import FinancialData, PriceToEarnings, EarningsPerShare
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
+from ..enums.growth_criteria import GrowthCriteria
 from ..utils.dict_key_enum import DictKey
 
 
@@ -128,104 +129,110 @@ class GlobalStockDataClass:
 
     def _get_revenue_data(self):
         return {
-            DictKey.TOTAL_REVENUE: self.financial_data.total_revenue,
-            DictKey.REVENUE_PER_SHARE: self.financial_data.revenue_per_share,
-            DictKey.REVENUE_GROWTH: self.financial_data.revenue_growth
+            DictKey.TOTAL_REVENUE.__str__: self.financial_data.total_revenue,
+            DictKey.REVENUE_PER_SHARE.__str__: self.financial_data.revenue_per_share,
+            DictKey.REVENUE_GROWTH.__str__: self.financial_data.revenue_growth
         }
 
     def _get_earnings_data(self):
         return {
-            DictKey.EARNINGS_PER_SHARE: self.financial_data.earnings_per_share,
-            DictKey.NET_EARNINGS: self.financial_data.net_income_to_common,
-            DictKey.EARNINGS_GROWTH: self.financial_data.earnings_growth
+            DictKey.EARNINGS_PER_SHARE.__str__: self.financial_data.earnings_per_share,
+            DictKey.NET_EARNINGS.__str__: self.financial_data.net_income_to_common,
+            DictKey.EARNINGS_GROWTH.__str__: self.financial_data.earnings_growth
         }
 
     def _get_debt_data(self):
         return {
-            DictKey.TOTAL_DEBT: self.financial_data.total_debt,
-            DictKey.DEBT_TO_EQUITY: self.financial_data.debt_to_equity
+            DictKey.TOTAL_DEBT.__str__: self.financial_data.total_debt,
+            DictKey.DEBT_TO_EQUITY.__str__: self.financial_data.debt_to_equity
         }
 
     def _get_margins_data(self):
         return {
-            DictKey.PROFIT_MARGINS: self.financial_data.profit_margins,
-            DictKey.GROSS_PROFIT_MARGINS: self.financial_data.gross_profit_margins,
-            DictKey.OPERATING_MARGINS: self.financial_data.operating_margins
+            DictKey.PROFIT_MARGINS.__str__: self.financial_data.profit_margins,
+            DictKey.GROSS_PROFIT_MARGINS.__str__: self.financial_data.gross_profit_margins,
+            DictKey.OPERATING_MARGINS.__str__: self.financial_data.operating_margins
         }
 
     def _get_dividend_data(self):
         return {
-            DictKey.DIVIDEND_RATE: self.financial_data.dividend_rate,
-            DictKey.DIVIDEND_YIELD: self.financial_data.dividend_yield,
-            DictKey.FIVE_YEAR_AVG_DIVIDEND_YIELD: self.financial_data.five_year_avg_dividend_yield,
-            DictKey.TRAILING_ANNUAL_DIVIDEND_RATE: self.financial_data.trailing_annual_dividend_rate,
-            DictKey.TRAILING_ANNUAL_DIVIDEND_YIELD: self.financial_data.trailing_annual_dividend_yield,
+            DictKey.DIVIDEND_RATE.__str__: self.financial_data.dividend_rate,
+            DictKey.DIVIDEND_YIELD.__str__: self.financial_data.dividend_yield,
+            DictKey.FIVE_YEAR_AVG_DIVIDEND_YIELD.__str__: self.financial_data.five_year_avg_dividend_yield,
+            DictKey.TRAILING_ANNUAL_DIVIDEND_RATE.__str__: self.financial_data.trailing_annual_dividend_rate,
+            DictKey.TRAILING_ANNUAL_DIVIDEND_YIELD.__str__: self.financial_data.trailing_annual_dividend_yield,
         }
 
     def _get_financial_ratio_data(self):
         return {
-            DictKey.DEBT_TO_EQUITY: self.financial_data.debt_to_equity,
-            DictKey.PRICE_TO_CASH_FLOW: self.financial_data.calculate_price_to_cashflow(),
-            DictKey.ENTERPRISE_TO_EBITDA: self.financial_data.enterprise_to_ebitda,
-            DictKey.PRICE_TO_BOOK: self.financial_data.price_to_book,
-            DictKey.PRICE_TO_EARNINGS: self.financial_data.price_to_earnings,
-            DictKey.EARNINGS_PER_SHARE: self.financial_data.earnings_per_share,
-            DictKey.ENTERPRISE_TO_REVENUE: self.financial_data.enterprise_to_revenue
+            DictKey.DEBT_TO_EQUITY.__str__: self.financial_data.debt_to_equity,
+            DictKey.PRICE_TO_CASH_FLOW.__str__: self.financial_data.calculate_price_to_cashflow(),
+            DictKey.ENTERPRISE_TO_EBITDA.__str__: self.financial_data.enterprise_to_ebitda,
+            DictKey.PRICE_TO_BOOK.__str__: self.financial_data.price_to_book,
+            DictKey.PRICE_TO_EARNINGS.__str__: self.financial_data.price_to_earnings,
+            DictKey.EARNINGS_PER_SHARE.__str__: self.financial_data.earnings_per_share,
+            DictKey.ENTERPRISE_TO_REVENUE.__str__: self.financial_data.enterprise_to_revenue
         }
 
     def _get_cash_flow_data(self):
         return {
-            DictKey.FREE_CASH_FLOW: self.financial_data.free_cash_flow,
-            DictKey.OPERATING_CASH_FLOW: self.financial_data.operating_cash_flow,
+            DictKey.FREE_CASH_FLOW.__str__: self.financial_data.free_cash_flow,
+            DictKey.OPERATING_CASH_FLOW.__str__: self.financial_data.operating_cash_flow,
         }
 
     def _get_profitability_data(self):
         return {
-            DictKey.RETURN_ON_EQUITY: self.financial_data.return_on_equity,
-            DictKey.RETURN_ON_ASSETS: self.financial_data.return_on_assets,
-            DictKey.RETURN_ON_INVESTED_CAPITAL: self.financial_data.calculate_return_on_invested_capital(),
-            DictKey.RETURN_ON_INVESTMENT: self.financial_data.calculate_return_on_investment()
+            DictKey.RETURN_ON_EQUITY.__str__: self.financial_data.return_on_equity,
+            DictKey.RETURN_ON_ASSETS.__str__: self.financial_data.return_on_assets,
+            DictKey.RETURN_ON_INVESTED_CAPITAL.__str__: self.financial_data.calculate_return_on_invested_capital(),
+            DictKey.RETURN_ON_INVESTMENT.__str__: self.financial_data.calculate_return_on_investment()
         }
 
     def get_evaluated_growth_criteria(self):
         return {
-            DictKey.EARNINGS_HISTORY: HistoricalEarningsData.evaluate_growth_criteria(
+            GrowthCriteria.EARNINGS.__str__: HistoricalEarningsData.evaluate_growth_criteria(
                 chart_list=self.earnings_and_earnings_history,
-                attribute=DictKey.EARNINGS_HISTORY
+                percentage_criteria=GrowthCriteria.EARNINGS.__percentage_criteria__,
+                attribute=GrowthCriteria.EARNINGS.__attribute__
             ),
-            DictKey.REVENUE_HISTORY: HistoricalEarningsData.evaluate_growth_criteria(
+            GrowthCriteria.REVENUE.__str__: HistoricalEarningsData.evaluate_growth_criteria(
                 chart_list=self.earnings_and_earnings_history,
-                attribute=DictKey.REVENUE_HISTORY
+                percentage_criteria=GrowthCriteria.REVENUE.__percentage_criteria__,
+                attribute=GrowthCriteria.REVENUE.__attribute__
             ),
-            DictKey.NET_INCOME: self.income_statement.evaluate_growth_criteria(
-                attribute=DictKey.NET_INCOME
+            GrowthCriteria.NET_INCOME.__str__: self.income_statement.evaluate_growth_criteria(
+                percentage_criteria=GrowthCriteria.NET_INCOME.__percentage_criteria__,
+                attribute=GrowthCriteria.NET_INCOME.__attribute__
             ),
-            DictKey.SALES: self.income_statement.evaluate_growth_criteria(
-                attribute=DictKey.SALES
+            GrowthCriteria.SALES.__str__: self.income_statement.evaluate_growth_criteria(
+                percentage_criteria=GrowthCriteria.SALES.__percentage_criteria__,
+                attribute=GrowthCriteria.SALES.__attribute__
             ),
-            DictKey.OPERATING_CASH_FLOW: self.cash_flow.evaluate_growth_criteria(
-                attribute=DictKey.OPERATING_CASH_FLOW
+            GrowthCriteria.OPERATING_CASH_FLOW.__str__: self.cash_flow.evaluate_growth_criteria(
+                percentage_criteria=GrowthCriteria.OPERATING_CASH_FLOW.__percentage_criteria__,
+                attribute=GrowthCriteria.OPERATING_CASH_FLOW.__attribute__
             ),
-            DictKey.FREE_CASH_FLOW: self.cash_flow.evaluate_growth_criteria(
-                attribute=DictKey.FREE_CASH_FLOW
+            GrowthCriteria.FREE_CASH_FLOW.__str__: self.cash_flow.evaluate_growth_criteria(
+                percentage_criteria=GrowthCriteria.FREE_CASH_FLOW.__percentage_criteria__,
+                attribute=GrowthCriteria.FREE_CASH_FLOW.__attribute__,
             ),
-            DictKey.BOOK_VALUE_AND_DIVIDENDS: CombinableYQData(
-                combination=DictKey.BOOK_VALUE_AND_DIVIDENDS,
+            GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__str__: CombinableYQData(
+                combination=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS,
                 balance_sheet=self.balance_sheet,
                 cash_flow=self.cash_flow,
             ).combine_process_and_evaluate_growth_criteria(),
-            DictKey.ROIC: CombinableYQData(
-                combination=DictKey.ROIC,
+            GrowthCriteria.ROIC.__str__: CombinableYQData(
+                combination=GrowthCriteria.ROIC,
                 balance_sheet=self.balance_sheet,
                 income_statement=self.income_statement,
             ).combine_process_and_evaluate_growth_criteria(),
-            DictKey.ROE: CombinableYQData(
-                combination=DictKey.ROE,
+            GrowthCriteria.ROE.__str__: CombinableYQData(
+                combination=GrowthCriteria.ROE,
                 balance_sheet=self.balance_sheet,
                 income_statement=self.income_statement,
             ).combine_process_and_evaluate_growth_criteria(),
-            DictKey.OWNER_EARNINGS: CombinableYQData(
-                combination=DictKey.ROE,
+            GrowthCriteria.OWNER_EARNINGS.__str__: CombinableYQData(
+                combination=GrowthCriteria.OWNER_EARNINGS,
                 balance_sheet=self.balance_sheet,
                 income_statement=self.income_statement,
                 cash_flow=self.cash_flow,

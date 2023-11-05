@@ -8,13 +8,13 @@ Website,https://www.multiconsultgroup.com
 
 REVENUE
 Total Revenue,4567648768.0
-Revenue Per Share,166.271
+Revenue Per Share,166.326
 Revenue Growth,0.115
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.22, forward_eps=11.19)"
 Net Earnings,280806016.0
-Earnings Growth,-0.771
+Earnings Growth,-0.772
 
 DEBT
 Total Debt,1358525056.0
@@ -35,11 +35,11 @@ Trailing Annual Dividend Yield,0.072289154
 FINANCIAL RATIO
 Debt to Equity,140.793
 Price to Cash Flow,4.229775141976805e-07
-Enterprise to EBITDA,10.491
-Price to Book,3.6943212
+Enterprise to EBITDA,10.511
+Price to Book,3.7044876
 Price to Earnings,"PriceToEarnings(trailing_pe=11.986301, forward_pe=10.947275)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.22, forward_eps=11.19)"
-Enterprise to Revenue,1.038
+Enterprise to Revenue,1.04
 
 CASH FLOW
 Free to Cash Flow,289613504.0
@@ -48,18 +48,18 @@ Operating to Cash Flow,464408992.0
 PROFITABILITY
 Return on Equity,0.29747
 Return on Assets,0.0722
-Return on Invested Capital,0.2066991756286474
+Return on Invested Capital,0.20669917564249302
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
 
 PASSES GROWTH CRITERIA
-Earnings History,False
-Revenue History,False
+Earnings,False
+Revenue,False
 Net Income,False
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False

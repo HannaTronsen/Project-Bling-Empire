@@ -1,7 +1,8 @@
 import json
 from typing import Type
+
 import pandas as pd
-from context.yquery_ticker.main.data_classes.date import Date
+
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.const import WRONG_TYPE_STRING
 from context.yquery_ticker.main.data_classes.charts import (
@@ -10,13 +11,12 @@ from context.yquery_ticker.main.data_classes.charts import (
     QuarterlyFinancialsDataChart,
     YearlyFinancialsDataChart
 )
+from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.earnings_history import (
     EarningsHistoryDataClass,
     EPS_ACTUAL, EPS_ESTIMATE,
     EPS_DIFFERENCE, EPS_QUARTER
 )
-from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
-from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
 class HistoricalEarningsData(TimeSeriesDataCollection):
@@ -46,24 +46,14 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
         return earnings_history
 
     @classmethod
-    def evaluate_growth_criteria(cls, chart_list: [Chart], attribute: DictKey) -> bool:
-        if attribute == DictKey.EARNINGS_HISTORY:
-            return cls.passes_percentage_increase_requirements(
-                percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=Chart.sorted(chart_list),
-                    attribute=GrowthCriteria.EARNINGS.__str__
-                ),
-                percentage_requirement=GrowthCriteria.EARNINGS.__percentage_criteria__
-            )
-        elif attribute == DictKey.REVENUE_HISTORY:
-            return cls.passes_percentage_increase_requirements(
-                percentages=cls.calculate_percentage_increase_for_model_list(
-                    model_list=Chart.sorted(chart_list),
-                    attribute=GrowthCriteria.REVENUE.__str__
-                ),
-                percentage_requirement=GrowthCriteria.REVENUE.__percentage_criteria__
-            )
-        raise TypeError(WRONG_TYPE_STRING.format(type=attribute))
+    def evaluate_growth_criteria(cls, chart_list: [Chart], percentage_criteria: int, attribute: str) -> bool:
+        return cls.passes_percentage_increase_requirements(
+            percentages=cls.calculate_percentage_increase_for_model_list(
+                model_list=Chart.sorted(chart_list),
+                attribute=attribute
+            ),
+            percentage_requirement=percentage_criteria
+        )
 
     @classmethod
     def mockk(cls):

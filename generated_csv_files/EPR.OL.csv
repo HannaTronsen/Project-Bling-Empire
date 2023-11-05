@@ -7,23 +7,23 @@ Sector,Consumer Defensive
 Website,https://www.europris.no
 
 REVENUE
-Total Revenue,9327194112.0
-Revenue Per Share,57.819
-Revenue Growth,0.043
+Total Revenue,9429148672.0
+Revenue Per Share,58.556
+Revenue Growth,0.05
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.56, forward_eps=5.61)"
-Net Earnings,937747968.0
-Earnings Growth,-0.203
+Net Earnings,894710976.0
+Earnings Growth,-0.233
 
 DEBT
-Total Debt,4250861056.0
-Debt to Equity,140.937
+Total Debt,3932782080.0
+Debt to Equity,124.465
 
 MARGINS
-Profit Margins,0.10054
-Gross Profit Margins,0.45275003
-Operating Margins,0.15674
+Profit Margins,0.094890006
+Gross Profit Margins,0.44783002
+Operating Margins,0.108839996
 
 DIVIDEND
 Dividend Rate,2.75
@@ -33,33 +33,33 @@ Trailing Annual Dividend Rate,2.75
 Trailing Annual Dividend Yield,0.043581616
 
 FINANCIAL RATIO
-Debt to Equity,140.937
-Price to Cash Flow,6.918425136801411e-08
-Enterprise to EBITDA,None
-Price to Book,3.460912
+Debt to Equity,124.465
+Price to Cash Flow,5.2860662854901265e-08
+Enterprise to EBITDA,9.606
+Price to Book,3.3077362
 Price to Earnings,"PriceToEarnings(trailing_pe=11.465827, forward_pe=11.363636)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.56, forward_eps=5.61)"
-Enterprise to Revenue,None
+Enterprise to Revenue,1.505
 
 CASH FLOW
-Free to Cash Flow,921452480.0
-Operating to Cash Flow,1463660032.0
+Free to Cash Flow,1206000768.0
+Operating to Cash Flow,1792750976.0
 
 PROFITABILITY
-Return on Equity,0.3376
-Return on Assets,0.10165
-Return on Invested Capital,0.2206018854963283
+Return on Equity,0.30396998
+Return on Assets,0.095419995
+Return on Invested Capital,0.22750077512949246
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
 
 PASSES GROWTH CRITERIA
-Earnings History,False
-Revenue History,False
+Earnings,False
+Revenue,False
 Net Income,False
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,True
 Return On Income Capital,False
 Return On Equity,False

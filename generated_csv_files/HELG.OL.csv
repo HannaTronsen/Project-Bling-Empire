@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,HELG.OL
 Company,SpareBank 1 Helgeland
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/nb/helgeland/privat.html
 
@@ -54,12 +54,12 @@ Return on Investment,0.0031932773109243696
 
 
 PASSES GROWTH CRITERIA
-Earnings History,False
-Revenue History,False
+Earnings,False
+Revenue,False
 Net Income,False
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False

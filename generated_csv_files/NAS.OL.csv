@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.norwegian.com
 
 REVENUE
-Total Revenue,23789400064.0
-Revenue Per Share,24.741
-Revenue Growth,0.257
+Total Revenue,23393900544.0
+Revenue Per Share,25.046
+Revenue Growth,0.219
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.41)"
-Net Earnings,1379299968.0
-Earnings Growth,1.651
+Net Earnings,1340899968.0
+Earnings Growth,1.241
 
 DEBT
 Total Debt,13709299712.0
 Debt to Equity,221.887
 
 MARGINS
-Profit Margins,0.06159
-Gross Profit Margins,0.15827
-Operating Margins,0.24733
+Profit Margins,0.06263
+Gross Profit Margins,0.14404
+Operating Margins,0.25492
 
 DIVIDEND
 Dividend Rate,None
@@ -34,32 +34,32 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,221.887
-Price to Cash Flow,2.2026055109340835e-09
-Enterprise to EBITDA,3.973
-Price to Book,1.4895735
+Price to Cash Flow,2.2026371706334873e-09
+Enterprise to EBITDA,5.674
+Price to Book,1.4898053
 Price to Earnings,"PriceToEarnings(trailing_pe=7.3630767, forward_pe=6.7886524)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.41)"
-Enterprise to Revenue,0.568
+Enterprise to Revenue,0.578
 
 CASH FLOW
-Free to Cash Flow,4345762304.0
+Free to Cash Flow,4345699840.0
 Operating to Cash Flow,4375799808.0
 
 PROFITABILITY
 Return on Equity,0.26549
 Return on Assets,0.041199997
-Return on Invested Capital,0.10061053418696145
-Return on Investment,0.012990205010359766
+Return on Invested Capital,0.09780951584258236
+Return on Investment,0.012628554982105859
 
 
 
 PASSES GROWTH CRITERIA
-Earnings History,False
-Revenue History,False
+Earnings,False
+Revenue,False
 Net Income,False
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False

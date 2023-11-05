@@ -30,12 +30,6 @@ class DictKey(Enum):
     RETURN_ON_INVESTED_CAPITAL = 'Return on Invested Capital'
     RETURN_ON_INVESTMENT = 'Return on Investment'
 
-    # Growth Criteria
-    EARNINGS_HISTORY = "Earnings History"
-    REVENUE_HISTORY = "Revenue History"
-    NET_INCOME = "Net Income"
-    BOOK_VALUE_AND_DIVIDENDS = "Book Value + Dividends"
-    SALES = "Sales"
-    ROIC = "Return On Income Capital"
-    ROE = "Return On Equity"
-    OWNER_EARNINGS = "Owner Earnings"
+    @property
+    def __str__(self):
+        return self.value

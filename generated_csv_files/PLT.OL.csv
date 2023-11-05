@@ -36,7 +36,7 @@ FINANCIAL RATIO
 Debt to Equity,1.468
 Price to Cash Flow,-1.3362293689776065e-07
 Enterprise to EBITDA,-7.098
-Price to Book,2.5709352
+Price to Book,3.033479
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.2, forward_eps=None)"
 Enterprise to Revenue,20.014
@@ -48,18 +48,18 @@ Operating to Cash Flow,-91352000.0
 PROFITABILITY
 Return on Equity,-0.31430998
 Return on Assets,-0.17934999
-Return on Invested Capital,-18.56358460033463
+Return on Invested Capital,-18.563587821981418
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
 
 PASSES GROWTH CRITERIA
-Earnings History,False
-Revenue History,False
+Earnings,False
+Revenue,False
 Net Income,False
-Sales,False
-Operating to Cash Flow,False
-Free to Cash Flow,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
