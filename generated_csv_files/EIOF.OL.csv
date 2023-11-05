@@ -61,10 +61,10 @@ Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
-Return On Income Capital,True
-Return On Equity,True
+Return On Income Capital,False
+Return On Equity,False
 Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,3
+CRITERIA PASS COUNT,1

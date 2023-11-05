@@ -60,11 +60,11 @@ Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
-Book Value + Dividends,True
+Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,1
+CRITERIA PASS COUNT,0

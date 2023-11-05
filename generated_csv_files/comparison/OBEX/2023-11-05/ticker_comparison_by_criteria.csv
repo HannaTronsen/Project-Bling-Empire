@@ -1,31 +1,28 @@
 TICKER,COMPANY,WEBSITE,INDUSTRY,SECTOR,PRICE,CURRENCY,CRITERIA PASSED
-GIG.OL,Gaming Innovation Group Inc.,https://www.gig.com,Gambling,Consumer Cyclical,27.5,NOK,5
-NOD.OL,Nordic Semiconductor ASA,https://www.nordicsemi.com,Semiconductors,Technology,91.86,NOK,5
-EIOF.OL,Eidesvik Offshore ASA,https://www.eidesvik.no,Oil & Gas Equipment & Services,Energy,14.54,NOK,3
-NAVA.OL,Navamedic ASA,https://www.navamedic.com,Medical Distribution,Healthcare,38.0,NOK,3
-NHY.OL,Norsk Hydro ASA,https://www.hydro.com,Aluminum,Basic Materials,63.06,NOK,3
-SNI.OL,Stolt-Nielsen Limited,https://www.stolt-nielsen.com,Marine Shipping,Industrials,345.5,NOK,3
-AKER.OL,Aker ASA,https://www.akerasa.com,Conglomerates,Industrials,698.0,NOK,2
+GIG.OL,Gaming Innovation Group Inc.,https://www.gig.com,Gambling,Consumer Cyclical,27.5,NOK,4
 AKSO.OL,Aker Solutions ASA,https://akersolutions.com,Oil & Gas Equipment & Services,Energy,42.84,NOK,2
 SOGN.OL,Sogn Sparebank,https://sognbank.no,Banks - Regional,Financial Services,149.0,NOK,2
+NAVA.OL,Navamedic ASA,https://www.navamedic.com,Medical Distribution,Healthcare,38.0,NOK,2
 NEL.OL,Nel ASA,https://nelhydrogen.com,Specialty Industrial Machinery,Industrials,8.7,NOK,2
+NOD.OL,Nordic Semiconductor ASA,https://www.nordicsemi.com,Semiconductors,Technology,91.86,NOK,2
 SKUE.OL,Skue Sparebank,https://skuesparebank.no,Banks - Regional,Financial Services,220.0,NOK,2
 CARA.OL,Carasent ASA,https://carasent.com,Health Information Services,Healthcare,13.16,NOK,1
 ATEA.OL,Atea ASA,https://www.atea.com,Information Technology Services,Technology,120.6,NOK,1
 ENDUR.OL,Endúr ASA,https://endur.no,Conglomerates,Industrials,39.7,NOK,1
 BMA.OL,Byggma ASA,https://www.byggma.no,Building Products & Equipment,Industrials,16.95,NOK,1
-EPR.OL,Europris ASA,https://www.europris.no,Discount Stores,Consumer Defensive,63.75,NOK,1
+EIOF.OL,Eidesvik Offshore ASA,https://www.eidesvik.no,Oil & Gas Equipment & Services,Energy,14.54,NOK,1
 IDEX.OL,IDEX Biometrics ASA,https://www.idexbiometrics.com,Software - Application,Technology,0.435,NOK,1
 IOX.OL,Interoil Exploration and Production ASA,https://www.interoil.no,Oil & Gas E&P,Energy,0.94,NOK,1
-KIT.OL,Kitron ASA,https://www.kitron.com,Electronic Components,Technology,29.65,NOK,1
-MEDI.OL,Medistim ASA,https://www.medistim.com,Medical Devices,Healthcare,216.0,NOK,1
 NEXT.OL,NEXT Biometrics Group ASA,https://www.nextbiometrics.com,Scientific & Technical Instruments,Technology,5.6,NOK,1
+NHY.OL,Norsk Hydro ASA,https://www.hydro.com,Aluminum,Basic Materials,63.06,NOK,1
 PCIB.OL,PCI Biotech Holding ASA,https://www.pcibiotech.com,Biotechnology,Healthcare,2.055,NOK,1
 REACH.OL,Reach Subsea ASA,https://reachsubsea.no,Oil & Gas Equipment & Services,Energy,4.5,NOK,1
 SSG.OL,Self Storage Group ASA,https://www.selfstoragegroup.no,Specialty Business Services,Industrials,39.7,NOK,1
+SNI.OL,Stolt-Nielsen Limited,https://www.stolt-nielsen.com,Marine Shipping,Industrials,345.5,NOK,1
 VOLUE.OL,Volue ASA,https://www.volue.com,Software - Application,Technology,19.02,NOK,1
 ABG.OL,ABG Sundal Collier Holding ASA,https://www.abgsc.com,Capital Markets,Financial Services,5.38,NOK,0
 AFG.OL,AF Gruppen ASA,https://afgruppen.com,Engineering & Construction,Industrials,123.2,NOK,0
+AKER.OL,Aker ASA,https://www.akerasa.com,Conglomerates,Industrials,698.0,NOK,0
 AKVA.OL,AKVA group ASA,https://www.akvagroup.com,Farm & Heavy Construction Machinery,Industrials,75.4,NOK,0
 AMSC.OL,AMSC ASA,https://www.amscasa.com,Marine Shipping,Industrials,27.55,NOK,0
 AFK.OL,Arendals Fossekompani ASA,https://arendalsfossekompani.no,Conglomerates,Industrials,131.8,NOK,0
@@ -46,6 +43,7 @@ ELK.OL,Elkem ASA,https://www.elkem.com,Specialty Chemicals,Basic Materials,18.07
 EMGS.OL,Electromagnetic Geoservices ASA,https://www.emgs.com,Oil & Gas Equipment & Services,Energy,2.2,NOK,0
 ENTRA.OL,Entra ASA,https://www.entra.no,Real Estate Services,Real Estate,94.75,NOK,0
 EQNR.OL,Equinor ASA,https://www.equinor.com,Oil & Gas Integrated,Energy,366.75,NOK,0
+EPR.OL,Europris ASA,https://www.europris.no,Discount Stores,Consumer Defensive,63.75,NOK,0
 FLNG.OL,FLEX LNG Ltd.,https://www.flexlng.com,Oil & Gas Midstream,Energy,344.0,NOK,0
 FRO.OL,Frontline plc,https://www.frontlineplc.cy,Oil & Gas Midstream,Energy,249.0,NOK,0
 RISH.OL,GC Rieber Shipping ASA,https://www.gcrieber-shipping.com,Marine Shipping,Industrials,5.5,NOK,0
@@ -59,10 +57,12 @@ HEX.OL,Hexagon Composites ASA,https://www.hexagongroup.com,Packaging & Container
 HSPG.OL,Høland og Setskog Sparebank,https://www.hsbank.no,Banks - Regional,Financial Services,127.0,NOK,0
 JIN.OL,Jinhui Shipping and Transportation Limited,https://www.jinhuiship.com,Marine Shipping,Industrials,6.18,NOK,0
 KID.OL,Kid ASA,https://www.kid.no,Specialty Retail,Consumer Cyclical,93.3,NOK,0
+KIT.OL,Kitron ASA,https://www.kitron.com,Electronic Components,Technology,29.65,NOK,0
 KOA.OL,Kongsberg Automotive ASA,https://www.kongsbergautomotive.com,Auto Parts,Consumer Cyclical,2.058,NOK,0
 KOG.OL,Kongsberg Gruppen ASA,https://www.kongsberg.com,Aerospace & Defense,Industrials,450.6,NOK,0
 LSG.OL,Lerøy Seafood Group ASA,https://www.leroyseafood.com,Packaged Foods,Consumer Defensive,44.42,NOK,0
 MOWI.OL,Mowi ASA,https://www.mowi.com,Farm Products,Consumer Defensive,180.55,NOK,0
+MEDI.OL,Medistim ASA,https://www.medistim.com,Medical Devices,Healthcare,216.0,NOK,0
 MELG.OL,Melhus Sparebank,https://www.melhusbanken.no,Banks - Regional,Financial Services,160.0,NOK,0
 MULTI.OL,Multiconsult ASA,https://www.multiconsultgroup.com,Engineering & Construction,Industrials,122.5,NOK,0
 NAPA.OL,Napatech A/S,https://www.napatech.com,Communication Equipment,Technology,12.6,NOK,0
