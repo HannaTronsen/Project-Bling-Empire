@@ -3,5 +3,5 @@ from .country import Country
 
 
 class Currency(Enum):
-    NOK = Country.NO
-    USD = Country.US
+    NOK = "NOK"
+    USD = "USD"

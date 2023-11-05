@@ -13,6 +13,7 @@ from const import (
 )
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass, Section
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
+from context.yquery_ticker.main.enums.currency import Currency
 from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.errors.generic_error import GenericError
 
@@ -81,13 +82,14 @@ def generate_comparable_csv_for_tickers(tickers: list[GlobalStockDataClass]):
                 newline=''
         ) as file:
             writer = csv.writer(file)
-            writer.writerow(["TICKER", "COMPANY", "WEBSITE", "INDUSTRY", "SECTOR", "CRITERIA PASSED"])
+            writer.writerow(["TICKER", "COMPANY", "WEBSITE", "INDUSTRY", "SECTOR", "PRICE", "CURRENCY", "CRITERIA PASSED"])
             for ticker in tickers:
                 ticker_symbol = ticker.general_stock_info.ticker
                 company_name = ticker.general_stock_info.company
                 website = ticker.general_stock_info.website
                 industry = ticker.general_stock_info.industry
                 sector = ticker.general_stock_info.sector
+                price = ticker.financial_data.price
                 criteria_pass_count = ticker.criteria_pass_count
 
                 writer.writerow([
@@ -96,6 +98,8 @@ def generate_comparable_csv_for_tickers(tickers: list[GlobalStockDataClass]):
                     website,
                     industry,
                     sector,
+                    price,
+                    Currency.NOK.value,
                     criteria_pass_count,
                 ])
         file.close()
