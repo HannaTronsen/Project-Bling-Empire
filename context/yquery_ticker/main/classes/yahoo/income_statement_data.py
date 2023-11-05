@@ -1,5 +1,4 @@
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
-from context.yquery_ticker.main.const import WRONG_TYPE_STRING
 from context.yquery_ticker.main.data_classes.date import Date, PeriodType
 from context.yquery_ticker.main.data_classes.expenses import Expenses
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import (
@@ -13,8 +12,6 @@ from context.yquery_ticker.main.data_classes.yq_data_frame_data.yq_data_frame_da
     PERIOD_TYPE,
     AS_OF_DATE, YQDataFrameData,
 )
-from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
-from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 
 class IncomeStatementData(TimeSeriesDataCollection):

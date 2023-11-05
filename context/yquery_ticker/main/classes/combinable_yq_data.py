@@ -24,119 +24,132 @@ class CombinableYQData(TimeSeriesDataCollection):
         self.cash_flow = cash_flow
         self.income_statement = income_statement
 
-    def combine_process_and_evaluate_growth_criteria(self):
+    def book_value_and_dividends(self) -> bool:
         result = []
-        if self.combination == GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS:
-            for balance_sheet_entry in self.balance_sheet.entries:
-                cashDividendsPaid = self.cash_flow.get_entry_of(
-                    as_of_date=balance_sheet_entry.asOfDate,
-                    period_type=balance_sheet_entry.periodType,
-                ).cashDividendsPaid
+        for balance_sheet_entry in self.balance_sheet.entries:
+            cashDividendsPaid = self.cash_flow.get_entry_of(
+                as_of_date=balance_sheet_entry.asOfDate,
+                period_type=balance_sheet_entry.periodType,
+            ).cashDividendsPaid
+            result.append(
+                CombinableDataClass(
+                    asOfDate=balance_sheet_entry.asOfDate,
+                    periodType=balance_sheet_entry.periodType,
+                    value=balance_sheet_entry.commonStockEquity + abs(cashDividendsPaid)
+                )
+            )
+        return self.passes_percentage_increase_requirements(
+            percentages=self.calculate_percentage_increase_for_model_list(
+                model_list=YQDataFrameData.sorted(result),
+                attribute="value"
+            ),
+            percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
+        )
+
+    def return_on_income_capital(self) -> bool:
+        result = []
+        for balance_sheet_entry in self.balance_sheet.entries:
+            net_income = self.income_statement.get_entry_of(
+                as_of_date=balance_sheet_entry.asOfDate,
+                period_type=balance_sheet_entry.periodType
+            ).netIncome
+            denominator = balance_sheet_entry.commonStockEquity + balance_sheet_entry.totalDebt
+            if denominator != 0:
                 result.append(
                     CombinableDataClass(
                         asOfDate=balance_sheet_entry.asOfDate,
                         periodType=balance_sheet_entry.periodType,
-                        value=balance_sheet_entry.commonStockEquity + abs(cashDividendsPaid)
+                        value=net_income / denominator
                     )
                 )
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(result),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.__percentage_criteria__
-            )
-        elif self.combination == GrowthCriteria.ROIC:
-            for balance_sheet_entry in self.balance_sheet.entries:
-                net_income = self.income_statement.get_entry_of(
-                    as_of_date=balance_sheet_entry.asOfDate,
-                    period_type=balance_sheet_entry.periodType
-                ).netIncome
-                denominator = balance_sheet_entry.commonStockEquity + balance_sheet_entry.totalDebt
-                if denominator != 0:
-                    result.append(
-                        CombinableDataClass(
-                            asOfDate=balance_sheet_entry.asOfDate,
-                            periodType=balance_sheet_entry.periodType,
-                            value=net_income / denominator
-                        )
-                    )
-                else:
-                    result.append(
-                        CombinableDataClass(
-                            asOfDate=balance_sheet_entry.asOfDate,
-                            periodType=balance_sheet_entry.periodType,
-                            value=0
-                        )
-                    )
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(result),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
-            )
-        elif self.combination == GrowthCriteria.ROE:
-            for balance_sheet_entry in self.balance_sheet.entries:
-                net_income = self.income_statement.get_entry_of(
-                    as_of_date=balance_sheet_entry.asOfDate,
-                    period_type=balance_sheet_entry.periodType
-                ).netIncome
-                denominator = balance_sheet_entry.commonStockEquity
-                if denominator != 0:
-                    result.append(
-                        CombinableDataClass(
-                            asOfDate=balance_sheet_entry.asOfDate,
-                            periodType=balance_sheet_entry.periodType,
-                            value=net_income / denominator
-                        )
-                    )
-                else:
-                    result.append(
-                        CombinableDataClass(
-                            asOfDate=balance_sheet_entry.asOfDate,
-                            periodType=balance_sheet_entry.periodType,
-                            value=0
-                        )
-                    )
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(result),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.ROE.__percentage_criteria__
-            )
-        elif self.combination == GrowthCriteria.OWNER_EARNINGS:
-            for income_statement_entry in self.income_statement.entries:
-                cash_flow_entry = self.cash_flow.get_entry_of(
-                    as_of_date=income_statement_entry.asOfDate,
-                    period_type=income_statement_entry.periodType,
-                )
-                balance_sheet_entry = self.balance_sheet.get_entry_of(
-                    as_of_date=income_statement_entry.asOfDate,
-                    period_type=income_statement_entry.periodType
-                )
-
+            else:
                 result.append(
                     CombinableDataClass(
-                        asOfDate=income_statement_entry.asOfDate,
-                        periodType=income_statement_entry.periodType,
-                        value=(abs(income_statement_entry.netIncome) +
-                               abs(cash_flow_entry.depreciationAndAmortization) +
-                               abs(balance_sheet_entry.accountsReceivable) +
-                               abs(balance_sheet_entry.accountsPayable) +
-                               abs(income_statement_entry.taxProvision) +
-                               abs(cash_flow_entry.capitalExpenditure)
-                               )
+                        asOfDate=balance_sheet_entry.asOfDate,
+                        periodType=balance_sheet_entry.periodType,
+                        value=0
                     )
                 )
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(result),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.OWNER_EARNINGS.__percentage_criteria__
-            )
+        return self.passes_percentage_increase_requirements(
+            percentages=self.calculate_percentage_increase_for_model_list(
+                model_list=YQDataFrameData.sorted(result),
+                attribute="value"
+            ),
+            percentage_requirement=GrowthCriteria.ROIC.__percentage_criteria__
+        )
 
+    def return_on_equity(self) -> bool:
+        result = []
+        for balance_sheet_entry in self.balance_sheet.entries:
+            net_income = self.income_statement.get_entry_of(
+                as_of_date=balance_sheet_entry.asOfDate,
+                period_type=balance_sheet_entry.periodType
+            ).netIncome
+            denominator = balance_sheet_entry.commonStockEquity
+            if denominator != 0:
+                result.append(
+                    CombinableDataClass(
+                        asOfDate=balance_sheet_entry.asOfDate,
+                        periodType=balance_sheet_entry.periodType,
+                        value=net_income / denominator
+                    )
+                )
+            else:
+                result.append(
+                    CombinableDataClass(
+                        asOfDate=balance_sheet_entry.asOfDate,
+                        periodType=balance_sheet_entry.periodType,
+                        value=0
+                    )
+                )
+        return self.passes_percentage_increase_requirements(
+            percentages=self.calculate_percentage_increase_for_model_list(
+                model_list=YQDataFrameData.sorted(result),
+                attribute="value"
+            ),
+            percentage_requirement=GrowthCriteria.ROE.__percentage_criteria__
+        )
+
+    def owner_earnings(self) -> bool:
+        result = []
+        for income_statement_entry in self.income_statement.entries:
+            cash_flow_entry = self.cash_flow.get_entry_of(
+                as_of_date=income_statement_entry.asOfDate,
+                period_type=income_statement_entry.periodType,
+            )
+            balance_sheet_entry = self.balance_sheet.get_entry_of(
+                as_of_date=income_statement_entry.asOfDate,
+                period_type=income_statement_entry.periodType
+            )
+            result.append(
+                CombinableDataClass(
+                    asOfDate=income_statement_entry.asOfDate,
+                    periodType=income_statement_entry.periodType,
+                    value=(abs(income_statement_entry.netIncome) +
+                           abs(cash_flow_entry.depreciationAndAmortization) +
+                           abs(balance_sheet_entry.accountsReceivable) +
+                           abs(balance_sheet_entry.accountsPayable) +
+                           abs(income_statement_entry.taxProvision) +
+                           abs(cash_flow_entry.capitalExpenditure)
+                           )
+                )
+            )
+        return self.passes_percentage_increase_requirements(
+            percentages=self.calculate_percentage_increase_for_model_list(
+                model_list=YQDataFrameData.sorted(result),
+                attribute="value"
+            ),
+            percentage_requirement=GrowthCriteria.OWNER_EARNINGS.__percentage_criteria__
+        )
+
+    def combine_process_and_evaluate_growth_criteria(self):
+        if self.combination == GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS:
+            return self.book_value_and_dividends()
+        elif self.combination == GrowthCriteria.ROIC:
+            return self.return_on_income_capital()
+        elif self.combination == GrowthCriteria.ROE:
+            return self.return_on_equity()
+        elif self.combination == GrowthCriteria.OWNER_EARNINGS:
+            return self.owner_earnings()
         else:
             raise TypeError(WRONG_TYPE_STRING.format(type=self.combination))
