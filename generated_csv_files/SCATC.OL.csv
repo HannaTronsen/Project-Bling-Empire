@@ -7,9 +7,9 @@ Sector,Utilities
 Website,https://scatec.com
 
 REVENUE
-Total Revenue,3340999936.0
-Revenue Per Share,20.993
-Revenue Growth,0.208
+Total Revenue,3265999872.0
+Revenue Per Share,20.544
+Revenue Growth,0.026
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.11, forward_eps=3.25)"
@@ -17,38 +17,38 @@ Net Earnings,-176000000.0
 Earnings Growth,-0.825
 
 DEBT
-Total Debt,26173999104.0
-Debt to Equity,259.226
+Total Debt,26051000320.0
+Debt to Equity,258.007
 
 MARGINS
-Profit Margins,-0.05268
+Profit Margins,-0.05389
 Gross Profit Margins,1.0
-Operating Margins,0.51003
+Operating Margins,0.42289
 
 DIVIDEND
 Dividend Rate,1.94
 Dividend Yield,0.028299998
 Five Year Avg Dividend Yield,1.22
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,1.94
+Trailing Annual Dividend Yield,0.028279886
 
 FINANCIAL RATIO
-Debt to Equity,259.226
-Price to Cash Flow,-1.1500177887299705e-08
-Enterprise to EBITDA,15.902
-Price to Book,1.2614468
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=21.107693)"
+Debt to Equity,258.007
+Price to Cash Flow,-1.1629336912101675e-08
+Enterprise to EBITDA,16.355
+Price to Book,1.2035707
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=20.36923)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.11, forward_eps=3.25)"
-Enterprise to Revenue,10.281
+Enterprise to Revenue,10.441
 
 CASH FLOW
-Free to Cash Flow,-5965125120.0
+Free to Cash Flow,-5692499968.0
 Operating to Cash Flow,5279000064.0
 
 PROFITABILITY
 Return on Equity,-0.0034999999
-Return on Assets,0.032679997
-Return on Invested Capital,-0.006724230368275132
+Return on Assets,0.0183
+Return on Invested Capital,-0.0067559785599972276
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

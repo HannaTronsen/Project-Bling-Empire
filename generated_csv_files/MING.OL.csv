@@ -7,21 +7,21 @@ Sector,Financial Services
 Website,https://www.sparebank1.no/nb/smn
 
 REVENUE
-Total Revenue,6755999744.0
-Revenue Per Share,46.982
+Total Revenue,6761999872.0
+Revenue Per Share,36.431
 Revenue Growth,0.192
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=13.62, forward_eps=15.89)"
-Net Earnings,2820000000.0
-Earnings Growth,0.761
+Net Earnings,2734000128.0
+Earnings Growth,0.135
 
 DEBT
 Total Debt,58169999360.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.45811
+Profit Margins,0.4577
 Gross Profit Margins,0.0
 Operating Margins,0.57874
 
@@ -36,10 +36,10 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.7019141
-Price to Earnings,"PriceToEarnings(trailing_pe=9.515419, forward_pe=8.156074)"
+Price to Book,0.755197
+Price to Earnings,"PriceToEarnings(trailing_pe=9.676946, forward_pe=8.294525)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=13.62, forward_eps=15.89)"
-Enterprise to Revenue,8.106
+Enterprise to Revenue,10.015
 
 CASH FLOW
 Free to Cash Flow,None
@@ -48,7 +48,7 @@ Operating to Cash Flow,None
 PROFITABILITY
 Return on Equity,0.12507
 Return on Assets,0.01388
-Return on Invested Capital,0.048478597594555806
+Return on Invested Capital,0.04700017448646129
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

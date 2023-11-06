@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.byggma.no
 
 REVENUE
-Total Revenue,2241146880.0
-Revenue Per Share,32.121
-Revenue Growth,-0.157
+Total Revenue,2223166976.0
+Revenue Per Share,31.816
+Revenue Growth,-0.168
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
-Net Earnings,128510000.0
-Earnings Growth,-0.543
+Net Earnings,143610000.0
+Earnings Growth,-0.477
 
 DEBT
 Total Debt,1479299968.0
 Debt to Equity,153.486
 
 MARGINS
-Profit Margins,0.057340004
-Gross Profit Margins,0.5346
-Operating Margins,0.05355
+Profit Margins,0.0646
+Gross Profit Margins,0.53088003
+Operating Margins,0.04147
 
 DIVIDEND
 Dividend Rate,1.0
@@ -34,22 +34,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,153.486
-Price to Cash Flow,3.095367562388731e-07
-Enterprise to EBITDA,8.577
-Price to Book,1.2244456
-Price to Earnings,"PriceToEarnings(trailing_pe=8.268293, forward_pe=None)"
+Price to Cash Flow,1.387011096286327e-07
+Enterprise to EBITDA,8.53
+Price to Book,1.2206607
+Price to Earnings,"PriceToEarnings(trailing_pe=8.219513, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
-Enterprise to Revenue,1.172
+Enterprise to Revenue,1.182
 
 CASH FLOW
-Free to Cash Flow,54759248.0
+Free to Cash Flow,121484248.0
 Operating to Cash Flow,221979008.0
 
 PROFITABILITY
-Return on Equity,0.16398
-Return on Assets,0.049650002
-Return on Invested Capital,0.0868721703355222
-Return on Investment,0.03905722882411938
+Return on Equity,0.18325001
+Return on Assets,0.04994
+Return on Invested Capital,0.09707970105216132
+Return on Investment,0.04364647600522749
 
 
 
