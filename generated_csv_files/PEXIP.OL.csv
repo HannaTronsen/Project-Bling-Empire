@@ -23,7 +23,7 @@ Debt to Equity,3.499
 MARGINS
 Profit Margins,-0.08716
 Gross Profit Margins,0.33606
-Operating Margins,-0.10358
+Operating Margins,-0.077
 
 DIVIDEND
 Dividend Rate,None
@@ -34,20 +34,20 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,3.499
-Price to Cash Flow,1.1471575028112851e-07
-Enterprise to EBITDA,82.654
-Price to Book,1.2439833
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=34.91228)"
+Price to Cash Flow,1.281940421563554e-07
+Enterprise to EBITDA,-221.738
+Price to Book,1.2396075
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=34.789474)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.57)"
-Enterprise to Revenue,1.589
+Enterprise to Revenue,1.616
 
 CASH FLOW
-Free to Cash Flow,173472256.0
+Free to Cash Flow,154687376.0
 Operating to Cash Flow,75655000.0
 
 PROFITABILITY
 Return on Equity,-0.05134
-Return on Assets,-0.0124699995
+Return on Assets,-0.02012
 Return on Invested Capital,-1.4967910383576855
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 

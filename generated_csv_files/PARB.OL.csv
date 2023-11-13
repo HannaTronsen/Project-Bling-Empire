@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,PARB.OL
 Company,Pareto Bank ASA
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.paretobank.no
 
@@ -12,7 +12,7 @@ Revenue Per Share,14.399
 Revenue Growth,0.138
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.06, forward_eps=7.94)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.94)"
 Net Earnings,612694976.0
 Earnings Growth,0.201
 
@@ -36,9 +36,9 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.7555044
-Price to Earnings,"PriceToEarnings(trailing_pe=6.513647, forward_pe=6.6120906)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.06, forward_eps=7.94)"
+Price to Book,0.7353576
+Price to Earnings,"PriceToEarnings(trailing_pe=6.5935483, forward_pe=6.435768)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.94)"
 Enterprise to Revenue,None
 
 CASH FLOW
@@ -49,7 +49,7 @@ PROFITABILITY
 Return on Equity,0.13758999
 Return on Assets,0.02609
 Return on Invested Capital,0.07279255977193405
-Return on Investment,0.011681550282365233
+Return on Investment,0.009194888758492248
 
 
 

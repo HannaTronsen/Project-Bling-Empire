@@ -8,13 +8,13 @@ Website,https://www.odfjelldrilling.com
 
 REVENUE
 Total Revenue,707500032.0
-Revenue Per Share,3.359
+Revenue Per Share,2.988
 Revenue Growth,0.129
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.65, forward_eps=0.28)"
-Net Earnings,218400000.0
-Earnings Growth,18.859
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.68, forward_eps=0.28)"
+Net Earnings,225200000.0
+Earnings Growth,18.839
 
 DEBT
 Total Debt,796499968.0
@@ -27,29 +27,29 @@ Operating Margins,1.0973101
 
 DIVIDEND
 Dividend Rate,2.68
-Dividend Yield,0.0655
+Dividend Yield,0.0728
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,0.06
+Trailing Annual Dividend Yield,0.0016326531
 
 FINANCIAL RATIO
 Debt to Equity,57.646
-Price to Cash Flow,1.622824767300688e-07
-Enterprise to EBITDA,22.077
-Price to Book,6.8652625
-Price to Earnings,"PriceToEarnings(trailing_pe=3.7652583, forward_pe=143.21428)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.65, forward_eps=0.28)"
-Enterprise to Revenue,14.613
+Price to Cash Flow,1.3938273572286897e-07
+Enterprise to EBITDA,20.748
+Price to Book,6.2982006
+Price to Earnings,"PriceToEarnings(trailing_pe=3.4410112, forward_pe=131.25)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.68, forward_eps=0.28)"
+Enterprise to Revenue,13.253
 
 CASH FLOW
-Free to Cash Flow,247100000.0
+Free to Cash Flow,263662496.0
 Operating to Cash Flow,275800000.0
 
 PROFITABILITY
 Return on Equity,0.17097001
 Return on Assets,0.084960006
-Return on Invested Capital,0.2741996323575495
-Return on Investment,0.031976573938506586
+Return on Invested Capital,0.282736983550299
+Return on Investment,0.03297218155197657
 
 
 

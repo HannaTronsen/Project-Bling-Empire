@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.akvagroup.com
 
 REVENUE
-Total Revenue,3385180928.0
-Revenue Per Share,93.039
-Revenue Growth,0.036
+Total Revenue,3362377984.0
+Revenue Per Share,92.373
+Revenue Growth,-0.027
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-3.01, forward_eps=3.76)"
-Net Earnings,-109306000.0
+Net Earnings,-19662000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1388323968.0
-Debt to Equity,113.487
+Total Debt,1379827968.0
+Debt to Equity,116.242
 
 MARGINS
-Profit Margins,-0.03229
-Gross Profit Margins,0.38247
-Operating Margins,0.04039
+Profit Margins,-0.00585
+Gross Profit Margins,0.39481
+Operating Margins,0.03518
 
 DIVIDEND
 Dividend Rate,2.0
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,113.487
-Price to Cash Flow,5.989557679046399e-06
-Enterprise to EBITDA,94.616
-Price to Book,2.2643309
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=20.212767)"
+Debt to Equity,116.242
+Price to Cash Flow,-6.173342754999946e-07
+Enterprise to EBITDA,43.589
+Price to Book,2.4040399
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=20.638298)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-3.01, forward_eps=3.76)"
-Enterprise to Revenue,1.159
+Enterprise to Revenue,1.168
 
 CASH FLOW
-Free to Cash Flow,12688750.0
-Operating to Cash Flow,234646000.0
+Free to Cash Flow,-125701752.0
+Operating to Cash Flow,80566000.0
 
 PROFITABILITY
-Return on Equity,-0.08753
-Return on Assets,-0.0039399997
-Return on Invested Capital,-0.07873234192945064
-Return on Investment,0.3323380966859228
+Return on Equity,-0.01653
+Return on Assets,0.00442
+Return on Invested Capital,-0.014249602121441484
+Return on Investment,0.05978108847674065
 
 
 

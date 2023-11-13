@@ -7,23 +7,23 @@ Sector,Communication Services
 Website,https://www.polarismedia.no
 
 REVENUE
-Total Revenue,3663977984.0
-Revenue Per Share,77.056
-Revenue Growth,0.026
+Total Revenue,3652477952.0
+Revenue Per Share,74.655
+Revenue Growth,-0.013
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.27, forward_eps=None)"
-Net Earnings,90138000.0
-Earnings Growth,6.339
+Net Earnings,13438000.0
+Earnings Growth,-0.918
 
 DEBT
-Total Debt,1009500032.0
-Debt to Equity,27.924
+Total Debt,1130499968.0
+Debt to Equity,31.031
 
 MARGINS
-Profit Margins,0.024600001
-Gross Profit Margins,0.31518
-Operating Margins,0.02558
+Profit Margins,0.00368
+Gross Profit Margins,0.31043
+Operating Margins,0.01722
 
 DIVIDEND
 Dividend Rate,1.5
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,1.5
 Trailing Annual Dividend Yield,0.028846154
 
 FINANCIAL RATIO
-Debt to Equity,27.924
-Price to Cash Flow,8.5137561998155e-07
-Enterprise to EBITDA,30.318
-Price to Book,0.7141582
+Debt to Equity,31.031
+Price to Cash Flow,5.126176496938174e-07
+Enterprise to EBITDA,47.454
+Price to Book,0.7128561
 Price to Earnings,"PriceToEarnings(trailing_pe=192.59259, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.27, forward_eps=None)"
-Enterprise to Revenue,0.911
+Enterprise to Revenue,0.98
 
 CASH FLOW
-Free to Cash Flow,61077624.0
-Operating to Cash Flow,140871008.0
+Free to Cash Flow,101440128.0
+Operating to Cash Flow,157771008.0
 
 PROFITABILITY
-Return on Equity,0.028280001
-Return on Assets,0.0013
-Return on Invested Capital,0.08928973812904872
-Return on Investment,0.13589326096788784
+Return on Equity,0.00468
+Return on Assets,-0.00232
+Return on Invested Capital,0.011886775332405215
+Return on Investment,0.030313557410331603
 
 
 

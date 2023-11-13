@@ -7,48 +7,48 @@ Sector,Consumer Defensive
 Website,https://www.salmar.no
 
 REVENUE
-Total Revenue,23845675008.0
-Revenue Per Share,188.606
-Revenue Growth,0.412
+Total Revenue,26410676224.0
+Revenue Per Share,202.705
+Revenue Growth,0.526
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.64, forward_eps=34.0)"
-Net Earnings,908582976.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.54, forward_eps=34.0)"
+Net Earnings,958582976.0
+Earnings Growth,0.632
 
 DEBT
-Total Debt,23320000512.0
-Debt to Equity,105.163
+Total Debt,16472999936.0
+Debt to Equity,76.708
 
 MARGINS
-Profit Margins,0.05389
-Gross Profit Margins,0.54186
-Operating Margins,0.36337003
+Profit Margins,0.06516
+Gross Profit Margins,0.59537
+Operating Margins,0.39238998
 
 DIVIDEND
 Dividend Rate,20.0
-Dividend Yield,0.0373
+Dividend Yield,0.0352
 Five Year Avg Dividend Yield,5.08
 Trailing Annual Dividend Rate,20.0
-Trailing Annual Dividend Yield,0.0373413
+Trailing Annual Dividend Yield,0.035174113
 
 FINANCIAL RATIO
-Debt to Equity,105.163
-Price to Cash Flow,-6.331223951264338e-08
-Enterprise to EBITDA,14.142
-Price to Book,3.997271
-Price to Earnings,"PriceToEarnings(trailing_pe=80.30121, forward_pe=15.682353)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.64, forward_eps=34.0)"
-Enterprise to Revenue,4.092
+Debt to Equity,76.708
+Price to Cash Flow,-1.3955501896507437e-06
+Enterprise to EBITDA,10.098
+Price to Book,4.0620575
+Price to Earnings,"PriceToEarnings(trailing_pe=87.67584, forward_pe=16.864706)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.54, forward_eps=34.0)"
+Enterprise to Revenue,3.536
 
 CASH FLOW
-Free to Cash Flow,-8421752320.0
-Operating to Cash Flow,6024860160.0
+Free to Cash Flow,-410877376.0
+Operating to Cash Flow,7576860160.0
 
 PROFITABILITY
-Return on Equity,0.0675
-Return on Assets,0.07739
-Return on Invested Capital,0.03896153305551361
+Return on Equity,0.06826
+Return on Assets,0.11921
+Return on Invested Capital,0.05819115956474049
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

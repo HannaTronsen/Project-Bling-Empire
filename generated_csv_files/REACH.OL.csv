@@ -7,49 +7,49 @@ Sector,Energy
 Website,https://reachsubsea.no
 
 REVENUE
-Total Revenue,1563353984.0
-Revenue Per Share,8.02
-Revenue Growth,0.867
+Total Revenue,1849179008.0
+Revenue Per Share,7.753
+Revenue Growth,0.782
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.67, forward_eps=0.49)"
-Net Earnings,154535008.0
-Earnings Growth,0.889
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.63, forward_eps=0.49)"
+Net Earnings,180782000.0
+Earnings Growth,0.13
 
 DEBT
-Total Debt,1345172992.0
-Debt to Equity,180.537
+Total Debt,1348728064.0
+Debt to Equity,163.869
 
 MARGINS
-Profit Margins,0.098850004
-Gross Profit Margins,0.78773004
-Operating Margins,0.23289
+Profit Margins,0.09776
+Gross Profit Margins,0.78433
+Operating Margins,0.1726
 
 DIVIDEND
 Dividend Rate,0.18
-Dividend Yield,0.04
+Dividend Yield,0.038900003
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.18
-Trailing Annual Dividend Yield,0.040000003
+Trailing Annual Dividend Yield,0.03887689
 
 FINANCIAL RATIO
-Debt to Equity,180.537
-Price to Cash Flow,1.484911385888168e-08
-Enterprise to EBITDA,8.705
-Price to Book,1.6592389
-Price to Earnings,"PriceToEarnings(trailing_pe=7.223881, forward_pe=9.877551)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.67, forward_eps=0.49)"
-Enterprise to Revenue,1.513
+Debt to Equity,163.869
+Price to Cash Flow,1.2022916649593765e-08
+Enterprise to EBITDA,7.464
+Price to Book,1.3842335
+Price to Earnings,"PriceToEarnings(trailing_pe=7.0793653, forward_pe=9.10204)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.63, forward_eps=0.49)"
+Enterprise to Revenue,1.295
 
 CASH FLOW
-Free to Cash Flow,325945376.0
-Operating to Cash Flow,577891968.0
+Free to Cash Flow,370958240.0
+Operating to Cash Flow,643075968.0
 
 PROFITABILITY
-Return on Equity,0.24566
-Return on Assets,0.083179995
-Return on Invested Capital,0.11488114062945125
-Return on Investment,-0.01623642102166467
+Return on Equity,0.26047
+Return on Assets,0.09729
+Return on Invested Capital,0.13403888032993932
+Return on Investment,-0.02043427150446479
 
 
 

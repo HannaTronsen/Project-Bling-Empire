@@ -12,19 +12,20 @@ from const import (
     OBEX_COMPARISON_CSV_FILES_PATH
 )
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass, Section
+from context.yquery_ticker.main.const import DATA_NOT_AVAILABLE
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.enums.currency import Currency
-from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.errors.generic_error import GenericError
 
 
 def passed_yahoo_query_validation_check(ticker_symbol: str, ticker: Ticker) -> bool:
     try:
-        if "Quote not found for ticker symbol" in ticker.summary_detail.get(ticker_symbol) or \
-                "Quote not found for ticker symbol" in ticker.financial_data.get(ticker_symbol) or \
-                "Quote not found for ticker symbol" in ticker.key_stats.get(ticker_symbol) or \
+        if DATA_NOT_AVAILABLE in ticker.summary_detail.get(ticker_symbol) or \
+                DATA_NOT_AVAILABLE in ticker.financial_data.get(ticker_symbol) or \
+                DATA_NOT_AVAILABLE in ticker.key_stats.get(ticker_symbol) or \
+                DATA_NOT_AVAILABLE in ticker.earnings[ticker_symbol] or \
                 ticker.earnings.items() == {} or \
-                ticker.cash_flow().empty:
+                isinstance(ticker.cash_flow(), str) or ticker.cash_flow().empty is True:
             return False
     except Exception as e:
         print(f"Failed yahoo query validation check for ticker: {ticker_symbol} - {e}")

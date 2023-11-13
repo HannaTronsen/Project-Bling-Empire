@@ -4,6 +4,7 @@ RELATIVE_PATH = 'context/yquery_ticker'
 YQUERY_TEST_PATH = f'{RELATIVE_PATH}/tests/'
 DEFAULT_CASH_FLOW_METRIC = CashFlowType.FREE_CASH_FLOW
 
+DATA_NOT_AVAILABLE = "No fundamentals data found for"
 ATTRIBUTE_ERROR_STRING = "Failed to retrieve attribute '{attribute}' from chart at index {index}"
 WRONG_TYPE_STRING = "Wrong type: {type}."
 INVALID_LIST_LENGTH_STRING = "List of values is either empty or too small: {list}."

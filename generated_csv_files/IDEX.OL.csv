@@ -7,23 +7,23 @@ Sector,Technology
 Website,https://www.idexbiometrics.com
 
 REVENUE
-Total Revenue,4698000.0
+Total Revenue,4720000.0
 Revenue Per Share,0.004
-Revenue Growth,0.32
+Revenue Growth,0.024
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=-1.59)"
-Net Earnings,-29978000.0
+Net Earnings,-27984000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,2140000.0
-Debt to Equity,10.914
+Total Debt,1976000.0
+Debt to Equity,15.009
 
 MARGINS
 Profit Margins,0.0
-Gross Profit Margins,0.23521
-Operating Margins,-5.03623
+Gross Profit Margins,0.25699
+Operating Margins,-7.12316
 
 DIVIDEND
 Dividend Rate,None
@@ -33,22 +33,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,10.914
-Price to Cash Flow,-2.2855431342937257e-08
-Enterprise to EBITDA,-19.466
-Price to Book,28.0
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.26415092)"
+Debt to Equity,15.009
+Price to Cash Flow,-2.3501503547767232e-08
+Enterprise to EBITDA,-11.264
+Price to Book,22.552631
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.26949686)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=-1.59)"
-Enterprise to Revenue,119.979
+Enterprise to Revenue,65.549
 
 CASH FLOW
-Free to Cash Flow,-18376376.0
-Operating to Cash Flow,-30043000.0
+Free to Cash Flow,-18232876.0
+Operating to Cash Flow,-29999000.0
 
 PROFITABILITY
-Return on Equity,-1.41396
-Return on Assets,-0.70885
-Return on Invested Capital,-14.008411116763472
+Return on Equity,-1.9948
+Return on Assets,-0.92026
+Return on Invested Capital,-14.161943183665526
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
