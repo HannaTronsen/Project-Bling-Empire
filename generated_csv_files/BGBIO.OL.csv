@@ -8,22 +8,22 @@ Website,https://www.bergenbio.com
 
 REVENUE
 Total Revenue,389000.0
-Revenue Per Share,0.003
+Revenue Per Share,0.0
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.65, forward_eps=-0.09)"
-Net Earnings,-257819008.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.08)"
+Net Earnings,-225954000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,0.0
-Debt to Equity,None
+Total Debt,101000.0
+Debt to Equity,0.063
 
 MARGINS
 Profit Margins,0.0
 Gross Profit Margins,1.0
-Operating Margins,-665.85095
+Operating Margins,-577.57324
 
 DIVIDEND
 Dividend Rate,None
@@ -33,22 +33,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,None
-Price to Cash Flow,-9.6041847561363e-10
-Enterprise to EBITDA,-1.027
-Price to Book,2.5194445
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-2.0155554)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.65, forward_eps=-0.09)"
-Enterprise to Revenue,685.55
+Debt to Equity,0.063
+Price to Cash Flow,-8.150687457100532e-10
+Enterprise to EBITDA,-1.052
+Price to Book,2.4870968
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-1.9275001)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.08)"
+Enterprise to Revenue,609.176
 
 CASH FLOW
-Free to Cash Flow,-188876000.0
-Operating to Cash Flow,-282060992.0
+Free to Cash Flow,-189186496.0
+Operating to Cash Flow,-280504000.0
 
 PROFITABILITY
-Return on Equity,-1.2514399
-Return on Assets,-0.59247
-Return on Invested Capital,-3580819555.555556
+Return on Equity,-1.38596
+Return on Assets,-0.66313004
+Return on Invested Capital,-2237.166943521282
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

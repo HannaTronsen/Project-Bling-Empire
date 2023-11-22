@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,PEXIP.OL
 Company,Pexip Holding ASA
 Country,Norway
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.pexip.com
 
@@ -12,7 +12,7 @@ Revenue Per Share,9.577
 Revenue Growth,0.135
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.57)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.78)"
 Net Earnings,-84437000.0
 Earnings Growth,None
 
@@ -34,12 +34,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,3.499
-Price to Cash Flow,1.281940421563554e-07
-Enterprise to EBITDA,-221.738
-Price to Book,1.2396075
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=34.789474)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.57)"
-Enterprise to Revenue,1.616
+Price to Cash Flow,1.5114355550255115e-07
+Enterprise to EBITDA,-244.006
+Price to Book,1.461524
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=29.97436)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.78)"
+Enterprise to Revenue,1.778
 
 CASH FLOW
 Free to Cash Flow,154687376.0

@@ -7,23 +7,23 @@ Sector,Financial Services
 Website,https://www.melhusbanken.no
 
 REVENUE
-Total Revenue,293356992.0
-Revenue Per Share,106.116
-Revenue Growth,0.526
+Total Revenue,308756992.0
+Revenue Per Share,111.205
+Revenue Growth,0.25
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.45, forward_eps=17.06)"
-Net Earnings,45751000.0
-Earnings Growth,0.649
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.13, forward_eps=17.18)"
+Net Earnings,47994000.0
+Earnings Growth,0.274
 
 DEBT
-Total Debt,2349702912.0
+Total Debt,2422780928.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.45483002
+Profit Margins,0.45616
 Gross Profit Margins,0.0
-Operating Margins,0.71649003
+Operating Margins,0.50734
 
 DIVIDEND
 Dividend Rate,11.0
@@ -36,19 +36,19 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.34434587
-Price to Earnings,"PriceToEarnings(trailing_pe=9.604863, forward_pe=9.261431)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.45, forward_eps=17.06)"
-Enterprise to Revenue,8.733
+Price to Book,0.32683253
+Price to Earnings,"PriceToEarnings(trailing_pe=9.048453, forward_pe=9.022119)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.13, forward_eps=17.18)"
+Enterprise to Revenue,8.877
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-19200000.0
+Operating to Cash Flow,-189115008.0
 
 PROFITABILITY
-Return on Equity,0.105579995
-Return on Assets,0.01211
-Return on Invested Capital,0.019470968364668478
+Return on Equity,0.10515001
+Return on Assets,0.0126600005
+Return on Invested Capital,0.01980946360057433
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

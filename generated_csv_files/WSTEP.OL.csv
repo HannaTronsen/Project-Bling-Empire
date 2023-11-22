@@ -8,13 +8,13 @@ Website,https://www.webstep.com
 
 REVENUE
 Total Revenue,984336000.0
-Revenue Per Share,35.598
+Revenue Per Share,35.675
 Revenue Growth,0.089
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=2.42)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=2.2)"
 Net Earnings,39381000.0
-Earnings Growth,-0.914
+Earnings Growth,-0.916
 
 DEBT
 Total Debt,103692000.0
@@ -27,19 +27,19 @@ Operating Margins,0.0111
 
 DIVIDEND
 Dividend Rate,1.7
-Dividend Yield,0.0813
+Dividend Yield,0.0854
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,1.7
+Trailing Annual Dividend Yield,0.08542714
 
 FINANCIAL RATIO
 Debt to Equity,27.048
-Price to Cash Flow,8.157042873971709e-07
-Enterprise to EBITDA,9.776
-Price to Book,1.4562421
-Price to Earnings,"PriceToEarnings(trailing_pe=14.507043, forward_pe=8.512397)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=2.42)"
-Enterprise to Revenue,0.664
+Price to Cash Flow,7.959056396448123e-07
+Enterprise to EBITDA,9.531
+Price to Book,1.4492754
+Price to Earnings,"PriceToEarnings(trailing_pe=14.15493, forward_pe=9.136364)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=2.2)"
+Enterprise to Revenue,0.647
 
 CASH FLOW
 Free to Cash Flow,25254250.0
@@ -48,7 +48,7 @@ Operating to Cash Flow,31838000.0
 PROFITABILITY
 Return on Equity,0.10268
 Return on Assets,0.05455
-Return on Invested Capital,0.37978816714420194
+Return on Invested Capital,0.3797881681587576
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

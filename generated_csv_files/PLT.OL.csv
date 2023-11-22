@@ -7,9 +7,9 @@ Sector,Technology
 Website,https://www.polight.com
 
 REVENUE
-Total Revenue,21457000.0
+Total Revenue,21456000.0
 Revenue Per Share,0.366
-Revenue Growth,-0.422
+Revenue Growth,-0.421
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.2, forward_eps=None)"
@@ -22,7 +22,7 @@ Debt to Equity,1.471
 
 MARGINS
 Profit Margins,0.0
-Gross Profit Margins,0.55851
+Gross Profit Margins,0.55849
 Operating Margins,-7.57115
 
 DIVIDEND
@@ -34,15 +34,15 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,1.471
-Price to Cash Flow,-1.517378400368166e-07
-Enterprise to EBITDA,-7.584
-Price to Book,3.2197964
+Price to Cash Flow,-2.0085196354196622e-07
+Enterprise to EBITDA,-10.819
+Price to Book,4.2620087
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.2, forward_eps=None)"
-Enterprise to Revenue,26.83
+Enterprise to Revenue,38.274
 
 CASH FLOW
-Free to Cash Flow,-72888872.0
+Free to Cash Flow,-72889504.0
 Operating to Cash Flow,-92114000.0
 
 PROFITABILITY

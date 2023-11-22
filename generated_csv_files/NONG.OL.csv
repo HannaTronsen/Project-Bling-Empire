@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,NONG.OL
 Company,SpareBank 1 Nord-Norge
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no
 
@@ -12,7 +12,7 @@ Revenue Per Share,49.661
 Revenue Growth,0.275
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.98, forward_eps=11.77)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.98, forward_eps=12.31)"
 Net Earnings,1102000000.0
 Earnings Growth,0.335
 
@@ -36,9 +36,9 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.62276983
-Price to Earnings,"PriceToEarnings(trailing_pe=8.48816, forward_pe=7.918436)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.98, forward_eps=11.77)"
+Price to Book,0.62143344
+Price to Earnings,"PriceToEarnings(trailing_pe=8.469946, forward_pe=7.5548334)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.98, forward_eps=12.31)"
 Enterprise to Revenue,6.202
 
 CASH FLOW

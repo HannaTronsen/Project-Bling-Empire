@@ -7,49 +7,49 @@ Sector,Energy
 Website,https://www.bwoffshore.com
 
 REVENUE
-Total Revenue,720099968.0
-Revenue Per Share,3.983
-Revenue Growth,-0.138
+Total Revenue,700000000.0
+Revenue Per Share,3.871
+Revenue Growth,-0.114
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=7.0)"
-Net Earnings,100600000.0
-Earnings Growth,0.017
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.74, forward_eps=8.95)"
+Net Earnings,100700000.0
+Earnings Growth,0.0
 
 DEBT
-Total Debt,1375299968.0
-Debt to Equity,119.56
+Total Debt,1509299968.0
+Debt to Equity,127.928
 
 MARGINS
-Profit Margins,0.1397
-Gross Profit Margins,0.54715
-Operating Margins,0.0879
+Profit Margins,0.14386
+Gross Profit Margins,0.55443
+Operating Margins,0.18285999
 
 DIVIDEND
-Dividend Rate,1.5
-Dividend Yield,0.0655
+Dividend Rate,1.52
+Dividend Yield,0.0694
 Five Year Avg Dividend Yield,11.51
 Trailing Annual Dividend Rate,0.14
-Trailing Annual Dividend Yield,0.006113537
+Trailing Annual Dividend Yield,0.0064102565
 
 FINANCIAL RATIO
-Debt to Equity,119.56
-Price to Cash Flow,-3.720559081967682e-08
-Enterprise to EBITDA,17.426
-Price to Book,4.424208
-Price to Earnings,"PriceToEarnings(trailing_pe=3.9391892, forward_pe=3.3314285)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=7.0)"
-Enterprise to Revenue,7.623
+Debt to Equity,127.928
+Price to Cash Flow,-3.201879988686691e-08
+Enterprise to EBITDA,17.466
+Price to Book,3.8476956
+Price to Earnings,"PriceToEarnings(trailing_pe=3.679443, forward_pe=2.3597767)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.74, forward_eps=8.95)"
+Enterprise to Revenue,7.713
 
 CASH FLOW
-Free to Cash Flow,-626787520.0
-Operating to Cash Flow,579000000.0
+Free to Cash Flow,-659612480.0
+Operating to Cash Flow,503400000.0
 
 PROFITABILITY
-Return on Equity,0.08939999
-Return on Assets,0.024130002
-Return on Invested Capital,0.07314767829212848
-Return on Investment,-0.001450194608620441
+Return on Equity,0.08693
+Return on Assets,0.022650002
+Return on Invested Capital,0.06671967254277164
+Return on Investment,-0.0014516361539570418
 
 
 

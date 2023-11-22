@@ -2,28 +2,28 @@ GENERAL STOCK INFO
 Ticker,VOLUE.OL
 Company,Volue ASA
 Country,Norway
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.volue.com
 
 REVENUE
-Total Revenue,1373985024.0
-Revenue Per Share,9.394
-Revenue Growth,0.339
+Total Revenue,1414145024.0
+Revenue Per Share,9.902
+Revenue Growth,0.137
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.28)"
-Net Earnings,54881000.0
-Earnings Growth,2.286
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.22)"
+Net Earnings,52038000.0
+Earnings Growth,-0.154
 
 DEBT
-Total Debt,370944992.0
-Debt to Equity,42.255
+Total Debt,434884000.0
+Debt to Equity,50.009
 
 MARGINS
-Profit Margins,0.03994
-Gross Profit Margins,0.32411
-Operating Margins,0.12109999
+Profit Margins,0.0368
+Gross Profit Margins,0.32047
+Operating Margins,0.07379
 
 DIVIDEND
 Dividend Rate,None
@@ -33,22 +33,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,42.255
-Price to Cash Flow,-4.690387135961126e-06
-Enterprise to EBITDA,25.318
-Price to Book,3.059216
-Price to Earnings,"PriceToEarnings(trailing_pe=50.944443, forward_pe=14.328125)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.28)"
-Enterprise to Revenue,2.011
+Debt to Equity,50.009
+Price to Cash Flow,-7.855818994021599e-08
+Enterprise to EBITDA,22.69
+Price to Book,3.054221
+Price to Earnings,"PriceToEarnings(trailing_pe=49.44444, forward_pe=14.590163)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.22)"
+Enterprise to Revenue,1.95
 
 CASH FLOW
-Free to Cash Flow,-3910125.0
-Operating to Cash Flow,237099008.0
+Free to Cash Flow,-226583632.0
+Operating to Cash Flow,75225000.0
 
 PROFITABILITY
-Return on Equity,0.06573
-Return on Assets,0.029560002
-Return on Invested Capital,0.14794915768277794
+Return on Equity,0.06161
+Return on Assets,0.031570002
+Return on Invested Capital,0.11965949380208163
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

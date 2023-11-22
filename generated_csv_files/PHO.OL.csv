@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,PHO.OL
 Company,Photocure ASA
 Country,Norway
-Industry,Drug Manufacturers—Specialty & Generic
+Industry,Drug Manufacturers - Specialty & Generic
 Sector,Healthcare
 Website,https://www.photocure.com
 
@@ -12,7 +12,7 @@ Revenue Per Share,17.021
 Revenue Growth,0.007
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.48)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.31)"
 Net Earnings,-33692000.0
 Earnings Growth,None
 
@@ -27,19 +27,19 @@ Operating Margins,-0.03581
 
 DIVIDEND
 Dividend Rate,None
-Dividend Yield,0.059499998
+Dividend Yield,None
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,5.267
-Price to Cash Flow,4.704674544987893e-06
-Enterprise to EBITDA,-455.875
-Price to Book,3.046243
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=109.79167)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.48)"
-Enterprise to Revenue,2.609
+Price to Cash Flow,4.414538069253346e-06
+Enterprise to EBITDA,-433.338
+Price to Book,2.8583817
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=159.51613)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.31)"
+Enterprise to Revenue,2.48
 
 CASH FLOW
 Free to Cash Flow,11201625.0

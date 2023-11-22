@@ -7,48 +7,48 @@ Sector,Industrials
 Website,https://www.gcrieber-shipping.com
 
 REVENUE
-Total Revenue,-2354000.0
-Revenue Per Share,-0.027
+Total Revenue,-3240000.0
+Revenue Per Share,-0.038
 Revenue Growth,None
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=None)"
-Net Earnings,106459000.0
-Earnings Growth,0.479
+Net Earnings,62406000.0
+Earnings Growth,None
 
 DEBT
 Total Debt,1503000.0
-Debt to Equity,0.118
+Debt to Equity,0.214
 
 MARGINS
 Profit Margins,0.0
 Gross Profit Margins,0.0
-Operating Margins,-103.863434
+Operating Margins,-73.09677
 
 DIVIDEND
 Dividend Rate,0.25
-Dividend Yield,0.0509
+Dividend Yield,0.0286
 Five Year Avg Dividend Yield,2.47
 Trailing Annual Dividend Rate,0.25
-Trailing Annual Dividend Yield,0.0509165
+Trailing Annual Dividend Yield,0.02860412
 
 FINANCIAL RATIO
-Debt to Equity,0.118
-Price to Cash Flow,-1.1377100056104761e-08
-Enterprise to EBITDA,-2.38
-Price to Book,0.5887516
-Price to Earnings,"PriceToEarnings(trailing_pe=11.945206, forward_pe=None)"
+Debt to Equity,0.214
+Price to Cash Flow,-4.0497884138463396e-08
+Enterprise to EBITDA,-13.952
+Price to Book,1.0693747
+Price to Earnings,"PriceToEarnings(trailing_pe=11.972602, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=None)"
-Enterprise to Revenue,-36.766
+Enterprise to Revenue,-133.704
 
 CASH FLOW
-Free to Cash Flow,-766451904.0
-Operating to Cash Flow,19507000.0
+Free to Cash Flow,-215813744.0
+Operating to Cash Flow,-21659000.0
 
 PROFITABILITY
-Return on Equity,0.08535
-Return on Assets,-0.02713
-Return on Invested Capital,70.83030667486882
+Return on Equity,0.063930005
+Return on Assets,-0.04088
+Return on Invested Capital,41.5207323027644
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

@@ -7,12 +7,12 @@ Sector,Industrials
 Website,https://borgestad.no
 
 REVENUE
-Total Revenue,1119533056.0
-Revenue Per Share,10.122
-Revenue Growth,0.357
+Total Revenue,1110974976.0
+Revenue Per Share,7.286
+Revenue Growth,0.317
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.12, forward_eps=0.07)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.12, forward_eps=0.06)"
 Net Earnings,-125044000.0
 Earnings Growth,None
 
@@ -21,34 +21,34 @@ Total Debt,601617984.0
 Debt to Equity,115.674
 
 MARGINS
-Profit Margins,-0.11169
-Gross Profit Margins,0.45643002
+Profit Margins,-0.11255
+Gross Profit Margins,0.52035
 Operating Margins,0.19459
 
 DIVIDEND
 Dividend Rate,None
-Dividend Yield,0.0175
+Dividend Yield,None
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,115.674
-Price to Cash Flow,5.6176062388474e-09
-Enterprise to EBITDA,6.976
-Price to Book,0.117606364
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=4.857143)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.12, forward_eps=0.07)"
-Enterprise to Revenue,0.604
+Price to Cash Flow,3.799345532092214e-09
+Enterprise to EBITDA,6.372
+Price to Book,0.105693825
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=5.166667)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.12, forward_eps=0.06)"
+Enterprise to Revenue,0.605
 
 CASH FLOW
-Free to Cash Flow,60524000.0
+Free to Cash Flow,81593000.0
 Operating to Cash Flow,121016000.0
 
 PROFITABILITY
 Return on Equity,-0.20224
 Return on Assets,0.0356
-Return on Invested Capital,-0.20784617934412794
+Return on Invested Capital,-0.20784617932961785
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
