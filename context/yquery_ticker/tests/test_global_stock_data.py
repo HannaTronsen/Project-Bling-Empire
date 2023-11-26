@@ -1,11 +1,22 @@
 import unittest
 from typing import Optional, Type
+from context.yquery_ticker.main.classes.combinable_yq_data import CombinableYQData
+from context.yquery_ticker.main.classes.yahoo.balance_sheet_data import BalanceSheetData
+from context.yquery_ticker.main.classes.yahoo.cash_flow_data import CashFlowData
 from context.yquery_ticker.main.classes.yahoo.historical_earnings_data import HistoricalEarningsData
+from context.yquery_ticker.main.classes.yahoo.income_statement_data import IncomeStatementData
+from context.yquery_ticker.main.data_classes.charts import YearlyFinancialsDataChart
+from context.yquery_ticker.main.data_classes.date import Date, PeriodType
 from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
 from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.balance_sheet import BalanceSheetDataClass
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.cash_flow import CashFlowDataClass
+from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import IncomeStatementDataClass
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
+from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
+from context.yquery_ticker.main.enums.quarter import Quarter
 from context.yquery_ticker.main.errors.generic_error import GenericError
 
 
@@ -396,3 +407,438 @@ class test_global_stock_data(unittest.TestCase):
         assert financial_data.price == 10.0
         self.assertIsNone(financial_data.five_year_avg_dividend_yield)
         self.assertIsNone(financial_data.debt_to_equity)
+
+    def test_evaluate_growth_criteria_for_revenue_and_earnings_history(self):
+        self.yearly_financials_data_positive = [
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.FIRST_QUARTER), earnings=100,
+                                      revenue=100.75),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.SECOND_QUARTER), earnings=120, revenue=110),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.THIRD_QUARTER), earnings=150, revenue=150.25)
+        ]
+
+        self.yearly_financials_data_negative = [
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.FIRST_QUARTER), earnings=-50,
+                                      revenue=-40.25),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.SECOND_QUARTER), earnings=-30,
+                                      revenue=-20.5),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.THIRD_QUARTER), earnings=-10, revenue=0)
+        ]
+
+        self.yearly_financials_data_unsorted = [
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.THIRD_QUARTER), earnings=150,
+                                      revenue=140.75),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.SECOND_QUARTER), earnings=120, revenue=110),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.FIRST_QUARTER), earnings=100, revenue=90.25)
+        ]
+
+        self.yearly_financials_data_no_always_up_trending = [
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.FIRST_QUARTER), earnings=100,
+                                      revenue=100.75),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.SECOND_QUARTER), earnings=150, revenue=110),
+            YearlyFinancialsDataChart(date=Date(year=2022, quarter=Quarter.THIRD_QUARTER), earnings=120, revenue=150.25)
+        ]
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            self.yearly_financials_data_positive,
+            GrowthCriteria.EARNINGS.percentage_criteria,
+            GrowthCriteria.EARNINGS.attribute
+        )
+        self.assertTrue(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            chart_list=self.yearly_financials_data_positive,
+            percentage_criteria=30,
+            attribute=GrowthCriteria.EARNINGS.attribute,
+        )
+        self.assertFalse(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            self.yearly_financials_data_negative,
+            GrowthCriteria.EARNINGS.percentage_criteria,
+            GrowthCriteria.EARNINGS.attribute
+        )
+        self.assertTrue(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            chart_list=self.yearly_financials_data_negative,
+            percentage_criteria=30,
+            attribute=GrowthCriteria.EARNINGS.attribute,
+        )
+        self.assertTrue(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            chart_list=self.yearly_financials_data_negative,
+            percentage_criteria=45,
+            attribute=GrowthCriteria.EARNINGS.attribute,
+        )
+        self.assertFalse(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            self.yearly_financials_data_unsorted,
+            GrowthCriteria.EARNINGS.percentage_criteria,
+            GrowthCriteria.EARNINGS.attribute
+        )
+        self.assertTrue(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            chart_list=self.yearly_financials_data_unsorted,
+            percentage_criteria=30,
+            attribute=GrowthCriteria.EARNINGS.attribute,
+        )
+        self.assertFalse(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            self.yearly_financials_data_positive,
+            GrowthCriteria.REVENUE.percentage_criteria,
+            GrowthCriteria.REVENUE.attribute
+        )
+        self.assertFalse(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            chart_list=self.yearly_financials_data_positive,
+            percentage_criteria=5,
+            attribute=GrowthCriteria.REVENUE.attribute,
+        )
+        self.assertTrue(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            self.yearly_financials_data_negative,
+            GrowthCriteria.REVENUE.percentage_criteria,
+            GrowthCriteria.REVENUE.attribute
+        )
+        self.assertTrue(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            chart_list=self.yearly_financials_data_negative,
+            percentage_criteria=50,
+            attribute=GrowthCriteria.REVENUE.attribute,
+        )
+        self.assertFalse(result)
+
+        result = HistoricalEarningsData.evaluate_growth_criteria(
+            chart_list=self.yearly_financials_data_no_always_up_trending,
+            percentage_criteria=GrowthCriteria.REVENUE.percentage_criteria,
+            attribute=GrowthCriteria.REVENUE.attribute,
+        )
+        self.assertFalse(result)
+
+    def test_evaluate_growth_criteria_for_book_value_and_dividends(self):
+        self.balance_sheet_three_entries = BalanceSheetData(
+            entries=[
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1000,
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                ),
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1100,
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                ),
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2024, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1300,
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                )
+            ]
+        )
+        self.cash_flow_three_entries = CashFlowData(
+            entries=[
+                CashFlowDataClass(
+                    asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    cashDividendsPaid=50,
+                    operatingCashFlow=0,
+                    freeCashFlow=0,
+                    capitalExpenditure=0,
+                    depreciationAndAmortization=0,
+                ),
+                CashFlowDataClass(
+                    asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    cashDividendsPaid=45,
+                    operatingCashFlow=0,
+                    freeCashFlow=0,
+                    capitalExpenditure=0,
+                    depreciationAndAmortization=0,
+                ),
+                CashFlowDataClass(
+                    asOfDate=Date(year=2024, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    cashDividendsPaid=50,
+                    operatingCashFlow=0,
+                    freeCashFlow=0,
+                    capitalExpenditure=0,
+                    depreciationAndAmortization=0,
+                )
+            ]
+        )
+
+        self.assertFalse(
+            CombinableYQData(
+                combination=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS,
+                balance_sheet=self.balance_sheet_three_entries,
+                cash_flow=self.cash_flow_three_entries,
+            ).combine_process_and_evaluate_growth_criteria()
+        )
+
+        self.balance_sheet_three_entries = BalanceSheetData(
+            entries=[
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1000,
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                ),
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1155,  # Adjusted to ensure a 10% increase
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                ),
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2024, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1270,  # Adjusted to ensure a 10% increase
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                )
+            ]
+        )
+
+        self.assertTrue(
+            CombinableYQData(
+                combination=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS,
+                balance_sheet=self.balance_sheet_three_entries,
+                cash_flow=self.cash_flow_three_entries,
+            ).combine_process_and_evaluate_growth_criteria()
+        )
+
+        self.balance_sheet_two_entries = BalanceSheetData(
+            entries=[
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1000,
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                ),
+                BalanceSheetDataClass(
+                    asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    commonStockEquity=1155,  # Adjusted to ensure a 10% increase
+                    totalDebt=0,
+                    accountsReceivable=0,
+                    accountsPayable=0,
+                ),
+            ]
+        )
+
+        self.assertFalse(
+            CombinableYQData(
+                combination=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS,
+                balance_sheet=self.balance_sheet_two_entries,
+                cash_flow=self.cash_flow_three_entries,
+            ).combine_process_and_evaluate_growth_criteria()
+        )
+
+        self.cash_flow_three_entries.entries[-1].cashDividendsPaid = 1370
+        self.assertTrue(
+            CombinableYQData(
+                combination=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS,
+                balance_sheet=self.balance_sheet_two_entries,
+                cash_flow=self.cash_flow_three_entries,
+            ).combine_process_and_evaluate_growth_criteria()
+        )
+
+        self.cash_flow_two_entries = CashFlowData(
+            entries=[
+                CashFlowDataClass(
+                    asOfDate=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    cashDividendsPaid=50,
+                    operatingCashFlow=0,
+                    freeCashFlow=0,
+                    capitalExpenditure=0,
+                    depreciationAndAmortization=0,
+                ),
+                CashFlowDataClass(
+                    asOfDate=Date(year=2023, quarter=Quarter.SECOND_QUARTER),
+                    periodType=PeriodType.MONTH_12,
+                    cashDividendsPaid=45,
+                    operatingCashFlow=0,
+                    freeCashFlow=0,
+                    capitalExpenditure=0,
+                    depreciationAndAmortization=0,
+                ),
+            ]
+        )
+
+        self.assertTrue(
+            CombinableYQData(
+                combination=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS,
+                balance_sheet=self.balance_sheet_three_entries,
+                cash_flow=self.cash_flow_two_entries,
+            ).combine_process_and_evaluate_growth_criteria()
+        )
+
+    def test_evaluate_growth_criteria_for_owner_earnings(self):
+
+        self.assertTrue(
+            CombinableYQData(
+                combination=GrowthCriteria.OWNER_EARNINGS,
+                balance_sheet=BalanceSheetData(
+                    entries=[
+                        BalanceSheetDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            accountsReceivable=5,
+                            accountsPayable=7,
+                            commonStockEquity=0,
+                            totalDebt=0,
+                        ),
+                        BalanceSheetDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            accountsReceivable=7,
+                            accountsPayable=9,
+                            commonStockEquity=0,
+                            totalDebt=0,
+                        )
+                    ]
+                ),
+                income_statement=IncomeStatementData(
+                    entries=[
+                        IncomeStatementDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            netIncome=100,
+                            taxProvision=10,
+                            interest_expense=0,
+                            interest_expense_non_operating=0,
+                            totalRevenue=0,
+                            total_other_finance_cost=0,
+                        ),
+                        IncomeStatementDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            netIncome=120,
+                            taxProvision=12,
+                            interest_expense=0,
+                            interest_expense_non_operating=0,
+                            totalRevenue=0,
+                            total_other_finance_cost=0,
+                        )
+                    ]
+                ),
+                cash_flow=CashFlowData(
+                    entries=[
+                        CashFlowDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            depreciationAndAmortization=20,
+                            capitalExpenditure=30,
+                            freeCashFlow=0,
+                            operatingCashFlow=0,
+                            cashDividendsPaid=0,
+                        ),
+                        CashFlowDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            depreciationAndAmortization=22,
+                            capitalExpenditure=32,
+                            freeCashFlow=0,
+                            operatingCashFlow=0,
+                            cashDividendsPaid=0,
+                        )
+                    ]
+                ),
+            ).combine_process_and_evaluate_growth_criteria()
+        )
+
+        self.assertFalse(
+            CombinableYQData(
+                combination=GrowthCriteria.OWNER_EARNINGS,
+                balance_sheet=BalanceSheetData(
+                    entries=[
+                        BalanceSheetDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            accountsReceivable=5,
+                            accountsPayable=7,
+                            commonStockEquity=0,
+                            totalDebt=0,
+                        ),
+                        BalanceSheetDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            accountsReceivable=6,
+                            accountsPayable=8,
+                            commonStockEquity=0,
+                            totalDebt=0,
+                        )
+                    ]
+                ),
+                income_statement=IncomeStatementData(
+                    entries=[
+                        IncomeStatementDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            netIncome=100,
+                            taxProvision=10,
+                            interest_expense=0,
+                            interest_expense_non_operating=0,
+                            totalRevenue=0,
+                            total_other_finance_cost=0,
+                        ),
+                        IncomeStatementDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            netIncome=101,  # Decrease net income
+                            taxProvision=11,
+                            interest_expense=0,
+                            interest_expense_non_operating=0,
+                            totalRevenue=0,
+                            total_other_finance_cost=0,
+                        )
+                    ]
+                ),
+                cash_flow=CashFlowData(
+                    entries=[
+                        CashFlowDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            depreciationAndAmortization=21,
+                            capitalExpenditure=31,
+                            freeCashFlow=0,
+                            operatingCashFlow=0,
+                            cashDividendsPaid=0,
+                        ),
+                        CashFlowDataClass(
+                            asOfDate=Date(year=2022, quarter=Quarter.FIRST_QUARTER),
+                            periodType=PeriodType.MONTH_12,
+                            depreciationAndAmortization=23,
+                            capitalExpenditure=33,
+                            freeCashFlow=0,
+                            operatingCashFlow=0,
+                            cashDividendsPaid=0,
+                        )
+                    ]
+                ),
+            ).combine_process_and_evaluate_growth_criteria()
+        )

@@ -111,36 +111,27 @@ class CombinableYQData(TimeSeriesDataCollection):
 
     def combine_process_and_evaluate_growth_criteria(self):
         if self.combination == GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.get_book_value_and_dividends_list()),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.percentage_criteria
-            )
+            model_list = YQDataFrameData.sorted(self.get_book_value_and_dividends_list())
+            percentage_requirement = GrowthCriteria.BOOK_VALUE_AND_DIVIDENDS.percentage_criteria
+
         elif self.combination == GrowthCriteria.ROIC:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.get_return_on_income_capital_list()),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.ROIC.percentage_criteria
-            )
+            model_list = YQDataFrameData.sorted(self.get_return_on_income_capital_list())
+            percentage_requirement = GrowthCriteria.ROIC.percentage_criteria
+
         elif self.combination == GrowthCriteria.ROE:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.get_return_on_equity_list()),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.ROE.percentage_criteria
-            )
+            model_list = YQDataFrameData.sorted(self.get_return_on_equity_list())
+            percentage_requirement = GrowthCriteria.ROE.percentage_criteria
+
         elif self.combination == GrowthCriteria.OWNER_EARNINGS:
-            return self.passes_percentage_increase_requirements(
-                percentages=self.calculate_percentage_increase_for_model_list(
-                    model_list=YQDataFrameData.sorted(self.get_owner_earnings_list()),
-                    attribute="value"
-                ),
-                percentage_requirement=GrowthCriteria.OWNER_EARNINGS.percentage_criteria
-            )
+            model_list = YQDataFrameData.sorted(self.get_owner_earnings_list())
+            percentage_requirement = GrowthCriteria.OWNER_EARNINGS.percentage_criteria
         else:
             raise TypeError(WRONG_TYPE_STRING.format(type=self.combination))
+
+        return self.passes_percentage_increase_requirements(
+            percentages=self.calculate_percentage_increase_for_model_list(
+                model_list=model_list,
+                attribute="value"
+            ),
+            percentage_requirement=percentage_requirement
+        )
