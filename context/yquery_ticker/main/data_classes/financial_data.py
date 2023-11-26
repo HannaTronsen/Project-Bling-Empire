@@ -4,7 +4,7 @@ from context.yquery_ticker.main.interfaces.castable_data import CastableDataInte
 from ..const import DEFAULT_CASH_FLOW_METRIC
 from ..data_classes.expenses import Expenses
 from ..enums.cash_flow_type import CashFlowType
-from ..classes.iterable_data import IterableDataInterface
+from context.yquery_ticker.main.interfaces.iterable_data import IterableDataInterface
 from ..errors.generic_error import GenericError
 
 

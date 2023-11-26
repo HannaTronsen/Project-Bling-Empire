@@ -4,7 +4,7 @@ from abc import ABC
 from dataclasses import is_dataclass
 from config import ITERABLE_DATA_SHOW_DEBUG_PRINT
 from context.yquery_ticker.main.interfaces.castable_data import CastableDataInterface
-from ..const import INVALID_FIELD_STRING
+from context.yquery_ticker.main.const import INVALID_FIELD_STRING
 
 """
     This 'IterableDataInterface' makes it possible to more easily control the values

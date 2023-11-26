@@ -1,4 +1,3 @@
-from context.yquery_ticker.main.classes.iterable_data import IterableDataInterface
 from context.yquery_ticker.main.classes.time_series_data_collection import TimeSeriesDataCollection
 from context.yquery_ticker.main.data_classes.date import Date, PeriodType
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.balance_sheet import (

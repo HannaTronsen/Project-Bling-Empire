@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from typing import Optional
 from context.yquery_ticker.main.interfaces.castable_data import CastableDataInterface
 from ..enums.expenses import ExpensesFields
-from ..classes.iterable_data import IterableDataInterface
+from context.yquery_ticker.main.interfaces.iterable_data import IterableDataInterface
 
 
 @dataclass
