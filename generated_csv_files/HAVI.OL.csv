@@ -7,23 +7,23 @@ Sector,Industrials
 Website,https://www.havilashipping.no
 
 REVENUE
-Total Revenue,710344000.0
-Revenue Per Share,29.876
-Revenue Growth,0.076
+Total Revenue,688270976.0
+Revenue Per Share,28.948
+Revenue Growth,-0.11
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.57, forward_eps=-2.0)"
-Net Earnings,-16302000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.45, forward_eps=-2.0)"
+Net Earnings,61272000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1351223040.0
-Debt to Equity,6927.928
+Total Debt,1717652992.0
+Debt to Equity,3547.844
 
 MARGINS
-Profit Margins,-0.022950001
-Gross Profit Margins,0.42560002
-Operating Margins,0.29739
+Profit Margins,0.08902001
+Gross Profit Margins,0.40240002
+Operating Margins,0.14037
 
 DIVIDEND
 Dividend Rate,None
@@ -33,23 +33,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,6927.928
-Price to Cash Flow,3.5522622137875734e-08
-Enterprise to EBITDA,5.695
-Price to Book,7.804878
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-3.2)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.57, forward_eps=-2.0)"
-Enterprise to Revenue,2.023
+Debt to Equity,3547.844
+Price to Cash Flow,-1.793285606023573e-08
+Enterprise to EBITDA,7.941
+Price to Book,3.0500982
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-3.105)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.45, forward_eps=-2.0)"
+Enterprise to Revenue,2.577
 
 CASH FLOW
-Free to Cash Flow,180166880.0
-Operating to Cash Flow,134535008.0
+Free to Cash Flow,-346291744.0
+Operating to Cash Flow,33491000.0
 
 PROFITABILITY
-Return on Equity,-0.59025
-Return on Assets,0.037100002
-Return on Invested Capital,-0.01206462553369946
-Return on Investment,-0.00028001600876703295
+Return on Equity,3.45662
+Return on Assets,0.02694
+Return on Invested Capital,0.03567193153258976
+Return on Investment,0.0006135888417999887
 
 
 

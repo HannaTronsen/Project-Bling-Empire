@@ -7,21 +7,21 @@ Sector,Financial Services
 Website,https://www.sparebank1.no/nb/ostfold-akershus/privat.html
 
 REVENUE
-Total Revenue,1156999936.0
-Revenue Per Share,88.832
+Total Revenue,1154000000.0
+Revenue Per Share,93.101
 Revenue Growth,0.223
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=40.77, forward_eps=38.21)"
-Net Earnings,529000000.0
+Net Earnings,505000000.0
 Earnings Growth,0.229
 
 DEBT
-Total Debt,4160999936.0
+Total Debt,4220000000.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.46585998
+Profit Margins,0.46707
 Gross Profit Margins,0.0
 Operating Margins,0.57795
 
@@ -30,16 +30,16 @@ Dividend Rate,17.8
 Dividend Yield,0.0574
 Five Year Avg Dividend Yield,4.54
 Trailing Annual Dividend Rate,17.8
-Trailing Annual Dividend Yield,0.057419352
+Trailing Annual Dividend Yield,0.05855263
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.91845834
-Price to Earnings,"PriceToEarnings(trailing_pe=7.505519, forward_pe=8.008375)"
+Price to Book,0.9014982
+Price to Earnings,"PriceToEarnings(trailing_pe=7.60363, forward_pe=8.11306)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=40.77, forward_eps=38.21)"
-Enterprise to Revenue,7.003
+Enterprise to Revenue,3.481
 
 CASH FLOW
 Free to Cash Flow,None
@@ -48,7 +48,7 @@ Operating to Cash Flow,-637000000.0
 PROFITABILITY
 Return on Equity,0.12607999
 Return on Assets,0.02011
-Return on Invested Capital,0.12713289252103357
+Return on Invested Capital,0.11966823669418106
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

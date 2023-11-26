@@ -8,11 +8,11 @@ Website,https://www.mpc-container.com
 
 REVENUE
 Total Revenue,720512000.0
-Revenue Per Share,1.614
+Revenue Per Share,1.623
 Revenue Growth,0.149
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.96, forward_eps=0.49)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.47, forward_eps=0.49)"
 Net Earnings,392857984.0
 Earnings Growth,-0.464
 
@@ -27,19 +27,19 @@ Operating Margins,0.46473
 
 DIVIDEND
 Dividend Rate,5.51
-Dividend Yield,0.3982
+Dividend Yield,0.39060003
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.59
-Trailing Annual Dividend Yield,0.04266088
+Trailing Annual Dividend Yield,0.04184397
 
 FINANCIAL RATIO
 Debt to Equity,22.251
-Price to Cash Flow,6.974412276240927e-07
-Enterprise to EBITDA,12.535
-Price to Book,8.182349
-Price to Earnings,"PriceToEarnings(trailing_pe=1.2773722, forward_pe=28.571428)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.96, forward_eps=0.49)"
-Enterprise to Revenue,8.846
+Price to Cash Flow,7.024229506785505e-07
+Enterprise to EBITDA,12.471
+Price to Book,8.038769
+Price to Earnings,"PriceToEarnings(trailing_pe=1.4889123, forward_pe=28.77551)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.47, forward_eps=0.49)"
+Enterprise to Revenue,8.801
 
 CASH FLOW
 Free to Cash Flow,20073376.0
@@ -48,7 +48,7 @@ Operating to Cash Flow,513868000.0
 PROFITABILITY
 Return on Equity,0.52986
 Return on Assets,0.25862
-Return on Invested Capital,2.260415549278791
+Return on Invested Capital,2.2604155487195365
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
