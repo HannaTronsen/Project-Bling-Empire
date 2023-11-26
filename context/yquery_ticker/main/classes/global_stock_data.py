@@ -1,4 +1,3 @@
-from enum import Enum
 from typing import Optional
 
 from yahooquery import Ticker
@@ -13,24 +12,11 @@ from ..data_classes.financial_data import FinancialData, PriceToEarnings, Earnin
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
 from ..enums.growth_criteria import GrowthCriteria
+from ..utils.csv_converter import CsvConverter
 from ..utils.dict_key_enum import DictKey
 
 
-# Enum for csv section headers
-class Section(Enum):
-    GENERAL_STOCK_INFO = "GENERAL STOCK INFO"
-    REVENUE = "REVENUE"
-    EARNINGS = "EARNINGS"
-    DEBT = "DEBT"
-    MARGINS = "MARGINS"
-    DIVIDEND = "DIVIDEND"
-    FINANCIAL_RATIO = "FINANCIAL RATIO"
-    CASH_FLOW = "CASH FLOW"
-    PROFITABILITY = "PROFITABILITY"
-    GROWTH_CRITERIA = "PASSES GROWTH CRITERIA"
-
-
-class GlobalStockDataClass:
+class GlobalStockDataClass(CsvConverter):
 
     def __init__(self, ticker_symbol: str, ticker: Optional[Ticker] = None):
         YQTicker = ticker if ticker is not None else Ticker(ticker_symbol)
@@ -239,15 +225,18 @@ class GlobalStockDataClass:
             ).combine_process_and_evaluate_growth_criteria(),
         }
 
-    def map_section_headers_with_data(self):
-        return {
-            Section.REVENUE: lambda: self._get_revenue_data(),
-            Section.EARNINGS: lambda: self._get_earnings_data(),
-            Section.DEBT: lambda: self._get_debt_data(),
-            Section.MARGINS: lambda: self._get_margins_data(),
-            Section.DIVIDEND: lambda: self._get_dividend_data(),
-            Section.FINANCIAL_RATIO: lambda: self._get_financial_ratio_data(),
-            Section.CASH_FLOW: lambda: self._get_cash_flow_data(),
-            Section.PROFITABILITY: lambda: self._get_profitability_data(),
-            Section.GROWTH_CRITERIA: lambda: self._evaluated_growth_criteria
-        }
+    def to_csv(self):
+        self._to_csv(
+            ticker_symbol=self.general_stock_info.ticker,
+            general_stock_info=self.general_stock_info,
+            revenue_data=lambda: self._get_revenue_data(),
+            earnings_data=lambda: self._get_earnings_data(),
+            debt_data=lambda: self._get_debt_data(),
+            margins_data=lambda: self._get_margins_data(),
+            dividends_data=lambda: self._get_dividend_data(),
+            financial_ratio_data=lambda: self._get_financial_ratio_data(),
+            cash_flow_data=lambda: self._get_cash_flow_data(),
+            profitability_data=lambda: self._get_profitability_data(),
+            evaluated_growth_criteria=lambda: self._evaluated_growth_criteria,
+            criteria_pass_count=self.criteria_pass_count
+        )
