@@ -55,11 +55,9 @@ class CsvConverter:
             # Write general stock information section
             writer.writerow([Section.GENERAL_STOCK_INFO.value])
             for key, value in general_stock_info:
-                if not isinstance(value, FinancialSummary) and value is not None and key != "long_business_summary":
+                if key != "long_business_summary":
+                    value = value if not isinstance(value, FinancialSummary) and value is not None else "None"
                     writer.writerow([key.capitalize(), value])
-                else:
-                    if value is None:
-                        writer.writerow([key.capitalize(), "None"])
             writer.writerow([])
 
             # Write each section
