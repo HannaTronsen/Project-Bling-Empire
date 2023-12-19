@@ -5,6 +5,7 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.odfjell.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,1271944960.0
@@ -30,14 +31,14 @@ Dividend Rate,12.75
 Dividend Yield,0.11229999
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.23
-Trailing Annual Dividend Yield,0.010789474
+Trailing Annual Dividend Yield,0.010695652
 
 FINANCIAL RATIO
 Debt to Equity,157.295
-Price to Cash Flow,6.509444966910737e-07
+Price to Cash Flow,6.339633359078283e-07
 Enterprise to EBITDA,26.615
-Price to Book,12.23014
-Price to Earnings,"PriceToEarnings(trailing_pe=4.10861, forward_pe=39.930553)"
+Price to Book,11.911093
+Price to Earnings,"PriceToEarnings(trailing_pe=4.001429, forward_pe=38.888885)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=27.99, forward_eps=2.88)"
 Enterprise to Revenue,7.856
 

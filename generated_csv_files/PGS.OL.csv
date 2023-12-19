@@ -5,6 +5,7 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.pgs.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,673100032.0
@@ -12,7 +13,7 @@ Revenue Per Share,0.755
 Revenue Growth,-0.208
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.97, forward_eps=1.32)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.94, forward_eps=1.29)"
 Net Earnings,-79900000.0
 Earnings Growth,None
 
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,180.872
-Price to Cash Flow,1.7478510028653296e-07
-Enterprise to EBITDA,28.977
-Price to Book,17.871092
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.9318175)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.97, forward_eps=1.32)"
-Enterprise to Revenue,13.449
+Price to Cash Flow,1.6034383954154728e-07
+Enterprise to EBITDA,27.257
+Price to Book,16.394531
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.506977)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.94, forward_eps=1.29)"
+Enterprise to Revenue,12.65
 
 CASH FLOW
 Free to Cash Flow,52350000.0

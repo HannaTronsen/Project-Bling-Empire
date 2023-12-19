@@ -5,6 +5,7 @@ Country,Norway
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.hexagongroup.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,5637450752.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,46.324
-Price to Cash Flow,-2.566251005232572e-07
-Enterprise to EBITDA,-86.933
-Price to Book,1.2520286
+Price to Cash Flow,-2.654950961422857e-07
+Enterprise to EBITDA,-89.485
+Price to Book,1.2953037
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-2.27, forward_eps=0.0)"
-Enterprise to Revenue,1.218
+Enterprise to Revenue,1.254
 
 CASH FLOW
 Free to Cash Flow,-99210872.0

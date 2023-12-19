@@ -5,6 +5,7 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://skuesparebank.no
+Financial_summary,None
 
 REVENUE
 Total Revenue,460808992.0
@@ -30,16 +31,16 @@ Dividend Rate,None
 Dividend Yield,None
 Five Year Avg Dividend Yield,5.24
 Trailing Annual Dividend Rate,12.5
-Trailing Annual Dividend Yield,0.05733945
+Trailing Annual Dividend Yield,0.05482456
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.2240788
-Price to Earnings,"PriceToEarnings(trailing_pe=2.515578, forward_pe=6.8103724)"
+Price to Book,0.23641342
+Price to Earnings,"PriceToEarnings(trailing_pe=2.65405, forward_pe=7.185255)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=86.66, forward_eps=32.01)"
-Enterprise to Revenue,5.521
+Enterprise to Revenue,5.567
 
 CASH FLOW
 Free to Cash Flow,None

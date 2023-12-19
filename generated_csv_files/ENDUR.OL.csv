@@ -5,20 +5,21 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://endur.no
+Financial_summary,None
 
 REVENUE
 Total Revenue,2118800000.0
-Revenue Per Share,64.623
+Revenue Per Share,68.823
 Revenue Growth,-0.288
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.37, forward_eps=5.0)"
 Net Earnings,-11300000.0
-Earnings Growth,None
+Earnings Growth,9.167
 
 DEBT
 Total Debt,646700032.0
-Debt to Equity,62.483
+Debt to Equity,62.423
 
 MARGINS
 Profit Margins,-0.00533
@@ -33,22 +34,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,62.483
-Price to Cash Flow,6.535843011613936e-07
-Enterprise to EBITDA,8.711
-Price to Book,1.292448
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.16)"
+Debt to Equity,62.423
+Price to Cash Flow,7.302504816955684e-07
+Enterprise to EBITDA,8.331
+Price to Book,1.1924239
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.5800004)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.37, forward_eps=5.0)"
-Enterprise to Revenue,0.896
+Enterprise to Revenue,0.857
 
 CASH FLOW
-Free to Cash Flow,62425000.0
-Operating to Cash Flow,207700000.0
+Free to Cash Flow,51900000.0
+Operating to Cash Flow,207600000.0
 
 PROFITABILITY
-Return on Equity,-0.011619999
-Return on Assets,0.026819998
-Return on Invested Capital,-0.017473324399653187
+Return on Equity,-0.01161
+Return on Assets,0.026789999
+Return on Invested Capital,-0.017473324393817033
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 

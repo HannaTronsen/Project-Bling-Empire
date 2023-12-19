@@ -5,6 +5,7 @@ Country,Norway
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.bergenbio.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,389000.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,0.063
-Price to Cash Flow,-8.362119038348277e-10
-Enterprise to EBITDA,-1.089
-Price to Book,2.5516129
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-1.9775)"
+Price to Cash Flow,-1.390162646703917e-09
+Enterprise to EBITDA,-2.425
+Price to Book,4.2419357
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-3.2875001)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.08)"
-Enterprise to Revenue,630.733
+Enterprise to Revenue,1404.094
 
 CASH FLOW
 Free to Cash Flow,-189186496.0

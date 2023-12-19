@@ -5,6 +5,7 @@ Country,Norway
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.kongsbergautomotive.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,893600000.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,100.2
-Price to Cash Flow,4.382978723404255e-08
-Enterprise to EBITDA,48.101
-Price to Book,9.237668
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.363636)"
+Price to Cash Flow,4.1382978723404254e-08
+Enterprise to EBITDA,45.791
+Price to Book,8.721973
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.840909)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.23, forward_eps=0.22)"
-Enterprise to Revenue,2.648
+Enterprise to Revenue,2.521
 
 CASH FLOW
 Free to Cash Flow,47000000.0

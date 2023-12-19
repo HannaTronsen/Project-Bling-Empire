@@ -5,6 +5,7 @@ Country,Norway
 Industry,Software - Application
 Sector,Technology
 Website,https://www.pexip.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,968792000.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,3.499
-Price to Cash Flow,1.5489305345770427e-07
-Enterprise to EBITDA,-279.976
-Price to Book,1.4977808
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=30.717949)"
+Price to Cash Flow,1.810102461108397e-07
+Enterprise to EBITDA,-334.218
+Price to Book,1.7503282
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=35.897438)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.78)"
-Enterprise to Revenue,2.04
+Enterprise to Revenue,2.436
 
 CASH FLOW
 Free to Cash Flow,154687376.0

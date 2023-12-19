@@ -5,6 +5,7 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.oest.no
+Financial_summary,None
 
 REVENUE
 Total Revenue,881299968.0
@@ -12,7 +13,7 @@ Revenue Per Share,42.575
 Revenue Growth,0.489
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.35, forward_eps=6.03)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.35, forward_eps=6.07)"
 Net Earnings,113300000.0
 Earnings Growth,0.946
 
@@ -30,16 +31,16 @@ Dividend Rate,None
 Dividend Yield,None
 Five Year Avg Dividend Yield,8.11
 Trailing Annual Dividend Rate,3.8
-Trailing Annual Dividend Yield,0.08
+Trailing Annual Dividend Yield,0.079166666
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.21937554
-Price to Earnings,"PriceToEarnings(trailing_pe=7.4488187, forward_pe=7.8441124)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.35, forward_eps=6.03)"
-Enterprise to Revenue,20.43
+Price to Book,0.22911528
+Price to Earnings,"PriceToEarnings(trailing_pe=7.779528, forward_pe=8.138386)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.35, forward_eps=6.07)"
+Enterprise to Revenue,20.447
 
 CASH FLOW
 Free to Cash Flow,None

@@ -5,51 +5,52 @@ Country,Hong Kong
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.jinhuiship.com
+Financial_summary,None
 
 REVENUE
-Total Revenue,106428000.0
-Revenue Per Share,0.974
-Revenue Growth,-0.55
+Total Revenue,86887000.0
+Revenue Per Share,0.795
+Revenue Growth,-0.494
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-3.83, forward_eps=0.21)"
-Net Earnings,-65723000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.09, forward_eps=0.21)"
+Net Earnings,-74091000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,101446000.0
-Debt to Equity,26.199
+Total Debt,111154000.0
+Debt to Equity,29.908
 
 MARGINS
-Profit Margins,-0.61753
-Gross Profit Margins,0.25829
-Operating Margins,-0.14462
+Profit Margins,-0.85273004
+Gross Profit Margins,0.15972
+Operating Margins,-0.24314
 
 DIVIDEND
 Dividend Rate,0.84
-Dividend Yield,0.1338
+Dividend Yield,0.1417
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.04
-Trailing Annual Dividend Yield,0.0064205457
+Trailing Annual Dividend Yield,0.0067453627
 
 FINANCIAL RATIO
-Debt to Equity,26.199
-Price to Cash Flow,-1.0742801057420067e-07
-Enterprise to EBITDA,39.406
-Price to Book,1.7720091
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=29.904764)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-3.83, forward_eps=0.21)"
-Enterprise to Revenue,6.925
+Debt to Equity,29.908
+Price to Cash Flow,-1.2717003373019503e-07
+Enterprise to EBITDA,85.621
+Price to Book,1.7489711
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=28.333334)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.09, forward_eps=0.21)"
+Enterprise to Revenue,8.147
 
 CASH FLOW
-Free to Cash Flow,-58457752.0
-Operating to Cash Flow,42838000.0
+Free to Cash Flow,-46787752.0
+Operating to Cash Flow,13744000.0
 
 PROFITABILITY
-Return on Equity,-0.15523
-Return on Assets,-0.01907
-Return on Invested Capital,-0.6478618940517856
-Return on Investment,0.007262771706098814
+Return on Equity,-0.17891
+Return on Assets,-0.029240001
+Return on Invested Capital,-0.6665616867801172
+Return on Investment,0.016465398462153873
 
 
 

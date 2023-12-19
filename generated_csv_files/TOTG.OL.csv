@@ -5,51 +5,52 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.totenbanken.no
+Financial_summary,None
 
 REVENUE
-Total Revenue,562188992.0
-Revenue Per Share,58.637
-Revenue Growth,0.236
+Total Revenue,583769024.0
+Revenue Per Share,51.523
+Revenue Growth,0.179
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.58, forward_eps=26.78)"
-Net Earnings,219104928.0
-Earnings Growth,0.185
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.56, forward_eps=26.78)"
+Net Earnings,261642928.0
+Earnings Growth,0.172
 
 DEBT
-Total Debt,8542323200.0
+Total Debt,8396083200.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.49828
+Profit Margins,0.50176996
 Gross Profit Margins,0.0
-Operating Margins,0.70619005
+Operating Margins,0.65321
 
 DIVIDEND
 Dividend Rate,11.0
-Dividend Yield,0.0561
-Five Year Avg Dividend Yield,5.09
+Dividend Yield,0.056399997
+Five Year Avg Dividend Yield,5.08
 Trailing Annual Dividend Rate,11.0
-Trailing Annual Dividend Yield,0.05612245
+Trailing Annual Dividend Yield,0.056410257
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.49308923
-Price to Earnings,"PriceToEarnings(trailing_pe=8.680248, forward_pe=7.3188944)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.58, forward_eps=26.78)"
-Enterprise to Revenue,13.411
+Price to Book,0.4840946
+Price to Earnings,"PriceToEarnings(trailing_pe=8.776596, forward_pe=7.393577)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.56, forward_eps=26.78)"
+Enterprise to Revenue,12.353
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,275611008.0
+Operating to Cash Flow,522692000.0
 
 PROFITABILITY
-Return on Equity,0.11525
-Return on Assets,0.01271
-Return on Invested Capital,0.02564933597976518
-Return on Investment,0.004118885312960568
+Return on Equity,0.117419995
+Return on Assets,0.013359999
+Return on Invested Capital,0.031162496728736094
+Return on Investment,0.004918543928775529
 
 
 

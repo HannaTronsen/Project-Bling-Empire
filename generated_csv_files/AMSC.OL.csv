@@ -5,6 +5,7 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.amscasa.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,116354000.0
@@ -12,7 +13,7 @@ Revenue Per Share,1.622
 Revenue Growth,-0.659
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.04, forward_eps=0.16)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=0.16)"
 Net Earnings,26352000.0
 Earnings Growth,-0.499
 
@@ -26,20 +27,20 @@ Gross Profit Margins,0.98969
 Operating Margins,0.55263
 
 DIVIDEND
-Dividend Rate,3.72
-Dividend Yield,0.1366
-Five Year Avg Dividend Yield,10.74
+Dividend Rate,4.41
+Dividend Yield,0.1602
+Five Year Avg Dividend Yield,10.93
 Trailing Annual Dividend Rate,0.41
-Trailing Annual Dividend Yield,0.015355805
+Trailing Annual Dividend Yield,0.014882033
 
 FINANCIAL RATIO
 Debt to Equity,74.451
-Price to Cash Flow,-1.528786059715225e-07
-Enterprise to EBITDA,24.394
-Price to Book,12.291385
-Price to Earnings,"PriceToEarnings(trailing_pe=13.357843, forward_pe=170.3125)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.04, forward_eps=0.16)"
-Enterprise to Revenue,17.66
+Price to Cash Flow,-1.4951247152811282e-07
+Enterprise to EBITDA,24.65
+Price to Book,12.020748
+Price to Earnings,"PriceToEarnings(trailing_pe=6.183295, forward_pe=166.5625)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=0.16)"
+Enterprise to Revenue,17.845
 
 CASH FLOW
 Free to Cash Flow,-178246000.0

@@ -5,6 +5,7 @@ Country,Denmark
 Industry,Communication Equipment
 Sector,Technology
 Website,https://www.napatech.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,158524000.0
@@ -12,7 +13,7 @@ Revenue Per Share,1.909
 Revenue Growth,0.343
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.95, forward_eps=-0.78)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.93, forward_eps=-0.77)"
 Net Earnings,-52931000.0
 Earnings Growth,None
 
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,48.854
-Price to Cash Flow,-4.903083461184677e-07
-Enterprise to EBITDA,-33.055
-Price to Book,12.8169
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-17.5)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.95, forward_eps=-0.78)"
-Enterprise to Revenue,7.187
+Price to Cash Flow,-4.75940335975802e-07
+Enterprise to EBITDA,-31.973
+Price to Book,12.441314
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-17.207792)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.93, forward_eps=-0.77)"
+Enterprise to Revenue,6.952
 
 CASH FLOW
 Free to Cash Flow,-27839624.0

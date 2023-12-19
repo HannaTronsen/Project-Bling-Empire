@@ -5,6 +5,7 @@ Country,Malta
 Industry,Gambling
 Sector,Consumer Cyclical
 Website,https://www.gig.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,132591000.0
@@ -12,7 +13,7 @@ Revenue Per Share,1.049
 Revenue Growth,0.28
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.87, forward_eps=0.28)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=0.28)"
 Net Earnings,21291000.0
 Earnings Growth,13.596
 
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,71.358
-Price to Cash Flow,4.4539582394471985e-06
-Enterprise to EBITDA,122.549
-Price to Book,38.456547
-Price to Earnings,"PriceToEarnings(trailing_pe=15.855615, forward_pe=105.89285)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.87, forward_eps=0.28)"
-Enterprise to Revenue,29.315
+Price to Cash Flow,4.476490911822142e-06
+Enterprise to EBITDA,121.533
+Price to Book,38.6511
+Price to Earnings,"PriceToEarnings(trailing_pe=16.284153, forward_pe=106.428566)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=0.28)"
+Enterprise to Revenue,29.072
 
 CASH FLOW
 Free to Cash Flow,6657000.0

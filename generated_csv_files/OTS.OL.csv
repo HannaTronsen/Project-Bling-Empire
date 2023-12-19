@@ -5,6 +5,7 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.oceanteam.nl
+Financial_summary,None
 
 REVENUE
 Total Revenue,70000.0
@@ -12,7 +13,7 @@ Revenue Per Share,0.002
 Revenue Growth,0.333
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.32, forward_eps=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.31, forward_eps=None)"
 Net Earnings,-1011000.0
 Earnings Growth,None
 
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-1.026438569206843e-06
-Enterprise to EBITDA,-30.187
-Price to Book,16.5
+Price to Cash Flow,-9.607741489545532e-07
+Enterprise to EBITDA,-25.2
+Price to Book,15.444444
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.32, forward_eps=None)"
-Enterprise to Revenue,695.167
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.31, forward_eps=None)"
+Enterprise to Revenue,580.315
 
 CASH FLOW
 Free to Cash Flow,-1446750.0

@@ -5,6 +5,7 @@ Country,Norway
 Industry,Financial Conglomerates
 Sector,Financial Services
 Website,https://www.storebrand.no
+Financial_summary,None
 
 REVENUE
 Total Revenue,111589998592.0
@@ -12,7 +13,7 @@ Revenue Per Share,241.681
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=9.2)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=9.15)"
 Net Earnings,2912999936.0
 Earnings Growth,0.645
 
@@ -27,19 +28,19 @@ Operating Margins,1.71339
 
 DIVIDEND
 Dividend Rate,3.7
-Dividend Yield,0.0398
+Dividend Yield,0.040700004
 Five Year Avg Dividend Yield,5.36
 Trailing Annual Dividend Rate,3.7
-Trailing Annual Dividend Yield,0.039887883
+Trailing Annual Dividend Yield,0.040659342
 
 FINANCIAL RATIO
 Debt to Equity,172.408
-Price to Cash Flow,1.5150337610865697e-09
-Enterprise to EBITDA,0.781
-Price to Book,1.4726081
-Price to Earnings,"PriceToEarnings(trailing_pe=14.748019, forward_pe=10.115217)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=9.2)"
-Enterprise to Revenue,0.682
+Price to Cash Flow,1.4746589090825432e-09
+Enterprise to EBITDA,0.771
+Price to Book,1.4333639
+Price to Earnings,"PriceToEarnings(trailing_pe=14.354993, forward_pe=9.899454)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=9.15)"
+Enterprise to Revenue,0.674
 
 CASH FLOW
 Free to Cash Flow,61424373760.0

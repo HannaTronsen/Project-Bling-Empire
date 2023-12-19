@@ -5,6 +5,7 @@ Country,United Kingdom
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.awilcodrilling.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,None
@@ -12,7 +13,7 @@ Revenue Per Share,None
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2453.15, forward_eps=2.52)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2386.19, forward_eps=2.52)"
 Net Earnings,-144748992.0
 Earnings Growth,None
 
@@ -34,11 +35,11 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.493709293102409e-07
-Enterprise to EBITDA,-37.293
+Price to Cash Flow,1.4439189833323286e-07
+Enterprise to EBITDA,-36.263
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.142857)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2453.15, forward_eps=2.52)"
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.904762)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2386.19, forward_eps=2.52)"
 Enterprise to Revenue,None
 
 CASH FLOW

@@ -5,6 +5,7 @@ Country,Norway
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://nelhydrogen.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,1549869952.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,4.173
-Price to Cash Flow,-1.1740276093782551e-08
-Enterprise to EBITDA,-15.155
-Price to Book,2.0595834
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-26.039999)"
+Price to Cash Flow,-1.0787468228516533e-08
+Enterprise to EBITDA,-13.474
+Price to Book,1.8924334
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-23.926666)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.93, forward_eps=-0.3)"
-Enterprise to Revenue,6.142
+Enterprise to Revenue,5.461
 
 CASH FLOW
 Free to Cash Flow,-665401728.0

@@ -5,6 +5,7 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/nb/ostfold-akershus/privat.html
+Financial_summary,None
 
 REVENUE
 Total Revenue,1154000000.0
@@ -12,7 +13,7 @@ Revenue Per Share,93.101
 Revenue Growth,0.223
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=40.77, forward_eps=38.21)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.77, forward_eps=39.16)"
 Net Earnings,505000000.0
 Earnings Growth,0.229
 
@@ -27,19 +28,19 @@ Operating Margins,0.57795
 
 DIVIDEND
 Dividend Rate,17.8
-Dividend Yield,0.0574
-Five Year Avg Dividend Yield,4.54
+Dividend Yield,0.0556
+Five Year Avg Dividend Yield,4.55
 Trailing Annual Dividend Rate,17.8
-Trailing Annual Dividend Yield,0.05855263
+Trailing Annual Dividend Yield,0.055625
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.9014982
-Price to Earnings,"PriceToEarnings(trailing_pe=7.60363, forward_pe=8.11306)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=40.77, forward_eps=38.21)"
-Enterprise to Revenue,3.481
+Price to Book,0.93057877
+Price to Earnings,"PriceToEarnings(trailing_pe=7.8489084, forward_pe=8.171604)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.77, forward_eps=39.16)"
+Enterprise to Revenue,3.589
 
 CASH FLOW
 Free to Cash Flow,None

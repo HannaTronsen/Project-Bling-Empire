@@ -5,6 +5,7 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.emgs.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,22044000.0
@@ -12,7 +13,7 @@ Revenue Per Share,0.168
 Revenue Growth,-0.755
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.32, forward_eps=-0.08)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.31, forward_eps=-0.08)"
 Net Earnings,2426000.0
 Earnings Growth,None
 
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,546.101
-Price to Cash Flow,1.7412791704675357e-07
-Enterprise to EBITDA,31.684
-Price to Book,60.806454
-Price to Earnings,"PriceToEarnings(trailing_pe=5.890625, forward_pe=-23.5625)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.32, forward_eps=-0.08)"
-Enterprise to Revenue,11.69
+Price to Cash Flow,1.9121739431659409e-07
+Enterprise to EBITDA,36.273
+Price to Book,66.77419
+Price to Earnings,"PriceToEarnings(trailing_pe=6.677419, forward_pe=-25.875)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.31, forward_eps=-0.08)"
+Enterprise to Revenue,13.383
 
 CASH FLOW
 Free to Cash Flow,10825375.0

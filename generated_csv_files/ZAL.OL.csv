@@ -5,6 +5,7 @@ Country,Norway
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.zalaris.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,1069340032.0
@@ -12,7 +13,7 @@ Revenue Per Share,48.966
 Revenue Growth,0.241
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.6)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
 Net Earnings,-23291000.0
 Earnings Growth,None
 
@@ -30,16 +31,16 @@ Dividend Rate,None
 Dividend Yield,None
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.025773196
+Trailing Annual Dividend Yield,0.022727273
 
 FINANCIAL RATIO
 Debt to Equity,285.626
-Price to Cash Flow,6.590129514230375e-07
-Enterprise to EBITDA,17.118
-Price to Book,4.7418966
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.972222)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.6)"
-Enterprise to Revenue,1.157
+Price to Cash Flow,7.4076392514387e-07
+Enterprise to EBITDA,18.463
+Price to Book,5.3301325
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.47191)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
+Enterprise to Revenue,1.248
 
 CASH FLOW
 Free to Cash Flow,59938124.0

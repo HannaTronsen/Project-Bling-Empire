@@ -5,6 +5,7 @@ Country,Norway
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.pcibiotech.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,2792000.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,1.219
-Price to Cash Flow,-9.718527623858409e-08
-Enterprise to EBITDA,-1.351
-Price to Book,2.0127287
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.8664383)"
+Price to Cash Flow,-8.412480433300362e-08
+Enterprise to EBITDA,-0.637
+Price to Book,1.7422435
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.75)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.79, forward_eps=-2.92)"
-Enterprise to Revenue,17.704
+Enterprise to Revenue,8.346
 
 CASH FLOW
 Free to Cash Flow,-26032750.0

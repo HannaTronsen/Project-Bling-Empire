@@ -5,6 +5,7 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.salmar.no
+Financial_summary,None
 
 REVENUE
 Total Revenue,26410676224.0
@@ -12,7 +13,7 @@ Revenue Per Share,202.705
 Revenue Growth,0.526
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=35.36)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.53, forward_eps=35.8)"
 Net Earnings,958582976.0
 Earnings Growth,0.632
 
@@ -27,19 +28,19 @@ Operating Margins,0.39238998
 
 DIVIDEND
 Dividend Rate,20.0
-Dividend Yield,0.033800002
+Dividend Yield,0.0352
 Five Year Avg Dividend Yield,5.08
 Trailing Annual Dividend Rate,20.0
-Trailing Annual Dividend Yield,0.03410641
+Trailing Annual Dividend Yield,0.03521127
 
 FINANCIAL RATIO
 Debt to Equity,76.708
-Price to Cash Flow,-1.4388721174076036e-06
-Enterprise to EBITDA,10.419
-Price to Book,4.188155
-Price to Earnings,"PriceToEarnings(trailing_pe=90.121956, forward_pe=16.719458)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=35.36)"
-Enterprise to Revenue,3.648
+Price to Cash Flow,-1.3897090308520662e-06
+Enterprise to EBITDA,10.089
+Price to Book,4.0450554
+Price to Earnings,"PriceToEarnings(trailing_pe=87.44257, forward_pe=15.949721)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.53, forward_eps=35.8)"
+Enterprise to Revenue,3.533
 
 CASH FLOW
 Free to Cash Flow,-410877376.0

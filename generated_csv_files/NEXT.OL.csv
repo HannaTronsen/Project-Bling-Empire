@@ -5,6 +5,7 @@ Country,Norway
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.nextbiometrics.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,32116000.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,2.293
-Price to Cash Flow,-3.2608622477144515e-07
-Enterprise to EBITDA,-9.456
-Price to Book,6.001936
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-24.8)"
+Price to Cash Flow,-3.4081269943854267e-07
+Enterprise to EBITDA,-9.912
+Price to Book,6.272991
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-25.92)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.7, forward_eps=-0.25)"
-Enterprise to Revenue,17.471
+Enterprise to Revenue,18.313
 
 CASH FLOW
 Free to Cash Flow,-19013376.0

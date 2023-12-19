@@ -5,6 +5,7 @@ Country,Norway
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.borregaard.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,7296999936.0
@@ -12,7 +13,7 @@ Revenue Per Share,73.169
 Revenue Growth,-0.022
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.35, forward_eps=9.65)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.35, forward_eps=9.73)"
 Net Earnings,935000000.0
 Earnings Growth,-0.008
 
@@ -27,19 +28,19 @@ Operating Margins,0.21004
 
 DIVIDEND
 Dividend Rate,3.25
-Dividend Yield,0.019199999
+Dividend Yield,0.0194
 Five Year Avg Dividend Yield,2.28
 Trailing Annual Dividend Rate,3.25
-Trailing Annual Dividend Yield,0.019072771
+Trailing Annual Dividend Yield,0.0194378
 
 FINANCIAL RATIO
 Debt to Equity,56.568
-Price to Cash Flow,2.4948453608247425e-07
-Enterprise to EBITDA,10.831
-Price to Book,3.7386887
-Price to Earnings,"PriceToEarnings(trailing_pe=18.117645, forward_pe=17.554403)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.35, forward_eps=9.65)"
-Enterprise to Revenue,2.581
+Price to Cash Flow,2.412371134020619e-07
+Enterprise to EBITDA,10.705
+Price to Book,3.6150959
+Price to Earnings,"PriceToEarnings(trailing_pe=17.518717, forward_pe=16.834534)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.35, forward_eps=9.73)"
+Enterprise to Revenue,2.551
 
 CASH FLOW
 Free to Cash Flow,679000000.0

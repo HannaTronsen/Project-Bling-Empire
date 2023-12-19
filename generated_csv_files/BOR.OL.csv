@@ -5,6 +5,7 @@ Country,Norway
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://borgestad.no
+Financial_summary,None
 
 REVENUE
 Total Revenue,1110974976.0
@@ -12,7 +13,7 @@ Revenue Per Share,7.286
 Revenue Growth,0.317
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.12, forward_eps=0.06)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.3, forward_eps=0.06)"
 Net Earnings,-125044000.0
 Earnings Growth,None
 
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,115.674
-Price to Cash Flow,3.5909943254936084e-09
-Enterprise to EBITDA,6.323
-Price to Book,0.09989772
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=4.8833337)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.12, forward_eps=0.06)"
-Enterprise to Revenue,0.6
+Price to Cash Flow,3.921905065385511e-09
+Enterprise to EBITDA,6.304
+Price to Book,0.1091033
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=5.3333335)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.3, forward_eps=0.06)"
+Enterprise to Revenue,0.599
 
 CASH FLOW
 Free to Cash Flow,81593000.0

@@ -5,6 +5,7 @@ Country,Luxembourg
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.subsea7.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,5633399808.0
@@ -12,7 +13,7 @@ Revenue Per Share,19.057
 Revenue Growth,0.124
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.15, forward_eps=9.43)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.09, forward_eps=9.25)"
 Net Earnings,60200000.0
 Earnings Growth,10.001
 
@@ -27,19 +28,19 @@ Operating Margins,0.0403
 
 DIVIDEND
 Dividend Rate,1.0
-Dividend Yield,0.0064999997
+Dividend Yield,0.0067000003
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.102
-Trailing Annual Dividend Yield,0.0006754967
+Trailing Annual Dividend Yield,0.0006847936
 
 FINANCIAL RATIO
 Debt to Equity,26.152
-Price to Cash Flow,-1.2011342148857977e-06
-Enterprise to EBITDA,92.864
-Price to Book,10.685456
-Price to Earnings,"PriceToEarnings(trailing_pe=71.4186, forward_pe=16.283138)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.15, forward_eps=9.43)"
-Enterprise to Revenue,8.295
+Price to Cash Flow,-1.1498972946155144e-06
+Enterprise to EBITDA,90.12
+Price to Book,10.229645
+Price to Earnings,"PriceToEarnings(trailing_pe=70.33493, forward_pe=15.8918915)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.09, forward_eps=9.25)"
+Enterprise to Revenue,8.05
 
 CASH FLOW
 Free to Cash Flow,-127837504.0

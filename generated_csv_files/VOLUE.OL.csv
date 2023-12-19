@@ -5,6 +5,7 @@ Country,Norway
 Industry,Software - Application
 Sector,Technology
 Website,https://www.volue.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,1414145024.0
@@ -12,7 +13,7 @@ Revenue Per Share,9.902
 Revenue Growth,0.137
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.15)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.04)"
 Net Earnings,52038000.0
 Earnings Growth,-0.154
 
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,50.009
-Price to Cash Flow,-7.643976684070454e-08
-Enterprise to EBITDA,22.616
-Price to Book,2.97186
-Price to Earnings,"PriceToEarnings(trailing_pe=48.111107, forward_pe=15.060869)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.15)"
-Enterprise to Revenue,1.944
+Price to Cash Flow,-9.17983343121625e-08
+Enterprise to EBITDA,26.152
+Price to Book,3.568977
+Price to Earnings,"PriceToEarnings(trailing_pe=57.777775, forward_pe=20.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.04)"
+Enterprise to Revenue,2.248
 
 CASH FLOW
 Free to Cash Flow,-226583632.0

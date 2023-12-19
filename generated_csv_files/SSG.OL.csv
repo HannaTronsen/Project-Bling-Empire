@@ -5,6 +5,7 @@ Country,Norway
 Industry,Specialty Business Services
 Sector,Industrials
 Website,https://www.selfstoragegroup.no
+Financial_summary,None
 
 REVENUE
 Total Revenue,411697984.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,94.465
-Price to Cash Flow,7.082611728109441e-07
-Enterprise to EBITDA,22.474
-Price to Book,2.0030737
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=22.999998)"
+Price to Cash Flow,7.155068114074755e-07
+Enterprise to EBITDA,22.634
+Price to Book,2.0235655
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=23.235294)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.77, forward_eps=1.7)"
-Enterprise to Revenue,12.913
+Enterprise to Revenue,13.005
 
 CASH FLOW
 Free to Cash Flow,55205624.0

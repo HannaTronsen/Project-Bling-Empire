@@ -5,6 +5,7 @@ Country,Cyprus
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.sbexp.com
+Financial_summary,None
 
 REVENUE
 Total Revenue,35053000.0
@@ -34,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,52.473
-Price to Cash Flow,2.8084138715179082e-06
-Enterprise to EBITDA,41.535
-Price to Book,12.443325
-Price to Earnings,"PriceToEarnings(trailing_pe=15.437501, forward_pe=30.875002)"
+Price to Cash Flow,2.6407049459920408e-06
+Enterprise to EBITDA,39.294
+Price to Book,11.700252
+Price to Earnings,"PriceToEarnings(trailing_pe=14.515625, forward_pe=29.03125)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.32, forward_eps=0.16)"
-Enterprise to Revenue,11.701
+Enterprise to Revenue,11.07
 
 CASH FLOW
 Free to Cash Flow,1759000.0
