@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,LYV
+Company,"Live Nation Entertainment, Inc."
+Country,United States
+Industry,Entertainment
+Sector,Communication Services
+Website,https://www.livenationentertainment.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,21200869376.0
+Revenue Per Share,92.949
+Revenue Growth,0.325
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=2.27)"
+Net Earnings,349491008.0
+Earnings Growth,0.281
+
+DEBT
+Total Debt,8420724224.0
+Debt to Equity,495.122
+
+MARGINS
+Profit Margins,0.02693
+Gross Profit Margins,0.24991
+Operating Margins,0.075679995
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,495.122
+Price to Cash Flow,7.047289431257763e-08
+Enterprise to EBITDA,15.59
+Price to Book,94.5932
+Price to Earnings,"PriceToEarnings(trailing_pe=61.233334, forward_pe=40.462555)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=2.27)"
+Enterprise to Revenue,1.17
+
+CASH FLOW
+Free to Cash Flow,1303337984.0
+Operating to Cash Flow,1666146944.0
+
+PROFITABILITY
+Return on Equity,0.55486
+Return on Assets,0.03858
+Return on Invested Capital,0.0415036757721636
+Return on Investment,0.019601070543235635
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

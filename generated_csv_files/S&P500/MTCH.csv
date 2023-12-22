@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MTCH
+Company,"Match Group, Inc."
+Country,United States
+Industry,Internet Content & Information
+Sector,Communication Services
+Website,https://www.mtch.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3284429056.0
+Revenue Per Share,11.815
+Revenue Growth,0.089
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=2.18)"
+Net Earnings,508667008.0
+Earnings Growth,0.294
+
+DEBT
+Total Debt,3939771904.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.1542
+Gross Profit Margins,0.70177
+Operating Margins,0.27627
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,1.52
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,4.7917091470834676e-08
+Enterprise to EBITDA,13.243
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=19.840567, forward_pe=16.109083)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=2.18)"
+Enterprise to Revenue,3.891
+
+CASH FLOW
+Free to Cash Flow,732886720.0
+Operating to Cash Flow,845908992.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.08359
+Return on Invested Capital,0.12911077608981297
+Return on Investment,0.01997890857102458
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

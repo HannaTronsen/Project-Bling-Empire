@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ISRG
+Company,"Intuitive Surgical, Inc."
+Country,United States
+Industry,Medical Instruments & Supplies
+Sector,Healthcare
+Website,https://www.intuitive.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6850800128.0
+Revenue Per Share,19.515
+Revenue Growth,0.12
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.23, forward_eps=6.43)"
+Net Earnings,1516700032.0
+Earnings Growth,0.289
+
+DEBT
+Total Debt,0.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.22139
+Gross Profit Margins,0.66605
+Operating Margins,0.26713
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,2.5957495261131284e-07
+Enterprise to EBITDA,52.61
+Price to Book,9.412161
+Price to Earnings,"PriceToEarnings(trailing_pe=79.26241, forward_pe=52.14308)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.23, forward_eps=6.43)"
+Enterprise to Revenue,16.204
+
+CASH FLOW
+Free to Cash Flow,1291650048.0
+Operating to Cash Flow,2023399936.0
+
+PROFITABILITY
+Return on Equity,0.12755999
+Return on Assets,0.07673
+Return on Invested Capital,42577621.46987817
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

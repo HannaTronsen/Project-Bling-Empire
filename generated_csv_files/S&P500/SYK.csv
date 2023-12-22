@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SYK
+Company,Stryker Corporation
+Country,United States
+Industry,Medical Devices
+Sector,Healthcare
+Website,https://www.stryker.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,19885000704.0
+Revenue Per Share,52.432
+Revenue Growth,0.096
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.75, forward_eps=11.55)"
+Net Earnings,2584999936.0
+Earnings Growth,-0.159
+
+DEBT
+Total Debt,13189000192.0
+Debt to Equity,73.661
+
+MARGINS
+Profit Margins,0.13
+Gross Profit Margins,0.63606
+Operating Margins,0.19719
+
+DIVIDEND
+Dividend Rate,3.2
+Dividend Yield,0.0108
+Five Year Avg Dividend Yield,1.07
+Trailing Annual Dividend Rate,3.0
+Trailing Annual Dividend Yield,0.010134108
+
+FINANCIAL RATIO
+Debt to Equity,73.661
+Price to Cash Flow,1.3782183473411968e-07
+Enterprise to EBITDA,24.777
+Price to Book,6.306465
+Price to Earnings,"PriceToEarnings(trailing_pe=44.034077, forward_pe=25.7342)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.75, forward_eps=11.55)"
+Enterprise to Revenue,6.221
+
+CASH FLOW
+Free to Cash Flow,2156624896.0
+Operating to Cash Flow,3185999872.0
+
+PROFITABILITY
+Return on Equity,0.15043001
+Return on Assets,0.0669
+Return on Invested Capital,0.1959966554804097
+Return on Investment,-0.041828477928802586
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

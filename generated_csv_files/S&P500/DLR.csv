@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,DLR
+Company,"Digital Realty Trust, Inc."
+Country,United States
+Industry,REIT - Specialty
+Sector,Real Estate
+Website,https://www.digitalrealty.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5312579072.0
+Revenue Per Share,18.04
+Revenue Growth,0.172
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=1.17)"
+Net Earnings,883705024.0
+Earnings Growth,2.097
+
+DEBT
+Total Debt,18359175168.0
+Debt to Equity,91.627
+
+MARGINS
+Profit Margins,0.17401
+Gross Profit Margins,0.53158003
+Operating Margins,0.11999
+
+DIVIDEND
+Dividend Rate,4.88
+Dividend Yield,0.036199998
+Five Year Avg Dividend Yield,3.54
+Trailing Annual Dividend Rate,4.88
+Trailing Annual Dividend Yield,0.036172263
+
+FINANCIAL RATIO
+Debt to Equity,91.627
+Price to Cash Flow,6.84842907768569e-08
+Enterprise to EBITDA,25.728
+Price to Book,2.3457017
+Price to Earnings,"PriceToEarnings(trailing_pe=46.790657, forward_pe=115.576935)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=1.17)"
+Enterprise to Revenue,11.426
+
+CASH FLOW
+Free to Cash Flow,1974540416.0
+Operating to Cash Flow,1628898944.0
+
+PROFITABILITY
+Return on Equity,0.04773
+Return on Assets,0.010190001
+Return on Invested Capital,0.048134244220592926
+Return on Investment,0.01075106176624451
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,HSIC
+Company,"Henry Schein, Inc."
+Country,United States
+Industry,Medical Distribution
+Sector,Healthcare
+Website,https://www.henryschein.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,12693000192.0
+Revenue Per Share,96.391
+Revenue Growth,0.031
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.38, forward_eps=5.17)"
+Net Earnings,445000000.0
+Earnings Growth,-0.037
+
+DEBT
+Total Debt,2287000064.0
+Debt to Equity,44.834
+
+MARGINS
+Profit Margins,0.03506
+Gross Profit Margins,0.31001
+Operating Margins,0.06673
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,44.834
+Price to Cash Flow,1.5665009422287516e-07
+Enterprise to EBITDA,12.421
+Price to Book,2.662823
+Price to Earnings,"PriceToEarnings(trailing_pe=22.136093, forward_pe=14.471953)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.38, forward_eps=5.17)"
+Enterprise to Revenue,1.049
+
+CASH FLOW
+Free to Cash Flow,477624992.0
+Operating to Cash Flow,786000000.0
+
+PROFITABILITY
+Return on Equity,0.09486
+Return on Assets,0.057239998
+Return on Invested Capital,0.19457804201125994
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

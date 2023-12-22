@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,STX
+Company,Seagate Technology Holdings plc
+Country,Ireland
+Industry,Computer Hardware
+Sector,Technology
+Website,https://www.seagate.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6802999808.0
+Revenue Per Share,32.865
+Revenue Growth,-0.286
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.58, forward_eps=4.2)"
+Net Earnings,-742000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,5665999872.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,-0.109069996
+Gross Profit Margins,0.16037
+Operating Margins,-0.0784
+
+DIVIDEND
+Dividend Rate,2.8
+Dividend Yield,0.0328
+Five Year Avg Dividend Yield,4.33
+Trailing Annual Dividend Rate,2.8
+Trailing Annual Dividend Yield,0.03282532
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,7.551038230991407e-08
+Enterprise to EBITDA,84.748
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=20.34286)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.58, forward_eps=4.2)"
+Enterprise to Revenue,3.339
+
+CASH FLOW
+Free to Cash Flow,1131500032.0
+Operating to Cash Flow,824000000.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,-0.0087
+Return on Invested Capital,-0.13095658627389795
+Return on Investment,-0.018596491228070177
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

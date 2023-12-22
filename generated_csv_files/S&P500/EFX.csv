@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,EFX
+Company,Equifax Inc.
+Country,United States
+Industry,Consulting Services
+Sector,Industrials
+Website,https://www.equifax.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5136600064.0
+Revenue Per Share,41.863
+Revenue Growth,0.06
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.21, forward_eps=7.99)"
+Net Earnings,521100000.0
+Earnings Growth,-0.022
+
+DEBT
+Total Debt,6001399808.0
+Debt to Equity,133.822
+
+MARGINS
+Profit Margins,0.10145
+Gross Profit Margins,0.55365
+Operating Margins,0.18679
+
+DIVIDEND
+Dividend Rate,1.56
+Dividend Yield,0.0064
+Five Year Avg Dividend Yield,0.91
+Trailing Annual Dividend Rate,1.56
+Trailing Annual Dividend Yield,0.0064406916
+
+FINANCIAL RATIO
+Debt to Equity,133.822
+Price to Cash Flow,5.109518957222459e-07
+Enterprise to EBITDA,23.697
+Price to Book,6.958362
+Price to Earnings,"PriceToEarnings(trailing_pe=57.597385, forward_pe=30.348562)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.21, forward_eps=7.99)"
+Enterprise to Revenue,6.935
+
+CASH FLOW
+Free to Cash Flow,474575008.0
+Operating to Cash Flow,1120099968.0
+
+PROFITABILITY
+Return on Equity,0.12743
+Return on Assets,0.04744
+Return on Invested Capital,0.08682974200111102
+Return on Investment,-0.03708896797153025
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,DE
+Company,Deere & Company
+Country,United States
+Industry,Farm & Heavy Construction Machinery
+Sector,Industrials
+Website,https://www.deere.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,61221998592.0
+Revenue Per Share,209.521
+Revenue Growth,-0.009
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=34.61, forward_eps=28.8)"
+Net Earnings,10165999616.0
+Earnings Growth,0.112
+
+DEBT
+Total Debt,64768000000.0
+Debt to Equity,295.933
+
+MARGINS
+Profit Margins,0.16605
+Gross Profit Margins,0.34493
+Operating Margins,0.33947
+
+DIVIDEND
+Dividend Rate,5.88
+Dividend Yield,0.0149
+Five Year Avg Dividend Yield,1.37
+Trailing Annual Dividend Rate,5.05
+Trailing Annual Dividend Yield,0.012838766
+
+FINANCIAL RATIO
+Debt to Equity,295.933
+Price to Cash Flow,1.2285625774473358e-07
+Enterprise to EBITDA,10.215
+Price to Book,5.1260242
+Price to Earnings,"PriceToEarnings(trailing_pe=11.458537, forward_pe=13.770139)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=34.61, forward_eps=28.8)"
+Enterprise to Revenue,2.765
+
+CASH FLOW
+Free to Cash Flow,3228000000.0
+Operating to Cash Flow,8589000192.0
+
+PROFITABILITY
+Return on Equity,0.48079
+Return on Assets,0.10023
+Return on Invested Capital,0.15696022115638303
+Return on Investment,0.2321004478538813
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

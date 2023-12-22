@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GM
+Company,General Motors Company
+Country,United States
+Industry,Auto Manufacturers
+Sector,Consumer Cyclical
+Website,https://www.gm.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,171971002368.0
+Revenue Per Share,123.565
+Revenue Growth,0.054
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.12, forward_eps=7.62)"
+Net Earnings,9930000384.0
+Earnings Growth,-0.022
+
+DEBT
+Total Debt,122002997248.0
+Debt to Equity,154.97
+
+MARGINS
+Profit Margins,0.05829
+Gross Profit Margins,0.12309
+Operating Margins,0.07095
+
+DIVIDEND
+Dividend Rate,0.36
+Dividend Yield,0.0099
+Five Year Avg Dividend Yield,4.06
+Trailing Annual Dividend Rate,0.36
+Trailing Annual Dividend Yield,0.009931035
+
+FINANCIAL RATIO
+Debt to Equity,154.97
+Price to Cash Flow,3.2912687164765287e-09
+Enterprise to EBITDA,8.7
+Price to Book,0.6808783
+Price to Earnings,"PriceToEarnings(trailing_pe=5.087079, forward_pe=4.753281)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.12, forward_eps=7.62)"
+Enterprise to Revenue,0.844
+
+CASH FLOW
+Free to Cash Flow,11004874752.0
+Operating to Cash Flow,22897000448.0
+
+PROFITABILITY
+Return on Equity,0.13272001
+Return on Assets,0.02466
+Return on Invested Capital,0.0813914461419765
+Return on Investment,-0.004557345625774473
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

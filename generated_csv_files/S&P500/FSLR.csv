@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FSLR
+Company,"First Solar, Inc."
+Country,United States
+Industry,Solar
+Sector,Technology
+Website,https://www.firstsolar.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3162439936.0
+Revenue Per Share,29.625
+Revenue Growth,0.274
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=13.35)"
+Net Earnings,473990016.0
+Earnings Growth,None
+
+DEBT
+Total Debt,543318016.0
+Debt to Equity,8.621
+
+MARGINS
+Profit Margins,0.14987999
+Gross Profit Margins,0.27171
+Operating Margins,0.34048
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,8.621
+Price to Cash Flow,-1.6901977242313143e-07
+Enterprise to EBITDA,22.902
+Price to Book,2.894875
+Price to Earnings,"PriceToEarnings(trailing_pe=38.633484, forward_pe=12.791011)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=13.35)"
+Enterprise to Revenue,5.34
+
+CASH FLOW
+Free to Cash Flow,-1010296000.0
+Operating to Cash Flow,836366016.0
+
+PROFITABILITY
+Return on Equity,0.078150004
+Return on Assets,0.03284
+Return on Invested Capital,0.8723987620167821
+Return on Investment,-0.0035144109901060574
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

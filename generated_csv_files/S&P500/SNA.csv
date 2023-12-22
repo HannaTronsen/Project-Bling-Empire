@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SNA
+Company,Snap-on Incorporated
+Country,United States
+Industry,Tools & Accessories
+Sector,Industrials
+Website,https://www.snapon.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5058699776.0
+Revenue Per Share,95.593
+Revenue Growth,0.054
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.4, forward_eps=19.38)"
+Net Earnings,994700032.0
+Earnings Growth,0.089
+
+DEBT
+Total Debt,1276499968.0
+Debt to Equity,26.307
+
+MARGINS
+Profit Margins,0.19663
+Gross Profit Margins,0.51377
+Operating Margins,0.25841
+
+DIVIDEND
+Dividend Rate,7.44
+Dividend Yield,0.025899999
+Five Year Avg Dividend Yield,2.48
+Trailing Annual Dividend Rate,6.48
+Trailing Annual Dividend Yield,0.022576826
+
+FINANCIAL RATIO
+Debt to Equity,26.307
+Price to Cash Flow,4.149672686759391e-07
+Enterprise to EBITDA,10.897
+Price to Book,3.1507058
+Price to Earnings,"PriceToEarnings(trailing_pe=15.670652, forward_pe=14.878225)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.4, forward_eps=19.38)"
+Enterprise to Revenue,3.062
+
+CASH FLOW
+Free to Cash Flow,694849984.0
+Operating to Cash Flow,1067900032.0
+
+PROFITABILITY
+Return on Equity,0.22146
+Return on Assets,0.11792
+Return on Invested Capital,0.7792400984118655
+Return on Investment,4.521363781818182
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

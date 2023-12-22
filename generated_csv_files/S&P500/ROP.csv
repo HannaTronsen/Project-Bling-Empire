@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ROP
+Company,"Roper Technologies, Inc."
+Country,United States
+Industry,Software—Application
+Sector,Technology
+Website,https://www.ropertech.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5995200000.0
+Revenue Per Share,56.372
+Revenue Growth,0.158
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.56, forward_eps=18.4)"
+Net Earnings,1238200064.0
+Earnings Growth,0.054
+
+DEBT
+Total Debt,6878300160.0
+Debt to Equity,40.369
+
+MARGINS
+Profit Margins,0.48766
+Gross Profit Margins,0.69794
+Operating Margins,0.29084
+
+DIVIDEND
+Dividend Rate,3.0
+Dividend Yield,0.0056
+Five Year Avg Dividend Yield,0.53
+Trailing Annual Dividend Rate,2.73
+Trailing Annual Dividend Yield,0.0050527486
+
+FINANCIAL RATIO
+Debt to Equity,40.369
+Price to Cash Flow,1.9394967216389922e-07
+Enterprise to EBITDA,26.375
+Price to Book,3.4059749
+Price to Earnings,"PriceToEarnings(trailing_pe=46.995674, forward_pe=29.525545)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.56, forward_eps=18.4)"
+Enterprise to Revenue,10.724
+
+CASH FLOW
+Free to Cash Flow,2801087488.0
+Operating to Cash Flow,1484999936.0
+
+PROFITABILITY
+Return on Equity,0.08015
+Return on Assets,0.040289998
+Return on Invested Capital,0.18001541172734192
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FI
+Company,"Fiserv, Inc."
+Country,United States
+Industry,Information Technology Services
+Sector,Technology
+Website,https://www.fiserv.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,18806999040.0
+Revenue Per Share,30.307
+Revenue Growth,0.079
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.77, forward_eps=8.58)"
+Net Earnings,2980000000.0
+Earnings Growth,1.08
+
+DEBT
+Total Debt,23420999680.0
+Debt to Equity,77.078
+
+MARGINS
+Profit Margins,0.15845
+Gross Profit Margins,0.58484
+Operating Margins,0.27232
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,77.078
+Price to Cash Flow,3.475697313455385e-08
+Enterprise to EBITDA,13.378
+Price to Book,2.7238677
+Price to Earnings,"PriceToEarnings(trailing_pe=28.05241, forward_pe=15.595571)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.77, forward_eps=8.58)"
+Enterprise to Revenue,5.468
+
+CASH FLOW
+Free to Cash Flow,3849874944.0
+Operating to Cash Flow,5200000000.0
+
+PROFITABILITY
+Return on Equity,0.09875
+Return on Assets,0.03569
+Return on Invested Capital,0.12723624245186443
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

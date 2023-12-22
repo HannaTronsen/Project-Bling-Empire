@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,WELL
+Company,Welltower Inc.
+Country,United States
+Industry,REIT—Healthcare Facilities
+Sector,Real Estate
+Website,https://www.welltower.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6322204160.0
+Revenue Per Share,12.665
+Revenue Growth,0.128
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=1.2)"
+Net Earnings,252455008.0
+Earnings Growth,None
+
+DEBT
+Total Debt,16276159488.0
+Debt to Equity,68.334
+
+MARGINS
+Profit Margins,0.03993
+Gross Profit Margins,0.40155
+Operating Margins,0.16386999
+
+DIVIDEND
+Dividend Rate,2.44
+Dividend Yield,0.0271
+Five Year Avg Dividend Yield,3.87
+Trailing Annual Dividend Rate,2.44
+Trailing Annual Dividend Yield,0.027126182
+
+FINANCIAL RATIO
+Debt to Equity,68.334
+Price to Cash Flow,3.682539993415852e-08
+Enterprise to EBITDA,26.151
+Price to Book,2.1109567
+Price to Earnings,"PriceToEarnings(trailing_pe=171.76416, forward_pe=75.8625)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=1.2)"
+Enterprise to Revenue,9.928
+
+CASH FLOW
+Free to Cash Flow,2472070912.0
+Operating to Cash Flow,1484744960.0
+
+PROFITABILITY
+Return on Equity,0.012259999
+Return on Assets,0.01581
+Return on Invested Capital,0.015510723369184772
+Return on Investment,0.002211778113424425
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

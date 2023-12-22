@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CAT
+Company,Caterpillar Inc.
+Country,United States
+Industry,Farm & Heavy Construction Machinery
+Sector,Industrials
+Website,https://www.caterpillar.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,66587000832.0
+Revenue Per Share,129.528
+Revenue Growth,0.121
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.64, forward_eps=20.56)"
+Net Earnings,9112999936.0
+Earnings Growth,0.408
+
+DEBT
+Total Debt,37139001344.0
+Debt to Equity,181.104
+
+MARGINS
+Profit Margins,0.13686
+Gross Profit Margins,0.30491
+Operating Margins,0.20446
+
+DIVIDEND
+Dividend Rate,5.2
+Dividend Yield,0.0179
+Five Year Avg Dividend Yield,2.38
+Trailing Annual Dividend Rate,5.0
+Trailing Annual Dividend Yield,0.017237218
+
+FINANCIAL RATIO
+Debt to Equity,181.104
+Price to Cash Flow,5.663268844444174e-08
+Enterprise to EBITDA,11.209
+Price to Book,7.2303524
+Price to Earnings,"PriceToEarnings(trailing_pe=16.4966, forward_pe=14.153697)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.64, forward_eps=20.56)"
+Enterprise to Revenue,2.649
+
+CASH FLOW
+Free to Cash Flow,5138375168.0
+Operating to Cash Flow,11621000192.0
+
+PROFITABILITY
+Return on Equity,0.50447
+Return on Assets,0.10183
+Return on Invested Capital,0.24537547043107624
+Return on Investment,-0.0469258493099897
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

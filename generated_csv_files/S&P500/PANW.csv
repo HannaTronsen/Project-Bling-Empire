@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PANW
+Company,"Palo Alto Networks, Inc."
+Country,United States
+Industry,Software—Infrastructure
+Sector,Technology
+Website,https://www.paloaltonetworks.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,7207399936.0
+Revenue Per Share,23.571
+Revenue Growth,0.201
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=6.4)"
+Net Earnings,613900032.0
+Earnings Growth,8.333
+
+DEBT
+Total Debt,2222500096.0
+Debt to Equity,102.396
+
+MARGINS
+Profit Margins,0.08518
+Gross Profit Margins,0.73352
+Operating Margins,0.114580005
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,102.396
+Price to Cash Flow,1.244138086788381e-07
+Enterprise to EBITDA,118.338
+Price to Book,43.175316
+Price to Earnings,"PriceToEarnings(trailing_pe=168.77402, forward_pe=46.676563)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=6.4)"
+Enterprise to Revenue,12.866
+
+CASH FLOW
+Free to Cash Flow,2401100032.0
+Operating to Cash Flow,3066800128.0
+
+PROFITABILITY
+Return on Equity,0.45839
+Return on Assets,0.02684
+Return on Invested Capital,0.27622047404799327
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

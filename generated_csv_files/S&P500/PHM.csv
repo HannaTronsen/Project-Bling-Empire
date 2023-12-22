@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PHM
+Company,"PulteGroup, Inc."
+Country,United States
+Industry,Residential Construction
+Sector,Consumer Cyclical
+Website,https://www.pultegroup.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,17072587776.0
+Revenue Per Share,76.506
+Revenue Growth,0.028
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.41)"
+Net Earnings,2761303040.0
+Earnings Growth,0.078
+
+DEBT
+Total Debt,2506742016.0
+Debt to Equity,25.036
+
+MARGINS
+Profit Margins,0.16246
+Gross Profit Margins,0.29112
+Operating Margins,0.20715
+
+DIVIDEND
+Dividend Rate,0.8
+Dividend Yield,0.0078
+Five Year Avg Dividend Yield,1.18
+Trailing Annual Dividend Rate,0.63
+Trailing Annual Dividend Yield,0.006150542
+
+FINANCIAL RATIO
+Debt to Equity,25.036
+Price to Cash Flow,5.0135680361334267e-08
+Enterprise to EBITDA,6.155
+Price to Book,2.2201834
+Price to Earnings,"PriceToEarnings(trailing_pe=8.402778, forward_pe=9.014023)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.41)"
+Enterprise to Revenue,1.332
+
+CASH FLOW
+Free to Cash Flow,2051433216.0
+Operating to Cash Flow,2880734976.0
+
+PROFITABILITY
+Return on Equity,0.30519
+Return on Assets,0.15098
+Return on Invested Capital,1.1015505270769244
+Return on Investment,-0.30408482165471823
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

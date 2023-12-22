@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AMT
+Company,American Tower Corporation
+Country,United States
+Industry,REIT - Specialty
+Sector,Real Estate
+Website,https://www.americantower.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11062500352.0
+Revenue Per Share,23.744
+Revenue Growth,0.055
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=4.91)"
+Net Earnings,714600000.0
+Earnings Growth,-0.301
+
+DEBT
+Total Debt,46816198656.0
+Debt to Equity,416.718
+
+MARGINS
+Profit Margins,0.0646
+Gross Profit Margins,0.70584
+Operating Margins,0.34939
+
+DIVIDEND
+Dividend Rate,6.8
+Dividend Yield,0.0317
+Five Year Avg Dividend Yield,2.12
+Trailing Annual Dividend Rate,6.31
+Trailing Annual Dividend Yield,0.029447451
+
+FINANCIAL RATIO
+Debt to Equity,416.718
+Price to Cash Flow,4.5196111027140056e-08
+Enterprise to EBITDA,22.617
+Price to Book,22.055527
+Price to Earnings,"PriceToEarnings(trailing_pe=142.99333, forward_pe=43.68432)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=4.91)"
+Enterprise to Revenue,13.676
+
+CASH FLOW
+Free to Cash Flow,4745762304.0
+Operating to Cash Flow,4765499904.0
+
+PROFITABILITY
+Return on Equity,0.054109998
+Return on Assets,0.0336
+Return on Invested Capital,0.015263947530263106
+Return on Investment,0.009276905101908347
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

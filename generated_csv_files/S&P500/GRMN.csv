@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GRMN
+Company,Garmin Ltd.
+Country,Switzerland
+Industry,Scientific & Technical Instruments
+Sector,Technology
+Website,https://www.garmin.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5052106240.0
+Revenue Per Share,26.39
+Revenue Growth,0.12
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.42, forward_eps=5.67)"
+Net Earnings,1040780992.0
+Earnings Growth,0.229
+
+DEBT
+Total Debt,144935008.0
+Debt to Equity,2.283
+
+MARGINS
+Profit Margins,0.20601
+Gross Profit Margins,0.5712
+Operating Margins,0.21163
+
+DIVIDEND
+Dividend Rate,2.92
+Dividend Yield,0.0229
+Five Year Avg Dividend Yield,2.48
+Trailing Annual Dividend Rate,2.92
+Trailing Annual Dividend Yield,0.022916341
+
+FINANCIAL RATIO
+Debt to Equity,2.283
+Price to Cash Flow,2.0914994892036267e-07
+Enterprise to EBITDA,19.142
+Price to Book,3.8697817
+Price to Earnings,"PriceToEarnings(trailing_pe=23.686348, forward_pe=22.641975)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.42, forward_eps=5.67)"
+Enterprise to Revenue,4.519
+
+CASH FLOW
+Free to Cash Flow,613817984.0
+Operating to Cash Flow,1278989056.0
+
+PROFITABILITY
+Return on Equity,0.17024
+Return on Assets,0.08168
+Return on Invested Capital,7.181016982244632
+Return on Investment,-0.0505466594788859
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FITB
+Company,Fifth Third Bancorp
+Country,United States
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://www.53.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,8231000064.0
+Revenue Per Share,12.012
+Revenue Growth,0.01
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.51, forward_eps=3.2)"
+Net Earnings,2416999936.0
+Earnings Growth,0.0
+
+DEBT
+Total Debt,25485000704.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.31053
+Gross Profit Margins,0.0
+Operating Margins,0.41641998
+
+DIVIDEND
+Dividend Rate,1.36
+Dividend Yield,0.0395
+Five Year Avg Dividend Yield,3.69
+Trailing Annual Dividend Rate,1.34
+Trailing Annual Dividend Yield,0.038953487
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,1.6323688
+Price to Earnings,"PriceToEarnings(trailing_pe=9.853276, forward_pe=10.807812)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.51, forward_eps=3.2)"
+Enterprise to Revenue,5.305
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,4510000128.0
+
+PROFITABILITY
+Return on Equity,0.15361
+Return on Assets,0.01222
+Return on Invested Capital,0.0948400968107983
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,HAS
+Company,"Hasbro, Inc."
+Country,United States
+Industry,Leisure
+Sector,Consumer Cyclical
+Website,https://www.hasbro.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5392900096.0
+Revenue Per Share,38.924
+Revenue Growth,-0.103
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.02, forward_eps=3.98)"
+Net Earnings,-557100032.0
+Earnings Growth,None
+
+DEBT
+Total Debt,3861100032.0
+Debt to Equity,173.673
+
+MARGINS
+Profit Margins,-0.1033
+Gross Profit Margins,0.50571996
+Operating Margins,0.20188
+
+DIVIDEND
+Dividend Rate,2.8
+Dividend Yield,0.0548
+Five Year Avg Dividend Yield,3.42
+Trailing Annual Dividend Rate,2.8
+Trailing Annual Dividend Yield,0.05481597
+
+FINANCIAL RATIO
+Debt to Equity,173.673
+Price to Cash Flow,1.1280413562729016e-07
+Enterprise to EBITDA,11.634
+Price to Book,3.234013
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.87186)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.02, forward_eps=3.98)"
+Enterprise to Revenue,2.001
+
+CASH FLOW
+Free to Cash Flow,454150016.0
+Operating to Cash Flow,445600000.0
+
+PROFITABILITY
+Return on Equity,-0.21278
+Return on Assets,0.04991
+Return on Invested Capital,-0.14428531379587328
+Return on Investment,-0.03322003768634466
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,COR
+Company,"Cencora, Inc."
+Country,United States
+Industry,Medical Distribution
+Sector,Healthcare
+Website,https://www.cencora.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,262173409280.0
+Revenue Per Share,1294.613
+Revenue Growth,0.127
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.54, forward_eps=14.03)"
+Net Earnings,1745293056.0
+Earnings Growth,0.229
+
+DEBT
+Total Debt,5894166016.0
+Debt to Equity,884.629
+
+MARGINS
+Profit Margins,0.00666
+Gross Profit Margins,0.03359
+Operating Margins,0.007850001
+
+DIVIDEND
+Dividend Rate,2.04
+Dividend Yield,0.0101
+Five Year Avg Dividend Yield,1.51
+Trailing Annual Dividend Rate,1.94
+Trailing Annual Dividend Yield,0.009591141
+
+FINANCIAL RATIO
+Debt to Equity,884.629
+Price to Cash Flow,5.3357984488641444e-08
+Enterprise to EBITDA,12.563
+Price to Book,78.24355
+Price to Earnings,"PriceToEarnings(trailing_pe=23.812061, forward_pe=14.494298)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.54, forward_eps=14.03)"
+Enterprise to Revenue,0.168
+
+CASH FLOW
+Free to Cash Flow,3811144704.0
+Operating to Cash Flow,3911333888.0
+
+PROFITABILITY
+Return on Equity,4.6981297
+Return on Assets,0.026589999
+Return on Invested Capital,0.29610517425073196
+Return on Investment,-35.116560482897384
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

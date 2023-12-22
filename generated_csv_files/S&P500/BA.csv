@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,BA
+Company,The Boeing Company
+Country,United States
+Industry,Aerospace & Defense
+Sector,Industrials
+Website,https://www.boeing.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,75756003328.0
+Revenue Per Share,125.538
+Revenue Growth,0.135
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.69, forward_eps=3.97)"
+Net Earnings,-2832999936.0
+Earnings Growth,None
+
+DEBT
+Total Debt,52272001024.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,-0.0374
+Gross Profit Margins,0.114429995
+Operating Margins,-0.014529999
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,2.48
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,3.90235708951515e-08
+Enterprise to EBITDA,68.718
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=65.7208)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.69, forward_eps=3.97)"
+Enterprise to Revenue,2.606
+
+CASH FLOW
+Free to Cash Flow,6686000128.0
+Operating to Cash Flow,6035999744.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.00456
+Return on Invested Capital,-0.054197273530792324
+Return on Investment,-0.008048295272727274
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

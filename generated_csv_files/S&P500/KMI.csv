@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,KMI
+Company,"Kinder Morgan, Inc."
+Country,United States
+Industry,Oil & Gas Midstream
+Sector,Energy
+Website,https://www.kindermorgan.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,15875000320.0
+Revenue Per Share,7.087
+Revenue Growth,-0.245
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.21)"
+Net Earnings,2452000000.0
+Earnings Growth,-0.067
+
+DEBT
+Total Debt,31441999872.0
+Debt to Equity,99.56
+
+MARGINS
+Profit Margins,0.1554
+Gross Profit Margins,0.4766
+Operating Margins,0.23931
+
+DIVIDEND
+Dividend Rate,1.13
+Dividend Yield,0.0641
+Five Year Avg Dividend Yield,6.05
+Trailing Annual Dividend Rate,1.125
+Trailing Annual Dividend Yield,0.06377551
+
+FINANCIAL RATIO
+Debt to Equity,99.56
+Price to Cash Flow,8.12539283791676e-09
+Enterprise to EBITDA,11.171
+Price to Book,1.3072449
+Price to Earnings,"PriceToEarnings(trailing_pe=16.293577, forward_pe=14.677686)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.21)"
+Enterprise to Revenue,4.528
+
+CASH FLOW
+Free to Cash Flow,2185125120.0
+Operating to Cash Flow,5573000192.0
+
+PROFITABILITY
+Return on Equity,0.08039
+Return on Assets,0.03824
+Return on Invested Capital,0.07798486129771871
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

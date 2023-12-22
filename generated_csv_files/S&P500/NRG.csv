@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,NRG
+Company,"NRG Energy, Inc."
+Country,United States
+Industry,Utilities—Independent Power Producers
+Sector,Utilities
+Website,https://www.nrg.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,29870999552.0
+Revenue Per Share,129.874
+Revenue Growth,-0.066
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=6.39)"
+Net Earnings,-1816999936.0
+Earnings Growth,3.946
+
+DEBT
+Total Debt,11911000064.0
+Debt to Equity,338.573
+
+MARGINS
+Profit Margins,-0.059559997
+Gross Profit Margins,0.029560002
+Operating Margins,0.07287
+
+DIVIDEND
+Dividend Rate,1.51
+Dividend Yield,0.0301
+Five Year Avg Dividend Yield,2.62
+Trailing Annual Dividend Rate,1.51
+Trailing Annual Dividend Yield,0.030145738
+
+FINANCIAL RATIO
+Debt to Equity,338.573
+Price to Cash Flow,1.9985974498276425e-08
+Enterprise to EBITDA,-38.064
+Price to Book,3.9880857
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.8051643)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=6.39)"
+Enterprise to Revenue,0.785
+
+CASH FLOW
+Free to Cash Flow,2495500032.0
+Operating to Cash Flow,-1860000000.0
+
+PROFITABILITY
+Return on Equity,-0.41142
+Return on Assets,-0.03799
+Return on Invested Capital,-0.1525480584610157
+Return on Investment,-0.033899252537313435
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

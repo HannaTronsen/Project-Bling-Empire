@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ETR
+Company,Entergy Corporation
+Country,United States
+Industry,Utilities - Regulated Electric
+Sector,Utilities
+Website,https://www.entergy.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,12695106560.0
+Revenue Per Share,60.289
+Revenue Growth,-0.148
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.94, forward_eps=7.2)"
+Net Earnings,1475408000.0
+Earnings Growth,0.146
+
+DEBT
+Total Debt,27534505984.0
+Debt to Equity,196.137
+
+MARGINS
+Profit Margins,0.11622
+Gross Profit Margins,0.42705002
+Operating Margins,0.33133
+
+DIVIDEND
+Dividend Rate,4.52
+Dividend Yield,0.045300003
+Five Year Avg Dividend Yield,3.71
+Trailing Annual Dividend Rate,4.28
+Trailing Annual Dividend Yield,0.042915873
+
+FINANCIAL RATIO
+Debt to Equity,196.137
+Price to Cash Flow,-9.019697578510602e-08
+Enterprise to EBITDA,9.675
+Price to Book,1.5545841
+Price to Earnings,"PriceToEarnings(trailing_pe=14.502882, forward_pe=13.979167)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.94, forward_eps=7.2)"
+Enterprise to Revenue,3.738
+
+CASH FLOW
+Free to Cash Flow,-1115891072.0
+Operating to Cash Flow,4007042048.0
+
+PROFITABILITY
+Return on Equity,0.111549996
+Return on Assets,0.03051
+Return on Invested Capital,0.05358396469463092
+Return on Investment,-0.004929863268374033
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

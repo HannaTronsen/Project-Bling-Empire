@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CHRW
+Company,"C.H. Robinson Worldwide, Inc."
+Country,United States
+Industry,Integrated Freight & Logistics
+Sector,Industrials
+Website,https://www.chrobinson.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,18441377792.0
+Revenue Per Share,155.382
+Revenue Growth,-0.278
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.36, forward_eps=3.89)"
+Net Earnings,390348992.0
+Earnings Growth,-0.618
+
+DEBT
+Total Debt,1952118016.0
+Debt to Equity,138.982
+
+MARGINS
+Profit Margins,0.021170001
+Gross Profit Margins,0.06837
+Operating Margins,0.02612
+
+DIVIDEND
+Dividend Rate,2.44
+Dividend Yield,0.028399998
+Five Year Avg Dividend Yield,2.33
+Trailing Annual Dividend Rate,2.44
+Trailing Annual Dividend Yield,0.028421666
+
+FINANCIAL RATIO
+Debt to Equity,138.982
+Price to Cash Flow,6.992562669733726e-08
+Enterprise to EBITDA,17.118
+Price to Book,7.252902
+Price to Earnings,"PriceToEarnings(trailing_pe=26.03274, forward_pe=22.48586)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.36, forward_eps=3.89)"
+Enterprise to Revenue,0.639
+
+CASH FLOW
+Free to Cash Flow,1250900480.0
+Operating to Cash Flow,1457997056.0
+
+PROFITABILITY
+Return on Equity,0.2533
+Return on Assets,0.064559996
+Return on Invested Capital,0.19996177812461774
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

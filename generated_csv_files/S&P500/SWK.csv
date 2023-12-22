@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SWK
+Company,"Stanley Black & Decker, Inc."
+Country,United States
+Industry,Tools & Accessories
+Sector,Industrials
+Website,https://www.stanleyblackanddecker.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,16031399936.0
+Revenue Per Share,107.487
+Revenue Growth,-0.04
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.75, forward_eps=4.49)"
+Net Earnings,-112000000.0
+Earnings Growth,-0.995
+
+DEBT
+Total Debt,8122599936.0
+Debt to Equity,87.065
+
+MARGINS
+Profit Margins,-0.00319
+Gross Profit Margins,0.23474
+Operating Margins,0.059510004
+
+DIVIDEND
+Dividend Rate,3.24
+Dividend Yield,0.0334
+Five Year Avg Dividend Yield,2.38
+Trailing Annual Dividend Rate,3.21
+Trailing Annual Dividend Yield,0.0331201
+
+FINANCIAL RATIO
+Debt to Equity,87.065
+Price to Cash Flow,1.228889778637057e-07
+Enterprise to EBITDA,23.601
+Price to Book,1.6245068
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=22.01225)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.75, forward_eps=4.49)"
+Enterprise to Revenue,1.412
+
+CASH FLOW
+Free to Cash Flow,804262528.0
+Operating to Cash Flow,1073100032.0
+
+PROFITABILITY
+Return on Equity,-0.01125
+Return on Assets,0.00846
+Return on Invested Capital,-0.013788688356384932
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

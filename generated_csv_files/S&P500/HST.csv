@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,HST
+Company,"Host Hotels & Resorts, Inc."
+Country,United States
+Industry,REIT—Hotel & Motel
+Sector,Real Estate
+Website,https://www.hosthotels.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5257999872.0
+Revenue Per Share,7.382
+Revenue Growth,0.019
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.91)"
+Net Earnings,755000000.0
+Earnings Growth,-0.019
+
+DEBT
+Total Debt,4776999936.0
+Debt to Equity,67.942
+
+MARGINS
+Profit Margins,0.14359
+Gross Profit Margins,0.29954
+Operating Margins,0.084300004
+
+DIVIDEND
+Dividend Rate,0.65
+Dividend Yield,0.0332
+Five Year Avg Dividend Yield,4.49
+Trailing Annual Dividend Rate,0.57
+Trailing Annual Dividend Yield,0.029126214
+
+FINANCIAL RATIO
+Debt to Equity,67.942
+Price to Cash Flow,1.659302768649109e-08
+Enterprise to EBITDA,12.169
+Price to Book,2.0340896
+Price to Earnings,"PriceToEarnings(trailing_pe=18.866667, forward_pe=21.76923)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.91)"
+Enterprise to Revenue,3.391
+
+CASH FLOW
+Free to Cash Flow,1193874944.0
+Operating to Cash Flow,1494000000.0
+
+PROFITABILITY
+Return on Equity,0.109469995
+Return on Assets,0.04027
+Return on Invested Capital,0.15804898651368976
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

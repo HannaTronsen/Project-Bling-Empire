@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MHK
+Company,"Mohawk Industries, Inc."
+Country,United States
+Industry,"Furnishings, Fixtures & Appliances"
+Sector,Consumer Cyclical
+Website,https://www.mohawkind.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11173512192.0
+Revenue Per Share,175.63
+Revenue Growth,-0.052
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-8.58, forward_eps=9.98)"
+Net Earnings,-545548032.0
+Earnings Growth,None
+
+DEBT
+Total Debt,3019649024.0
+Debt to Equity,41.528
+
+MARGINS
+Profit Margins,-0.04883
+Gross Profit Margins,0.24725
+Operating Margins,0.06849
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,41.528
+Price to Cash Flow,1.2015805906505775e-07
+Enterprise to EBITDA,6.77
+Price to Book,0.9062064
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.35972)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-8.58, forward_eps=9.98)"
+Enterprise to Revenue,0.811
+
+CASH FLOW
+Free to Cash Flow,860449984.0
+Operating to Cash Flow,1274625024.0
+
+PROFITABILITY
+Return on Equity,-0.07224
+Return on Assets,0.03264
+Return on Invested Capital,-0.1806660333872072
+Return on Investment,0.014596798137767729
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

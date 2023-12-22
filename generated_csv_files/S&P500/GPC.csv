@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GPC
+Company,Genuine Parts Company
+Country,United States
+Industry,Specialty Retail
+Sector,Consumer Cyclical
+Website,https://www.genpt.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,23028375552.0
+Revenue Per Share,163.684
+Revenue Growth,0.026
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.86, forward_eps=9.88)"
+Net Earnings,1251624960.0
+Earnings Growth,0.132
+
+DEBT
+Total Debt,4236934912.0
+Debt to Equity,100.849
+
+MARGINS
+Profit Margins,0.05435
+Gross Profit Margins,0.35743
+Operating Margins,0.08203
+
+DIVIDEND
+Dividend Rate,3.8
+Dividend Yield,0.0274
+Five Year Avg Dividend Yield,2.77
+Trailing Annual Dividend Rate,3.745
+Trailing Annual Dividend Yield,0.027045568
+
+FINANCIAL RATIO
+Debt to Equity,100.849
+Price to Cash Flow,1.8540697426193993e-07
+Enterprise to EBITDA,11.253
+Price to Book,4.6738806
+Price to Earnings,"PriceToEarnings(trailing_pe=15.747179, forward_pe=14.121458)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.86, forward_eps=9.88)"
+Enterprise to Revenue,0.999
+
+CASH FLOW
+Free to Cash Flow,752506752.0
+Operating to Cash Flow,1304825984.0
+
+PROFITABILITY
+Return on Equity,0.31768999
+Return on Assets,0.06343
+Return on Invested Capital,0.29540811392614863
+Return on Investment,-0.03960061506919529
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MET
+Company,"MetLife, Inc."
+Country,United States
+Industry,Insurance—Life
+Sector,Financial Services
+Website,https://www.metlife.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,64612999168.0
+Revenue Per Share,84.022
+Revenue Growth,-0.288
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.4, forward_eps=9.23)"
+Net Earnings,-390000000.0
+Earnings Growth,-0.591
+
+DEBT
+Total Debt,107167997952.0
+Debt to Equity,413.856
+
+MARGINS
+Profit Margins,-0.00303
+Gross Profit Margins,0.21861
+Operating Margins,0.00013
+
+DIVIDEND
+Dividend Rate,2.08
+Dividend Yield,0.0317
+Five Year Avg Dividend Yield,3.51
+Trailing Annual Dividend Rate,2.04
+Trailing Annual Dividend Yield,0.031102303
+
+FINANCIAL RATIO
+Debt to Equity,413.856
+Price to Cash Flow,-1.6309791884802515e-08
+Enterprise to EBITDA,44.869
+Price to Book,1.9152884
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.152763)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.4, forward_eps=9.23)"
+Enterprise to Revenue,2.026
+
+CASH FLOW
+Free to Cash Flow,-4047875072.0
+Operating to Cash Flow,11000000512.0
+
+PROFITABILITY
+Return on Equity,-0.0068300003
+Return on Assets,0.0023999999
+Return on Invested Capital,-0.0036391460821096765
+Return on Investment,-0.001904296875
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

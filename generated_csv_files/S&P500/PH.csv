@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PH
+Company,Parker-Hannifin Corporation
+Country,United States
+Industry,Specialty Industrial Machinery
+Sector,Industrials
+Website,https://www.phstock.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,19679907840.0
+Revenue Per Share,153.295
+Revenue Growth,0.145
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.05, forward_eps=25.32)"
+Net Earnings,2345908992.0
+Earnings Growth,0.675
+
+DEBT
+Total Debt,12190487552.0
+Debt to Equity,115.277
+
+MARGINS
+Profit Margins,0.1192
+Gross Profit Margins,0.34991002
+Operating Margins,0.18882999
+
+DIVIDEND
+Dividend Rate,5.92
+Dividend Yield,0.012999999
+Five Year Avg Dividend Yield,1.61
+Trailing Annual Dividend Rate,5.62
+Trailing Annual Dividend Yield,0.012327265
+
+FINANCIAL RATIO
+Debt to Equity,115.277
+Price to Cash Flow,1.377135208892637e-07
+Enterprise to EBITDA,15.027
+Price to Book,5.579734
+Price to Earnings,"PriceToEarnings(trailing_pe=25.421331, forward_pe=18.122236)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.05, forward_eps=25.32)"
+Enterprise to Revenue,3.573
+
+CASH FLOW
+Free to Cash Flow,3331953152.0
+Operating to Cash Flow,3172530944.0
+
+PROFITABILITY
+Return on Equity,0.24256
+Return on Assets,0.079239994
+Return on Invested Capital,0.19243766634992548
+Return on Investment,0.029838653774240078
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

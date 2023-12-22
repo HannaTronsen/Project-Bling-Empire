@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TER
+Company,"Teradyne, Inc."
+Country,United States
+Industry,Semiconductor Equipment & Materials
+Sector,Technology
+Website,https://www.teradyne.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,2737534976.0
+Revenue Per Share,17.656
+Revenue Growth,-0.149
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.15, forward_eps=3.72)"
+Net Earnings,503999008.0
+Earnings Growth,-0.291
+
+DEBT
+Total Debt,110919000.0
+Debt to Equity,4.543
+
+MARGINS
+Profit Margins,0.18410999
+Gross Profit Margins,0.5763
+Operating Margins,0.21340999
+
+DIVIDEND
+Dividend Rate,0.44
+Dividend Yield,0.0041
+Five Year Avg Dividend Yield,0.5
+Trailing Annual Dividend Rate,0.44
+Trailing Annual Dividend Yield,0.004127967
+
+FINANCIAL RATIO
+Debt to Equity,4.543
+Price to Cash Flow,3.925436780633238e-07
+Enterprise to EBITDA,22.755
+Price to Book,6.7414637
+Price to Earnings,"PriceToEarnings(trailing_pe=49.95581, forward_pe=28.87231)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.15, forward_eps=3.72)"
+Enterprise to Revenue,5.731
+
+CASH FLOW
+Free to Cash Flow,273612864.0
+Operating to Cash Flow,519852992.0
+
+PROFITABILITY
+Return on Equity,0.21468
+Return on Assets,0.10814
+Return on Invested Capital,4.543846731465609
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TRV
+Company,"The Travelers Companies, Inc."
+Country,United States
+Industry,Insurance—Property & Casualty
+Sector,Financial Services
+Website,https://www.travelers.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,40072998912.0
+Revenue Per Share,173.645
+Revenue Growth,0.143
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.26, forward_eps=17.45)"
+Net Earnings,2168999936.0
+Earnings Growth,-0.079
+
+DEBT
+Total Debt,8031000064.0
+Debt to Equity,40.199
+
+MARGINS
+Profit Margins,0.0545
+Gross Profit Margins,0.19452
+Operating Margins,0.053600002
+
+DIVIDEND
+Dividend Rate,4.0
+Dividend Yield,0.0216
+Five Year Avg Dividend Yield,2.32
+Trailing Annual Dividend Rate,3.86
+Trailing Annual Dividend Yield,0.020800775
+
+FINANCIAL RATIO
+Debt to Equity,40.199
+Price to Cash Flow,1.423769799501959e-08
+Enterprise to EBITDA,13.163
+Price to Book,2.119951
+Price to Earnings,"PriceToEarnings(trailing_pe=20.024837, forward_pe=10.62636)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.26, forward_eps=17.45)"
+Enterprise to Revenue,1.131
+
+CASH FLOW
+Free to Cash Flow,13023875072.0
+Operating to Cash Flow,6946999808.0
+
+PROFITABILITY
+Return on Equity,0.109519996
+Return on Assets,0.01435
+Return on Invested Capital,0.2700784329587212
+Return on Investment,0.029631146666666667
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MSI
+Company,"Motorola Solutions, Inc."
+Country,United States
+Industry,Communication Equipment
+Sector,Technology
+Website,https://www.motorolasolutions.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9836000256.0
+Revenue Per Share,58.801
+Revenue Growth,0.077
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.88, forward_eps=12.66)"
+Net Earnings,1702000000.0
+Earnings Growth,0.656
+
+DEBT
+Total Debt,6503000064.0
+Debt to Equity,1729.521
+
+MARGINS
+Profit Margins,0.17304
+Gross Profit Margins,0.49542
+Operating Margins,0.26252002
+
+DIVIDEND
+Dividend Rate,3.92
+Dividend Yield,0.0126
+Five Year Avg Dividend Yield,1.38
+Trailing Annual Dividend Rate,3.52
+Trailing Annual Dividend Yield,0.011334729
+
+FINANCIAL RATIO
+Debt to Equity,1729.521
+Price to Cash Flow,1.8962589152417602e-07
+Enterprise to EBITDA,20.316
+Price to Book,142.54591
+Price to Earnings,"PriceToEarnings(trailing_pe=31.423582, forward_pe=24.523302)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.88, forward_eps=12.66)"
+Enterprise to Revenue,5.81
+
+CASH FLOW
+Free to Cash Flow,1637250048.0
+Operating to Cash Flow,2072000000.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.12640001
+Return on Invested Capital,0.26172535486383813
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

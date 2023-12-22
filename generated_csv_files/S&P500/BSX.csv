@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,BSX
+Company,Boston Scientific Corporation
+Country,United States
+Industry,Medical Devices
+Sector,Healthcare
+Website,https://www.bostonscientific.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,13756999680.0
+Revenue Per Share,9.522
+Revenue Growth,0.113
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.82, forward_eps=2.24)"
+Net Earnings,1191000064.0
+Earnings Growth,1.833
+
+DEBT
+Total Debt,9299000320.0
+Debt to Equity,48.612
+
+MARGINS
+Profit Margins,0.08926
+Gross Profit Margins,0.69056
+Operating Margins,0.17267
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,48.612
+Price to Cash Flow,2.980602083247572e-08
+Enterprise to EBITDA,25.725
+Price to Book,4.3201737
+Price to Earnings,"PriceToEarnings(trailing_pe=67.926834, forward_pe=24.866072)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.82, forward_eps=2.24)"
+Enterprise to Revenue,6.551
+
+CASH FLOW
+Free to Cash Flow,1868749952.0
+Operating to Cash Flow,2352999936.0
+
+PROFITABILITY
+Return on Equity,0.0668
+Return on Assets,0.044060003
+Return on Invested Capital,0.12807829028536766
+Return on Investment,-0.05671428876190476
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

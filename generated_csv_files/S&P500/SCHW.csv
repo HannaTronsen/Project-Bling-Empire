@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SCHW
+Company,The Charles Schwab Corporation
+Country,United States
+Industry,Capital Markets
+Sector,Financial Services
+Website,https://www.schwab.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,19921000448.0
+Revenue Per Share,10.956
+Revenue Growth,-0.163
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.0, forward_eps=3.72)"
+Net Earnings,5552000000.0
+Earnings Growth,-0.438
+
+DEBT
+Total Debt,70030999552.0
+Debt to Equity,185.346
+
+MARGINS
+Profit Margins,0.30069
+Gross Profit Margins,0.96843004
+Operating Margins,0.38102
+
+DIVIDEND
+Dividend Rate,1.0
+Dividend Yield,0.0147
+Five Year Avg Dividend Yield,1.36
+Trailing Annual Dividend Rate,0.98
+Trailing Annual Dividend Yield,0.014373717
+
+FINANCIAL RATIO
+Debt to Equity,185.346
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,4.387222
+Price to Earnings,"PriceToEarnings(trailing_pe=22.958334, forward_pe=18.514784)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.0, forward_eps=3.72)"
+Enterprise to Revenue,7.568
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,-2556999936.0
+
+PROFITABILITY
+Return on Equity,0.16011
+Return on Assets,0.01138
+Return on Invested Capital,0.0792791768541427
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

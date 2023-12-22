@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FLT
+Company,"FLEETCOR Technologies, Inc."
+Country,United States
+Industry,Software—Infrastructure
+Sector,Technology
+Website,https://www.fleetcor.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3704008960.0
+Revenue Per Share,50.39
+Revenue Growth,0.087
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.77, forward_eps=19.35)"
+Net Earnings,951352000.0
+Earnings Growth,0.106
+
+DEBT
+Total Debt,6976514048.0
+Debt to Equity,228.032
+
+MARGINS
+Profit Margins,0.25684
+Gross Profit Margins,0.7786
+Operating Margins,0.45832002
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,228.032
+Price to Cash Flow,3.2311945466921657e-07
+Enterprise to EBITDA,13.718
+Price to Book,6.550279
+Price to Earnings,"PriceToEarnings(trailing_pe=21.734924, forward_pe=14.343927)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.77, forward_eps=19.35)"
+Enterprise to Revenue,6.976
+
+CASH FLOW
+Free to Cash Flow,858985728.0
+Operating to Cash Flow,1220059008.0
+
+PROFITABILITY
+Return on Equity,0.35992
+Return on Assets,0.06731
+Return on Invested Capital,0.1363649507012084
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

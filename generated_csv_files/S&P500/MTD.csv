@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MTD
+Company,Mettler-Toledo International Inc.
+Country,United States
+Industry,Diagnostics & Research
+Sector,Healthcare
+Website,https://www.mt.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3911002112.0
+Revenue Per Share,177.757
+Revenue Growth,-0.044
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=39.17, forward_eps=39.39)"
+Net Earnings,869817984.0
+Earnings Growth,-0.056
+
+DEBT
+Total Debt,2108483968.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.2224
+Gross Profit Margins,0.59366
+Operating Margins,0.29657
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,1.8320216831986635e-06
+Enterprise to EBITDA,22.73
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=30.958899, forward_pe=30.785988)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=39.17, forward_eps=39.39)"
+Enterprise to Revenue,7.225
+
+CASH FLOW
+Free to Cash Flow,661924480.0
+Operating to Cash Flow,988012032.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.22172001
+Return on Invested Capital,0.41253241628365833
+Return on Investment,0.19725105653445812
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

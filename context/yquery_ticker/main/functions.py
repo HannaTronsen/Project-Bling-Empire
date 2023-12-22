@@ -41,6 +41,8 @@ def _open_or_create_blacklisted_stock_file(stock_collection: str) -> TextIO:
 
     if not os.path.exists(BLACKLISTED_STOCK_TICKERS_PATH):
         os.makedirs(BLACKLISTED_STOCK_TICKERS_PATH)
+
+    if not os.path.exists(full_blacklisted_path):
         with open(full_blacklisted_path, "a+") as file:
             file.write(AUTO_GENERATED_FILE_STRING)
 

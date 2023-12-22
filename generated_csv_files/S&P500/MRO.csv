@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MRO
+Company,Marathon Oil Corporation
+Country,United States
+Industry,Oil & Gas E&P
+Sector,Energy
+Website,https://www.marathonoil.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6454000128.0
+Revenue Per Share,10.401
+Revenue Growth,-0.12
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.75, forward_eps=3.43)"
+Net Earnings,1682000000.0
+Earnings Growth,-0.385
+
+DEBT
+Total Debt,5843999744.0
+Debt to Equity,52.058
+
+MARGINS
+Profit Margins,0.26061
+Gross Profit Margins,0.77796996
+Operating Margins,0.35814998
+
+DIVIDEND
+Dividend Rate,0.44
+Dividend Yield,0.0178
+Five Year Avg Dividend Yield,1.58
+Trailing Annual Dividend Rate,0.41
+Trailing Annual Dividend Yield,0.016592473
+
+FINANCIAL RATIO
+Debt to Equity,52.058
+Price to Cash Flow,1.9767035281853425e-08
+Enterprise to EBITDA,4.607
+Price to Book,1.3039417
+Price to Earnings,"PriceToEarnings(trailing_pe=9.021854, forward_pe=7.2332654)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.75, forward_eps=3.43)"
+Enterprise to Revenue,3.118
+
+CASH FLOW
+Free to Cash Flow,1255124992.0
+Operating to Cash Flow,4134000128.0
+
+PROFITABILITY
+Return on Equity,0.15009
+Return on Assets,0.074149996
+Return on Invested Capital,0.28781657566816515
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

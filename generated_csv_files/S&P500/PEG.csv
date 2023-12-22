@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PEG
+Company,Public Service Enterprise Group Incorporated
+Country,United States
+Industry,Utilities—Regulated Electric
+Sector,Utilities
+Website,https://www.pseg.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11770999808.0
+Revenue Per Share,23.672
+Revenue Growth,0.081
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.61, forward_eps=3.69)"
+Net Earnings,2804999936.0
+Earnings Growth,0.227
+
+DEBT
+Total Debt,19907000320.0
+Debt to Equity,131.261
+
+MARGINS
+Profit Margins,0.2383
+Gross Profit Margins,0.4342
+Operating Margins,0.10138
+
+DIVIDEND
+Dividend Rate,2.28
+Dividend Yield,0.0378
+Five Year Avg Dividend Yield,3.37
+Trailing Annual Dividend Rate,2.25
+Trailing Annual Dividend Yield,0.03728252
+
+FINANCIAL RATIO
+Debt to Equity,131.261
+Price to Cash Flow,8.5569176882662e-07
+Enterprise to EBITDA,9.701
+Price to Book,2.0054836
+Price to Earnings,"PriceToEarnings(trailing_pe=10.886809, forward_pe=16.55149)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.61, forward_eps=3.69)"
+Enterprise to Revenue,4.241
+
+CASH FLOW
+Free to Cash Flow,71375000.0
+Operating to Cash Flow,3897999872.0
+
+PROFITABILITY
+Return on Equity,0.19742
+Return on Assets,0.04932
+Return on Invested Capital,0.14090520352736263
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

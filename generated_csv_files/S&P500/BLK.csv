@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,BLK
+Company,"BlackRock, Inc."
+Country,United States
+Industry,Asset Management
+Sector,Financial Services
+Website,https://www.blackrock.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,17564999680.0
+Revenue Per Share,117.357
+Revenue Growth,0.049
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=23.33, forward_eps=37.7)"
+Net Earnings,5385999872.0
+Earnings Growth,0.152
+
+DEBT
+Total Debt,9664000000.0
+Debt to Equity,23.785
+
+MARGINS
+Profit Margins,0.30663002
+Gross Profit Margins,0.48534
+Operating Margins,0.36201
+
+DIVIDEND
+Dividend Rate,20.0
+Dividend Yield,0.025
+Five Year Avg Dividend Yield,2.54
+Trailing Annual Dividend Rate,19.88
+Trailing Annual Dividend Yield,0.024877988
+
+FINANCIAL RATIO
+Debt to Equity,23.785
+Price to Cash Flow,2.2010814575888498e-07
+Enterprise to EBITDA,18.607
+Price to Book,3.0997412
+Price to Earnings,"PriceToEarnings(trailing_pe=34.45735, forward_pe=21.323341)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=23.33, forward_eps=37.7)"
+Enterprise to Revenue,7.03
+
+CASH FLOW
+Free to Cash Flow,3652250112.0
+Operating to Cash Flow,4140000000.0
+
+PROFITABILITY
+Return on Equity,0.13953
+Return on Assets,0.03317
+Return on Invested Capital,0.5573261307390815
+Return on Investment,0.30954022252873564
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

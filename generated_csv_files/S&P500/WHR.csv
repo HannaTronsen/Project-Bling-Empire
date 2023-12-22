@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,WHR
+Company,Whirlpool Corporation
+Country,United States
+Industry,"Furnishings, Fixtures & Appliances"
+Sector,Consumer Cyclical
+Website,https://www.whirlpoolcorp.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,19289999360.0
+Revenue Per Share,351.686
+Revenue Growth,0.03
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-28.87, forward_eps=15.95)"
+Net Earnings,-1614000000.0
+Earnings Growth,-0.42
+
+DEBT
+Total Debt,8248999936.0
+Debt to Equity,368.259
+
+MARGINS
+Profit Margins,-0.08367
+Gross Profit Margins,0.15671
+Operating Margins,0.06313
+
+DIVIDEND
+Dividend Rate,7.0
+Dividend Yield,0.0592
+Five Year Avg Dividend Yield,3.64
+Trailing Annual Dividend Rate,7.0
+Trailing Annual Dividend Yield,0.059151597
+
+FINANCIAL RATIO
+Debt to Equity,368.259
+Price to Cash Flow,1.91184e-07
+Enterprise to EBITDA,9.447
+Price to Book,3.1841073
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.491536)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-28.87, forward_eps=15.95)"
+Enterprise to Revenue,0.715
+
+CASH FLOW
+Free to Cash Flow,625000000.0
+Operating to Cash Flow,758000000.0
+
+PROFITABILITY
+Return on Equity,-0.48793998
+Return on Assets,0.03877
+Return on Invested Capital,-0.1956600806376178
+Return on Investment,-0.07141592920353983
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

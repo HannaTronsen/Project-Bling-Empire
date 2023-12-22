@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,UPS
+Company,"United Parcel Service, Inc."
+Country,United States
+Industry,Integrated Freight & Logistics
+Sector,Industrials
+Website,https://www.ups.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,93073997824.0
+Revenue Per Share,108.069
+Revenue Growth,-0.128
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.89, forward_eps=9.68)"
+Net Earnings,8556000256.0
+Earnings Growth,-0.557
+
+DEBT
+Total Debt,25440000000.0
+Debt to Equity,132.638
+
+MARGINS
+Profit Margins,0.09193
+Gross Profit Margins,0.23291999
+Operating Margins,0.07136
+
+DIVIDEND
+Dividend Rate,6.48
+Dividend Yield,0.041199997
+Five Year Avg Dividend Yield,3.04
+Trailing Annual Dividend Rate,6.38
+Trailing Annual Dividend Yield,0.040595572
+
+FINANCIAL RATIO
+Debt to Equity,132.638
+Price to Cash Flow,3.9091792617781584e-08
+Enterprise to EBITDA,11.395
+Price to Book,7.0558276
+Price to Earnings,"PriceToEarnings(trailing_pe=16.050758, forward_pe=16.398968)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.89, forward_eps=9.68)"
+Enterprise to Revenue,1.634
+
+CASH FLOW
+Free to Cash Flow,4060750080.0
+Operating to Cash Flow,11159000064.0
+
+PROFITABILITY
+Return on Equity,0.47313
+Return on Assets,0.08902001
+Return on Invested Capital,0.33632076448244713
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

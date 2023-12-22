@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AMZN
+Company,"Amazon.com, Inc."
+Country,United States
+Industry,Internet Retail
+Sector,Consumer Cyclical
+Website,https://www.aboutamazon.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,554027974656.0
+Revenue Per Share,53.946
+Revenue Growth,0.126
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.91, forward_eps=3.59)"
+Net Earnings,20078999552.0
+Earnings Growth,2.357
+
+DEBT
+Total Debt,166064996352.0
+Debt to Equity,90.759
+
+MARGINS
+Profit Margins,0.03624
+Gross Profit Margins,0.46243998
+Operating Margins,0.07819
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,90.759
+Price to Cash Flow,4.215443566649413e-09
+Enterprise to EBITDA,22.867
+Price to Book,8.6608715
+Price to Earnings,"PriceToEarnings(trailing_pe=80.319374, forward_pe=42.732594)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.91, forward_eps=3.59)"
+Enterprise to Revenue,3.053
+
+CASH FLOW
+Free to Cash Flow,36392374272.0
+Operating to Cash Flow,71653998592.0
+
+PROFITABILITY
+Return on Equity,0.12531
+Return on Assets,0.03612
+Return on Invested Capital,0.12091048680299742
+Return on Investment,-0.004147953715784907
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

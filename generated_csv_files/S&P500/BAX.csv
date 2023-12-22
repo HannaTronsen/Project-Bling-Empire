@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,BAX
+Company,Baxter International Inc.
+Country,United States
+Industry,Medical Instruments & Supplies
+Sector,Healthcare
+Website,https://www.baxter.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,15280000000.0
+Revenue Per Share,30.183
+Revenue Growth,0.027
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.46, forward_eps=2.98)"
+Net Earnings,225000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,16929000448.0
+Debt to Equity,207.311
+
+MARGINS
+Profit Margins,0.16962999
+Gross Profit Margins,0.38626
+Operating Margins,0.11165
+
+DIVIDEND
+Dividend Rate,1.16
+Dividend Yield,0.0298
+Five Year Avg Dividend Yield,1.56
+Trailing Annual Dividend Rate,1.16
+Trailing Annual Dividend Yield,0.029812386
+
+FINANCIAL RATIO
+Debt to Equity,207.311
+Price to Cash Flow,2.1582491582491583e-08
+Enterprise to EBITDA,10.1
+Price to Book,2.4084163
+Price to Earnings,"PriceToEarnings(trailing_pe=83.60869, forward_pe=12.90604)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.46, forward_eps=2.98)"
+Enterprise to Revenue,2.025
+
+CASH FLOW
+Free to Cash Flow,1782000000.0
+Operating to Cash Flow,1634000000.0
+
+PROFITABILITY
+Return on Equity,0.03419
+Return on Assets,0.03787
+Return on Invested Capital,0.013290802400229175
+Return on Investment,0.007575757575757576
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

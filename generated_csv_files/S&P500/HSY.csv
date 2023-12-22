@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,HSY
+Company,The Hershey Company
+Country,United States
+Industry,Confectioners
+Sector,Consumer Defensive
+Website,https://www.thehersheycompany.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11160218624.0
+Revenue Per Share,54.47
+Revenue Growth,0.111
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.29, forward_eps=10.01)"
+Net Earnings,1909041024.0
+Earnings Growth,0.299
+
+DEBT
+Total Debt,5232045056.0
+Debt to Equity,131.868
+
+MARGINS
+Profit Margins,0.17106001
+Gross Profit Margins,0.44979
+Operating Margins,0.24229999
+
+DIVIDEND
+Dividend Rate,4.77
+Dividend Yield,0.026300002
+Five Year Avg Dividend Yield,1.97
+Trailing Annual Dividend Rate,4.3
+Trailing Annual Dividend Yield,0.023756906
+
+FINANCIAL RATIO
+Debt to Equity,131.868
+Price to Cash Flow,1.5248035239832564e-07
+Enterprise to EBITDA,13.924
+Price to Book,9.431531
+Price to Earnings,"PriceToEarnings(trailing_pe=19.6986, forward_pe=18.281717)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.29, forward_eps=10.01)"
+Enterprise to Revenue,3.743
+
+CASH FLOW
+Free to Cash Flow,1200154624.0
+Operating to Cash Flow,2333184000.0
+
+PROFITABILITY
+Return on Equity,0.54152
+Return on Assets,0.14259
+Return on Invested Capital,0.36487472804369053
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,False
+Net Income,True
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,2

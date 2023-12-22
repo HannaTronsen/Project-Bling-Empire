@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,UDR
+Company,"UDR, Inc."
+Country,United States
+Industry,REIT - Residential
+Sector,Real Estate
+Website,https://www.udr.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1639556992.0
+Revenue Per Share,4.998
+Revenue Growth,0.036
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.38, forward_eps=0.41)"
+Net Earnings,451166016.0
+Earnings Growth,0.389
+
+DEBT
+Total Debt,5939523072.0
+Debt to Equity,117.419
+
+MARGINS
+Profit Margins,0.27806
+Gross Profit Margins,0.66822
+Operating Margins,0.19645001
+
+DIVIDEND
+Dividend Rate,1.68
+Dividend Yield,0.045100003
+Five Year Avg Dividend Yield,3.34
+Trailing Annual Dividend Rate,1.64
+Trailing Annual Dividend Yield,0.043991417
+
+FINANCIAL RATIO
+Debt to Equity,117.419
+Price to Cash Flow,6.053320921792957e-08
+Enterprise to EBITDA,19.108
+Price to Book,3.0296357
+Price to Earnings,"PriceToEarnings(trailing_pe=27.40942, forward_pe=92.2561)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.38, forward_eps=0.41)"
+Enterprise to Revenue,11.673
+
+CASH FLOW
+Free to Cash Flow,624863616.0
+Operating to Cash Flow,831025984.0
+
+PROFITABILITY
+Return on Equity,0.09789
+Return on Assets,0.017549999
+Return on Invested Capital,0.07595997348314362
+Return on Investment,0.1700395793917009
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

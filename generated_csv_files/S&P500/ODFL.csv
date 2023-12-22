@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ODFL
+Company,"Old Dominion Freight Line, Inc."
+Country,United States
+Industry,Trucking
+Sector,Industrials
+Website,https://www.odfl.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5862261248.0
+Revenue Per Share,53.416
+Revenue Growth,-0.055
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.25, forward_eps=13.36)"
+Net Earnings,1240615936.0
+Earnings Growth,-0.08
+
+DEBT
+Total Debt,79974000.0
+Debt to Equity,1.968
+
+MARGINS
+Profit Margins,0.21163
+Gross Profit Margins,0.39905
+Operating Margins,0.29369
+
+DIVIDEND
+Dividend Rate,1.6
+Dividend Yield,0.0039
+Five Year Avg Dividend Yield,0.34
+Trailing Annual Dividend Rate,1.5
+Trailing Annual Dividend Yield,0.0036655997
+
+FINANCIAL RATIO
+Debt to Equity,1.968
+Price to Cash Flow,1.2230200921135198e-06
+Enterprise to EBITDA,22.696
+Price to Book,11.102781
+Price to Earnings,"PriceToEarnings(trailing_pe=36.728, forward_pe=30.927397)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.25, forward_eps=13.36)"
+Enterprise to Revenue,7.595
+
+CASH FLOW
+Free to Cash Flow,337844000.0
+Operating to Cash Flow,1493789952.0
+
+PROFITABILITY
+Return on Equity,0.32557
+Return on Assets,0.20399
+Return on Invested Capital,15.512733622097409
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

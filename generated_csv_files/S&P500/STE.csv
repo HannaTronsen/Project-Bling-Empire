@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,STE
+Company,STERIS plc
+Country,Ireland
+Industry,Medical Devices
+Sector,Healthcare
+Website,https://www.steris.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5227732992.0
+Revenue Per Share,52.77
+Revenue Growth,0.118
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=9.52)"
+Net Earnings,549926016.0
+Earnings Growth,None
+
+DEBT
+Total Debt,3633406976.0
+Debt to Equity,58.706
+
+MARGINS
+Profit Margins,0.10519
+Gross Profit Margins,0.435
+Operating Margins,0.15037
+
+DIVIDEND
+Dividend Rate,2.08
+Dividend Yield,0.0095
+Five Year Avg Dividend Yield,0.89
+Trailing Annual Dividend Rate,1.93
+Trailing Annual Dividend Yield,0.008835782
+
+FINANCIAL RATIO
+Debt to Equity,58.706
+Price to Cash Flow,4.50209971729767e-07
+Enterprise to EBITDA,18.014
+Price to Book,3.5199401
+Price to Earnings,"PriceToEarnings(trailing_pe=39.80651, forward_pe=23.122898)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=9.52)"
+Enterprise to Revenue,4.784
+
+CASH FLOW
+Free to Cash Flow,488949632.0
+Operating to Cash Flow,848601024.0
+
+PROFITABILITY
+Return on Equity,0.09172
+Return on Assets,0.04697
+Return on Invested Capital,0.15135271390382884
+Return on Investment,-0.10362862343829499
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

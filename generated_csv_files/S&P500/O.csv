@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,O
+Company,Realty Income Corporation
+Country,United States
+Industry,REIT—Retail
+Sector,Real Estate
+Website,https://www.realtyincome.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3891655936.0
+Revenue Per Share,5.813
+Revenue Growth,0.242
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.32, forward_eps=1.41)"
+Net Earnings,881169024.0
+Earnings Growth,-0.074
+
+DEBT
+Total Debt,20921972736.0
+Debt to Equity,65.744
+
+MARGINS
+Profit Margins,0.22643
+Gross Profit Margins,0.92183995
+Operating Margins,0.42058998
+
+DIVIDEND
+Dividend Rate,3.08
+Dividend Yield,0.054
+Five Year Avg Dividend Yield,4.4
+Trailing Annual Dividend Rate,3.035
+Trailing Annual Dividend Yield,0.05328301
+
+FINANCIAL RATIO
+Debt to Equity,65.744
+Price to Cash Flow,3.232651674154327e-08
+Enterprise to EBITDA,17.992
+Price to Book,1.3099104
+Price to Earnings,"PriceToEarnings(trailing_pe=43.397724, forward_pe=40.62766)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.32, forward_eps=1.41)"
+Enterprise to Revenue,15.92
+
+CASH FLOW
+Free to Cash Flow,1772074624.0
+Operating to Cash Flow,2828601088.0
+
+PROFITABILITY
+Return on Equity,0.03018
+Return on Assets,0.01958
+Return on Invested Capital,0.04211691857536617
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

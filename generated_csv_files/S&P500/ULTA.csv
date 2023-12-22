@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ULTA
+Company,"Ulta Beauty, Inc."
+Country,United States
+Industry,Specialty Retail
+Sector,Consumer Cyclical
+Website,https://www.ulta.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,10879777792.0
+Revenue Per Share,218.251
+Revenue Growth,0.064
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.64, forward_eps=26.99)"
+Net Earnings,1237387008.0
+Earnings Growth,-0.051
+
+DEBT
+Total Debt,2099933056.0
+Debt to Equity,103.519
+
+MARGINS
+Profit Margins,0.11373
+Gross Profit Margins,0.4282
+Operating Margins,0.13147001
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,103.519
+Price to Cash Flow,7.524724580142671e-07
+Enterprise to EBITDA,13.617
+Price to Book,11.322052
+Price to Earnings,"PriceToEarnings(trailing_pe=19.156048, forward_pe=17.488144)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.64, forward_eps=26.99)"
+Enterprise to Revenue,2.313
+
+CASH FLOW
+Free to Cash Flow,627272128.0
+Operating to Cash Flow,1266499968.0
+
+PROFITABILITY
+Return on Equity,0.6264
+Return on Assets,0.18402
+Return on Invested Capital,0.5892506810630103
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

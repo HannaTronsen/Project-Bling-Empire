@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,EL
+Company,The Estée Lauder Companies Inc.
+Country,United States
+Industry,Household & Personal Products
+Sector,Consumer Defensive
+Website,https://www.elcompanies.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,15498000384.0
+Revenue Per Share,43.287
+Revenue Growth,-0.105
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=4.16)"
+Net Earnings,548000000.0
+Earnings Growth,-0.936
+
+DEBT
+Total Debt,10311999488.0
+Debt to Equity,167.185
+
+MARGINS
+Profit Margins,0.03536
+Gross Profit Margins,0.7028
+Operating Margins,0.025009999
+
+DIVIDEND
+Dividend Rate,2.64
+Dividend Yield,0.018099999
+Five Year Avg Dividend Yield,0.96
+Trailing Annual Dividend Rate,2.64
+Trailing Annual Dividend Yield,0.01814932
+
+FINANCIAL RATIO
+Debt to Equity,167.185
+Price to Cash Flow,-9.502819163402363e-08
+Enterprise to EBITDA,30.508
+Price to Book,9.659258
+Price to Earnings,"PriceToEarnings(trailing_pe=94.24406, forward_pe=34.661877)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=4.16)"
+Enterprise to Revenue,3.878
+
+CASH FLOW
+Free to Cash Flow,-1517374976.0
+Operating to Cash Flow,1972999936.0
+
+PROFITABILITY
+Return on Equity,0.08901
+Return on Assets,0.03521
+Return on Invested Capital,0.053141973081399035
+Return on Investment,-0.0019405099150141642
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

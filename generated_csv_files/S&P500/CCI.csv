@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CCI
+Company,Crown Castle Inc.
+Country,United States
+Industry,REIT - Specialty
+Sector,Real Estate
+Website,https://www.crowncastle.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,7071000064.0
+Revenue Per Share,16.302
+Revenue Growth,-0.045
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.58, forward_eps=2.93)"
+Net Earnings,1552999936.0
+Earnings Growth,-0.37
+
+DEBT
+Total Debt,28728999936.0
+Debt to Equity,430.784
+
+MARGINS
+Profit Margins,0.21962999
+Gross Profit Margins,0.71051
+Operating Margins,0.33953
+
+DIVIDEND
+Dividend Rate,6.26
+Dividend Yield,0.0546
+Five Year Avg Dividend Yield,3.6
+Trailing Annual Dividend Rate,6.26
+Trailing Annual Dividend Yield,0.054624785
+
+FINANCIAL RATIO
+Debt to Equity,430.784
+Price to Cash Flow,7.961249070973093e-08
+Enterprise to EBITDA,18.637
+Price to Book,7.48731
+Price to Earnings,"PriceToEarnings(trailing_pe=32.13687, forward_pe=39.266212)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.58, forward_eps=2.93)"
+Enterprise to Revenue,11.075
+
+CASH FLOW
+Free to Cash Flow,1445124992.0
+Operating to Cash Flow,3097999872.0
+
+PROFITABILITY
+Return on Equity,0.21648
+Return on Assets,0.040370002
+Return on Invested Capital,0.05405687419085252
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

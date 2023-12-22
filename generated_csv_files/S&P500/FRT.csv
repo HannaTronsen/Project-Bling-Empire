@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FRT
+Company,Federal Realty Investment Trust
+Country,United States
+Industry,REIT - Retail
+Sector,Real Estate
+Website,https://www.federalrealty.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1124184960.0
+Revenue Per Share,13.853
+Revenue Growth,0.046
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=2.76)"
+Net Earnings,279176000.0
+Earnings Growth,-0.646
+
+DEBT
+Total Debt,4594750976.0
+Debt to Equity,146.442
+
+MARGINS
+Profit Margins,0.2567
+Gross Profit Margins,0.68372
+Operating Margins,0.35217
+
+DIVIDEND
+Dividend Rate,4.36
+Dividend Yield,0.0417
+Five Year Avg Dividend Yield,4.03
+Trailing Annual Dividend Rate,4.33
+Trailing Annual Dividend Yield,0.041455243
+
+FINANCIAL RATIO
+Debt to Equity,146.442
+Price to Cash Flow,1.8386862366730645e-07
+Enterprise to EBITDA,19.22
+Price to Book,3.1383424
+Price to Earnings,"PriceToEarnings(trailing_pe=30.427324, forward_pe=37.923912)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=2.76)"
+Enterprise to Revenue,11.947
+
+CASH FLOW
+Free to Cash Flow,569265152.0
+Operating to Cash Flow,550691008.0
+
+PROFITABILITY
+Return on Equity,0.094469994
+Return on Assets,0.02961
+Return on Invested Capital,0.060759766836499876
+Return on Investment,-0.06573022861582653
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

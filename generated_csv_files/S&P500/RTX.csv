@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,RTX
+Company,RTX Corporation
+Country,United States
+Industry,Aerospace & Defense
+Sector,Industrials
+Website,https://www.rtx.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,67086000128.0
+Revenue Per Share,46.004
+Revenue Growth,-0.206
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.17, forward_eps=5.38)"
+Net Earnings,3191000064.0
+Earnings Growth,None
+
+DEBT
+Total Debt,36783001600.0
+Debt to Equity,51.628
+
+MARGINS
+Profit Margins,0.04757
+Gross Profit Margins,0.17361
+Operating Margins,-0.07056
+
+DIVIDEND
+Dividend Rate,2.36
+Dividend Yield,0.028800001
+Five Year Avg Dividend Yield,2.59
+Trailing Annual Dividend Rate,2.28
+Trailing Annual Dividend Yield,0.027801486
+
+FINANCIAL RATIO
+Debt to Equity,51.628
+Price to Cash Flow,1.5389154929949865e-08
+Enterprise to EBITDA,16.766
+Price to Book,1.7361631
+Price to Earnings,"PriceToEarnings(trailing_pe=38.451614, forward_pe=15.509294)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.17, forward_eps=5.38)"
+Enterprise to Revenue,2.262
+
+CASH FLOW
+Free to Cash Flow,5422000128.0
+Operating to Cash Flow,7800000000.0
+
+PROFITABILITY
+Return on Equity,0.047199998
+Return on Assets,0.01891
+Return on Invested Capital,0.08675203004179784
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

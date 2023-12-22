@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ICE
+Company,"Intercontinental Exchange, Inc."
+Country,United States
+Industry,Financial Data & Stock Exchanges
+Sector,Financial Services
+Website,https://www.ice.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,7554999808.0
+Revenue Per Share,13.479
+Revenue Growth,0.106
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=5.79)"
+Net Earnings,2420000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,23605000192.0
+Debt to Equity,92.525
+
+MARGINS
+Profit Margins,0.32032
+Gross Profit Margins,1.0
+Operating Margins,0.49925
+
+DIVIDEND
+Dividend Rate,1.68
+Dividend Yield,0.0135
+Five Year Avg Dividend Yield,1.24
+Trailing Annual Dividend Rate,1.64
+Trailing Annual Dividend Yield,0.01320132
+
+FINANCIAL RATIO
+Debt to Equity,92.525
+Price to Cash Flow,1.681849472871132e-08
+Enterprise to EBITDA,20.001
+Price to Book,2.8175201
+Price to Earnings,"PriceToEarnings(trailing_pe=29.096289, forward_pe=21.658895)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=5.79)"
+Enterprise to Revenue,12.432
+
+CASH FLOW
+Free to Cash Flow,7456374784.0
+Operating to Cash Flow,3664999936.0
+
+PROFITABILITY
+Return on Equity,0.10381
+Return on Assets,0.0138
+Return on Invested Capital,0.10252065137695164
+Return on Investment,0.02461851475076297
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

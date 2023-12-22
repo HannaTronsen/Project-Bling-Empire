@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,WDC
+Company,Western Digital Corporation
+Country,United States
+Industry,Computer Hardware
+Sector,Technology
+Website,https://www.westerndigital.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11331999744.0
+Revenue Per Share,35.44
+Revenue Growth,None
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=4.14)"
+Net Earnings,-2456999936.0
+Earnings Growth,None
+
+DEBT
+Total Debt,None
+Debt to Equity,None
+
+MARGINS
+Profit Margins,-0.21338
+Gross Profit Margins,0.088690005
+Operating Margins,0.15403
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,3.23
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,-1.2124245261993586e-07
+Enterprise to EBITDA,None
+Price to Book,1.6882389
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.728261)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=4.14)"
+Enterprise to Revenue,None
+
+CASH FLOW
+Free to Cash Flow,-434624992.0
+Operating to Cash Flow,-1040000000.0
+
+PROFITABILITY
+Return on Equity,-0.20938998
+Return on Assets,-0.04541
+Return on Invested Capital,None
+Return on Investment,-0.4467272610909091
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

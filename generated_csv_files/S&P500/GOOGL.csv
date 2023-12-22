@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GOOGL
+Company,Alphabet Inc.
+Country,United States
+Industry,Internet Content & Information
+Sector,Communication Services
+Website,https://www.abc.xyz
+Financial_summary,None
+
+REVENUE
+Total Revenue,297131999232.0
+Revenue Per Share,23.337
+Revenue Growth,0.11
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.22, forward_eps=6.7)"
+Net Earnings,66731999232.0
+Earnings Growth,0.46
+
+DEBT
+Total Debt,30446000128.0
+Debt to Equity,11.144
+
+MARGINS
+Profit Margins,0.22459
+Gross Profit Margins,0.56122
+Operating Margins,0.27962
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,11.144
+Price to Cash Flow,1.9921669497012046e-09
+Enterprise to EBITDA,17.362
+Price to Book,6.4705076
+Price to Earnings,"PriceToEarnings(trailing_pe=27.003834, forward_pe=21.038807)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.22, forward_eps=6.7)"
+Enterprise to Revenue,5.614
+
+CASH FLOW
+Free to Cash Flow,70757122048.0
+Operating to Cash Flow,106444996608.0
+
+PROFITABILITY
+Return on Equity,0.25334
+Return on Assets,0.13492
+Return on Invested Capital,2.1918149807429215
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

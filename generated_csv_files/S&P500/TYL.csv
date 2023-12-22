@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TYL
+Company,"Tyler Technologies, Inc."
+Country,United States
+Industry,Software—Application
+Sector,Technology
+Website,https://www.tylertech.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1923037952.0
+Revenue Per Share,45.892
+Revenue Growth,0.045
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.71, forward_eps=8.78)"
+Net Earnings,158092992.0
+Earnings Growth,-0.127
+
+DEBT
+Total Debt,788795008.0
+Debt to Equity,27.649
+
+MARGINS
+Profit Margins,0.08221
+Gross Profit Margins,0.43759
+Operating Margins,0.12923999
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,27.649
+Price to Cash Flow,1.091534945474154e-06
+Enterprise to EBITDA,56.273
+Price to Book,6.114768
+Price to Earnings,"PriceToEarnings(trailing_pe=111.67116, forward_pe=47.186787)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.71, forward_eps=8.78)"
+Enterprise to Revenue,9.371
+
+CASH FLOW
+Free to Cash Flow,379557248.0
+Operating to Cash Flow,354878016.0
+
+PROFITABILITY
+Return on Equity,0.05855
+Return on Assets,0.028800001
+Return on Invested Capital,0.20042340128566444
+Return on Investment,0.1784748159855498
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

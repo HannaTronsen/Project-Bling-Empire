@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ANET
+Company,"Arista Networks, Inc."
+Country,United States
+Industry,Computer Hardware
+Sector,Technology
+Website,https://www.arista.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5595282944.0
+Revenue Per Share,18.167
+Revenue Growth,0.283
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.0, forward_eps=7.26)"
+Net Earnings,1900774016.0
+Earnings Growth,0.522
+
+DEBT
+Total Debt,48044000.0
+Debt to Equity,0.739
+
+MARGINS
+Profit Margins,0.33971
+Gross Profit Margins,0.60758996
+Operating Margins,0.39928
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,0.739
+Price to Cash Flow,2.1831467484053834e-07
+Enterprise to EBITDA,31.855
+Price to Book,11.410373
+Price to Earnings,"PriceToEarnings(trailing_pe=39.78417, forward_pe=32.879475)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.0, forward_eps=7.26)"
+Enterprise to Revenue,12.297
+
+CASH FLOW
+Free to Cash Flow,1093398784.0
+Operating to Cash Flow,1548023040.0
+
+PROFITABILITY
+Return on Equity,0.34905997
+Return on Assets,0.17122
+Return on Invested Capital,39.563175179801334
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

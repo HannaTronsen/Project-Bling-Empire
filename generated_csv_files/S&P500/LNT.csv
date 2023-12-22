@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,LNT
+Company,Alliant Energy Corporation
+Country,United States
+Industry,Utilities - Regulated Electric
+Sector,Utilities
+Website,https://www.alliantenergy.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,4124000000.0
+Revenue Per Share,16.373
+Revenue Growth,-0.051
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.73, forward_eps=3.07)"
+Net Earnings,689000000.0
+Earnings Growth,0.133
+
+DEBT
+Total Debt,9338999808.0
+Debt to Equity,138.849
+
+MARGINS
+Profit Margins,0.16707
+Gross Profit Margins,0.41392
+Operating Margins,0.29898
+
+DIVIDEND
+Dividend Rate,1.81
+Dividend Yield,0.0358
+Five Year Avg Dividend Yield,2.96
+Trailing Annual Dividend Rate,1.785
+Trailing Annual Dividend Yield,0.035297606
+
+FINANCIAL RATIO
+Debt to Equity,138.849
+Price to Cash Flow,-5.122079343176213e-08
+Enterprise to EBITDA,14.081
+Price to Book,1.9440019
+Price to Earnings,"PriceToEarnings(trailing_pe=18.769232, forward_pe=16.690556)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.73, forward_eps=3.07)"
+Enterprise to Revenue,5.344
+
+CASH FLOW
+Free to Cash Flow,-1000374976.0
+Operating to Cash Flow,623000000.0
+
+PROFITABILITY
+Return on Equity,0.106070004
+Return on Assets,0.02712
+Return on Invested Capital,0.07377663692263729
+Return on Investment,0.00908970976253298
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

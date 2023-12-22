@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CTLT
+Company,"Catalent, Inc."
+Country,United States
+Industry,Drug Manufacturers - Specialty & Generic
+Sector,Healthcare
+Website,https://www.catalent.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,4223000064.0
+Revenue Per Share,23.299
+Revenue Growth,-0.039
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-5.61, forward_eps=1.62)"
+Net Earnings,-1015000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,4957000192.0
+Debt to Equity,129.055
+
+MARGINS
+Profit Margins,-0.24035
+Gross Profit Margins,0.2252
+Operating Margins,-0.03666
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,129.055
+Price to Cash Flow,-6.350990990990991e-07
+Enterprise to EBITDA,22.968
+Price to Book,2.0707808
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=27.19753)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-5.61, forward_eps=1.62)"
+Enterprise to Revenue,3.002
+
+CASH FLOW
+Free to Cash Flow,-69375000.0
+Operating to Cash Flow,276000000.0
+
+PROFITABILITY
+Return on Equity,-0.23768
+Return on Assets,0.00723
+Return on Invested Capital,-0.2047609353095021
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

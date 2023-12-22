@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CRM
+Company,"Salesforce, Inc."
+Country,United States
+Industry,Software—Application
+Sector,Technology
+Website,https://www.salesforce.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,33954000896.0
+Revenue Per Share,34.727
+Revenue Growth,0.113
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.62, forward_eps=9.56)"
+Net Earnings,2592000000.0
+Earnings Growth,4.952
+
+DEBT
+Total Debt,13758999552.0
+Debt to Equity,23.686
+
+MARGINS
+Profit Margins,0.07634
+Gross Profit Margins,0.74987
+Operating Margins,0.17844
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,23.686
+Price to Cash Flow,2.31842294780283e-08
+Enterprise to EBITDA,30.745
+Price to Book,4.4558616
+Price to Earnings,"PriceToEarnings(trailing_pe=101.9542, forward_pe=27.941422)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.62, forward_eps=9.56)"
+Enterprise to Revenue,7.675
+
+CASH FLOW
+Free to Cash Flow,11521625088.0
+Operating to Cash Flow,9619000320.0
+
+PROFITABILITY
+Return on Equity,0.04414
+Return on Assets,0.03683
+Return on Invested Capital,0.18838578916370974
+Return on Investment,-0.03211895910780669
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,True
+Free Cash Flow,True
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,3

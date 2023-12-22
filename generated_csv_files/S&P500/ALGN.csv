@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ALGN
+Company,"Align Technology, Inc."
+Country,United States
+Industry,Medical Devices
+Sector,Healthcare
+Website,https://www.aligntech.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3807048960.0
+Revenue Per Share,49.515
+Revenue Growth,0.078
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.71, forward_eps=9.22)"
+Net Earnings,362814016.0
+Earnings Growth,0.699
+
+DEBT
+Total Debt,126800000.0
+Debt to Equity,3.335
+
+MARGINS
+Profit Margins,0.0953
+Gross Profit Margins,0.69816
+Operating Margins,0.17323999
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,3.335
+Price to Cash Flow,3.5153008242730653e-07
+Enterprise to EBITDA,26.765
+Price to Book,5.453245
+Price to Earnings,"PriceToEarnings(trailing_pe=57.48832, forward_pe=29.367678)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.71, forward_eps=9.22)"
+Enterprise to Revenue,5.21
+
+CASH FLOW
+Free to Cash Flow,770261248.0
+Operating to Cash Flow,883585024.0
+
+PROFITABILITY
+Return on Equity,0.0968
+Return on Assets,0.061189998
+Return on Invested Capital,2.8613081540020997
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

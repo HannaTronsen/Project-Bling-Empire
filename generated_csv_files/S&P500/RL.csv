@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,RL
+Company,Ralph Lauren Corporation
+Country,United States
+Industry,Apparel Manufacturing
+Sector,Consumer Cyclical
+Website,https://www.ralphlauren.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6502600192.0
+Revenue Per Share,98.45
+Revenue Growth,0.034
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.53)"
+Net Earnings,527800000.0
+Earnings Growth,0.005
+
+DEBT
+Total Debt,2774899968.0
+Debt to Equity,117.124
+
+MARGINS
+Profit Margins,0.08116999
+Gross Profit Margins,0.65296996
+Operating Margins,0.10514
+
+DIVIDEND
+Dividend Rate,3.0
+Dividend Yield,0.020299999
+Five Year Avg Dividend Yield,2.23
+Trailing Annual Dividend Rate,3.0
+Trailing Annual Dividend Yield,0.020281233
+
+FINANCIAL RATIO
+Debt to Equity,117.124
+Price to Cash Flow,2.953839944932742e-07
+Enterprise to EBITDA,11.489
+Price to Book,3.9821947
+Price to Earnings,"PriceToEarnings(trailing_pe=18.647058, forward_pe=13.848054)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.53)"
+Enterprise to Revenue,1.671
+
+CASH FLOW
+Free to Cash Flow,493662496.0
+Operating to Cash Flow,752700032.0
+
+PROFITABILITY
+Return on Equity,0.22825001
+Return on Assets,0.06658
+Return on Invested Capital,0.19020505211778194
+Return on Investment,-0.03830188679245283
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

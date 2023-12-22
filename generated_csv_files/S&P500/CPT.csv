@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CPT
+Company,Camden Property Trust
+Country,United States
+Industry,REIT - Residential
+Sector,Real Estate
+Website,https://www.camdenliving.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1534348032.0
+Revenue Per Share,14.129
+Revenue Growth,0.047
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.04, forward_eps=1.7)"
+Net Earnings,226312992.0
+Earnings Growth,0.63
+
+DEBT
+Total Debt,3659527936.0
+Debt to Equity,74.155
+
+MARGINS
+Profit Margins,0.14774
+Gross Profit Margins,0.62686
+Operating Margins,0.21529
+
+DIVIDEND
+Dividend Rate,4.0
+Dividend Yield,0.041100003
+Five Year Avg Dividend Yield,3.06
+Trailing Annual Dividend Rate,3.94
+Trailing Annual Dividend Yield,0.040518306
+
+FINANCIAL RATIO
+Debt to Equity,74.155
+Price to Cash Flow,1.3866881373060524e-07
+Enterprise to EBITDA,15.83
+Price to Book,2.1978514
+Price to Earnings,"PriceToEarnings(trailing_pe=48.137253, forward_pe=57.7647)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.04, forward_eps=1.7)"
+Enterprise to Revenue,9.188
+
+CASH FLOW
+Free to Cash Flow,708162112.0
+Operating to Cash Flow,771152000.0
+
+PROFITABILITY
+Return on Equity,0.04657
+Return on Assets,0.02161
+Return on Invested Capital,0.061842126414879156
+Return on Investment,-0.01604726630692978
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ILMN
+Company,"Illumina, Inc."
+Country,United States
+Industry,Diagnostics & Research
+Sector,Healthcare
+Website,https://www.illumina.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,4464999936.0
+Revenue Per Share,28.304
+Revenue Growth,0.004
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.1, forward_eps=0.86)"
+Net Earnings,-1124999936.0
+Earnings Growth,None
+
+DEBT
+Total Debt,2272000000.0
+Debt to Equity,38.522
+
+MARGINS
+Profit Margins,-0.25195998
+Gross Profit Margins,0.65778
+Operating Margins,0.012510001
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,38.522
+Price to Cash Flow,3.558068614993647e-07
+Enterprise to EBITDA,74.472
+Price to Book,3.750703
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=162.80232)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.1, forward_eps=0.86)"
+Enterprise to Revenue,5.287
+
+CASH FLOW
+Free to Cash Flow,393500000.0
+Operating to Cash Flow,401000000.0
+
+PROFITABILITY
+Return on Equity,-0.17816
+Return on Assets,-0.0065499996
+Return on Invested Capital,-0.4951584143997498
+Return on Investment,0.11597937484536082
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

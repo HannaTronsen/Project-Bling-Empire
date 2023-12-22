@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,JNPR
+Company,"Juniper Networks, Inc."
+Country,United States
+Industry,Communication Equipment
+Sector,Technology
+Website,https://www.juniper.net
+Financial_summary,None
+
+REVENUE
+Total Revenue,5648500224.0
+Revenue Per Share,17.598
+Revenue Growth,-0.012
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.12, forward_eps=2.33)"
+Net Earnings,366300000.0
+Earnings Growth,-0.356
+
+DEBT
+Total Debt,1780700032.0
+Debt to Equity,41.113
+
+MARGINS
+Profit Margins,0.06485
+Gross Profit Margins,0.57036
+Operating Margins,0.10738
+
+DIVIDEND
+Dividend Rate,0.88
+Dividend Yield,0.0301
+Five Year Avg Dividend Yield,2.97
+Trailing Annual Dividend Rate,0.87
+Trailing Annual Dividend Yield,0.029784322
+
+FINANCIAL RATIO
+Debt to Equity,41.113
+Price to Cash Flow,4.6612996475614506e-08
+Enterprise to EBITDA,11.793
+Price to Book,2.1842337
+Price to Earnings,"PriceToEarnings(trailing_pe=26.495535, forward_pe=12.736052)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.12, forward_eps=2.33)"
+Enterprise to Revenue,1.72
+
+CASH FLOW
+Free to Cash Flow,636625024.0
+Operating to Cash Flow,983299968.0
+
+PROFITABILITY
+Return on Equity,0.08451
+Return on Assets,0.04246
+Return on Invested Capital,0.20570561611877564
+Return on Investment,-1.9278947368421053
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

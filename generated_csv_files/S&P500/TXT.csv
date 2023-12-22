@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TXT
+Company,Textron Inc.
+Country,United States
+Industry,Aerospace & Defense
+Sector,Industrials
+Website,https://www.textron.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,13427000320.0
+Revenue Per Share,66.158
+Revenue Growth,0.086
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.63, forward_eps=5.93)"
+Net Earnings,949000000.0
+Earnings Growth,0.274
+
+DEBT
+Total Debt,3903000064.0
+Debt to Equity,55.229
+
+MARGINS
+Profit Margins,0.07068
+Gross Profit Margins,0.16206
+Operating Margins,0.09483
+
+DIVIDEND
+Dividend Rate,0.08
+Dividend Yield,0.001
+Five Year Avg Dividend Yield,0.15
+Trailing Annual Dividend Rate,0.08
+Trailing Annual Dividend Yield,0.0009991258
+
+FINANCIAL RATIO
+Debt to Equity,55.229
+Price to Cash Flow,9.365457358313286e-08
+Enterprise to EBITDA,11.338
+Price to Book,2.2392495
+Price to Earnings,"PriceToEarnings(trailing_pe=17.421167, forward_pe=13.602025)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.63, forward_eps=5.93)"
+Enterprise to Revenue,1.335
+
+CASH FLOW
+Free to Cash Flow,861249984.0
+Operating to Cash Flow,1244000000.0
+
+PROFITABILITY
+Return on Equity,0.13725
+Return on Assets,0.04546
+Return on Invested Capital,0.24314629148866637
+Return on Investment,-0.04126086956521739
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

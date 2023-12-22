@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,JPM
+Company,JPMorgan Chase & Co.
+Country,United States
+Industry,Banks—Diversified
+Sector,Financial Services
+Website,https://www.jpmorganchase.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,142430994432.0
+Revenue Per Share,48.271
+Revenue Growth,0.231
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.77, forward_eps=15.58)"
+Net Earnings,49486000128.0
+Earnings Growth,0.388
+
+DEBT
+Total Debt,752569024512.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.35984
+Gross Profit Margins,0.0
+Operating Margins,0.45058998
+
+DIVIDEND
+Dividend Rate,4.2
+Dividend Yield,0.0251
+Five Year Avg Dividend Yield,2.86
+Trailing Annual Dividend Rate,4.05
+Trailing Annual Dividend Yield,0.024179105
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,1.6747259
+Price to Earnings,"PriceToEarnings(trailing_pe=10.016398, forward_pe=10.781451)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.77, forward_eps=15.58)"
+Enterprise to Revenue,-1.236
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,53965000704.0
+
+PROFITABILITY
+Return on Equity,0.16931999
+Return on Assets,0.013359999
+Return on Invested Capital,0.06575609480272408
+Return on Investment,0.006984615402681722
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

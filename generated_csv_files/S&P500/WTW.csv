@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,WTW
+Company,Willis Towers Watson Public Limited Company
+Country,United Kingdom
+Industry,Insurance Brokers
+Sector,Financial Services
+Website,https://www.willistowerswatson.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9290999808.0
+Revenue Per Share,87.035
+Revenue Growth,0.109
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.44, forward_eps=16.17)"
+Net Earnings,1034000000.0
+Earnings Growth,-0.251
+
+DEBT
+Total Debt,5910000128.0
+Debt to Equity,62.309
+
+MARGINS
+Profit Margins,0.10989001
+Gross Profit Margins,0.4739
+Operating Margins,0.12004
+
+DIVIDEND
+Dividend Rate,3.36
+Dividend Yield,0.014099999
+Five Year Avg Dividend Yield,1.37
+Trailing Annual Dividend Rate,3.36
+Trailing Annual Dividend Yield,0.014096916
+
+FINANCIAL RATIO
+Debt to Equity,62.309
+Price to Cash Flow,1.8070658705919806e-07
+Enterprise to EBITDA,11.429
+Price to Book,2.6255283
+Price to Earnings,"PriceToEarnings(trailing_pe=25.33051, forward_pe=14.787878)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.44, forward_eps=16.17)"
+Enterprise to Revenue,3.159
+
+CASH FLOW
+Free to Cash Flow,1323250048.0
+Operating to Cash Flow,1198000000.0
+
+PROFITABILITY
+Return on Equity,0.10795
+Return on Assets,0.044439998
+Return on Invested Capital,0.17495769233014274
+Return on Investment,0.04787037037037037
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

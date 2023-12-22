@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CMG
+Company,"Chipotle Mexican Grill, Inc."
+Country,United States
+Industry,Restaurants
+Sector,Consumer Cyclical
+Website,https://www.chipotle.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9535928320.0
+Revenue Per Share,345.311
+Revenue Growth,0.113
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=42.22, forward_eps=53.13)"
+Net Earnings,1170377984.0
+Earnings Growth,0.23
+
+DEBT
+Total Debt,4018081024.0
+Debt to Equity,139.211
+
+MARGINS
+Profit Margins,0.122729994
+Gross Profit Margins,0.40585998
+Operating Margins,0.1627
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,139.211
+Price to Cash Flow,1.9665412792112886e-06
+Enterprise to EBITDA,35.879
+Price to Book,21.959454
+Price to Earnings,"PriceToEarnings(trailing_pe=54.619846, forward_pe=43.403915)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=42.22, forward_eps=53.13)"
+Enterprise to Revenue,6.909
+
+CASH FLOW
+Free to Cash Flow,1172642560.0
+Operating to Cash Flow,1919591040.0
+
+PROFITABILITY
+Return on Equity,0.44896
+Return on Assets,0.1297
+Return on Invested Capital,0.2912778379582395
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

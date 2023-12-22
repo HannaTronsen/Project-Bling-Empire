@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,KEYS
+Company,"Keysight Technologies, Inc."
+Country,United States
+Industry,Scientific & Technical Instruments
+Sector,Technology
+Website,https://www.keysight.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5464000000.0
+Revenue Per Share,30.697
+Revenue Growth,-0.091
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.91, forward_eps=8.01)"
+Net Earnings,1057000000.0
+Earnings Growth,-0.231
+
+DEBT
+Total Debt,2026000000.0
+Debt to Equity,43.532
+
+MARGINS
+Profit Margins,0.19344999
+Gross Profit Margins,0.64641
+Operating Margins,0.24714
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,43.532
+Price to Cash Flow,1.8492678147532463e-07
+Enterprise to EBITDA,17.194
+Price to Book,5.971608
+Price to Earnings,"PriceToEarnings(trailing_pe=26.97631, forward_pe=19.90387)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.91, forward_eps=8.01)"
+Enterprise to Revenue,5.007
+
+CASH FLOW
+Free to Cash Flow,862124992.0
+Operating to Cash Flow,1408000000.0
+
+PROFITABILITY
+Return on Equity,0.23982
+Return on Assets,0.10272
+Return on Invested Capital,0.5217176634112447
+Return on Investment,-0.26425
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

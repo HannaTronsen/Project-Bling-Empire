@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,META
+Company,"Meta Platforms, Inc."
+Country,United States
+Industry,Internet Content & Information
+Sector,Communication Services
+Website,https://investor.fb.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,126956003328.0
+Revenue Per Share,48.97
+Revenue Growth,0.232
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.33, forward_eps=17.41)"
+Net Earnings,29734000640.0
+Earnings Growth,1.679
+
+DEBT
+Total Debt,36876001280.0
+Debt to Equity,25.81
+
+MARGINS
+Profit Margins,0.23421
+Gross Profit Margins,0.80114996
+Operating Margins,0.41375
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,25.81
+Price to Cash Flow,1.1995533336345494e-08
+Enterprise to EBITDA,16.383
+Price to Book,6.3549333
+Price to Earnings,"PriceToEarnings(trailing_pe=31.169462, forward_pe=20.284319)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.33, forward_eps=17.41)"
+Enterprise to Revenue,6.977
+
+CASH FLOW
+Free to Cash Flow,29440124928.0
+Operating to Cash Flow,66219999232.0
+
+PROFITABILITY
+Return on Equity,0.22275
+Return on Assets,0.13817
+Return on Invested Capital,0.8063238844532271
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

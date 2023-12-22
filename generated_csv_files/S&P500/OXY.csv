@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,OXY
+Company,Occidental Petroleum Corporation
+Country,United States
+Industry,Oil & Gas E&P
+Sector,Energy
+Website,https://www.oxy.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,29304000512.0
+Revenue Per Share,32.728
+Revenue Growth,-0.238
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.59, forward_eps=4.54)"
+Net Earnings,4447000064.0
+Earnings Growth,-0.524
+
+DEBT
+Total Debt,20710000640.0
+Debt to Equity,70.654
+
+MARGINS
+Profit Margins,0.18513
+Gross Profit Margins,0.61841
+Operating Margins,0.23624
+
+DIVIDEND
+Dividend Rate,0.72
+Dividend Yield,0.0119
+Five Year Avg Dividend Yield,4.8
+Trailing Annual Dividend Rate,0.67
+Trailing Annual Dividend Yield,0.011085374
+
+FINANCIAL RATIO
+Debt to Equity,70.654
+Price to Cash Flow,1.2697393812571298e-08
+Enterprise to EBITDA,5.755
+Price to Book,2.5602171
+Price to Earnings,"PriceToEarnings(trailing_pe=13.361656, forward_pe=13.508811)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.59, forward_eps=4.54)"
+Enterprise to Revenue,2.779
+
+CASH FLOW
+Free to Cash Flow,4830125056.0
+Operating to Cash Flow,13043999744.0
+
+PROFITABILITY
+Return on Equity,0.18697001
+Return on Assets,0.06086
+Return on Invested Capital,0.214727181141034
+Return on Investment,-0.010631126139134592
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

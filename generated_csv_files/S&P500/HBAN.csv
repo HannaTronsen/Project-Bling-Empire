@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,HBAN
+Company,Huntington Bancshares Incorporated
+Country,United States
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://www.huntington.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,7221000192.0
+Revenue Per Share,4.997
+Revenue Growth,-0.011
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.51, forward_eps=1.24)"
+Net Earnings,2219000064.0
+Earnings Growth,-0.103
+
+DEBT
+Total Debt,14682000384.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.32586
+Gross Profit Margins,0.0
+Operating Margins,0.41272998
+
+DIVIDEND
+Dividend Rate,0.62
+Dividend Yield,0.049099997
+Five Year Avg Dividend Yield,4.71
+Trailing Annual Dividend Rate,0.62
+Trailing Annual Dividend Yield,0.049050633
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,1.14771
+Price to Earnings,"PriceToEarnings(trailing_pe=8.3972845, forward_pe=10.225726)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.51, forward_eps=1.24)"
+Enterprise to Revenue,3.218
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,3116000000.0
+
+PROFITABILITY
+Return on Equity,0.13288
+Return on Assets,0.01296
+Return on Invested Capital,0.15113744750670574
+Return on Investment,0.008200295875831485
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

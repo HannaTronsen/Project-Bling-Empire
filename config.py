@@ -1,10 +1,6 @@
 import os
 from context.ticker_scraper.main.const import STOCK_COLLECTIONS_PATH
-from const import (
-    AUTO_GENERATED_FILE_STRING,
-    BLACKLISTED_STOCK_TICKERS_PATH,
-    GENERATED_CSV_FILES_PATH
-)
+from const import GENERATED_CSV_FILES_PATH
 
 RUN_TESTS = True
 GENERATE_TICKER_CSV = True

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,KR
+Company,The Kroger Co.
+Country,United States
+Industry,Grocery Stores
+Sector,Consumer Defensive
+Website,https://www.thekrogerco.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,147797000192.0
+Revenue Per Share,206.061
+Revenue Growth,-0.006
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.57, forward_eps=4.35)"
+Net Earnings,1903000064.0
+Earnings Growth,-0.882
+
+DEBT
+Total Debt,21152999424.0
+Debt to Equity,229.201
+
+MARGINS
+Profit Margins,0.01271
+Gross Profit Margins,0.22699
+Operating Margins,0.01993
+
+DIVIDEND
+Dividend Rate,1.16
+Dividend Yield,0.025799999
+Five Year Avg Dividend Yield,2.03
+Trailing Annual Dividend Rate,1.1
+Trailing Annual Dividend Yield,0.024433585
+
+FINANCIAL RATIO
+Debt to Equity,229.201
+Price to Cash Flow,1.7116158556858352e-08
+Enterprise to EBITDA,6.717
+Price to Book,3.6691601
+Price to Earnings,"PriceToEarnings(trailing_pe=17.614824, forward_pe=10.4069195)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.57, forward_eps=4.35)"
+Enterprise to Revenue,0.355
+
+CASH FLOW
+Free to Cash Flow,2644875008.0
+Operating to Cash Flow,6028000256.0
+
+PROFITABILITY
+Return on Equity,0.17813
+Return on Assets,0.057729997
+Return on Invested Capital,0.089963603966769
+Return on Investment,-0.0067578127272727275
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

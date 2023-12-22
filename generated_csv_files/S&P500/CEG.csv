@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CEG
+Company,Constellation Energy Corporation
+Country,United States
+Industry,Utilities - Renewable
+Sector,Utilities
+Website,https://constellationenergy.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,26454999040.0
+Revenue Per Share,81.213
+Revenue Growth,0.01
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=6.56)"
+Net Earnings,1694000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,8154999808.0
+Debt to Equity,67.958
+
+MARGINS
+Profit Margins,0.06403
+Gross Profit Margins,0.122889996
+Operating Margins,0.16510999
+
+DIVIDEND
+Dividend Rate,1.13
+Dividend Yield,0.0095
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.99
+Trailing Annual Dividend Yield,0.008367848
+
+FINANCIAL RATIO
+Debt to Equity,67.958
+Price to Cash Flow,-1.8916496451871375e-07
+Enterprise to EBITDA,10.714
+Price to Book,3.1784706
+Price to Earnings,"PriceToEarnings(trailing_pe=22.28407, forward_pe=17.69817)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=6.56)"
+Enterprise to Revenue,1.678
+
+CASH FLOW
+Free to Cash Flow,-613750016.0
+Operating to Cash Flow,-4541000192.0
+
+PROFITABILITY
+Return on Equity,0.14191
+Return on Assets,0.022049999
+Return on Invested Capital,0.20772532584864248
+Return on Investment,-0.010443896424167693
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

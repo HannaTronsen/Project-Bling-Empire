@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PYPL
+Company,"PayPal Holdings, Inc."
+Country,United States
+Industry,Credit Services
+Sector,Financial Services
+Website,https://www.paypal.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,29127999488.0
+Revenue Per Share,26.054
+Revenue Growth,0.084
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=5.54)"
+Net Earnings,3764999936.0
+Earnings Growth,-0.191
+
+DEBT
+Total Debt,11235999744.0
+Debt to Equity,56.92
+
+MARGINS
+Profit Margins,0.12926
+Gross Profit Margins,0.40195
+Operating Margins,0.15988
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,56.92
+Price to Cash Flow,1.3855932994451125e-08
+Enterprise to EBITDA,12.22
+Price to Book,3.3991685
+Price to Earnings,"PriceToEarnings(trailing_pe=18.54627, forward_pe=11.214802)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=5.54)"
+Enterprise to Revenue,2.286
+
+CASH FLOW
+Free to Cash Flow,4483999744.0
+Operating to Cash Flow,3820000000.0
+
+PROFITABILITY
+Return on Equity,0.18823
+Return on Assets,0.03877
+Return on Invested Capital,0.3350836610588072
+Return on Investment,0.6072580541935484
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

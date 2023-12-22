@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MNST
+Company,Monster Beverage Corporation
+Country,United States
+Industry,Beverages—Non-Alcoholic
+Sector,Consumer Defensive
+Website,https://www.monsterbevcorp.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6922849792.0
+Revenue Per Share,6.619
+Revenue Growth,0.143
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.47, forward_eps=1.82)"
+Net Earnings,1565682944.0
+Earnings Growth,0.433
+
+DEBT
+Total Debt,54486000.0
+Debt to Equity,0.692
+
+MARGINS
+Profit Margins,0.22615999
+Gross Profit Margins,0.52582
+Operating Margins,0.28358
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,0.692
+Price to Cash Flow,5.968449395402238e-08
+Enterprise to EBITDA,27.408
+Price to Book,7.4243426
+Price to Earnings,"PriceToEarnings(trailing_pe=38.217686, forward_pe=30.868132)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.47, forward_eps=1.82)"
+Enterprise to Revenue,7.896
+
+CASH FLOW
+Free to Cash Flow,941283008.0
+Operating to Cash Flow,1581938944.0
+
+PROFITABILITY
+Return on Equity,0.21318
+Return on Assets,0.13762
+Return on Invested Capital,28.735505020710523
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

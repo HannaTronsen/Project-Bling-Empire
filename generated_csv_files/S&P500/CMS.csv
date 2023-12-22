@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CMS
+Company,CMS Energy Corporation
+Country,United States
+Industry,Utilities - Regulated Electric
+Sector,Utilities
+Website,https://www.cmsenergy.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,7790000128.0
+Revenue Per Share,26.811
+Revenue Growth,-0.173
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.54, forward_eps=3.34)"
+Net Earnings,738000000.0
+Earnings Growth,0.068
+
+DEBT
+Total Debt,15466999808.0
+Debt to Equity,199.368
+
+MARGINS
+Profit Margins,0.096149996
+Gross Profit Margins,0.3466
+Operating Margins,0.18888001
+
+DIVIDEND
+Dividend Rate,1.95
+Dividend Yield,0.0343
+Five Year Avg Dividend Yield,2.78
+Trailing Annual Dividend Rate,1.923
+Trailing Annual Dividend Yield,0.033790193
+
+FINANCIAL RATIO
+Debt to Equity,199.368
+Price to Cash Flow,-5.0990133029172365e-08
+Enterprise to EBITDA,14.093
+Price to Book,2.4093635
+Price to Earnings,"PriceToEarnings(trailing_pe=22.631891, forward_pe=17.211079)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.54, forward_eps=3.34)"
+Enterprise to Revenue,4.199
+
+CASH FLOW
+Free to Cash Flow,-1127374976.0
+Operating to Cash Flow,2092000000.0
+
+PROFITABILITY
+Return on Equity,0.09422
+Return on Assets,0.025559999
+Return on Invested Capital,0.04771448943057878
+Return on Investment,-0.00336986301369863
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

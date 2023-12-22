@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TRMB
+Company,Trimble Inc.
+Country,United States
+Industry,Scientific & Technical Instruments
+Sector,Technology
+Website,https://www.trimble.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3722800128.0
+Revenue Per Share,15.025
+Revenue Growth,0.082
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.35, forward_eps=2.73)"
+Net Earnings,333900000.0
+Earnings Growth,-0.118
+
+DEBT
+Total Debt,3157799936.0
+Debt to Equity,72.71
+
+MARGINS
+Profit Margins,0.08969
+Gross Profit Margins,0.63441
+Operating Margins,0.13914
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,72.71
+Price to Cash Flow,1.3200012935210245e-07
+Enterprise to EBITDA,21.383
+Price to Book,3.015582
+Price to Earnings,"PriceToEarnings(trailing_pe=38.99259, forward_pe=19.282051)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.35, forward_eps=2.73)"
+Enterprise to Revenue,4.289
+
+CASH FLOW
+Free to Cash Flow,398787488.0
+Operating to Cash Flow,604300032.0
+
+PROFITABILITY
+Return on Equity,0.08156
+Return on Assets,0.03944
+Return on Invested Capital,0.10573817370367901
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

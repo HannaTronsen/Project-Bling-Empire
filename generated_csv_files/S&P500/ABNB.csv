@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ABNB
+Company,"Airbnb, Inc."
+Country,United States
+Industry,Travel Services
+Sector,Consumer Cyclical
+Website,https://www.airbnb.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9601000448.0
+Revenue Per Share,15.09
+Revenue Growth,0.178
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.23, forward_eps=4.51)"
+Net Earnings,5459999744.0
+Earnings Growth,2.71
+
+DEBT
+Total Debt,2308999936.0
+Debt to Equity,25.31
+
+MARGINS
+Profit Margins,0.56869
+Gross Profit Margins,0.82668
+Operating Margins,0.44039002
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,25.31
+Price to Cash Flow,4.880588440982179e-08
+Enterprise to EBITDA,36.283
+Price to Book,9.833298
+Price to Earnings,"PriceToEarnings(trailing_pe=17.058325, forward_pe=31.128601)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.23, forward_eps=4.51)"
+Enterprise to Revenue,8.559
+
+CASH FLOW
+Free to Cash Flow,2876497408.0
+Operating to Cash Flow,4284000000.0
+
+PROFITABILITY
+Return on Equity,0.74472
+Return on Assets,0.07502
+Return on Invested Capital,2.364659966036374
+Return on Investment,-13.64999936
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AAL
+Company,American Airlines Group Inc.
+Country,United States
+Industry,Airlines
+Sector,Industrials
+Website,https://www.aa.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,52913999872.0
+Revenue Per Share,81.074
+Revenue Growth,0.001
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.39, forward_eps=2.11)"
+Net Earnings,1606000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,41204998144.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.030350002
+Gross Profit Margins,0.27462998
+Operating Margins,0.055040002
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,1.27
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,5.2251714073691665e-09
+Enterprise to EBITDA,5.603
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=5.9756064, forward_pe=6.7685785)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.39, forward_eps=2.11)"
+Enterprise to Revenue,0.756
+
+CASH FLOW
+Free to Cash Flow,2733250048.0
+Operating to Cash Flow,4995999744.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.04601
+Return on Invested Capital,0.03897585420811787
+Return on Investment,0.01058668424522083
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

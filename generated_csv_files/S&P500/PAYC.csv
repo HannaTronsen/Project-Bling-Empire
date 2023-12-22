@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PAYC
+Company,"Paycom Software, Inc."
+Country,United States
+Industry,Software—Application
+Sector,Technology
+Website,https://www.paycom.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1629687040.0
+Revenue Per Share,28.161
+Revenue Growth,0.216
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.85, forward_eps=8.16)"
+Net Earnings,338982016.0
+Earnings Growth,0.444
+
+DEBT
+Total Debt,29000000.0
+Debt to Equity,2.04
+
+MARGINS
+Profit Margins,0.20799999
+Gross Profit Margins,0.87061995
+Operating Margins,0.23849002
+
+DIVIDEND
+Dividend Rate,1.5
+Dividend Yield,0.0073
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.75
+Trailing Annual Dividend Yield,0.0036302032
+
+FINANCIAL RATIO
+Debt to Equity,2.04
+Price to Cash Flow,6.171353293989034e-07
+Enterprise to EBITDA,22.438
+Price to Book,8.067665
+Price to Earnings,"PriceToEarnings(trailing_pe=35.523933, forward_pe=25.467525)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.85, forward_eps=8.16)"
+Enterprise to Revenue,7.036
+
+CASH FLOW
+Free to Cash Flow,336741376.0
+Operating to Cash Flow,479024992.0
+
+PROFITABILITY
+Return on Equity,0.27144
+Return on Assets,0.07852
+Return on Invested Capital,11.68902465180738
+Return on Investment,-0.019343209887814843
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,IT
+Company,"Gartner, Inc."
+Country,United States
+Industry,Information Technology Services
+Sector,Technology
+Website,https://www.gartner.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5825554944.0
+Revenue Per Share,73.549
+Revenue Growth,0.058
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.62, forward_eps=11.96)"
+Net Earnings,930649024.0
+Earnings Growth,0.041
+
+DEBT
+Total Debt,3089246976.0
+Debt to Equity,545.189
+
+MARGINS
+Profit Margins,0.15975
+Gross Profit Margins,0.68264997
+Operating Margins,0.17688
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,545.189
+Price to Cash Flow,4.6289334618528687e-07
+Enterprise to EBITDA,27.386
+Price to Book,61.87032
+Price to Earnings,"PriceToEarnings(trailing_pe=38.389416, forward_pe=37.298077)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.62, forward_eps=11.96)"
+Enterprise to Revenue,6.247
+
+CASH FLOW
+Free to Cash Flow,963688512.0
+Operating to Cash Flow,1134515968.0
+
+PROFITABILITY
+Return on Equity,3.7098901
+Return on Assets,0.106929995
+Return on Invested Capital,0.30125432801522833
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

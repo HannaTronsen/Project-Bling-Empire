@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CBRE
+Company,"CBRE Group, Inc."
+Country,United States
+Industry,Real Estate Services
+Sector,Real Estate
+Website,https://www.cbre.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,31193513984.0
+Revenue Per Share,100.358
+Revenue Growth,0.045
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.9, forward_eps=4.45)"
+Net Earnings,589961024.0
+Earnings Growth,-0.558
+
+DEBT
+Total Debt,5863982080.0
+Debt to Equity,69.307
+
+MARGINS
+Profit Margins,0.01891
+Gross Profit Margins,0.19701
+Operating Margins,0.0353
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,69.307
+Price to Cash Flow,2.748813110954373e-07
+Enterprise to EBITDA,18.749
+Price to Book,3.5560887
+Price to Earnings,"PriceToEarnings(trailing_pe=48.368423, forward_pe=20.651686)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.9, forward_eps=4.45)"
+Enterprise to Revenue,1.045
+
+CASH FLOW
+Free to Cash Flow,334326112.0
+Operating to Cash Flow,440899008.0
+
+PROFITABILITY
+Return on Equity,0.07231
+Return on Assets,0.03271
+Return on Invested Capital,0.1006075757653063
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

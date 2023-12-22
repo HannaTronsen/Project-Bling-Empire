@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PODD
+Company,Insulet Corporation
+Country,United States
+Industry,Medical Devices
+Sector,Healthcare
+Website,https://www.insulet.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1556999936.0
+Revenue Per Share,22.353
+Revenue Growth,0.27
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.73, forward_eps=2.44)"
+Net Earnings,120000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,1476000000.0
+Debt to Equity,242.963
+
+MARGINS
+Profit Margins,0.07707
+Gross Profit Margins,0.62203
+Operating Margins,0.12226
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,242.963
+Price to Cash Flow,-1.673224043715847e-06
+Enterprise to EBITDA,101.971
+Price to Book,24.636782
+Price to Earnings,"PriceToEarnings(trailing_pe=123.89595, forward_pe=87.84426)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.73, forward_eps=2.44)"
+Enterprise to Revenue,10.328
+
+CASH FLOW
+Free to Cash Flow,-128100000.0
+Operating to Cash Flow,151200000.0
+
+PROFITABILITY
+Return on Equity,0.23177
+Return on Assets,0.023599999
+Return on Invested Capital,0.08130081252891798
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

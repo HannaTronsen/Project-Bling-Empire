@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AKAM
+Company,"Akamai Technologies, Inc."
+Country,United States
+Industry,Software - Infrastructure
+Sector,Technology
+Website,https://www.akamai.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3744681984.0
+Revenue Per Share,24.309
+Revenue Growth,0.095
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.74)"
+Net Earnings,515225984.0
+Earnings Growth,0.334
+
+DEBT
+Total Debt,4502085120.0
+Debt to Equity,104.114
+
+MARGINS
+Profit Margins,0.13758999
+Gross Profit Margins,0.60707
+Operating Margins,0.18827
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,104.114
+Price to Cash Flow,2.2576184071357773e-07
+Enterprise to EBITDA,19.756
+Price to Book,4.179787
+Price to Earnings,"PriceToEarnings(trailing_pe=36.172207, forward_pe=17.764095)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.74)"
+Enterprise to Revenue,5.764
+
+CASH FLOW
+Free to Cash Flow,530337632.0
+Operating to Cash Flow,1300743936.0
+
+PROFITABILITY
+Return on Equity,0.12042
+Return on Assets,0.04917
+Return on Invested Capital,0.11444163470676878
+Return on Investment,-0.007530881106656279
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

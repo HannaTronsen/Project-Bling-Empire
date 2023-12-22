@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,STLD
+Company,"Steel Dynamics, Inc."
+Country,United States
+Industry,Steel
+Sector,Basic Materials
+Website,https://stld.steeldynamics.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,19388180480.0
+Revenue Per Share,114.135
+Revenue Growth,-0.188
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.68, forward_eps=10.29)"
+Net Earnings,2661476096.0
+Earnings Growth,-0.31
+
+DEBT
+Total Debt,3095070976.0
+Debt to Equity,34.94
+
+MARGINS
+Profit Margins,0.13727
+Gross Profit Margins,0.22192
+Operating Margins,0.15991999
+
+DIVIDEND
+Dividend Rate,1.7
+Dividend Yield,0.014099999
+Five Year Avg Dividend Yield,2.19
+Trailing Annual Dividend Rate,1.615
+Trailing Annual Dividend Yield,0.013437058
+
+FINANCIAL RATIO
+Debt to Equity,34.94
+Price to Cash Flow,7.402269845616512e-08
+Enterprise to EBITDA,5.299
+Price to Book,2.2427297
+Price to Earnings,"PriceToEarnings(trailing_pe=7.780612, forward_pe=11.856171)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.68, forward_eps=10.29)"
+Enterprise to Revenue,1.044
+
+CASH FLOW
+Free to Cash Flow,1648143104.0
+Operating to Cash Flow,3798715904.0
+
+PROFITABILITY
+Return on Equity,0.31909
+Return on Assets,0.14631
+Return on Invested Capital,0.8599079212917956
+Return on Investment,-0.02022286070757473
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

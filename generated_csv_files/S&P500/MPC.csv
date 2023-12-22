@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MPC
+Company,Marathon Petroleum Corporation
+Country,United States
+Industry,Oil & Gas Refining & Marketing
+Sector,Energy
+Website,https://www.marathonpetroleum.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,152728993792.0
+Revenue Per Share,355.597
+Revenue Growth,-0.103
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=26.52, forward_eps=15.31)"
+Net Earnings,11470000128.0
+Earnings Growth,-0.086
+
+DEBT
+Total Debt,28583000064.0
+Debt to Equity,87.149
+
+MARGINS
+Profit Margins,0.07563
+Gross Profit Margins,0.15170999
+Operating Margins,0.10781
+
+DIVIDEND
+Dividend Rate,3.3
+Dividend Yield,0.0216
+Five Year Avg Dividend Yield,3.71
+Trailing Annual Dividend Rate,3.075
+Trailing Annual Dividend Yield,0.020142801
+
+FINANCIAL RATIO
+Debt to Equity,87.149
+Price to Cash Flow,1.247054968407386e-08
+Enterprise to EBITDA,4.155
+Price to Book,2.2633584
+Price to Earnings,"PriceToEarnings(trailing_pe=5.7181373, forward_pe=9.904964)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=26.52, forward_eps=15.31)"
+Enterprise to Revenue,0.527
+
+CASH FLOW
+Free to Cash Flow,12160249856.0
+Operating to Cash Flow,17376000000.0
+
+PROFITABILITY
+Return on Equity,0.38646
+Return on Assets,0.111870006
+Return on Invested Capital,0.40128748121020674
+Return on Investment,0.32585227636363634
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

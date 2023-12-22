@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AZO
+Company,"AutoZone, Inc."
+Country,United States
+Industry,Specialty Retail
+Sector,Consumer Cyclical
+Website,https://www.autozone.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,17662418944.0
+Revenue Per Share,971.236
+Revenue Growth,0.051
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=137.43, forward_eps=163.79)"
+Net Earnings,2582571008.0
+Earnings Growth,0.186
+
+DEBT
+Total Debt,11992704000.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.14622
+Gross Profit Margins,0.52597
+Operating Margins,0.20252001
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,1.782598257696608e-06
+Enterprise to EBITDA,13.835
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=19.135853, forward_pe=16.056171)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=137.43, forward_eps=163.79)"
+Enterprise to Revenue,3.218
+
+CASH FLOW
+Free to Cash Flow,1475284736.0
+Operating to Cash Flow,2977459968.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.14235
+Return on Invested Capital,0.21534518593978572
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

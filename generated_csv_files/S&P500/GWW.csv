@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GWW
+Company,"W.W. Grainger, Inc."
+Country,United States
+Industry,Industrial Distribution
+Sector,Industrials
+Website,https://www.grainger.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,16282999808.0
+Revenue Per Share,324.201
+Revenue Growth,0.067
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=35.85, forward_eps=38.57)"
+Net Earnings,1818000000.0
+Earnings Growth,0.14
+
+DEBT
+Total Debt,2751000064.0
+Debt to Equity,81.342
+
+MARGINS
+Profit Margins,0.11165
+Gross Profit Margins,0.39543998
+Operating Margins,0.15851
+
+DIVIDEND
+Dividend Rate,7.44
+Dividend Yield,0.009
+Five Year Avg Dividend Yield,1.49
+Trailing Annual Dividend Rate,7.16
+Trailing Annual Dividend Yield,0.008688899
+
+FINANCIAL RATIO
+Debt to Equity,81.342
+Price to Cash Flow,7.50715277521855e-07
+Enterprise to EBITDA,15.585
+Price to Book,13.34221
+Price to Earnings,"PriceToEarnings(trailing_pe=23.12873, forward_pe=21.497665)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=35.85, forward_eps=38.57)"
+Enterprise to Revenue,2.662
+
+CASH FLOW
+Free to Cash Flow,1104499968.0
+Operating to Cash Flow,1787000064.0
+
+PROFITABILITY
+Return on Equity,0.63526
+Return on Assets,0.20867
+Return on Invested Capital,0.6608505694788601
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

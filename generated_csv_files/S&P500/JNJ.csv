@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,JNJ
+Company,Johnson & Johnson
+Country,United States
+Industry,Drug Manufacturers—General
+Sector,Healthcare
+Website,https://www.jnj.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,98656002048.0
+Revenue Per Share,38.161
+Revenue Growth,0.068
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.33, forward_eps=10.7)"
+Net Earnings,13991999488.0
+Earnings Growth,5.092
+
+DEBT
+Total Debt,29920999424.0
+Debt to Equity,42.007
+
+MARGINS
+Profit Margins,0.35096002
+Gross Profit Margins,0.67557997
+Operating Margins,0.30074
+
+DIVIDEND
+Dividend Rate,4.76
+Dividend Yield,0.0307
+Five Year Avg Dividend Yield,2.65
+Trailing Annual Dividend Rate,4.64
+Trailing Annual Dividend Yield,0.029966418
+
+FINANCIAL RATIO
+Debt to Equity,42.007
+Price to Cash Flow,7.365493575746869e-09
+Enterprise to EBITDA,10.865
+Price to Book,5.26901
+Price to Earnings,"PriceToEarnings(trailing_pe=29.251408, forward_pe=14.571029)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.33, forward_eps=10.7)"
+Enterprise to Revenue,3.856
+
+CASH FLOW
+Free to Cash Flow,21167624192.0
+Operating to Cash Flow,20277999616.0
+
+PROFITABILITY
+Return on Equity,0.1919
+Return on Assets,0.101110004
+Return on Invested Capital,0.4676314208588779
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

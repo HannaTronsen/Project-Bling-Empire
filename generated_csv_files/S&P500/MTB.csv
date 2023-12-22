@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MTB
+Company,M&T Bank Corporation
+Country,United States
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://www3.mtb.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9341577216.0
+Revenue Per Share,55.709
+Revenue Growth,0.027
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.43, forward_eps=14.69)"
+Net Earnings,2918871040.0
+Earnings Growth,0.128
+
+DEBT
+Total Debt,15343884288.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.32371
+Gross Profit Margins,0.0
+Operating Margins,0.43558997
+
+DIVIDEND
+Dividend Rate,5.2
+Dividend Yield,0.0382
+Five Year Avg Dividend Yield,3.16
+Trailing Annual Dividend Rate,5.1
+Trailing Annual Dividend Yield,0.03744218
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,0.9408103
+Price to Earnings,"PriceToEarnings(trailing_pe=7.8662643, forward_pe=9.333492)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.43, forward_eps=14.69)"
+Enterprise to Revenue,0.807
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,4058340096.0
+
+PROFITABILITY
+Return on Equity,0.117539994
+Return on Assets,0.0148599995
+Return on Invested Capital,0.19023025444473385
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

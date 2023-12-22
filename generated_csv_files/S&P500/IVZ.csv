@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,IVZ
+Company,Invesco Ltd.
+Country,United States
+Industry,Asset Management
+Sector,Financial Services
+Website,https://www.invesco.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5746400256.0
+Revenue Per Share,12.598
+Revenue Growth,-0.003
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.62)"
+Net Earnings,596400000.0
+Earnings Growth,-0.253
+
+DEBT
+Total Debt,1489100032.0
+Debt to Equity,8.975
+
+MARGINS
+Profit Margins,0.145
+Gross Profit Margins,0.28719
+Operating Margins,0.14182
+
+DIVIDEND
+Dividend Rate,1.6
+Dividend Yield,0.0915
+Five Year Avg Dividend Yield,5.5
+Trailing Annual Dividend Rate,0.788
+Trailing Annual Dividend Yield,0.04508009
+
+FINANCIAL RATIO
+Debt to Equity,8.975
+Price to Cash Flow,3.078661537172681e-08
+Enterprise to EBITDA,10.876
+Price to Book,0.7081167
+Price to Earnings,"PriceToEarnings(trailing_pe=13.623076, forward_pe=10.932098)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.62)"
+Enterprise to Revenue,2.341
+
+CASH FLOW
+Free to Cash Flow,575249984.0
+Operating to Cash Flow,1050000000.0
+
+PROFITABILITY
+Return on Equity,0.04833
+Return on Assets,0.0224
+Return on Invested Capital,0.4005103600610465
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

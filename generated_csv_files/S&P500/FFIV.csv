@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FFIV
+Company,"F5, Inc."
+Country,United States
+Industry,Software - Infrastructure
+Sector,Technology
+Website,https://www.f5.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,2813168896.0
+Revenue Per Share,46.957
+Revenue Growth,0.01
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.55, forward_eps=13.79)"
+Net Earnings,394948000.0
+Earnings Growth,0.719
+
+DEBT
+Total Debt,280985984.0
+Debt to Equity,10.034
+
+MARGINS
+Profit Margins,0.14039
+Gross Profit Margins,0.78910005
+Operating Margins,0.24292
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,10.034
+Price to Cash Flow,2.9980619804107036e-07
+Enterprise to EBITDA,15.54
+Price to Book,3.7862608
+Price to Earnings,"PriceToEarnings(trailing_pe=27.339693, forward_pe=12.985859)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.55, forward_eps=13.79)"
+Enterprise to Revenue,3.594
+
+CASH FLOW
+Free to Cash Flow,597302528.0
+Operating to Cash Flow,653409024.0
+
+PROFITABILITY
+Return on Equity,0.14991
+Return on Assets,0.06389
+Return on Invested Capital,1.405578769088164
+Return on Investment,-0.07289015207441311
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

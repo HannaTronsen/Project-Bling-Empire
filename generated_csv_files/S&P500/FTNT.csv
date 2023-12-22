@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FTNT
+Company,"Fortinet, Inc."
+Country,United States
+Industry,Software—Infrastructure
+Sector,Technology
+Website,https://www.fortinet.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5172700160.0
+Revenue Per Share,6.611
+Revenue Growth,0.161
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=1.68)"
+Net Earnings,1150700032.0
+Earnings Growth,0.414
+
+DEBT
+Total Debt,1056400000.0
+Debt to Equity,1425.641
+
+MARGINS
+Profit Margins,0.22246
+Gross Profit Margins,0.76442003
+Operating Margins,0.22636
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,1425.641
+Price to Cash Flow,3.5026771113452324e-08
+Enterprise to EBITDA,32.453
+Price to Book,619.7895
+Price to Earnings,"PriceToEarnings(trailing_pe=40.88889, forward_pe=35.047623)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=1.68)"
+Enterprise to Revenue,8.278
+
+CASH FLOW
+Free to Cash Flow,1680999936.0
+Operating to Cash Flow,2271899904.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.11792
+Return on Invested Capital,1.0892654599550546
+Return on Investment,-0.06853484407385349
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,2

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PNC
+Company,"The PNC Financial Services Group, Inc."
+Country,United States
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://www.pnc.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,20974000128.0
+Revenue Per Share,52.142
+Revenue Growth,-0.038
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.4, forward_eps=12.46)"
+Net Earnings,5786999808.0
+Earnings Growth,-0.048
+
+DEBT
+Total Debt,71392002048.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.29760998
+Gross Profit Margins,0.0
+Operating Margins,0.36422002
+
+DIVIDEND
+Dividend Rate,6.1
+Dividend Yield,0.0402
+Five Year Avg Dividend Yield,3.39
+Trailing Annual Dividend Rate,6.05
+Trailing Annual Dividend Yield,0.03986295
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,1.4405013
+Price to Earnings,"PriceToEarnings(trailing_pe=10.60139, forward_pe=12.252007)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.4, forward_eps=12.46)"
+Enterprise to Revenue,6.228
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,9292999680.0
+
+PROFITABILITY
+Return on Equity,0.13122
+Return on Assets,0.0113
+Return on Invested Capital,0.08105949733022898
+Return on Investment,0.006637990144528562
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

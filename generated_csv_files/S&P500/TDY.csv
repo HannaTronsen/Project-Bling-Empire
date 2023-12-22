@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TDY
+Company,Teledyne Technologies Incorporated
+Country,United States
+Industry,Scientific & Technical Instruments
+Sector,Technology
+Website,https://www.teledyne.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5628700160.0
+Revenue Per Share,119.887
+Revenue Growth,0.029
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.5, forward_eps=20.66)"
+Net Earnings,789000000.0
+Earnings Growth,0.11
+
+DEBT
+Total Debt,3244100096.0
+Debt to Equity,37.177
+
+MARGINS
+Profit Margins,0.14017001
+Gross Profit Margins,0.43228
+Operating Margins,0.19479999
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,37.177
+Price to Cash Flow,5.819249032625078e-07
+Enterprise to EBITDA,16.617
+Price to Book,2.3460248
+Price to Earnings,"PriceToEarnings(trailing_pe=26.282728, forward_pe=20.990562)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.5, forward_eps=20.66)"
+Enterprise to Revenue,4.06
+
+CASH FLOW
+Free to Cash Flow,745225024.0
+Operating to Cash Flow,909400000.0
+
+PROFITABILITY
+Return on Equity,0.09623
+Return on Assets,0.04701
+Return on Invested Capital,0.24321073077094513
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

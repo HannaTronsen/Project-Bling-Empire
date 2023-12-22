@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,NVR
+Company,"NVR, Inc."
+Country,United States
+Industry,Residential Construction
+Sector,Consumer Cyclical
+Website,https://www.nvrinc.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9942002688.0
+Revenue Per Share,3066.938
+Revenue Growth,-0.063
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=475.39, forward_eps=417.87)"
+Net Earnings,1636304000.0
+Earnings Growth,0.057
+
+DEBT
+Total Debt,1031179008.0
+Debt to Equity,24.713
+
+MARGINS
+Profit Margins,0.16458
+Gross Profit Margins,0.26371
+Operating Margins,0.20886
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,24.713
+Price to Cash Flow,4.975929810596562e-06
+Enterprise to EBITDA,9.801
+Price to Book,5.371377
+Price to Earnings,"PriceToEarnings(trailing_pe=14.687183, forward_pe=16.708881)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=475.39, forward_eps=417.87)"
+Enterprise to Revenue,2.033
+
+CASH FLOW
+Free to Cash Flow,1403182976.0
+Operating to Cash Flow,1819481984.0
+
+PROFITABILITY
+Return on Equity,0.45093
+Return on Assets,0.21743
+Return on Invested Capital,1.586826268400779
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,DVA
+Company,DaVita Inc.
+Country,United States
+Industry,Medical Care Facilities
+Sector,Healthcare
+Website,https://www.davita.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11911287808.0
+Revenue Per Share,131.289
+Revenue Growth,0.059
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.44, forward_eps=8.59)"
+Net Earnings,595521024.0
+Earnings Growth,1.319
+
+DEBT
+Total Debt,11129314304.0
+Debt to Equity,394.003
+
+MARGINS
+Profit Margins,0.05113
+Gross Profit Margins,0.3057
+Operating Margins,0.15817
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,394.003
+Price to Cash Flow,9.970651891362888e-08
+Enterprise to EBITDA,9.859
+Price to Book,7.9677024
+Price to Earnings,"PriceToEarnings(trailing_pe=16.242235, forward_pe=12.1769495)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.44, forward_eps=8.59)"
+Enterprise to Revenue,1.835
+
+CASH FLOW
+Free to Cash Flow,1049078848.0
+Operating to Cash Flow,1917548032.0
+
+PROFITABILITY
+Return on Equity,0.34285
+Return on Assets,0.05432
+Return on Invested Capital,0.053509228603912634
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

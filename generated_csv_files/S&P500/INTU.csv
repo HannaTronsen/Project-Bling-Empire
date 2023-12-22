@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,INTU
+Company,Intuit Inc.
+Country,United States
+Industry,Software—Application
+Sector,Technology
+Website,https://www.intuit.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,14748999680.0
+Revenue Per Share,52.534
+Revenue Growth,0.41
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.13, forward_eps=18.81)"
+Net Earnings,2584999936.0
+Earnings Growth,-0.185
+
+DEBT
+Total Debt,None
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.17527
+Gross Profit Margins,0.79205
+Operating Margins,0.15697
+
+DIVIDEND
+Dividend Rate,3.6
+Dividend Yield,0.0058
+Five Year Avg Dividend Yield,0.64
+Trailing Annual Dividend Rate,3.24
+Trailing Annual Dividend Yield,0.0052174754
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,1.4462183571059404e-07
+Enterprise to EBITDA,None
+Price to Book,10.228641
+Price to Earnings,"PriceToEarnings(trailing_pe=67.96276, forward_pe=32.987774)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.13, forward_eps=18.81)"
+Enterprise to Revenue,None
+
+CASH FLOW
+Free to Cash Flow,4290500096.0
+Operating to Cash Flow,4621000192.0
+
+PROFITABILITY
+Return on Equity,0.15639
+Return on Assets,0.07585
+Return on Invested Capital,None
+Return on Investment,0.09609665189591078
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

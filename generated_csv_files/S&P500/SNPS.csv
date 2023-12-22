@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SNPS
+Company,"Synopsys, Inc."
+Country,United States
+Industry,Software—Infrastructure
+Sector,Technology
+Website,https://www.synopsys.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5842618880.0
+Revenue Per Share,38.401
+Revenue Growth,0.245
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.9, forward_eps=15.65)"
+Net Earnings,1229888000.0
+Earnings Growth,1.288
+
+DEBT
+Total Debt,687803008.0
+Debt to Equity,11.122
+
+MARGINS
+Profit Margins,0.21049999
+Gross Profit Margins,0.80363
+Operating Margins,0.26836002
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,11.122
+Price to Cash Flow,4.105133512112818e-07
+Enterprise to EBITDA,55.561
+Price to Book,13.485122
+Price to Earnings,"PriceToEarnings(trailing_pe=69.01139, forward_pe=34.836422)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.9, forward_eps=15.65)"
+Enterprise to Revenue,14.418
+
+CASH FLOW
+Free to Cash Flow,1328068864.0
+Operating to Cash Flow,1703273984.0
+
+PROFITABILITY
+Return on Equity,0.20746
+Return on Assets,0.085200004
+Return on Invested Capital,1.7881397920657194
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

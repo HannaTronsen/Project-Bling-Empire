@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AWK
+Company,"American Water Works Company, Inc."
+Country,United States
+Industry,Utilities - Regulated Water
+Sector,Utilities
+Website,https://www.amwater.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,4132999936.0
+Revenue Per Share,21.81
+Revenue Growth,0.079
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=5.15)"
+Net Earnings,920000000.0
+Earnings Growth,0.016
+
+DEBT
+Total Debt,12270000128.0
+Debt to Equity,123.977
+
+MARGINS
+Profit Margins,0.2226
+Gross Profit Margins,0.59327
+Operating Margins,0.41731
+
+DIVIDEND
+Dividend Rate,2.83
+Dividend Yield,0.0215
+Five Year Avg Dividend Yield,1.62
+Trailing Annual Dividend Rate,2.725
+Trailing Annual Dividend Yield,0.020722432
+
+FINANCIAL RATIO
+Debt to Equity,123.977
+Price to Cash Flow,-1.038043791963586e-07
+Enterprise to EBITDA,16.913
+Price to Book,2.5993981
+Price to Earnings,"PriceToEarnings(trailing_pe=27.299587, forward_pe=25.656311)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=5.15)"
+Enterprise to Revenue,8.994
+
+CASH FLOW
+Free to Cash Flow,-1272875008.0
+Operating to Cash Flow,1691000064.0
+
+PROFITABILITY
+Return on Equity,0.10422
+Return on Assets,0.03317
+Return on Invested Capital,0.07497962400907245
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

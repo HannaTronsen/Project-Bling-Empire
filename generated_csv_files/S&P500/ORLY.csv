@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ORLY
+Company,"O'Reilly Automotive, Inc."
+Country,United States
+Industry,Specialty Retail
+Sector,Consumer Cyclical
+Website,https://www.oreillyauto.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,15624727552.0
+Revenue Per Share,254.821
+Revenue Growth,0.107
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=37.54, forward_eps=42.67)"
+Net Earnings,2322649088.0
+Earnings Growth,0.169
+
+DEBT
+Total Debt,7384283136.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.14864999
+Gross Profit Margins,0.51145
+Operating Margins,0.21345
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,5.566054711611542e-07
+Enterprise to EBITDA,17.995
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=25.547415, forward_pe=22.475979)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=37.54, forward_eps=42.67)"
+Enterprise to Revenue,4.093
+
+CASH FLOW
+Free to Cash Flow,1723033728.0
+Operating to Cash Flow,3312884992.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.15303999
+Return on Invested Capital,0.3145395503544955
+Return on Investment,-0.04201775555467113
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

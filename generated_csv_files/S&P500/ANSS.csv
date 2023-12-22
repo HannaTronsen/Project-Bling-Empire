@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ANSS
+Company,"ANSYS, Inc."
+Country,United States
+Industry,Software - Application
+Sector,Technology
+Website,https://www.ansys.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,2158956032.0
+Revenue Per Share,24.854
+Revenue Growth,-0.029
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.52, forward_eps=9.55)"
+Net Earnings,483596992.0
+Earnings Growth,-0.419
+
+DEBT
+Total Debt,876524992.0
+Debt to Equity,17.507
+
+MARGINS
+Profit Margins,0.22399999
+Gross Profit Margins,0.91438
+Operating Margins,0.15217
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,17.507
+Price to Cash Flow,5.874251006555132e-07
+Enterprise to EBITDA,38.461
+Price to Book,5.779697
+Price to Earnings,"PriceToEarnings(trailing_pe=60.369564, forward_pe=34.894238)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.52, forward_eps=9.55)"
+Enterprise to Revenue,12.308
+
+CASH FLOW
+Free to Cash Flow,567289344.0
+Operating to Cash Flow,658371968.0
+
+PROFITABILITY
+Return on Equity,0.10127
+Return on Assets,0.05489
+Return on Invested Capital,0.5517206749416235
+Return on Investment,0.07848052450503083
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

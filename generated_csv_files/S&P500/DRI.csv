@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,DRI
+Company,"Darden Restaurants, Inc."
+Country,United States
+Industry,Restaurants
+Sector,Consumer Cyclical
+Website,https://www.darden.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11013099520.0
+Revenue Per Share,91.13
+Revenue Growth,0.097
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.26, forward_eps=9.68)"
+Net Earnings,1009500032.0
+Earnings Growth,0.159
+
+DEBT
+Total Debt,7008500224.0
+Debt to Equity,343.604
+
+MARGINS
+Profit Margins,0.09155
+Gross Profit Margins,0.2084
+Operating Margins,0.10487001
+
+DIVIDEND
+Dividend Rate,5.14
+Dividend Yield,0.0317
+Five Year Avg Dividend Yield,2.72
+Trailing Annual Dividend Rate,5.04
+Trailing Annual Dividend Yield,0.031070832
+
+FINANCIAL RATIO
+Debt to Equity,343.604
+Price to Cash Flow,1.6133966766451855e-07
+Enterprise to EBITDA,15.739
+Price to Book,9.486246
+Price to Earnings,"PriceToEarnings(trailing_pe=19.53753, forward_pe=16.671488)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.26, forward_eps=9.68)"
+Enterprise to Revenue,2.385
+
+CASH FLOW
+Free to Cash Flow,1000249984.0
+Operating to Cash Flow,1519000064.0
+
+PROFITABILITY
+Return on Equity,0.49722
+Return on Assets,0.07434
+Return on Invested Capital,0.14403938036452604
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

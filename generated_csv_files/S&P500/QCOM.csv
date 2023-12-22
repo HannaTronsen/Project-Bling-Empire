@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,QCOM
+Company,QUALCOMM Incorporated
+Country,United States
+Industry,Semiconductors
+Sector,Technology
+Website,https://www.qualcomm.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,35819999232.0
+Revenue Per Share,32.068
+Revenue Growth,None
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.52, forward_eps=10.4)"
+Net Earnings,7338999808.0
+Earnings Growth,None
+
+DEBT
+Total Debt,16067000320.0
+Debt to Equity,74.45
+
+MARGINS
+Profit Margins,0.2019
+Gross Profit Margins,0.55698
+Operating Margins,0.23021999
+
+DIVIDEND
+Dividend Rate,3.2
+Dividend Yield,0.0225
+Five Year Avg Dividend Yield,2.53
+Trailing Annual Dividend Rate,3.1
+Trailing Annual Dividend Yield,0.021763548
+
+FINANCIAL RATIO
+Debt to Equity,74.45
+Price to Cash Flow,1.4654917406132381e-08
+Enterprise to EBITDA,15.611
+Price to Book,7.4257994
+Price to Earnings,"PriceToEarnings(trailing_pe=22.064417, forward_pe=13.832693)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.52, forward_eps=10.4)"
+Enterprise to Revenue,4.558
+
+CASH FLOW
+Free to Cash Flow,9816500224.0
+Operating to Cash Flow,11299000320.0
+
+PROFITABILITY
+Return on Equity,0.37071
+Return on Assets,0.10807
+Return on Invested Capital,0.4567747341123414
+Return on Investment,-1.1837096464516128
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

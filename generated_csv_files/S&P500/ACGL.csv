@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ACGL
+Company,Arch Capital Group Ltd.
+Country,Bermuda
+Industry,Insurance - Diversified
+Sector,Financial Services
+Website,https://www.archgroup.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,12731807744.0
+Revenue Per Share,34.617
+Revenue Growth,0.395
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.83)"
+Net Earnings,2928197120.0
+Earnings Growth,97.085
+
+DEBT
+Total Debt,2726000128.0
+Debt to Equity,17.886
+
+MARGINS
+Profit Margins,0.23319
+Gross Profit Margins,0.37015
+Operating Margins,0.22619
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,17.886
+Price to Cash Flow,3.1931130577831065e-08
+Enterprise to EBITDA,8.39
+Price to Book,1.9011455
+Price to Earnings,"PriceToEarnings(trailing_pe=9.529032, forward_pe=9.431673)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.83)"
+Enterprise to Revenue,2.24
+
+CASH FLOW
+Free to Cash Flow,2312790016.0
+Operating to Cash Flow,5065226752.0
+
+PROFITABILITY
+Return on Equity,0.21974
+Return on Assets,0.04064
+Return on Invested Capital,1.0741734925823638
+Return on Investment,0.13870414710744586
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,True
+Free Cash Flow,True
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,2

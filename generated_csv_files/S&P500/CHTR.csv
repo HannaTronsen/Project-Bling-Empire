@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CHTR
+Company,"Charter Communications, Inc."
+Country,United States
+Industry,Telecom Services
+Sector,Communication Services
+Website,https://corporate.charter.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,54570000384.0
+Revenue Per Share,361.424
+Revenue Growth,0.003
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=30.6, forward_eps=37.02)"
+Net Earnings,4695000064.0
+Earnings Growth,0.118
+
+DEBT
+Total Debt,98090000384.0
+Debt to Equity,665.288
+
+MARGINS
+Profit Margins,0.08604
+Gross Profit Margins,0.44882
+Operating Margins,0.23241
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,665.288
+Price to Cash Flow,1.2483938478660055e-07
+Enterprise to EBITDA,7.458
+Price to Book,5.0955653
+Price to Earnings,"PriceToEarnings(trailing_pe=12.493627, forward_pe=10.326985)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=30.6, forward_eps=37.02)"
+Enterprise to Revenue,2.893
+
+CASH FLOW
+Free to Cash Flow,3062374912.0
+Operating to Cash Flow,14364999680.0
+
+PROFITABILITY
+Return on Equity,0.39987
+Return on Assets,0.05369
+Return on Invested Capital,0.04786420676958953
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

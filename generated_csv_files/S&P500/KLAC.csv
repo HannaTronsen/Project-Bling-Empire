@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,KLAC
+Company,KLA Corporation
+Country,United States
+Industry,Semiconductor Equipment & Materials
+Sector,Technology
+Website,https://www.kla.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,10168588288.0
+Revenue Per Share,73.617
+Revenue Growth,-0.12
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.35, forward_eps=26.54)"
+Net Earnings,3102661120.0
+Earnings Growth,-0.249
+
+DEBT
+Total Debt,6065927168.0
+Debt to Equity,202.859
+
+MARGINS
+Profit Margins,0.30512
+Gross Profit Margins,0.59444
+Operating Margins,0.37514
+
+DIVIDEND
+Dividend Rate,5.8
+Dividend Yield,0.01
+Five Year Avg Dividend Yield,1.53
+Trailing Annual Dividend Rate,5.2
+Trailing Annual Dividend Yield,0.008958566
+
+FINANCIAL RATIO
+Debt to Equity,202.859
+Price to Cash Flow,2.1318487851966103e-07
+Enterprise to EBITDA,19.452
+Price to Book,26.51451
+Price to Earnings,"PriceToEarnings(trailing_pe=26.089804, forward_pe=21.970879)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.35, forward_eps=26.54)"
+Enterprise to Revenue,8.027
+
+CASH FLOW
+Free to Cash Flow,2735217920.0
+Operating to Cash Flow,3542000128.0
+
+PROFITABILITY
+Return on Equity,1.21857
+Return on Assets,0.17334
+Return on Invested Capital,0.5114900035593886
+Return on Investment,0.11565269537860545
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SBAC
+Company,SBA Communications Corporation
+Country,United States
+Industry,REIT - Specialty
+Sector,Real Estate
+Website,https://www.sbasite.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,2722653952.0
+Revenue Per Share,25.161
+Revenue Growth,0.01
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=6.0)"
+Net Earnings,495563008.0
+Earnings Growth,-0.121
+
+DEBT
+Total Debt,14766687232.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.18201
+Gross Profit Margins,0.7557
+Operating Margins,0.40714002
+
+DIVIDEND
+Dividend Rate,3.4
+Dividend Yield,0.0135
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,3.26
+Trailing Annual Dividend Yield,0.0129462695
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,2.025407495219782e-07
+Enterprise to EBITDA,23.564
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=54.778507, forward_pe=41.631664)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=6.0)"
+Enterprise to Revenue,15.345
+
+CASH FLOW
+Free to Cash Flow,1233282688.0
+Operating to Cash Flow,1400416000.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.0644
+Return on Invested Capital,0.03355952501856592
+Return on Investment,0.0074332853043659565
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MDT
+Company,Medtronic plc
+Country,Ireland
+Industry,Medical Devices
+Sector,Healthcare
+Website,https://www.medtronic.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,31957999616.0
+Revenue Per Share,24.024
+Revenue Growth,0.053
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.08, forward_eps=5.45)"
+Net Earnings,4102000128.0
+Earnings Growth,1.125
+
+DEBT
+Total Debt,25080000512.0
+Debt to Equity,48.56
+
+MARGINS
+Profit Margins,0.12836
+Gross Profit Margins,0.65667
+Operating Margins,0.19264
+
+DIVIDEND
+Dividend Rate,2.76
+Dividend Yield,0.0337
+Five Year Avg Dividend Yield,2.43
+Trailing Annual Dividend Rate,2.74
+Trailing Annual Dividend Yield,0.03343094
+
+FINANCIAL RATIO
+Debt to Equity,48.56
+Price to Cash Flow,1.833612459580302e-08
+Enterprise to EBITDA,14.912
+Price to Book,2.117657
+Price to Earnings,"PriceToEarnings(trailing_pe=26.599285, forward_pe=15.032257)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.08, forward_eps=5.45)"
+Enterprise to Revenue,3.959
+
+CASH FLOW
+Free to Cash Flow,4467999744.0
+Operating to Cash Flow,5569999872.0
+
+PROFITABILITY
+Return on Equity,0.079569995
+Return on Assets,0.041149996
+Return on Invested Capital,0.16355662033219678
+Return on Investment,-0.25798742943396225
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

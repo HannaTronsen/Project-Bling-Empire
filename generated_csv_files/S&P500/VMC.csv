@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,VMC
+Company,Vulcan Materials Company
+Country,United States
+Industry,Building Materials
+Sector,Basic Materials
+Website,https://www.vulcanmaterials.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,7679499776.0
+Revenue Per Share,57.708
+Revenue Growth,0.047
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.25, forward_eps=8.06)"
+Net Earnings,836300032.0
+Earnings Growth,0.566
+
+DEBT
+Total Debt,4480099840.0
+Debt to Equity,60.013
+
+MARGINS
+Profit Margins,0.10745
+Gross Profit Margins,0.2378
+Operating Margins,0.20235
+
+DIVIDEND
+Dividend Rate,1.72
+Dividend Yield,0.0077
+Five Year Avg Dividend Yield,0.91
+Trailing Annual Dividend Rate,1.69
+Trailing Annual Dividend Yield,0.007568972
+
+FINANCIAL RATIO
+Debt to Equity,60.013
+Price to Cash Flow,1.1070302574815856e-06
+Enterprise to EBITDA,17.84
+Price to Book,3.997428
+Price to Earnings,"PriceToEarnings(trailing_pe=35.808, forward_pe=27.766748)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.25, forward_eps=8.06)"
+Enterprise to Revenue,4.406
+
+CASH FLOW
+Free to Cash Flow,202162496.0
+Operating to Cash Flow,1455100032.0
+
+PROFITABILITY
+Return on Equity,0.1168
+Return on Assets,0.05471
+Return on Invested Capital,0.18666995187970992
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

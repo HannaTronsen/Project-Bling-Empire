@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,EW
+Company,Edwards Lifesciences Corporation
+Country,United States
+Industry,Medical Devices
+Sector,Healthcare
+Website,https://www.edwards.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5818999808.0
+Revenue Per Share,9.561
+Revenue Growth,0.123
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.34, forward_eps=2.77)"
+Net Earnings,1430899968.0
+Earnings Growth,0.145
+
+DEBT
+Total Debt,691100032.0
+Debt to Equity,10.273
+
+MARGINS
+Profit Margins,0.2459
+Gross Profit Margins,0.77989
+Operating Margins,0.28402
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,10.273
+Price to Cash Flow,8.484627199391558e-08
+Enterprise to EBITDA,25.828
+Price to Book,6.8789287
+Price to Earnings,"PriceToEarnings(trailing_pe=32.269234, forward_pe=27.25993)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.34, forward_eps=2.77)"
+Enterprise to Revenue,7.622
+
+CASH FLOW
+Free to Cash Flow,889962496.0
+Operating to Cash Flow,1042000000.0
+
+PROFITABILITY
+Return on Equity,0.22063999
+Return on Assets,0.109230004
+Return on Invested Capital,2.070467195800219
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

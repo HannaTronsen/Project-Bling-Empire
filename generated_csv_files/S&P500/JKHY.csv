@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,JKHY
+Company,"Jack Henry & Associates, Inc."
+Country,United States
+Industry,Information Technology Services
+Sector,Technology
+Website,https://www.jackhenry.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,2119868032.0
+Revenue Per Share,29.075
+Revenue Growth,0.08
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.95, forward_eps=5.62)"
+Net Earnings,361776000.0
+Earnings Growth,-0.048
+
+DEBT
+Total Debt,292555008.0
+Debt to Equity,17.624
+
+MARGINS
+Profit Margins,0.17066
+Gross Profit Margins,0.41326
+Operating Margins,0.23225
+
+DIVIDEND
+Dividend Rate,2.08
+Dividend Yield,0.0127
+Five Year Avg Dividend Yield,1.1
+Trailing Annual Dividend Rate,2.05
+Trailing Annual Dividend Yield,0.012555889
+
+FINANCIAL RATIO
+Debt to Equity,17.624
+Price to Cash Flow,7.558119721385917e-07
+Enterprise to EBITDA,22.346
+Price to Book,7.238649
+Price to Earnings,"PriceToEarnings(trailing_pe=33.334347, forward_pe=29.360321)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.95, forward_eps=5.62)"
+Enterprise to Revenue,5.732
+
+CASH FLOW
+Free to Cash Flow,218314880.0
+Operating to Cash Flow,401867008.0
+
+PROFITABILITY
+Return on Equity,0.23183
+Return on Assets,0.11121
+Return on Invested Capital,1.2366083707974405
+Return on Investment,-0.020542148835413426
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

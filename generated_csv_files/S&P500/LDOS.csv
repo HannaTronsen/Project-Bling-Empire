@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,LDOS
+Company,"Leidos Holdings, Inc."
+Country,United States
+Industry,Information Technology Services
+Sector,Technology
+Website,https://www.leidos.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,15155000320.0
+Revenue Per Share,110.62
+Revenue Growth,0.087
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.06, forward_eps=7.59)"
+Net Earnings,147000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,5212000256.0
+Debt to Equity,124.007
+
+MARGINS
+Profit Margins,0.0097
+Gross Profit Margins,0.14319
+Operating Margins,0.08875
+
+DIVIDEND
+Dividend Rate,1.52
+Dividend Yield,0.0143
+Five Year Avg Dividend Yield,1.5
+Trailing Annual Dividend Rate,1.44
+Trailing Annual Dividend Yield,0.013509711
+
+FINANCIAL RATIO
+Debt to Equity,124.007
+Price to Cash Flow,1.8946860435924052e-07
+Enterprise to EBITDA,12.198
+Price to Book,3.5771618
+Price to Earnings,"PriceToEarnings(trailing_pe=101.75001, forward_pe=14.210145)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.06, forward_eps=7.59)"
+Enterprise to Revenue,1.265
+
+CASH FLOW
+Free to Cash Flow,569249984.0
+Operating to Cash Flow,980000000.0
+
+PROFITABILITY
+Return on Equity,0.03788
+Return on Assets,0.059949998
+Return on Invested Capital,0.028204142733951717
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

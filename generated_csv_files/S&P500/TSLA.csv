@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TSLA
+Company,"Tesla, Inc."
+Country,United States
+Industry,Auto Manufacturers
+Sector,Consumer Cyclical
+Website,https://www.tesla.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,95924002816.0
+Revenue Per Share,30.277
+Revenue Growth,0.088
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.1, forward_eps=3.8)"
+Net Earnings,10791000064.0
+Earnings Growth,-0.442
+
+DEBT
+Total Debt,8186999808.0
+Debt to Equity,15.023
+
+MARGINS
+Profit Margins,0.11213
+Gross Profit Margins,0.19805999
+Operating Margins,0.07555
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,15.023
+Price to Cash Flow,1.5896712158808932e-07
+Enterprise to EBITDA,52.282
+Price to Book,15.236948
+Price to Earnings,"PriceToEarnings(trailing_pe=82.66291, forward_pe=67.43553)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.1, forward_eps=3.8)"
+Enterprise to Revenue,8.258
+
+CASH FLOW
+Free to Cash Flow,1612000000.0
+Operating to Cash Flow,12163999744.0
+
+PROFITABILITY
+Return on Equity,0.22459999
+Return on Assets,0.07965
+Return on Invested Capital,1.318065261377954
+Return on Investment,-0.01316939231632902
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,True
+Net Income,False
+Total Revenue,True
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,3

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GLW
+Company,Corning Incorporated
+Country,United States
+Industry,Electronic Components
+Sector,Technology
+Website,https://www.corning.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,12999999488.0
+Revenue Per Share,15.353
+Revenue Growth,-0.09
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.68, forward_eps=1.98)"
+Net Earnings,585000000.0
+Earnings Growth,-0.208
+
+DEBT
+Total Debt,8456999936.0
+Debt to Equity,72.011
+
+MARGINS
+Profit Margins,0.045
+Gross Profit Margins,0.32862
+Operating Margins,0.07091
+
+DIVIDEND
+Dividend Rate,1.12
+Dividend Yield,0.037100002
+Five Year Avg Dividend Yield,2.84
+Trailing Annual Dividend Rate,1.11
+Trailing Annual Dividend Yield,0.036779325
+
+FINANCIAL RATIO
+Debt to Equity,72.011
+Price to Cash Flow,1.36013437849944e-07
+Enterprise to EBITDA,12.165
+Price to Book,2.1784203
+Price to Earnings,"PriceToEarnings(trailing_pe=44.65441, forward_pe=15.335858)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.68, forward_eps=1.98)"
+Enterprise to Revenue,2.529
+
+CASH FLOW
+Free to Cash Flow,223250000.0
+Operating to Cash Flow,1908999936.0
+
+PROFITABILITY
+Return on Equity,0.05573
+Return on Assets,0.02923
+Return on Invested Capital,0.06917346617747344
+Return on Investment,-0.006617647058823529
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

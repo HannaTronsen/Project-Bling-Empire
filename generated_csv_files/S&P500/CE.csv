@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CE
+Company,Celanese Corporation
+Country,United States
+Industry,Chemicals
+Sector,Basic Materials
+Website,https://www.celanese.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,10718999552.0
+Revenue Per Share,98.576
+Revenue Growth,0.183
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.6, forward_eps=11.9)"
+Net Earnings,2032999936.0
+Earnings Growth,3.964
+
+DEBT
+Total Debt,14120999936.0
+Debt to Equity,203.209
+
+MARGINS
+Profit Margins,0.18929
+Gross Profit Margins,0.22148001
+Operating Margins,0.13036999
+
+DIVIDEND
+Dividend Rate,2.8
+Dividend Yield,0.018099999
+Five Year Avg Dividend Yield,2.19
+Trailing Annual Dividend Rate,2.8
+Trailing Annual Dividend Yield,0.01814294
+
+FINANCIAL RATIO
+Debt to Equity,203.209
+Price to Cash Flow,-5.548111792501487e-07
+Enterprise to EBITDA,17.557
+Price to Book,2.6179774
+Price to Earnings,"PriceToEarnings(trailing_pe=8.39301, forward_pe=13.118488)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.6, forward_eps=11.9)"
+Enterprise to Revenue,2.801
+
+CASH FLOW
+Free to Cash Flow,-281375008.0
+Operating to Cash Flow,1610000000.0
+
+PROFITABILITY
+Return on Equity,0.3326
+Return on Assets,0.02813
+Return on Invested Capital,0.14396996931018688
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

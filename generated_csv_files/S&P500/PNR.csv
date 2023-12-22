@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PNR
+Company,Pentair plc
+Country,United Kingdom
+Industry,Specialty Industrial Machinery
+Sector,Industrials
+Website,https://www.pentair.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,4122800128.0
+Revenue Per Share,24.994
+Revenue Growth,-0.044
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.09, forward_eps=4.2)"
+Net Earnings,511100000.0
+Earnings Growth,0.129
+
+DEBT
+Total Debt,2091800064.0
+Debt to Equity,68.789
+
+MARGINS
+Profit Margins,0.12363
+Gross Profit Margins,0.36436
+Operating Margins,0.1935
+
+DIVIDEND
+Dividend Rate,0.92
+Dividend Yield,0.0128999995
+Five Year Avg Dividend Yield,1.62
+Trailing Annual Dividend Rate,0.87
+Trailing Annual Dividend Yield,0.012203675
+
+FINANCIAL RATIO
+Debt to Equity,68.789
+Price to Cash Flow,1.4898223195347208e-07
+Enterprise to EBITDA,14.866
+Price to Book,3.909002
+Price to Earnings,"PriceToEarnings(trailing_pe=23.271847, forward_pe=17.12143)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.09, forward_eps=4.2)"
+Enterprise to Revenue,3.332
+
+CASH FLOW
+Free to Cash Flow,482675008.0
+Operating to Cash Flow,593500032.0
+
+PROFITABILITY
+Return on Equity,0.17996
+Return on Assets,0.0777
+Return on Invested Capital,0.24433501284433135
+Return on Investment,0.03158838071693449
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

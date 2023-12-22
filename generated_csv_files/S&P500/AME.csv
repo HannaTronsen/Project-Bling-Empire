@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AME
+Company,"AMETEK, Inc."
+Country,United States
+Industry,Specialty Industrial Machinery
+Sector,Industrials
+Website,https://www.ametek.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6491731968.0
+Revenue Per Share,28.193
+Revenue Growth,0.046
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.52, forward_eps=6.78)"
+Net Earnings,1277405056.0
+Earnings Growth,0.14
+
+DEBT
+Total Debt,2330002944.0
+Debt to Equity,27.929
+
+MARGINS
+Profit Margins,0.19677
+Gross Profit Margins,0.35914
+Operating Margins,0.26428
+
+DIVIDEND
+Dividend Rate,1.0
+Dividend Yield,0.0061000003
+Five Year Avg Dividend Yield,0.64
+Trailing Annual Dividend Rate,0.97
+Trailing Annual Dividend Yield,0.0059258356
+
+FINANCIAL RATIO
+Debt to Equity,27.929
+Price to Cash Flow,1.4650482963980506e-07
+Enterprise to EBITDA,19.859
+Price to Book,4.5426493
+Price to Earnings,"PriceToEarnings(trailing_pe=29.746122, forward_pe=24.21808)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.52, forward_eps=6.78)"
+Enterprise to Revenue,6.049
+
+CASH FLOW
+Free to Cash Flow,1120772608.0
+Operating to Cash Flow,1579654016.0
+
+PROFITABILITY
+Return on Equity,0.16509001
+Return on Assets,0.08172
+Return on Invested Capital,0.5482418120855608
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

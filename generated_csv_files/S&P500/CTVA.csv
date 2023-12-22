@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,CTVA
+Company,"Corteva, Inc."
+Country,United States
+Industry,Agricultural Inputs
+Sector,Basic Materials
+Website,https://www.corteva.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,17344000000.0
+Revenue Per Share,24.369
+Revenue Growth,-0.067
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.57, forward_eps=3.01)"
+Net Earnings,1119000064.0
+Earnings Growth,None
+
+DEBT
+Total Debt,5898999808.0
+Debt to Equity,23.163
+
+MARGINS
+Profit Margins,0.053790003
+Gross Profit Margins,0.4232
+Operating Margins,-0.101160005
+
+DIVIDEND
+Dividend Rate,0.64
+Dividend Yield,0.0135
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.62
+Trailing Annual Dividend Yield,0.013110594
+
+FINANCIAL RATIO
+Debt to Equity,23.163
+Price to Cash Flow,3.172e-05
+Enterprise to EBITDA,11.431
+Price to Book,1.329496
+Price to Earnings,"PriceToEarnings(trailing_pe=30.305733, forward_pe=15.80731)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.57, forward_eps=3.01)"
+Enterprise to Revenue,2.139
+
+CASH FLOW
+Free to Cash Flow,1500000.0
+Operating to Cash Flow,414000000.0
+
+PROFITABILITY
+Return on Equity,0.044749998
+Return on Assets,0.03049
+Return on Invested Capital,0.18969318420619624
+Return on Investment,-0.07825175272727272
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

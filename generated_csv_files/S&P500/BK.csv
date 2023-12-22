@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,BK
+Company,The Bank of New York Mellon Corporation
+Country,United States
+Industry,Asset Management
+Sector,Financial Services
+Website,https://www.bnymellon.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,17054000128.0
+Revenue Per Share,21.445
+Revenue Growth,0.014
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.27, forward_eps=5.04)"
+Net Earnings,3400999936.0
+Earnings Growth,2.128
+
+DEBT
+Total Debt,65381998592.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.2125
+Gross Profit Margins,0.0
+Operating Margins,0.29673
+
+DIVIDEND
+Dividend Rate,1.68
+Dividend Yield,0.0327
+Five Year Avg Dividend Yield,2.89
+Trailing Annual Dividend Rate,1.53
+Trailing Annual Dividend Yield,0.029766535
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,1.0982203
+Price to Earnings,"PriceToEarnings(trailing_pe=12.081967, forward_pe=10.236112)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.27, forward_eps=5.04)"
+Enterprise to Revenue,-2.958
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,10904000512.0
+
+PROFITABILITY
+Return on Equity,0.089549996
+Return on Assets,0.00871
+Return on Invested Capital,0.05201737491659625
+Return on Investment,0.0027708977806745966
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

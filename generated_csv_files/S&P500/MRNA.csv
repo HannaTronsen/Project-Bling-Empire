@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MRNA
+Company,"Moderna, Inc."
+Country,United States
+Industry,Biotechnology
+Sector,Healthcare
+Website,https://www.modernatx.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9121000448.0
+Revenue Per Share,23.784
+Revenue Growth,-0.456
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-9.23, forward_eps=-6.74)"
+Net Earnings,-3465999872.0
+Earnings Growth,None
+
+DEBT
+Total Debt,1455000064.0
+Debt to Equity,10.814
+
+MARGINS
+Profit Margins,-0.38
+Gross Profit Margins,-0.13277
+Operating Margins,-1.09885
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,10.814
+Price to Cash Flow,-8.641022252874191e-08
+Enterprise to EBITDA,-13.222
+Price to Book,2.7059011
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-14.177878)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-9.23, forward_eps=-6.74)"
+Enterprise to Revenue,3.14
+
+CASH FLOW
+Free to Cash Flow,-1105874944.0
+Operating to Cash Flow,-2078000000.0
+
+PROFITABILITY
+Return on Equity,-0.22042999
+Return on Assets,-0.0732
+Return on Invested Capital,-2.3821303336211175
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TXN
+Company,Texas Instruments Incorporated
+Country,United States
+Industry,Semiconductors
+Sector,Technology
+Website,https://www.ti.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,18112000000.0
+Revenue Per Share,19.953
+Revenue Growth,-0.135
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.72, forward_eps=6.59)"
+Net Earnings,7064000000.0
+Earnings Growth,-0.249
+
+DEBT
+Total Debt,11221999616.0
+Debt to Equity,67.476
+
+MARGINS
+Profit Margins,0.39206
+Gross Profit Margins,0.6446
+Operating Margins,0.41637
+
+DIVIDEND
+Dividend Rate,5.2
+Dividend Yield,0.0312
+Five Year Avg Dividend Yield,2.61
+Trailing Annual Dividend Rate,4.96
+Trailing Annual Dividend Yield,0.029734429
+
+FINANCIAL RATIO
+Debt to Equity,67.476
+Price to Cash Flow,-1.2146702098112977e-06
+Enterprise to EBITDA,17.375
+Price to Book,9.176676
+Price to Earnings,"PriceToEarnings(trailing_pe=21.772022, forward_pe=25.50531)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.72, forward_eps=6.59)"
+Enterprise to Revenue,8.49
+
+CASH FLOW
+Free to Cash Flow,-138375008.0
+Operating to Cash Flow,6537999872.0
+
+PROFITABILITY
+Return on Equity,0.45610002
+Return on Assets,0.16787
+Return on Invested Capital,0.6294778319541946
+Return on Investment,-0.016582159624413145
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

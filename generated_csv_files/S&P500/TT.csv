@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TT
+Company,Trane Technologies plc
+Country,Ireland
+Industry,Building Products & Equipment
+Sector,Industrials
+Website,https://www.tranetechnologies.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,17327300608.0
+Revenue Per Share,75.616
+Revenue Growth,0.117
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.57, forward_eps=9.99)"
+Net Earnings,1981799936.0
+Earnings Growth,0.156
+
+DEBT
+Total Debt,4824600064.0
+Debt to Equity,72.005
+
+MARGINS
+Profit Margins,0.11304
+Gross Profit Margins,0.32349998
+Operating Margins,0.17602
+
+DIVIDEND
+Dividend Rate,3.0
+Dividend Yield,0.0123000005
+Five Year Avg Dividend Yield,1.62
+Trailing Annual Dividend Rate,2.92
+Trailing Annual Dividend Yield,0.0119967135
+
+FINANCIAL RATIO
+Debt to Equity,72.005
+Price to Cash Flow,1.6369697675192357e-07
+Enterprise to EBITDA,19.543
+Price to Book,8.287536
+Price to Earnings,"PriceToEarnings(trailing_pe=28.365229, forward_pe=24.333334)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.57, forward_eps=9.99)"
+Enterprise to Revenue,3.421
+
+CASH FLOW
+Free to Cash Flow,1484999936.0
+Operating to Cash Flow,2215099904.0
+
+PROFITABILITY
+Return on Equity,0.31844
+Return on Assets,0.0932
+Return on Invested Capital,0.41076978353895344
+Return on Investment,0.12401751789737171
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

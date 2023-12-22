@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AES
+Company,The AES Corporation
+Country,United States
+Industry,Utilities - Diversified
+Sector,Utilities
+Website,https://www.aes.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,12760000512.0
+Revenue Per Share,19.08
+Revenue Growth,-0.053
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.84, forward_eps=1.9)"
+Net Earnings,-560000000.0
+Earnings Growth,-0.458
+
+DEBT
+Total Debt,27391000576.0
+Debt to Equity,410.106
+
+MARGINS
+Profit Margins,-0.04389
+Gross Profit Margins,0.20165001
+Operating Margins,0.24811001
+
+DIVIDEND
+Dividend Rate,0.67
+Dividend Yield,0.0356
+Five Year Avg Dividend Yield,2.97
+Trailing Annual Dividend Rate,0.664
+Trailing Annual Dividend Yield,0.035225462
+
+FINANCIAL RATIO
+Debt to Equity,410.106
+Price to Cash Flow,-5.036227068591946e-09
+Enterprise to EBITDA,12.445
+Price to Book,6.593653
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.060526)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.84, forward_eps=1.9)"
+Enterprise to Revenue,3.327
+
+CASH FLOW
+Free to Cash Flow,-3795500032.0
+Operating to Cash Flow,3375000064.0
+
+PROFITABILITY
+Return on Equity,-0.0787
+Return on Assets,0.03586
+Return on Invested Capital,-0.020444671175371486
+Return on Investment,0.001218715995647443
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

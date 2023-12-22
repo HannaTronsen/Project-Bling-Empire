@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,FICO
+Company,Fair Isaac Corporation
+Country,United States
+Industry,Software - Application
+Sector,Technology
+Website,https://www.fico.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1513556992.0
+Revenue Per Share,60.576
+Revenue Growth,0.118
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.9, forward_eps=28.71)"
+Net Earnings,429375008.0
+Earnings Growth,0.132
+
+DEBT
+Total Debt,1901896960.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.28369
+Gross Profit Margins,0.79449
+Operating Margins,0.42516
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,0.09
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,2.7797988340737624e-06
+Enterprise to EBITDA,46.666
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=69.09467, forward_pe=40.672237)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.9, forward_eps=28.71)"
+Enterprise to Revenue,20.196
+
+CASH FLOW
+Free to Cash Flow,420066368.0
+Operating to Cash Flow,468915008.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,0.26549998
+Return on Invested Capital,0.22576144938499942
+Return on Investment,0.02297904835300099
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

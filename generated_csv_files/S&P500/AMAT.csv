@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AMAT
+Company,"Applied Materials, Inc."
+Country,United States
+Industry,Semiconductor Equipment & Materials
+Sector,Technology
+Website,https://www.appliedmaterials.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,26517000192.0
+Revenue Per Share,31.568
+Revenue Growth,-0.004
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.12, forward_eps=8.99)"
+Net Earnings,6856000000.0
+Earnings Growth,0.288
+
+DEBT
+Total Debt,5999000064.0
+Debt to Equity,36.693
+
+MARGINS
+Profit Margins,0.25855
+Gross Profit Margins,0.46702
+Operating Margins,0.29317
+
+DIVIDEND
+Dividend Rate,1.28
+Dividend Yield,0.007900001
+Five Year Avg Dividend Yield,1.14
+Trailing Annual Dividend Rate,1.22
+Trailing Annual Dividend Yield,0.0075593283
+
+FINANCIAL RATIO
+Debt to Equity,36.693
+Price to Cash Flow,3.004929525222552e-08
+Enterprise to EBITDA,16.312
+Price to Book,8.25525
+Price to Earnings,"PriceToEarnings(trailing_pe=19.953917, forward_pe=18.022892)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.12, forward_eps=8.99)"
+Enterprise to Revenue,5.025
+
+CASH FLOW
+Free to Cash Flow,5392000000.0
+Operating to Cash Flow,8700000256.0
+
+PROFITABILITY
+Return on Equity,0.4804
+Return on Assets,0.16652
+Return on Invested Capital,1.1428571269255354
+Return on Investment,-0.10882539682539683
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,2

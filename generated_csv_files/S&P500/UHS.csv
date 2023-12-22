@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,UHS
+Company,"Universal Health Services, Inc."
+Country,United States
+Industry,Medical Care Facilities
+Sector,Healthcare
+Website,https://uhs.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,14025409536.0
+Revenue Per Share,199.906
+Revenue Growth,0.068
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.51, forward_eps=11.66)"
+Net Earnings,675838976.0
+Earnings Growth,-0.04
+
+DEBT
+Total Debt,5383834112.0
+Debt to Equity,88.098
+
+MARGINS
+Profit Margins,0.04822
+Gross Profit Margins,0.39179
+Operating Margins,0.08009
+
+DIVIDEND
+Dividend Rate,0.8
+Dividend Yield,0.0053
+Five Year Avg Dividend Yield,0.49
+Trailing Annual Dividend Rate,0.8
+Trailing Annual Dividend Yield,0.0052976627
+
+FINANCIAL RATIO
+Debt to Equity,88.098
+Price to Cash Flow,5.919897014756805e-07
+Enterprise to EBITDA,9.029
+Price to Book,1.7263575
+Price to Earnings,"PriceToEarnings(trailing_pe=16.12937, forward_pe=13.155258)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.51, forward_eps=11.66)"
+Enterprise to Revenue,1.116
+
+CASH FLOW
+Free to Cash Flow,259109744.0
+Operating to Cash Flow,1112669952.0
+
+PROFITABILITY
+Return on Equity,0.111490004
+Return on Assets,0.05335
+Return on Invested Capital,0.12553116436851777
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

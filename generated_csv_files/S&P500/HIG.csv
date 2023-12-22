@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,HIG
+Company,"The Hartford Financial Services Group, Inc."
+Country,United States
+Industry,Insurance—Property & Casualty
+Sector,Financial Services
+Website,https://www.thehartford.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,24170000384.0
+Revenue Per Share,77.642
+Revenue Growth,0.106
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=9.83)"
+Net Earnings,2300000000.0
+Earnings Growth,1.049
+
+DEBT
+Total Debt,4360999936.0
+Debt to Equity,31.881
+
+MARGINS
+Profit Margins,0.09603
+Gross Profit Margins,0.33223
+Operating Margins,0.14001
+
+DIVIDEND
+Dividend Rate,1.88
+Dividend Yield,0.0238
+Five Year Avg Dividend Yield,2.35
+Trailing Annual Dividend Rate,1.7
+Trailing Annual Dividend Yield,0.021499937
+
+FINANCIAL RATIO
+Debt to Equity,31.881
+Price to Cash Flow,2.145174334335994e-08
+Enterprise to EBITDA,7.1
+Price to Book,1.7983003
+Price to Earnings,"PriceToEarnings(trailing_pe=10.914718, forward_pe=8.0722275)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=9.83)"
+Enterprise to Revenue,1.037
+
+CASH FLOW
+Free to Cash Flow,3699000064.0
+Operating to Cash Flow,3676999936.0
+
+PROFITABILITY
+Return on Equity,0.17429
+Return on Assets,0.02641
+Return on Invested Capital,0.5274019744283683
+Return on Investment,0.11734693877551021
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

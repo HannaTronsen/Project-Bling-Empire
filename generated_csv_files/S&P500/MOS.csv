@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,MOS
+Company,The Mosaic Company
+Country,United States
+Industry,Agricultural Inputs
+Sector,Basic Materials
+Website,https://www.mosaicco.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,15027900416.0
+Revenue Per Share,44.89
+Revenue Growth,-0.337
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.95, forward_eps=3.36)"
+Net Earnings,1322800000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,3883599872.0
+Debt to Equity,31.814
+
+MARGINS
+Profit Margins,0.08802
+Gross Profit Margins,0.17573
+Operating Margins,0.04109
+
+DIVIDEND
+Dividend Rate,0.84
+Dividend Yield,0.0231
+Five Year Avg Dividend Yield,0.99
+Trailing Annual Dividend Rate,0.8
+Trailing Annual Dividend Yield,0.022020368
+
+FINANCIAL RATIO
+Debt to Equity,31.814
+Price to Cash Flow,2.4743776813231586e-08
+Enterprise to EBITDA,5.485
+Price to Book,0.99084496
+Price to Earnings,"PriceToEarnings(trailing_pe=9.206329, forward_pe=10.822918)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.95, forward_eps=3.36)"
+Enterprise to Revenue,1.02
+
+CASH FLOW
+Free to Cash Flow,1469662464.0
+Operating to Cash Flow,2824800000.0
+
+PROFITABILITY
+Return on Equity,0.114420004
+Return on Assets,0.04788
+Return on Invested Capital,0.3406118114887006
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,True
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

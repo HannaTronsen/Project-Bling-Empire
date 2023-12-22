@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,USB
+Company,U.S. Bancorp
+Country,United States
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://www.usbank.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,24597999616.0
+Revenue Per Share,16.09
+Revenue Growth,0.093
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=3.97)"
+Net Earnings,5137999872.0
+Earnings Growth,-0.213
+
+DEBT
+Total Debt,72488001536.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.22388001
+Gross Profit Margins,0.0
+Operating Margins,0.37008
+
+DIVIDEND
+Dividend Rate,1.96
+Dividend Yield,0.045300003
+Five Year Avg Dividend Yield,3.77
+Trailing Annual Dividend Rate,1.92
+Trailing Annual Dividend Yield,0.04433156
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,1.468655
+Price to Earnings,"PriceToEarnings(trailing_pe=13.03815, forward_pe=11.001965)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=3.97)"
+Enterprise to Revenue,3.241
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,14919000064.0
+
+PROFITABILITY
+Return on Equity,0.10885
+Return on Assets,0.00871
+Return on Invested Capital,0.07088069419792602
+Return on Investment,0.0048289472481203004
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,UAL
+Company,"United Airlines Holdings, Inc."
+Country,United States
+Industry,Airlines
+Sector,Industrials
+Website,https://www.united.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,52491001856.0
+Revenue Per Share,160.229
+Revenue Growth,0.125
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.64, forward_eps=9.56)"
+Net Earnings,2860999936.0
+Earnings Growth,0.196
+
+DEBT
+Total Debt,36706000896.0
+Debt to Equity,414.617
+
+MARGINS
+Profit Margins,0.0545
+Gross Profit Margins,0.33935001
+Operating Margins,0.124280006
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,414.617
+Price to Cash Flow,-7.465286359885683e-08
+Enterprise to EBITDA,4.16
+Price to Book,1.5828122
+Price to Earnings,"PriceToEarnings(trailing_pe=4.944456, forward_pe=4.4686294)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.64, forward_eps=9.56)"
+Enterprise to Revenue,0.64
+
+CASH FLOW
+Free to Cash Flow,-572249984.0
+Operating to Cash Flow,8979000320.0
+
+PROFITABILITY
+Return on Equity,0.41612
+Return on Assets,0.0495
+Return on Invested Capital,0.07794365673347094
+Return on Investment,-0.007043328252092565
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

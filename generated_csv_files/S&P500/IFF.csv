@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,IFF
+Company,International Flavors & Fragrances Inc.
+Country,United States
+Industry,Specialty Chemicals
+Sector,Basic Materials
+Website,https://www.iff.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,11619999744.0
+Revenue Per Share,45.569
+Revenue Growth,-0.079
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.06, forward_eps=4.05)"
+Net Earnings,17000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,11038000128.0
+Debt to Equity,64.667
+
+MARGINS
+Profit Margins,0.00155
+Gross Profit Margins,0.31756002
+Operating Margins,0.055320002
+
+DIVIDEND
+Dividend Rate,3.24
+Dividend Yield,0.0403
+Five Year Avg Dividend Yield,2.7
+Trailing Annual Dividend Rate,3.24
+Trailing Annual Dividend Yield,0.040273465
+
+FINANCIAL RATIO
+Debt to Equity,64.667
+Price to Cash Flow,2.096098076152943e-07
+Enterprise to EBITDA,17.766
+Price to Book,1.2216208
+Price to Earnings,"PriceToEarnings(trailing_pe=1354.1667, forward_pe=20.061728)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.06, forward_eps=4.05)"
+Enterprise to Revenue,2.671
+
+CASH FLOW
+Free to Cash Flow,387624992.0
+Operating to Cash Flow,1003000000.0
+
+PROFITABILITY
+Return on Equity,0.0012899999
+Return on Assets,0.01122
+Return on Invested Capital,0.001540134055121265
+Return on Investment,0.0005120481927710843
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

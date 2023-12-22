@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,VLTO
+Company,Veralto Corporation
+Country,United States
+Industry,Pollution & Treatment Controls
+Sector,Industrials
+Website,https://jobs.danaher.com/global/en/eas
+Financial_summary,None
+
+REVENUE
+Total Revenue,4981000192.0
+Revenue Per Share,20.224
+Revenue Growth,0.03
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.93, forward_eps=3.23)"
+Net Earnings,855000000.0
+Earnings Growth,-0.06
+
+DEBT
+Total Debt,2736000000.0
+Debt to Equity,262.32
+
+MARGINS
+Profit Margins,0.17165
+Gross Profit Margins,0.57539004
+Operating Margins,0.22231
+
+DIVIDEND
+Dividend Rate,0.36
+Dividend Yield,0.0044
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,262.32
+Price to Cash Flow,None
+Enterprise to EBITDA,17.879
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=27.808874, forward_pe=25.226007)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.93, forward_eps=3.23)"
+Enterprise to Revenue,4.476
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,1037000000.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,None
+Return on Invested Capital,None
+Return on Investment,0.03263358778625954
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

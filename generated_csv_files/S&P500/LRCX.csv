@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,LRCX
+Company,Lam Research Corporation
+Country,United States
+Industry,Semiconductor Equipment & Materials
+Sector,Technology
+Website,https://www.lamresearch.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,15836456960.0
+Revenue Per Share,117.835
+Revenue Growth,-0.314
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=29.45, forward_eps=35.37)"
+Net Earnings,3972450048.0
+Earnings Growth,-0.359
+
+DEBT
+Total Debt,4984321024.0
+Debt to Equity,61.938
+
+MARGINS
+Profit Margins,0.25084
+Gross Profit Margins,0.45344
+Operating Margins,0.29666
+
+DIVIDEND
+Dividend Rate,8.0
+Dividend Yield,0.010299999
+Five Year Avg Dividend Yield,1.39
+Trailing Annual Dividend Rate,7.175
+Trailing Annual Dividend Yield,0.009235186
+
+FINANCIAL RATIO
+Debt to Equity,61.938
+Price to Cash Flow,2.1873926555235955e-07
+Enterprise to EBITDA,20.495
+Price to Book,12.834189
+Price to Earnings,"PriceToEarnings(trailing_pe=26.55348, forward_pe=22.109133)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=29.45, forward_eps=35.37)"
+Enterprise to Revenue,6.455
+
+CASH FLOW
+Free to Cash Flow,3575032576.0
+Operating to Cash Flow,4940512768.0
+
+PROFITABILITY
+Return on Equity,0.5139
+Return on Assets,0.15534
+Return on Invested Capital,0.7969891947791707
+Return on Investment,-0.5927702824740729
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

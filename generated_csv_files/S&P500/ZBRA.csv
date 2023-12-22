@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ZBRA
+Company,Zebra Technologies Corporation
+Country,United States
+Industry,Communication Equipment
+Sector,Technology
+Website,https://www.zebra.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,5078000128.0
+Revenue Per Share,98.693
+Revenue Growth,-0.306
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.94, forward_eps=11.21)"
+Net Earnings,465000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,2502000128.0
+Debt to Equity,83.04
+
+MARGINS
+Profit Margins,0.09157
+Gross Profit Margins,0.46475
+Operating Margins,0.05021
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,83.04
+Price to Cash Flow,9.58289559612709e-07
+Enterprise to EBITDA,16.995
+Price to Book,4.583994
+Price to Earnings,"PriceToEarnings(trailing_pe=30.08054, forward_pe=23.989296)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.94, forward_eps=11.21)"
+Enterprise to Revenue,3.156
+
+CASH FLOW
+Free to Cash Flow,280624992.0
+Operating to Cash Flow,122000000.0
+
+PROFITABILITY
+Return on Equity,0.16402
+Return on Assets,0.0647
+Return on Invested Capital,0.18585130507916311
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

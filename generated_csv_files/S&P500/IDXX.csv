@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,IDXX
+Company,"IDEXX Laboratories, Inc."
+Country,United States
+Industry,Diagnostics & Research
+Sector,Healthcare
+Website,https://www.idexx.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3587919872.0
+Revenue Per Share,43.215
+Revenue Growth,0.088
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.79, forward_eps=10.94)"
+Net Earnings,822728000.0
+Earnings Growth,0.177
+
+DEBT
+Total Debt,1140573056.0
+Debt to Equity,87.912
+
+MARGINS
+Profit Margins,0.22930999
+Gross Profit Margins,0.59888
+Operating Margins,0.30068
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,87.912
+Price to Cash Flow,9.438902214750135e-07
+Enterprise to EBITDA,39.173
+Price to Book,35.434727
+Price to Earnings,"PriceToEarnings(trailing_pe=56.53269, forward_pe=50.59004)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.79, forward_eps=10.94)"
+Enterprise to Revenue,13.017
+
+CASH FLOW
+Free to Cash Flow,586355264.0
+Operating to Cash Flow,830086976.0
+
+PROFITABILITY
+Return on Equity,0.92785
+Return on Assets,0.23539
+Return on Invested Capital,0.7213286202103377
+Return on Investment,-0.13148080672483778
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

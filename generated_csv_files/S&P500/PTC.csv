@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,PTC
+Company,PTC Inc.
+Country,United States
+Industry,Software—Application
+Sector,Technology
+Website,https://www.ptc.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,2097053056.0
+Revenue Per Share,17.72
+Revenue Growth,0.076
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=6.02)"
+Net Earnings,245540000.0
+Earnings Growth,-0.576
+
+DEBT
+Total Debt,1888977024.0
+Debt to Equity,70.556
+
+MARGINS
+Profit Margins,0.117089994
+Gross Profit Margins,0.78970003
+Operating Margins,0.22397
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,70.556
+Price to Cash Flow,1.4245596172443438e-07
+Enterprise to EBITDA,40.249
+Price to Book,7.657034
+Price to Earnings,"PriceToEarnings(trailing_pe=84.14147, forward_pe=28.652824)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=6.02)"
+Enterprise to Revenue,10.498
+
+CASH FLOW
+Free to Cash Flow,1210830336.0
+Operating to Cash Flow,610860992.0
+
+PROFITABILITY
+Return on Equity,0.09874
+Return on Assets,0.054419998
+Return on Invested Capital,0.12998569805357896
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

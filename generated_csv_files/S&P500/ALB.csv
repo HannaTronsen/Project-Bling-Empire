@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ALB
+Company,Albemarle Corporation
+Country,United States
+Industry,Specialty Chemicals
+Sector,Basic Materials
+Website,https://www.albemarle.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,9882015744.0
+Revenue Per Share,84.268
+Revenue Growth,0.105
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.2, forward_eps=13.15)"
+Net Earnings,3323600896.0
+Earnings Growth,-0.662
+
+DEBT
+Total Debt,3808100096.0
+Debt to Equity,37.472
+
+MARGINS
+Profit Margins,0.33633
+Gross Profit Margins,0.29258
+Operating Margins,-0.05545
+
+DIVIDEND
+Dividend Rate,1.6
+Dividend Yield,0.011
+Five Year Avg Dividend Yield,1.24
+Trailing Annual Dividend Rate,1.595
+Trailing Annual Dividend Yield,0.0109659685
+
+FINANCIAL RATIO
+Debt to Equity,37.472
+Price to Cash Flow,-1.2128875357890922e-07
+Enterprise to EBITDA,7.484
+Price to Book,1.7914943
+Price to Earnings,"PriceToEarnings(trailing_pe=5.358156, forward_pe=11.490495)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.2, forward_eps=13.15)"
+Enterprise to Revenue,1.977
+
+CASH FLOW
+Free to Cash Flow,-1245787392.0
+Operating to Cash Flow,2375787008.0
+
+PROFITABILITY
+Return on Equity,0.40118998
+Return on Assets,0.08558
+Return on Invested Capital,0.8727713921908009
+Return on Investment,-0.0195568632061455
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

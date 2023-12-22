@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,T
+Company,AT&T Inc.
+Country,United States
+Industry,Telecom Services
+Sector,Communication Services
+Website,https://www.att.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,121748996096.0
+Revenue Per Share,16.974
+Revenue Growth,0.01
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.51, forward_eps=2.47)"
+Net Earnings,-10816000000.0
+Earnings Growth,-0.401
+
+DEBT
+Total Debt,162607005696.0
+Debt to Equity,135.701
+
+MARGINS
+Profit Margins,-0.09285
+Gross Profit Margins,0.5911
+Operating Margins,0.23753001
+
+DIVIDEND
+Dividend Rate,1.11
+Dividend Yield,0.0673
+Five Year Avg Dividend Yield,7.14
+Trailing Annual Dividend Rate,1.11
+Trailing Annual Dividend Yield,0.06731352
+
+FINANCIAL RATIO
+Debt to Equity,135.701
+Price to Cash Flow,1.1221083638808005e-09
+Enterprise to EBITDA,6.868
+Price to Book,1.1499484
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.7530365)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.51, forward_eps=2.47)"
+Enterprise to Revenue,2.374
+
+CASH FLOW
+Free to Cash Flow,14864874496.0
+Operating to Cash Flow,37248999424.0
+
+PROFITABILITY
+Return on Equity,-0.077589996
+Return on Assets,0.03968
+Return on Invested Capital,-0.06651619930359032
+Return on Investment,0.024553916004540294
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

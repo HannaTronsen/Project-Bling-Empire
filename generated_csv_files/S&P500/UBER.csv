@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,UBER
+Company,"Uber Technologies, Inc."
+Country,United States
+Industry,Software—Application
+Sector,Technology
+Website,https://www.uber.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,35952001024.0
+Revenue Per Share,17.806
+Revenue Growth,0.114
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=1.17)"
+Net Earnings,1053000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,11143999488.0
+Debt to Equity,105.942
+
+MARGINS
+Profit Margins,0.029289998
+Gross Profit Margins,0.32412997
+Operating Margins,0.0424
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,105.942
+Price to Cash Flow,3.449947676490195e-08
+Enterprise to EBITDA,115.279
+Price to Book,13.267253
+Price to Earnings,"PriceToEarnings(trailing_pe=119.04808, forward_pe=52.910255)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=1.17)"
+Enterprise to Revenue,3.716
+
+CASH FLOW
+Free to Cash Flow,1794375040.0
+Operating to Cash Flow,2518000128.0
+
+PROFITABILITY
+Return on Equity,0.117860004
+Return on Assets,0.0058899997
+Return on Invested Capital,0.0944903129879889
+Return on Investment,0.010213385063045586
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,True
+Free Cash Flow,True
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,2
