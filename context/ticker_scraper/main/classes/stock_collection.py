@@ -7,7 +7,7 @@ from context.ticker_scraper.main.const import FILE_NAME_SUFFIX, STOCK_COLLECTION
 
 class StockCollectionClass(ABC):
 
-    def __init__(self, stock_index_name, source, column,  table_index):
+    def __init__(self, stock_index_name, source, column, table_index):
         """
         :param stock_index_name: The name of the stock collection.
         :param source: The source of the stock data.

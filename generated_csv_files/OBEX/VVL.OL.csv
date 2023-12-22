@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,VVL.OL
+Company,Voss Veksel- og Landmandsbank ASA
+Country,Norway
+Industry,Banks—Regional
+Sector,Financial Services
+Website,https://vekselbanken.no
+Financial_summary,None
+
+REVENUE
+Total Revenue,164100992.0
+Revenue Per Share,67.743
+Revenue Growth,0.433
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.39, forward_eps=32.3)"
+Net Earnings,68401000.0
+Earnings Growth,0.322
+
+DEBT
+Total Debt,1119298048.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.41682
+Gross Profit Margins,0.0
+Operating Margins,0.56184
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,4.32
+Trailing Annual Dividend Rate,10.5
+Trailing Annual Dividend Yield,0.04375
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,0.8245184
+Price to Earnings,"PriceToEarnings(trailing_pe=8.453681, forward_pe=7.430341)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.39, forward_eps=32.3)"
+Enterprise to Revenue,5.537
+
+CASH FLOW
+Free to Cash Flow,None
+Operating to Cash Flow,88796000.0
+
+PROFITABILITY
+Return on Equity,0.10288999
+Return on Assets,0.011460001
+Return on Invested Capital,0.0611106061823364
+Return on Investment,0.00493812989113171
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

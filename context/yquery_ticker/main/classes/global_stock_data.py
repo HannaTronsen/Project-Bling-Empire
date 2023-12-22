@@ -225,8 +225,9 @@ class GlobalStockDataClass(CsvConverter):
             ).combine_process_and_evaluate_growth_criteria(),
         }
 
-    def to_csv(self):
+    def to_csv(self, stock_collection: str):
         self._to_csv(
+            stock_collection=stock_collection,
             ticker_symbol=self.general_stock_info.ticker,
             general_stock_info=self.general_stock_info,
             revenue_data=lambda: self._get_revenue_data(),

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GOD.OL
+Company,Goodtech ASA
+Country,Norway
+Industry,Engineering & Construction
+Sector,Industrials
+Website,https://www.goodtech.no
+Financial_summary,None
+
+REVENUE
+Total Revenue,746627968.0
+Revenue Per Share,30.09
+Revenue Growth,0.904
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=0.54)"
+Net Earnings,1073000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,81900000.0
+Debt to Equity,29.934
+
+MARGINS
+Profit Margins,-0.001
+Gross Profit Margins,0.58756
+Operating Margins,0.0069700005
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,29.934
+Price to Cash Flow,-4.785137577090905e-07
+Enterprise to EBITDA,16.05
+Price to Book,0.9778928
+Price to Earnings,"PriceToEarnings(trailing_pe=245.5, forward_pe=18.185184)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=0.54)"
+Enterprise to Revenue,0.372
+
+CASH FLOW
+Free to Cash Flow,-20521876.0
+Operating to Cash Flow,40824000.0
+
+PROFITABILITY
+Return on Equity,0.00416
+Return on Assets,0.01368
+Return on Invested Capital,0.013101341494949069
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

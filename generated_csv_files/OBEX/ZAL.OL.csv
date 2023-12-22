@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ZAL.OL
+Company,Zalaris ASA
+Country,Norway
+Industry,Staffing & Employment Services
+Sector,Industrials
+Website,https://www.zalaris.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,1069340032.0
+Revenue Per Share,48.966
+Revenue Growth,0.241
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
+Net Earnings,-23291000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,507166016.0
+Debt to Equity,285.626
+
+MARGINS
+Profit Margins,-0.03254
+Gross Profit Margins,0.42848
+Operating Margins,0.06357
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,1.0
+Trailing Annual Dividend Yield,0.022727273
+
+FINANCIAL RATIO
+Debt to Equity,285.626
+Price to Cash Flow,7.390955379250775e-07
+Enterprise to EBITDA,18.552
+Price to Book,5.318127
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.44382)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
+Enterprise to Revenue,1.254
+
+CASH FLOW
+Free to Cash Flow,59938124.0
+Operating to Cash Flow,26841000.0
+
+PROFITABILITY
+Return on Equity,-0.13653
+Return on Assets,0.03398
+Return on Invested Capital,-0.045923817611341296
+Return on Investment,-0.004396851166654081
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

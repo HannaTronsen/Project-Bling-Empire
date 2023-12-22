@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,TGS.OL
+Company,TGS ASA
+Country,Norway
+Industry,Oil & Gas Equipment & Services
+Sector,Energy
+Website,https://www.tgs.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,823942976.0
+Revenue Per Share,6.659
+Revenue Growth,0.666
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.25, forward_eps=17.06)"
+Net Earnings,73899000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,61449000.0
+Debt to Equity,4.72
+
+MARGINS
+Profit Margins,0.08969
+Gross Profit Margins,0.73316
+Operating Margins,0.17817
+
+DIVIDEND
+Dividend Rate,6.24
+Dividend Yield,0.048600003
+Five Year Avg Dividend Yield,4.49
+Trailing Annual Dividend Rate,0.56
+Trailing Annual Dividend Yield,0.004357977
+
+FINANCIAL RATIO
+Debt to Equity,4.72
+Price to Cash Flow,-1.6150970883166317e-06
+Enterprise to EBITDA,89.118
+Price to Book,13.314561
+Price to Earnings,"PriceToEarnings(trailing_pe=21.183998, forward_pe=7.7608438)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.25, forward_eps=17.06)"
+Enterprise to Revenue,20.86
+
+CASH FLOW
+Free to Cash Flow,-81976496.0
+Operating to Cash Flow,556361024.0
+
+PROFITABILITY
+Return on Equity,0.061539996
+Return on Assets,0.06112
+Return on Invested Capital,1.2026068453722198
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

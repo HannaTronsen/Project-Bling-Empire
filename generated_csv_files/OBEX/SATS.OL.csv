@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SATS.OL
+Company,Sats ASA
+Country,Norway
+Industry,Leisure
+Sector,Consumer Cyclical
+Website,https://www.satsgroup.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,4588000256.0
+Revenue Per Share,22.627
+Revenue Growth,0.144
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.17, forward_eps=1.25)"
+Net Earnings,39000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,6808999936.0
+Debt to Equity,666.243
+
+MARGINS
+Profit Margins,0.0085
+Gross Profit Margins,0.60854
+Operating Margins,0.14014
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,666.243
+Price to Cash Flow,1.3448012408850348e-08
+Enterprise to EBITDA,-136.869
+Price to Book,3.0824516
+Price to Earnings,"PriceToEarnings(trailing_pe=90.823524, forward_pe=12.351999)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.17, forward_eps=1.25)"
+Enterprise to Revenue,2.058
+
+CASH FLOW
+Free to Cash Flow,1148125056.0
+Operating to Cash Flow,1607000064.0
+
+PROFITABILITY
+Return on Equity,0.03888
+Return on Assets,0.03075
+Return on Invested Capital,0.0057277133702281595
+Return on Investment,0.0006112852664576803
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,5 +1,5 @@
 from context.ticker_scraper.main.const import TICKER_SCRAPER_TEST_PATH
-from context.ticker_scraper.main.stock_collections import NORWAY
+from context.ticker_scraper.main.stock_collections import NORWAY, STANDARD_AND_POOR_500
 from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 
 
@@ -16,9 +16,8 @@ class CONST_COLLECTION:
     ]
 
 
-GENERATED_CSV_FILES_PATH = "generated_csv_files"
-OBEX_COMPARISON_CSV_FILES_PATH = "/comparison/OBEX/"
-BLACKLISTED_STOCK_TICKERS_PATH = 'black_listed_stock_tickers.txt'
+GENERATED_CSV_FILES_PATH = "generated_csv_files/"
+BLACKLISTED_STOCK_TICKERS_PATH = 'blacklisted_stock_ticker/'
 AUTO_GENERATED_FILE_STRING = " ### This file is auto generated and shouldn't be touched! ### "
 TEST_PATHS = [
     TICKER_SCRAPER_TEST_PATH,

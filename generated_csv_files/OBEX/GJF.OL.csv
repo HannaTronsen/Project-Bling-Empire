@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,GJF.OL
+Company,Gjensidige Forsikring ASA
+Country,Norway
+Industry,Insurance - Property & Casualty
+Sector,Financial Services
+Website,https://www.gjensidige.no
+Financial_summary,None
+
+REVENUE
+Total Revenue,37994299392.0
+Revenue Per Share,75.841
+Revenue Growth,0.251
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.79, forward_eps=11.62)"
+Net Earnings,5465299968.0
+Earnings Growth,-0.036
+
+DEBT
+Total Debt,4305999872.0
+Debt to Equity,18.542
+
+MARGINS
+Profit Margins,0.14385
+Gross Profit Margins,0.34318
+Operating Margins,0.13047
+
+DIVIDEND
+Dividend Rate,8.25
+Dividend Yield,0.0456
+Five Year Avg Dividend Yield,4.89
+Trailing Annual Dividend Rate,8.25
+Trailing Annual Dividend Yield,0.04555494
+
+FINANCIAL RATIO
+Debt to Equity,18.542
+Price to Cash Flow,-2.6578761362459823e-09
+Enterprise to EBITDA,3.772
+Price to Book,4.145042
+Price to Earnings,"PriceToEarnings(trailing_pe=16.65431, forward_pe=15.464716)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.79, forward_eps=11.62)"
+Enterprise to Revenue,0.727
+
+CASH FLOW
+Free to Cash Flow,-67610374144.0
+Operating to Cash Flow,7094799872.0
+
+PROFITABILITY
+Return on Equity,0.22662
+Return on Assets,0.03247
+Return on Invested Capital,1.2692290003335875
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

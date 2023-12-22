@@ -1,9 +1,10 @@
+import os
 import re
-from typing import Optional
+from typing import Optional, Dict, List, TextIO
 from yahooquery import Ticker
 from const import (
     BLACKLISTED_STOCK_TICKERS_PATH,
-    CONST_COLLECTION
+    CONST_COLLECTION, AUTO_GENERATED_FILE_STRING
 )
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass
 from context.yquery_ticker.main.const import DATA_NOT_AVAILABLE
@@ -35,13 +36,29 @@ def validate_and_get_yahoo_query_ticker_object(ticker_symbol: str) -> Optional[G
     return None
 
 
-def validate_and_get_yahoo_query_ticker_objects() -> list[GlobalStockDataClass]:
-    blacklisted_stocks_file = open(BLACKLISTED_STOCK_TICKERS_PATH, "r+")
-    blacklisted_stocks_file_content = blacklisted_stocks_file.read()
-    yquery_tickers: list[GlobalStockDataClass] = []
+def _open_or_create_blacklisted_stock_file(stock_collection: str) -> TextIO:
+    full_blacklisted_path = BLACKLISTED_STOCK_TICKERS_PATH + stock_collection + ".txt"
+
+    if not os.path.exists(BLACKLISTED_STOCK_TICKERS_PATH):
+        os.makedirs(BLACKLISTED_STOCK_TICKERS_PATH)
+        with open(full_blacklisted_path, "a+") as file:
+            file.write(AUTO_GENERATED_FILE_STRING)
+
+    return open(full_blacklisted_path, "r+")
+
+
+def validate_and_get_grouped_yahoo_query_ticker_objects() -> Dict[str, List[GlobalStockDataClass]]:
+    yquery_tickers: Dict[str, List[GlobalStockDataClass]] = {}
 
     for stock_collection in CONST_COLLECTION.STCOK_COLLECTION_LIST:
+
+        blacklisted_stocks_file = _open_or_create_blacklisted_stock_file(stock_collection.stock_index_name)
+
+        blacklisted_stocks_file_content = blacklisted_stocks_file.read()
+
         stock_tickers_file = open(stock_collection.file_path, "r").readlines()
+
+        stock_collection_tickers: List[GlobalStockDataClass] = []
 
         for ticker in stock_tickers_file:
             stripped_ticker = ticker.strip()
@@ -53,8 +70,9 @@ def validate_and_get_yahoo_query_ticker_objects() -> list[GlobalStockDataClass]:
                 else:
                     print(f"Found information for ticker {stripped_ticker}")
                     ticker = GlobalStockDataClass(ticker_symbol=stripped_ticker, ticker=yquery_ticker)
-                    yquery_tickers.append(ticker)
+                    stock_collection_tickers.append(ticker)
             else:
                 print(f"Ticker symbol: {stripped_ticker} found in blacklisted stock file and will be skipped")
-    blacklisted_stocks_file.close()
+        yquery_tickers[stock_collection.stock_index_name] = stock_collection_tickers
+        blacklisted_stocks_file.close()
     return yquery_tickers

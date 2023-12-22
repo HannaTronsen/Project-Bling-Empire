@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,ELK.OL
+Company,Elkem ASA
+Country,Norway
+Industry,Specialty Chemicals
+Sector,Basic Materials
+Website,https://www.elkem.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,36516999168.0
+Revenue Per Share,57.504
+Revenue Growth,-0.299
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.24, forward_eps=1.58)"
+Net Earnings,1427000064.0
+Earnings Growth,None
+
+DEBT
+Total Debt,16448000000.0
+Debt to Equity,65.133
+
+MARGINS
+Profit Margins,0.03908
+Gross Profit Margins,0.42457
+Operating Margins,-0.01123
+
+DIVIDEND
+Dividend Rate,6.0
+Dividend Yield,0.3008
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,6.0
+Trailing Annual Dividend Yield,0.30075186
+
+FINANCIAL RATIO
+Debt to Equity,65.133
+Price to Cash Flow,3.0707539212617606e-08
+Enterprise to EBITDA,4.388
+Price to Book,0.50253665
+Price to Earnings,"PriceToEarnings(trailing_pe=8.888392, forward_pe=12.601265)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.24, forward_eps=1.58)"
+Enterprise to Revenue,0.583
+
+CASH FLOW
+Free to Cash Flow,648374976.0
+Operating to Cash Flow,5085000192.0
+
+PROFITABILITY
+Return on Equity,0.05637
+Return on Assets,0.03418
+Return on Invested Capital,0.0867582721645625
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

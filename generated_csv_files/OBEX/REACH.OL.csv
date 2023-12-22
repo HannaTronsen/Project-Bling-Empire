@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,REACH.OL
+Company,Reach Subsea ASA
+Country,Norway
+Industry,Oil & Gas Equipment & Services
+Sector,Energy
+Website,https://reachsubsea.no
+Financial_summary,None
+
+REVENUE
+Total Revenue,1849179008.0
+Revenue Per Share,7.753
+Revenue Growth,0.782
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.63, forward_eps=0.66)"
+Net Earnings,180782000.0
+Earnings Growth,0.13
+
+DEBT
+Total Debt,1348728064.0
+Debt to Equity,163.869
+
+MARGINS
+Profit Margins,0.09776
+Gross Profit Margins,0.78433
+Operating Margins,0.1726
+
+DIVIDEND
+Dividend Rate,0.18
+Dividend Yield,0.0416
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.18
+Trailing Annual Dividend Yield,0.04157044
+
+FINANCIAL RATIO
+Debt to Equity,163.869
+Price to Cash Flow,1.1645515678530286e-08
+Enterprise to EBITDA,7.226
+Price to Book,1.3407822
+Price to Earnings,"PriceToEarnings(trailing_pe=6.8571434, forward_pe=6.5454545)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.63, forward_eps=0.66)"
+Enterprise to Revenue,1.254
+
+CASH FLOW
+Free to Cash Flow,370958240.0
+Operating to Cash Flow,643075968.0
+
+PROFITABILITY
+Return on Equity,0.26047
+Return on Assets,0.09729
+Return on Invested Capital,0.13403888032993932
+Return on Investment,-0.02043427150446479
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

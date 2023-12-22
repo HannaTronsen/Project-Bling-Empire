@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,DNO.OL
+Company,DNO ASA
+Country,Norway
+Industry,Oil & Gas E&P
+Sector,Energy
+Website,https://www.dno.no
+Financial_summary,None
+
+REVENUE
+Total Revenue,806300032.0
+Revenue Per Share,0.813
+Revenue Growth,-0.584
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=2.05)"
+Net Earnings,56900000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,575000000.0
+Debt to Equity,46.196
+
+MARGINS
+Profit Margins,0.07057
+Gross Profit Margins,0.51048
+Operating Margins,0.22694999
+
+DIVIDEND
+Dividend Rate,1.0
+Dividend Yield,0.0995
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.123
+Trailing Annual Dividend Yield,0.012238806
+
+FINANCIAL RATIO
+Debt to Equity,46.196
+Price to Cash Flow,8.442674491720813e-08
+Enterprise to EBITDA,22.057
+Price to Book,7.8856697
+Price to Earnings,"PriceToEarnings(trailing_pe=19.365385, forward_pe=4.912195)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=2.05)"
+Enterprise to Revenue,12.012
+
+CASH FLOW
+Free to Cash Flow,119275000.0
+Operating to Cash Flow,336700000.0
+
+PROFITABILITY
+Return on Equity,0.045149997
+Return on Assets,0.02121
+Return on Invested Capital,0.09895652151936092
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

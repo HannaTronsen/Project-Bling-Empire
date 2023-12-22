@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AKVA.OL
+Company,AKVA group ASA
+Country,Norway
+Industry,Farm & Heavy Construction Machinery
+Sector,Industrials
+Website,https://www.akvagroup.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,3362377984.0
+Revenue Per Share,92.373
+Revenue Growth,-0.027
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=2.06)"
+Net Earnings,-19662000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,1379827968.0
+Debt to Equity,116.242
+
+MARGINS
+Profit Margins,-0.00585
+Gross Profit Margins,0.39481
+Operating Margins,0.03518
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,1.94
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,116.242
+Price to Cash Flow,-4.6140963890463517e-07
+Enterprise to EBITDA,36.956
+Price to Book,1.7968339
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=28.15534)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=2.06)"
+Enterprise to Revenue,0.99
+
+CASH FLOW
+Free to Cash Flow,-125701752.0
+Operating to Cash Flow,80566000.0
+
+PROFITABILITY
+Return on Equity,-0.01653
+Return on Assets,0.00442
+Return on Invested Capital,-0.014249602121441484
+Return on Investment,0.006674134419551935
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,IDEX.OL
+Company,IDEX Biometrics ASA
+Country,Norway
+Industry,Software - Application
+Sector,Technology
+Website,https://www.idexbiometrics.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,4720000.0
+Revenue Per Share,0.004
+Revenue Growth,0.024
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.21, forward_eps=0.0)"
+Net Earnings,-27984000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,1976000.0
+Debt to Equity,15.009
+
+MARGINS
+Profit Margins,0.0
+Gross Profit Margins,0.25699
+Operating Margins,-7.12316
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,15.009
+Price to Cash Flow,-3.130029703877206e-08
+Enterprise to EBITDA,-28.496
+Price to Book,59.8
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.21, forward_eps=0.0)"
+Enterprise to Revenue,166.617
+
+CASH FLOW
+Free to Cash Flow,-19105250.0
+Operating to Cash Flow,-29999000.0
+
+PROFITABILITY
+Return on Equity,-1.9948
+Return on Assets,-0.92026
+Return on Invested Capital,-14.161943248168303
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,1

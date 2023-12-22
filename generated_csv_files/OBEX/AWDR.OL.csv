@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AWDR.OL
+Company,Awilco Drilling PLC
+Country,United Kingdom
+Industry,Oil & Gas Drilling
+Sector,Energy
+Website,https://www.awilcodrilling.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,None
+Revenue Per Share,None
+Revenue Growth,None
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2372.54, forward_eps=2.52)"
+Net Earnings,-144748992.0
+Earnings Growth,None
+
+DEBT
+Total Debt,4000000.0
+Debt to Equity,None
+
+MARGINS
+Profit Margins,0.0
+Gross Profit Margins,0.0
+Operating Margins,0.0
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,29.05
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,None
+Price to Cash Flow,1.4522173682940087e-07
+Enterprise to EBITDA,-35.027
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.9444447)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2372.54, forward_eps=2.52)"
+Enterprise to Revenue,None
+
+CASH FLOW
+Free to Cash Flow,120505376.0
+Operating to Cash Flow,-19327000.0
+
+PROFITABILITY
+Return on Equity,None
+Return on Assets,-0.56576
+Return on Invested Capital,-36.18752741294603
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

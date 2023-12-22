@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,AUSS.OL
+Company,Austevoll Seafood ASA
+Country,Norway
+Industry,Farm Products
+Sector,Consumer Defensive
+Website,https://www.auss.no
+Financial_summary,None
+
+REVENUE
+Total Revenue,32678000640.0
+Revenue Per Share,162.162
+Revenue Growth,-0.058
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.78, forward_eps=10.28)"
+Net Earnings,157000000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,15118000128.0
+Debt to Equity,57.326
+
+MARGINS
+Profit Margins,0.0047999998
+Gross Profit Margins,0.4365
+Operating Margins,-0.02767
+
+DIVIDEND
+Dividend Rate,5.5
+Dividend Yield,0.0769
+Five Year Avg Dividend Yield,4.02
+Trailing Annual Dividend Rate,5.5
+Trailing Annual Dividend Yield,0.07686932
+
+FINANCIAL RATIO
+Debt to Equity,57.326
+Price to Cash Flow,1.4910725694405132e-07
+Enterprise to EBITDA,9.697
+Price to Book,0.9865534
+Price to Earnings,"PriceToEarnings(trailing_pe=90.76924, forward_pe=6.88716)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.78, forward_eps=10.28)"
+Enterprise to Revenue,1.065
+
+CASH FLOW
+Free to Cash Flow,474825984.0
+Operating to Cash Flow,3023000064.0
+
+PROFITABILITY
+Return on Equity,0.00055
+Return on Assets,0.03511
+Return on Invested Capital,0.01038497141986018
+Return on Investment,-0.002512
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

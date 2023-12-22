@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,NRC.OL
+Company,NRC Group ASA
+Country,Norway
+Industry,Railroads
+Sector,Industrials
+Website,https://www.nrcgroup.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,6887000064.0
+Revenue Per Share,91.981
+Revenue Growth,-0.072
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.33)"
+Net Earnings,-349000000.0
+Earnings Growth,0.048
+
+DEBT
+Total Debt,1338000000.0
+Debt to Equity,54.702
+
+MARGINS
+Profit Margins,-0.050679997
+Gross Profit Margins,0.17671
+Operating Margins,0.04013
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,None
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,54.702
+Price to Cash Flow,9.522935779816514e-08
+Enterprise to EBITDA,9.925
+Price to Book,0.3103603
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.804511)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.33)"
+Enterprise to Revenue,0.254
+
+CASH FLOW
+Free to Cash Flow,109000000.0
+Operating to Cash Flow,230000000.0
+
+PROFITABILITY
+Return on Equity,-0.13568
+Return on Assets,0.01194
+Return on Invested Capital,-0.26083706373415877
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

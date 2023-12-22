@@ -1,0 +1,71 @@
+GENERAL STOCK INFO
+Ticker,SOFF.OL
+Company,Solstad Offshore ASA
+Country,Norway
+Industry,Marine Shipping
+Sector,Industrials
+Website,https://www.solstad.com
+Financial_summary,None
+
+REVENUE
+Total Revenue,7603133952.0
+Revenue Per Share,98.346
+Revenue Growth,0.171
+
+EARNINGS
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.6, forward_eps=6.67)"
+Net Earnings,59300000.0
+Earnings Growth,None
+
+DEBT
+Total Debt,16826186752.0
+Debt to Equity,884.836
+
+MARGINS
+Profit Margins,0.0078
+Gross Profit Margins,0.62135
+Operating Margins,0.26898
+
+DIVIDEND
+Dividend Rate,None
+Dividend Yield,None
+Five Year Avg Dividend Yield,6.58
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
+
+FINANCIAL RATIO
+Debt to Equity,884.836
+Price to Cash Flow,9.639957759660444e-08
+Enterprise to EBITDA,6.657
+Price to Book,1.540766
+Price to Earnings,"PriceToEarnings(trailing_pe=63.433334, forward_pe=5.706147)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.6, forward_eps=6.67)"
+Enterprise to Revenue,2.351
+
+CASH FLOW
+Free to Cash Flow,394815008.0
+Operating to Cash Flow,2490850048.0
+
+PROFITABILITY
+Return on Equity,0.03444
+Return on Assets,0.03478
+Return on Invested Capital,0.0035242684980835
+Return on Investment,0.00015708205643457637
+
+
+
+PASSES GROWTH CRITERIA
+Earnings,False
+Revenue,False
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
+Book Value + Dividends,False
+Return On Income Capital,False
+Return On Equity,False
+Owner Earnings,False
+
+
+
+CRITERIA PASS COUNT,0

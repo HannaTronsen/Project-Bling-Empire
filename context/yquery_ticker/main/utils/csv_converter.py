@@ -24,6 +24,7 @@ class CsvConverter:
 
     @staticmethod
     def _to_csv(
+            stock_collection: str,
             ticker_symbol: str,
             general_stock_info: GeneralStockInfo,
             revenue_data: Callable[[], dict],
@@ -49,7 +50,7 @@ class CsvConverter:
             Section.GROWTH_CRITERIA: evaluated_growth_criteria,
         }
 
-        with open(f"{GENERATED_CSV_FILES_PATH}/{ticker_symbol}.csv", mode='w', newline='') as file:
+        with open(f"{GENERATED_CSV_FILES_PATH}/{stock_collection}/{ticker_symbol}.csv", mode='w', newline='') as file:
             writer = csv.writer(file)
 
             # Write general stock information section
