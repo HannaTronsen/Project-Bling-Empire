@@ -37,10 +37,10 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.5905871
-Price to Earnings,"PriceToEarnings(trailing_pe=15.981025, forward_pe=14.495697)"
+Price to Book,1.5834104
+Price to Earnings,"PriceToEarnings(trailing_pe=15.908917, forward_pe=14.430292)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=5.81)"
-Enterprise to Revenue,4.328
+Enterprise to Revenue,4.329
 
 CASH FLOW
 Free to Cash Flow,None

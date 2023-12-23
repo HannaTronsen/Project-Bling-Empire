@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,D
 Company,"Dominion Energy, Inc."
 Country,United States
-Industry,Utilities - Regulated Electric
+Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.dominionenergy.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.057112303
 
 FINANCIAL RATIO
 Debt to Equity,152.201
-Price to Cash Flow,-3.5101517307084003e-09
-Enterprise to EBITDA,9.89
-Price to Book,1.5086427
-Price to Earnings,"PriceToEarnings(trailing_pe=15.715947, forward_pe=15.113418)"
+Price to Cash Flow,-3.4726794418592775e-09
+Enterprise to EBITDA,9.895
+Price to Book,1.4925373
+Price to Earnings,"PriceToEarnings(trailing_pe=15.548173, forward_pe=14.952076)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.01, forward_eps=3.13)"
-Enterprise to Revenue,4.661
+Enterprise to Revenue,4.663
 
 CASH FLOW
 Free to Cash Flow,-13476625408.0

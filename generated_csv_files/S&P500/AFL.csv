@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,AFL
 Company,Aflac Incorporated
 Country,United States
-Industry,Insurance - Life
+Industry,Insurance—Life
 Sector,Financial Services
 Website,https://www.aflac.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.020440832
 
 FINANCIAL RATIO
 Debt to Equity,53.836
-Price to Cash Flow,-5.0508870159396934e-08
-Enterprise to EBITDA,9.443
-Price to Book,2.1104207
-Price to Earnings,"PriceToEarnings(trailing_pe=11.166438, forward_pe=12.796703)"
+Price to Cash Flow,-5.046859442412906e-08
+Enterprise to EBITDA,9.469
+Price to Book,2.1087377
+Price to Earnings,"PriceToEarnings(trailing_pe=11.157534, forward_pe=12.786499)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=7.3, forward_eps=6.37)"
-Enterprise to Revenue,2.697
+Enterprise to Revenue,2.704
 
 CASH FLOW
 Free to Cash Flow,-1613874944.0

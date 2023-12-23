@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,AEE
 Company,Ameren Corporation
 Country,United States
-Industry,Utilities - Regulated Electric
+Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.ameren.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.03439667
 
 FINANCIAL RATIO
 Debt to Equity,143.376
-Price to Cash Flow,-9.690873164700788e-08
-Enterprise to EBITDA,11.096
-Price to Book,1.7314606
-Price to Earnings,"PriceToEarnings(trailing_pe=16.492065, forward_pe=15.845316)"
+Price to Cash Flow,-9.602931788532734e-08
+Enterprise to EBITDA,11.094
+Price to Book,1.7157481
+Price to Earnings,"PriceToEarnings(trailing_pe=16.342403, forward_pe=15.701525)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=4.41, forward_eps=4.59)"
-Enterprise to Revenue,4.594
+Enterprise to Revenue,4.593
 
 CASH FLOW
 Free to Cash Flow,-750499968.0

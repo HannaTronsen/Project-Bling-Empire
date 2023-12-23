@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,CINF
 Company,Cincinnati Financial Corporation
 Country,United States
-Industry,Insurance - Property & Casualty
+Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.cinfin.com
 Financial_summary,None
@@ -35,10 +35,10 @@ Trailing Annual Dividend Yield,0.02886598
 
 FINANCIAL RATIO
 Debt to Equity,8.18
-Price to Cash Flow,7.257081526214207e-08
+Price to Cash Flow,7.258150473264761e-08
 Enterprise to EBITDA,7.121
-Price to Book,1.5039432
-Price to Earnings,"PriceToEarnings(trailing_pe=9.67094, forward_pe=16.504862)"
+Price to Book,1.5041647
+Price to Earnings,"PriceToEarnings(trailing_pe=9.672365, forward_pe=16.507294)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.53, forward_eps=6.17)"
 Enterprise to Revenue,1.633
 

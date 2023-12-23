@@ -15,4 +15,4 @@ class FinancialSummary(IterableDataInterface, CastableDataInterface):
     beta: Optional[float]
     price_to_earnings: Optional[PriceToEarnings]
     market_cap: Optional[float]
-    currency: Currency
+    currency: Optional[Currency]

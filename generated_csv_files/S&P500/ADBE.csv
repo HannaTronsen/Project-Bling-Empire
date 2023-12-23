@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,ADBE
 Company,Adobe Inc.
 Country,United States
-Industry,Software - Infrastructure
+Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.adobe.com
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,42.47
 Revenue Growth,0.116
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.82, forward_eps=20.36)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.8, forward_eps=20.36)"
 Net Earnings,5427999744.0
 Earnings Growth,0.278
 
@@ -36,11 +36,11 @@ Trailing Annual Dividend Yield,0.0
 FINANCIAL RATIO
 Debt to Equity,24.7
 Price to Cash Flow,None
-Enterprise to EBITDA,35.827
-Price to Book,16.436382
-Price to Earnings,"PriceToEarnings(trailing_pe=50.481388, forward_pe=29.306974)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.82, forward_eps=20.36)"
-Enterprise to Revenue,13.875
+Enterprise to EBITDA,35.743
+Price to Book,16.493126
+Price to Earnings,"PriceToEarnings(trailing_pe=50.741524, forward_pe=29.408152)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.8, forward_eps=20.36)"
+Enterprise to Revenue,13.843
 
 CASH FLOW
 Free to Cash Flow,None

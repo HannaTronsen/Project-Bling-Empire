@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,AKAM
 Company,"Akamai Technologies, Inc."
 Country,United States
-Industry,Software - Infrastructure
+Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.akamai.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,104.114
-Price to Cash Flow,2.2576184071357773e-07
-Enterprise to EBITDA,19.756
-Price to Book,4.179787
-Price to Earnings,"PriceToEarnings(trailing_pe=36.172207, forward_pe=17.764095)"
+Price to Cash Flow,2.2555442567575517e-07
+Enterprise to EBITDA,19.774
+Price to Book,4.175947
+Price to Earnings,"PriceToEarnings(trailing_pe=36.138973, forward_pe=17.747776)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.74)"
-Enterprise to Revenue,5.764
+Enterprise to Revenue,5.77
 
 CASH FLOW
 Free to Cash Flow,530337632.0

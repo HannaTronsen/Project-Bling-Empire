@@ -6,6 +6,7 @@ from const import (
     BLACKLISTED_STOCK_TICKERS_PATH,
     CONST_COLLECTION, AUTO_GENERATED_FILE_STRING
 )
+from context.ticker_scraper.main.classes.stock_collection import StockCollectionClass
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass
 from context.yquery_ticker.main.const import DATA_NOT_AVAILABLE
 
@@ -49,8 +50,8 @@ def _open_or_create_blacklisted_stock_file(stock_collection: str) -> TextIO:
     return open(full_blacklisted_path, "r+")
 
 
-def validate_and_get_grouped_yahoo_query_ticker_objects() -> Dict[str, List[GlobalStockDataClass]]:
-    yquery_tickers: Dict[str, List[GlobalStockDataClass]] = {}
+def validate_and_get_grouped_yahoo_query_ticker_objects() -> Dict[StockCollectionClass, List[GlobalStockDataClass]]:
+    yquery_tickers: Dict[StockCollectionClass, List[GlobalStockDataClass]] = {}
 
     for stock_collection in CONST_COLLECTION.STCOK_COLLECTION_LIST:
 
@@ -75,6 +76,6 @@ def validate_and_get_grouped_yahoo_query_ticker_objects() -> Dict[str, List[Glob
                     stock_collection_tickers.append(ticker)
             else:
                 print(f"Ticker symbol: {stripped_ticker} found in blacklisted stock file and will be skipped")
-        yquery_tickers[stock_collection.stock_index_name] = stock_collection_tickers
+        yquery_tickers[stock_collection] = stock_collection_tickers
         blacklisted_stocks_file.close()
     return yquery_tickers

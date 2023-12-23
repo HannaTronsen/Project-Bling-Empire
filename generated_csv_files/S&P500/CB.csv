@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,CB
 Company,Chubb Limited
 Country,Switzerland
-Industry,Insurance - Property & Casualty
+Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.chubb.com/us-en
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,116.877
 Revenue Growth,0.153
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.07, forward_eps=21.31)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.09, forward_eps=21.31)"
 Net Earnings,7105999872.0
 Earnings Growth,1.619
 
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.01536224
 
 FINANCIAL RATIO
 Debt to Equity,33.749
-Price to Cash Flow,1.773118712273642e-06
-Enterprise to EBITDA,11.33
-Price to Book,1.716211
-Price to Earnings,"PriceToEarnings(trailing_pe=12.906268, forward_pe=10.338339)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.07, forward_eps=21.31)"
-Enterprise to Revenue,2.202
+Price to Cash Flow,1.77682092555332e-06
+Enterprise to EBITDA,11.363
+Price to Book,1.7197944
+Price to Earnings,"PriceToEarnings(trailing_pe=12.918081, forward_pe=10.359925)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.09, forward_eps=21.31)"
+Enterprise to Revenue,2.208
 
 CASH FLOW
 Free to Cash Flow,124250000.0

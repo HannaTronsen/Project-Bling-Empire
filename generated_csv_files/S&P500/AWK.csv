@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,AWK
 Company,"American Water Works Company, Inc."
 Country,United States
-Industry,Utilities - Regulated Water
+Industry,Utilities—Regulated Water
 Sector,Utilities
 Website,https://www.amwater.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.020722432
 
 FINANCIAL RATIO
 Debt to Equity,123.977
-Price to Cash Flow,-1.038043791963586e-07
-Enterprise to EBITDA,16.913
-Price to Book,2.5993981
-Price to Earnings,"PriceToEarnings(trailing_pe=27.299587, forward_pe=25.656311)"
+Price to Cash Flow,-1.033565740337012e-07
+Enterprise to EBITDA,16.918
+Price to Book,2.5881844
+Price to Earnings,"PriceToEarnings(trailing_pe=27.181816, forward_pe=25.54563)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=5.15)"
-Enterprise to Revenue,8.994
+Enterprise to Revenue,8.997
 
 CASH FLOW
 Free to Cash Flow,-1272875008.0

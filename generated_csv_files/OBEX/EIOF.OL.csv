@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,53.919
-Price to Cash Flow,-1.0235017095644019e-07
-Enterprise to EBITDA,6.494
-Price to Book,0.7024622
-Price to Earnings,"PriceToEarnings(trailing_pe=1.3525896, forward_pe=-2.9650655)"
+Price to Cash Flow,-1.0476195701726941e-07
+Enterprise to EBITDA,6.593
+Price to Book,0.71901506
+Price to Earnings,"PriceToEarnings(trailing_pe=1.3844621, forward_pe=-3.0349345)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.04, forward_eps=-4.58)"
-Enterprise to Revenue,2.286
+Enterprise to Revenue,2.321
 
 CASH FLOW
 Free to Cash Flow,-132681752.0

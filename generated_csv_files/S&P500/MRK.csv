@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,MRK
 Company,"Merck & Co., Inc."
 Country,United States
-Industry,Drug Manufacturers—General
+Industry,Drug Manufacturers - General
 Sector,Healthcare
 Website,https://www.merck.com
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.36486998
 
 DIVIDEND
 Dividend Rate,3.08
-Dividend Yield,0.029000001
+Dividend Yield,0.0286
 Five Year Avg Dividend Yield,2.9
 Trailing Annual Dividend Rate,2.88
 Trailing Annual Dividend Yield,0.027070215
 
 FINANCIAL RATIO
 Debt to Equity,84.424
-Price to Cash Flow,1.9008035035429838e-08
-Enterprise to EBITDA,22.866
-Price to Book,6.63409
-Price to Earnings,"PriceToEarnings(trailing_pe=59.961113, forward_pe=12.697647)"
+Price to Cash Flow,1.89675287067154e-08
+Enterprise to EBITDA,23.122
+Price to Book,6.619952
+Price to Earnings,"PriceToEarnings(trailing_pe=59.833332, forward_pe=12.670588)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.8, forward_eps=8.5)"
-Enterprise to Revenue,4.986
+Enterprise to Revenue,5.042
 
 CASH FLOW
 Free to Cash Flow,5678125056.0

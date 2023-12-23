@@ -8,23 +8,23 @@ Website,https://www.carnivalcorp.com
 Financial_summary,None
 
 REVENUE
-Total Revenue,20035999744.0
-Revenue Per Share,15.889
-Revenue Growth,0.592
+Total Revenue,21592999936.0
+Revenue Per Share,17.11
+Revenue Growth,0.406
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.29, forward_eps=1.3)"
-Net Earnings,-1624000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.06, forward_eps=1.3)"
+Net Earnings,-74000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,32644999168.0
-Debt to Equity,469.037
+Total Debt,31890999296.0
+Debt to Equity,463.397
 
 MARGINS
-Profit Margins,-0.08104999
-Gross Profit Margins,0.47415
-Operating Margins,0.23708999
+Profit Margins,-0.00343
+Gross Profit Margins,0.49562
+Operating Margins,0.07116
 
 DIVIDEND
 Dividend Rate,None
@@ -34,23 +34,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,469.037
-Price to Cash Flow,-3.166492977150334e-08
-Enterprise to EBITDA,22.753
-Price to Book,3.449873
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=14.61154)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.29, forward_eps=1.3)"
-Enterprise to Revenue,3.637
+Debt to Equity,463.397
+Price to Cash Flow,None
+Enterprise to EBITDA,12.358
+Price to Book,3.476584
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=14.56154)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.06, forward_eps=1.3)"
+Enterprise to Revenue,2.473
 
 CASH FLOW
-Free to Cash Flow,-599875008.0
-Operating to Cash Flow,3241999872.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,-0.21174999
-Return on Assets,0.01059
-Return on Invested Capital,-0.04974728261956902
-Return on Investment,-0.053071895424836604
+Return on Equity,-0.01061
+Return on Assets,0.024249999
+Return on Invested Capital,-0.0023204039265287938
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 
 
@@ -59,8 +59,8 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,True
-Free Cash Flow,True
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
@@ -68,4 +68,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,2
+CRITERIA PASS COUNT,0

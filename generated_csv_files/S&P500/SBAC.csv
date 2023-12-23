@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SBAC
 Company,SBA Communications Corporation
 Country,United States
-Industry,REIT - Specialty
+Industry,REIT—Specialty
 Sector,Real Estate
 Website,https://www.sbasite.com
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,25.161
 Revenue Growth,0.01
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=6.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.55, forward_eps=6.0)"
 Net Earnings,495563008.0
 Earnings Growth,-0.121
 
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0129462695
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.025407495219782e-07
-Enterprise to EBITDA,23.564
+Price to Cash Flow,2.0387053385768437e-07
+Enterprise to EBITDA,23.541
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=54.778507, forward_pe=41.631664)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=6.0)"
-Enterprise to Revenue,15.345
+Price to Earnings,"PriceToEarnings(trailing_pe=55.25934, forward_pe=41.905)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.55, forward_eps=6.0)"
+Enterprise to Revenue,15.33
 
 CASH FLOW
 Free to Cash Flow,1233282688.0

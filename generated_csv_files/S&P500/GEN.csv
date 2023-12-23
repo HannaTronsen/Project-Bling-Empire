@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,GEN
 Company,Gen Digital Inc.
 Country,United States
-Industry,Software - Infrastructure
+Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.gendigital.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.02157032
 
 FINANCIAL RATIO
 Debt to Equity,395.94
-Price to Cash Flow,2.512450607920735e-08
-Enterprise to EBITDA,13.031
-Price to Book,6.128518
-Price to Earnings,"PriceToEarnings(trailing_pe=10.349775, forward_pe=10.167401)"
+Price to Cash Flow,2.5189821086345674e-08
+Enterprise to EBITDA,13.017
+Price to Book,6.14445
+Price to Earnings,"PriceToEarnings(trailing_pe=10.376681, forward_pe=10.193832)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.27)"
-Enterprise to Revenue,6.296
+Enterprise to Revenue,6.289
 
 CASH FLOW
 Free to Cash Flow,918625024.0

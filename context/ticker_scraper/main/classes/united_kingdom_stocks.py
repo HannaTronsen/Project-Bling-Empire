@@ -12,6 +12,9 @@ class UnitedKingdomStocksClass(StockCollectionClass):
     def save_stock_tickers_data_frame_to_csv(self, data_frame):
         self._data_frame_to_csv(data_frame=self.modify_tickers(data_frame))
 
+    def get_default_currency(self):
+        return None
+
     def modify_tickers(self, df):
         L = self.stock_ticker_suffixes[0]
         IL = self.stock_ticker_suffixes[1]

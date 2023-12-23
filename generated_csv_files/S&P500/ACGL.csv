@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,ACGL
 Company,Arch Capital Group Ltd.
 Country,Bermuda
-Industry,Insurance - Diversified
+Industry,Insurance—Diversified
 Sector,Financial Services
 Website,https://www.archgroup.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,17.886
-Price to Cash Flow,3.1931130577831065e-08
-Enterprise to EBITDA,8.39
-Price to Book,1.9011455
-Price to Earnings,"PriceToEarnings(trailing_pe=9.529032, forward_pe=9.431673)"
+Price to Cash Flow,3.1926806795762304e-08
+Enterprise to EBITDA,8.355
+Price to Book,1.900888
+Price to Earnings,"PriceToEarnings(trailing_pe=9.527741, forward_pe=9.430395)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.83)"
-Enterprise to Revenue,2.24
+Enterprise to Revenue,2.231
 
 CASH FLOW
 Free to Cash Flow,2312790016.0

@@ -1,3 +1,4 @@
+from context.yquery_ticker.main.enums.currency import Currency
 from .stock_collection import StockCollectionClass
 
 
@@ -16,3 +17,6 @@ class NorwegianStocksClass(StockCollectionClass):
     def modify_tickers(self, data_frame):
         OL = self.stock_ticker_suffixes[0]
         return data_frame[self.column].str.replace('OSE: ', '') + OL
+
+    def get_default_currency(self):
+        return Currency.NOK.value

@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,CDAY
 Company,Ceridian HCM Holding Inc.
 Country,United States
-Industry,Software - Application
+Industry,Software—Application
 Sector,Technology
 Website,https://www.ceridian.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,54.952
-Price to Cash Flow,4.400590551181102e-07
-Enterprise to EBITDA,53.352
-Price to Book,4.6146703
-Price to Earnings,"PriceToEarnings(trailing_pe=2235.5002, forward_pe=39.683434)"
+Price to Cash Flow,4.393700787401574e-07
+Enterprise to EBITDA,53.107
+Price to Book,4.6074452
+Price to Earnings,"PriceToEarnings(trailing_pe=2232.0, forward_pe=39.6213)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.03, forward_eps=1.69)"
-Enterprise to Revenue,7.752
+Enterprise to Revenue,7.716
 
 CASH FLOW
 Free to Cash Flow,152400000.0

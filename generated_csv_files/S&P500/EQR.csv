@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,EQR
 Company,Equity Residential
 Country,United States
-Industry,REIT - Residential
+Industry,REIT—Residential
 Sector,Real Estate
 Website,https://www.equityapartments.com
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.31091
 
 DIVIDEND
 Dividend Rate,2.65
-Dividend Yield,0.0436
+Dividend Yield,0.0433
 Five Year Avg Dividend Yield,3.45
 Trailing Annual Dividend Rate,2.613
 Trailing Annual Dividend Yield,0.04296284
 
 FINANCIAL RATIO
 Debt to Equity,67.501
-Price to Cash Flow,4.7130804994056927e-08
-Enterprise to EBITDA,17.826
-Price to Book,2.108807
-Price to Earnings,"PriceToEarnings(trailing_pe=35.18678, forward_pe=39.246796)"
+Price to Cash Flow,4.7065372271729524e-08
+Enterprise to EBITDA,17.895
+Price to Book,2.1058795
+Price to Earnings,"PriceToEarnings(trailing_pe=35.13793, forward_pe=39.19231)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.74, forward_eps=1.56)"
-Enterprise to Revenue,11.021
+Enterprise to Revenue,11.063
 
 CASH FLOW
 Free to Cash Flow,1299044224.0

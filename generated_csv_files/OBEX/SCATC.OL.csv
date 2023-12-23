@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SCATC.OL
 Company,Scatec ASA
 Country,Norway
-Industry,Utilities - Renewable
+Industry,Utilities—Renewable
 Sector,Utilities
 Website,https://scatec.com
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.42289
 
 DIVIDEND
 Dividend Rate,1.94
-Dividend Yield,0.025
+Dividend Yield,0.024500001
 Five Year Avg Dividend Yield,1.22
 Trailing Annual Dividend Rate,1.94
-Trailing Annual Dividend Yield,0.025016118
+Trailing Annual Dividend Yield,0.02411436
 
 FINANCIAL RATIO
 Debt to Equity,258.007
-Price to Cash Flow,-1.4132630733815404e-08
-Enterprise to EBITDA,17.037
-Price to Book,1.4626474
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=34.82684)"
+Price to Cash Flow,-1.3913043556472094e-08
+Enterprise to EBITDA,17.163
+Price to Book,1.4399215
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=34.285713)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.11, forward_eps=2.31)"
-Enterprise to Revenue,10.877
+Enterprise to Revenue,10.957
 
 CASH FLOW
 Free to Cash Flow,-5692499968.0

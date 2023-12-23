@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,LLY
 Company,Eli Lilly and Company
 Country,United States
-Industry,Drug Manufacturers - General
+Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.lilly.com
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,35.615
 Revenue Growth,0.368
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.55, forward_eps=12.38)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=12.38)"
 Net Earnings,4988400128.0
 Earnings Growth,None
 
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.00763986
 
 FINANCIAL RATIO
 Debt to Equity,179.808
-Price to Cash Flow,1.4571175453149145e-07
-Enterprise to EBITDA,47.029
-Price to Book,45.600178
-Price to Earnings,"PriceToEarnings(trailing_pe=102.51413, forward_pe=45.957466)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.55, forward_eps=12.38)"
-Enterprise to Revenue,16.594
+Price to Cash Flow,1.46079674833154e-07
+Enterprise to EBITDA,46.901
+Price to Book,45.715317
+Price to Earnings,"PriceToEarnings(trailing_pe=103.14466, forward_pe=46.073505)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=12.38)"
+Enterprise to Revenue,16.548
 
 CASH FLOW
 Free to Cash Flow,3904649984.0

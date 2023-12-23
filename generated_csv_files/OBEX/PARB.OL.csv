@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,PARB.OL
 Company,Pareto Bank ASA
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.paretobank.no
 Financial_summary,None
@@ -28,7 +28,7 @@ Operating Margins,0.80157
 
 DIVIDEND
 Dividend Rate,3.86
-Dividend Yield,0.0726
+Dividend Yield,0.0735
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
@@ -37,8 +37,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.88308436
-Price to Earnings,"PriceToEarnings(trailing_pe=6.735484, forward_pe=6.525)"
+Price to Book,0.8881596
+Price to Earnings,"PriceToEarnings(trailing_pe=6.774194, forward_pe=6.5625)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=8.0)"
 Enterprise to Revenue,None
 

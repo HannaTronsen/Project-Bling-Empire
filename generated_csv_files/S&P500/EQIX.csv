@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,EQIX
 Company,"Equinix, Inc."
 Country,United States
-Industry,REIT - Specialty
+Industry,REIT—Specialty
 Sector,Real Estate
 Website,https://www.equinix.com
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,80.371
 Revenue Growth,0.165
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.3, forward_eps=10.89)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.28, forward_eps=10.89)"
 Net Earnings,870372992.0
 Earnings Growth,0.274
 
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.016629241
 
 FINANCIAL RATIO
 Debt to Equity,145.92
-Price to Cash Flow,2.8820115369907556e-07
-Enterprise to EBITDA,32.607
-Price to Book,6.3314986
-Price to Earnings,"PriceToEarnings(trailing_pe=86.19893, forward_pe=73.6134)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.3, forward_eps=10.89)"
-Enterprise to Revenue,12.057
+Price to Cash Flow,2.874929190919687e-07
+Enterprise to EBITDA,32.542
+Price to Book,6.315939
+Price to Earnings,"PriceToEarnings(trailing_pe=86.17242, forward_pe=73.4325)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.28, forward_eps=10.89)"
+Enterprise to Revenue,12.033
 
 CASH FLOW
 Free to Cash Flow,2781564160.0

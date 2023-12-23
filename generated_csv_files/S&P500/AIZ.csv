@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,AIZ
 Company,"Assurant, Inc."
 Country,United States
-Industry,Insurance - Specialty
+Industry,Insurance—Specialty
 Sector,Financial Services
 Website,https://www.assurant.com
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,201.725
 Revenue Growth,0.089
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.83, forward_eps=15.22)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.82, forward_eps=15.22)"
 Net Earnings,528100000.0
 Earnings Growth,25.049
 
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.016951205
 
 FINANCIAL RATIO
 Debt to Equity,46.319
-Price to Cash Flow,2.328408498965133e-07
-Enterprise to EBITDA,8.793
-Price to Book,1.9502871
-Price to Earnings,"PriceToEarnings(trailing_pe=16.893694, forward_pe=10.910973)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.83, forward_eps=15.22)"
-Enterprise to Revenue,0.838
+Price to Cash Flow,2.3266558655844047e-07
+Enterprise to EBITDA,8.832
+Price to Book,1.9488192
+Price to Earnings,"PriceToEarnings(trailing_pe=16.898169, forward_pe=10.90276)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.82, forward_eps=15.22)"
+Enterprise to Revenue,0.842
 
 CASH FLOW
 Free to Cash Flow,713212480.0

@@ -8,23 +8,23 @@ Website,https://www.carmax.com
 Financial_summary,None
 
 REVENUE
-Total Revenue,28544348160.0
-Revenue Per Share,180.465
-Revenue Growth,-0.119
+Total Revenue,28248430592.0
+Revenue Per Share,178.474
+Revenue Growth,-0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.86, forward_eps=3.56)"
-Net Earnings,453524992.0
-Earnings Growth,-0.052
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=3.56)"
+Net Earnings,497948000.0
+Earnings Growth,1.176
 
 DEBT
-Total Debt,19696463872.0
-Debt to Equity,327.965
+Total Debt,19488530432.0
+Debt to Equity,322.425
 
 MARGINS
-Profit Margins,0.01589
-Gross Profit Margins,0.11387
-Operating Margins,0.025
+Profit Margins,0.01763
+Gross Profit Margins,0.116210006
+Operating Margins,0.021429999
 
 DIVIDEND
 Dividend Rate,None
@@ -34,23 +34,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,327.965
-Price to Cash Flow,5.994905377689527e-08
-Enterprise to EBITDA,32.697
-Price to Book,2.0355058
-Price to Earnings,"PriceToEarnings(trailing_pe=26.940561, forward_pe=21.64326)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.86, forward_eps=3.56)"
-Enterprise to Revenue,1.087
+Debt to Equity,322.425
+Price to Cash Flow,8.232538175437152e-07
+Enterprise to EBITDA,30.614
+Price to Book,2.0005229
+Price to Earnings,"PriceToEarnings(trailing_pe=24.447283, forward_pe=21.49438)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=3.56)"
+Enterprise to Revenue,1.097
 
 CASH FLOW
-Free to Cash Flow,1285257984.0
-Operating to Cash Flow,742622976.0
+Free to Cash Flow,92948248.0
+Operating to Cash Flow,-229766000.0
 
 PROFITABILITY
-Return on Equity,0.07943
-Return on Assets,0.016449999
-Return on Invested Capital,0.023025706242282794
-Return on Investment,0.0051681168351672396
+Return on Equity,0.08636
+Return on Assets,0.018099999
+Return on Invested Capital,0.02555082338096949
+Return on Investment,0.004632410537694828
 
 
 

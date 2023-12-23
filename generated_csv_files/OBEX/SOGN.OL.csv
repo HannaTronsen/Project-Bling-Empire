@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SOGN.OL
 Company,Sogn Sparebank
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://sognbank.no
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,409.737
 Revenue Growth,0.316
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=41.97, forward_eps=18.72)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=41.96, forward_eps=18.72)"
 Net Earnings,9448000.0
 Earnings Growth,0.291
 
@@ -28,7 +28,7 @@ Operating Margins,0.47421002
 
 DIVIDEND
 Dividend Rate,10.0
-Dividend Yield,0.0637
+Dividend Yield,0.0641
 Five Year Avg Dividend Yield,5.03
 Trailing Annual Dividend Rate,10.0
 Trailing Annual Dividend Yield,0.06369427
@@ -37,10 +37,10 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.090137266
-Price to Earnings,"PriceToEarnings(trailing_pe=3.740767, forward_pe=8.386752)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=41.97, forward_eps=18.72)"
-Enterprise to Revenue,-1.054
+Price to Book,0.08956314
+Price to Earnings,"PriceToEarnings(trailing_pe=3.7178266, forward_pe=8.333334)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=41.96, forward_eps=18.72)"
+Enterprise to Revenue,-1.057
 
 CASH FLOW
 Free to Cash Flow,None

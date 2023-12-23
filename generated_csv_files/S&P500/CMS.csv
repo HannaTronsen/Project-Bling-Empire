@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,CMS
 Company,CMS Energy Corporation
 Country,United States
-Industry,Utilities - Regulated Electric
+Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.cmsenergy.com
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.18888001
 
 DIVIDEND
 Dividend Rate,1.95
-Dividend Yield,0.0343
+Dividend Yield,0.0341
 Five Year Avg Dividend Yield,2.78
 Trailing Annual Dividend Rate,1.923
 Trailing Annual Dividend Yield,0.033790193
 
 FINANCIAL RATIO
 Debt to Equity,199.368
-Price to Cash Flow,-5.0990133029172365e-08
-Enterprise to EBITDA,14.093
-Price to Book,2.4093635
-Price to Earnings,"PriceToEarnings(trailing_pe=22.631891, forward_pe=17.211079)"
+Price to Cash Flow,-5.076394386813141e-08
+Enterprise to EBITDA,14.133
+Price to Book,2.3986757
+Price to Earnings,"PriceToEarnings(trailing_pe=22.531496, forward_pe=17.134731)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.54, forward_eps=3.34)"
-Enterprise to Revenue,4.199
+Enterprise to Revenue,4.211
 
 CASH FLOW
 Free to Cash Flow,-1127374976.0

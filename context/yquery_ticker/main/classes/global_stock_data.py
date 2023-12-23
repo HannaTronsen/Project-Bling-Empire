@@ -11,6 +11,7 @@ from ..data_classes.date import Frequency
 from ..data_classes.financial_data import FinancialData, PriceToEarnings, EarningsPerShare
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
+from ..enums.currency import Currency
 from ..enums.growth_criteria import GrowthCriteria
 from ..utils.csv_converter import CsvConverter
 from ..utils.dict_key_enum import DictKey
@@ -67,7 +68,7 @@ class GlobalStockDataClass(CsvConverter):
                     forward_pe=summary_detail.get("forwardPE")
                 ),
                 market_cap=summary_detail.get("marketCap"),
-                currency=summary_detail.get("currency"),
+                currency=Currency.from_str(summary_detail.get("currency")),
             )
         ).normalize_values()
 

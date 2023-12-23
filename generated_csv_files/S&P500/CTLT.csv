@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,CTLT
 Company,"Catalent, Inc."
 Country,United States
-Industry,Drug Manufacturers - Specialty & Generic
+Industry,Drug Manufacturers—Specialty & Generic
 Sector,Healthcare
 Website,https://www.catalent.com
 Financial_summary,None
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,129.055
-Price to Cash Flow,-6.350990990990991e-07
-Enterprise to EBITDA,22.968
-Price to Book,2.0707808
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=27.19753)"
+Price to Cash Flow,-6.353873873873873e-07
+Enterprise to EBITDA,23.027
+Price to Book,2.0717206
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=27.209877)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-5.61, forward_eps=1.62)"
-Enterprise to Revenue,3.002
+Enterprise to Revenue,3.01
 
 CASH FLOW
 Free to Cash Flow,-69375000.0

@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,CNP
 Company,"CenterPoint Energy, Inc."
 Country,United States
-Industry,Utilities - Regulated Electric
+Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.centerpointenergy.com
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.27527002
 
 DIVIDEND
 Dividend Rate,0.8
-Dividend Yield,0.028299998
+Dividend Yield,0.028199999
 Five Year Avg Dividend Yield,3.3
 Trailing Annual Dividend Rate,0.75
 Trailing Annual Dividend Yield,0.026501767
 
 FINANCIAL RATIO
 Debt to Equity,190.788
-Price to Cash Flow,-2.0848773083107363e-08
-Enterprise to EBITDA,12.093
-Price to Book,1.8804741
-Price to Earnings,"PriceToEarnings(trailing_pe=22.662699, forward_pe=17.626543)"
+Price to Cash Flow,-2.0721000878955942e-08
+Enterprise to EBITDA,12.111
+Price to Book,1.8689495
+Price to Earnings,"PriceToEarnings(trailing_pe=22.52381, forward_pe=17.518518)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.26, forward_eps=1.62)"
-Enterprise to Revenue,3.841
+Enterprise to Revenue,3.847
 
 CASH FLOW
 Free to Cash Flow,-1369624960.0

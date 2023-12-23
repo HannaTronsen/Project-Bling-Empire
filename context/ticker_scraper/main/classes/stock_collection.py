@@ -46,5 +46,9 @@ class StockCollectionClass(ABC):
         tables = pd.read_html(self.source)
         return tables[self.table_index]
 
+    @abstractmethod
+    def get_default_currency(self):
+        pass
+
     def __str__(self):
         return self.stock_index_name

@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,FRT
 Company,Federal Realty Investment Trust
 Country,United States
-Industry,REIT - Retail
+Industry,REIT—Retail
 Sector,Real Estate
 Website,https://www.federalrealty.com
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.35217
 
 DIVIDEND
 Dividend Rate,4.36
-Dividend Yield,0.0417
+Dividend Yield,0.0419
 Five Year Avg Dividend Yield,4.03
 Trailing Annual Dividend Rate,4.33
 Trailing Annual Dividend Yield,0.041455243
 
 FINANCIAL RATIO
 Debt to Equity,146.442
-Price to Cash Flow,1.8386862366730645e-07
-Enterprise to EBITDA,19.22
-Price to Book,3.1383424
-Price to Earnings,"PriceToEarnings(trailing_pe=30.427324, forward_pe=37.923912)"
+Price to Cash Flow,1.8270923423747535e-07
+Enterprise to EBITDA,19.168
+Price to Book,3.1185536
+Price to Earnings,"PriceToEarnings(trailing_pe=30.235466, forward_pe=37.684784)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=2.76)"
-Enterprise to Revenue,11.947
+Enterprise to Revenue,11.915
 
 CASH FLOW
 Free to Cash Flow,569265152.0

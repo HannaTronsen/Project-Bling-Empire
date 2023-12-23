@@ -5,8 +5,8 @@ from datetime import datetime
 from enum import Enum
 from typing import Dict, List
 from const import GENERATED_CSV_FILES_PATH
+from context.ticker_scraper.main.classes.stock_collection import StockCollectionClass
 from context.yquery_ticker.main.classes.global_stock_data import GlobalStockDataClass
-from context.yquery_ticker.main.enums.currency import Currency
 
 GENERATE_INDIVIDUAL_TICKER_CSV = True
 
@@ -23,7 +23,7 @@ class Headers(Enum):
 
 
 class ComparableCSV:
-    def __init__(self, stock_collection: Dict[str, List[GlobalStockDataClass]]):
+    def __init__(self, stock_collection: Dict[StockCollectionClass, List[GlobalStockDataClass]]):
         self.stock_collection = stock_collection
 
     def create(self):
@@ -37,7 +37,7 @@ class ComparableCSV:
 
             print("generating comparable csv for tickers")
             time_stamp = datetime.now().strftime("%Y-%m-%d")
-            pathPrefix = f'{GENERATED_CSV_FILES_PATH}{collection}/comparison/{time_stamp}/'
+            pathPrefix = f'{GENERATED_CSV_FILES_PATH}{collection.stock_index_name}/comparison/{time_stamp}/'
             if not os.path.exists(pathPrefix):
                 os.makedirs(pathPrefix)
             with open(
@@ -50,13 +50,14 @@ class ComparableCSV:
                 for ticker in sorted_collection:
                     if GENERATE_INDIVIDUAL_TICKER_CSV:
                         with ThreadPoolExecutor() as executor:
-                            executor.submit(ticker.to_csv(stock_collection=collection))
+                            executor.submit(ticker.to_csv(stock_collection=collection.stock_index_name))
                     ticker_symbol = ticker.general_stock_info.ticker
                     company_name = ticker.general_stock_info.company
                     website = ticker.general_stock_info.website
                     industry = ticker.general_stock_info.industry
                     sector = ticker.general_stock_info.sector
                     price = ticker.financial_data.price
+                    currency = ticker.general_stock_info.financial_summary.currency
                     criteria_pass_count = ticker.criteria_pass_count
 
                     writer.writerow([
@@ -66,7 +67,7 @@ class ComparableCSV:
                         industry,
                         sector,
                         price,
-                        Currency.NOK.value,
+                        currency.value if currency is not None else collection.get_default_currency(),
                         criteria_pass_count,
                     ])
             file.close()
