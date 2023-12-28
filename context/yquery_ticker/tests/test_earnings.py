@@ -81,7 +81,7 @@ class test_earnings(unittest.TestCase):
                 estimate=-2.0
             )
         ]
-        self.yearly_financials_data__dip_in_up_trend_list = [
+        self.yearly_financials_data_dip_in_up_trend_list = [
             YearlyFinancialsDataChart(
                 date=Date(year=2019),
                 revenue=260174000000,
@@ -217,7 +217,7 @@ class test_earnings(unittest.TestCase):
             (self.quarterly_earnings_data_up_trending_list, 'actual', True),
             (self.quarterly_earnings_data_dip_in_up_trend_list, 'actual', False),
             (self.quarterly_earnings_data_dip_in_up_trend_list, 'estimate', False),
-            (self.yearly_financials_data__dip_in_up_trend_list, 'revenue', False),
+            (self.yearly_financials_data_dip_in_up_trend_list, 'revenue', False),
         ]
 
         for model_list, attribute, expected_result in test_cases:

@@ -23,10 +23,6 @@ class TimeSeriesDataCollection(ABC):
         return earlier > later
 
     @classmethod
-    def _is_down_trending(cls, earlier, later):
-        return cls._not_up_trending(earlier, later)
-
-    @classmethod
     def passes_percentage_increase_requirements(cls, percentages, percentage_requirement) -> bool:
         return all(percent >= percentage_requirement for percent in percentages)
 
@@ -62,7 +58,7 @@ class TimeSeriesDataCollection(ABC):
         for index in range(len(reversed_series) - 1):
             earlier, later = reversed_series[index], reversed_series[index + 1]
 
-            if cls._is_down_trending(earlier, later):
+            if cls._not_up_trending(earlier, later):
                 interval += 1
             else:
                 return interval
@@ -78,7 +74,7 @@ class TimeSeriesDataCollection(ABC):
         for index in range(len(reversed_model_list) - 1):
             earlier, later = cls._get_attribute_values(index, reversed_model_list, attribute)
 
-            if cls._is_down_trending(earlier, later):
+            if cls._not_up_trending(earlier, later):
                 interval += 1
             else:
                 return interval
