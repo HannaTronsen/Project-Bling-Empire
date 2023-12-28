@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,VVL.OL
 Company,Voss Veksel- og Landmandsbank ASA
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://vekselbanken.no
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,67.743
 Revenue Growth,0.433
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.39, forward_eps=32.3)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.41, forward_eps=32.3)"
 Net Earnings,68401000.0
 Earnings Growth,0.322
 
@@ -31,16 +31,16 @@ Dividend Rate,None
 Dividend Yield,None
 Five Year Avg Dividend Yield,4.32
 Trailing Annual Dividend Rate,10.5
-Trailing Annual Dividend Yield,0.04375
+Trailing Annual Dividend Yield,0.04338843
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.8245184
-Price to Earnings,"PriceToEarnings(trailing_pe=8.453681, forward_pe=7.430341)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.39, forward_eps=32.3)"
-Enterprise to Revenue,5.537
+Price to Book,0.83138937
+Price to Earnings,"PriceToEarnings(trailing_pe=8.518127, forward_pe=7.4922605)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.41, forward_eps=32.3)"
+Enterprise to Revenue,5.564
 
 CASH FLOW
 Free to Cash Flow,None

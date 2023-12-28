@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,ANSS
 Company,"ANSYS, Inc."
 Country,United States
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.ansys.com
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,24.854
 Revenue Growth,-0.029
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.55)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=9.55)"
 Net Earnings,483596992.0
 Earnings Growth,-0.419
 
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,17.507
-Price to Cash Flow,6.310360026787319e-07
-Enterprise to EBITDA,45.354
-Price to Book,6.2087865
-Price to Earnings,"PriceToEarnings(trailing_pe=64.96915, forward_pe=37.484818)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.55)"
-Enterprise to Revenue,14.514
+Price to Cash Flow,6.326577500458038e-07
+Enterprise to EBITDA,45.47
+Price to Book,6.2247424
+Price to Earnings,"PriceToEarnings(trailing_pe=64.900536, forward_pe=37.58115)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=9.55)"
+Enterprise to Revenue,14.551
 
 CASH FLOW
 Free to Cash Flow,567289344.0

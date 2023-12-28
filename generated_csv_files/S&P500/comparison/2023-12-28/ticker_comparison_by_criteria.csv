@@ -1,0 +1,500 @@
+TICKER,COMPANY,WEBSITE,INDUSTRY,SECTOR,PRICE,CURRENCY,CRITERIA PASSED
+VICI,VICI Properties Inc.,https://www.viciproperties.com,REIT—Diversified,Real Estate,31.82,USD,4
+ARE,"Alexandria Real Estate Equities, Inc.",https://www.are.com,REIT - Office,Real Estate,129.27,USD,3
+CRM,"Salesforce, Inc.",https://www.salesforce.com,Software—Application,Technology,266.72,USD,3
+TSLA,"Tesla, Inc.",https://www.tesla.com,Auto Manufacturers,Consumer Cyclical,261.44,USD,3
+AMAT,"Applied Materials, Inc.",https://www.appliedmaterials.com,Semiconductor Equipment & Materials,Technology,164.21,USD,2
+ACGL,Arch Capital Group Ltd.,https://www.archgroup.com,Insurance - Diversified,Financial Services,73.54,USD,2
+BRO,"Brown & Brown, Inc.",https://www.bbinsurance.com,Insurance Brokers,Financial Services,70.6,USD,2
+BLDR,"Builders FirstSource, Inc.",https://www.bldr.com,Building Products & Equipment,Industrials,170.56,USD,2
+CDNS,"Cadence Design Systems, Inc.",https://www.cadence.com,Software—Application,Technology,274.64,USD,2
+CPRT,"Copart, Inc.",https://www.copart.com,Specialty Business Services,Industrials,48.88,USD,2
+DXCM,"DexCom, Inc.",https://www.dexcom.com,Medical Devices,Healthcare,123.73,USD,2
+DHI,"D.R. Horton, Inc.",https://www.drhorton.com,Residential Construction,Consumer Cyclical,151.75,USD,2
+ENPH,"Enphase Energy, Inc.",https://www.enphase.com,Solar,Technology,135.63,USD,2
+FTNT,"Fortinet, Inc.",https://www.fortinet.com,Software—Infrastructure,Technology,59.34,USD,2
+HSY,The Hershey Company,https://www.thehersheycompany.com,Confectioners,Consumer Defensive,183.92,USD,2
+INVH,Invitation Homes Inc.,https://www.invitationhomes.com,REIT—Residential,Real Estate,34.41,USD,2
+MPWR,"Monolithic Power Systems, Inc.",https://www.monolithicpower.com,Semiconductors,Technology,636.56,USD,2
+ON,ON Semiconductor Corporation,https://www.onsemi.com,Semiconductors,Technology,85.05,USD,2
+POOL,Pool Corporation,https://www.poolcorp.com,Industrial Distribution,Industrials,403.74,USD,2
+NOW,"ServiceNow, Inc.",https://www.servicenow.com,Software—Application,Technology,703.76,USD,2
+UBER,"Uber Technologies, Inc.",https://www.uber.com,Software—Application,Technology,63.28,USD,2
+WAB,Westinghouse Air Brake Technologies Corporation,https://www.wabteccorp.com,Railroads,Industrials,127.14,USD,2
+ADBE,Adobe Inc.,https://www.adobe.com,Software - Infrastructure,Technology,596.08,USD,1
+AMD,"Advanced Micro Devices, Inc.",https://www.amd.com,Semiconductors,Technology,146.07,USD,1
+ADM,Archer-Daniels-Midland Company,https://www.adm.com,Farm Products,Consumer Defensive,72.17,USD,1
+AJG,Arthur J. Gallagher & Co.,https://www.ajg.com,Insurance Brokers,Financial Services,223.01,USD,1
+ATO,Atmos Energy Corporation,https://www.atmosenergy.com,Utilities - Regulated Gas,Utilities,115.92,USD,1
+ADSK,"Autodesk, Inc.",https://www.autodesk.com,Software - Application,Technology,245.11,USD,1
+AXON,"Axon Enterprise, Inc.",https://www.axon.com,Aerospace & Defense,Industrials,259.08,USD,1
+CZR,"Caesars Entertainment, Inc.",https://www.caesars.com,Resorts & Casinos,Consumer Cyclical,47.16,USD,1
+CNC,Centene Corporation,https://www.centene.com,Healthcare Plans,Healthcare,73.43,USD,1
+CRL,"Charles River Laboratories International, Inc.",https://www.criver.com,Diagnostics & Research,Healthcare,238.84,USD,1
+CSGP,"CoStar Group, Inc.",https://www.costargroup.com,Real Estate Services,Real Estate,87.58,USD,1
+DHR,Danaher Corporation,https://www.danaher.com,Diagnostics & Research,Healthcare,232.86,USD,1
+ELV,"Elevance Health, Inc.",https://www.elevancehealth.com,Healthcare Plans,Healthcare,465.81,USD,1
+EPAM,"EPAM Systems, Inc.",https://www.epam.com,Information Technology Services,Technology,300.51,USD,1
+ETSY,"Etsy, Inc.",https://www.etsy.com,Internet Retail,Consumer Cyclical,82.39,USD,1
+GNRC,Generac Holdings Inc.,https://www.generac.com,Specialty Industrial Machinery,Industrials,130.29,USD,1
+INCY,Incyte Corporation,https://www.incyte.com,Biotechnology,Healthcare,62.68,USD,1
+IR,Ingersoll Rand Inc.,https://www.irco.com,Specialty Industrial Machinery,Industrials,77.85,USD,1
+PODD,Insulet Corporation,https://www.insulet.com,Medical Devices,Healthcare,221.42,USD,1
+INTU,Intuit Inc.,https://www.intuit.com,Software—Application,Technology,629.12,USD,1
+IQV,IQVIA Holdings Inc.,https://www.iqvia.com,Diagnostics & Research,Healthcare,231.92,USD,1
+IRM,Iron Mountain Incorporated,https://www.ironmountain.com,REIT—Specialty,Real Estate,70.24,USD,1
+L,Loews Corporation,https://www.loews.com,Insurance—Property & Casualty,Financial Services,69.18,USD,1
+LULU,Lululemon Athletica Inc.,https://shop.lululemon.com,Apparel Retail,Consumer Cyclical,508.81,USD,1
+MOH,"Molina Healthcare, Inc.",https://www.molinahealthcare.com,Healthcare Plans,Healthcare,356.83,USD,1
+MOS,The Mosaic Company,https://www.mosaicco.com,Agricultural Inputs,Basic Materials,36.55,USD,1
+PAYC,"Paycom Software, Inc.",https://www.paycom.com,Software—Application,Technology,205.69,USD,1
+PCG,PG&E Corporation,https://www.pgecorp.com,Utilities—Regulated Electric,Utilities,17.93,USD,1
+PHM,"PulteGroup, Inc.",https://www.pultegroup.com,Residential Construction,Consumer Cyclical,103.93,USD,1
+QCOM,QUALCOMM Incorporated,https://www.qualcomm.com,Semiconductors,Technology,145.72,USD,1
+O,Realty Income Corporation,https://www.realtyincome.com,REIT—Retail,Real Estate,58.0,USD,1
+SPGI,S&P Global Inc.,https://www.spglobal.com,Financial Data & Stock Exchanges,Financial Services,440.0,USD,1
+SNPS,"Synopsys, Inc.",https://www.synopsys.com,Software—Infrastructure,Technology,518.1,USD,1
+SYY,Sysco Corporation,https://www.sysco.com,Food Distribution,Consumer Defensive,73.03,USD,1
+TXN,Texas Instruments Incorporated,https://www.ti.com,Semiconductors,Technology,171.23,USD,1
+TMO,Thermo Fisher Scientific Inc.,https://www.thermofisher.com,Diagnostics & Research,Healthcare,531.65,USD,1
+TSCO,Tractor Supply Company,https://www.tractorsupply.com,Specialty Retail,Consumer Cyclical,212.64,USD,1
+UNH,UnitedHealth Group Incorporated,https://www.unitedhealthgroup.com,Healthcare Plans,Healthcare,522.79,USD,1
+VRTX,Vertex Pharmaceuticals Incorporated,https://www.vrtx.com,Biotechnology,Healthcare,408.05,USD,1
+MMM,3M Company,https://www.3m.com,Conglomerates,Industrials,108.74,USD,0
+AOS,A. O. Smith Corporation,https://www.aosmith.com,Specialty Industrial Machinery,Industrials,82.16,USD,0
+ABT,Abbott Laboratories,https://www.abbott.com,Medical Devices,Healthcare,109.79,USD,0
+ABBV,AbbVie Inc.,https://www.abbvie.com,Drug Manufacturers - General,Healthcare,154.88,USD,0
+ACN,Accenture plc,https://www.accenture.com,Information Technology Services,Technology,353.82,USD,0
+AES,The AES Corporation,https://www.aes.com,Utilities - Diversified,Utilities,19.28,USD,0
+AFL,Aflac Incorporated,https://www.aflac.com,Insurance - Life,Financial Services,81.91,USD,0
+A,"Agilent Technologies, Inc.",https://www.agilent.com,Diagnostics & Research,Healthcare,139.82,USD,0
+APD,"Air Products and Chemicals, Inc.",https://www.airproducts.com,Specialty Chemicals,Basic Materials,275.69,USD,0
+ABNB,"Airbnb, Inc.",https://www.airbnb.com,Travel Services,Consumer Cyclical,136.55,USD,0
+AKAM,"Akamai Technologies, Inc.",https://www.akamai.com,Software - Infrastructure,Technology,119.0,USD,0
+ALB,Albemarle Corporation,https://www.albemarle.com,Specialty Chemicals,Basic Materials,149.32,USD,0
+ALGN,"Align Technology, Inc.",https://www.aligntech.com,Medical Devices,Healthcare,275.28,USD,0
+ALLE,Allegion plc,https://www.allegion.com,Security & Protection Services,Industrials,127.59,USD,0
+LNT,Alliant Energy Corporation,https://www.alliantenergy.com,Utilities - Regulated Electric,Utilities,50.84,USD,0
+ALL,The Allstate Corporation,https://www.allstate.com,Insurance - Property & Casualty,Financial Services,138.39,USD,0
+GOOGL,Alphabet Inc.,https://www.abc.xyz,Internet Content & Information,Communication Services,140.37,USD,0
+GOOG,Alphabet Inc.,https://www.abc.xyz,Internet Content & Information,Communication Services,141.44,USD,0
+MO,"Altria Group, Inc.",https://www.altria.com,Tobacco,Consumer Defensive,40.18,USD,0
+AMZN,"Amazon.com, Inc.",https://www.aboutamazon.com,Internet Retail,Consumer Cyclical,153.34,USD,0
+AMCR,Amcor plc,https://www.amcor.com,Packaging & Containers,Consumer Cyclical,9.72,USD,0
+AEE,Ameren Corporation,https://www.ameren.com,Utilities - Regulated Electric,Utilities,71.7,USD,0
+AAL,American Airlines Group Inc.,https://www.aa.com,Airlines,Industrials,13.99,USD,0
+AEP,"American Electric Power Company, Inc.",https://www.aep.com,Utilities - Regulated Electric,Utilities,80.81,USD,0
+AXP,American Express Company,https://www.americanexpress.com,Credit Services,Financial Services,187.06,USD,0
+AIG,"American International Group, Inc.",https://www.aig.com,Insurance - Diversified,Financial Services,67.15,USD,0
+AMT,American Tower Corporation,https://www.americantower.com,REIT - Specialty,Real Estate,216.72,USD,0
+AWK,"American Water Works Company, Inc.",https://www.amwater.com,Utilities - Regulated Water,Utilities,132.23,USD,0
+AMP,"Ameriprise Financial, Inc.",https://www.ameriprise.com,Asset Management,Financial Services,380.03,USD,0
+AME,"AMETEK, Inc.",https://www.ametek.com,Specialty Industrial Machinery,Industrials,164.54,USD,0
+AMGN,Amgen Inc.,https://www.amgen.com,Drug Manufacturers - General,Healthcare,286.53,USD,0
+APH,Amphenol Corporation,https://www.amphenol.com,Electronic Components,Technology,99.47,USD,0
+ADI,"Analog Devices, Inc.",https://www.analog.com,Semiconductors,Technology,199.35,USD,0
+ANSS,"ANSYS, Inc.",https://www.ansys.com,Software - Application,Technology,358.9,USD,0
+AON,Aon plc,https://www.aon.com,Insurance Brokers,Financial Services,289.87,USD,0
+APA,APA Corporation,https://www.apachecorp.com,Oil & Gas E&P,Energy,37.17,USD,0
+AAPL,Apple Inc.,https://www.apple.com,Consumer Electronics,Technology,193.15,USD,0
+APTV,Aptiv PLC,https://www.aptiv.com,Auto Parts,Consumer Cyclical,89.63,USD,0
+ANET,"Arista Networks, Inc.",https://www.arista.com,Computer Hardware,Technology,237.73,USD,0
+AIZ,"Assurant, Inc.",https://www.assurant.com,Insurance - Specialty,Financial Services,166.37,USD,0
+T,AT&T Inc.,https://www.att.com,Telecom Services,Communication Services,16.58,USD,0
+ADP,"Automatic Data Processing, Inc.",https://www.adp.com,Staffing & Employment Services,Industrials,231.61,USD,0
+AZO,"AutoZone, Inc.",https://www.autozone.com,Specialty Retail,Consumer Cyclical,2573.32,USD,0
+AVB,"AvalonBay Communities, Inc.",https://www.avalonbay.com,REIT - Residential,Real Estate,189.49,USD,0
+AVY,Avery Dennison Corporation,https://www.averydennison.com,Packaging & Containers,Consumer Cyclical,202.75,USD,0
+BKR,Baker Hughes Company,https://www.bakerhughes.com,Oil & Gas Equipment & Services,Energy,34.49,USD,0
+BALL,Ball Corporation,https://www.ball.com,Packaging & Containers,Consumer Cyclical,57.91,USD,0
+BAC,Bank of America Corporation,https://www.bankofamerica.com,Banks - Diversified,Financial Services,33.84,USD,0
+BK,The Bank of New York Mellon Corporation,https://www.bnymellon.com,Asset Management,Financial Services,52.07,USD,0
+BBWI,"Bath & Body Works, Inc.",https://www.bbwinc.com,Specialty Retail,Consumer Cyclical,42.71,USD,0
+BAX,Baxter International Inc.,https://www.baxter.com,Medical Instruments & Supplies,Healthcare,38.66,USD,0
+BDX,"Becton, Dickinson and Company",https://www.bd.com,Medical Instruments & Supplies,Healthcare,242.5,USD,0
+BBY,"Best Buy Co., Inc.",https://investors.bestbuy.com/investor-relations/overview/default.aspx,Specialty Retail,Consumer Cyclical,77.95,USD,0
+BIO,"Bio-Rad Laboratories, Inc.",https://www.bio-rad.com,Medical Devices,Healthcare,322.15,USD,0
+TECH,Bio-Techne Corporation,https://www.bio-techne.com,Biotechnology,Healthcare,78.18,USD,0
+BIIB,Biogen Inc.,https://www.biogen.com,Drug Manufacturers - General,Healthcare,261.93,USD,0
+BLK,"BlackRock, Inc.",https://www.blackrock.com,Asset Management,Financial Services,813.25,USD,0
+BX,Blackstone Inc.,https://www.blackstone.com,Asset Management,Financial Services,132.61,USD,0
+BA,The Boeing Company,https://www.boeing.com,Aerospace & Defense,Industrials,262.1,USD,0
+BKNG,Booking Holdings Inc.,https://www.bookingholdings.com,Travel Services,Consumer Cyclical,3534.64,USD,0
+BWA,BorgWarner Inc.,https://www.borgwarner.com,Auto Parts,Consumer Cyclical,35.84,USD,0
+BXP,"Boston Properties, Inc.",https://www.bxp.com,REIT - Office,Real Estate,71.73,USD,0
+BSX,Boston Scientific Corporation,https://www.bostonscientific.com,Medical Devices,Healthcare,56.02,USD,0
+BMY,Bristol-Myers Squibb Company,https://www.bms.com,Drug Manufacturers - General,Healthcare,51.21,USD,0
+AVGO,Broadcom Inc.,https://www.broadcom.com,Semiconductors,Technology,1126.17,USD,0
+BR,"Broadridge Financial Solutions, Inc.",https://www.broadridge.com,Information Technology Services,Technology,204.27,USD,0
+BG,Bunge Global SA,https://www.bunge.com,Farm Products,Consumer Defensive,102.01,USD,0
+CPT,Camden Property Trust,https://www.camdenliving.com,REIT—Residential,Real Estate,98.88,USD,0
+CPB,Campbell Soup Company,https://www.campbellsoupcompany.com,Packaged Foods,Consumer Defensive,42.85,USD,0
+COF,Capital One Financial Corporation,https://www.capitalone.com,Credit Services,Financial Services,131.15,USD,0
+CAH,"Cardinal Health, Inc.",https://www.cardinalhealth.com,Medical Distribution,Healthcare,100.96,USD,0
+KMX,"CarMax, Inc.",https://www.carmax.com,Auto & Truck Dealerships,Consumer Cyclical,78.0,USD,0
+CCL,Carnival Corporation & plc,https://www.carnivalcorp.com,Travel Services,Consumer Cyclical,18.54,USD,0
+CARR,Carrier Global Corporation,https://www.corporate.carrier.com,Building Products & Equipment,Industrials,57.78,USD,0
+CTLT,"Catalent, Inc.",https://www.catalent.com,Drug Manufacturers—Specialty & Generic,Healthcare,45.5,USD,0
+CAT,Caterpillar Inc.,https://www.caterpillar.com,Farm & Heavy Construction Machinery,Industrials,298.12,USD,0
+CBOE,"Cboe Global Markets, Inc.",https://www.cboe.com,Financial Data & Stock Exchanges,Financial Services,175.61,USD,0
+CBRE,"CBRE Group, Inc.",https://www.cbre.com,Real Estate Services,Real Estate,93.64,USD,0
+CDW,CDW Corporation,https://www.cdw.com,Information Technology Services,Technology,228.55,USD,0
+CE,Celanese Corporation,https://www.celanese.com,Chemicals,Basic Materials,158.5,USD,0
+COR,"Cencora, Inc.",https://www.cencora.com,Medical Distribution,Healthcare,204.23,USD,0
+CNP,"CenterPoint Energy, Inc.",https://www.centerpointenergy.com,Utilities—Regulated Electric,Utilities,28.38,USD,0
+CDAY,Ceridian HCM Holding Inc.,https://www.ceridian.com,Software—Application,Technology,67.24,USD,0
+CF,"CF Industries Holdings, Inc.",https://www.cfindustries.com,Agricultural Inputs,Basic Materials,80.51,USD,0
+CHRW,"C.H. Robinson Worldwide, Inc.",https://www.chrobinson.com,Integrated Freight & Logistics,Industrials,86.86,USD,0
+SCHW,The Charles Schwab Corporation,https://www.schwab.com,Capital Markets,Financial Services,69.27,USD,0
+CHTR,"Charter Communications, Inc.",https://corporate.charter.com,Telecom Services,Communication Services,391.54,USD,0
+CVX,Chevron Corporation,https://www.chevron.com,Oil & Gas Integrated,Energy,151.91,USD,0
+CMG,"Chipotle Mexican Grill, Inc.",https://www.chipotle.com,Restaurants,Consumer Cyclical,2307.44,USD,0
+CB,Chubb Limited,https://www.chubb.com/us-en,Insurance—Property & Casualty,Financial Services,222.69,USD,0
+CHD,"Church & Dwight Co., Inc.",https://churchdwight.com,Household & Personal Products,Consumer Defensive,92.98,USD,0
+CI,The Cigna Group,https://www.cigna.com,Healthcare Plans,Healthcare,299.14,USD,0
+CINF,Cincinnati Financial Corporation,https://www.cinfin.com,Insurance—Property & Casualty,Financial Services,102.75,USD,0
+CTAS,Cintas Corporation,https://www.cintas.com,Specialty Business Services,Industrials,606.21,USD,0
+CSCO,"Cisco Systems, Inc.",https://www.cisco.com,Communication Equipment,Technology,50.44,USD,0
+C,Citigroup Inc.,https://www.citigroup.com,Banks—Diversified,Financial Services,51.46,USD,0
+CFG,"Citizens Financial Group, Inc.",https://www.citizensbank.com,Banks—Regional,Financial Services,33.64,USD,0
+CLX,The Clorox Company,https://www.thecloroxcompany.com,Household & Personal Products,Consumer Defensive,141.69,USD,0
+CME,CME Group Inc.,https://www.cmegroup.com,Financial Data & Stock Exchanges,Financial Services,210.54,USD,0
+CMS,CMS Energy Corporation,https://www.cmsenergy.com,Utilities—Regulated Electric,Utilities,57.46,USD,0
+KO,The Coca-Cola Company,https://www.coca-colacompany.com,Beverages—Non-Alcoholic,Consumer Defensive,58.71,USD,0
+CTSH,Cognizant Technology Solutions Corporation,https://www.cognizant.com,Information Technology Services,Technology,75.6,USD,0
+CL,Colgate-Palmolive Company,https://www.colgatepalmolive.com,Household & Personal Products,Consumer Defensive,79.1,USD,0
+CMCSA,Comcast Corporation,https://corporate.comcast.com,Telecom Services,Communication Services,43.99,USD,0
+CMA,Comerica Incorporated,https://www.comerica.com,Banks—Regional,Financial Services,56.29,USD,0
+CAG,"Conagra Brands, Inc.",https://www.conagrabrands.com,Packaged Foods,Consumer Defensive,28.45,USD,0
+COP,ConocoPhillips,https://www.conocophillips.com,Oil & Gas E&P,Energy,118.49,USD,0
+ED,"Consolidated Edison, Inc.",https://www.conedison.com,Utilities—Regulated Electric,Utilities,89.8,USD,0
+STZ,"Constellation Brands, Inc.",https://www.cbrands.com,Beverages—Wineries & Distilleries,Consumer Defensive,240.12,USD,0
+CEG,Constellation Energy Corporation,https://constellationenergy.com,Utilities—Renewable,Utilities,117.42,USD,0
+COO,"The Cooper Companies, Inc.",https://www.coopercos.com,Medical Instruments & Supplies,Healthcare,380.0,USD,0
+GLW,Corning Incorporated,https://www.corning.com,Electronic Components,Technology,30.56,USD,0
+CTVA,"Corteva, Inc.",https://www.corteva.com,Agricultural Inputs,Basic Materials,47.98,USD,0
+COST,Costco Wholesale Corporation,https://www.costco.com,Discount Stores,Consumer Defensive,666.8,USD,0
+CTRA,Coterra Energy Inc.,https://www.coterra.com,Oil & Gas E&P,Energy,25.83,USD,0
+CCI,Crown Castle Inc.,https://www.crowncastle.com,REIT—Specialty,Real Estate,116.09,USD,0
+CSX,CSX Corporation,https://www.csx.com,Railroads,Industrials,34.65,USD,0
+CMI,Cummins Inc.,https://www.cummins.com,Specialty Industrial Machinery,Industrials,239.84,USD,0
+CVS,CVS Health Corporation,https://www.cvshealth.com,Healthcare Plans,Healthcare,78.82,USD,0
+DRI,"Darden Restaurants, Inc.",https://www.darden.com,Restaurants,Consumer Cyclical,163.55,USD,0
+DVA,DaVita Inc.,https://www.davita.com,Medical Care Facilities,Healthcare,103.96,USD,0
+DE,Deere & Company,https://www.deere.com,Farm & Heavy Construction Machinery,Industrials,401.64,USD,0
+DAL,"Delta Air Lines, Inc.",https://www.delta.com,Airlines,Industrials,40.59,USD,0
+XRAY,DENTSPLY SIRONA Inc.,https://www.dentsplysirona.com,Medical Instruments & Supplies,Healthcare,35.63,USD,0
+DVN,Devon Energy Corporation,https://www.devonenergy.com,Oil & Gas E&P,Energy,46.4,USD,0
+FANG,"Diamondback Energy, Inc.",https://www.diamondbackenergy.com,Oil & Gas E&P,Energy,158.09,USD,0
+DLR,"Digital Realty Trust, Inc.",https://www.digitalrealty.com,REIT—Specialty,Real Estate,136.11,USD,0
+DFS,Discover Financial Services,https://www.discover.com,Credit Services,Financial Services,112.24,USD,0
+DG,Dollar General Corporation,https://www.dollargeneral.com,Discount Stores,Consumer Defensive,134.44,USD,0
+DLTR,"Dollar Tree, Inc.",https://www.dollartree.com,Discount Stores,Consumer Defensive,141.84,USD,0
+D,"Dominion Energy, Inc.",https://www.dominionenergy.com,Utilities—Regulated Electric,Utilities,46.51,USD,0
+DPZ,"Domino's Pizza, Inc.",https://www.ir.dominos.com,Restaurants,Consumer Cyclical,413.85,USD,0
+DOV,Dover Corporation,https://www.dovercorporation.com,Specialty Industrial Machinery,Industrials,154.16,USD,0
+DOW,Dow Inc.,https://www.dow.com,Chemicals,Basic Materials,55.71,USD,0
+DTE,DTE Energy Company,https://www.dteenergy.com,Utilities—Regulated Electric,Utilities,109.69,USD,0
+DUK,Duke Energy Corporation,https://www.duke-energy.com,Utilities—Regulated Electric,Utilities,96.3,USD,0
+DD,"DuPont de Nemours, Inc.",https://www.dupont.com,Specialty Chemicals,Basic Materials,76.93,USD,0
+EMN,Eastman Chemical Company,https://www.eastman.com,Specialty Chemicals,Basic Materials,90.72,USD,0
+ETN,Eaton Corporation plc,https://www.eaton.com,Specialty Industrial Machinery,Industrials,240.82,USD,0
+EBAY,eBay Inc.,https://www.ebayinc.com,Internet Retail,Consumer Cyclical,43.38,USD,0
+ECL,Ecolab Inc.,https://www.ecolab.com,Specialty Chemicals,Basic Materials,199.39,USD,0
+EIX,Edison International,https://www.edison.com,Utilities—Regulated Electric,Utilities,71.91,USD,0
+EW,Edwards Lifesciences Corporation,https://www.edwards.com,Medical Devices,Healthcare,76.21,USD,0
+EA,Electronic Arts Inc.,https://ea.com,Electronic Gaming & Multimedia,Communication Services,136.71,USD,0
+LLY,Eli Lilly and Company,https://www.lilly.com,Drug Manufacturers—General,Healthcare,581.51,USD,0
+EMR,Emerson Electric Co.,https://www.emerson.com,Specialty Industrial Machinery,Industrials,97.6,USD,0
+ETR,Entergy Corporation,https://www.entergy.com,Utilities—Regulated Electric,Utilities,100.31,USD,0
+EOG,"EOG Resources, Inc.",https://www.eogresources.com,Oil & Gas E&P,Energy,124.27,USD,0
+EQT,EQT Corporation,https://www.eqt.com,Oil & Gas E&P,Energy,39.18,USD,0
+EFX,Equifax Inc.,https://www.equifax.com,Consulting Services,Industrials,250.41,USD,0
+EQIX,"Equinix, Inc.",https://www.equinix.com,REIT—Specialty,Real Estate,806.87,USD,0
+EQR,Equity Residential,https://www.equityapartments.com,REIT—Residential,Real Estate,61.87,USD,0
+ESS,"Essex Property Trust, Inc.",https://www.essexapartmenthomes.com,REIT—Residential,Real Estate,249.23,USD,0
+EL,The Estée Lauder Companies Inc.,https://www.elcompanies.com,Household & Personal Products,Consumer Defensive,145.72,USD,0
+EG,"Everest Group, Ltd.",https://www.everestglobal.com,Insurance—Reinsurance,Financial Services,350.69,USD,0
+EVRG,"Evergy, Inc.",https://investors.evergy.com,Utilities—Regulated Electric,Utilities,51.85,USD,0
+ES,Eversource Energy,https://www.eversource.com,Utilities—Regulated Electric,Utilities,61.36,USD,0
+EXC,Exelon Corporation,https://www.exeloncorp.com,Utilities—Regulated Electric,Utilities,35.41,USD,0
+EXPE,"Expedia Group, Inc.",https://www.expediagroup.com,Travel Services,Consumer Cyclical,153.25,USD,0
+EXPD,"Expeditors International of Washington, Inc.",https://www.expeditors.com,Integrated Freight & Logistics,Industrials,127.88,USD,0
+EXR,Extra Space Storage Inc.,https://www.extraspace.com,REIT—Industrial,Real Estate,161.09,USD,0
+XOM,Exxon Mobil Corporation,https://corporate.exxonmobil.com,Oil & Gas Integrated,Energy,101.66,USD,0
+FFIV,"F5, Inc.",https://www.f5.com,Software—Infrastructure,Technology,179.84,USD,0
+FDS,FactSet Research Systems Inc.,https://www.factset.com,Financial Data & Stock Exchanges,Financial Services,474.21,USD,0
+FICO,Fair Isaac Corporation,https://www.fico.com,Software—Application,Technology,1170.61,USD,0
+FAST,Fastenal Company,https://www.fastenal.com,Industrial Distribution,Industrials,65.34,USD,0
+FRT,Federal Realty Investment Trust,https://www.federalrealty.com,REIT—Retail,Real Estate,104.81,USD,0
+FDX,FedEx Corporation,https://www.fedex.com,Integrated Freight & Logistics,Industrials,250.94,USD,0
+FIS,"Fidelity National Information Services, Inc.",https://www.fisglobal.com,Information Technology Services,Technology,60.4,USD,0
+FITB,Fifth Third Bancorp,https://www.53.com,Banks—Regional,Financial Services,35.07,USD,0
+FSLR,"First Solar, Inc.",https://www.firstsolar.com,Solar,Technology,172.44,USD,0
+FE,FirstEnergy Corp.,https://www.firstenergycorp.com,Utilities—Regulated Electric,Utilities,36.32,USD,0
+FI,"Fiserv, Inc.",https://www.fiserv.com,Information Technology Services,Technology,133.01,USD,0
+FLT,"FLEETCOR Technologies, Inc.",https://www.fleetcor.com,Software—Infrastructure,Technology,282.98,USD,0
+FMC,FMC Corporation,https://www.fmc.com,Agricultural Inputs,Basic Materials,63.63,USD,0
+F,Ford Motor Company,https://www.ford.com,Auto Manufacturers,Consumer Cyclical,12.39,USD,0
+FTV,Fortive Corporation,https://www.fortive.com,Scientific & Technical Instruments,Technology,73.69,USD,0
+FOXA,Fox Corporation,https://www.foxcorporation.com,Entertainment,Communication Services,29.7,USD,0
+BEN,"Franklin Resources, Inc.",https://www.franklinresources.com,Asset Management,Financial Services,30.18,USD,0
+FCX,Freeport-McMoRan Inc.,https://fcx.com,Copper,Basic Materials,43.2,USD,0
+GRMN,Garmin Ltd.,https://www.garmin.com,Scientific & Technical Instruments,Technology,128.67,USD,0
+IT,"Gartner, Inc.",https://www.gartner.com,Information Technology Services,Technology,446.63,USD,0
+GEHC,GE HealthCare Technologies Inc.,https://www.gehealthcare.com,Health Information Services,Healthcare,77.67,USD,0
+GEN,Gen Digital Inc.,https://www.gendigital.com,Software—Infrastructure,Technology,23.0,USD,0
+GD,General Dynamics Corporation,https://www.gd.com,Aerospace & Defense,Industrials,257.43,USD,0
+GE,General Electric Company,https://www.ge.com,Specialty Industrial Machinery,Industrials,128.2,USD,0
+GIS,"General Mills, Inc.",https://www.generalmills.com,Packaged Foods,Consumer Defensive,64.74,USD,0
+GM,General Motors Company,https://www.gm.com,Auto Manufacturers,Consumer Cyclical,36.08,USD,0
+GPC,Genuine Parts Company,https://www.genpt.com,Specialty Retail,Consumer Cyclical,138.77,USD,0
+GILD,"Gilead Sciences, Inc.",https://www.gilead.com,Drug Manufacturers—General,Healthcare,80.37,USD,0
+GPN,Global Payments Inc.,https://www.globalpayments.com,Specialty Business Services,Industrials,127.4,USD,0
+GL,Globe Life Inc.,https://www.globelifeinsurance.com,Insurance—Life,Financial Services,121.35,USD,0
+GS,"The Goldman Sachs Group, Inc.",https://www.goldmansachs.com,Capital Markets,Financial Services,384.48,USD,0
+HAL,Halliburton Company,https://www.halliburton.com,Oil & Gas Equipment & Services,Energy,36.66,USD,0
+HIG,"The Hartford Financial Services Group, Inc.",https://www.thehartford.com,Insurance—Property & Casualty,Financial Services,79.97,USD,0
+HAS,"Hasbro, Inc.",https://www.hasbro.com,Leisure,Consumer Cyclical,51.0,USD,0
+HCA,"HCA Healthcare, Inc.",https://www.hcahealthcare.com,Medical Care Facilities,Healthcare,271.22,USD,0
+PEAK,"Healthpeak Properties, Inc.",https://www.healthpeak.com,REIT—Healthcare Facilities,Real Estate,20.02,USD,0
+HSIC,"Henry Schein, Inc.",https://www.henryschein.com,Medical Distribution,Healthcare,75.84,USD,0
+HES,Hess Corporation,https://www.hess.com,Oil & Gas E&P,Energy,148.58,USD,0
+HPE,Hewlett Packard Enterprise Company,https://www.hpe.com,Communication Equipment,Technology,17.09,USD,0
+HLT,Hilton Worldwide Holdings Inc.,https://www.hilton.com,Lodging,Consumer Cyclical,181.52,USD,0
+HOLX,"Hologic, Inc.",https://www.hologic.com,Medical Instruments & Supplies,Healthcare,70.94,USD,0
+HD,"The Home Depot, Inc.",https://www.homedepot.com,Home Improvement Retail,Consumer Cyclical,348.53,USD,0
+HON,Honeywell International Inc.,https://www.honeywell.com,Conglomerates,Industrials,209.02,USD,0
+HRL,Hormel Foods Corporation,https://www.hormelfoods.com,Packaged Foods,Consumer Defensive,31.81,USD,0
+HST,"Host Hotels & Resorts, Inc.",https://www.hosthotels.com,REIT—Hotel & Motel,Real Estate,20.17,USD,0
+HWM,Howmet Aerospace Inc.,https://www.howmet.com,Aerospace & Defense,Industrials,54.05,USD,0
+HPQ,HP Inc.,https://www.hp.com,Computer Hardware,Technology,30.24,USD,0
+HUBB,Hubbell Incorporated,https://www.hubbell.com,Electrical Equipment & Parts,Industrials,328.02,USD,0
+HUM,Humana Inc.,https://www.humana.com,Healthcare Plans,Healthcare,451.42,USD,0
+HBAN,Huntington Bancshares Incorporated,https://www.huntington.com,Banks—Regional,Financial Services,12.8,USD,0
+HII,"Huntington Ingalls Industries, Inc.",https://www.huntingtoningalls.com,Aerospace & Defense,Industrials,258.31,USD,0
+IBM,International Business Machines Corporation,https://www.ibm.com,Information Technology Services,Technology,163.46,USD,0
+IEX,IDEX Corporation,https://www.idexcorp.com,Specialty Industrial Machinery,Industrials,215.79,USD,0
+IDXX,"IDEXX Laboratories, Inc.",https://www.idexx.com,Diagnostics & Research,Healthcare,557.11,USD,0
+ITW,Illinois Tool Works Inc.,https://www.itw.com,Specialty Industrial Machinery,Industrials,263.67,USD,0
+ILMN,"Illumina, Inc.",https://www.illumina.com,Diagnostics & Research,Healthcare,142.53,USD,0
+INTC,Intel Corporation,https://www.intel.com,Semiconductors,Technology,50.76,USD,0
+ICE,"Intercontinental Exchange, Inc.",https://www.ice.com,Financial Data & Stock Exchanges,Financial Services,127.79,USD,0
+IFF,International Flavors & Fragrances Inc.,https://www.iff.com,Specialty Chemicals,Basic Materials,81.41,USD,0
+IP,International Paper Company,https://www.internationalpaper.com,Packaging & Containers,Consumer Cyclical,36.47,USD,0
+IPG,"The Interpublic Group of Companies, Inc.",https://www.interpublic.com,Advertising Agencies,Communication Services,32.95,USD,0
+ISRG,"Intuitive Surgical, Inc.",https://www.intuitive.com,Medical Instruments & Supplies,Healthcare,337.47,USD,0
+IVZ,Invesco Ltd.,https://www.invesco.com,Asset Management,Financial Services,18.04,USD,0
+JBHT,"J.B. Hunt Transport Services, Inc.",https://www.jbhunt.com,Integrated Freight & Logistics,Industrials,202.25,USD,0
+JBL,Jabil Inc.,https://www.jabil.com,Electronic Components,Technology,127.45,USD,0
+JKHY,"Jack Henry & Associates, Inc.",https://www.jackhenry.com,Information Technology Services,Technology,163.24,USD,0
+J,Jacobs Solutions Inc.,https://www.jacobs.com,Engineering & Construction,Industrials,130.16,USD,0
+JNJ,Johnson & Johnson,https://www.jnj.com,Drug Manufacturers—General,Healthcare,156.35,USD,0
+JCI,Johnson Controls International plc,https://www.johnsoncontrols.com,Building Products & Equipment,Industrials,57.68,USD,0
+JPM,JPMorgan Chase & Co.,https://www.jpmorganchase.com,Banks—Diversified,Financial Services,169.4,USD,0
+JNPR,"Juniper Networks, Inc.",https://www.juniper.net,Communication Equipment,Technology,29.44,USD,0
+K,Kellanova,https://www.kellanova.com/us/en,Packaged Foods,Consumer Defensive,55.17,USD,0
+KVUE,Kenvue Inc.,https://www.kenvue.com,Household & Personal Products,Consumer Defensive,21.55,USD,0
+KDP,Keurig Dr Pepper Inc.,https://www.keurigdrpepper.com,Beverages—Non-Alcoholic,Consumer Defensive,33.11,USD,0
+KEY,KeyCorp,https://www.key.com,Banks—Regional,Financial Services,14.52,USD,0
+KEYS,"Keysight Technologies, Inc.",https://www.keysight.com,Scientific & Technical Instruments,Technology,160.34,USD,0
+KMB,Kimberly-Clark Corporation,https://www.kimberly-clark.com,Household & Personal Products,Consumer Defensive,120.31,USD,0
+KIM,Kimco Realty Corporation,https://www.kimcorealty.com,REIT—Retail,Real Estate,21.77,USD,0
+KMI,"Kinder Morgan, Inc.",https://www.kindermorgan.com,Oil & Gas Midstream,Energy,17.77,USD,0
+KLAC,KLA Corporation,https://www.kla.com,Semiconductor Equipment & Materials,Technology,591.47,USD,0
+KHC,The Kraft Heinz Company,https://www.kraftheinzcompany.com,Packaged Foods,Consumer Defensive,36.52,USD,0
+KR,The Kroger Co.,https://www.thekrogerco.com,Grocery Stores,Consumer Defensive,45.21,USD,0
+LHX,"L3Harris Technologies, Inc.",https://www.l3harris.com,Aerospace & Defense,Industrials,209.89,USD,0
+LH,Laboratory Corporation of America Holdings,https://www.labcorp.com,Diagnostics & Research,Healthcare,226.66,USD,0
+LRCX,Lam Research Corporation,https://www.lamresearch.com,Semiconductor Equipment & Materials,Technology,794.93,USD,0
+LW,"Lamb Weston Holdings, Inc.",https://www.lambweston.com,Packaged Foods,Consumer Defensive,107.51,USD,0
+LVS,Las Vegas Sands Corp.,https://www.sands.com,Resorts & Casinos,Consumer Cyclical,48.54,USD,0
+LDOS,"Leidos Holdings, Inc.",https://www.leidos.com,Information Technology Services,Technology,107.82,USD,0
+LEN,Lennar Corporation,https://www.lennar.com,Residential Construction,Consumer Cyclical,149.3,USD,0
+LIN,Linde plc,https://www.linde.com,Specialty Chemicals,Basic Materials,411.21,USD,0
+LYV,"Live Nation Entertainment, Inc.",https://www.livenationentertainment.com,Entertainment,Communication Services,92.98,USD,0
+LKQ,LKQ Corporation,https://www.lkqcorp.com,Auto Parts,Consumer Cyclical,48.07,USD,0
+LMT,Lockheed Martin Corporation,https://www.lockheedmartin.com,Aerospace & Defense,Industrials,448.97,USD,0
+LOW,"Lowe's Companies, Inc.",https://www.lowes.com,Home Improvement Retail,Consumer Cyclical,222.89,USD,0
+LYB,LyondellBasell Industries N.V.,https://www.lyondellbasell.com,Specialty Chemicals,Basic Materials,96.47,USD,0
+MTB,M&T Bank Corporation,https://www3.mtb.com,Banks—Regional,Financial Services,137.88,USD,0
+MRO,Marathon Oil Corporation,https://www.marathonoil.com,Oil & Gas E&P,Energy,24.85,USD,0
+MPC,Marathon Petroleum Corporation,https://www.marathonpetroleum.com,Oil & Gas Refining & Marketing,Energy,149.88,USD,0
+MKTX,MarketAxess Holdings Inc.,https://www.marketaxess.com,Capital Markets,Financial Services,295.83,USD,0
+MAR,"Marriott International, Inc.",https://www.marriott.com,Lodging,Consumer Cyclical,224.44,USD,0
+MMC,"Marsh & McLennan Companies, Inc.",https://www.mmc.com,Insurance Brokers,Financial Services,188.51,USD,0
+MLM,"Martin Marietta Materials, Inc.",https://www.martinmarietta.com,Building Materials,Basic Materials,499.62,USD,0
+MAS,Masco Corporation,https://masco.com,Building Products & Equipment,Industrials,67.28,USD,0
+MA,Mastercard Incorporated,https://www.mastercard.com,Credit Services,Financial Services,424.36,USD,0
+MTCH,"Match Group, Inc.",https://www.mtch.com,Internet Content & Information,Communication Services,35.81,USD,0
+MKC,"McCormick & Company, Incorporated",https://www.mccormickcorporation.com,Packaged Foods,Consumer Defensive,68.21,USD,0
+MCD,McDonald's Corporation,https://corporate.mcdonalds.com,Restaurants,Consumer Cyclical,294.55,USD,0
+MCK,McKesson Corporation,https://www.mckesson.com,Medical Distribution,Healthcare,457.49,USD,0
+MDT,Medtronic plc,https://www.medtronic.com,Medical Devices,Healthcare,82.42,USD,0
+MRK,"Merck & Co., Inc.",https://www.merck.com,Drug Manufacturers—General,Healthcare,107.98,USD,0
+META,"Meta Platforms, Inc.",https://investor.fb.com,Internet Content & Information,Communication Services,357.83,USD,0
+MET,"MetLife, Inc.",https://www.metlife.com,Insurance—Life,Financial Services,66.02,USD,0
+MTD,Mettler-Toledo International Inc.,https://www.mt.com,Diagnostics & Research,Healthcare,1222.96,USD,0
+MGM,MGM Resorts International,https://www.mgmresorts.com,Resorts & Casinos,Consumer Cyclical,44.79,USD,0
+MCHP,Microchip Technology Incorporated,https://www.microchip.com,Semiconductors,Technology,91.12,USD,0
+MU,"Micron Technology, Inc.",https://www.micron.com,Semiconductors,Technology,86.66,USD,0
+MSFT,Microsoft Corporation,https://www.microsoft.com,Software—Infrastructure,Technology,374.07,USD,0
+MAA,"Mid-America Apartment Communities, Inc.",https://www.maac.com,REIT—Residential,Real Estate,134.31,USD,0
+MRNA,"Moderna, Inc.",https://www.modernatx.com,Biotechnology,Healthcare,100.73,USD,0
+MHK,"Mohawk Industries, Inc.",https://www.mohawkind.com,"Furnishings, Fixtures & Appliances",Consumer Cyclical,103.62,USD,0
+TAP,Molson Coors Beverage Company,https://www.molsoncoors.com,Beverages—Brewers,Consumer Defensive,61.12,USD,0
+MDLZ,"Mondelez International, Inc.",https://www.mondelezinternational.com,Confectioners,Consumer Defensive,72.21,USD,0
+MNST,Monster Beverage Corporation,https://www.monsterbevcorp.com,Beverages—Non-Alcoholic,Consumer Defensive,57.34,USD,0
+MCO,Moody's Corporation,https://www.moodys.com,Financial Data & Stock Exchanges,Financial Services,390.21,USD,0
+MS,Morgan Stanley,https://www.morganstanley.com,Capital Markets,Financial Services,93.66,USD,0
+MSI,"Motorola Solutions, Inc.",https://www.motorolasolutions.com,Communication Equipment,Technology,310.42,USD,0
+MSCI,MSCI Inc.,https://www.msci.com,Financial Data & Stock Exchanges,Financial Services,565.62,USD,0
+NDAQ,"Nasdaq, Inc.",https://www.nasdaq.com,Financial Data & Stock Exchanges,Financial Services,57.99,USD,0
+NTAP,"NetApp, Inc.",https://www.netapp.com,Computer Hardware,Technology,88.6,USD,0
+NFLX,"Netflix, Inc.",https://www.netflix.com,Entertainment,Communication Services,491.79,USD,0
+NEM,Newmont Corporation,https://www.newmont.com,Gold,Basic Materials,42.38,USD,0
+NWSA,News Corporation,https://www.newscorp.com,Entertainment,Communication Services,24.42,USD,0
+NEE,"NextEra Energy, Inc.",https://www.nexteraenergy.com,Utilities—Regulated Electric,Utilities,60.58,USD,0
+NKE,"NIKE, Inc.",https://www.nike.com,Footwear & Accessories,Consumer Cyclical,107.13,USD,0
+NI,NiSource Inc.,https://www.nisource.com,Utilities—Regulated Gas,Utilities,26.28,USD,0
+NDSN,Nordson Corporation,https://www.nordson.com,Specialty Industrial Machinery,Industrials,264.19,USD,0
+NSC,Norfolk Southern Corporation,https://www.norfolksouthern.com,Railroads,Industrials,235.53,USD,0
+NTRS,Northern Trust Corporation,https://www.northerntrust.com,Asset Management,Financial Services,84.57,USD,0
+NOC,Northrop Grumman Corporation,https://www.northropgrumman.com,Aerospace & Defense,Industrials,464.22,USD,0
+NCLH,Norwegian Cruise Line Holdings Ltd.,https://www.nclhltd.com,Travel Services,Consumer Cyclical,20.38,USD,0
+NRG,"NRG Energy, Inc.",https://www.nrg.com,Utilities—Independent Power Producers,Utilities,51.22,USD,0
+NUE,Nucor Corporation,https://www.nucor.com,Steel,Basic Materials,177.87,USD,0
+NVDA,NVIDIA Corporation,https://www.nvidia.com,Semiconductors,Technology,494.17,USD,0
+NVR,"NVR, Inc.",https://www.nvrinc.com,Residential Construction,Consumer Cyclical,7024.82,USD,0
+NXPI,NXP Semiconductors N.V.,https://www.nxp.com,Semiconductors,Technology,232.1,USD,0
+ORLY,"O'Reilly Automotive, Inc.",https://www.oreillyauto.com,Specialty Retail,Consumer Cyclical,942.55,USD,0
+OXY,Occidental Petroleum Corporation,https://www.oxy.com,Oil & Gas E&P,Energy,61.04,USD,0
+ODFL,"Old Dominion Freight Line, Inc.",https://www.odfl.com,Trucking,Industrials,413.6,USD,0
+OMC,Omnicom Group Inc.,https://www.omnicomgroup.com,Advertising Agencies,Communication Services,86.64,USD,0
+OKE,"ONEOK, Inc.",https://www.oneok.com/,Oil & Gas Midstream,Energy,70.98,USD,0
+ORCL,Oracle Corporation,https://www.oracle.com,Software—Infrastructure,Technology,105.94,USD,0
+OTIS,Otis Worldwide Corporation,https://www.otis.com,Specialty Industrial Machinery,Industrials,89.61,USD,0
+PCAR,PACCAR Inc,https://www.paccar.com,Farm & Heavy Construction Machinery,Industrials,97.79,USD,0
+PKG,Packaging Corporation of America,https://www.packagingcorp.com,Packaging & Containers,Consumer Cyclical,165.01,USD,0
+PANW,"Palo Alto Networks, Inc.",https://www.paloaltonetworks.com,Software—Infrastructure,Technology,297.5,USD,0
+PARA,Paramount Global,https://www.paramount.com,Entertainment,Communication Services,14.99,USD,0
+PH,Parker-Hannifin Corporation,https://www.phstock.com,Specialty Industrial Machinery,Industrials,462.25,USD,0
+PAYX,"Paychex, Inc.",https://www.paychex.com,Staffing & Employment Services,Industrials,119.07,USD,0
+PYPL,"PayPal Holdings, Inc.",https://www.paypal.com,Credit Services,Financial Services,62.68,USD,0
+PNR,Pentair plc,https://www.pentair.com,Specialty Industrial Machinery,Industrials,72.99,USD,0
+PEP,"PepsiCo, Inc.",https://www.pepsico.com,Beverages—Non-Alcoholic,Consumer Defensive,169.4,USD,0
+PFE,Pfizer Inc.,https://www.pfizer.com,Drug Manufacturers—General,Healthcare,28.61,USD,0
+PM,Philip Morris International Inc.,https://www.pmi.com,Tobacco,Consumer Defensive,93.78,USD,0
+PSX,Phillips 66,https://www.phillips66.com,Oil & Gas Refining & Marketing,Energy,134.7,USD,0
+PNW,Pinnacle West Capital Corporation,https://www.pinnaclewest.com,Utilities—Regulated Electric,Utilities,70.8,USD,0
+PXD,Pioneer Natural Resources Company,https://www.pxd.com,Oil & Gas E&P,Energy,228.83,USD,0
+PNC,"The PNC Financial Services Group, Inc.",https://www.pnc.com,Banks—Regional,Financial Services,155.0,USD,0
+PPG,"PPG Industries, Inc.",https://www.ppg.com,Specialty Chemicals,Basic Materials,150.16,USD,0
+PPL,PPL Corporation,https://www.pplweb.com,Utilities—Regulated Electric,Utilities,27.04,USD,0
+PFG,"Principal Financial Group, Inc.",https://www.principal.com,Asset Management,Financial Services,79.2,USD,0
+PG,The Procter & Gamble Company,https://www.pginvestor.com,Household & Personal Products,Consumer Defensive,146.06,USD,0
+PGR,The Progressive Corporation,https://www.progressive.com,Insurance—Property & Casualty,Financial Services,157.66,USD,0
+PLD,"Prologis, Inc.",https://www.prologis.com,REIT—Industrial,Real Estate,134.18,USD,0
+PRU,"Prudential Financial, Inc.",https://www.prudential.com,Insurance—Life,Financial Services,103.82,USD,0
+PEG,Public Service Enterprise Group Incorporated,https://www.pseg.com,Utilities—Regulated Electric,Utilities,60.66,USD,0
+PTC,PTC Inc.,https://www.ptc.com,Software—Application,Technology,175.72,USD,0
+PSA,Public Storage,https://www.publicstorage.com,REIT—Industrial,Real Estate,305.28,USD,0
+QRVO,"Qorvo, Inc.",https://www.qorvo.com,Semiconductors,Technology,114.61,USD,0
+PWR,"Quanta Services, Inc.",https://www.quantaservices.com,Engineering & Construction,Industrials,215.95,USD,0
+DGX,Quest Diagnostics Incorporated,https://www.questdiagnostics.com,Diagnostics & Research,Healthcare,137.58,USD,0
+RL,Ralph Lauren Corporation,https://www.ralphlauren.com,Apparel Manufacturing,Consumer Cyclical,145.63,USD,0
+RJF,"Raymond James Financial, Inc.",https://www.raymondjames.com,Capital Markets,Financial Services,113.17,USD,0
+RTX,RTX Corporation,https://www.rtx.com,Aerospace & Defense,Industrials,84.17,USD,0
+REG,Regency Centers Corporation,https://www.regencycenters.com,REIT—Retail,Real Estate,67.07,USD,0
+REGN,"Regeneron Pharmaceuticals, Inc.",https://www.regeneron.com,Biotechnology,Healthcare,874.37,USD,0
+RF,Regions Financial Corporation,https://www.regions.com,Banks—Regional,Financial Services,19.54,USD,0
+RSG,"Republic Services, Inc.",https://www.republicservices.com,Waste Management,Industrials,163.76,USD,0
+RMD,ResMed Inc.,https://www.resmed.com,Medical Instruments & Supplies,Healthcare,172.98,USD,0
+RVTY,"Revvity, Inc.",https://www.revvity.com,Diagnostics & Research,Healthcare,110.69,USD,0
+RHI,Robert Half Inc.,https://www.roberthalf.com,Staffing & Employment Services,Industrials,88.01,USD,0
+ROK,"Rockwell Automation, Inc.",https://www.rockwellautomation.com,Specialty Industrial Machinery,Industrials,311.22,USD,0
+ROL,"Rollins, Inc.",https://www.rollins.com,Personal Services,Consumer Cyclical,43.64,USD,0
+ROP,"Roper Technologies, Inc.",https://www.ropertech.com,Software—Application,Technology,543.75,USD,0
+ROST,"Ross Stores, Inc.",https://www.rossstores.com,Apparel Retail,Consumer Cyclical,137.41,USD,0
+RCL,Royal Caribbean Cruises Ltd.,https://www.rclinvestor.com,Travel Services,Consumer Cyclical,129.92,USD,0
+SBAC,SBA Communications Corporation,https://www.sbasite.com,REIT—Specialty,Real Estate,254.21,USD,0
+SLB,Schlumberger Limited,https://www.slb.com,Oil & Gas Equipment & Services,Energy,53.03,USD,0
+STX,Seagate Technology Holdings plc,https://www.seagate.com,Computer Hardware,Technology,85.68,USD,0
+SRE,Sempra,https://www.sempra.com,Utilities—Diversified,Utilities,74.14,USD,0
+SHW,The Sherwin-Williams Company,https://www.sherwin-williams.com,Specialty Chemicals,Basic Materials,313.27,USD,0
+SPG,"Simon Property Group, Inc.",https://www.simon.com,REIT—Retail,Real Estate,143.67,USD,0
+SWKS,"Skyworks Solutions, Inc.",https://www.skyworksinc.com,Semiconductors,Technology,114.41,USD,0
+SJM,The J. M. Smucker Company,https://www.jmsmucker.com,Packaged Foods,Consumer Defensive,125.11,USD,0
+SNA,Snap-on Incorporated,https://www.snapon.com,Tools & Accessories,Industrials,290.19,USD,0
+SO,The Southern Company,https://www.southerncompany.com,Utilities—Regulated Electric,Utilities,69.41,USD,0
+LUV,Southwest Airlines Co.,https://www.southwest.com,Airlines,Industrials,29.21,USD,0
+SWK,"Stanley Black & Decker, Inc.",https://www.stanleyblackanddecker.com,Tools & Accessories,Industrials,98.73,USD,0
+SBUX,Starbucks Corporation,https://www.starbucks.com,Restaurants,Consumer Cyclical,95.29,USD,0
+STT,State Street Corporation,https://www.statestreet.com,Asset Management,Financial Services,77.97,USD,0
+STLD,"Steel Dynamics, Inc.",https://stld.steeldynamics.com,Steel,Basic Materials,120.9,USD,0
+STE,STERIS plc,https://www.steris.com,Medical Devices,Healthcare,223.34,USD,0
+SYK,Stryker Corporation,https://www.stryker.com,Medical Devices,Healthcare,299.01,USD,0
+SYF,Synchrony Financial,https://www.synchrony.com,Credit Services,Financial Services,38.35,USD,0
+TMUS,"T-Mobile US, Inc.",https://www.t-mobile.com,Telecom Services,Communication Services,157.94,USD,0
+TROW,"T. Rowe Price Group, Inc.",https://www.troweprice.com,Asset Management,Financial Services,108.69,USD,0
+TTWO,"Take-Two Interactive Software, Inc.",https://www.take2games.com,Electronic Gaming & Multimedia,Communication Services,160.99,USD,0
+TPR,"Tapestry, Inc.",https://www.tapestry.com,Luxury Goods,Consumer Cyclical,37.4,USD,0
+TRGP,Targa Resources Corp.,https://www.targaresources.com,Oil & Gas Midstream,Energy,87.06,USD,0
+TGT,Target Corporation,https://corporate.target.com,Discount Stores,Consumer Defensive,142.38,USD,0
+TEL,TE Connectivity Ltd.,https://www.te.com,Electronic Components,Technology,140.77,USD,0
+TDY,Teledyne Technologies Incorporated,https://www.teledyne.com,Scientific & Technical Instruments,Technology,441.73,USD,0
+TFX,Teleflex Incorporated,https://www.teleflex.com,Medical Instruments & Supplies,Healthcare,250.51,USD,0
+TER,"Teradyne, Inc.",https://www.teradyne.com,Semiconductor Equipment & Materials,Technology,110.75,USD,0
+TXT,Textron Inc.,https://www.textron.com,Aerospace & Defense,Industrials,80.71,USD,0
+TJX,"The TJX Companies, Inc.",https://www.tjx.com,Apparel Retail,Consumer Cyclical,92.77,USD,0
+TT,Trane Technologies plc,https://www.tranetechnologies.com,Building Products & Equipment,Industrials,243.95,USD,0
+TDG,TransDigm Group Incorporated,https://www.transdigm.com,Aerospace & Defense,Industrials,1007.99,USD,0
+TRV,"The Travelers Companies, Inc.",https://www.travelers.com,Insurance—Property & Casualty,Financial Services,188.62,USD,0
+TRMB,Trimble Inc.,https://www.trimble.com,Scientific & Technical Instruments,Technology,53.33,USD,0
+TFC,Truist Financial Corporation,https://www.truist.com,Banks—Regional,Financial Services,37.24,USD,0
+TYL,"Tyler Technologies, Inc.",https://www.tylertech.com,Software—Application,Technology,415.6,USD,0
+TSN,"Tyson Foods, Inc.",https://www.tysonfoods.com,Farm Products,Consumer Defensive,52.82,USD,0
+USB,U.S. Bancorp,https://www.usbank.com,Banks—Regional,Financial Services,43.94,USD,0
+UDR,"UDR, Inc.",https://www.udr.com,REIT—Residential,Real Estate,38.33,USD,0
+ULTA,"Ulta Beauty, Inc.",https://www.ulta.com,Specialty Retail,Consumer Cyclical,483.26,USD,0
+UNP,Union Pacific Corporation,https://www.up.com,Railroads,Industrials,245.81,USD,0
+UAL,"United Airlines Holdings, Inc.",https://www.united.com,Airlines,Industrials,41.73,USD,0
+UPS,"United Parcel Service, Inc.",https://www.ups.com,Integrated Freight & Logistics,Industrials,156.84,USD,0
+URI,"United Rentals, Inc.",https://www.unitedrentals.com,Rental & Leasing Services,Industrials,578.86,USD,0
+UHS,"Universal Health Services, Inc.",https://uhs.com,Medical Care Facilities,Healthcare,152.61,USD,0
+VLO,Valero Energy Corporation,https://www.valero.com,Oil & Gas Refining & Marketing,Energy,131.82,USD,0
+VTR,"Ventas, Inc.",https://www.ventasreit.com,REIT—Healthcare Facilities,Real Estate,50.75,USD,0
+VLTO,Veralto Corporation,https://jobs.danaher.com/global/en/eas,Pollution & Treatment Controls,Industrials,83.22,USD,0
+VRSN,"VeriSign, Inc.",https://www.verisign.com,Software—Infrastructure,Technology,205.75,USD,0
+VRSK,"Verisk Analytics, Inc.",https://www.verisk.com,Consulting Services,Industrials,237.22,USD,0
+VZ,Verizon Communications Inc.,https://www.verizon.com,Telecom Services,Communication Services,37.31,USD,0
+VFC,V.F. Corporation,https://www.vfc.com,Apparel Manufacturing,Consumer Cyclical,18.84,USD,0
+VTRS,Viatris Inc.,https://www.viatris.com,Drug Manufacturers—Specialty & Generic,Healthcare,10.77,USD,0
+V,Visa Inc.,https://www.visa.com,Credit Services,Financial Services,258.93,USD,0
+VMC,Vulcan Materials Company,https://www.vulcanmaterials.com,Building Materials,Basic Materials,225.82,USD,0
+WRB,W. R. Berkley Corporation,https://www.berkley.com,Insurance—Property & Casualty,Financial Services,70.05,USD,0
+WBA,"Walgreens Boots Alliance, Inc.",https://www.walgreensbootsalliance.com,Pharmaceutical Retailers,Healthcare,26.64,USD,0
+WMT,Walmart Inc.,https://www.stock.walmart.com,Discount Stores,Consumer Defensive,157.88,USD,0
+DIS,The Walt Disney Company,https://www.thewaltdisneycompany.com,Entertainment,Communication Services,90.38,USD,0
+WBD,"Warner Bros. Discovery, Inc.",https://ir.wbd.com,Entertainment,Communication Services,11.49,USD,0
+WM,"Waste Management, Inc.",https://www.wm.com,Waste Management,Industrials,177.75,USD,0
+WAT,Waters Corporation,https://www.waters.com,Diagnostics & Research,Healthcare,333.04,USD,0
+WEC,"WEC Energy Group, Inc.",https://www.wecenergygroup.com,Utilities—Regulated Electric,Utilities,83.45,USD,0
+WFC,Wells Fargo & Company,https://www.wellsfargo.com,Banks—Diversified,Financial Services,49.33,USD,0
+WELL,Welltower Inc.,https://www.welltower.com,REIT—Healthcare Facilities,Real Estate,91.05,USD,0
+WST,"West Pharmaceutical Services, Inc.",https://www.westpharma.com,Medical Instruments & Supplies,Healthcare,355.88,USD,0
+WDC,Western Digital Corporation,https://www.westerndigital.com,Computer Hardware,Technology,52.42,USD,0
+WRK,WestRock Company,https://www.westrock.com,Packaging & Containers,Consumer Cyclical,42.75,USD,0
+WY,Weyerhaeuser Company,https://www.weyerhaeuser.com,REIT—Specialty,Real Estate,34.76,USD,0
+WHR,Whirlpool Corporation,https://www.whirlpoolcorp.com,"Furnishings, Fixtures & Appliances",Consumer Cyclical,122.5,USD,0
+WMB,"The Williams Companies, Inc.",https://www.williams.com,Oil & Gas Midstream,Energy,35.03,USD,0
+WTW,Willis Towers Watson Public Limited Company,https://www.willistowerswatson.com,Insurance Brokers,Financial Services,239.3,USD,0
+GWW,"W.W. Grainger, Inc.",https://www.grainger.com,Industrial Distribution,Industrials,831.3,USD,0
+WYNN,"Wynn Resorts, Limited",https://www.wynnresorts.com,Resorts & Casinos,Consumer Cyclical,90.63,USD,0
+XEL,Xcel Energy Inc.,https://www.xcelenergy.com,Utilities—Regulated Electric,Utilities,61.54,USD,0
+XYL,Xylem Inc.,https://www.xylem.com,Specialty Industrial Machinery,Industrials,114.38,USD,0
+YUM,"Yum! Brands, Inc.",https://www.yum.com,Restaurants,Consumer Cyclical,130.84,USD,0
+ZBRA,Zebra Technologies Corporation,https://www.zebra.com,Communication Equipment,Technology,275.79,USD,0
+ZBH,"Zimmer Biomet Holdings, Inc.",https://www.zimmerbiomet.com,Medical Devices,Healthcare,121.13,USD,0
+ZION,"Zions Bancorporation, National Association",https://www.zionsbancorporation.com,Banks—Regional,Financial Services,44.51,USD,0
+ZTS,Zoetis Inc.,https://www.zoetis.com,Drug Manufacturers—Specialty & Generic,Healthcare,196.9,USD,0

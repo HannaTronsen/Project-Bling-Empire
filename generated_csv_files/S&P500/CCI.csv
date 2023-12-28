@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,CCI
 Company,Crown Castle Inc.
 Country,United States
-Industry,REIT - Specialty
+Industry,REIT—Specialty
 Sector,Real Estate
 Website,https://www.crowncastle.com
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.33953
 
 DIVIDEND
 Dividend Rate,6.26
-Dividend Yield,0.0545
+Dividend Yield,0.0539
 Five Year Avg Dividend Yield,3.6
 Trailing Annual Dividend Rate,6.26
-Trailing Annual Dividend Yield,0.054624785
+Trailing Annual Dividend Yield,0.054156937
 
 FINANCIAL RATIO
 Debt to Equity,430.784
-Price to Cash Flow,7.946025474314128e-08
-Enterprise to EBITDA,18.661
-Price to Book,7.4729924
-Price to Earnings,"PriceToEarnings(trailing_pe=32.07542, forward_pe=39.191128)"
+Price to Cash Flow,8.033215164270026e-08
+Enterprise to EBITDA,18.791
+Price to Book,7.5549912
+Price to Earnings,"PriceToEarnings(trailing_pe=32.427376, forward_pe=39.62116)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.58, forward_eps=2.93)"
-Enterprise to Revenue,11.089
+Enterprise to Revenue,11.167
 
 CASH FLOW
 Free to Cash Flow,1445124992.0

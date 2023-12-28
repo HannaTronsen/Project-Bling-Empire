@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,KIM
 Company,Kimco Realty Corporation
 Country,United States
-Industry,REIT - Retail
+Industry,REIT—Retail
 Sector,Real Estate
 Website,https://www.kimcorealty.com
 Financial_summary,None
@@ -31,16 +31,16 @@ Dividend Rate,0.96
 Dividend Yield,0.044099998
 Five Year Avg Dividend Yield,5.07
 Trailing Annual Dividend Rate,0.92
-Trailing Annual Dividend Yield,0.042124543
+Trailing Annual Dividend Yield,0.042086
 
 FINANCIAL RATIO
 Debt to Equity,73.751
-Price to Cash Flow,2.2169029591807528e-08
-Enterprise to EBITDA,19.113
-Price to Book,1.4065025
-Price to Earnings,"PriceToEarnings(trailing_pe=30.647888, forward_pe=32.969696)"
+Price to Cash Flow,2.2179217564965526e-08
+Enterprise to EBITDA,19.119
+Price to Book,1.407149
+Price to Earnings,"PriceToEarnings(trailing_pe=30.661974, forward_pe=32.984848)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.71, forward_eps=0.66)"
-Enterprise to Revenue,11.587
+Enterprise to Revenue,11.591
 
 CASH FLOW
 Free to Cash Flow,981549504.0

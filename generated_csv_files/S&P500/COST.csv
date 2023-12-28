@@ -13,7 +13,7 @@ Revenue Per Share,553.455
 Revenue Growth,0.062
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.64, forward_eps=17.07)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.67, forward_eps=17.08)"
 Net Earnings,6517000192.0
 Earnings Growth,0.166
 
@@ -31,16 +31,16 @@ Dividend Rate,4.08
 Dividend Yield,0.0061000003
 Five Year Avg Dividend Yield,0.76
 Trailing Annual Dividend Rate,3.96
-Trailing Annual Dividend Yield,0.005953455
+Trailing Annual Dividend Yield,0.0060034567
 
 FINANCIAL RATIO
 Debt to Equity,35.748
-Price to Cash Flow,9.659487142100756e-08
-Enterprise to EBITDA,26.635
-Price to Book,11.398893
-Price to Earnings,"PriceToEarnings(trailing_pe=45.874313, forward_pe=39.343876)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.64, forward_eps=17.07)"
-Enterprise to Revenue,1.178
+Price to Cash Flow,9.59044971166287e-08
+Enterprise to EBITDA,26.439
+Price to Book,11.317424
+Price to Earnings,"PriceToEarnings(trailing_pe=45.453304, forward_pe=39.039814)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.67, forward_eps=17.08)"
+Enterprise to Revenue,1.17
 
 CASH FLOW
 Free to Cash Flow,6952750080.0

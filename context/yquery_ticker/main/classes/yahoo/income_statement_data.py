@@ -71,13 +71,16 @@ class IncomeStatementData(TimeSeriesDataCollection):
         )
 
     def evaluate_growth_criteria(self, percentage_criteria: int, attribute: str) -> bool:
-        return self.passes_percentage_increase_requirements(
-            percentages=self.calculate_percentage_increase_for_model_list(
-                model_list=YQDataFrameData.sorted(self.entries),
-                attribute=attribute
-            ),
-            percentage_requirement=percentage_criteria
-        )
+        model_list = YQDataFrameData.sorted(self.entries)
+        if self.is_consistently_up_trending_model_list(model_list=model_list, attribute=attribute):
+            return self.passes_percentage_increase_requirements(
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=model_list,
+                    attribute=attribute
+                ),
+                percentage_requirement=percentage_criteria
+            )
+        return False
 
     @classmethod
     def mockk(cls):

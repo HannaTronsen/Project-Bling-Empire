@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,BIIB
 Company,Biogen Inc.
 Country,United States
-Industry,Drug Manufacturers—General
+Industry,Drug Manufacturers - General
 Sector,Healthcare
 Website,https://www.biogen.com
 Financial_summary,None
@@ -13,7 +13,7 @@ Revenue Per Share,69.17
 Revenue Growth,0.009
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=15.67)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=15.68)"
 Net Earnings,1461799936.0
 Earnings Growth,None
 
@@ -35,12 +35,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,53.283
-Price to Cash Flow,2.0788315754881165e-07
-Enterprise to EBITDA,16.874
-Price to Book,2.5808098
-Price to Earnings,"PriceToEarnings(trailing_pe=25.64314, forward_pe=16.462667)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=15.67)"
-Enterprise to Revenue,4.283
+Price to Cash Flow,2.1107429335488712e-07
+Enterprise to EBITDA,17.1
+Price to Book,2.6204267
+Price to Earnings,"PriceToEarnings(trailing_pe=26.036777, forward_pe=16.70472)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=15.68)"
+Enterprise to Revenue,4.341
 
 CASH FLOW
 Free to Cash Flow,1240937472.0

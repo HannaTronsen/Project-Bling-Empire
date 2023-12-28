@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,TOTG.OL
 Company,Totens Sparebank
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.totenbanken.no
 Financial_summary,None
@@ -31,14 +31,14 @@ Dividend Rate,11.0
 Dividend Yield,0.055
 Five Year Avg Dividend Yield,5.08
 Trailing Annual Dividend Rate,11.0
-Trailing Annual Dividend Yield,0.056410257
+Trailing Annual Dividend Yield,0.055
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.4889844
-Price to Earnings,"PriceToEarnings(trailing_pe=8.857396, forward_pe=7.46826)"
+Price to Book,0.50365394
+Price to Earnings,"PriceToEarnings(trailing_pe=9.123117, forward_pe=7.6923075)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=22.58, forward_eps=26.78)"
 Enterprise to Revenue,12.405
 

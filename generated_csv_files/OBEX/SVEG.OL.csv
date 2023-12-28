@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SVEG.OL
 Company,Sparebanken Vest
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.spv.no
 Financial_summary,None
@@ -28,19 +28,19 @@ Operating Margins,0.72585
 
 DIVIDEND
 Dividend Rate,5.5
-Dividend Yield,0.0521
+Dividend Yield,0.0519
 Five Year Avg Dividend Yield,4.56
 Trailing Annual Dividend Rate,5.5
-Trailing Annual Dividend Yield,0.05268199
+Trailing Annual Dividend Yield,0.051886793
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.5363946
-Price to Earnings,"PriceToEarnings(trailing_pe=9.182609, forward_pe=7.804878)"
+Price to Book,0.5404582
+Price to Earnings,"PriceToEarnings(trailing_pe=9.252174, forward_pe=7.864006)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=11.5, forward_eps=13.53)"
-Enterprise to Revenue,26.189
+Enterprise to Revenue,26.197
 
 CASH FLOW
 Free to Cash Flow,None

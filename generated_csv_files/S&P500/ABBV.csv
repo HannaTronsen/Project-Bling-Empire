@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,ABBV
 Company,AbbVie Inc.
 Country,United States
-Industry,Drug Manufacturers—General
+Industry,Drug Manufacturers - General
 Sector,Healthcare
 Website,https://www.abbvie.com
 Financial_summary,None
@@ -31,16 +31,16 @@ Dividend Rate,6.2
 Dividend Yield,0.04
 Five Year Avg Dividend Yield,4.5
 Trailing Annual Dividend Rate,5.92
-Trailing Annual Dividend Yield,0.03879678
+Trailing Annual Dividend Yield,0.038287416
 
 FINANCIAL RATIO
 Debt to Equity,504.427
-Price to Cash Flow,6.438262473776102e-09
-Enterprise to EBITDA,11.484
-Price to Book,22.618979
-Price to Earnings,"PriceToEarnings(trailing_pe=42.333332, forward_pe=13.8835125)"
+Price to Cash Flow,6.435769278033062e-09
+Enterprise to EBITDA,11.48
+Price to Book,22.61022
+Price to Earnings,"PriceToEarnings(trailing_pe=42.31694, forward_pe=13.878137)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.66, forward_eps=11.16)"
-Enterprise to Revenue,5.83
+Enterprise to Revenue,5.829
 
 CASH FLOW
 Free to Cash Flow,24065499136.0

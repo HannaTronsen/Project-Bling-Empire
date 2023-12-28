@@ -98,13 +98,14 @@ class CombinableYQData(TimeSeriesDataCollection):
                 CombinableDataClass(
                     asOfDate=income_statement_entry.asOfDate,
                     periodType=income_statement_entry.periodType,
-                    value=(abs(income_statement_entry.netIncome) +
-                           abs(cash_flow_entry.depreciationAndAmortization) +
-                           abs(balance_sheet_entry.accountsReceivable) +
-                           abs(balance_sheet_entry.accountsPayable) +
-                           abs(income_statement_entry.taxProvision) +
-                           abs(cash_flow_entry.capitalExpenditure)
-                           )
+                    value=(
+                            abs(income_statement_entry.netIncome) +
+                            abs(cash_flow_entry.depreciationAndAmortization) +
+                            abs(balance_sheet_entry.accountsReceivable) +
+                            abs(balance_sheet_entry.accountsPayable) +
+                            abs(income_statement_entry.taxProvision) +
+                            abs(cash_flow_entry.capitalExpenditure)
+                    )
                 )
             )
         return result
@@ -128,10 +129,12 @@ class CombinableYQData(TimeSeriesDataCollection):
         else:
             raise TypeError(WRONG_TYPE_STRING.format(type=self.combination))
 
-        return self.passes_percentage_increase_requirements(
-            percentages=self.calculate_percentage_increase_for_model_list(
-                model_list=model_list,
-                attribute="value"
-            ),
-            percentage_requirement=percentage_requirement
-        )
+        if self.is_consistently_up_trending_model_list(model_list=model_list, attribute="value"):
+            return self.passes_percentage_increase_requirements(
+                percentages=self.calculate_percentage_increase_for_model_list(
+                    model_list=model_list,
+                    attribute="value"
+                ),
+                percentage_requirement=percentage_requirement
+            )
+        return False

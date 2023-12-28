@@ -47,13 +47,15 @@ class HistoricalEarningsData(TimeSeriesDataCollection):
 
     @classmethod
     def evaluate_growth_criteria(cls, chart_list: [Chart], percentage_criteria: int, attribute: str) -> bool:
-        return cls.passes_percentage_increase_requirements(
-            percentages=cls.calculate_percentage_increase_for_model_list(
-                model_list=Chart.sorted(chart_list),
-                attribute=attribute
-            ),
-            percentage_requirement=percentage_criteria
-        )
+        if cls.is_consistently_up_trending_model_list(model_list=chart_list, attribute=attribute):
+            return cls.passes_percentage_increase_requirements(
+                percentages=cls.calculate_percentage_increase_for_model_list(
+                    model_list=Chart.sorted(chart_list),
+                    attribute=attribute
+                ),
+                percentage_requirement=percentage_criteria
+            )
+        return False
 
     @classmethod
     def mockk(cls):
