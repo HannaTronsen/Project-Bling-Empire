@@ -1,23 +1,18 @@
 import unittest
 from typing import Optional, Type
-from context.yquery_ticker.main.classes.combinable_yq_data import CombinableYQData
-from context.yquery_ticker.main.classes.yahoo.balance_sheet_data import BalanceSheetData
-from context.yquery_ticker.main.classes.yahoo.cash_flow_data import CashFlowData
+
 from context.yquery_ticker.main.classes.yahoo.historical_earnings_data import HistoricalEarningsData
-from context.yquery_ticker.main.classes.yahoo.income_statement_data import IncomeStatementData
 from context.yquery_ticker.main.data_classes.charts import YearlyFinancialsDataChart
-from context.yquery_ticker.main.data_classes.date import Date, PeriodType
-from context.yquery_ticker.main.data_classes.expenses import Expenses, ExpensesFields
+from context.yquery_ticker.main.data_classes.date import Date
+from context.yquery_ticker.main.data_classes.expenses import Expenses
 from context.yquery_ticker.main.data_classes.financial_data import EarningsPerShare, FinancialData, PriceToEarnings
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
-from context.yquery_ticker.main.data_classes.yq_data_frame_data.balance_sheet import BalanceSheetDataClass
-from context.yquery_ticker.main.data_classes.yq_data_frame_data.cash_flow import CashFlowDataClass
-from context.yquery_ticker.main.data_classes.yq_data_frame_data.income_statement import IncomeStatementDataClass
 from context.yquery_ticker.main.enums.cash_flow_type import CashFlowType
 from context.yquery_ticker.main.enums.growth_criteria import GrowthCriteria
 from context.yquery_ticker.main.enums.quarter import Quarter
 from context.yquery_ticker.main.errors.generic_error import GenericError
+from context.yquery_ticker.tests.utils.test_case import TestCase
 
 
 class test_global_stock_data(unittest.TestCase):
@@ -98,16 +93,16 @@ class test_global_stock_data(unittest.TestCase):
         ).normalize_values()
 
         test_cases = [
-            # general_stock_info.country, # TODO (Hanna): Fix this when we support country properly
-            general_stock_info.long_business_summary,
-            general_stock_info.financial_summary.previous_close,
-            general_stock_info.financial_summary.market_cap,
-            general_stock_info.financial_summary.currency,
-            general_stock_info.financial_summary.dividend_rate
+            # TestCase(none_value=general_stock_info.country), # TODO (Hanna): Fix this when we support country properly
+            TestCase(none_value=general_stock_info.long_business_summary),
+            TestCase(none_value=general_stock_info.financial_summary.previous_close),
+            TestCase(none_value=general_stock_info.financial_summary.market_cap),
+            TestCase(none_value=general_stock_info.financial_summary.currency),
+            TestCase(none_value=general_stock_info.financial_summary.dividend_rate)
         ]
 
-        for test_case in test_cases:
-            self.assertIsNone(test_case)
+        for case in test_cases:
+            self.assertIsNone(case.none_value)
 
     def test_financial_data(self):
         financial_data = FinancialData(
@@ -147,19 +142,19 @@ class test_global_stock_data(unittest.TestCase):
         ).normalize_values()
 
         test_cases = [
-            financial_data.revenue_per_share,
-            financial_data.revenue_growth,
-            financial_data.total_debt,
-            financial_data.total_debt,
-            financial_data.gross_profit_margins,
-            financial_data.operating_margins,
-            financial_data.price_to_earnings.trailing_pe,
-            financial_data.earnings_per_share.forward_eps,
-            financial_data.expenses
+            TestCase(none_value=financial_data.revenue_per_share),
+            TestCase(none_value=financial_data.revenue_growth),
+            TestCase(none_value=financial_data.total_debt),
+            TestCase(none_value=financial_data.total_debt),
+            TestCase(none_value=financial_data.gross_profit_margins),
+            TestCase(none_value=financial_data.operating_margins),
+            TestCase(none_value=financial_data.price_to_earnings.trailing_pe),
+            TestCase(none_value=financial_data.earnings_per_share.forward_eps),
+            TestCase(none_value=financial_data.expenses)
         ]
 
-        for test_case in test_cases:
-            self.assertIsNone(test_case)
+        for case in test_cases:
+            self.assertIsNone(case.none_value)
 
     def test_expenses(self):
         expenses = Expenses(
@@ -170,33 +165,32 @@ class test_global_stock_data(unittest.TestCase):
         ).normalize_values()
 
         test_cases = [
-            expenses.capital_expenditure,
-            expenses.interest_expense,
-            expenses.interest_expense_non_operating
+            TestCase(none_value=expenses.capital_expenditure),
+            TestCase(none_value=expenses.interest_expense),
+            TestCase(none_value=expenses.interest_expense_non_operating),
         ]
 
-        for test_case in test_cases:
-            self.assertIsNone(test_case)
+        for case in test_cases:
+            self.assertIsNone(case.none_value)
 
     def test_calculate_price_to_cashflow(self):
         test_cases = [
-            # price, cash flow, expected
-            (None, 10, None),
-            (10, None, None),
-            (100.0, 10.0, 10.0),
-            (0.0, 10.0, 0.0),
-            (0.0, 0.0, None),
-            (100.0, -10.0, -10),
-            (-100.0, 10.0, -10),
-            (-100.0, -10.0, 10),
+            TestCase(price=None, cash_flow=10, expected_result=None),
+            TestCase(price=10, cash_flow=None, expected_result=None),
+            TestCase(price=100.0, cash_flow=10.0, expected_result=10.0),
+            TestCase(price=0.0, cash_flow=10.0, expected_result=0.0),
+            TestCase(price=0.0, cash_flow=0.0, expected_result=None),
+            TestCase(price=100.0, cash_flow=-10.0, expected_result=-10),
+            TestCase(price=-100.0, cash_flow=10.0, expected_result=-10),
+            TestCase(price=-100.0, cash_flow=-10.0, expected_result=10),
         ]
 
-        for price, cash_flow, expected in test_cases:
+        for case in test_cases:
             self.assert_price_to_cash_flow(
                 financial_data=self.financial_data,
-                price=price,
-                cash_flow=cash_flow,
-                expected=expected
+                price=case.price,
+                cash_flow=case.cash_flow,
+                expected=case.expected_result
             )
 
     def test_get_and_set_cash_flow(self):

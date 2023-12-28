@@ -10,6 +10,7 @@ from context.yquery_ticker.main.data_classes.charts import (
     QuarterlyFinancialsDataChart,
     YearlyFinancialsDataChart
 )
+from context.yquery_ticker.tests.utils.test_case import TestCase
 
 
 class test_earnings(unittest.TestCase):
@@ -212,52 +213,101 @@ class test_earnings(unittest.TestCase):
         )
 
     def test_is_consistently_up_trending(self):
+
         test_cases = [
-            # model_list, attribute, expected_result
-            (self.quarterly_earnings_data_up_trending_list, 'actual', True),
-            (self.quarterly_earnings_data_dip_in_up_trend_list, 'actual', False),
-            (self.quarterly_earnings_data_dip_in_up_trend_list, 'estimate', False),
-            (self.yearly_financials_data_dip_in_up_trend_list, 'revenue', False),
+            TestCase(
+                model_list=self.quarterly_earnings_data_up_trending_list,
+                attribute='actual',
+                expected_result=True
+            ),
+            TestCase(
+                model_list=self.quarterly_earnings_data_dip_in_up_trend_list,
+                attribute='actual',
+                expected_result=False
+            ),
+            TestCase(
+                model_list=self.quarterly_earnings_data_dip_in_up_trend_list,
+                attribute='estimate',
+                expected_result=False
+            ),
+            TestCase(
+                model_list=self.yearly_financials_data_dip_in_up_trend_list,
+                attribute='revenue',
+                expected_result=False
+            ),
         ]
 
-        for model_list, attribute, expected_result in test_cases:
+        for case in test_cases:
             result, _ = TimeSeriesDataCollection.is_consistently_up_trending_model_list(
-                model_list=model_list,
-                attribute=attribute
+                model_list=case.model_list,
+                attribute=case.attribute
             )
-            assert result is expected_result
+            assert result is case.expected_result
 
         test_cases = [
-            # model_list, attribute, expected_exception
-            (self.quarterly_earnings_data_up_trending_list, 'none', AttributeError),
-            (self.exception_list, 'revenue', ValueError),
-            (self.exception_list, 'earnings', ValueError),
-            ([], 'earnings', ValueError),
-            (self.one_value_list, 'earnings', ValueError),
+            TestCase(
+                model_list=self.quarterly_earnings_data_up_trending_list,
+                attribute='none',
+                expected_exception=AttributeError
+            ),
+            TestCase(
+                model_list=self.exception_list,
+                attribute='revenue',
+                expected_exception=ValueError
+            ),
+            TestCase(
+                model_list=self.exception_list,
+                attribute='earnings',
+                expected_exception=ValueError
+            ),
+            TestCase(
+                model_list=[],
+                attribute='earnings',
+                expected_exception=ValueError
+            ),
+            TestCase(
+                model_list=self.one_value_list,
+                attribute='earnings',
+                expected_exception=ValueError
+            ),
         ]
 
-        for model_list, attribute, expected_exception in test_cases:
+        for case in test_cases:
             self.assertRaises(
-                expected_exception,
+                case.expected_exception,
                 TimeSeriesDataCollection.is_consistently_up_trending_model_list,
-                model_list=model_list,
-                attribute=attribute
+                model_list=case.model_list,
+                attribute=case.attribute
             )
 
     def test_get_consecutive_upward_trend_interval(self):
         test_cases = [
-            # model_list, attribute, expected_bool, expected_interval
-            (self.quarterly_earnings_data_dip_in_up_trend_list, 'actual', False, 3),
-            (self.quarterly_earnings_data_dip_in_up_trend_list, 'estimate', False, 2),
-            (self.negative_values_list, 'revenue', False, 1),
+            TestCase(
+                model_list=self.quarterly_earnings_data_dip_in_up_trend_list,
+                attribute='actual',
+                expected_bool=False,
+                expected_interval=3
+            ),
+            TestCase(
+                model_list=self.quarterly_earnings_data_dip_in_up_trend_list,
+                attribute='estimate',
+                expected_bool=False,
+                expected_interval=2
+            ),
+            TestCase(
+                model_list=self.negative_values_list,
+                attribute='revenue',
+                expected_bool=False,
+                expected_interval=1
+            ),
         ]
 
-        for model_list, attribute, expected_bool, expected_interval in test_cases:
+        for case in test_cases:
             result, interval = TimeSeriesDataCollection.is_consistently_up_trending_model_list(
-                model_list=model_list,
-                attribute=attribute
+                model_list=case.model_list,
+                attribute=case.attribute
             )
-            assert result is expected_bool and interval is expected_interval
+            assert result is case.expected_bool and interval is case.expected_interval
 
     def test_calculate_percentage_increase_for_data_set(self):
         assert TimeSeriesDataCollection.calculate_percentage_increase_for_model_list(
@@ -284,4 +334,3 @@ class test_earnings(unittest.TestCase):
             percentages=[10, 15],
             percentage_requirement=20
         ) is False
-

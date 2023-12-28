@@ -6,6 +6,7 @@ from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 from context.yquery_ticker.main.data_classes.date import Date
 from context.yquery_ticker.main.data_classes.yq_data_frame_data.earnings_history import EarningsHistoryDataClass
 from context.yquery_ticker.main.enums.quarter import Quarter
+from context.yquery_ticker.tests.utils.test_case import TestCase
 
 
 class test_earnings_history(unittest.TestCase):
@@ -85,16 +86,31 @@ class test_earnings_history(unittest.TestCase):
 
     def test_is_consistently_up_trending(self):
         test_cases = [
-            # model_list, attribute, expected_result
-            (self.aapl_earnings_history_expected_list, 'epsActual', False),
-            (self.aapl_earnings_history_expected_list, 'epsEstimate', False),
-            (self.aapl_earnings_history_expected_list, 'epsDifference', False),
-            (self.earnings_history_up_trending_list, 'epsActual', True),
+            TestCase(
+                model_list=self.aapl_earnings_history_expected_list,
+                attribute="epsActual",
+                expected_result=False
+            ),
+            TestCase(
+                model_list=self.aapl_earnings_history_expected_list,
+                attribute="epsEstimate",
+                expected_result=False
+            ),
+            TestCase(
+                model_list=self.aapl_earnings_history_expected_list,
+                attribute="epsDifference",
+                expected_result=False
+            ),
+            TestCase(
+                model_list=self.earnings_history_up_trending_list,
+                attribute="epsActual",
+                expected_result=True
+            ),
         ]
 
-        for model_list, attribute, expected_result in test_cases:
+        for case in test_cases:
             result, _ = TimeSeriesDataCollection.is_consistently_up_trending_model_list(
-                model_list=model_list,
-                attribute=attribute
+                model_list=case.model_list,
+                attribute=case.attribute
             )
-            assert result is expected_result
+            assert result is case.expected_result
