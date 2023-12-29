@@ -55,11 +55,11 @@ class ComparableCSV:
         )
 
         for ticker in sorted_collection:
-            # if GENERATE_INDIVIDUAL_TICKER_CSV and not os.path.exists(
-            #         f'{GENERATED_CSV_FILES_PATH}{collection.stock_index_name}/comparison/{TIME_STAMP}/'
-            # ):
-            with ThreadPoolExecutor() as executor:
-                executor.submit(ticker.to_csv(stock_collection=collection.stock_index_name))
+            if GENERATE_INDIVIDUAL_TICKER_CSV and not os.path.exists(
+                    f'{GENERATED_CSV_FILES_PATH}{collection.stock_index_name}/comparison/{TIME_STAMP}/'
+            ):
+                with ThreadPoolExecutor() as executor:
+                    executor.submit(ticker.to_csv(stock_collection=collection.stock_index_name))
 
             currency = ticker.general_stock_info.financial_summary.currency
 
@@ -88,9 +88,7 @@ class ComparableCSV:
                 ticker.website,
                 ticker.industry,
                 ticker.sector,
-                "not available yet",
-                "not available yet",
-                # ticker.price,
-                # ticker.currency,
+                ticker.price,
+                ticker.currency,
                 ticker.criteria_pass_count,
             ])

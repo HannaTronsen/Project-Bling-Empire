@@ -76,7 +76,6 @@ def _get_query_ticker_objects_from_csv(stock_collection: StockCollectionClass) -
         file_path = os.path.join(folder_path, file_name)
 
         simple_stock_data = {}
-
         if os.path.isfile(file_path):
             with open(file_path, 'r', newline='') as file:
                 reader = csv.reader(file, delimiter='\t')
@@ -96,8 +95,8 @@ def _get_query_ticker_objects_from_csv(stock_collection: StockCollectionClass) -
                         website=simple_stock_data["Website"],
                         industry=simple_stock_data["Industry"],
                         sector=simple_stock_data["Sector"],
-                        price="0",  # simple_stock_data["Price"],
-                        currency="NOK",  # simple_stock_data["Currency"],
+                        price=simple_stock_data["Price"],
+                        currency=simple_stock_data["Currency"],
                         criteria_pass_count=simple_stock_data["CRITERIA PASS COUNT"],
                     )
                 )
