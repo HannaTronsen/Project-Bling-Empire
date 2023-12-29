@@ -2,9 +2,10 @@ import os
 from context.ticker_scraper.main.const import STOCK_COLLECTIONS_PATH
 from const import GENERATED_CSV_FILES_PATH
 
-RUN_TESTS = True
+RUN_TESTS = False
 GENERATE_TICKER_CSV = False
-GENERATE_COMPARABLE_CSV = False
+GENERATE_COMPARABLE_CSV = True
+
 
 CASTABLE_DATA_SHOW_DEBUG_PRINT = False
 QUARTER_SHOW_DEBUG_PRINT = True

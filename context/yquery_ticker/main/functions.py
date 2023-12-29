@@ -1,5 +1,6 @@
 import os
 import re
+import concurrent.futures
 from typing import Optional, Dict, List, TextIO
 from yahooquery import Ticker
 from const import (
@@ -50,32 +51,52 @@ def _open_or_create_blacklisted_stock_file(stock_collection: str) -> TextIO:
     return open(full_blacklisted_path, "r+")
 
 
-def validate_and_get_grouped_yahoo_query_ticker_objects() -> Dict[StockCollectionClass, List[GlobalStockDataClass]]:
+def get_query_ticker_objects(stock_collection: StockCollectionClass) -> List[GlobalStockDataClass]:
+    yquery_tickers: List[GlobalStockDataClass] = []
+
+    blacklisted_stocks_file = _open_or_create_blacklisted_stock_file(stock_collection.stock_index_name)
+
+    blacklisted_stocks_file_content = blacklisted_stocks_file.read()
+
+    stock_tickers_file = open(stock_collection.file_path, "r").readlines()
+
+    stock_collection_tickers: List[GlobalStockDataClass] = []
+
+    for ticker in stock_tickers_file:
+        stripped_ticker = ticker.strip()
+        if re.search(ticker, blacklisted_stocks_file_content) is None:
+            yquery_ticker = Ticker(stripped_ticker)
+            if not passed_yahoo_query_validation_check(ticker_symbol=stripped_ticker, ticker=yquery_ticker):
+                print(f"Required information for ticker {stripped_ticker} is missing.")
+                blacklisted_stocks_file.write(f"{stripped_ticker}\n")
+            else:
+                print(f"Found information for ticker {stripped_ticker}")
+                ticker = GlobalStockDataClass(ticker_symbol=stripped_ticker, ticker=yquery_ticker)
+                stock_collection_tickers.append(ticker)
+        else:
+            print(f"Ticker symbol: {stripped_ticker} found in blacklisted stock file and will be skipped")
+
+    yquery_tickers.extend(stock_collection_tickers)
+    blacklisted_stocks_file.close()
+    return yquery_tickers
+
+
+def get_grouped_yahoo_query_ticker_objects() -> Dict[StockCollectionClass, List[GlobalStockDataClass]]:
     yquery_tickers: Dict[StockCollectionClass, List[GlobalStockDataClass]] = {}
 
-    for stock_collection in CONST_COLLECTION.STCOK_COLLECTION_LIST:
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        # Create a dictionary to store the future and corresponding stock collection
+        futures_to_collections = {
+            executor.submit(get_query_ticker_objects, stock_collection): stock_collection
+            for stock_collection in CONST_COLLECTION.STCOK_COLLECTION_LIST
+        }
 
-        blacklisted_stocks_file = _open_or_create_blacklisted_stock_file(stock_collection.stock_index_name)
-
-        blacklisted_stocks_file_content = blacklisted_stocks_file.read()
-
-        stock_tickers_file = open(stock_collection.file_path, "r").readlines()
-
-        stock_collection_tickers: List[GlobalStockDataClass] = []
-
-        for ticker in stock_tickers_file:
-            stripped_ticker = ticker.strip()
-            if re.search(ticker, blacklisted_stocks_file_content) is None:
-                yquery_ticker = Ticker(stripped_ticker)
-                if not passed_yahoo_query_validation_check(ticker_symbol=stripped_ticker, ticker=yquery_ticker):
-                    print(f"Required information for ticker {stripped_ticker} is missing.")
-                    blacklisted_stocks_file.write(f"{stripped_ticker}\n")
-                else:
-                    print(f"Found information for ticker {stripped_ticker}")
-                    ticker = GlobalStockDataClass(ticker_symbol=stripped_ticker, ticker=yquery_ticker)
-                    stock_collection_tickers.append(ticker)
-            else:
-                print(f"Ticker symbol: {stripped_ticker} found in blacklisted stock file and will be skipped")
-        yquery_tickers[stock_collection] = stock_collection_tickers
-        blacklisted_stocks_file.close()
+        # Iterate over completed futures and retrieve results
+        for future in concurrent.futures.as_completed(futures_to_collections):
+            stock_collection = futures_to_collections[future]
+            try:
+                result = future.result()
+                yquery_tickers[stock_collection] = result
+            except Exception as e:
+                print(f"An error occurred while processing {stock_collection}: {e}")
     return yquery_tickers

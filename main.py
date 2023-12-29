@@ -5,7 +5,7 @@ from const import TEST_PATHS
 from context.ticker_scraper.main.functions import fetch_tickers
 from context.ticker_scraper.main.stock_collections import NORWAY
 from context.yquery_ticker.main.functions import (
-    validate_and_get_grouped_yahoo_query_ticker_objects,
+    get_grouped_yahoo_query_ticker_objects,
     validate_and_get_yahoo_query_ticker_object,
 )
 from context.yquery_ticker.main.utils.comparable_csv import ComparableCSV
@@ -14,7 +14,7 @@ from context.yquery_ticker.main.utils.comparable_csv import ComparableCSV
 def main():
     initialize_environment()
     fetch_tickers()
-    ComparableCSV(stock_collection=validate_and_get_grouped_yahoo_query_ticker_objects()).create()
+    ComparableCSV(stock_collection=get_grouped_yahoo_query_ticker_objects()).create()
 
 
 if __name__ == '__main__':

@@ -2,7 +2,7 @@ GENERAL STOCK INFO
 Ticker,SOR.OL
 Company,Sparebanken Sør
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.sor.no
 Financial_summary,None
@@ -37,8 +37,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.38521218
-Price to Earnings,"PriceToEarnings(trailing_pe=8.2848835, forward_pe=8.338209)"
+Price to Book,0.38926706
+Price to Earnings,"PriceToEarnings(trailing_pe=8.372092, forward_pe=8.42598)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=17.2, forward_eps=17.09)"
 Enterprise to Revenue,21.407
 
