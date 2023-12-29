@@ -5,7 +5,8 @@ Country,United Kingdom
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.odfjelldrilling.com
-Financial_summary,None
+Price,38.8
+Currency,NOK
 
 REVENUE
 Total Revenue,707500032.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0030927835
 
 FINANCIAL RATIO
 Debt to Equity,57.646
-Price to Cash Flow,1.4715782710332834e-07
-Enterprise to EBITDA,21.823
-Price to Book,6.6495285
-Price to Earnings,"PriceToEarnings(trailing_pe=4.0, forward_pe=168.69565)"
+Price to Cash Flow,1.494334636049262e-07
+Enterprise to EBITDA,22.137
+Price to Book,6.7523565
+Price to Earnings,"PriceToEarnings(trailing_pe=4.061856, forward_pe=171.30435)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=9.7, forward_eps=0.23)"
-Enterprise to Revenue,13.939
+Enterprise to Revenue,14.14
 
 CASH FLOW
 Free to Cash Flow,263662496.0

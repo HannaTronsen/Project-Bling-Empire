@@ -5,7 +5,8 @@ Country,Norway
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.medistim.com
-Financial_summary,None
+Price,220.0
+Currency,NOK
 
 REVENUE
 Total Revenue,526892992.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.020454545
 
 FINANCIAL RATIO
 Debt to Equity,1.097
-Price to Cash Flow,2.5604246114215045e-06
+Price to Cash Flow,2.5134443433220275e-06
 Enterprise to EBITDA,24.649
-Price to Book,10.524792
-Price to Earnings,"PriceToEarnings(trailing_pe=34.0625, forward_pe=33.181126)"
+Price to Book,10.3316765
+Price to Earnings,"PriceToEarnings(trailing_pe=33.4375, forward_pe=32.572296)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.4, forward_eps=6.57)"
 Enterprise to Revenue,7.393
 

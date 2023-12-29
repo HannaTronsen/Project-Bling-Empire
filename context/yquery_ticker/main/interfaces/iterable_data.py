@@ -44,8 +44,9 @@ class IterableDataInterface(ABC):
             if is_dataclass(type(value)):
                 value.normalize_values()
             else:
-                # Check for wrong types and cast if possible
-                value = self.cast_check(field=field, value=value)
+                if type(value) in {int, float, str, bool, type(None)}:
+                    # Check for wrong types and cast if possible
+                    value = self.cast_check(field=field, value=value)
 
             # If any type of invalid values are given, we set a universal `None` value
             if value is None or value == "" or value == 'N/A' or isinstance(value, float | int) and math.isnan(value):  # type: ignore

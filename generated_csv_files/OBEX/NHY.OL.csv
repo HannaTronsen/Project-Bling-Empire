@@ -5,7 +5,8 @@ Country,Norway
 Industry,Aluminum
 Sector,Basic Materials
 Website,https://www.hydro.com
-Financial_summary,None
+Price,68.68
+Currency,NOK
 
 REVENUE
 Total Revenue,190941003776.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.08226558
 
 FINANCIAL RATIO
 Debt to Equity,33.14
-Price to Cash Flow,2.766112513402754e-09
-Enterprise to EBITDA,3.438
-Price to Book,1.3423716
-Price to Earnings,"PriceToEarnings(trailing_pe=21.757961, forward_pe=11.861111)"
+Price to Cash Flow,2.76935152102969e-09
+Enterprise to EBITDA,3.426
+Price to Book,1.3439435
+Price to Earnings,"PriceToEarnings(trailing_pe=21.78344, forward_pe=11.875)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=5.76)"
-Enterprise to Revenue,0.829
+Enterprise to Revenue,0.826
 
 CASH FLOW
 Free to Cash Flow,24698923008.0

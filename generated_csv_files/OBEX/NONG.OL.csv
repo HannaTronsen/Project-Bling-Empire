@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no
-Financial_summary,None
+Price,102.0
+Currency,NOK
 
 REVENUE
 Total Revenue,4958000128.0
@@ -37,10 +38,10 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.6855814
-Price to Earnings,"PriceToEarnings(trailing_pe=9.344262, forward_pe=8.479339)"
+Price to Book,0.68959063
+Price to Earnings,"PriceToEarnings(trailing_pe=9.398908, forward_pe=8.528925)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.98, forward_eps=12.1)"
-Enterprise to Revenue,6.368
+Enterprise to Revenue,6.392
 
 CASH FLOW
 Free to Cash Flow,None

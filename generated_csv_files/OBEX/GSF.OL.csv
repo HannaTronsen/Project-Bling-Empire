@@ -5,7 +5,8 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://griegseafood.com
-Financial_summary,None
+Price,67.85
+Currency,NOK
 
 REVENUE
 Total Revenue,6771796992.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.06632277
 
 FINANCIAL RATIO
 Debt to Equity,65.728
-Price to Cash Flow,-6.605542860171389e-07
-Enterprise to EBITDA,9.509
-Price to Book,1.2401804
-Price to Earnings,"PriceToEarnings(trailing_pe=97.428566, forward_pe=10.333333)"
+Price to Cash Flow,-6.615228406887182e-07
+Enterprise to EBITDA,9.552
+Price to Book,1.2419989
+Price to Earnings,"PriceToEarnings(trailing_pe=97.571434, forward_pe=10.348485)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.7, forward_eps=6.6)"
-Enterprise to Revenue,1.651
+Enterprise to Revenue,1.658
 
 CASH FLOW
 Free to Cash Flow,-103246624.0

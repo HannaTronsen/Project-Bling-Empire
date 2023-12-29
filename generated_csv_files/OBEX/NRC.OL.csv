@@ -5,7 +5,8 @@ Country,Norway
 Industry,Railroads
 Sector,Industrials
 Website,https://www.nrcgroup.com
-Financial_summary,None
+Price,10.58
+Currency,NOK
 
 REVENUE
 Total Revenue,6887000064.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,54.702
-Price to Cash Flow,9.63302752293578e-08
-Enterprise to EBITDA,10.033
-Price to Book,0.31394827
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.894737)"
+Price to Cash Flow,9.816513761467889e-08
+Enterprise to EBITDA,10.083
+Price to Book,0.31992823
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.045113)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.33)"
-Enterprise to Revenue,0.256
+Enterprise to Revenue,0.258
 
 CASH FLOW
 Free to Cash Flow,109000000.0

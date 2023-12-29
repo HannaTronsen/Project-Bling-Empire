@@ -5,7 +5,8 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.havilashipping.no
-Financial_summary,None
+Price,5.42
+Currency,NOK
 
 REVENUE
 Total Revenue,688270976.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,3547.844
-Price to Cash Flow,-1.568042003334622e-08
-Enterprise to EBITDA,7.857
-Price to Book,2.666994
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-2.715)"
+Price to Cash Flow,-1.556491049350573e-08
+Enterprise to EBITDA,7.854
+Price to Book,2.6473477
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-2.695)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-2.45, forward_eps=-2.0)"
-Enterprise to Revenue,2.549
+Enterprise to Revenue,2.548
 
 CASH FLOW
 Free to Cash Flow,-346291744.0

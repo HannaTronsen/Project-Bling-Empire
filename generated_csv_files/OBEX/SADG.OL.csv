@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.dengulebanken.no
-Financial_summary,None
+Price,89.2
+Currency,NOK
 
 REVENUE
 Total Revenue,725651008.0
@@ -37,10 +38,10 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.5735851
-Price to Earnings,"PriceToEarnings(trailing_pe=9.765958, forward_pe=8.46083)"
+Price to Book,0.5710858
+Price to Earnings,"PriceToEarnings(trailing_pe=9.723405, forward_pe=8.423963)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=9.4, forward_eps=10.85)"
-Enterprise to Revenue,19.05
+Enterprise to Revenue,19.114
 
 CASH FLOW
 Free to Cash Flow,None

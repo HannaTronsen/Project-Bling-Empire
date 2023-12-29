@@ -7,7 +7,7 @@ class CONST_COLLECTION:
 
     STCOK_COLLECTION_LIST = [
         NORWAY,
-        STANDARD_AND_POOR_500,
+        # STANDARD_AND_POOR_500,
         # GERMANY,
         # HONG_KONG,
         # UNITED_KINGDOM, They changed table format

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Electronic Components
 Sector,Technology
 Website,https://www.polight.com
-Financial_summary,None
+Price,20.7
+Currency,NOK
 
 REVENUE
 Total Revenue,21456000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,1.471
-Price to Cash Flow,-2.9016523421534053e-07
-Enterprise to EBITDA,-16.1
-Price to Book,6.157205
+Price to Cash Flow,-2.942810531403808e-07
+Enterprise to EBITDA,-16.745
+Price to Book,6.2445416
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.2, forward_eps=None)"
-Enterprise to Revenue,56.959
+Enterprise to Revenue,59.241
 
 CASH FLOW
 Free to Cash Flow,-72889504.0

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://www.akerasa.com
-Financial_summary,None
+Price,672.0
+Currency,NOK
 
 REVENUE
 Total Revenue,13624000512.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.02232143
 
 FINANCIAL RATIO
 Debt to Equity,65.906
-Price to Cash Flow,-7.293966339085491e-08
+Price to Cash Flow,-7.304934709520205e-08
 Enterprise to EBITDA,-23.025
-Price to Book,1.0817846
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=25.333334)"
+Price to Book,1.0834113
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=25.37143)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-39.98, forward_eps=26.25)"
 Enterprise to Revenue,5.82
 

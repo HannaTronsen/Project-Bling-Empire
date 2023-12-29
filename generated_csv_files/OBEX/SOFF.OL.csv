@@ -5,7 +5,8 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.solstad.com
-Financial_summary,None
+Price,36.78
+Currency,NOK
 
 REVENUE
 Total Revenue,7603133952.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,884.836
-Price to Cash Flow,9.178982375462283e-08
+Price to Cash Flow,9.371477590841734e-08
 Enterprise to EBITDA,6.595
-Price to Book,1.4670877
-Price to Earnings,"PriceToEarnings(trailing_pe=60.4, forward_pe=5.4332833)"
+Price to Book,1.4978545
+Price to Earnings,"PriceToEarnings(trailing_pe=61.666664, forward_pe=5.5472264)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.6, forward_eps=6.67)"
 Enterprise to Revenue,2.329
 

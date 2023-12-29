@@ -5,7 +5,8 @@ Country,Norway
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.b2-impact.com
-Financial_summary,None
+Price,7.13
+Currency,NOK
 
 REVENUE
 Total Revenue,3048000000.0
@@ -37,10 +38,10 @@ FINANCIAL RATIO
 Debt to Equity,187.215
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.48159778
-Price to Earnings,"PriceToEarnings(trailing_pe=7.752688, forward_pe=6.380531)"
+Price to Book,0.49094918
+Price to Earnings,"PriceToEarnings(trailing_pe=7.9032254, forward_pe=6.5044246)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.93, forward_eps=1.13)"
-Enterprise to Revenue,3.991
+Enterprise to Revenue,4.018
 
 CASH FLOW
 Free to Cash Flow,None

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.kid.no
-Financial_summary,None
+Price,116.2
+Currency,NOK
 
 REVENUE
 Total Revenue,3268999936.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.04948365
 
 FINANCIAL RATIO
 Debt to Equity,145.723
-Price to Cash Flow,1.8142357637675548e-07
+Price to Cash Flow,1.8457329124440748e-07
 Enterprise to EBITDA,None
-Price to Book,3.7553787
-Price to Earnings,"PriceToEarnings(trailing_pe=19.558575, forward_pe=13.1807785)"
+Price to Book,3.8205762
+Price to Earnings,"PriceToEarnings(trailing_pe=19.898132, forward_pe=13.409611)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.89, forward_eps=8.74)"
 Enterprise to Revenue,None
 

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.gjensidige.no
-Financial_summary,None
+Price,183.4
+Currency,NOK
 
 REVENUE
 Total Revenue,37994299392.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.044983644
 
 FINANCIAL RATIO
 Debt to Equity,18.542
-Price to Cash Flow,-2.745140850791621e-09
-Enterprise to EBITDA,4.028
-Price to Book,4.281134
-Price to Earnings,"PriceToEarnings(trailing_pe=17.21707, forward_pe=15.945017)"
+Price to Cash Flow,-2.773243047001234e-09
+Enterprise to EBITDA,4.312
+Price to Book,4.32496
+Price to Earnings,"PriceToEarnings(trailing_pe=17.393322, forward_pe=16.108248)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.78, forward_eps=11.64)"
-Enterprise to Revenue,0.777
+Enterprise to Revenue,0.832
 
 CASH FLOW
 Free to Cash Flow,-67610374144.0

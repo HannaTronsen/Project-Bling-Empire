@@ -5,7 +5,8 @@ Country,Norway
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.interoil.no
-Financial_summary,None
+Price,0.605
+Currency,NOK
 
 REVENUE
 Total Revenue,20273000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.4367188448003882e-07
-Enterprise to EBITDA,81.483
+Price to Cash Flow,1.4561339643247178e-07
+Enterprise to EBITDA,80.923
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=59.2)"
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=60.000004)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.38, forward_eps=0.01)"
-Enterprise to Revenue,7.058
+Enterprise to Revenue,7.009
 
 CASH FLOW
 Free to Cash Flow,4120500.0

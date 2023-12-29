@@ -5,7 +5,8 @@ Country,Norway
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.orkla.no
-Financial_summary,None
+Price,78.28
+Currency,NOK
 
 REVENUE
 Total Revenue,66134999040.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.038323965
 
 FINANCIAL RATIO
 Debt to Equity,46.727
-Price to Cash Flow,2.8683025121773355e-08
-Enterprise to EBITDA,11.226
-Price to Book,1.7662362
-Price to Earnings,"PriceToEarnings(trailing_pe=14.666667, forward_pe=13.061359)"
+Price to Cash Flow,2.8712159733374953e-08
+Enterprise to EBITDA,11.289
+Price to Book,1.76803
+Price to Earnings,"PriceToEarnings(trailing_pe=14.681564, forward_pe=13.074626)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.37, forward_eps=6.03)"
-Enterprise to Revenue,1.512
+Enterprise to Revenue,1.521
 
 CASH FLOW
 Free to Cash Flow,2745874944.0

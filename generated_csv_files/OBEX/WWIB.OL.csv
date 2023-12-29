@@ -5,7 +5,8 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.wilhelmsen.com
-Financial_summary,None
+Price,347.0
+Currency,NOK
 
 REVENUE
 Total Revenue,1004000000.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0017550433
 
 FINANCIAL RATIO
 Debt to Equity,21.581
-Price to Cash Flow,-1.224561403508772e-05
+Price to Cash Flow,-1.2385964912280701e-05
 Enterprise to EBITDA,144.665
-Price to Book,5.9949155
-Price to Earnings,"PriceToEarnings(trailing_pe=3.4826863, forward_pe=None)"
+Price to Book,6.0636253
+Price to Earnings,"PriceToEarnings(trailing_pe=3.5226026, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=100.21, forward_eps=None)"
 Enterprise to Revenue,15.706
 

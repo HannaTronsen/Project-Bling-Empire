@@ -5,7 +5,8 @@ Country,Norway
 Industry,Medical Distribution
 Sector,Healthcare
 Website,https://www.navamedic.com
-Financial_summary,None
+Price,36.7
+Currency,NOK
 
 REVENUE
 Total Revenue,502652992.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,59.594
-Price to Cash Flow,1.004949182520518e-06
+Price to Cash Flow,1.00769494531429e-06
 Enterprise to EBITDA,12.486
-Price to Book,3.0066538
-Price to Earnings,"PriceToEarnings(trailing_pe=31.016949, forward_pe=13.811319)"
+Price to Book,3.014869
+Price to Earnings,"PriceToEarnings(trailing_pe=31.101696, forward_pe=13.849056)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.18, forward_eps=2.65)"
 Enterprise to Revenue,1.424
 

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Waste Management
 Sector,Industrials
 Website,https://www.tomra.com
-Financial_summary,None
+Price,122.4
+Currency,NOK
 
 REVENUE
 Total Revenue,14110000128.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0147058815
 
 FINANCIAL RATIO
 Debt to Equity,68.533
-Price to Cash Flow,-1.864691100867058e-07
+Price to Cash Flow,-1.861675021447944e-07
 Enterprise to EBITDA,20.171
-Price to Book,5.384984
-Price to Earnings,"PriceToEarnings(trailing_pe=37.69817, forward_pe=33.692097)"
+Price to Book,5.3762736
+Price to Earnings,"PriceToEarnings(trailing_pe=37.637196, forward_pe=33.6376)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.28, forward_eps=3.67)"
 Enterprise to Revenue,2.883
 

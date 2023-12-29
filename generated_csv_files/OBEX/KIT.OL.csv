@@ -5,7 +5,8 @@ Country,Norway
 Industry,Electronic Components
 Sector,Technology
 Website,https://www.kitron.com
-Financial_summary,None
+Price,32.8
+Currency,NOK
 
 REVENUE
 Total Revenue,684379200.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0013414634
 
 FINANCIAL RATIO
 Debt to Equity,103.463
-Price to Cash Flow,1.1663487169708781e-06
+Price to Cash Flow,1.1733538143701026e-06
 Enterprise to EBITDA,88.288
-Price to Book,38.586327
-Price to Earnings,"PriceToEarnings(trailing_pe=12.566037, forward_pe=133.2)"
+Price to Book,38.818077
+Price to Earnings,"PriceToEarnings(trailing_pe=12.641509, forward_pe=134.0)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.65, forward_eps=0.25)"
 Enterprise to Revenue,9.505
 

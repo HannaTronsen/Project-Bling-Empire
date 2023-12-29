@@ -5,7 +5,8 @@ Country,Norway
 Industry,Leisure
 Sector,Consumer Cyclical
 Website,https://www.satsgroup.com
-Financial_summary,None
+Price,15.34
+Currency,NOK
 
 REVENUE
 Total Revenue,4588000256.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,666.243
-Price to Cash Flow,1.309961830499412e-08
+Price to Cash Flow,1.3204136536150988e-08
 Enterprise to EBITDA,-137.638
-Price to Book,3.0025954
-Price to Earnings,"PriceToEarnings(trailing_pe=88.47059, forward_pe=12.032)"
+Price to Book,3.0265522
+Price to Earnings,"PriceToEarnings(trailing_pe=89.17647, forward_pe=12.128)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.17, forward_eps=1.25)"
 Enterprise to Revenue,2.07
 

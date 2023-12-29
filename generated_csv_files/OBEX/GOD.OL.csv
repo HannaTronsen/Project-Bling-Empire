@@ -5,7 +5,8 @@ Country,Norway
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://www.goodtech.no
-Financial_summary,None
+Price,9.84
+Currency,NOK
 
 REVENUE
 Total Revenue,746627968.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,29.934
-Price to Cash Flow,-4.785137577090905e-07
-Enterprise to EBITDA,16.082
-Price to Book,0.9778928
-Price to Earnings,"PriceToEarnings(trailing_pe=245.5, forward_pe=18.185184)"
+Price to Cash Flow,-4.814374670229954e-07
+Enterprise to EBITDA,16.145
+Price to Book,0.98386776
+Price to Earnings,"PriceToEarnings(trailing_pe=247.00002, forward_pe=18.296295)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=0.54)"
-Enterprise to Revenue,0.373
+Enterprise to Revenue,0.374
 
 CASH FLOW
 Free to Cash Flow,-20521876.0

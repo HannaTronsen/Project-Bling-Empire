@@ -4,6 +4,7 @@ from typing import Callable
 from const import GENERATED_CSV_FILES_PATH
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
+from context.yquery_ticker.main.enums.currency import Currency
 from context.yquery_ticker.main.errors.generic_error import GenericError
 
 
@@ -57,8 +58,16 @@ class CsvConverter:
             writer.writerow([Section.GENERAL_STOCK_INFO.value])
             for key, value in general_stock_info:
                 if key != "long_business_summary":
-                    value = value if not isinstance(value, FinancialSummary) and value is not None else "None"
-                    writer.writerow([key.capitalize(), value])
+                    if isinstance(value, FinancialSummary):
+                        for _key, _value in general_stock_info.financial_summary:
+                            if _key == "previous_close":
+                                writer.writerow(["Price", _value])
+                            if _key == "currency":
+                                writer.writerow([_key.capitalize(), _value.value])
+                    else:
+                        value = value if value is not None else "None"
+                        writer.writerow([key.capitalize(), value])
+
             writer.writerow([])
 
             # Write each section

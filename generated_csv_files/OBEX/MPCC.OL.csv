@@ -5,7 +5,8 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.mpc-container.com
-Financial_summary,None
+Price,13.365
+Currency,NOK
 
 REVENUE
 Total Revenue,720512000.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.044145156
 
 FINANCIAL RATIO
 Debt to Equity,22.251
-Price to Cash Flow,6.600783047156592e-07
+Price to Cash Flow,6.638145970065025e-07
 Enterprise to EBITDA,11.83
-Price to Book,7.554162
-Price to Earnings,"PriceToEarnings(trailing_pe=1.4837625, forward_pe=27.604168)"
+Price to Book,7.5969214
+Price to Earnings,"PriceToEarnings(trailing_pe=1.4921612, forward_pe=27.760416)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=8.93, forward_eps=0.48)"
 Enterprise to Revenue,8.348
 

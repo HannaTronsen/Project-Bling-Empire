@@ -5,7 +5,8 @@ Country,Norway
 Industry,Agricultural Inputs
 Sector,Basic Materials
 Website,https://www.yara.com
-Financial_summary,None
+Price,362.7
+Currency,NOK
 
 REVENUE
 Total Revenue,17362999296.0
@@ -13,7 +14,7 @@ Revenue Per Share,68.164
 Revenue Growth,-0.374
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.85, forward_eps=31.36)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.85, forward_eps=31.25)"
 Net Earnings,573000000.0
 Earnings Growth,None
 
@@ -35,11 +36,11 @@ Trailing Annual Dividend Yield,0.0153928865
 
 FINANCIAL RATIO
 Debt to Equity,57.392
-Price to Cash Flow,1.373416541482068e-07
+Price to Cash Flow,1.3658536750642153e-07
 Enterprise to EBITDA,53.792
-Price to Book,12.953849
-Price to Earnings,"PriceToEarnings(trailing_pe=15.894967, forward_pe=11.581633)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.85, forward_eps=31.36)"
+Price to Book,12.882517
+Price to Earnings,"PriceToEarnings(trailing_pe=15.80744, forward_pe=11.5584)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.85, forward_eps=31.25)"
 Enterprise to Revenue,5.508
 
 CASH FLOW

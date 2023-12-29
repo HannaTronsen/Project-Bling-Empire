@@ -5,7 +5,8 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://arendalsfossekompani.no
-Financial_summary,None
+Price,161.4
+Currency,NOK
 
 REVENUE
 Total Revenue,5387120128.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.02447336
 
 FINANCIAL RATIO
 Debt to Equity,66.471
-Price to Cash Flow,-1.549087414135894e-06
-Enterprise to EBITDA,14.089
-Price to Book,2.9130342
+Price to Cash Flow,-1.5528564832700445e-06
+Enterprise to EBITDA,14.354
+Price to Book,2.920122
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.48, forward_eps=None)"
-Enterprise to Revenue,1.843
+Enterprise to Revenue,1.878
 
 CASH FLOW
 Free to Cash Flow,-106127000.0

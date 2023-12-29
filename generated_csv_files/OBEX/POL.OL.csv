@@ -5,7 +5,8 @@ Country,Norway
 Industry,Publishing
 Sector,Communication Services
 Website,https://www.polarismedia.no
-Financial_summary,None
+Price,69.0
+Currency,NOK
 
 REVENUE
 Total Revenue,3652477952.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.02173913
 
 FINANCIAL RATIO
 Debt to Equity,31.031
-Price to Cash Flow,6.900622207416773e-07
-Enterprise to EBITDA,58.498
-Price to Book,0.959614
-Price to Earnings,"PriceToEarnings(trailing_pe=259.25925, forward_pe=None)"
+Price to Cash Flow,6.752751731543556e-07
+Enterprise to EBITDA,58.173
+Price to Book,0.9390508
+Price to Earnings,"PriceToEarnings(trailing_pe=253.70369, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.27, forward_eps=None)"
-Enterprise to Revenue,1.208
+Enterprise to Revenue,1.202
 
 CASH FLOW
 Free to Cash Flow,101440128.0

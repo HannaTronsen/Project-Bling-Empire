@@ -5,7 +5,8 @@ Country,Norway
 Industry,Publishing
 Sector,Communication Services
 Website,https://www.schibsted.com
-Financial_summary,None
+Price,276.2
+Currency,NOK
 
 REVENUE
 Total Revenue,15662000128.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0072411294
 
 FINANCIAL RATIO
 Debt to Equity,19.726
-Price to Cash Flow,1.9144347826086955e-05
-Enterprise to EBITDA,43.992
-Price to Book,1.4725318
-Price to Earnings,"PriceToEarnings(trailing_pe=4.184915, forward_pe=41.013416)"
+Price to Cash Flow,1.9241739130434786e-05
+Enterprise to EBITDA,44.049
+Price to Book,1.4800229
+Price to Earnings,"PriceToEarnings(trailing_pe=4.2062044, forward_pe=41.222057)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=65.76, forward_eps=6.71)"
-Enterprise to Revenue,4.469
+Enterprise to Revenue,4.475
 
 CASH FLOW
 Free to Cash Flow,14375000.0

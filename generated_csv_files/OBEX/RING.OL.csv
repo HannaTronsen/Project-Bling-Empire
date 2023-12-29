@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,RING.OL
 Company,SpareBank 1 Ringerike Hadeland
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/ringerike-hadeland
-Financial_summary,None
+Price,304.0
+Currency,NOK
 
 REVENUE
 Total Revenue,1080999936.0

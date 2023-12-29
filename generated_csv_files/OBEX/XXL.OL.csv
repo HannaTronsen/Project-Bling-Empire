@@ -5,7 +5,8 @@ Country,Norway
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.xxlasa.com
-Financial_summary,None
+Price,0.964
+Currency,NOK
 
 REVENUE
 Total Revenue,8175000064.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,101.801
-Price to Cash Flow,1.7507328907685452e-10
+Price to Cash Flow,1.7451925968104168e-10
 Enterprise to EBITDA,-6.039
-Price to Book,0.4730539
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-5.925)"
+Price to Book,0.4715569
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-5.90625)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-2.35, forward_eps=-0.16)"
 Enterprise to Revenue,0.567
 

@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,TOTG.OL
 Company,Totens Sparebank
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.totenbanken.no
-Financial_summary,None
+Price,199.0
+Currency,NOK
 
 REVENUE
 Total Revenue,583769024.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.4889844
-Price to Earnings,"PriceToEarnings(trailing_pe=8.8613205, forward_pe=7.46826)"
+Price to Book,0.50365394
+Price to Earnings,"PriceToEarnings(trailing_pe=9.12716, forward_pe=7.6923075)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=22.57, forward_eps=26.78)"
 Enterprise to Revenue,12.395
 

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/nb/helgeland/privat.html
-Financial_summary,None
+Price,129.0
+Currency,NOK
 
 REVENUE
 Total Revenue,1111000064.0
@@ -37,10 +38,10 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.7737607
-Price to Earnings,"PriceToEarnings(trailing_pe=8.1875, forward_pe=7.8208957)"
+Price to Book,0.7678541
+Price to Earnings,"PriceToEarnings(trailing_pe=8.125, forward_pe=7.761194)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=16.0, forward_eps=16.75)"
-Enterprise to Revenue,8.22
+Enterprise to Revenue,8.244
 
 CASH FLOW
 Free to Cash Flow,None

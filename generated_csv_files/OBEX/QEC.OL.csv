@@ -5,7 +5,8 @@ Country,Canada
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.questerre.com
-Financial_summary,None
+Price,1.352
+Currency,NOK
 
 REVENUE
 Total Revenue,39249000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,0.142
-Price to Cash Flow,1.9745831190773526e-07
-Enterprise to EBITDA,36.277
-Price to Book,3.3939393
-Price to Earnings,"PriceToEarnings(trailing_pe=16.8, forward_pe=4.072727)"
+Price to Cash Flow,2.012781899654742e-07
+Enterprise to EBITDA,36.791
+Price to Book,3.459596
+Price to Earnings,"PriceToEarnings(trailing_pe=17.125, forward_pe=4.151515)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.08, forward_eps=0.33)"
-Enterprise to Revenue,13.874
+Enterprise to Revenue,14.071
 
 CASH FLOW
 Free to Cash Flow,6806500.0

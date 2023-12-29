@@ -5,7 +5,8 @@ Country,Norway
 Industry,Oil & Gas Integrated
 Sector,Energy
 Website,https://www.equinor.com
-Financial_summary,None
+Price,323.45
+Currency,NOK
 
 REVENUE
 Total Revenue,111845998592.0
@@ -13,7 +14,7 @@ Revenue Per Share,36.479
 Revenue Growth,-0.393
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=56.34, forward_eps=41.17)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=56.34, forward_eps=41.02)"
 Net Earnings,17176999936.0
 Earnings Growth,-0.717
 
@@ -35,11 +36,11 @@ Trailing Annual Dividend Yield,0.0037100015
 
 FINANCIAL RATIO
 Debt to Equity,61.09
-Price to Cash Flow,1.2017332909512982e-08
+Price to Cash Flow,1.1954249797127085e-08
 Enterprise to EBITDA,19.246
-Price to Book,19.74936
-Price to Earnings,"PriceToEarnings(trailing_pe=5.7481365, forward_pe=7.866165)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=56.34, forward_eps=41.17)"
+Price to Book,19.645687
+Price to Earnings,"PriceToEarnings(trailing_pe=5.7179623, forward_pe=7.853486)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=56.34, forward_eps=41.02)"
 Enterprise to Revenue,8.725
 
 CASH FLOW

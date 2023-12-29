@@ -5,7 +5,8 @@ Country,Norway
 Industry,Telecom Services
 Sector,Communication Services
 Website,https://www.telenor.com
-Financial_summary,None
+Price,117.3
+Currency,NOK
 
 REVENUE
 Total Revenue,101261000704.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.080136396
 
 FINANCIAL RATIO
 Debt to Equity,119.808
-Price to Cash Flow,2.0760999099891167e-08
-Enterprise to EBITDA,9.532
-Price to Book,2.1801567
-Price to Earnings,"PriceToEarnings(trailing_pe=22.056602, forward_pe=15.321101)"
+Price to Cash Flow,2.0707720231371344e-08
+Enterprise to EBITDA,9.496
+Price to Book,2.1745617
+Price to Earnings,"PriceToEarnings(trailing_pe=21.999998, forward_pe=15.281782)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.3, forward_eps=7.63)"
-Enterprise to Revenue,2.51
+Enterprise to Revenue,2.5
 
 CASH FLOW
 Free to Cash Flow,5630750208.0

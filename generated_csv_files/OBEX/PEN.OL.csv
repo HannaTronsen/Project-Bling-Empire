@@ -5,7 +5,8 @@ Country,United Kingdom
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.panoroenergy.com
-Financial_summary,None
+Price,27.02
+Currency,NOK
 
 REVENUE
 Total Revenue,236148000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.004293116
 
 FINANCIAL RATIO
 Debt to Equity,29.531
-Price to Cash Flow,7.900134794584775e-07
-Enterprise to EBITDA,27.919
-Price to Book,13.353145
-Price to Earnings,"PriceToEarnings(trailing_pe=8.839344, forward_pe=24.071428)"
+Price to Cash Flow,7.923577331067221e-07
+Enterprise to EBITDA,27.939
+Price to Book,13.392769
+Price to Earnings,"PriceToEarnings(trailing_pe=8.865574, forward_pe=24.142859)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.05, forward_eps=1.12)"
-Enterprise to Revenue,13.393
+Enterprise to Revenue,13.403
 
 CASH FLOW
 Free to Cash Flow,34126000.0

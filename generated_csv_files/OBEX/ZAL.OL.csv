@@ -5,7 +5,8 @@ Country,Norway
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.zalaris.com
-Financial_summary,None
+Price,47.0
+Currency,NOK
 
 REVENUE
 Total Revenue,1069340032.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.021276595
 
 FINANCIAL RATIO
 Debt to Equity,285.626
-Price to Cash Flow,7.541110228942101e-07
+Price to Cash Flow,7.77468443957305e-07
 Enterprise to EBITDA,19.359
-Price to Book,5.426171
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.69663)"
+Price to Book,5.5942373
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=13.089888)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
 Enterprise to Revenue,1.309
 

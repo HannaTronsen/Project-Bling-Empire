@@ -5,7 +5,8 @@ Country,Norway
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.kongsberg.com
-Financial_summary,None
+Price,463.0
+Currency,NOK
 
 REVENUE
 Total Revenue,38125998080.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.007775378
 
 FINANCIAL RATIO
 Debt to Equity,40.205
-Price to Cash Flow,-1.1594130270988343e-06
+Price to Cash Flow,-1.1624102171731958e-06
 Enterprise to EBITDA,16.8
-Price to Book,5.481037
-Price to Earnings,"PriceToEarnings(trailing_pe=23.15212, forward_pe=19.586498)"
+Price to Book,5.495206
+Price to Earnings,"PriceToEarnings(trailing_pe=23.211971, forward_pe=19.63713)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=20.05, forward_eps=23.7)"
 Enterprise to Revenue,2.257
 

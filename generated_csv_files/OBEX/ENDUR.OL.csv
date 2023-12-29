@@ -5,7 +5,8 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://endur.no
-Financial_summary,None
+Price,37.3
+Currency,NOK
 
 REVENUE
 Total Revenue,2118800000.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,62.423
-Price to Cash Flow,7.148362235067437e-07
+Price to Cash Flow,7.321772639691715e-07
 Enterprise to EBITDA,8.152
-Price to Book,1.1672539
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.4199996)"
+Price to Book,1.1955701
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.6)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.37, forward_eps=5.0)"
 Enterprise to Revenue,0.838
 

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.axactor.com
-Financial_summary,None
+Price,5.08
+Currency,NOK
 
 REVENUE
 Total Revenue,252131008.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,232.166
-Price to Cash Flow,-9.318171354909994e-07
+Price to Cash Flow,-9.355002071727821e-07
 Enterprise to EBITDA,20.27
-Price to Book,3.6065574
-Price to Earnings,"PriceToEarnings(trailing_pe=3.4189188, forward_pe=50.6)"
+Price to Book,3.6208124
+Price to Earnings,"PriceToEarnings(trailing_pe=3.4324324, forward_pe=50.8)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.48, forward_eps=0.1)"
 Enterprise to Revenue,9.713
 

@@ -5,7 +5,8 @@ Country,Bermuda
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.northerndrillingltd.com
-Financial_summary,None
+Price,1.04
+Currency,NOK
 
 REVENUE
 Total Revenue,None
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-5.24090092852861e-09
+Price to Cash Flow,-5.111814698761896e-09
 Enterprise to EBITDA,None
-Price to Book,0.08283685
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.3625)"
+Price to Book,0.08079654
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.35357144)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-5.69, forward_eps=-2.8)"
 Enterprise to Revenue,None
 

@@ -5,7 +5,8 @@ Country,Cyprus
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.standard-etc.com
-Financial_summary,None
+Price,1.792
+Currency,NOK
 
 REVENUE
 Total Revenue,20970000.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.6949232697264194e-07
+Price to Cash Flow,1.7138398240760447e-07
 Enterprise to EBITDA,None
-Price to Book,6.492754
-Price to Earnings,"PriceToEarnings(trailing_pe=4.370732, forward_pe=89.600006)"
+Price to Book,6.5652175
+Price to Earnings,"PriceToEarnings(trailing_pe=4.4195123, forward_pe=90.600006)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.41, forward_eps=0.02)"
 Enterprise to Revenue,42.331
 

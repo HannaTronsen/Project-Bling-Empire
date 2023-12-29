@@ -5,7 +5,8 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.siemoffshore.com
-Financial_summary,None
+Price,27.45
+Currency,NOK
 
 REVENUE
 Total Revenue,315211008.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,122.653
-Price to Cash Flow,4.2086517093366614e-07
+Price to Cash Flow,4.2010411275837925e-07
 Enterprise to EBITDA,52.461
-Price to Book,15.4039
-Price to Earnings,"PriceToEarnings(trailing_pe=9.735915, forward_pe=81.323524)"
+Price to Book,15.376045
+Price to Earnings,"PriceToEarnings(trailing_pe=9.71831, forward_pe=81.17647)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.84, forward_eps=0.34)"
 Enterprise to Revenue,22.116
 

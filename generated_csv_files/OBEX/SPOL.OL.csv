@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,SPOL.OL
 Company,SpareBank 1 Østlandet
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/en/ostlandet/personal.html
-Financial_summary,None
+Price,133.0
+Currency,NOK
 
 REVENUE
 Total Revenue,4944999936.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.8118948
-Price to Earnings,"PriceToEarnings(trailing_pe=10.007536, forward_pe=8.865154)"
+Price to Book,0.8106721
+Price to Earnings,"PriceToEarnings(trailing_pe=9.992464, forward_pe=8.851803)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=13.27, forward_eps=14.98)"
 Enterprise to Revenue,12.274
 

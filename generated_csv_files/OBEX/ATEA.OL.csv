@@ -5,7 +5,8 @@ Country,Norway
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.atea.com
-Financial_summary,None
+Price,129.4
+Currency,NOK
 
 REVENUE
 Total Revenue,35124998144.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.04829985
 
 FINANCIAL RATIO
 Debt to Equity,64.799
-Price to Cash Flow,8.739837398373983e-08
-Enterprise to EBITDA,10.288
-Price to Book,3.4002848
-Price to Earnings,"PriceToEarnings(trailing_pe=17.01847, forward_pe=14.365257)"
+Price to Cash Flow,8.753387533875338e-08
+Enterprise to EBITDA,10.274
+Price to Book,3.4055564
+Price to Earnings,"PriceToEarnings(trailing_pe=17.044855, forward_pe=14.387528)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=7.58, forward_eps=8.98)"
-Enterprise to Revenue,0.458
+Enterprise to Revenue,0.457
 
 CASH FLOW
 Free to Cash Flow,1476000000.0

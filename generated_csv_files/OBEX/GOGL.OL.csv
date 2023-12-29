@@ -5,7 +5,8 @@ Country,Bermuda
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.goldenocean.bm
-Financial_summary,None
+Price,99.06
+Currency,NOK
 
 REVENUE
 Total Revenue,881120000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.005047446
 
 FINANCIAL RATIO
 Debt to Equity,81.765
-Price to Cash Flow,-4.045997220084903e-07
-Enterprise to EBITDA,68.671
-Price to Book,10.477805
-Price to Earnings,"PriceToEarnings(trailing_pe=15.977383, forward_pe=None)"
+Price to Cash Flow,-4.0263604287235203e-07
+Enterprise to EBITDA,68.257
+Price to Book,10.426951
+Price to Earnings,"PriceToEarnings(trailing_pe=15.899838, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.19, forward_eps=None)"
-Enterprise to Revenue,24.081
+Enterprise to Revenue,23.936
 
 CASH FLOW
 Free to Cash Flow,-244439120.0

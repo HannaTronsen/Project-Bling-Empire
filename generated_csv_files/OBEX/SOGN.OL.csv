@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://sognbank.no
-Financial_summary,None
+Price,160.0
+Currency,NOK
 
 REVENUE
 Total Revenue,219400000.0

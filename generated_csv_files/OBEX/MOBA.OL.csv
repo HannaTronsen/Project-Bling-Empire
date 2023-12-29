@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.komplettbank.no
-Financial_summary,None
+Price,3.81
+Currency,NOK
 
 REVENUE
 Total Revenue,480900000.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.4305043
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.111111)"
+Price to Book,0.4360953
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.1904764)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.06, forward_eps=0.63)"
 Enterprise to Revenue,-0.319
 

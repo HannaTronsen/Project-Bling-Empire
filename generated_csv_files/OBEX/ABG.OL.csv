@@ -5,7 +5,8 @@ Country,Norway
 Industry,Capital Markets
 Sector,Financial Services
 Website,https://www.abgsc.com
-Financial_summary,None
+Price,6.64
+Currency,NOK
 
 REVENUE
 Total Revenue,1620172032.0
@@ -37,10 +38,10 @@ FINANCIAL RATIO
 Debt to Equity,93.202
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,3.8727996
-Price to Earnings,"PriceToEarnings(trailing_pe=16.634148, forward_pe=None)"
+Price to Book,3.8614423
+Price to Earnings,"PriceToEarnings(trailing_pe=16.585367, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.41, forward_eps=None)"
-Enterprise to Revenue,2.125
+Enterprise to Revenue,2.173
 
 CASH FLOW
 Free to Cash Flow,None

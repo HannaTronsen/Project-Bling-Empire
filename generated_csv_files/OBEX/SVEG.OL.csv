@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,SVEG.OL
 Company,Sparebanken Vest
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.spv.no
-Financial_summary,None
+Price,109.0
+Currency,NOK
 
 REVENUE
 Total Revenue,5759000064.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.55366486
-Price to Earnings,"PriceToEarnings(trailing_pe=9.478261, forward_pe=8.056171)"
+Price to Book,0.55569667
+Price to Earnings,"PriceToEarnings(trailing_pe=9.513043, forward_pe=8.085735)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=11.5, forward_eps=13.53)"
 Enterprise to Revenue,26.254
 

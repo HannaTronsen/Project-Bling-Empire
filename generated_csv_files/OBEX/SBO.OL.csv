@@ -5,7 +5,8 @@ Country,Norway
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.selvaagboligasa.no
-Financial_summary,None
+Price,32.5
+Currency,NOK
 
 REVENUE
 Total Revenue,2672710912.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.092307694
 
 FINANCIAL RATIO
 Debt to Equity,99.888
-Price to Cash Flow,1.5520419345074642e-07
+Price to Cash Flow,1.5662374400060085e-07
 Enterprise to EBITDA,18.754
-Price to Book,1.4042298
-Price to Earnings,"PriceToEarnings(trailing_pe=16.907215, forward_pe=12.238806)"
+Price to Book,1.4170734
+Price to Earnings,"PriceToEarnings(trailing_pe=17.061855, forward_pe=12.350745)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.94, forward_eps=2.68)"
 Enterprise to Revenue,1.874
 

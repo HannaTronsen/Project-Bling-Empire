@@ -5,7 +5,8 @@ Country,Norway
 Industry,Utilities - Renewable
 Sector,Utilities
 Website,https://scatec.com
-Financial_summary,None
+Price,81.95
+Currency,NOK
 
 REVENUE
 Total Revenue,3265999872.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.023672974
 
 FINANCIAL RATIO
 Debt to Equity,258.007
-Price to Cash Flow,-1.4440052782096037e-08
+Price to Cash Flow,-1.4431269295002306e-08
 Enterprise to EBITDA,17.373
-Price to Book,1.4944639
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=35.584415)"
+Price to Book,1.493555
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=35.56277)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.11, forward_eps=2.31)"
 Enterprise to Revenue,11.091
 

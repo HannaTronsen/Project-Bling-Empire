@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.melhusbanken.no
-Financial_summary,None
+Price,160.0
+Currency,NOK
 
 REVENUE
 Total Revenue,308756992.0

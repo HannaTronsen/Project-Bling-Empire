@@ -5,7 +5,8 @@ Country,Norway
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.byggma.no
-Financial_summary,None
+Price,19.75
+Currency,NOK
 
 REVENUE
 Total Revenue,2223166976.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,153.486
-Price to Cash Flow,1.646303971853207e-07
+Price to Cash Flow,1.5969148526976105e-07
 Enterprise to EBITDA,9.165
-Price to Book,1.4488554
-Price to Earnings,"PriceToEarnings(trailing_pe=9.756098, forward_pe=None)"
+Price to Book,1.4053897
+Price to Earnings,"PriceToEarnings(trailing_pe=9.463414, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
 Enterprise to Revenue,1.27
 

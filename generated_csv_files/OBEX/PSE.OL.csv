@@ -5,7 +5,8 @@ Country,Cyprus
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.petrolia.eu
-Financial_summary,None
+Price,4.1
+Currency,NOK
 
 REVENUE
 Total Revenue,57988000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,37.545
-Price to Cash Flow,9.11364267852181e-07
-Enterprise to EBITDA,29.79
-Price to Book,6.528662
-Price to Earnings,"PriceToEarnings(trailing_pe=102.5, forward_pe=None)"
+Price to Cash Flow,9.491525423728812e-07
+Enterprise to EBITDA,30.987
+Price to Book,6.7993627
+Price to Earnings,"PriceToEarnings(trailing_pe=106.75, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=None)"
-Enterprise to Revenue,4.304
+Enterprise to Revenue,4.477
 
 CASH FLOW
 Free to Cash Flow,4498750.0

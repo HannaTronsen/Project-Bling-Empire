@@ -1,10 +1,16 @@
 import os
+from datetime import datetime
+
 from context.ticker_scraper.main.const import STOCK_COLLECTIONS_PATH
 from const import GENERATED_CSV_FILES_PATH
 
-RUN_TESTS = False
+TIME_STAMP = datetime.now().strftime("%Y-%m-%d")
+
+RUN_TESTS = True
 GENERATE_TICKER_CSV = False
 GENERATE_COMPARABLE_CSV = True
+
+USE_OPTIMIZED_ALGORITHM = False
 
 
 CASTABLE_DATA_SHOW_DEBUG_PRINT = False

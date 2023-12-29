@@ -5,7 +5,8 @@ Country,Norway
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.nordicsemi.com
-Financial_summary,None
+Price,125.2
+Currency,NOK
 
 REVENUE
 Total Revenue,626049984.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,5.809
-Price to Cash Flow,-3.5338000593082178e-06
+Price to Cash Flow,-3.543643513512419e-06
 Enterprise to EBITDA,337.231
-Price to Book,39.487743
-Price to Earnings,"PriceToEarnings(trailing_pe=47.415092, forward_pe=1142.2727)"
+Price to Book,39.597736
+Price to Earnings,"PriceToEarnings(trailing_pe=47.54717, forward_pe=1145.4546)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.65, forward_eps=0.11)"
 Enterprise to Revenue,38.149
 

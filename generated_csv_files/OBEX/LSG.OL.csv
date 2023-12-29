@@ -5,7 +5,8 @@ Country,Norway
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.leroyseafood.com
-Financial_summary,None
+Price,41.46
+Currency,NOK
 
 REVENUE
 Total Revenue,29755248640.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.060299084
 
 FINANCIAL RATIO
 Debt to Equity,13.666
-Price to Cash Flow,4.412883363145566e-08
+Price to Cash Flow,4.436209512590353e-08
 Enterprise to EBITDA,9.332
-Price to Book,0.28218096
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.151219)"
+Price to Book,0.28367254
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.204878)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.59, forward_eps=4.1)"
 Enterprise to Revenue,1.108
 

@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,VOLUE.OL
 Company,Volue ASA
 Country,Norway
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.volue.com
-Financial_summary,None
+Price,20.5
+Currency,NOK
 
 REVENUE
 Total Revenue,1414145024.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,50.009
-Price to Cash Flow,-9.223967245789405e-08
+Price to Cash Flow,-9.378435596795448e-08
 Enterprise to EBITDA,26.52
-Price to Book,3.5861359
-Price to Earnings,"PriceToEarnings(trailing_pe=58.055553, forward_pe=20.096155)"
+Price to Book,3.6461906
+Price to Earnings,"PriceToEarnings(trailing_pe=59.027775, forward_pe=20.432693)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.04)"
 Enterprise to Revenue,2.28
 

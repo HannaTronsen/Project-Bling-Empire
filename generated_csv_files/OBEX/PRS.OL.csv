@@ -5,7 +5,8 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.prosafe.com
-Financial_summary,None
+Price,66.6
+Currency,NOK
 
 REVENUE
 Total Revenue,107500000.0
@@ -13,7 +14,7 @@ Revenue Per Share,10.982
 Revenue Growth,-0.484
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-54.7, forward_eps=15.79)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-54.7, forward_eps=15.73)"
 Net Earnings,-60200000.0
 Earnings Growth,None
 
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,3203.053
-Price to Cash Flow,-2.538243626062323e-06
-Enterprise to EBITDA,598.824
-Price to Book,59.1029
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=4.255858)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-54.7, forward_eps=15.79)"
-Enterprise to Revenue,10.584
+Price to Cash Flow,-2.5986779981114257e-06
+Enterprise to EBITDA,612.162
+Price to Book,60.51012
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=4.3738084)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-54.7, forward_eps=15.73)"
+Enterprise to Revenue,10.82
 
 CASH FLOW
 Free to Cash Flow,-26475000.0

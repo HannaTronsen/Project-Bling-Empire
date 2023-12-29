@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://skuesparebank.no
-Financial_summary,None
+Price,230.0
+Currency,NOK
 
 REVENUE
 Total Revenue,460808992.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.23435766
-Price to Earnings,"PriceToEarnings(trailing_pe=2.6309714, forward_pe=7.1227746)"
+Price to Book,0.23641342
+Price to Earnings,"PriceToEarnings(trailing_pe=2.65405, forward_pe=7.185255)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=86.66, forward_eps=32.01)"
 Enterprise to Revenue,5.576
 

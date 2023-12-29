@@ -5,7 +5,8 @@ Country,Norway
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.webstep.com
-Financial_summary,None
+Price,21.9
+Currency,NOK
 
 REVENUE
 Total Revenue,984336000.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.07762557
 
 FINANCIAL RATIO
 Debt to Equity,27.048
-Price to Cash Flow,8.79059960204718e-07
+Price to Cash Flow,8.513418533514161e-07
 Enterprise to EBITDA,10.359
-Price to Book,1.6006922
-Price to Earnings,"PriceToEarnings(trailing_pe=15.633803, forward_pe=11.871658)"
+Price to Book,1.5502199
+Price to Earnings,"PriceToEarnings(trailing_pe=15.140845, forward_pe=11.497326)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=1.87)"
 Enterprise to Revenue,0.703
 

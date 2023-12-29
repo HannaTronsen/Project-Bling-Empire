@@ -5,7 +5,8 @@ Country,Norway
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://www.multiconsultgroup.com
-Financial_summary,None
+Price,125.0
+Currency,NOK
 
 REVENUE
 Total Revenue,4567648768.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.072
 
 FINANCIAL RATIO
 Debt to Equity,140.793
-Price to Cash Flow,4.3160970836498013e-07
+Price to Cash Flow,4.2815683069806027e-07
 Enterprise to EBITDA,10.665
-Price to Book,3.7800894
-Price to Earnings,"PriceToEarnings(trailing_pe=12.218965, forward_pe=11.49954)"
+Price to Book,3.7498486
+Price to Earnings,"PriceToEarnings(trailing_pe=12.121213, forward_pe=11.407544)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.23, forward_eps=10.87)"
 Enterprise to Revenue,1.055
 

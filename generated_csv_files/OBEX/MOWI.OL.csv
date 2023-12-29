@@ -5,7 +5,8 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.mowi.com
-Financial_summary,None
+Price,180.3
+Currency,NOK
 
 REVENUE
 Total Revenue,5438900224.0
@@ -13,7 +14,7 @@ Revenue Per Share,10.569
 Revenue Growth,0.082
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=15.43)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=15.46)"
 Net Earnings,418000000.0
 Earnings Growth,0.4
 
@@ -35,11 +36,11 @@ Trailing Annual Dividend Yield,0.003632834
 
 FINANCIAL RATIO
 Debt to Equity,61.985
-Price to Cash Flow,4.268895691076054e-07
+Price to Cash Flow,4.2853779138215213e-07
 Enterprise to EBITDA,82.302
-Price to Book,26.86324
-Price to Earnings,"PriceToEarnings(trailing_pe=19.944994, forward_pe=11.749838)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=15.43)"
+Price to Book,26.966957
+Price to Earnings,"PriceToEarnings(trailing_pe=20.022001, forward_pe=11.772316)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=15.46)"
 Enterprise to Revenue,17.568
 
 CASH FLOW

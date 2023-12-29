@@ -5,7 +5,8 @@ Country,Hong Kong
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.jinhuiship.com
-Financial_summary,None
+Price,5.8
+Currency,NOK
 
 REVENUE
 Total Revenue,86887000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.006896551
 
 FINANCIAL RATIO
 Debt to Equity,29.908
-Price to Cash Flow,-1.2353660419504662e-07
-Enterprise to EBITDA,83.903
-Price to Book,1.6990007
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=27.523811)"
+Price to Cash Flow,-1.226816795985411e-07
+Enterprise to EBITDA,83.11
+Price to Book,1.6872427
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=27.333334)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-6.88, forward_eps=0.21)"
-Enterprise to Revenue,7.983
+Enterprise to Revenue,7.908
 
 CASH FLOW
 Free to Cash Flow,-46787752.0

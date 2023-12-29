@@ -6,7 +6,7 @@ from context.ticker_scraper.main.functions import fetch_tickers
 from context.ticker_scraper.main.stock_collections import NORWAY
 from context.yquery_ticker.main.functions import (
     get_grouped_yahoo_query_ticker_objects,
-    validate_and_get_yahoo_query_ticker_object,
+    validate_and_get_yahoo_query_ticker_object
 )
 from context.yquery_ticker.main.utils.comparable_csv import ComparableCSV
 

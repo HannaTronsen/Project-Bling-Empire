@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,MORG.OL
 Company,Sparebanken Møre
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sbm.no
-Financial_summary,None
+Price,84.0
+Currency,NOK
 
 REVENUE
 Total Revenue,2084999936.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.48929736
-Price to Earnings,"PriceToEarnings(trailing_pe=4.9404764, forward_pe=8.592133)"
+Price to Book,0.49519253
+Price to Earnings,"PriceToEarnings(trailing_pe=5.0, forward_pe=8.695652)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=16.8, forward_eps=9.66)"
 Enterprise to Revenue,19.613
 

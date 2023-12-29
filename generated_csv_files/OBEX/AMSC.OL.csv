@@ -5,7 +5,8 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.amscasa.com
-Financial_summary,None
+Price,26.1
+Currency,NOK
 
 REVENUE
 Total Revenue,116354000.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.015708812
 
 FINANCIAL RATIO
 Debt to Equity,74.451
-Price to Cash Flow,-1.4839042671364294e-07
-Enterprise to EBITDA,23.413
-Price to Book,11.930537
-Price to Earnings,"PriceToEarnings(trailing_pe=6.3581734, forward_pe=165.31252)"
+Price to Cash Flow,-1.509150275462002e-07
+Enterprise to EBITDA,24.096
+Price to Book,12.133513
+Price to Earnings,"PriceToEarnings(trailing_pe=6.4663463, forward_pe=168.125)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=4.16, forward_eps=0.16)"
-Enterprise to Revenue,16.95
+Enterprise to Revenue,17.444
 
 CASH FLOW
 Free to Cash Flow,-178246000.0

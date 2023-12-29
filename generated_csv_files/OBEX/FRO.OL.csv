@@ -5,7 +5,8 @@ Country,Cyprus
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.frontlineplc.cy
-Financial_summary,None
+Price,203.85
+Currency,NOK
 
 REVENUE
 Total Revenue,1917320960.0
@@ -13,7 +14,7 @@ Revenue Per Share,8.612
 Revenue Growth,-0.013
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=35.73, forward_eps=33.71)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=35.73, forward_eps=33.59)"
 Net Earnings,777096000.0
 Earnings Growth,-0.309
 
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.012607309
 
 FINANCIAL RATIO
 Debt to Equity,101.44
-Price to Cash Flow,5.532748201727406e-07
-Enterprise to EBITDA,45.474
-Price to Book,20.302969
-Price to Earnings,"PriceToEarnings(trailing_pe=5.6828995, forward_pe=6.0234356)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=35.73, forward_eps=33.71)"
-Enterprise to Revenue,24.578
+Price to Cash Flow,5.528660970847036e-07
+Enterprise to EBITDA,45.27
+Price to Book,20.28797
+Price to Earnings,"PriceToEarnings(trailing_pe=5.6787014, forward_pe=6.0404882)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=35.73, forward_eps=33.59)"
+Enterprise to Revenue,24.468
 
 CASH FLOW
 Free to Cash Flow,366996640.0

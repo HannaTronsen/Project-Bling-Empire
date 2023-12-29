@@ -5,7 +5,8 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://reachsubsea.no
-Financial_summary,None
+Price,4.47
+Currency,NOK
 
 REVENUE
 Total Revenue,1849179008.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.04026846
 
 FINANCIAL RATIO
 Debt to Equity,163.869
-Price to Cash Flow,1.1942045012937305e-08
-Enterprise to EBITDA,7.337
-Price to Book,1.3749224
-Price to Earnings,"PriceToEarnings(trailing_pe=7.031746, forward_pe=6.7121205)"
+Price to Cash Flow,1.2130745498469045e-08
+Enterprise to EBITDA,7.361
+Price to Book,1.396648
+Price to Earnings,"PriceToEarnings(trailing_pe=7.142857, forward_pe=6.8181815)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.63, forward_eps=0.66)"
-Enterprise to Revenue,1.273
+Enterprise to Revenue,1.277
 
 CASH FLOW
 Free to Cash Flow,370958240.0

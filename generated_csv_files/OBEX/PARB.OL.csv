@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.paretobank.no
-Financial_summary,None
+Price,53.4
+Currency,NOK
 
 REVENUE
 Total Revenue,1005811968.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.90338516
-Price to Earnings,"PriceToEarnings(trailing_pe=6.8903227, forward_pe=6.675)"
+Price to Book,0.91184384
+Price to Earnings,"PriceToEarnings(trailing_pe=6.9548388, forward_pe=6.7375)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=8.0)"
 Enterprise to Revenue,None
 

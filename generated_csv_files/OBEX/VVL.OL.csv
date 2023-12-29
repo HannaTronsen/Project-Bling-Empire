@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,VVL.OL
 Company,Voss Veksel- og Landmandsbank ASA
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://vekselbanken.no
-Financial_summary,None
+Price,242.0
+Currency,NOK
 
 REVENUE
 Total Revenue,164100992.0

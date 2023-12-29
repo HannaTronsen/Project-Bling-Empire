@@ -5,7 +5,8 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.auss.no
-Financial_summary,None
+Price,72.45
+Currency,NOK
 
 REVENUE
 Total Revenue,32678000640.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.07591443
 
 FINANCIAL RATIO
 Debt to Equity,57.326
-Price to Cash Flow,1.5521475758159016e-07
-Enterprise to EBITDA,9.748
-Price to Book,1.026963
-Price to Earnings,"PriceToEarnings(trailing_pe=94.48718, forward_pe=7.1692605)"
+Price to Cash Flow,1.5616247319775997e-07
+Enterprise to EBITDA,9.843
+Price to Book,1.0332335
+Price to Earnings,"PriceToEarnings(trailing_pe=95.06411, forward_pe=7.2130356)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.78, forward_eps=10.28)"
-Enterprise to Revenue,1.07
+Enterprise to Revenue,1.081
 
 CASH FLOW
 Free to Cash Flow,474825984.0

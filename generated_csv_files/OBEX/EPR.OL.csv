@@ -5,7 +5,8 @@ Country,Norway
 Industry,Discount Stores
 Sector,Consumer Defensive
 Website,https://www.europris.no
-Financial_summary,None
+Price,76.6
+Currency,NOK
 
 REVENUE
 Total Revenue,9429148672.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.035900783
 
 FINANCIAL RATIO
 Debt to Equity,124.465
-Price to Cash Flow,6.380592951662201e-08
+Price to Cash Flow,6.364009214295957e-08
 Enterprise to EBITDA,11.351
-Price to Book,3.984569
-Price to Earnings,"PriceToEarnings(trailing_pe=13.839928, forward_pe=13.429318)"
+Price to Book,3.974213
+Price to Earnings,"PriceToEarnings(trailing_pe=13.803957, forward_pe=13.394415)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=5.56, forward_eps=5.73)"
 Enterprise to Revenue,1.722
 

@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,SPOG.OL
 Company,Sparebanken Øst
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.oest.no
-Financial_summary,None
+Price,49.6
+Currency,NOK
 
 REVENUE
 Total Revenue,881299968.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.23050666
-Price to Earnings,"PriceToEarnings(trailing_pe=7.8267717, forward_pe=8.187809)"
+Price to Book,0.23282564
+Price to Earnings,"PriceToEarnings(trailing_pe=7.905512, forward_pe=8.270181)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.35, forward_eps=6.07)"
 Enterprise to Revenue,20.484
 

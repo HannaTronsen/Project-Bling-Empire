@@ -5,7 +5,8 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.tgs.com
-Financial_summary,None
+Price,133.4
+Currency,NOK
 
 REVENUE
 Total Revenue,823942976.0
@@ -13,7 +14,7 @@ Revenue Per Share,6.659
 Revenue Growth,0.666
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.1, forward_eps=16.86)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.1, forward_eps=16.79)"
 Net Earnings,73899000.0
 Earnings Growth,None
 
@@ -35,11 +36,11 @@ Trailing Annual Dividend Yield,0.004197901
 
 FINANCIAL RATIO
 Debt to Equity,4.72
-Price to Cash Flow,-1.6187566738641768e-06
+Price to Cash Flow,-1.612657364618268e-06
 Enterprise to EBITDA,89.796
-Price to Book,13.344729
-Price to Earnings,"PriceToEarnings(trailing_pe=21.754099, forward_pe=7.8706994)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.1, forward_eps=16.86)"
+Price to Book,13.294448
+Price to Earnings,"PriceToEarnings(trailing_pe=21.67213, forward_pe=7.8737335)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.1, forward_eps=16.79)"
 Enterprise to Revenue,21.019
 
 CASH FLOW

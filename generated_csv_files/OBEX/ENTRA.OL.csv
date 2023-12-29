@@ -5,7 +5,8 @@ Country,Norway
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.entra.no
-Financial_summary,None
+Price,114.4
+Currency,NOK
 
 REVENUE
 Total Revenue,3305999872.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.021853147
 
 FINANCIAL RATIO
 Debt to Equity,137.905
-Price to Cash Flow,2.1401489260246616e-08
+Price to Cash Flow,2.1607452848927904e-08
 Enterprise to EBITDA,21.353
-Price to Book,0.7896646
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=16.686132)"
+Price to Book,0.7972642
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=16.846716)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-17.06, forward_eps=6.85)"
 Enterprise to Revenue,18.582
 

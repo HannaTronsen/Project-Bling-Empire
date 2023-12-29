@@ -5,7 +5,8 @@ Country,Norway
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.borregaard.com
-Financial_summary,None
+Price,170.6
+Currency,NOK
 
 REVENUE
 Total Revenue,7296999936.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.01905041
 
 FINANCIAL RATIO
 Debt to Equity,56.568
-Price to Cash Flow,2.515463917525773e-07
+Price to Cash Flow,2.524300441826215e-07
 Enterprise to EBITDA,10.9
-Price to Book,3.7695873
-Price to Earnings,"PriceToEarnings(trailing_pe=18.26738, forward_pe=17.553959)"
+Price to Book,3.782829
+Price to Earnings,"PriceToEarnings(trailing_pe=18.331549, forward_pe=17.615622)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=9.35, forward_eps=9.73)"
 Enterprise to Revenue,2.598
 

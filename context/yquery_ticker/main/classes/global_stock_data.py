@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 from typing import Optional
 
 from yahooquery import Ticker
@@ -17,7 +18,29 @@ from ..utils.csv_converter import CsvConverter
 from ..utils.dict_key_enum import DictKey
 
 
-class GlobalStockDataClass(CsvConverter):
+class SimpleStockDataClass:
+    def __init__(
+            self,
+            ticker_symbol: str,
+            company: str,
+            website: str,
+            industry: str,
+            sector: str,
+            price: str,
+            currency: str,
+            criteria_pass_count: str,
+    ):
+        self.ticker_symbol = ticker_symbol
+        self.company = company
+        self.website = website
+        self.industry = industry
+        self.sector = sector
+        self.price = price
+        self.currency = currency
+        self.criteria_pass_count = criteria_pass_count
+
+
+class YahooStockDataClass(CsvConverter):
 
     def __init__(self, ticker_symbol: str, ticker: Optional[Ticker] = None):
         YQTicker = ticker if ticker is not None else Ticker(ticker_symbol)
@@ -108,7 +131,7 @@ class GlobalStockDataClass(CsvConverter):
             price_to_book=key_stats.get("priceToBook"),
             expenses=self.income_statement.get_most_recent_expenses(
                 capital_expenditure=self.cash_flow.get_most_recent_capital_expenditure()
-            ).normalize_values(),
+            )
         ).normalize_values()
 
         self._evaluated_growth_criteria = self.get_evaluated_growth_criteria()

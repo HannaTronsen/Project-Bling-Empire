@@ -2,10 +2,11 @@ GENERAL STOCK INFO
 Ticker,MING.OL
 Company,SpareBank 1 SMN
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/nb/smn
-Financial_summary,None
+Price,140.4
+Currency,NOK
 
 REVENUE
 Total Revenue,6856999936.0
@@ -37,8 +38,8 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.80676585
-Price to Earnings,"PriceToEarnings(trailing_pe=10.337739, forward_pe=8.822055)"
+Price to Book,0.8124957
+Price to Earnings,"PriceToEarnings(trailing_pe=10.41116, forward_pe=8.884712)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=13.62, forward_eps=15.96)"
 Enterprise to Revenue,3.112
 

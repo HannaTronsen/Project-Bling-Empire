@@ -5,7 +5,8 @@ Country,Norway
 Industry,Health Information Services
 Sector,Healthcare
 Website,https://carasent.com
-Financial_summary,None
+Price,11.2
+Currency,NOK
 
 REVENUE
 Total Revenue,235222000.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.16428572
 
 FINANCIAL RATIO
 Debt to Equity,4.894
-Price to Cash Flow,1.6510950843762848e-07
+Price to Cash Flow,1.636300325555709e-07
 Enterprise to EBITDA,12.245
-Price to Book,0.78211504
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=101.454544)"
+Price to Book,0.7751069
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=100.545456)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.8, forward_eps=0.11)"
 Enterprise to Revenue,1.069
 

@@ -5,7 +5,8 @@ Country,Norway
 Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.dnb.no
-Financial_summary,None
+Price,214.0
+Currency,NOK
 
 REVENUE
 Total Revenue,77827997696.0
@@ -37,10 +38,10 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.3660182
-Price to Earnings,"PriceToEarnings(trailing_pe=8.693549, forward_pe=8.8)"
+Price to Book,1.3685524
+Price to Earnings,"PriceToEarnings(trailing_pe=8.709678, forward_pe=8.816326)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=24.8, forward_eps=24.5)"
-Enterprise to Revenue,11.309
+Enterprise to Revenue,11.348
 
 CASH FLOW
 Free to Cash Flow,None

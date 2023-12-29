@@ -5,7 +5,8 @@ Country,United Arab Emirates
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.shelfdrilling.com
-Financial_summary,None
+Price,29.0
+Currency,NOK
 
 REVENUE
 Total Revenue,888220992.0
@@ -13,7 +14,7 @@ Revenue Per Share,4.719
 Revenue Growth,0.614
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=8.16)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=8.13)"
 Net Earnings,7795000.0
 Earnings Growth,None
 
@@ -35,11 +36,11 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,341.371
-Price to Cash Flow,-1.9957707154197285e-07
+Price to Cash Flow,-2.0131252433799e-07
 Enterprise to EBITDA,31.226
-Price to Book,17.616423
-Price to Earnings,"PriceToEarnings(trailing_pe=56.37255, forward_pe=3.5232844)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=8.16)"
+Price to Book,17.769608
+Price to Earnings,"PriceToEarnings(trailing_pe=56.862747, forward_pe=3.5670357)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=8.13)"
 Enterprise to Revenue,8.514
 
 CASH FLOW

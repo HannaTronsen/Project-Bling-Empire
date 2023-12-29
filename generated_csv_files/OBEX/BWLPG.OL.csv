@@ -5,7 +5,8 @@ Country,Singapore
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.bwlpg.com
-Financial_summary,None
+Price,151.0
+Currency,NOK
 
 REVENUE
 Total Revenue,2611561984.0
@@ -35,12 +36,12 @@ Trailing Annual Dividend Yield,0.02039735
 
 FINANCIAL RATIO
 Debt to Equity,40.633
-Price to Cash Flow,3.336934746082139e-07
-Enterprise to EBITDA,37.012
-Price to Book,13.891737
-Price to Earnings,"PriceToEarnings(trailing_pe=4.783446, forward_pe=19.696169)"
+Price to Cash Flow,3.386171878485765e-07
+Enterprise to EBITDA,37.084
+Price to Book,14.096711
+Price to Earnings,"PriceToEarnings(trailing_pe=4.8540263, forward_pe=19.98679)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=31.17, forward_eps=7.57)"
-Enterprise to Revenue,7.744
+Enterprise to Revenue,7.759
 
 CASH FLOW
 Free to Cash Flow,446817248.0

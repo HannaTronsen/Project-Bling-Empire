@@ -5,7 +5,8 @@ Country,United Kingdom
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.stolt-nielsen.com
-Financial_summary,None
+Price,310.5
+Currency,NOK
 
 REVENUE
 Total Revenue,2857540096.0
@@ -35,10 +36,10 @@ Trailing Annual Dividend Yield,0.007246377
 
 FINANCIAL RATIO
 Debt to Equity,110.159
-Price to Cash Flow,6.447792826615554e-07
+Price to Cash Flow,6.49995943524513e-07
 Enterprise to EBITDA,25.355
-Price to Book,8.935801
-Price to Earnings,"PriceToEarnings(trailing_pe=5.553559, forward_pe=42.857143)"
+Price to Book,9.008097
+Price to Earnings,"PriceToEarnings(trailing_pe=5.59849, forward_pe=43.203884)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=55.64, forward_eps=7.21)"
 Enterprise to Revenue,6.455
 

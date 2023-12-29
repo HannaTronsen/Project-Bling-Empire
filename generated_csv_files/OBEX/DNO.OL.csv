@@ -5,7 +5,8 @@ Country,Norway
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.dno.no
-Financial_summary,None
+Price,10.17
+Currency,NOK
 
 REVENUE
 Total Revenue,806300032.0
@@ -13,7 +14,7 @@ Revenue Per Share,0.813
 Revenue Growth,-0.584
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=2.03)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=2.02)"
 Net Earnings,56900000.0
 Earnings Growth,None
 
@@ -35,11 +36,11 @@ Trailing Annual Dividend Yield,0.012094395
 
 FINANCIAL RATIO
 Debt to Equity,46.196
-Price to Cash Flow,8.467826451477677e-08
+Price to Cash Flow,8.442674491720813e-08
 Enterprise to EBITDA,22.279
-Price to Book,7.9091625
-Price to Earnings,"PriceToEarnings(trailing_pe=19.803923, forward_pe=4.97537)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=2.03)"
+Price to Book,7.8856697
+Price to Earnings,"PriceToEarnings(trailing_pe=19.745098, forward_pe=4.9851484)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=2.02)"
 Enterprise to Revenue,12.133
 
 CASH FLOW
