@@ -12,12 +12,6 @@ from context.yquery_ticker.main.utils.comparable_csv import ComparableCSV
 
 
 def main():
-    initialize_environment()
-    fetch_tickers()
-    ComparableCSV(stock_collection=get_grouped_yahoo_query_ticker_objects()).create()
-
-
-if __name__ == '__main__':
     if RUN_TESTS:
         test_suite = unittest.TestSuite()
         for path in TEST_PATHS:
@@ -32,4 +26,13 @@ if __name__ == '__main__':
         )
 
     if GENERATE_COMPARABLE_CSV:
-        main()
+        print("initializing environment")
+        initialize_environment()
+        print("fetching tickers")
+        fetch_tickers()
+        print("generating comparable csv files")
+        ComparableCSV(stock_collection=get_grouped_yahoo_query_ticker_objects()).create()
+
+
+if __name__ == '__main__':
+    main()

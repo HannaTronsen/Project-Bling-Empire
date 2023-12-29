@@ -3,6 +3,8 @@ import re
 import concurrent.futures
 from typing import Optional, Dict, List, TextIO
 from yahooquery import Ticker
+
+from config import ITERABLE_DATA_SHOW_DEBUG_PRINT
 from const import (
     BLACKLISTED_STOCK_TICKERS_PATH,
     CONST_COLLECTION, AUTO_GENERATED_FILE_STRING
@@ -34,7 +36,8 @@ def validate_and_get_yahoo_query_ticker_object(ticker_symbol: str) -> Optional[G
             ticker_symbol=ticker_symbol
         )
     else:
-        print(f"Required information for ticker {ticker_symbol} is missing.")
+        if ITERABLE_DATA_SHOW_DEBUG_PRINT:
+            print(f"Required information for ticker {ticker_symbol} is missing.")
     return None
 
 
@@ -67,14 +70,17 @@ def get_query_ticker_objects(stock_collection: StockCollectionClass) -> List[Glo
         if re.search(ticker, blacklisted_stocks_file_content) is None:
             yquery_ticker = Ticker(stripped_ticker)
             if not passed_yahoo_query_validation_check(ticker_symbol=stripped_ticker, ticker=yquery_ticker):
-                print(f"Required information for ticker {stripped_ticker} is missing.")
+                if ITERABLE_DATA_SHOW_DEBUG_PRINT:
+                    print(f"Required information for ticker {stripped_ticker} is missing.")
                 blacklisted_stocks_file.write(f"{stripped_ticker}\n")
             else:
-                print(f"Found information for ticker {stripped_ticker}")
+                if ITERABLE_DATA_SHOW_DEBUG_PRINT:
+                    print(f"Found information for ticker {stripped_ticker}")
                 ticker = GlobalStockDataClass(ticker_symbol=stripped_ticker, ticker=yquery_ticker)
                 stock_collection_tickers.append(ticker)
         else:
-            print(f"Ticker symbol: {stripped_ticker} found in blacklisted stock file and will be skipped")
+            if ITERABLE_DATA_SHOW_DEBUG_PRINT:
+                print(f"Ticker symbol: {stripped_ticker} found in blacklisted stock file and will be skipped")
 
     yquery_tickers.extend(stock_collection_tickers)
     blacklisted_stocks_file.close()
