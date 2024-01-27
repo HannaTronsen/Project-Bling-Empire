@@ -5,21 +5,21 @@ Country,Norway
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.bergenbio.com
-Price,0.276
+Price,0.2755
 Currency,NOK
 
 REVENUE
-Total Revenue,389000.0
+Total Revenue,389000
 Revenue Per Share,0.0
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.08)"
-Net Earnings,-225954000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.07)"
+Net Earnings,-225954000
 Earnings Growth,None
 
 DEBT
-Total Debt,101000.0
+Total Debt,101000
 Debt to Equity,0.063
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,0.063
-Price to Cash Flow,-1.4694494896718212e-09
-Enterprise to EBITDA,-2.483
-Price to Book,4.483871
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-3.4750001)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.08)"
-Enterprise to Revenue,1437.776
+Price to Cash Flow,-1.5064500163901761e-09
+Enterprise to EBITDA,-2.564
+Price to Book,4.596774
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-4.0714283)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.07)"
+Enterprise to Revenue,1484.933
 
 CASH FLOW
-Free to Cash Flow,-189186496.0
-Operating to Cash Flow,-280504000.0
+Free to Cash Flow,-189186496
+Operating to Cash Flow,-280504000
 
 PROFITABILITY
 Return on Equity,-1.38596
 Return on Assets,-0.66313004
 Return on Invested Capital,-2237.166943521282
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

@@ -2,24 +2,24 @@ GENERAL STOCK INFO
 Ticker,PHO.OL
 Company,Photocure ASA
 Country,Norway
-Industry,Drug Manufacturers - Specialty & Generic
+Industry,Drug Manufacturers—Specialty & Generic
 Sector,Healthcare
 Website,https://www.photocure.com
-Price,66.6
+Price,65.4
 Currency,NOK
 
 REVENUE
-Total Revenue,462300992.0
+Total Revenue,462300992
 Revenue Per Share,17.021
 Revenue Growth,0.007
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.31)"
-Net Earnings,-33692000.0
+Net Earnings,-33692000
 Earnings Growth,None
 
 DEBT
-Total Debt,24700000.0
+Total Debt,24700000
 Debt to Equity,5.267
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,5.267
-Price to Cash Flow,6.016984142925692e-06
-Enterprise to EBITDA,-603.389
-Price to Book,3.8959541
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=217.41936)"
+Price to Cash Flow,5.990202314396348e-06
+Enterprise to EBITDA,-600.316
+Price to Book,3.8786128
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=216.4516)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.31)"
-Enterprise to Revenue,3.454
+Enterprise to Revenue,3.436
 
 CASH FLOW
-Free to Cash Flow,11201625.0
-Operating to Cash Flow,29386000.0
+Free to Cash Flow,11201625
+Operating to Cash Flow,29386000
 
 PROFITABILITY
 Return on Equity,-0.071040004
 Return on Assets,-0.01544
 Return on Invested Capital,-1.3640476276103661
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

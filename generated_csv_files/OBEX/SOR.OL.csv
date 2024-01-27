@@ -2,24 +2,24 @@ GENERAL STOCK INFO
 Ticker,SOR.OL
 Company,Sparebanken Sør
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.sor.no
-Price,142.0
+Price,148.0
 Currency,NOK
 
 REVENUE
-Total Revenue,3491000064.0
+Total Revenue,3491000064
 Revenue Per Share,84.742
 Revenue Growth,0.439
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.2, forward_eps=17.09)"
-Net Earnings,708000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.2, forward_eps=17.71)"
+Net Earnings,708000000
 Earnings Growth,0.72
 
 DEBT
-Total Debt,71738998784.0
+Total Debt,71738998784
 Debt to Equity,None
 
 MARGINS
@@ -29,23 +29,23 @@ Operating Margins,0.67037004
 
 DIVIDEND
 Dividend Rate,6.0
-Dividend Yield,0.0423
+Dividend Yield,0.040799998
 Five Year Avg Dividend Yield,7.17
 Trailing Annual Dividend Rate,6.0
-Trailing Annual Dividend Yield,0.04225352
+Trailing Annual Dividend Yield,0.04054054
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.38926706
-Price to Earnings,"PriceToEarnings(trailing_pe=8.372092, forward_pe=8.42598)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.2, forward_eps=17.09)"
-Enterprise to Revenue,21.407
+Price to Book,0.39737678
+Price to Earnings,"PriceToEarnings(trailing_pe=8.546512, forward_pe=8.300396)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.2, forward_eps=17.71)"
+Enterprise to Revenue,21.466
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-989000000.0
+Operating to Cash Flow,-989000000
 
 PROFITABILITY
 Return on Equity,0.11361

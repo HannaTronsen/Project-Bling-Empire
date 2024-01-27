@@ -9,17 +9,17 @@ Price,222.0
 Currency,NOK
 
 REVENUE
-Total Revenue,431367008.0
+Total Revenue,431367008
 Revenue Per Share,93.317
 Revenue Growth,0.189
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=46.29, forward_eps=19.74)"
-Net Earnings,107651000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=46.29, forward_eps=18.98)"
+Net Earnings,107651000
 Earnings Growth,0.269
 
 DEBT
-Total Debt,4340229120.0
+Total Debt,4340229120
 Debt to Equity,None
 
 MARGINS
@@ -30,7 +30,7 @@ Operating Margins,0.66664004
 DIVIDEND
 Dividend Rate,10.0
 Dividend Yield,0.045
-Five Year Avg Dividend Yield,4.57
+Five Year Avg Dividend Yield,4.56
 Trailing Annual Dividend Rate,10.0
 Trailing Annual Dividend Yield,0.045045044
 
@@ -39,13 +39,13 @@ Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
 Price to Book,0.5375147
-Price to Earnings,"PriceToEarnings(trailing_pe=4.795852, forward_pe=11.246201)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=46.29, forward_eps=19.74)"
+Price to Earnings,"PriceToEarnings(trailing_pe=4.795852, forward_pe=11.696523)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=46.29, forward_eps=18.98)"
 Enterprise to Revenue,10.967
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-251699008.0
+Operating to Cash Flow,-251699008
 
 PROFITABILITY
 Return on Equity,0.11164
@@ -58,15 +58,15 @@ Return on Investment,0.0025487851653321083
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
-Net Income,False
-Total Revenue,False
+Net Income,True
+Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
-Owner Earnings,False
+Owner Earnings,True
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,3

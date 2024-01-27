@@ -5,21 +5,21 @@ Country,Norway
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.interoil.no
-Price,0.605
+Price,4.499
 Currency,NOK
 
 REVENUE
-Total Revenue,20273000.0
-Revenue Per Share,0.104
+Total Revenue,20273000
+Revenue Per Share,1.043
 Revenue Growth,1.178
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.38, forward_eps=0.01)"
-Net Earnings,-7375000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.89, forward_eps=0.01)"
+Net Earnings,-7375000
 Earnings Growth,None
 
 DEBT
-Total Debt,25672000.0
+Total Debt,25672000
 Debt to Equity,None
 
 MARGINS
@@ -36,21 +36,21 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.4561339643247178e-07
-Enterprise to EBITDA,80.923
+Price to Cash Flow,1.0429559519475794e-06
+Enterprise to EBITDA,61.87
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=60.000004)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.38, forward_eps=0.01)"
-Enterprise to Revenue,7.009
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=429.75003)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.89, forward_eps=0.01)"
+Enterprise to Revenue,5.359
 
 CASH FLOW
-Free to Cash Flow,4120500.0
-Operating to Cash Flow,460000.0
+Free to Cash Flow,4120500
+Operating to Cash Flow,460000
 
 PROFITABILITY
 Return on Equity,None
 Return on Assets,-0.019
-Return on Invested Capital,-0.28727796838225184
+Return on Invested Capital,-0.2872779699041358
 Return on Investment,0.031289775137887145
 
 
@@ -63,10 +63,10 @@ Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,True
-Return On Income Capital,False
+Return On Income Capital,True
 Return On Equity,False
 Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,1
+CRITERIA PASS COUNT,2

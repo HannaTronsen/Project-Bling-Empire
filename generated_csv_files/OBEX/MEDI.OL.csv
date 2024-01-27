@@ -5,21 +5,21 @@ Country,Norway
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.medistim.com
-Price,220.0
+Price,209.0
 Currency,NOK
 
 REVENUE
-Total Revenue,526892992.0
+Total Revenue,526892992
 Revenue Per Share,28.855
 Revenue Growth,0.065
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.4, forward_eps=6.57)"
-Net Earnings,117191000.0
+Net Earnings,117191000
 Earnings Growth,0.059
 
 DEBT
-Total Debt,4150000.0
+Total Debt,4150000
 Debt to Equity,1.097
 
 MARGINS
@@ -29,29 +29,29 @@ Operating Margins,0.27008
 
 DIVIDEND
 Dividend Rate,4.5
-Dividend Yield,0.020499999
+Dividend Yield,0.0212
 Five Year Avg Dividend Yield,2.31
 Trailing Annual Dividend Rate,4.5
-Trailing Annual Dividend Yield,0.020454545
+Trailing Annual Dividend Yield,0.021531101
 
 FINANCIAL RATIO
 Debt to Equity,1.097
-Price to Cash Flow,2.5134443433220275e-06
-Enterprise to EBITDA,24.649
-Price to Book,10.3316765
-Price to Earnings,"PriceToEarnings(trailing_pe=33.4375, forward_pe=32.572296)"
+Price to Cash Flow,2.489954209272289e-06
+Enterprise to EBITDA,23.725
+Price to Book,10.235118
+Price to Earnings,"PriceToEarnings(trailing_pe=33.125, forward_pe=32.267883)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.4, forward_eps=6.57)"
-Enterprise to Revenue,7.393
+Enterprise to Revenue,7.116
 
 CASH FLOW
-Free to Cash Flow,85142128.0
-Operating to Cash Flow,106810000.0
+Free to Cash Flow,85142128
+Operating to Cash Flow,106810000
 
 PROFITABILITY
 Return on Equity,0.32375
 Return on Assets,0.20066999
 Return on Invested Capital,28.23865423921801
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

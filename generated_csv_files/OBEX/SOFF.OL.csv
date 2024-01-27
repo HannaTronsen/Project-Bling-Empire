@@ -5,21 +5,21 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.solstad.com
-Price,36.78
+Price,36.5
 Currency,NOK
 
 REVENUE
-Total Revenue,7603133952.0
+Total Revenue,7603133952
 Revenue Per Share,98.346
 Revenue Growth,0.171
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.6, forward_eps=6.67)"
-Net Earnings,59300000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.59, forward_eps=6.67)"
+Net Earnings,59300000
 Earnings Growth,None
 
 DEBT
-Total Debt,16826186752.0
+Total Debt,16826186752
 Debt to Equity,884.836
 
 MARGINS
@@ -36,16 +36,16 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,884.836
-Price to Cash Flow,9.371477590841734e-08
-Enterprise to EBITDA,6.595
-Price to Book,1.4978545
-Price to Earnings,"PriceToEarnings(trailing_pe=61.666664, forward_pe=5.5472264)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.6, forward_eps=6.67)"
-Enterprise to Revenue,2.329
+Price to Cash Flow,9.153654057649197e-08
+Enterprise to EBITDA,6.577
+Price to Book,1.4630394
+Price to Earnings,"PriceToEarnings(trailing_pe=61.25424, forward_pe=5.4182906)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.59, forward_eps=6.67)"
+Enterprise to Revenue,2.323
 
 CASH FLOW
-Free to Cash Flow,394815008.0
-Operating to Cash Flow,2490850048.0
+Free to Cash Flow,394815008
+Operating to Cash Flow,2490850048
 
 PROFITABILITY
 Return on Equity,0.03444

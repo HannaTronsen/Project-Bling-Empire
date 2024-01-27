@@ -5,21 +5,21 @@ Country,Norway
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.nextbiometrics.com
-Price,7.0
+Price,8.08
 Currency,NOK
 
 REVENUE
-Total Revenue,32116000.0
+Total Revenue,32116000
 Revenue Per Share,0.345
 Revenue Growth,-0.585
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.7, forward_eps=-0.25)"
-Net Earnings,-65513000.0
+Net Earnings,-65513000
 Earnings Growth,None
 
 DEBT
-Total Debt,2463000.0
+Total Debt,2463000
 Debt to Equity,2.293
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,2.293
-Price to Cash Flow,-3.7342132191568713e-07
-Enterprise to EBITDA,-11.033
-Price to Book,6.8731847
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-28.4)"
+Price to Cash Flow,-4.228602011552288e-07
+Enterprise to EBITDA,-12.681
+Price to Book,7.783156
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-32.16)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.7, forward_eps=-0.25)"
-Enterprise to Revenue,20.385
+Enterprise to Revenue,23.429
 
 CASH FLOW
-Free to Cash Flow,-19013376.0
-Operating to Cash Flow,-41416000.0
+Free to Cash Flow,-19013376
+Operating to Cash Flow,-41416000
 
 PROFITABILITY
 Return on Equity,-0.60025
 Return on Assets,-0.29626
 Return on Invested Capital,-26.598852019239086
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

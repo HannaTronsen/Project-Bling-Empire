@@ -5,21 +5,21 @@ Country,Norway
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.kongsberg.com
-Price,463.0
+Price,533.5
 Currency,NOK
 
 REVENUE
-Total Revenue,38125998080.0
+Total Revenue,38125998080
 Revenue Per Share,216.238
 Revenue Growth,0.288
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.05, forward_eps=23.7)"
-Net Earnings,3540000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.05, forward_eps=23.85)"
+Net Earnings,3540000000
 Earnings Growth,0.193
 
 DEBT
-Total Debt,6200000000.0
+Total Debt,6200000000
 Debt to Equity,40.205
 
 MARGINS
@@ -29,23 +29,23 @@ Operating Margins,0.12718001
 
 DIVIDEND
 Dividend Rate,12.0
-Dividend Yield,0.025899999
-Five Year Avg Dividend Yield,1.63
+Dividend Yield,0.0227
+Five Year Avg Dividend Yield,1.62
 Trailing Annual Dividend Rate,3.6
-Trailing Annual Dividend Yield,0.007775378
+Trailing Annual Dividend Yield,0.006747891
 
 FINANCIAL RATIO
 Debt to Equity,40.205
-Price to Cash Flow,-1.1624102171731958e-06
-Enterprise to EBITDA,16.8
-Price to Book,5.495206
-Price to Earnings,"PriceToEarnings(trailing_pe=23.211971, forward_pe=19.63713)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.05, forward_eps=23.7)"
-Enterprise to Revenue,2.257
+Price to Cash Flow,-1.3212612911143546e-06
+Enterprise to EBITDA,19.066
+Price to Book,6.2461624
+Price to Earnings,"PriceToEarnings(trailing_pe=26.38404, forward_pe=22.180294)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.05, forward_eps=23.85)"
+Enterprise to Revenue,2.561
 
 CASH FLOW
-Free to Cash Flow,-400375008.0
-Operating to Cash Flow,2332999936.0
+Free to Cash Flow,-400375008
+Operating to Cash Flow,2332999936
 
 PROFITABILITY
 Return on Equity,0.25675

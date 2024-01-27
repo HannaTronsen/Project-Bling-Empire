@@ -2,24 +2,24 @@ GENERAL STOCK INFO
 Ticker,MOBA.OL
 Company,Morrow Bank ASA
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.komplettbank.no
-Price,3.81
+Price,3.85
 Currency,NOK
 
 REVENUE
-Total Revenue,480900000.0
+Total Revenue,480900000
 Revenue Per Share,2.334
 Revenue Growth,0.051
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.06, forward_eps=0.63)"
-Net Earnings,13200000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.0, forward_eps=0.63)"
+Net Earnings,13200000
 Earnings Growth,0.625
 
 DEBT
-Total Debt,165000000.0
+Total Debt,165000000
 Debt to Equity,None
 
 MARGINS
@@ -38,20 +38,20 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.4360953
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.1904764)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.06, forward_eps=0.63)"
+Price to Book,0.42603153
+Price to Earnings,"PriceToEarnings(trailing_pe='Infinity', forward_pe=6.047619)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.0, forward_eps=0.63)"
 Enterprise to Revenue,-0.319
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-2165400064.0
+Operating to Cash Flow,-2165400064
 
 PROFITABILITY
 Return on Equity,0.013040001
 Return on Assets,0.00247
 Return on Invested Capital,0.07999999566400023
-Return on Investment,0.0007436619718309859
+Return on Investment,0.0005734144222415291
 
 
 

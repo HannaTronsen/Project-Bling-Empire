@@ -5,21 +5,21 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.eidesvik.no
-Price,13.68
+Price,13.12
 Currency,NOK
 
 REVENUE
-Total Revenue,669409024.0
+Total Revenue,669409024
 Revenue Per Share,9.499
 Revenue Growth,0.049
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.04, forward_eps=-4.58)"
-Net Earnings,687113024.0
+Net Earnings,687113024
 Earnings Growth,-0.794
 
 DEBT
-Total Debt,818667008.0
+Total Debt,818667008
 Debt to Equity,53.919
 
 MARGINS
@@ -36,16 +36,16 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,53.919
-Price to Cash Flow,-1.0400827387326029e-07
-Enterprise to EBITDA,6.525
-Price to Book,0.71384233
-Price to Earnings,"PriceToEarnings(trailing_pe=1.3745021, forward_pe=-3.0131006)"
+Price to Cash Flow,-9.933543838040366e-08
+Enterprise to EBITDA,6.37
+Price to Book,0.68177116
+Price to Earnings,"PriceToEarnings(trailing_pe=1.312749, forward_pe=-2.8777294)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=10.04, forward_eps=-4.58)"
-Enterprise to Revenue,2.297
+Enterprise to Revenue,2.243
 
 CASH FLOW
-Free to Cash Flow,-132681752.0
-Operating to Cash Flow,291958016.0
+Free to Cash Flow,-132681752
+Operating to Cash Flow,291958016
 
 PROFITABILITY
 Return on Equity,0.75315005

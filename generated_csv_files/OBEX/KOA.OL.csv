@@ -5,21 +5,21 @@ Country,Norway
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.kongsbergautomotive.com
-Price,2.042
+Price,1.872
 Currency,NOK
 
 REVENUE
-Total Revenue,893600000.0
+Total Revenue,893600000
 Revenue Per Share,0.911
 Revenue Growth,-0.103
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=0.22)"
-Net Earnings,-19800000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.23, forward_eps=0.22)"
+Net Earnings,-19800000
 Earnings Growth,-0.068
 
 DEBT
-Total Debt,250800000.0
+Total Debt,250800000
 Debt to Equity,100.2
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,100.2
-Price to Cash Flow,4.361702127659574e-08
-Enterprise to EBITDA,47.697
-Price to Book,9.192824
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.318182)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=0.22)"
-Enterprise to Revenue,2.626
+Price to Cash Flow,3.9808510638297876e-08
+Enterprise to EBITDA,43.863
+Price to Book,8.390135
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.504546)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.23, forward_eps=0.22)"
+Enterprise to Revenue,2.415
 
 CASH FLOW
-Free to Cash Flow,47000000.0
-Operating to Cash Flow,53800000.0
+Free to Cash Flow,47000000
+Operating to Cash Flow,53800000
 
 PROFITABILITY
 Return on Equity,-0.070250005
 Return on Assets,0.0137600005
 Return on Invested Capital,-0.07894736835085621
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

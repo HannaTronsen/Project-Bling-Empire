@@ -5,21 +5,21 @@ Country,Norway
 Industry,Electronic Components
 Sector,Technology
 Website,https://www.kitron.com
-Price,32.8
+Price,32.6
 Currency,NOK
 
 REVENUE
-Total Revenue,684379200.0
+Total Revenue,684379200
 Revenue Per Share,3.653
 Revenue Growth,0.083
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.65, forward_eps=0.25)"
-Net Earnings,45539216.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=0.24)"
+Net Earnings,45539216
 Earnings Growth,0.25
 
 DEBT
-Total Debt,173300000.0
+Total Debt,173300000
 Debt to Equity,103.463
 
 MARGINS
@@ -29,29 +29,29 @@ Operating Margins,0.0904
 
 DIVIDEND
 Dividend Rate,0.5
-Dividend Yield,0.0152
+Dividend Yield,0.015700001
 Five Year Avg Dividend Yield,3.37
 Trailing Annual Dividend Rate,0.044
-Trailing Annual Dividend Yield,0.0013414634
+Trailing Annual Dividend Yield,0.0013496933
 
 FINANCIAL RATIO
 Debt to Equity,103.463
-Price to Cash Flow,1.1733538143701026e-06
-Enterprise to EBITDA,88.288
-Price to Book,38.818077
-Price to Earnings,"PriceToEarnings(trailing_pe=12.641509, forward_pe=134.0)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.65, forward_eps=0.25)"
-Enterprise to Revenue,9.505
+Price to Cash Flow,1.1173130351763068e-06
+Enterprise to EBITDA,85.918
+Price to Book,36.96408
+Price to Earnings,"PriceToEarnings(trailing_pe=11.858736, forward_pe=132.91667)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=0.24)"
+Enterprise to Revenue,9.25
 
 CASH FLOW
-Free to Cash Flow,28550638.0
-Operating to Cash Flow,30902698.0
+Free to Cash Flow,28550638
+Operating to Cash Flow,30902698
 
 PROFITABILITY
 Return on Equity,0.29868
 Return on Assets,0.07
 Return on Invested Capital,0.26277677884145206
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

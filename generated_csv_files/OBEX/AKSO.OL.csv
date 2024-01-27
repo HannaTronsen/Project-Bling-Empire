@@ -5,21 +5,21 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://akersolutions.com
-Price,41.88
+Price,39.56
 Currency,NOK
 
 REVENUE
-Total Revenue,52276998144.0
+Total Revenue,52276998144
 Revenue Per Share,107.451
 Revenue Growth,0.421
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=3.68)"
-Net Earnings,2208999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=3.66)"
+Net Earnings,2208999936
 Earnings Growth,1.799
 
 DEBT
-Total Debt,4606000128.0
+Total Debt,4606000128
 Debt to Equity,41.631
 
 MARGINS
@@ -29,23 +29,23 @@ Operating Margins,0.08568
 
 DIVIDEND
 Dividend Rate,1.0
-Dividend Yield,0.0239
+Dividend Yield,0.024400001
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.023877745
+Trailing Annual Dividend Yield,0.025278058
 
 FINANCIAL RATIO
 Debt to Equity,41.631
-Price to Cash Flow,1.0298072992819798e-08
-Enterprise to EBITDA,4.983
-Price to Book,1.8465459
-Price to Earnings,"PriceToEarnings(trailing_pe=12.32258, forward_pe=11.418478)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=3.68)"
-Enterprise to Revenue,0.331
+Price to Cash Flow,1.002358841995073e-08
+Enterprise to EBITDA,4.826
+Price to Book,1.7973282
+Price to Earnings,"PriceToEarnings(trailing_pe=11.994135, forward_pe=11.174864)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=3.66)"
+Enterprise to Revenue,0.32
 
 CASH FLOW
-Free to Cash Flow,4080375040.0
-Operating to Cash Flow,7541000192.0
+Free to Cash Flow,4080375040
+Operating to Cash Flow,7541000192
 
 PROFITABILITY
 Return on Equity,0.21489

@@ -5,21 +5,21 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.siemoffshore.com
-Price,27.45
+Price,24.9
 Currency,NOK
 
 REVENUE
-Total Revenue,315211008.0
+Total Revenue,315211008
 Revenue Per Share,1.32
 Revenue Growth,0.161
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.84, forward_eps=0.34)"
-Net Earnings,68062000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.93, forward_eps=0.34)"
+Net Earnings,68062000
 Earnings Growth,0.349
 
 DEBT
-Total Debt,519591008.0
+Total Debt,519591008
 Debt to Equity,122.653
 
 MARGINS
@@ -36,16 +36,16 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,122.653
-Price to Cash Flow,4.2010411275837925e-07
-Enterprise to EBITDA,52.461
-Price to Book,15.376045
-Price to Earnings,"PriceToEarnings(trailing_pe=9.71831, forward_pe=81.17647)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.84, forward_eps=0.34)"
-Enterprise to Revenue,22.116
+Price to Cash Flow,3.85095436695181e-07
+Enterprise to EBITDA,48.596
+Price to Book,14.0947075
+Price to Earnings,"PriceToEarnings(trailing_pe=8.634811, forward_pe=74.41176)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.93, forward_eps=0.34)"
+Enterprise to Revenue,20.487
 
 CASH FLOW
-Free to Cash Flow,65698000.0
-Operating to Cash Flow,116658000.0
+Free to Cash Flow,65698000
+Operating to Cash Flow,116658000
 
 PROFITABILITY
 Return on Equity,0.16506

@@ -5,21 +5,21 @@ Country,Norway
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.nordicsemi.com
-Price,125.2
+Price,113.2
 Currency,NOK
 
 REVENUE
-Total Revenue,626049984.0
+Total Revenue,626049984
 Revenue Per Share,3.262
 Revenue Growth,-0.332
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.65, forward_eps=0.11)"
-Net Earnings,51508000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.75, forward_eps=0.12)"
+Net Earnings,51508000
 Earnings Growth,-0.952
 
 DEBT
-Total Debt,35545000.0
+Total Debt,35545000
 Debt to Equity,5.809
 
 MARGINS
@@ -36,27 +36,27 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,5.809
-Price to Cash Flow,-3.543643513512419e-06
-Enterprise to EBITDA,337.231
-Price to Book,39.597736
-Price to Earnings,"PriceToEarnings(trailing_pe=47.54717, forward_pe=1145.4546)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.65, forward_eps=0.11)"
-Enterprise to Revenue,38.149
+Price to Cash Flow,-3.102094282066824e-06
+Enterprise to EBITDA,296.773
+Price to Book,34.663734
+Price to Earnings,"PriceToEarnings(trailing_pe=40.109093, forward_pe=919.1667)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.75, forward_eps=0.12)"
+Enterprise to Revenue,33.572
 
 CASH FLOW
-Free to Cash Flow,-35556624.0
-Operating to Cash Flow,-74446000.0
+Free to Cash Flow,-35556624
+Operating to Cash Flow,-74446000
 
 PROFITABILITY
 Return on Equity,0.08878
 Return on Assets,0.040700004
 Return on Invested Capital,1.4490925696718933
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,True
 Net Income,False
 Total Revenue,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,2
+CRITERIA PASS COUNT,1

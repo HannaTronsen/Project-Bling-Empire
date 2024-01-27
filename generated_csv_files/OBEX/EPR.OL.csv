@@ -5,21 +5,21 @@ Country,Norway
 Industry,Discount Stores
 Sector,Consumer Defensive
 Website,https://www.europris.no
-Price,76.6
+Price,81.6
 Currency,NOK
 
 REVENUE
-Total Revenue,9429148672.0
+Total Revenue,9429148672
 Revenue Per Share,58.556
 Revenue Growth,0.05
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.56, forward_eps=5.73)"
-Net Earnings,894710976.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.56, forward_eps=5.8)"
+Net Earnings,894710976
 Earnings Growth,-0.233
 
 DEBT
-Total Debt,3932782080.0
+Total Debt,3932782080
 Debt to Equity,124.465
 
 MARGINS
@@ -29,29 +29,29 @@ Operating Margins,0.108839996
 
 DIVIDEND
 Dividend Rate,2.75
-Dividend Yield,0.0359
-Five Year Avg Dividend Yield,4.72
+Dividend Yield,0.0343
+Five Year Avg Dividend Yield,4.66
 Trailing Annual Dividend Rate,2.75
-Trailing Annual Dividend Yield,0.035900783
+Trailing Annual Dividend Yield,0.03370098
 
 FINANCIAL RATIO
 Debt to Equity,124.465
-Price to Cash Flow,6.364009214295957e-08
-Enterprise to EBITDA,11.351
-Price to Book,3.974213
-Price to Earnings,"PriceToEarnings(trailing_pe=13.803957, forward_pe=13.394415)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.56, forward_eps=5.73)"
-Enterprise to Revenue,1.722
+Price to Cash Flow,6.650078683863657e-08
+Enterprise to EBITDA,11.756
+Price to Book,4.1528583
+Price to Earnings,"PriceToEarnings(trailing_pe=14.42446, forward_pe=13.827585)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.56, forward_eps=5.8)"
+Enterprise to Revenue,1.784
 
 CASH FLOW
-Free to Cash Flow,1206000768.0
-Operating to Cash Flow,1792750976.0
+Free to Cash Flow,1206000768
+Operating to Cash Flow,1792750976
 
 PROFITABILITY
 Return on Equity,0.30396998
 Return on Assets,0.095419995
 Return on Invested Capital,0.2275007751272364
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

@@ -5,21 +5,21 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.mpc-container.com
-Price,13.365
+Price,15.75
 Currency,NOK
 
 REVENUE
-Total Revenue,720512000.0
+Total Revenue,720512000
 Revenue Per Share,1.623
 Revenue Growth,0.149
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.93, forward_eps=0.48)"
-Net Earnings,392857984.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.22, forward_eps=0.5)"
+Net Earnings,392857984
 Earnings Growth,-0.464
 
 DEBT
-Total Debt,173799008.0
+Total Debt,173799008
 Debt to Equity,22.251
 
 MARGINS
@@ -29,29 +29,29 @@ Operating Margins,0.46473
 
 DIVIDEND
 Dividend Rate,6.31
-Dividend Yield,0.4719
+Dividend Yield,0.39790002
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.59
-Trailing Annual Dividend Yield,0.044145156
+Trailing Annual Dividend Yield,0.037460316
 
 FINANCIAL RATIO
 Debt to Equity,22.251
-Price to Cash Flow,6.638145970065025e-07
-Enterprise to EBITDA,11.83
-Price to Book,7.5969214
-Price to Earnings,"PriceToEarnings(trailing_pe=1.4921612, forward_pe=27.760416)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.93, forward_eps=0.48)"
-Enterprise to Revenue,8.348
+Price to Cash Flow,7.896031041315621e-07
+Enterprise to EBITDA,13.999
+Price to Book,9.036489
+Price to Earnings,"PriceToEarnings(trailing_pe=1.7190889, forward_pe=31.7)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.22, forward_eps=0.5)"
+Enterprise to Revenue,9.878
 
 CASH FLOW
-Free to Cash Flow,20073376.0
-Operating to Cash Flow,513868000.0
+Free to Cash Flow,20073376
+Operating to Cash Flow,513868000
 
 PROFITABILITY
 Return on Equity,0.52986
 Return on Assets,0.25862
 Return on Invested Capital,2.2604155487195365
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 
@@ -60,7 +60,7 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,False
+Operating Cash Flow,True
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,1

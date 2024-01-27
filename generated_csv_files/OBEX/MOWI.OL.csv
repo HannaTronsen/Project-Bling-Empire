@@ -5,21 +5,21 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.mowi.com
-Price,180.3
+Price,186.25
 Currency,NOK
 
 REVENUE
-Total Revenue,5438900224.0
+Total Revenue,5438900224
 Revenue Per Share,10.569
 Revenue Growth,0.082
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=15.46)"
-Net Earnings,418000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.23, forward_eps=16.2)"
+Net Earnings,418000000
 Earnings Growth,0.4
 
 DEBT
-Total Debt,2275699968.0
+Total Debt,2275699968
 Debt to Equity,61.985
 
 MARGINS
@@ -29,23 +29,23 @@ Operating Margins,0.13742
 
 DIVIDEND
 Dividend Rate,7.2
-Dividend Yield,0.0399
-Five Year Avg Dividend Yield,3.4
+Dividend Yield,0.038599998
+Five Year Avg Dividend Yield,3.37
 Trailing Annual Dividend Rate,0.655
-Trailing Annual Dividend Yield,0.003632834
+Trailing Annual Dividend Yield,0.0035167783
 
 FINANCIAL RATIO
 Debt to Equity,61.985
-Price to Cash Flow,4.2853779138215213e-07
-Enterprise to EBITDA,82.302
-Price to Book,26.966957
-Price to Earnings,"PriceToEarnings(trailing_pe=20.022001, forward_pe=11.772316)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=15.46)"
-Enterprise to Revenue,17.568
+Price to Cash Flow,4.397221568165764e-07
+Enterprise to EBITDA,85.175
+Price to Book,27.670765
+Price to Earnings,"PriceToEarnings(trailing_pe=20.232937, forward_pe=11.527778)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.23, forward_eps=16.2)"
+Enterprise to Revenue,18.182
 
 CASH FLOW
-Free to Cash Flow,424700000.0
-Operating to Cash Flow,865900032.0
+Free to Cash Flow,424700000
+Operating to Cash Flow,865900032
 
 PROFITABILITY
 Return on Equity,0.11736
@@ -59,7 +59,7 @@ PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
 Net Income,False
-Total Revenue,False
+Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,1

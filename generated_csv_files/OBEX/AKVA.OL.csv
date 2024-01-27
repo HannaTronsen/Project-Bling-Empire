@@ -5,21 +5,21 @@ Country,Norway
 Industry,Farm & Heavy Construction Machinery
 Sector,Industrials
 Website,https://www.akvagroup.com
-Price,57.0
+Price,55.6
 Currency,NOK
 
 REVENUE
-Total Revenue,3362377984.0
+Total Revenue,3362377984
 Revenue Per Share,92.373
 Revenue Growth,-0.027
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=2.06)"
-Net Earnings,-19662000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=1.95)"
+Net Earnings,-19662000
 Earnings Growth,None
 
 DEBT
-Total Debt,1379827968.0
+Total Debt,1379827968
 Debt to Equity,116.242
 
 MARGINS
@@ -36,16 +36,16 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,116.242
-Price to Cash Flow,-4.6140963890463517e-07
-Enterprise to EBITDA,36.389
-Price to Book,1.7968339
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=28.15534)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=2.06)"
-Enterprise to Revenue,0.975
+Price to Cash Flow,-4.37543623099223e-07
+Enterprise to EBITDA,35.176
+Price to Book,1.7038943
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=28.205128)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=1.95)"
+Enterprise to Revenue,0.942
 
 CASH FLOW
-Free to Cash Flow,-125701752.0
-Operating to Cash Flow,80566000.0
+Free to Cash Flow,-125701752
+Operating to Cash Flow,80566000
 
 PROFITABILITY
 Return on Equity,-0.01653

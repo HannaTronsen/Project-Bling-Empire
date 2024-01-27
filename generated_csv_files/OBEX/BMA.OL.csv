@@ -5,21 +5,21 @@ Country,Norway
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.byggma.no
-Price,19.75
+Price,19.25
 Currency,NOK
 
 REVENUE
-Total Revenue,2223166976.0
+Total Revenue,2223166976
 Revenue Per Share,31.816
 Revenue Growth,-0.168
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
-Net Earnings,143610000.0
+Net Earnings,143610000
 Earnings Growth,-0.477
 
 DEBT
-Total Debt,1479299968.0
+Total Debt,1479299968
 Debt to Equity,153.486
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,153.486
-Price to Cash Flow,1.5969148526976105e-07
-Enterprise to EBITDA,9.165
-Price to Book,1.4053897
-Price to Earnings,"PriceToEarnings(trailing_pe=9.463414, forward_pe=None)"
+Price to Cash Flow,1.5639887732605464e-07
+Enterprise to EBITDA,8.995
+Price to Book,1.3764126
+Price to Earnings,"PriceToEarnings(trailing_pe=9.268292, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
-Enterprise to Revenue,1.27
+Enterprise to Revenue,1.247
 
 CASH FLOW
-Free to Cash Flow,121484248.0
-Operating to Cash Flow,221979008.0
+Free to Cash Flow,121484248
+Operating to Cash Flow,221979008
 
 PROFITABILITY
 Return on Equity,0.18325001
 Return on Assets,0.04994
 Return on Invested Capital,0.09707970105216132
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

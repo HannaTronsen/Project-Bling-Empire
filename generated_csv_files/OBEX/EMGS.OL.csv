@@ -5,21 +5,21 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.emgs.com
-Price,2.63
+Price,2.45
 Currency,NOK
 
 REVENUE
-Total Revenue,22044000.0
+Total Revenue,22044000
 Revenue Per Share,0.168
 Revenue Growth,-0.755
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.3, forward_eps=-0.08)"
-Net Earnings,2426000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.31, forward_eps=-0.08)"
+Net Earnings,2426000
 Earnings Growth,None
 
 DEBT
-Total Debt,22341000.0
+Total Debt,22341000
 Debt to Equity,546.101
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,546.101
-Price to Cash Flow,2.3555765966536953e-07
-Enterprise to EBITDA,43.681
-Price to Book,82.258064
-Price to Earnings,"PriceToEarnings(trailing_pe=8.499999, forward_pe=-31.875)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.3, forward_eps=-0.08)"
-Enterprise to Revenue,16.116
+Price to Cash Flow,2.1985381568767825e-07
+Enterprise to EBITDA,39.655
+Price to Book,76.7742
+Price to Earnings,"PriceToEarnings(trailing_pe=7.6774197, forward_pe=-29.750002)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.31, forward_eps=-0.08)"
+Enterprise to Revenue,14.63
 
 CASH FLOW
-Free to Cash Flow,10825375.0
-Operating to Cash Flow,11797000.0
+Free to Cash Flow,10825375
+Operating to Cash Flow,11797000
 
 PROFITABILITY
 Return on Equity,0.83082
 Return on Assets,0.06317
 Return on Invested Capital,0.10858958849799574
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

@@ -93,7 +93,7 @@ class YahooStockDataClass(CsvConverter):
                 market_cap=summary_detail.get("marketCap"),
                 currency=Currency.from_str(summary_detail.get("currency")),
             )
-        ).normalize_values()
+        )#.normalize_values()
 
         self.financial_data: FinancialData = FinancialData(
             price=financial_data.get("currentPrice"),
@@ -132,7 +132,7 @@ class YahooStockDataClass(CsvConverter):
             expenses=self.income_statement.get_most_recent_expenses(
                 capital_expenditure=self.cash_flow.get_most_recent_capital_expenditure()
             )
-        ).normalize_values()
+        )#.normalize_values()
 
         self._evaluated_growth_criteria = self.get_evaluated_growth_criteria()
         self.criteria_pass_count = sum(1 for value in self._evaluated_growth_criteria.values() if value is True)

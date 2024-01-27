@@ -2,56 +2,56 @@ GENERAL STOCK INFO
 Ticker,SADG.OL
 Company,Sandnes Sparebank
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.dengulebanken.no
-Price,89.2
+Price,93.4
 Currency,NOK
 
 REVENUE
-Total Revenue,725651008.0
-Revenue Per Share,34.394
+Total Revenue,725651008
+Revenue Per Share,34.556
 Revenue Growth,0.439
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.4, forward_eps=10.85)"
-Net Earnings,197686000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.4, forward_eps=10.95)"
+Net Earnings,196812992
 Earnings Growth,0.867
 
 DEBT
-Total Debt,15974591488.0
+Total Debt,15974591488
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.42789
+Profit Margins,0.42668998
 Gross Profit Margins,0.0
 Operating Margins,0.58862996
 
 DIVIDEND
 Dividend Rate,6.05
-Dividend Yield,0.0678
+Dividend Yield,0.0648
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,6.05
-Trailing Annual Dividend Yield,0.067825116
+Trailing Annual Dividend Yield,0.06477516
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.5710858
-Price to Earnings,"PriceToEarnings(trailing_pe=9.723405, forward_pe=8.423963)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.4, forward_eps=10.85)"
-Enterprise to Revenue,19.114
+Price to Book,0.5835822
+Price to Earnings,"PriceToEarnings(trailing_pe=9.936171, forward_pe=8.52968)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.4, forward_eps=10.95)"
+Enterprise to Revenue,19.172
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-108301000.0
+Operating to Cash Flow,-108301000
 
 PROFITABILITY
 Return on Equity,0.09204
 Return on Assets,0.00936
-Return on Invested Capital,0.01237502681479691
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Invested Capital,0.012320377029736094
+Return on Investment,nan
 
 
 

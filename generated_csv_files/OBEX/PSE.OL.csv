@@ -5,21 +5,21 @@ Country,Cyprus
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.petrolia.eu
-Price,4.1
+Price,4.05
 Currency,NOK
 
 REVENUE
-Total Revenue,57988000.0
+Total Revenue,57988000
 Revenue Per Share,0.981
 Revenue Growth,0.093
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=None)"
-Net Earnings,428000.0
+Net Earnings,428000
 Earnings Growth,None
 
 DEBT
-Total Debt,15117000.0
+Total Debt,15117000
 Debt to Equity,37.545
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,37.545
-Price to Cash Flow,9.491525423728812e-07
-Enterprise to EBITDA,30.987
-Price to Book,6.7993627
-Price to Earnings,"PriceToEarnings(trailing_pe=106.75, forward_pe=None)"
+Price to Cash Flow,9.024729091414281e-07
+Enterprise to EBITDA,29.508
+Price to Book,6.4649677
+Price to Earnings,"PriceToEarnings(trailing_pe=101.5, forward_pe=None)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=None)"
-Enterprise to Revenue,4.477
+Enterprise to Revenue,4.263
 
 CASH FLOW
-Free to Cash Flow,4498750.0
-Operating to Cash Flow,9009000.0
+Free to Cash Flow,4498750
+Operating to Cash Flow,9009000
 
 PROFITABILITY
 Return on Equity,0.02944
 Return on Assets,0.06665
 Return on Invested Capital,0.028312494689406185
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

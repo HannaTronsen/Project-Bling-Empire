@@ -5,21 +5,21 @@ Country,Bermuda
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.seadrill.com
-Price,472.0
+Price,477.5
 Currency,NOK
 
 REVENUE
-Total Revenue,1284000000.0
+Total Revenue,1284000000
 Revenue Per Share,19.76
 Revenue Growth,0.58
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=616.76, forward_eps=31.78)"
-Net Earnings,204000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=636.55, forward_eps=32.66)"
+Net Earnings,204000000
 Earnings Growth,None
 
 DEBT
-Total Debt,617000000.0
+Total Debt,617000000
 Debt to Equity,19.807
 
 MARGINS
@@ -36,16 +36,16 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,19.807
-Price to Cash Flow,7.818627450980392e-07
-Enterprise to EBITDA,85.108
-Price to Book,12.0928
-Price to Earnings,"PriceToEarnings(trailing_pe=0.77582854, forward_pe=15.056639)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=616.76, forward_eps=31.78)"
-Enterprise to Revenue,28.767
+Price to Cash Flow,7.81045751633987e-07
+Enterprise to EBITDA,86.197
+Price to Book,12.080164
+Price to Earnings,"PriceToEarnings(trailing_pe=0.750923, forward_pe=14.63564)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=636.55, forward_eps=32.66)"
+Enterprise to Revenue,29.135
 
 CASH FLOW
-Free to Cash Flow,612000000.0
-Operating to Cash Flow,224000000.0
+Free to Cash Flow,612000000
+Operating to Cash Flow,224000000
 
 PROFITABILITY
 Return on Equity,0.08930001
@@ -58,7 +58,7 @@ Return on Investment,0.012439024390243903
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
-Net Income,False
+Net Income,True
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,1

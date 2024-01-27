@@ -55,9 +55,10 @@ class ComparableCSV:
         )
 
         for ticker in sorted_collection:
-            if GENERATE_INDIVIDUAL_TICKER_CSV and not os.path.exists(
-                    f'{GENERATED_CSV_FILES_PATH}{collection.stock_index_name}/comparison/{TIME_STAMP}/'
-            ):
+            # if GENERATE_INDIVIDUAL_TICKER_CSV and not os.path.exists(
+            #         f'{GENERATED_CSV_FILES_PATH}{collection.stock_index_name}/comparison/{TIME_STAMP}/'
+            # ):
+            if GENERATE_INDIVIDUAL_TICKER_CSV:
                 with ThreadPoolExecutor() as executor:
                     executor.submit(ticker.to_csv(stock_collection=collection.stock_index_name))
 

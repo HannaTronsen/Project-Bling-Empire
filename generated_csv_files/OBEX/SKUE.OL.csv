@@ -2,24 +2,24 @@ GENERAL STOCK INFO
 Ticker,SKUE.OL
 Company,Skue Sparebank
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://skuesparebank.no
-Price,230.0
+Price,244.0
 Currency,NOK
 
 REVENUE
-Total Revenue,460808992.0
+Total Revenue,460808992
 Revenue Per Share,220.254
 Revenue Growth,0.215
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=86.66, forward_eps=32.01)"
-Net Earnings,55268000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=86.67, forward_eps=33.61)"
+Net Earnings,55268000
 Earnings Growth,0.327
 
 DEBT
-Total Debt,4281369088.0
+Total Debt,4281369088
 Debt to Equity,None
 
 MARGINS
@@ -32,20 +32,20 @@ Dividend Rate,None
 Dividend Yield,None
 Five Year Avg Dividend Yield,5.24
 Trailing Annual Dividend Rate,12.5
-Trailing Annual Dividend Yield,0.054347824
+Trailing Annual Dividend Yield,0.051229507
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.23641342
-Price to Earnings,"PriceToEarnings(trailing_pe=2.65405, forward_pe=7.185255)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=86.66, forward_eps=32.01)"
-Enterprise to Revenue,5.576
+Price to Book,0.2508038
+Price to Earnings,"PriceToEarnings(trailing_pe=2.8152764, forward_pe=7.259744)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=86.67, forward_eps=33.61)"
+Enterprise to Revenue,5.639
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-42208000.0
+Operating to Cash Flow,-42208000
 
 PROFITABILITY
 Return on Equity,0.09934
@@ -58,15 +58,15 @@ Return on Investment,0.0013281171149955064
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,True
-Net Income,False
-Total Revenue,False
+Net Income,True
+Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
-Owner Earnings,False
+Owner Earnings,True
 
 
 
-CRITERIA PASS COUNT,1
+CRITERIA PASS COUNT,4

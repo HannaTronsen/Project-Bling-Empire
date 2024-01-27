@@ -5,21 +5,21 @@ Country,Norway
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.zalaris.com
-Price,47.0
+Price,49.8
 Currency,NOK
 
 REVENUE
-Total Revenue,1069340032.0
+Total Revenue,1069340032
 Revenue Per Share,48.966
 Revenue Growth,0.241
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
-Net Earnings,-23291000.0
+Net Earnings,-23291000
 Earnings Growth,None
 
 DEBT
-Total Debt,507166016.0
+Total Debt,507166016
 Debt to Equity,285.626
 
 MARGINS
@@ -32,20 +32,20 @@ Dividend Rate,None
 Dividend Yield,None
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.021276595
+Trailing Annual Dividend Yield,0.020080322
 
 FINANCIAL RATIO
 Debt to Equity,285.626
-Price to Cash Flow,7.77468443957305e-07
-Enterprise to EBITDA,19.359
-Price to Book,5.5942373
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=13.089888)"
+Price to Cash Flow,8.341936093962501e-07
+Enterprise to EBITDA,20.256
+Price to Book,6.002401
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=14.044944)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
-Enterprise to Revenue,1.309
+Enterprise to Revenue,1.369
 
 CASH FLOW
-Free to Cash Flow,59938124.0
-Operating to Cash Flow,26841000.0
+Free to Cash Flow,59938124
+Operating to Cash Flow,26841000
 
 PROFITABILITY
 Return on Equity,-0.13653

@@ -9,17 +9,17 @@ Price,8.74
 Currency,NOK
 
 REVENUE
-Total Revenue,-3240000.0
+Total Revenue,-3240000
 Revenue Per Share,-0.038
 Revenue Growth,None
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=None)"
-Net Earnings,62406000.0
+Net Earnings,62406000
 Earnings Growth,None
 
 DEBT
-Total Debt,1503000.0
+Total Debt,1503000
 Debt to Equity,0.214
 
 MARGINS
@@ -44,14 +44,14 @@ Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=None)"
 Enterprise to Revenue,-133.704
 
 CASH FLOW
-Free to Cash Flow,-215813744.0
-Operating to Cash Flow,-21659000.0
+Free to Cash Flow,-215813744
+Operating to Cash Flow,-21659000
 
 PROFITABILITY
 Return on Equity,0.063930005
 Return on Assets,-0.04088
 Return on Invested Capital,41.5207323027644
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

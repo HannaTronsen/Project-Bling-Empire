@@ -2,24 +2,24 @@ GENERAL STOCK INFO
 Ticker,PEXIP.OL
 Company,Pexip Holding ASA
 Country,Norway
-Industry,Software - Application
+Industry,Software—Application
 Sector,Technology
 Website,https://www.pexip.com
-Price,25.7
+Price,25.12
 Currency,NOK
 
 REVENUE
-Total Revenue,968792000.0
+Total Revenue,968792000
 Revenue Per Share,9.577
 Revenue Growth,0.135
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.8)"
-Net Earnings,-84437000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.78)"
+Net Earnings,-84437000
 Earnings Growth,None
 
 DEBT
-Total Debt,56412000.0
+Total Debt,56412000
 Debt to Equity,3.499
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,3.499
-Price to Cash Flow,1.6743447765252673e-07
-Enterprise to EBITDA,-307.668
-Price to Book,1.6190536
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=32.375)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.8)"
-Enterprise to Revenue,2.242
+Price to Cash Flow,1.6277992846681943e-07
+Enterprise to EBITDA,-297.391
+Price to Book,1.5740452
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=32.28205)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=0.78)"
+Enterprise to Revenue,2.167
 
 CASH FLOW
-Free to Cash Flow,154687376.0
-Operating to Cash Flow,75655000.0
+Free to Cash Flow,154687376
+Operating to Cash Flow,75655000
 
 PROFITABILITY
 Return on Equity,-0.05134
 Return on Assets,-0.02012
 Return on Invested Capital,-1.4967910383576855
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

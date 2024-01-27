@@ -5,21 +5,21 @@ Country,Norway
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.webstep.com
-Price,21.9
+Price,21.2
 Currency,NOK
 
 REVENUE
-Total Revenue,984336000.0
+Total Revenue,984336000
 Revenue Per Share,35.675
 Revenue Growth,0.089
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=1.87)"
-Net Earnings,39381000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=1.81)"
+Net Earnings,39381000
 Earnings Growth,-0.916
 
 DEBT
-Total Debt,103692000.0
+Total Debt,103692000
 Debt to Equity,27.048
 
 MARGINS
@@ -29,29 +29,29 @@ Operating Margins,0.0111
 
 DIVIDEND
 Dividend Rate,1.7
-Dividend Yield,0.0776
+Dividend Yield,0.0749
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.7
-Trailing Annual Dividend Yield,0.07762557
+Trailing Annual Dividend Yield,0.08018868
 
 FINANCIAL RATIO
 Debt to Equity,27.048
-Price to Cash Flow,8.513418533514161e-07
-Enterprise to EBITDA,10.359
-Price to Book,1.5502199
-Price to Earnings,"PriceToEarnings(trailing_pe=15.140845, forward_pe=11.497326)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=1.87)"
-Enterprise to Revenue,0.703
+Price to Cash Flow,8.988586079570765e-07
+Enterprise to EBITDA,10.69
+Price to Book,1.6367438
+Price to Earnings,"PriceToEarnings(trailing_pe=15.985916, forward_pe=12.541437)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.42, forward_eps=1.81)"
+Enterprise to Revenue,0.726
 
 CASH FLOW
-Free to Cash Flow,25254250.0
-Operating to Cash Flow,31838000.0
+Free to Cash Flow,25254250
+Operating to Cash Flow,31838000
 
 PROFITABILITY
 Return on Equity,0.10268
 Return on Assets,0.05455
 Return on Invested Capital,0.3797881681587576
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 
@@ -59,7 +59,7 @@ PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
 Net Income,False
-Total Revenue,False
+Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,1

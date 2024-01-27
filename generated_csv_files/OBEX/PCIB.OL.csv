@@ -5,21 +5,21 @@ Country,Norway
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.pcibiotech.com
-Price,2.05
+Price,2.155
 Currency,NOK
 
 REVENUE
-Total Revenue,2792000.0
+Total Revenue,2792000
 Revenue Per Share,0.075
 Revenue Growth,-0.844
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.79, forward_eps=-2.92)"
-Net Earnings,-29197000.0
+Net Earnings,-29197000
 Earnings Growth,None
 
 DEBT
-Total Debt,572000.0
+Total Debt,572000
 Debt to Equity,1.219
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,1.219
-Price to Cash Flow,-8.047555482997379e-08
-Enterprise to EBITDA,-0.907
-Price to Book,1.6666667
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.71746576)"
+Price to Cash Flow,-7.836283143348283e-08
+Enterprise to EBITDA,-0.851
+Price to Book,1.6229117
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.6986301)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.79, forward_eps=-2.92)"
-Enterprise to Revenue,11.889
+Enterprise to Revenue,11.153
 
 CASH FLOW
-Free to Cash Flow,-26032750.0
-Operating to Cash Flow,-30126000.0
+Free to Cash Flow,-26032750
+Operating to Cash Flow,-30126000
 
 PROFITABILITY
 Return on Equity,-0.47537
 Return on Assets,-0.26334998
 Return on Invested Capital,-51.0435941227311
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 
@@ -60,8 +60,8 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,False
-Free Cash Flow,False
+Operating Cash Flow,True
+Free Cash Flow,True
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,2

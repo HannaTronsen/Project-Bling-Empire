@@ -5,58 +5,58 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://www.akerasa.com
-Price,672.0
+Price,644.5
 Currency,NOK
 
 REVENUE
-Total Revenue,13624000512.0
+Total Revenue,13624000512
 Revenue Per Share,183.382
 Revenue Growth,-0.641
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-39.98, forward_eps=26.25)"
-Net Earnings,-3043000064.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-40.01, forward_eps=26.25)"
+Net Earnings,-3043000064
 Earnings Growth,None
 
 DEBT
-Total Debt,34929000448.0
+Total Debt,34929000448
 Debt to Equity,65.906
 
 MARGINS
 Profit Margins,-0.11384
 Gross Profit Margins,0.29742
-Operating Margins,-0.35129002
+Operating Margins,-0.36088002
 
 DIVIDEND
 Dividend Rate,30.0
-Dividend Yield,0.044899996
-Five Year Avg Dividend Yield,None
+Dividend Yield,0.0462
+Five Year Avg Dividend Yield,4.6
 Trailing Annual Dividend Rate,15.0
-Trailing Annual Dividend Yield,0.02232143
+Trailing Annual Dividend Yield,0.023273855
 
 FINANCIAL RATIO
 Debt to Equity,65.906
-Price to Cash Flow,-7.304934709520205e-08
-Enterprise to EBITDA,-23.025
-Price to Book,1.0834113
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=25.37143)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-39.98, forward_eps=26.25)"
-Enterprise to Revenue,5.82
+Price to Cash Flow,-7.123956597347407e-08
+Enterprise to EBITDA,-22.852
+Price to Book,1.05657
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=24.742857)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-40.01, forward_eps=26.25)"
+Enterprise to Revenue,5.777
 
 CASH FLOW
-Free to Cash Flow,-9117124608.0
-Operating to Cash Flow,850000000.0
+Free to Cash Flow,-9117124608
+Operating to Cash Flow,850000000
 
 PROFITABILITY
 Return on Equity,-0.18104
 Return on Assets,-0.02999
 Return on Invested Capital,-0.087119584626409
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,1

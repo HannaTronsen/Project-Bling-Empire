@@ -5,21 +5,21 @@ Country,Norway
 Industry,Railroads
 Sector,Industrials
 Website,https://www.nrcgroup.com
-Price,10.58
+Price,11.28
 Currency,NOK
 
 REVENUE
-Total Revenue,6887000064.0
+Total Revenue,6887000064
 Revenue Per Share,91.981
 Revenue Growth,-0.072
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.33)"
-Net Earnings,-349000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.39)"
+Net Earnings,-349000000
 Earnings Growth,0.048
 
 DEBT
-Total Debt,1338000000.0
+Total Debt,1338000000
 Debt to Equity,54.702
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,54.702
-Price to Cash Flow,9.816513761467889e-08
-Enterprise to EBITDA,10.083
-Price to Book,0.31992823
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.045113)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.33)"
-Enterprise to Revenue,0.258
+Price to Cash Flow,1.0366972477064221e-07
+Enterprise to EBITDA,10.332
+Price to Book,0.33786815
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.129497)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.39)"
+Enterprise to Revenue,0.264
 
 CASH FLOW
-Free to Cash Flow,109000000.0
-Operating to Cash Flow,230000000.0
+Free to Cash Flow,109000000
+Operating to Cash Flow,230000000
 
 PROFITABILITY
 Return on Equity,-0.13568
 Return on Assets,0.01194
 Return on Invested Capital,-0.26083706373415877
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

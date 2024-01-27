@@ -5,21 +5,21 @@ Country,Denmark
 Industry,Communication Equipment
 Sector,Technology
 Website,https://www.napatech.com
-Price,13.1
+Price,15.0
 Currency,NOK
 
 REVENUE
-Total Revenue,158524000.0
+Total Revenue,158524000
 Revenue Per Share,1.909
 Revenue Growth,0.343
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.91, forward_eps=-0.74)"
-Net Earnings,-52931000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.92, forward_eps=-0.75)"
+Net Earnings,-52931000
 Earnings Growth,None
 
 DEBT
-Total Debt,52881000.0
+Total Debt,52881000
 Debt to Equity,48.854
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,48.854
-Price to Cash Flow,-4.705523321723023e-07
-Enterprise to EBITDA,-31.733
-Price to Book,12.300469
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-17.702703)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.91, forward_eps=-0.74)"
-Enterprise to Revenue,6.9
+Price to Cash Flow,-5.388003803499645e-07
+Enterprise to EBITDA,-36.299
+Price to Book,14.084506
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-20.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.92, forward_eps=-0.75)"
+Enterprise to Revenue,7.893
 
 CASH FLOW
-Free to Cash Flow,-27839624.0
-Operating to Cash Flow,-19824000.0
+Free to Cash Flow,-27839624
+Operating to Cash Flow,-19824000
 
 PROFITABILITY
 Return on Equity,-0.49418998
 Return on Assets,-0.14858
 Return on Invested Capital,-1.0009454990259838
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

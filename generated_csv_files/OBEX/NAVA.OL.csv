@@ -5,21 +5,21 @@ Country,Norway
 Industry,Medical Distribution
 Sector,Healthcare
 Website,https://www.navamedic.com
-Price,36.7
+Price,37.0
 Currency,NOK
 
 REVENUE
-Total Revenue,502652992.0
+Total Revenue,502652992
 Revenue Per Share,22.737
 Revenue Growth,0.519
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.18, forward_eps=2.65)"
-Net Earnings,24352000.0
+Net Earnings,24352000
 Earnings Growth,None
 
 DEBT
-Total Debt,130076000.0
+Total Debt,130076000
 Debt to Equity,59.594
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,59.594
-Price to Cash Flow,1.00769494531429e-06
-Enterprise to EBITDA,12.486
-Price to Book,3.014869
-Price to Earnings,"PriceToEarnings(trailing_pe=31.101696, forward_pe=13.849056)"
+Price to Cash Flow,1.0269152848706932e-06
+Enterprise to EBITDA,12.697
+Price to Book,3.0723734
+Price to Earnings,"PriceToEarnings(trailing_pe=31.694918, forward_pe=14.113208)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.18, forward_eps=2.65)"
-Enterprise to Revenue,1.424
+Enterprise to Revenue,1.448
 
 CASH FLOW
-Free to Cash Flow,36419752.0
-Operating to Cash Flow,47456000.0
+Free to Cash Flow,36419752
+Operating to Cash Flow,47456000
 
 PROFITABILITY
 Return on Equity,0.11968
 Return on Assets,0.07154
 Return on Invested Capital,0.18721361143522794
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 
@@ -60,8 +60,8 @@ Earnings,False
 Revenue,True
 Net Income,False
 Total Revenue,True
-Operating Cash Flow,False
-Free Cash Flow,False
+Operating Cash Flow,True
+Free Cash Flow,True
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
@@ -69,4 +69,4 @@ Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,2
+CRITERIA PASS COUNT,4

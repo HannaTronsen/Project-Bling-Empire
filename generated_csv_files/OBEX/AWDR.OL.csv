@@ -5,7 +5,7 @@ Country,United Kingdom
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.awilcodrilling.com
-Price,17.394
+Price,12.884
 Currency,NOK
 
 REVENUE
@@ -14,12 +14,12 @@ Revenue Per Share,None
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2315.24, forward_eps=2.52)"
-Net Earnings,-144748992.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2389.46, forward_eps=2.52)"
+Net Earnings,-144748992
 Earnings Growth,None
 
 DEBT
-Total Debt,4000000.0
+Total Debt,4000000
 Debt to Equity,None
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.394294641261482e-07
-Enterprise to EBITDA,-34.825
+Price to Cash Flow,1.0786240773191728e-07
+Enterprise to EBITDA,-26.991
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.6674604)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2315.24, forward_eps=2.52)"
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=5.1579366)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2389.46, forward_eps=2.52)"
 Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,120505376.0
-Operating to Cash Flow,-19327000.0
+Free to Cash Flow,120505376
+Operating to Cash Flow,-19327000
 
 PROFITABILITY
 Return on Equity,None
 Return on Assets,-0.56576
 Return on Invested Capital,-36.18752741294603
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

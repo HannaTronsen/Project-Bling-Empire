@@ -5,21 +5,21 @@ Country,Cyprus
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.standard-etc.com
-Price,1.792
+Price,1.69
 Currency,NOK
 
 REVENUE
-Total Revenue,20970000.0
+Total Revenue,20970000
 Revenue Per Share,0.04
 Revenue Growth,5.432
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.41, forward_eps=0.02)"
-Net Earnings,18986000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.42, forward_eps=0.02)"
+Net Earnings,18986000
 Earnings Growth,7.639
 
 DEBT
-Total Debt,0.0
+Total Debt,0
 Debt to Equity,None
 
 MARGINS
@@ -36,22 +36,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.7138398240760447e-07
+Price to Cash Flow,1.5946655316734057e-07
 Enterprise to EBITDA,None
-Price to Book,6.5652175
-Price to Earnings,"PriceToEarnings(trailing_pe=4.4195123, forward_pe=90.600006)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.41, forward_eps=0.02)"
-Enterprise to Revenue,42.331
+Price to Book,6.108696
+Price to Earnings,"PriceToEarnings(trailing_pe=4.014286, forward_pe=84.3)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.42, forward_eps=0.02)"
+Enterprise to Revenue,39.68
 
 CASH FLOW
-Free to Cash Flow,10572750.0
-Operating to Cash Flow,-18638000.0
+Free to Cash Flow,10572750
+Operating to Cash Flow,-18638000
 
 PROFITABILITY
 Return on Equity,0.14035
 Return on Assets,0.08619001
 Return on Invested Capital,68789855.07246377
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,nan
 
 
 

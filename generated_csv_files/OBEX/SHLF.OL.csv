@@ -5,21 +5,21 @@ Country,United Arab Emirates
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.shelfdrilling.com
-Price,29.0
+Price,33.5
 Currency,NOK
 
 REVENUE
-Total Revenue,888220992.0
+Total Revenue,888220992
 Revenue Per Share,4.719
 Revenue Growth,0.614
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=8.13)"
-Net Earnings,7795000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=0.69)"
+Net Earnings,7795000
 Earnings Growth,None
 
 DEBT
-Total Debt,1444000000.0
+Total Debt,1444000000
 Debt to Equity,341.371
 
 MARGINS
@@ -36,16 +36,16 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,341.371
-Price to Cash Flow,-2.0131252433799e-07
-Enterprise to EBITDA,31.226
-Price to Book,17.769608
-Price to Earnings,"PriceToEarnings(trailing_pe=56.862747, forward_pe=3.5670357)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=8.13)"
-Enterprise to Revenue,8.514
+Price to Cash Flow,-2.453930253568258e-07
+Enterprise to EBITDA,36.821
+Price to Book,21.66054
+Price to Earnings,"PriceToEarnings(trailing_pe=67.98077, forward_pe=51.23188)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=0.69)"
+Enterprise to Revenue,10.04
 
 CASH FLOW
-Free to Cash Flow,-144054624.0
-Operating to Cash Flow,74196000.0
+Free to Cash Flow,-144054624
+Operating to Cash Flow,74196000
 
 PROFITABILITY
 Return on Equity,0.0218
@@ -58,15 +58,15 @@ Return on Investment,-0.0004532530134493165
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
-Net Income,False
+Net Income,True
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
-Return On Income Capital,False
-Return On Equity,False
+Return On Income Capital,True
+Return On Equity,True
 Owner Earnings,False
 
 
 
-CRITERIA PASS COUNT,0
+CRITERIA PASS COUNT,3
