@@ -8,7 +8,7 @@ TIME_STAMP = datetime.now().strftime("%Y-%m-%d")
 
 RUN_TESTS = True
 GENERATE_TICKER_CSV = True
-GENERATE_COMPARABLE_CSV = False
+GENERATE_COMPARABLE_CSV = True
 
 USE_OPTIMIZED_ALGORITHM = False
 

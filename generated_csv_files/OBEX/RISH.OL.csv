@@ -28,7 +28,7 @@ Gross Profit Margins,0.0
 Operating Margins,-73.09677
 
 DIVIDEND
-Dividend Ex Date,2023-04-26 02:00:00
+Dividend Ex Date,None
 Dividend Rate,0.25
 Dividend Yield,0.0286
 Dividend Payout Ratio,0.3425
@@ -59,9 +59,9 @@ DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
-Dividend Ex Date,1.0
+Dividend Ex Date,0.0
 5 Year Average,0.024700000000000003
-SUM DIVIDEND SCORE,5.0247
+SUM DIVIDEND SCORE,4.0247
 
 
 
