@@ -5,7 +5,8 @@ Country,United States
 Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://investors.evergy.com
-Financial_summary,None
+Price,50.08
+Currency,USD
 
 REVENUE
 Total Revenue,5599900160.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.47804
 Operating Margins,0.28725
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.57
-Dividend Yield,0.049200002
-Five Year Avg Dividend Yield,3.51
+Dividend Yield,0.051599998
+Dividend Payout Ratio,0.82769996
+Five Year Avg Dividend Yield,3.54
 Trailing Annual Dividend Rate,2.45
-Trailing Annual Dividend Yield,0.04725169
+Trailing Annual Dividend Yield,0.048921723
 
 FINANCIAL RATIO
 Debt to Equity,130.637
-Price to Cash Flow,-1.0699710606418306e-07
-Enterprise to EBITDA,10.865
-Price to Book,1.2309433
-Price to Earnings,"PriceToEarnings(trailing_pe=17.64865, forward_pe=13.604167)"
+Price to Cash Flow,-1.0191761098303501e-07
+Enterprise to EBITDA,10.615
+Price to Book,1.1725065
+Price to Earnings,"PriceToEarnings(trailing_pe=16.81081, forward_pe=12.958333)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.96, forward_eps=3.84)"
-Enterprise to Revenue,4.418
+Enterprise to Revenue,4.316
 
 CASH FLOW
 Free to Cash Flow,-488237504.0
@@ -51,6 +54,14 @@ Return on Equity,0.07152
 Return on Assets,0.02466
 Return on Invested Capital,0.05335255983863346
 Return on Investment,-0.005666722157482936
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0354
+SUM DIVIDEND SCORE,8.0354
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

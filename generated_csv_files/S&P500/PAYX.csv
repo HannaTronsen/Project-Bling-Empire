@@ -5,7 +5,8 @@ Country,United States
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.paychex.com
-Financial_summary,None
+Price,121.01
+Currency,USD
 
 REVENUE
 Total Revenue,5154500096.0
@@ -13,7 +14,7 @@ Revenue Per Share,14.294
 Revenue Growth,0.057
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.51, forward_eps=5.03)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.5, forward_eps=5.03)"
 Net Earnings,1629699968.0
 Earnings Growth,0.091
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.71539
 Operating Margins,0.40242
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.56
-Dividend Yield,0.0298
+Dividend Yield,0.0294
+Dividend Payout Ratio,0.7689
 Five Year Avg Dividend Yield,2.72
 Trailing Annual Dividend Rate,3.46
-Trailing Annual Dividend Yield,0.029058537
+Trailing Annual Dividend Yield,0.028592678
 
 FINANCIAL RATIO
 Debt to Equity,24.557
-Price to Cash Flow,7.915348528202476e-08
-Enterprise to EBITDA,18.609
-Price to Book,12.200102
-Price to Earnings,"PriceToEarnings(trailing_pe=26.496674, forward_pe=23.757454)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.51, forward_eps=5.03)"
-Enterprise to Revenue,8.239
+Price to Cash Flow,8.01073013389797e-08
+Enterprise to EBITDA,18.836
+Price to Book,12.347116
+Price to Earnings,"PriceToEarnings(trailing_pe=26.875557, forward_pe=24.043737)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.5, forward_eps=5.03)"
+Enterprise to Revenue,8.339
 
 CASH FLOW
 Free to Cash Flow,1509725056.0
@@ -51,6 +54,14 @@ Return on Equity,0.48433
 Return on Assets,0.12389
 Return on Invested Capital,1.88295769994429
 Return on Investment,-0.19424314278903457
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.027200000000000002
+SUM DIVIDEND SCORE,8.0272
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

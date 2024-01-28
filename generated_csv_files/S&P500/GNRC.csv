@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.generac.com
-Financial_summary,None
+Price,114.64
+Currency,USD
 
 REVENUE
 Total Revenue,4008229120.0
@@ -13,7 +14,7 @@ Revenue Per Share,64.993
 Revenue Growth,-0.016
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.53, forward_eps=7.24)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.53, forward_eps=7.28)"
 Net Earnings,159719008.0
 Earnings Growth,0.169
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.32929
 Operating Margins,0.09786
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,69.322
-Price to Cash Flow,1.4198571176733509e-06
-Enterprise to EBITDA,18.779
-Price to Book,3.3991015
-Price to Earnings,"PriceToEarnings(trailing_pe=51.750984, forward_pe=18.084253)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.53, forward_eps=7.24)"
-Enterprise to Revenue,2.379
+Price to Cash Flow,1.2437440832960865e-06
+Enterprise to EBITDA,16.814
+Price to Book,2.9774916
+Price to Earnings,"PriceToEarnings(trailing_pe=45.332016, forward_pe=15.754121)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.53, forward_eps=7.28)"
+Enterprise to Revenue,2.13
 
 CASH FLOW
 Free to Cash Flow,92213504.0
@@ -51,6 +54,14 @@ Return on Equity,0.08128
 Return on Assets,0.04131
 Return on Invested Capital,0.09712816204534513
 Return on Investment,0.01863764285797636
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,1

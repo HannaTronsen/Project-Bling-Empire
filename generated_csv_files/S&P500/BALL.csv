@@ -5,7 +5,8 @@ Country,United States
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.ball.com
-Financial_summary,None
+Price,56.87
+Currency,USD
 
 REVENUE
 Total Revenue,14174000128.0
@@ -13,7 +14,7 @@ Revenue Per Share,45.082
 Revenue Growth,-0.096
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.92, forward_eps=3.1)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.92, forward_eps=3.07)"
 Net Earnings,608000000.0
 Earnings Growth,-0.484
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.17559999
 Operating Margins,0.10333
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0138
+Dividend Yield,0.0139999995
+Dividend Payout Ratio,0.41669998
 Five Year Avg Dividend Yield,0.97
 Trailing Annual Dividend Rate,0.8
-Trailing Annual Dividend Yield,0.01381454
+Trailing Annual Dividend Yield,0.014067171
 
 FINANCIAL RATIO
 Debt to Equity,250.798
-Price to Cash Flow,3.2926136363636367e-07
-Enterprise to EBITDA,13.929
-Price to Book,4.638969
-Price to Earnings,"PriceToEarnings(trailing_pe=30.182293, forward_pe=18.69355)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.92, forward_eps=3.1)"
-Enterprise to Revenue,1.907
+Price to Cash Flow,3.252272727272727e-07
+Enterprise to EBITDA,13.813
+Price to Book,4.582133
+Price to Earnings,"PriceToEarnings(trailing_pe=29.812502, forward_pe=18.644953)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.92, forward_eps=3.07)"
+Enterprise to Revenue,1.892
 
 CASH FLOW
 Free to Cash Flow,176000000.0
@@ -51,6 +54,14 @@ Return on Equity,0.16223
 Return on Assets,0.0397
 Return on Invested Capital,0.060485476992508704
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0097
+SUM DIVIDEND SCORE,5.0097
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

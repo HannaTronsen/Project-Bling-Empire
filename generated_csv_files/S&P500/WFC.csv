@@ -5,52 +5,63 @@ Country,United States
 Industry,Banks—Diversified
 Sector,Financial Services
 Website,https://www.wellsfargo.com
-Financial_summary,None
+Price,49.88
+Currency,USD
 
 REVENUE
-Total Revenue,76491997184.0
-Revenue Per Share,20.49
-Revenue Growth,0.047
+Total Revenue,77198000128.0
+Revenue Per Share,20.931
+Revenue Growth,0.027
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.58, forward_eps=4.88)"
-Net Earnings,17204000768.0
-Earnings Growth,0.721
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.83, forward_eps=5.34)"
+Net Earnings,17981999104.0
+Earnings Growth,0.284
 
 DEBT
-Total Debt,310998007808.0
+Total Debt,315641987072.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.23997
+Profit Margins,0.24796
 Gross Profit Margins,0.0
-Operating Margins,0.33301
+Operating Margins,0.17764
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.4
-Dividend Yield,0.028299998
-Five Year Avg Dividend Yield,3.29
-Trailing Annual Dividend Rate,1.25
-Trailing Annual Dividend Yield,0.02533955
+Dividend Yield,0.0278
+Dividend Payout Ratio,0.2692
+Five Year Avg Dividend Yield,3.28
+Trailing Annual Dividend Rate,1.3
+Trailing Annual Dividend Yield,0.026062548
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.1132361
-Price to Earnings,"PriceToEarnings(trailing_pe=10.8034935, forward_pe=10.139344)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.58, forward_eps=4.88)"
-Enterprise to Revenue,1.142
+Price to Book,1.0890596
+Price to Earnings,"PriceToEarnings(trailing_pe=10.41822, forward_pe=9.423221)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.83, forward_eps=5.34)"
+Enterprise to Revenue,1.097
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,29400999936.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.09947
-Return on Assets,0.0094800005
-Return on Invested Capital,0.0553186847941561
-Return on Investment,0.006363603021268726
+Return on Equity,0.10305
+Return on Assets,0.009980001
+Return on Invested Capital,0.05696960429179502
+Return on Investment,0.006651377512113927
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.032799999999999996
+SUM DIVIDEND SCORE,8.0328
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

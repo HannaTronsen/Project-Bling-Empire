@@ -5,7 +5,8 @@ Country,United States
 Industry,Chemicals
 Sector,Basic Materials
 Website,https://www.celanese.com
-Financial_summary,None
+Price,145.37
+Currency,USD
 
 REVENUE
 Total Revenue,10718999552.0
@@ -13,7 +14,7 @@ Revenue Per Share,98.576
 Revenue Growth,0.183
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.6, forward_eps=11.9)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.59, forward_eps=11.89)"
 Net Earnings,2032999936.0
 Earnings Growth,3.964
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.22148001
 Operating Margins,0.13036999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.0178
-Five Year Avg Dividend Yield,2.19
+Dividend Yield,0.019199999
+Dividend Payout Ratio,0.1506
+Five Year Avg Dividend Yield,2.18
 Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.017665615
+Trailing Annual Dividend Yield,0.019261196
 
 FINANCIAL RATIO
 Debt to Equity,203.209
-Price to Cash Flow,-5.591470298598801e-07
-Enterprise to EBITDA,17.747
-Price to Book,2.638437
-Price to Earnings,"PriceToEarnings(trailing_pe=8.458602, forward_pe=13.221009)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.6, forward_eps=11.9)"
-Enterprise to Revenue,2.831
+Price to Cash Flow,-5.193780394312773e-07
+Enterprise to EBITDA,17.035
+Price to Book,2.4507797
+Price to Earnings,"PriceToEarnings(trailing_pe=7.8612156, forward_pe=12.291)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.59, forward_eps=11.89)"
+Enterprise to Revenue,2.718
 
 CASH FLOW
 Free to Cash Flow,-281375008.0
@@ -52,20 +55,26 @@ Return on Assets,0.02813
 Return on Invested Capital,0.14396996931018688
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0218
+SUM DIVIDEND SCORE,4.0218
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
 Net Income,False
-Total Revenue,False
+Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

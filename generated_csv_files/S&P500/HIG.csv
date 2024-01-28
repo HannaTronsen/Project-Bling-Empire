@@ -5,7 +5,8 @@ Country,United States
 Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.thehartford.com
-Financial_summary,None
+Price,87.12
+Currency,USD
 
 REVENUE
 Total Revenue,24170000384.0
@@ -13,7 +14,7 @@ Revenue Per Share,77.642
 Revenue Growth,0.106
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=9.83)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=9.8)"
 Net Earnings,2300000000.0
 Earnings Growth,1.049
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.33223
 Operating Margins,0.14001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.88
-Dividend Yield,0.0234
+Dividend Yield,0.0217
+Dividend Payout Ratio,0.2338
 Five Year Avg Dividend Yield,2.35
 Trailing Annual Dividend Rate,1.7
-Trailing Annual Dividend Yield,0.021257972
+Trailing Annual Dividend Yield,0.019513315
 
 FINANCIAL RATIO
 Debt to Equity,31.881
-Price to Cash Flow,2.1741010707914386e-08
-Enterprise to EBITDA,7.215
-Price to Book,1.8225496
-Price to Earnings,"PriceToEarnings(trailing_pe=11.061898, forward_pe=8.181078)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=9.83)"
-Enterprise to Revenue,1.054
+Price to Cash Flow,2.346850459530027e-08
+Enterprise to EBITDA,7.759
+Price to Book,1.9673654
+Price to Earnings,"PriceToEarnings(trailing_pe=11.940852, forward_pe=8.858163)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=9.8)"
+Enterprise to Revenue,1.133
 
 CASH FLOW
 Free to Cash Flow,3699000064.0
@@ -51,6 +54,14 @@ Return on Equity,0.17429
 Return on Assets,0.02641
 Return on Invested Capital,0.5274019744283683
 Return on Investment,0.11734693877551021
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0235
+SUM DIVIDEND SCORE,8.0235
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

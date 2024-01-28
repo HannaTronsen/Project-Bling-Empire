@@ -5,7 +5,8 @@ Country,United States
 Industry,Tobacco
 Sector,Consumer Defensive
 Website,https://www.pmi.com
-Financial_summary,None
+Price,91.21
+Currency,USD
 
 REVENUE
 Total Revenue,34279000064.0
@@ -13,7 +14,7 @@ Revenue Per Share,22.094
 Revenue Growth,0.138
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.15, forward_eps=6.51)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.15, forward_eps=6.57)"
 Net Earnings,7991000064.0
 Earnings Growth,-0.015
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.63578
 Operating Margins,0.35904
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,5.2
-Dividend Yield,0.0553
-Five Year Avg Dividend Yield,5.5
+Dividend Yield,0.0572
+Dividend Payout Ratio,0.9922
+Five Year Avg Dividend Yield,5.48
 Trailing Annual Dividend Rate,5.11
-Trailing Annual Dividend Yield,0.054489233
+Trailing Annual Dividend Yield,0.056024563
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.6818019691223905e-08
-Enterprise to EBITDA,14.318
+Price to Cash Flow,1.62406153161957e-08
+Enterprise to EBITDA,13.945
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=18.267962, forward_pe=14.451612)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.15, forward_eps=6.51)"
-Enterprise to Revenue,5.618
+Price to Earnings,"PriceToEarnings(trailing_pe=17.640776, forward_pe=13.828006)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.15, forward_eps=6.57)"
+Enterprise to Revenue,5.471
 
 CASH FLOW
 Free to Cash Flow,5593999872.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,None
 Return on Assets,0.1461
 Return on Invested Capital,0.16715824236306617
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.08695321070729053
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0548
+SUM DIVIDEND SCORE,8.0548
 
 
 
@@ -61,11 +72,9 @@ Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
-Book Value + Dividends,False
+Book Value + Dividends,True
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

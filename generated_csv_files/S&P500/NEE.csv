@@ -5,59 +5,70 @@ Country,United States
 Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.nexteraenergy.com
-Financial_summary,None
+Price,57.98
+Currency,USD
 
 REVENUE
-Total Revenue,27399999488.0
-Revenue Per Share,13.63
-Revenue Growth,0.067
+Total Revenue,28113999872.0
+Revenue Per Share,13.842
+Revenue Growth,0.116
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.79, forward_eps=3.4)"
-Net Earnings,7622000128.0
-Earnings Growth,-0.302
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.6, forward_eps=3.65)"
+Net Earnings,7310000128.0
+Earnings Growth,-0.24
 
 DEBT
-Total Debt,73321996288.0
-Debt to Equity,129.617
+Total Debt,73211002880.0
+Debt to Equity,124.036
 
 MARGINS
-Profit Margins,0.27818
-Gross Profit Margins,0.61901003
-Operating Margins,0.26365998
+Profit Margins,0.26001
+Gross Profit Margins,0.6394
+Operating Margins,0.33833
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.87
-Dividend Yield,0.0306
-Five Year Avg Dividend Yield,2.15
-Trailing Annual Dividend Rate,1.828
-Trailing Annual Dividend Yield,0.030174974
+Dividend Yield,0.032
+Dividend Payout Ratio,0.5196
+Five Year Avg Dividend Yield,2.16
+Trailing Annual Dividend Rate,1.87
+Trailing Annual Dividend Yield,0.0322525
 
 FINANCIAL RATIO
-Debt to Equity,129.617
-Price to Cash Flow,-3.1336096927708242e-09
-Enterprise to EBITDA,13.656
-Price to Book,2.6583602
-Price to Earnings,"PriceToEarnings(trailing_pe=16.100264, forward_pe=17.947058)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.79, forward_eps=3.4)"
-Enterprise to Revenue,7.534
+Debt to Equity,124.036
+Price to Cash Flow,-3.5764575586135892e-09
+Enterprise to EBITDA,12.519
+Price to Book,2.550927
+Price to Earnings,"PriceToEarnings(trailing_pe=16.244444, forward_pe=16.021917)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.6, forward_eps=3.65)"
+Enterprise to Revenue,7.226
 
 CASH FLOW
-Free to Cash Flow,-19472750592.0
-Operating to Cash Flow,9418000384.0
+Free to Cash Flow,-16351375360.0
+Operating to Cash Flow,11301000192.0
 
 PROFITABILITY
-Return on Equity,0.12842
-Return on Assets,0.03581
-Return on Invested Capital,0.10395243598763425
+Return on Equity,0.115839995
+Return on Assets,0.03744
+Return on Invested Capital,0.09984838122888141
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0216
+SUM DIVIDEND SCORE,5.0216
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
-Net Income,False
+Net Income,True
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 
-
-
-CRITERIA PASS COUNT,0

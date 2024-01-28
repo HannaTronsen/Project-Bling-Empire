@@ -5,7 +5,8 @@ Country,United States
 Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.dteenergy.com
-Financial_summary,None
+Price,103.8
+Currency,USD
 
 REVENUE
 Total Revenue,13827000320.0
@@ -13,7 +14,7 @@ Revenue Per Share,67.531
 Revenue Growth,-0.45
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.05, forward_eps=6.64)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.05, forward_eps=6.66)"
 Net Earnings,1240000000.0
 Earnings Growth,-0.191
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.29327
 Operating Margins,0.18179001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.88
-Dividend Yield,0.035099998
-Five Year Avg Dividend Yield,3.24
+Dividend Yield,0.0374
+Dividend Payout Ratio,0.6298
+Five Year Avg Dividend Yield,3.25
 Trailing Annual Dividend Rate,3.81
-Trailing Annual Dividend Yield,0.03473425
+Trailing Annual Dividend Yield,0.0367052
 
 FINANCIAL RATIO
 Debt to Equity,188.714
-Price to Cash Flow,-8.78710726716071e-08
-Enterprise to EBITDA,13.597
-Price to Book,2.0988898
-Price to Earnings,"PriceToEarnings(trailing_pe=18.249586, forward_pe=16.628014)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.05, forward_eps=6.64)"
-Enterprise to Revenue,3.126
+Price to Cash Flow,-8.244329696632352e-08
+Enterprise to EBITDA,13.154
+Price to Book,1.9692419
+Price to Earnings,"PriceToEarnings(trailing_pe=17.122313, forward_pe=15.554054)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.05, forward_eps=6.66)"
+Enterprise to Revenue,3.024
 
 CASH FLOW
 Free to Cash Flow,-1256499968.0
@@ -51,6 +54,14 @@ Return on Equity,0.12529999
 Return on Assets,0.029409999
 Return on Invested Capital,0.06053800602662192
 Return on Investment,-0.005511111111111111
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0325
+SUM DIVIDEND SCORE,8.0325
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

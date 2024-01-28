@@ -5,7 +5,8 @@ Country,United States
 Industry,REIT—Hotel & Motel
 Sector,Real Estate
 Website,https://www.hosthotels.com
-Financial_summary,None
+Price,19.57
+Currency,USD
 
 REVENUE
 Total Revenue,5257999872.0
@@ -13,7 +14,7 @@ Revenue Per Share,7.382
 Revenue Growth,0.019
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.92)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.94)"
 Net Earnings,755000000.0
 Earnings Growth,-0.019
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.29954
 Operating Margins,0.084300004
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.65
 Dividend Yield,0.033
+Dividend Payout Ratio,0.5429
 Five Year Avg Dividend Yield,4.49
 Trailing Annual Dividend Rate,0.57
-Trailing Annual Dividend Yield,0.028904665
+Trailing Annual Dividend Yield,0.029126214
 
 FINANCIAL RATIO
 Debt to Equity,67.942
-Price to Cash Flow,1.6475762473159e-08
-Enterprise to EBITDA,12.217
-Price to Book,2.0197146
-Price to Earnings,"PriceToEarnings(trailing_pe=18.733334, forward_pe=21.380434)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.92)"
-Enterprise to Revenue,3.404
+Price to Cash Flow,1.6500890733158733e-08
+Enterprise to EBITDA,12.231
+Price to Book,2.022795
+Price to Earnings,"PriceToEarnings(trailing_pe=18.761906, forward_pe=20.957447)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.94)"
+Enterprise to Revenue,3.408
 
 CASH FLOW
 Free to Cash Flow,1193874944.0
@@ -51,6 +54,14 @@ Return on Equity,0.109469995
 Return on Assets,0.04027
 Return on Invested Capital,0.15804898651368976
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0449
+SUM DIVIDEND SCORE,9.0449
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

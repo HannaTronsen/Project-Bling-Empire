@@ -5,7 +5,8 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.coopercos.com
-Financial_summary,None
+Price,379.29
+Currency,USD
 
 REVENUE
 Total Revenue,3593200128.0
@@ -13,7 +14,7 @@ Revenue Per Share,72.59
 Revenue Growth,0.093
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=15.54)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=15.55)"
 Net Earnings,294200000.0
 Earnings Growth,0.28
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.65621
 Operating Margins,0.14982
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.06
 Dividend Yield,0.0002
+Dividend Payout Ratio,0.010199999
 Five Year Avg Dividend Yield,0.02
 Trailing Annual Dividend Rate,0.06
-Trailing Annual Dividend Yield,0.00015789473
+Trailing Annual Dividend Yield,0.00015819029
 
 FINANCIAL RATIO
 Debt to Equity,34.025
-Price to Cash Flow,2.4629461388708634e-06
-Enterprise to EBITDA,24.359
-Price to Book,2.488118
-Price to Earnings,"PriceToEarnings(trailing_pe=64.11149, forward_pe=24.423424)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=15.54)"
-Enterprise to Revenue,5.913
+Price to Cash Flow,2.418170019467878e-06
+Enterprise to EBITDA,23.967
+Price to Book,2.4428842
+Price to Earnings,"PriceToEarnings(trailing_pe=62.945946, forward_pe=23.963987)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=15.55)"
+Enterprise to Revenue,5.818
 
 CASH FLOW
 Free to Cash Flow,154100000.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.03996
 Return on Assets,0.02724
 Return on Invested Capital,0.11451034091357405
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.01617372182517867
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0002
+SUM DIVIDEND SCORE,7.0002
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.xylem.com
-Financial_summary,None
+Price,112.98
+Currency,USD
 
 REVENUE
 Total Revenue,6752000000.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.37589002
 Operating Margins,0.10212
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.32
-Dividend Yield,0.0115
-Five Year Avg Dividend Yield,1.18
+Dividend Yield,0.0117
+Dividend Payout Ratio,0.5265
+Five Year Avg Dividend Yield,1.17
 Trailing Annual Dividend Rate,1.29
-Trailing Annual Dividend Yield,0.011278195
+Trailing Annual Dividend Yield,0.01141795
 
 FINANCIAL RATIO
 Debt to Equity,23.851
-Price to Cash Flow,3.506748466257668e-07
-Enterprise to EBITDA,26.128
-Price to Book,2.7722003
-Price to Earnings,"PriceToEarnings(trailing_pe=46.661224, forward_pe=28.088451)"
+Price to Cash Flow,3.4475460122699385e-07
+Enterprise to EBITDA,25.712
+Price to Book,2.725399
+Price to Earnings,"PriceToEarnings(trailing_pe=45.873466, forward_pe=27.61425)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.45, forward_eps=4.07)"
-Enterprise to Revenue,4.33
+Enterprise to Revenue,4.261
 
 CASH FLOW
 Free to Cash Flow,326000000.0
@@ -51,6 +54,14 @@ Return on Equity,0.07475
 Return on Assets,0.03957
 Return on Invested Capital,0.20750737164164457
 Return on Investment,-0.03489361702127659
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.011699999999999999
+SUM DIVIDEND SCORE,9.0117
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

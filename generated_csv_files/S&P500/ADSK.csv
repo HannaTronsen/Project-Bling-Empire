@@ -5,7 +5,8 @@ Country,United States
 Industry,Software - Application
 Sector,Technology
 Website,https://www.autodesk.com
-Financial_summary,None
+Price,251.75
+Currency,USD
 
 REVENUE
 Total Revenue,5345999872.0
@@ -13,7 +14,7 @@ Revenue Per Share,25.011
 Revenue Growth,0.105
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.24, forward_eps=8.16)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.25, forward_eps=8.16)"
 Net Earnings,917000000.0
 Earnings Growth,0.231
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.91452
 Operating Margins,0.24399
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,0.48
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,178.677
-Price to Cash Flow,1.2469959266802445e-07
-Enterprise to EBITDA,88.559
-Price to Book,35.366066
-Price to Earnings,"PriceToEarnings(trailing_pe=57.761795, forward_pe=30.013481)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.24, forward_eps=8.16)"
-Enterprise to Revenue,19.73
+Price to Cash Flow,1.2885437881873727e-07
+Enterprise to EBITDA,91.49
+Price to Book,36.544403
+Price to Earnings,"PriceToEarnings(trailing_pe=59.545883, forward_pe=31.013481)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.25, forward_eps=8.16)"
+Enterprise to Revenue,20.383
 
 CASH FLOW
 Free to Cash Flow,1964000000.0
@@ -51,6 +54,14 @@ Return on Equity,0.76801
 Return on Assets,0.0795
 Return on Invested Capital,0.3462990927499542
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0048
+SUM DIVIDEND SCORE,0.0048
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,1

@@ -5,7 +5,8 @@ Country,United States
 Industry,Drug Manufacturers - General
 Sector,Healthcare
 Website,https://www.bms.com
-Financial_summary,None
+Price,49.61
+Currency,USD
 
 REVENUE
 Total Revenue,44935000064.0
@@ -13,7 +14,7 @@ Revenue Per Share,21.505
 Revenue Growth,-0.022
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.94, forward_eps=7.24)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.94, forward_eps=7.09)"
 Net Earnings,8285000192.0
 Earnings Growth,0.24
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.77009004
 Operating Margins,0.19187
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.4
-Dividend Yield,0.0469
-Five Year Avg Dividend Yield,3.13
+Dividend Yield,0.048299998
+Dividend Payout Ratio,0.5787
+Five Year Avg Dividend Yield,3.16
 Trailing Annual Dividend Rate,2.28
-Trailing Annual Dividend Yield,0.044522554
+Trailing Annual Dividend Yield,0.045958474
 
 FINANCIAL RATIO
 Debt to Equity,135.307
-Price to Cash Flow,4.092566109634999e-09
-Enterprise to EBITDA,7.44
-Price to Book,3.5926213
-Price to Earnings,"PriceToEarnings(trailing_pe=13.0, forward_pe=7.074586)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.94, forward_eps=7.24)"
-Enterprise to Revenue,3.025
+Price to Cash Flow,3.9711154949015905e-09
+Enterprise to EBITDA,7.271
+Price to Book,3.486007
+Price to Earnings,"PriceToEarnings(trailing_pe=12.614213, forward_pe=7.009873)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.94, forward_eps=7.09)"
+Enterprise to Revenue,2.956
 
 CASH FLOW
 Free to Cash Flow,12515375104.0
@@ -51,6 +54,14 @@ Return on Equity,0.26872
 Return on Assets,0.0559
 Return on Invested Capital,0.21069094457954154
 Return on Investment,0.07793979484477893
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0316
+SUM DIVIDEND SCORE,9.0316
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.idexx.com
-Financial_summary,None
+Price,522.44
+Currency,USD
 
 REVENUE
 Total Revenue,3587919872.0
@@ -13,7 +14,7 @@ Revenue Per Share,43.215
 Revenue Growth,0.088
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.8, forward_eps=10.94)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.82, forward_eps=10.97)"
 Net Earnings,822728000.0
 Earnings Growth,0.177
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.59888
 Operating Margins,0.30068
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,87.912
-Price to Cash Flow,9.499701532482532e-07
-Enterprise to EBITDA,39.48
-Price to Book,35.662975
-Price to Earnings,"PriceToEarnings(trailing_pe=56.838776, forward_pe=50.91591)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.8, forward_eps=10.94)"
-Enterprise to Revenue,13.119
+Price to Cash Flow,8.953275125709454e-07
+Enterprise to EBITDA,37.249
+Price to Book,33.611626
+Price to Earnings,"PriceToEarnings(trailing_pe=53.460285, forward_pe=47.85597)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.82, forward_eps=10.97)"
+Enterprise to Revenue,12.377
 
 CASH FLOW
 Free to Cash Flow,586355264.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.92785
 Return on Assets,0.23539
 Return on Invested Capital,0.7213286202103377
-Return on Investment,-0.13148080672483778
+Return on Investment,-0.14044999829287447
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

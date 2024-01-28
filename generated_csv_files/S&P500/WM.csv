@@ -5,7 +5,8 @@ Country,United States
 Industry,Waste Management
 Sector,Industrials
 Website,https://www.wm.com
-Financial_summary,None
+Price,185.1
+Currency,USD
 
 REVENUE
 Total Revenue,20144001024.0
@@ -13,7 +14,7 @@ Revenue Per Share,49.536
 Revenue Growth,0.024
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.65, forward_eps=6.74)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.65, forward_eps=6.75)"
 Net Earnings,2310000128.0
 Earnings Growth,0.058
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.37684
 Operating Margins,0.19642
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.015700001
-Five Year Avg Dividend Yield,1.71
+Dividend Yield,0.0150999995
+Dividend Payout Ratio,0.48669997
+Five Year Avg Dividend Yield,1.7
 Trailing Annual Dividend Rate,2.75
-Trailing Annual Dividend Yield,0.015471167
+Trailing Annual Dividend Yield,0.014856834
 
 FINANCIAL RATIO
 Debt to Equity,221.504
-Price to Cash Flow,1.2126617274406742e-07
-Enterprise to EBITDA,15.295
-Price to Book,10.325161
-Price to Earnings,"PriceToEarnings(trailing_pe=31.529203, forward_pe=26.430267)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.65, forward_eps=6.74)"
-Enterprise to Revenue,4.321
+Price to Cash Flow,1.2648741190959453e-07
+Enterprise to EBITDA,15.838
+Price to Book,10.769721
+Price to Earnings,"PriceToEarnings(trailing_pe=32.886726, forward_pe=27.527407)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.65, forward_eps=6.75)"
+Enterprise to Revenue,4.475
 
 CASH FLOW
 Free to Cash Flow,1468999936.0
@@ -51,6 +54,14 @@ Return on Equity,0.33009
 Return on Assets,0.072859995
 Return on Invested Capital,0.1497083721908682
 Return on Investment,-0.013177410884198517
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.017
+SUM DIVIDEND SCORE,9.017
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

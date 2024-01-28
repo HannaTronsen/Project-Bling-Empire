@@ -5,7 +5,8 @@ Country,United States
 Industry,Discount Stores
 Sector,Consumer Defensive
 Website,https://www.dollartree.com
-Financial_summary,None
+Price,132.23
+Currency,USD
 
 REVENUE
 Total Revenue,29684600832.0
@@ -13,7 +14,7 @@ Revenue Per Share,134.762
 Revenue Growth,0.054
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.26, forward_eps=7.02)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=7.03)"
 Net Earnings,1163600000.0
 Earnings Growth,-0.193
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.30128
 Operating Margins,0.04125
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,118.783
-Price to Cash Flow,3.320362831067406e-07
-Enterprise to EBITDA,16.442
-Price to Book,3.4450278
-Price to Earnings,"PriceToEarnings(trailing_pe=27.051329, forward_pe=20.26923)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.26, forward_eps=7.02)"
-Enterprise to Revenue,1.389
+Price to Cash Flow,3.0972785056404304e-07
+Enterprise to EBITDA,15.612
+Price to Book,3.2135677
+Price to Earnings,"PriceToEarnings(trailing_pe=25.185957, forward_pe=18.88051)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=7.03)"
+Enterprise to Revenue,1.319
 
 CASH FLOW
 Free to Cash Flow,428537504.0
@@ -51,6 +54,14 @@ Return on Equity,0.13473
 Return on Assets,0.0452
 Return on Invested Capital,0.10886670396786617
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

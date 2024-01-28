@@ -5,52 +5,63 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.synchrony.com
-Financial_summary,None
+Price,38.46
+Currency,USD
 
 REVENUE
-Total Revenue,7698999808.0
-Revenue Per Share,17.923
-Revenue Growth,0.001
+Total Revenue,7662000128.0
+Revenue Per Share,18.191
+Revenue Growth,-0.02
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.43, forward_eps=5.36)"
-Net Earnings,2334000128.0
-Earnings Growth,0.007
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.19, forward_eps=6.31)"
+Net Earnings,2196000000.0
+Earnings Growth,-0.185
 
 DEBT
-Total Debt,15230999552.0
+Total Debt,15982000128.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.30848
+Profit Margins,0.29209
 Gross Profit Margins,0.0
-Operating Margins,0.41922
+Operating Margins,0.31375
 
 DIVIDEND
-Dividend Rate,0.96
-Dividend Yield,0.025
-Five Year Avg Dividend Yield,2.71
-Trailing Annual Dividend Rate,0.94
-Trailing Annual Dividend Yield,0.024511084
+Dividend Ex Date,None
+Dividend Rate,0.98
+Dividend Yield,0.0248
+Dividend Payout Ratio,0.185
+Five Year Avg Dividend Yield,2.7
+Trailing Annual Dividend Rate,0.96
+Trailing Annual Dividend Yield,0.024960998
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.2182113
-Price to Earnings,"PriceToEarnings(trailing_pe=7.0662985, forward_pe=7.1585817)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.43, forward_eps=5.36)"
-Enterprise to Revenue,2.104
+Price to Book,1.221728
+Price to Earnings,"PriceToEarnings(trailing_pe=7.6184974, forward_pe=6.2662444)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.19, forward_eps=6.31)"
+Enterprise to Revenue,2.42
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,8122999808.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.17738001
-Return on Assets,0.022230001
-Return on Invested Capital,0.15324011501706833
-Return on Investment,0.007226006588235294
+Return on Equity,0.16715999
+Return on Assets,0.02016
+Return on Invested Capital,0.13740457877394896
+Return on Investment,0.006798761609907121
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.027000000000000003
+SUM DIVIDEND SCORE,5.027
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

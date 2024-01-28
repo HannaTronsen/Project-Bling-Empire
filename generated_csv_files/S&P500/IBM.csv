@@ -5,52 +5,63 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.ibm.com
-Financial_summary,None
+Price,190.43
+Currency,USD
 
 REVENUE
-Total Revenue,61170999296.0
-Revenue Per Share,67.295
-Revenue Growth,0.046
+Total Revenue,61859999744.0
+Revenue Per Share,67.888
+Revenue Growth,0.041
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=8.98)"
-Net Earnings,7097999872.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.15, forward_eps=10.57)"
+Net Earnings,7513999872.0
+Earnings Growth,0.197
 
 DEBT
-Total Debt,58524999680.0
-Debt to Equity,252.742
+Total Debt,59934998528.0
+Debt to Equity,265.047
 
 MARGINS
-Profit Margins,0.11319
-Gross Profit Margins,0.55035996
-Operating Margins,0.14507
+Profit Margins,0.12127
+Gross Profit Margins,0.55448
+Operating Margins,0.22972
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,6.64
-Dividend Yield,0.0405
-Five Year Avg Dividend Yield,4.92
-Trailing Annual Dividend Rate,6.62
-Trailing Annual Dividend Yield,0.040499203
+Dividend Yield,0.0354
+Dividend Payout Ratio,0.8135
+Five Year Avg Dividend Yield,4.9
+Trailing Annual Dividend Rate,6.63
+Trailing Annual Dividend Yield,0.034815945
 
 FINANCIAL RATIO
-Debt to Equity,252.742
-Price to Cash Flow,1.5144683697542183e-08
-Enterprise to EBITDA,14.429
-Price to Book,6.4782214
-Price to Earnings,"PriceToEarnings(trailing_pe=21.129032, forward_pe=18.234968)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=8.98)"
-Enterprise to Revenue,3.223
+Debt to Equity,265.047
+Price to Cash Flow,1.9352824434672667e-08
+Enterprise to EBITDA,15.824
+Price to Book,7.6081834
+Price to Earnings,"PriceToEarnings(trailing_pe=22.99632, forward_pe=17.731316)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.15, forward_eps=10.57)"
+Enterprise to Revenue,3.524
 
 CASH FLOW
-Free to Cash Flow,10812375040.0
-Operating to Cash Flow,13432999936.0
+Free to Cash Flow,9684374528.0
+Operating to Cash Flow,13930999808.0
 
 PROFITABILITY
-Return on Equity,0.32783002
-Return on Assets,0.04547
-Return on Invested Capital,0.12128150205458263
-Return on Investment,0.06383093410071942
+Return on Equity,0.33668998
+Return on Assets,0.04468
+Return on Invested Capital,0.12536915080428876
+Return on Investment,0.06757194129496402
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.049
+SUM DIVIDEND SCORE,8.049
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

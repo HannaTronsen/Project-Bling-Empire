@@ -5,7 +5,8 @@ Country,United States
 Industry,Software—Application
 Sector,Technology
 Website,https://www.tylertech.com
-Financial_summary,None
+Price,429.25
+Currency,USD
 
 REVENUE
 Total Revenue,1923037952.0
@@ -13,7 +14,7 @@ Revenue Per Share,45.892
 Revenue Growth,0.045
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.68, forward_eps=8.78)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.7, forward_eps=8.78)"
 Net Earnings,158092992.0
 Earnings Growth,-0.127
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.43759
 Operating Margins,0.12923999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,27.649
-Price to Cash Flow,1.1020471936818344e-06
-Enterprise to EBITDA,57.036
-Price to Book,6.173658
-Price to Earnings,"PriceToEarnings(trailing_pe=113.665764, forward_pe=47.64123)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.68, forward_eps=8.78)"
-Enterprise to Revenue,9.498
+Price to Cash Flow,1.134532411827372e-06
+Enterprise to EBITDA,58.658
+Price to Book,6.3556395
+Price to Earnings,"PriceToEarnings(trailing_pe=116.38378, forward_pe=49.04556)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.7, forward_eps=8.78)"
+Enterprise to Revenue,9.769
 
 CASH FLOW
 Free to Cash Flow,379557248.0
@@ -51,6 +54,14 @@ Return on Equity,0.05855
 Return on Assets,0.028800001
 Return on Invested Capital,0.20042340128566444
 Return on Investment,0.1784748159855498
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

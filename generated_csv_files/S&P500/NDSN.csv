@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.nordson.com
-Financial_summary,None
+Price,254.05
+Currency,USD
 
 REVENUE
 Total Revenue,2628632064.0
@@ -13,7 +14,7 @@ Revenue Per Share,46.044
 Revenue Growth,0.052
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.46, forward_eps=11.21)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.45, forward_eps=11.07)"
 Net Earnings,487492992.0
 Earnings Growth,-0.091
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.54226
 Operating Margins,0.26512
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.72
-Dividend Yield,0.010299999
+Dividend Yield,0.0108
+Dividend Payout Ratio,0.3109
 Five Year Avg Dividend Yield,0.92
 Trailing Annual Dividend Rate,2.63
-Trailing Annual Dividend Yield,0.009954957
+Trailing Annual Dividend Yield,0.010352293
 
 FINANCIAL RATIO
 Debt to Equity,71.704
-Price to Cash Flow,7.182227747410097e-07
-Enterprise to EBITDA,21.211
-Price to Book,5.8041863
-Price to Earnings,"PriceToEarnings(trailing_pe=31.267138, forward_pe=23.596788)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.46, forward_eps=11.21)"
-Enterprise to Revenue,6.402
+Price to Cash Flow,6.847716005961085e-07
+Enterprise to EBITDA,20.326
+Price to Book,5.533857
+Price to Earnings,"PriceToEarnings(trailing_pe=29.846153, forward_pe=22.782295)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.45, forward_eps=11.07)"
+Enterprise to Revenue,6.135
 
 CASH FLOW
 Free to Cash Flow,368297984.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.19928
 Return on Assets,0.0939
 Return on Invested Capital,0.2616837244437261
-Return on Investment,0.0616556834077428
+Return on Investment,0.057741361412818173
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0092
+SUM DIVIDEND SCORE,8.0092
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

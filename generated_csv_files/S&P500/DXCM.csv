@@ -5,7 +5,8 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.dexcom.com
-Financial_summary,None
+Price,126.505
+Currency,USD
 
 REVENUE
 Total Revenue,3403000064.0
@@ -13,7 +14,7 @@ Revenue Per Share,8.802
 Revenue Growth,0.267
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.91, forward_eps=1.71)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.91, forward_eps=1.72)"
 Net Earnings,377000000.0
 Earnings Growth,0.187
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.63873
 Operating Margins,0.21077
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,119.886
-Price to Cash Flow,2.082479051763559e-07
-Enterprise to EBITDA,71.939
-Price to Book,21.155224
-Price to Earnings,"PriceToEarnings(trailing_pe=136.43956, forward_pe=72.608185)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.91, forward_eps=1.71)"
-Enterprise to Revenue,13.944
+Price to Cash Flow,2.045579455163367e-07
+Enterprise to EBITDA,70.65
+Price to Book,20.78037
+Price to Earnings,"PriceToEarnings(trailing_pe=134.02197, forward_pe=70.906975)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.91, forward_eps=1.72)"
+Enterprise to Revenue,13.694
 
 CASH FLOW
 Free to Cash Flow,596212480.0
@@ -51,6 +54,14 @@ Return on Equity,0.18424
 Return on Assets,0.055040002
 Return on Invested Capital,0.13865901784666548
 Return on Investment,-0.018177434908389585
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 
-
-
-CRITERIA PASS COUNT,2

@@ -5,7 +5,8 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.qorvo.com
-Financial_summary,None
+Price,106.44
+Currency,USD
 
 REVENUE
 Total Revenue,3130640896.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.37359002
 Operating Margins,0.14485
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,53.67
-Price to Cash Flow,4.59730536221838e-07
-Enterprise to EBITDA,34.333
-Price to Book,2.9166243
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=15.183511)"
+Price to Cash Flow,4.174536871210384e-07
+Enterprise to EBITDA,31.516
+Price to Book,2.6484113
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=13.787234)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.92, forward_eps=7.52)"
-Enterprise to Revenue,3.979
+Enterprise to Revenue,3.652
 
 CASH FLOW
 Free to Cash Flow,248362880.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,-0.02469
 Return on Assets,0.00303
 Return on Invested Capital,-0.04903935753871956
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-1.2511332503113326
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

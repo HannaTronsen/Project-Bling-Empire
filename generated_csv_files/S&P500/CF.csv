@@ -5,7 +5,8 @@ Country,United States
 Industry,Agricultural Inputs
 Sector,Basic Materials
 Website,https://www.cfindustries.com
-Financial_summary,None
+Price,76.95
+Currency,USD
 
 REVENUE
 Total Revenue,7667999744.0
@@ -13,7 +14,7 @@ Revenue Per Share,39.343
 Revenue Growth,-0.452
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.76, forward_eps=6.78)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.76, forward_eps=6.72)"
 Net Earnings,2111000064.0
 Earnings Growth,-0.61
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.43036
 Operating Margins,0.23802
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0201
-Five Year Avg Dividend Yield,2.48
+Dividend Yield,0.020599999
+Dividend Payout Ratio,0.1487
+Five Year Avg Dividend Yield,2.46
 Trailing Annual Dividend Rate,1.6
-Trailing Annual Dividend Yield,0.019873308
+Trailing Annual Dividend Yield,0.020792725
 
 FINANCIAL RATIO
 Debt to Equity,39.116
-Price to Cash Flow,3.363132766801755e-08
-Enterprise to EBITDA,4.584
-Price to Book,2.6593225
-Price to Earnings,"PriceToEarnings(trailing_pe=7.403346, forward_pe=11.749263)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.76, forward_eps=6.78)"
-Enterprise to Revenue,2.32
+Price to Cash Flow,3.271518429569019e-08
+Enterprise to EBITDA,4.477
+Price to Book,2.5868802
+Price to Earnings,"PriceToEarnings(trailing_pe=7.2016726, forward_pe=11.53125)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.76, forward_eps=6.72)"
+Enterprise to Revenue,2.266
 
 CASH FLOW
 Free to Cash Flow,2368624896.0
@@ -51,6 +54,14 @@ Return on Equity,0.32407
 Return on Assets,0.14181
 Return on Invested Capital,0.6501385903653307
 Return on Investment,-0.07732600967032967
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0246
+SUM DIVIDEND SCORE,4.0246
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

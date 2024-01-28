@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas Integrated
 Sector,Energy
 Website,https://www.chevron.com
-Financial_summary,None
+Price,148.57
+Currency,USD
 
 REVENUE
 Total Revenue,202701996032.0
@@ -13,7 +14,7 @@ Revenue Per Share,107.562
 Revenue Growth,-0.182
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.46, forward_eps=14.17)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.47, forward_eps=12.69)"
 Net Earnings,25462999040.0
 Earnings Growth,-0.398
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.39765
 Operating Margins,0.12877
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,6.04
-Dividend Yield,0.0403
+Dividend Yield,0.0405
+Dividend Payout Ratio,0.44169998
 Five Year Avg Dividend Yield,4.41
 Trailing Annual Dividend Rate,5.95
-Trailing Annual Dividend Yield,0.039167926
+Trailing Annual Dividend Yield,0.040048458
 
 FINANCIAL RATIO
 Debt to Equity,12.366
-Price to Cash Flow,8.21394558036117e-09
-Enterprise to EBITDA,6.495
-Price to Book,1.7107579
-Price to Earnings,"PriceToEarnings(trailing_pe=11.127044, forward_pe=10.569513)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.46, forward_eps=14.17)"
-Enterprise to Revenue,1.472
+Price to Cash Flow,8.17939402987958e-09
+Enterprise to EBITDA,6.469
+Price to Book,1.7035615
+Price to Earnings,"PriceToEarnings(trailing_pe=11.072012, forward_pe=11.752562)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.47, forward_eps=12.69)"
+Enterprise to Revenue,1.466
 
 CASH FLOW
 Free to Cash Flow,18233624576.0
@@ -51,6 +54,14 @@ Return on Equity,0.15678
 Return on Assets,0.07394
 Return on Invested Capital,1.2385329775978484
 Return on Investment,-0.01773312837941361
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0441
+SUM DIVIDEND SCORE,9.0441
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

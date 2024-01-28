@@ -5,7 +5,8 @@ Country,United States
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.lkqcorp.com
-Financial_summary,None
+Price,47.51
+Currency,USD
 
 REVENUE
 Total Revenue,13365999616.0
@@ -13,7 +14,7 @@ Revenue Per Share,49.938
 Revenue Growth,0.149
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.57, forward_eps=4.14)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.57, forward_eps=4.16)"
 Net Earnings,951000000.0
 Earnings Growth,-0.189
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.40394002
 Operating Margins,0.09389
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.2
-Dividend Yield,0.0251
+Dividend Yield,0.0252
+Dividend Payout Ratio,0.3081
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.1
-Trailing Annual Dividend Yield,0.022883296
+Trailing Annual Dividend Yield,0.023153022
 
 FINANCIAL RATIO
 Debt to Equity,94.897
-Price to Cash Flow,9.485516066582564e-08
-Enterprise to EBITDA,10.537
-Price to Book,2.1533272
-Price to Earnings,"PriceToEarnings(trailing_pe=13.414566, forward_pe=11.567633)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.57, forward_eps=4.14)"
-Enterprise to Revenue,1.357
+Price to Cash Flow,9.437979548395471e-08
+Enterprise to EBITDA,10.499
+Price to Book,2.1425362
+Price to Earnings,"PriceToEarnings(trailing_pe=13.34734, forward_pe=11.454328)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.57, forward_eps=4.16)"
+Enterprise to Revenue,1.353
 
 CASH FLOW
 Free to Cash Flow,504875008.0
@@ -51,6 +54,14 @@ Return on Equity,0.16870001
 Return on Assets,0.06689
 Return on Invested Capital,0.16710596175855
 Return on Investment,0.2023404255319149
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,8.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

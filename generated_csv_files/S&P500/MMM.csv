@@ -5,52 +5,63 @@ Country,United States
 Industry,Conglomerates
 Sector,Industrials
 Website,https://www.3m.com
-Financial_summary,None
+Price,95.98
+Currency,USD
 
 REVENUE
-Total Revenue,32746999808.0
-Revenue Per Share,59.19
-Revenue Growth,-0.036
+Total Revenue,32681000960.0
+Revenue Per Share,59.002
+Revenue Growth,-0.008
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-13.31, forward_eps=9.81)"
-Net Earnings,-7399000064.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-12.63, forward_eps=10.25)"
+Net Earnings,-6994999808.0
+Earnings Growth,0.744
 
 DEBT
-Total Debt,16917000192.0
-Debt to Equity,357.578
+Total Debt,16259999744.0
+Debt to Equity,334.018
 
 MARGINS
-Profit Margins,-0.22594
-Gross Profit Margins,0.44074002
-Operating Margins,0.20873
+Profit Margins,-0.21404
+Gross Profit Margins,0.43463
+Operating Margins,0.15962
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,6.0
-Dividend Yield,0.0547
-Five Year Avg Dividend Yield,4.01
-Trailing Annual Dividend Rate,5.99
-Trailing Annual Dividend Yield,0.055085525
+Dividend Yield,0.0625
+Dividend Payout Ratio,0.6167
+Five Year Avg Dividend Yield,4.06
+Trailing Annual Dividend Rate,6.0
+Trailing Annual Dividend Yield,0.06251302
 
 FINANCIAL RATIO
-Debt to Equity,357.578
-Price to Cash Flow,1.2725426481026642e-08
-Enterprise to EBITDA,9.292
-Price to Book,12.967255
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=11.181447)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-13.31, forward_eps=9.81)"
-Enterprise to Revenue,2.209
+Debt to Equity,334.018
+Price to Cash Flow,-1.953001017293998e-07
+Enterprise to EBITDA,-8.984
+Price to Book,10.895573
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.364878)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-12.63, forward_eps=10.25)"
+Enterprise to Revenue,1.937
 
 CASH FLOW
-Free to Cash Flow,8619750400.0
-Operating to Cash Flow,6616000000.0
+Free to Cash Flow,-491500000.0
+Operating to Cash Flow,6680000000.0
 
 PROFITABILITY
-Return on Equity,-0.78181
-Return on Assets,0.07667
-Return on Invested Capital,-0.43737069080363594
-Return on Investment,0.18923273820971867
+Return on Equity,-0.71075994
+Return on Assets,-0.11639
+Return on Invested Capital,-0.4301967966998983
+Return on Investment,0.17890025084398978
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0406
+SUM DIVIDEND SCORE,4.0406
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

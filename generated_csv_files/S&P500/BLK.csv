@@ -5,52 +5,63 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.blackrock.com
-Financial_summary,None
+Price,790.46
+Currency,USD
 
 REVENUE
-Total Revenue,17564999680.0
-Revenue Per Share,117.357
-Revenue Growth,0.049
+Total Revenue,17859000320.0
+Revenue Per Share,119.618
+Revenue Growth,0.068
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.29, forward_eps=37.91)"
-Net Earnings,5385999872.0
-Earnings Growth,0.152
+Earnings Per Share,"EarningsPerShare(trailing_eps=36.53, forward_eps=45.53)"
+Net Earnings,5502000128.0
+Earnings Growth,0.103
 
 DEBT
 Total Debt,9664000000.0
 Debt to Equity,23.785
 
 MARGINS
-Profit Margins,0.30663002
-Gross Profit Margins,0.48534
-Operating Margins,0.36201
+Profit Margins,0.30808002
+Gross Profit Margins,0.48703998
+Operating Margins,0.35586
 
 DIVIDEND
-Dividend Rate,20.0
-Dividend Yield,0.024600001
-Five Year Avg Dividend Yield,2.54
-Trailing Annual Dividend Rate,19.88
-Trailing Annual Dividend Yield,0.024445126
+Dividend Ex Date,None
+Dividend Rate,20.4
+Dividend Yield,0.025899999
+Dividend Payout Ratio,0.5478
+Five Year Avg Dividend Yield,2.53
+Trailing Annual Dividend Rate,20.0
+Trailing Annual Dividend Yield,0.025301723
 
 FINANCIAL RATIO
 Debt to Equity,23.785
-Price to Cash Flow,2.2298856185235979e-07
-Enterprise to EBITDA,18.95
-Price to Book,3.1403055
-Price to Earnings,"PriceToEarnings(trailing_pe=34.968224, forward_pe=21.482721)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.29, forward_eps=37.91)"
-Enterprise to Revenue,7.159
+Price to Cash Flow,None
+Enterprise to EBITDA,17.974
+Price to Book,3.0357714
+Price to Earnings,"PriceToEarnings(trailing_pe=21.552149, forward_pe=17.291895)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=36.53, forward_eps=45.53)"
+Enterprise to Revenue,6.804
 
 CASH FLOW
-Free to Cash Flow,3652250112.0
-Operating to Cash Flow,4140000000.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.13953
-Return on Assets,0.03317
-Return on Invested Capital,0.5573261307390815
-Return on Investment,0.30954022252873564
+Return on Equity,0.14294
+Return on Assets,None
+Return on Invested Capital,0.5693294681653069
+Return on Investment,0.31620690390804596
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0253
+SUM DIVIDEND SCORE,9.0253
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

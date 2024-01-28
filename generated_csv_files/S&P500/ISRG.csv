@@ -5,52 +5,63 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.intuitive.com
-Financial_summary,None
+Price,374.97
+Currency,USD
 
 REVENUE
-Total Revenue,6850800128.0
-Revenue Per Share,19.515
-Revenue Growth,0.12
+Total Revenue,7124100096.0
+Revenue Per Share,20.285
+Revenue Growth,0.165
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.26, forward_eps=6.43)"
-Net Earnings,1516700032.0
-Earnings Growth,0.289
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.02, forward_eps=7.34)"
+Net Earnings,1798000000.0
+Earnings Growth,0.858
 
 DEBT
 Total Debt,0.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.22139
-Gross Profit Margins,0.66605
-Operating Margins,0.26713
+Profit Margins,0.25238
+Gross Profit Margins,0.66387004
+Operating Margins,0.23347001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.619827255253584e-07
-Enterprise to EBITDA,53.434
-Price to Book,9.499467
-Price to Earnings,"PriceToEarnings(trailing_pe=79.43427, forward_pe=52.626755)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.26, forward_eps=6.43)"
-Enterprise to Revenue,16.457
+Price to Cash Flow,None
+Enterprise to EBITDA,57.558
+Price to Book,9.849146
+Price to Earnings,"PriceToEarnings(trailing_pe=74.65339, forward_pe=51.05722)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.02, forward_eps=7.34)"
+Enterprise to Revenue,17.491
 
 CASH FLOW
-Free to Cash Flow,1291650048.0
-Operating to Cash Flow,2023399936.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.12755999
-Return on Assets,0.07673
-Return on Invested Capital,42577621.46987817
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.14829001
+Return on Assets,0.07772
+Return on Invested Capital,47253613.66622865
+Return on Investment,-0.02341450709727829
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

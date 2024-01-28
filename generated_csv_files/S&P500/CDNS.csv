@@ -5,7 +5,8 @@ Country,United States
 Industry,Software - Application
 Sector,Technology
 Website,https://www.cadence.com
-Financial_summary,None
+Price,291.19
+Currency,USD
 
 REVENUE
 Total Revenue,3921240064.0
@@ -13,7 +14,7 @@ Revenue Per Share,14.548
 Revenue Growth,0.134
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.5, forward_eps=5.89)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.52, forward_eps=5.89)"
 Net Earnings,957636992.0
 Earnings Growth,0.368
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.89176005
 Operating Margins,0.30181998
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,20.836
-Price to Cash Flow,2.772061682791671e-07
-Enterprise to EBITDA,57.455
-Price to Book,23.872093
-Price to Earnings,"PriceToEarnings(trailing_pe=78.068565, forward_pe=46.39049)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.5, forward_eps=5.89)"
-Enterprise to Revenue,18.878
+Price to Cash Flow,2.9495004136950025e-07
+Enterprise to EBITDA,61.148
+Price to Book,25.40014
+Price to Earnings,"PriceToEarnings(trailing_pe=82.59375, forward_pe=49.359936)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.52, forward_eps=5.89)"
+Enterprise to Revenue,20.091
 
 CASH FLOW
 Free to Cash Flow,985692352.0
@@ -52,12 +55,20 @@ Return on Assets,0.13795
 Return on Invested Capital,1.4760102707630536
 Return on Investment,-0.290210616400994
 
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,True
-Net Income,False
+Net Income,True
 Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,3.0
 
-
-
-CRITERIA PASS COUNT,2

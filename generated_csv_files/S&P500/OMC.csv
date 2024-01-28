@@ -5,7 +5,8 @@ Country,United States
 Industry,Advertising Agencies
 Sector,Communication Services
 Website,https://www.omnicomgroup.com
-Financial_summary,None
+Price,90.98
+Currency,USD
 
 REVENUE
 Total Revenue,14499500032.0
@@ -13,7 +14,7 @@ Revenue Per Share,72.236
 Revenue Growth,0.039
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.87, forward_eps=7.81)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.87, forward_eps=7.84)"
 Net Earnings,1395500032.0
 Earnings Growth,0.051
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.18981001
 Operating Margins,0.15673
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.0323
+Dividend Yield,0.0308
+Dividend Payout Ratio,0.4076
 Five Year Avg Dividend Yield,3.71
 Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.032317635
+Trailing Annual Dividend Yield,0.030775992
 
 FINANCIAL RATIO
 Debt to Equity,154.42
-Price to Cash Flow,1.21167242480003e-07
-Enterprise to EBITDA,9.097
-Price to Book,5.3169446
-Price to Earnings,"PriceToEarnings(trailing_pe=12.6244545, forward_pe=11.104994)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.87, forward_eps=7.81)"
-Enterprise to Revenue,1.499
+Price to Cash Flow,1.2697902304862762e-07
+Enterprise to EBITDA,9.441
+Price to Book,5.5719714
+Price to Earnings,"PriceToEarnings(trailing_pe=13.229985, forward_pe=11.593112)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.87, forward_eps=7.84)"
+Enterprise to Revenue,1.556
 
 CASH FLOW
 Free to Cash Flow,715787520.0
@@ -51,6 +54,14 @@ Return on Equity,0.37741002
 Return on Assets,0.05539
 Return on Invested Capital,0.21755058564549656
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0371
+SUM DIVIDEND SCORE,8.0371
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

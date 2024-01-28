@@ -5,7 +5,8 @@ Country,United States
 Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.firstenergycorp.com
-Financial_summary,None
+Price,36.5
+Currency,USD
 
 REVENUE
 Total Revenue,12709999616.0
@@ -13,7 +14,7 @@ Revenue Per Share,22.201
 Revenue Growth,0.003
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.95, forward_eps=2.66)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.95, forward_eps=2.67)"
 Net Earnings,545000000.0
 Earnings Growth,0.196
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.65986997
 Operating Margins,0.20504999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.64
-Dividend Yield,0.0448
-Five Year Avg Dividend Yield,4.0
+Dividend Yield,0.045100003
+Dividend Payout Ratio,1.6421001
+Five Year Avg Dividend Yield,4.01
 Trailing Annual Dividend Rate,1.56
-Trailing Annual Dividend Yield,0.04295154
+Trailing Annual Dividend Yield,0.042739723
 
 FINANCIAL RATIO
 Debt to Equity,223.426
-Price to Cash Flow,-3.2026259102704854e-08
-Enterprise to EBITDA,12.88
-Price to Book,2.004602
-Price to Earnings,"PriceToEarnings(trailing_pe=38.51579, forward_pe=13.755639)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.95, forward_eps=2.66)"
-Enterprise to Revenue,3.604
+Price to Cash Flow,-3.184245165773169e-08
+Enterprise to EBITDA,12.847
+Price to Book,1.9930971
+Price to Earnings,"PriceToEarnings(trailing_pe=38.29474, forward_pe=13.625468)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.95, forward_eps=2.67)"
+Enterprise to Revenue,3.594
 
 CASH FLOW
 Free to Cash Flow,-1142499968.0
@@ -51,6 +54,14 @@ Return on Equity,0.0559
 Return on Assets,0.027390001
 Return on Invested Capital,0.022286741855307327
 Return on Investment,-0.004541666666666667
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0401
+SUM DIVIDEND SCORE,8.0401
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

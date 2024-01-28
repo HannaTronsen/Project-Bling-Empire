@@ -5,52 +5,63 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.invesco.com
-Financial_summary,None
+Price,16.2
+Currency,USD
 
 REVENUE
-Total Revenue,5746400256.0
-Revenue Per Share,12.598
-Revenue Growth,-0.003
+Total Revenue,5716400128.0
+Revenue Per Share,12.569
+Revenue Growth,-0.021
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.62)"
-Net Earnings,596400000.0
-Earnings Growth,-0.253
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=1.89)"
+Net Earnings,-333700000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,1489100032.0
-Debt to Equity,8.975
+Total Debt,1489500032.0
+Debt to Equity,9.359
 
 MARGINS
-Profit Margins,0.145
-Gross Profit Margins,0.28719
-Operating Margins,0.14182
+Profit Margins,-0.01695
+Gross Profit Margins,0.25530002
+Operating Margins,-0.76114
 
 DIVIDEND
-Dividend Rate,1.6
-Dividend Yield,0.0885
-Five Year Avg Dividend Yield,5.5
-Trailing Annual Dividend Rate,0.788
-Trailing Annual Dividend Yield,0.043680705
+Dividend Ex Date,None
+Dividend Rate,0.8
+Dividend Yield,0.0494
+Dividend Payout Ratio,0.5962
+Five Year Avg Dividend Yield,5.46
+Trailing Annual Dividend Rate,0.8
+Trailing Annual Dividend Yield,0.049382713
 
 FINANCIAL RATIO
-Debt to Equity,8.975
-Price to Cash Flow,3.1412430252236216e-08
-Enterprise to EBITDA,11.09
-Price to Book,0.722511
-Price to Earnings,"PriceToEarnings(trailing_pe=13.900001, forward_pe=11.154321)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.62)"
-Enterprise to Revenue,2.387
+Debt to Equity,9.359
+Price to Cash Flow,None
+Enterprise to EBITDA,9.524
+Price to Book,0.4991532
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.576719)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=1.89)"
+Enterprise to Revenue,1.509
 
 CASH FLOW
-Free to Cash Flow,575249984.0
-Operating to Cash Flow,1050000000.0
+Free to Cash Flow,None
+Operating to Cash Flow,1300800000.0
 
 PROFITABILITY
-Return on Equity,0.04833
-Return on Assets,0.0224
-Return on Invested Capital,0.4005103600610465
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,-0.0102699995
+Return on Assets,-0.00837
+Return on Invested Capital,-0.22403490134632412
+Return on Investment,0.061229357798165136
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0546
+SUM DIVIDEND SCORE,8.0546
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

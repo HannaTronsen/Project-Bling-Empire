@@ -5,52 +5,63 @@ Country,United States
 Industry,Copper
 Sector,Basic Materials
 Website,https://fcx.com
-Financial_summary,None
+Price,39.44
+Currency,USD
 
 REVENUE
-Total Revenue,22708000768.0
-Revenue Per Share,15.841
-Revenue Growth,0.164
+Total Revenue,22855000064.0
+Revenue Per Share,15.839
+Revenue Growth,0.026
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=1.63)"
-Net Earnings,2151000064.0
-Earnings Growth,0.112
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.28, forward_eps=2.15)"
+Net Earnings,1848000000.0
+Earnings Growth,-0.444
 
 DEBT
-Total Debt,9404999680.0
-Debt to Equity,35.255
+Total Debt,9422000128.0
+Debt to Equity,34.5
 
 MARGINS
-Profit Margins,0.09498999
-Gross Profit Margins,0.39339
-Operating Margins,0.25618
+Profit Margins,0.080860004
+Gross Profit Margins,0.40761003
+Operating Margins,0.29162002
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.6
-Dividend Yield,0.0139
+Dividend Yield,0.0152
+Dividend Payout Ratio,0.4688
 Five Year Avg Dividend Yield,3.73
 Trailing Annual Dividend Rate,0.6
-Trailing Annual Dividend Yield,0.013888889
+Trailing Annual Dividend Yield,0.015212983
 
 FINANCIAL RATIO
-Debt to Equity,35.255
-Price to Cash Flow,-1.0711484807200445e-07
-Enterprise to EBITDA,9.114
-Price to Book,3.74804
-Price to Earnings,"PriceToEarnings(trailing_pe=28.68, forward_pe=26.39264)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=1.63)"
-Enterprise to Revenue,3.328
+Debt to Equity,34.5
+Price to Cash Flow,-3.692236007531617e-08
+Enterprise to EBITDA,8.666
+Price to Book,3.4247403
+Price to Earnings,"PriceToEarnings(trailing_pe=30.929688, forward_pe=18.413952)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.28, forward_eps=2.15)"
+Enterprise to Revenue,3.17
 
 CASH FLOW
-Free to Cash Flow,-401624992.0
-Operating to Cash Flow,5027999744.0
+Free to Cash Flow,-1072249984.0
+Operating to Cash Flow,5279000064.0
 
 PROFITABILITY
-Return on Equity,0.14633
-Return on Assets,0.074489996
-Return on Invested Capital,0.2287081482787342
-Return on Investment,-0.006328332050603119
+Return on Equity,0.14377
+Return on Assets,0.07511
+Return on Invested Capital,0.1961366984320911
+Return on Investment,-0.005436893203883495
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0373
+SUM DIVIDEND SCORE,5.0373
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

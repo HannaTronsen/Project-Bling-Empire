@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.williams.com
-Financial_summary,None
+Price,34.44
+Currency,USD
 
 REVENUE
 Total Revenue,10304000000.0
@@ -13,7 +14,7 @@ Revenue Per Share,8.458
 Revenue Growth,-0.156
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=1.9)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=1.88)"
 Net Earnings,2795000064.0
 Earnings Growth,0.095
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.58919
 Operating Margins,0.34083
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.79
-Dividend Yield,0.0512
-Five Year Avg Dividend Yield,6.16
+Dividend Yield,0.0513
+Dividend Payout Ratio,0.77519995
+Five Year Avg Dividend Yield,6.14
 Trailing Annual Dividend Rate,1.768
-Trailing Annual Dividend Yield,0.050471026
+Trailing Annual Dividend Yield,0.05133566
 
 FINANCIAL RATIO
 Debt to Equity,178.84
-Price to Cash Flow,2.918433400858513e-08
-Enterprise to EBITDA,10.999
-Price to Book,3.5995464
-Price to Earnings,"PriceToEarnings(trailing_pe=15.320176, forward_pe=18.38421)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=1.9)"
-Enterprise to Revenue,6.658
+Price to Cash Flow,2.9134203460617334e-08
+Enterprise to EBITDA,10.988
+Price to Book,3.5933633
+Price to Earnings,"PriceToEarnings(trailing_pe=15.2938595, forward_pe=18.547873)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=1.88)"
+Enterprise to Revenue,6.651
 
 CASH FLOW
 Free to Cash Flow,1196875008.0
@@ -52,12 +55,20 @@ Return on Assets,0.05266
 Return on Invested Capital,0.10896261898765391
 Return on Investment,-0.09671280498269896
 
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.061399999999999996
+SUM DIVIDEND SCORE,5.0614
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
-Net Income,False
+Net Income,True
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

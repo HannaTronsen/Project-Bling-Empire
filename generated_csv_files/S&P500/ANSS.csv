@@ -5,7 +5,8 @@ Country,United States
 Industry,Software - Application
 Sector,Technology
 Website,https://www.ansys.com
-Financial_summary,None
+Price,339.42
+Currency,USD
 
 REVENUE
 Total Revenue,2158956032.0
@@ -13,7 +14,7 @@ Revenue Per Share,24.854
 Revenue Growth,-0.029
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.54, forward_eps=9.55)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.56)"
 Net Earnings,483596992.0
 Earnings Growth,-0.419
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.91438
 Operating Margins,0.15217
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,17.507
-Price to Cash Flow,6.378755459224702e-07
-Enterprise to EBITDA,45.842
-Price to Book,6.2760806
-Price to Earnings,"PriceToEarnings(trailing_pe=65.31769, forward_pe=37.891098)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.54, forward_eps=9.55)"
-Enterprise to Revenue,14.67
+Price to Cash Flow,5.85662331778261e-07
+Enterprise to EBITDA,42.118
+Price to Book,5.762353
+Price to Earnings,"PriceToEarnings(trailing_pe=60.297638, forward_pe=34.753136)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.56)"
+Enterprise to Revenue,13.479
 
 CASH FLOW
 Free to Cash Flow,567289344.0
@@ -51,6 +54,14 @@ Return on Equity,0.10127
 Return on Assets,0.05489
 Return on Invested Capital,0.5517206749416235
 Return on Investment,0.07848052450503083
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

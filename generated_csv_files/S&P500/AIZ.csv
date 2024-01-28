@@ -5,7 +5,8 @@ Country,United States
 Industry,Insurance - Specialty
 Sector,Financial Services
 Website,https://www.assurant.com
-Financial_summary,None
+Price,171.33
+Currency,USD
 
 REVENUE
 Total Revenue,10801300480.0
@@ -13,7 +14,7 @@ Revenue Per Share,201.725
 Revenue Growth,0.089
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.81, forward_eps=15.22)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.81, forward_eps=14.37)"
 Net Earnings,528100000.0
 Earnings Growth,25.049
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.09653
 Operating Margins,0.092209995
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.88
-Dividend Yield,0.0171
-Five Year Avg Dividend Yield,1.97
+Dividend Yield,0.016900001
+Dividend Payout Ratio,0.2851
+Five Year Avg Dividend Yield,1.96
 Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.016829958
+Trailing Annual Dividend Yield,0.01634273
 
 FINANCIAL RATIO
 Debt to Equity,46.319
-Price to Cash Flow,2.3563805277215564e-07
-Enterprise to EBITDA,8.94
-Price to Book,1.9737166
-Price to Earnings,"PriceToEarnings(trailing_pe=17.131498, forward_pe=11.042049)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.81, forward_eps=15.22)"
-Enterprise to Revenue,0.852
+Price to Cash Flow,2.393115723381621e-07
+Enterprise to EBITDA,9.074
+Price to Book,2.004486
+Price to Earnings,"PriceToEarnings(trailing_pe=17.398571, forward_pe=11.877522)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.81, forward_eps=14.37)"
+Enterprise to Revenue,0.865
 
 CASH FLOW
 Free to Cash Flow,713212480.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.122959994
 Return on Assets,0.01592
 Return on Invested Capital,0.2538942203755582
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.3000568181818182
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0196
+SUM DIVIDEND SCORE,8.0196
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

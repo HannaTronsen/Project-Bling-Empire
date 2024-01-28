@@ -5,7 +5,8 @@ Country,United States
 Industry,Residential Construction
 Sector,Consumer Cyclical
 Website,https://www.pultegroup.com
-Financial_summary,None
+Price,105.13
+Currency,USD
 
 REVENUE
 Total Revenue,17072587776.0
@@ -13,7 +14,7 @@ Revenue Per Share,76.506
 Revenue Growth,0.028
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.41)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.51)"
 Net Earnings,2761303040.0
 Earnings Growth,0.078
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.29112
 Operating Margins,0.20715
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0077
-Five Year Avg Dividend Yield,1.18
+Dividend Yield,0.0076
+Dividend Payout Ratio,0.0523
+Five Year Avg Dividend Yield,1.16
 Trailing Annual Dividend Rate,0.63
-Trailing Annual Dividend Yield,0.0060617724
+Trailing Annual Dividend Yield,0.0059925807
 
 FINANCIAL RATIO
 Debt to Equity,25.036
-Price to Cash Flow,5.0447657370874894e-08
-Enterprise to EBITDA,6.217
-Price to Book,2.2339988
-Price to Earnings,"PriceToEarnings(trailing_pe=8.455066, forward_pe=9.070114)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.41)"
-Enterprise to Revenue,1.345
+Price to Cash Flow,5.12422238170487e-08
+Enterprise to EBITDA,6.312
+Price to Book,2.269185
+Price to Earnings,"PriceToEarnings(trailing_pe=8.588236, forward_pe=9.132928)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.51)"
+Enterprise to Revenue,1.366
 
 CASH FLOW
 Free to Cash Flow,2051433216.0
@@ -51,6 +54,14 @@ Return on Equity,0.30519
 Return on Assets,0.15098
 Return on Invested Capital,1.1015505270769244
 Return on Investment,-0.30408482165471823
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0116
+SUM DIVIDEND SCORE,8.0116
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,1

@@ -5,7 +5,8 @@ Country,Netherlands
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.nxp.com
-Financial_summary,None
+Price,219.41
+Currency,USD
 
 REVENUE
 Total Revenue,13166000128.0
@@ -13,7 +14,7 @@ Revenue Per Share,50.839
 Revenue Growth,-0.003
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.79, forward_eps=14.39)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.78, forward_eps=14.3)"
 Net Earnings,2822000128.0
 Earnings Growth,0.079
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.57003
 Operating Margins,0.28917
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,4.06
-Dividend Yield,0.0176
-Five Year Avg Dividend Yield,1.29
+Dividend Yield,0.0189
+Dividend Payout Ratio,0.36060002
+Five Year Avg Dividend Yield,1.31
 Trailing Annual Dividend Rate,3.887
-Trailing Annual Dividend Yield,0.016747091
+Trailing Annual Dividend Yield,0.017715693
 
 FINANCIAL RATIO
 Debt to Equity,126.983
-Price to Cash Flow,1.3788021643696106e-07
-Enterprise to EBITDA,13.769
-Price to Book,6.9949145
-Price to Earnings,"PriceToEarnings(trailing_pe=21.4152, forward_pe=16.057678)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.79, forward_eps=14.39)"
-Enterprise to Revenue,5.089
+Price to Cash Flow,1.283627998438528e-07
+Enterprise to EBITDA,12.924
+Price to Book,6.5120783
+Price to Earnings,"PriceToEarnings(trailing_pe=19.955473, forward_pe=15.043356)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.78, forward_eps=14.3)"
+Enterprise to Revenue,4.777
 
 CASH FLOW
 Free to Cash Flow,1675874944.0
@@ -51,6 +54,14 @@ Return on Equity,0.35259
 Return on Assets,0.099709995
 Return on Invested Capital,0.25259579165057944
 Return on Investment,-0.2059854108029197
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0131
+SUM DIVIDEND SCORE,8.0131
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.bio-rad.com
-Financial_summary,None
+Price,316.3
+Currency,USD
 
 REVENUE
 Total Revenue,2720366080.0
@@ -13,7 +14,7 @@ Revenue Per Share,92.427
 Revenue Growth,-0.072
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.01, forward_eps=11.65)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-6.02, forward_eps=11.57)"
 Net Earnings,-159298000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.53768003
 Operating Margins,0.14419
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,16.7
-Price to Cash Flow,1.6505150550646233e-06
-Enterprise to EBITDA,16.99
-Price to Book,1.124155
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=27.864378)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.01, forward_eps=11.65)"
-Enterprise to Revenue,3.348
+Price to Cash Flow,1.6730391807929712e-06
+Enterprise to EBITDA,17.231
+Price to Book,1.139496
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=28.43993)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-6.02, forward_eps=11.57)"
+Enterprise to Revenue,3.395
 
 CASH FLOW
 Free to Cash Flow,196678000.0
@@ -51,6 +54,14 @@ Return on Equity,-0.01889
 Return on Assets,0.020450002
 Return on Invested Capital,-0.11334028963976964
 Return on Investment,0.030009230827195147
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

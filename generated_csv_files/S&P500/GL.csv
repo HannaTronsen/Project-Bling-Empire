@@ -5,7 +5,8 @@ Country,United States
 Industry,Insurance—Life
 Sector,Financial Services
 Website,https://www.globelifeinsurance.com
-Financial_summary,None
+Price,123.5
+Currency,USD
 
 REVENUE
 Total Revenue,5355121152.0
@@ -13,7 +14,7 @@ Revenue Per Share,55.882
 Revenue Growth,0.067
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.09, forward_eps=11.45)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.09, forward_eps=11.43)"
 Net Earnings,783614016.0
 Earnings Growth,0.381
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.26286
 Operating Margins,0.24909
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.9
-Dividend Yield,0.0074
+Dividend Yield,0.0073
+Dividend Payout Ratio,0.1091
 Five Year Avg Dividend Yield,0.79
 Trailing Annual Dividend Rate,0.883
-Trailing Annual Dividend Yield,0.007276473
+Trailing Annual Dividend Yield,0.007149798
 
 FINANCIAL RATIO
 Debt to Equity,48.584
-Price to Cash Flow,9.044332773376852e-08
-Enterprise to EBITDA,12.499
-Price to Book,2.4816997
-Price to Earnings,"PriceToEarnings(trailing_pe=15.044499, forward_pe=10.629694)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.09, forward_eps=11.45)"
-Enterprise to Revenue,2.527
+Price to Cash Flow,9.196669329004347e-08
+Enterprise to EBITDA,12.678
+Price to Book,2.5235
+Price to Earnings,"PriceToEarnings(trailing_pe=15.297898, forward_pe=10.827646)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.09, forward_eps=11.43)"
+Enterprise to Revenue,2.563
 
 CASH FLOW
 Free to Cash Flow,1345704576.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.17443001
 Return on Assets,0.025999999
 Return on Invested Capital,0.3488745130349741
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.049600846668017014
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0079
+SUM DIVIDEND SCORE,8.0079
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

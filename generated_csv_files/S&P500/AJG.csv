@@ -5,57 +5,68 @@ Country,United States
 Industry,Insurance Brokers
 Sector,Financial Services
 Website,https://www.ajg.com
-Financial_summary,None
+Price,237.75
+Currency,USD
 
 REVENUE
-Total Revenue,9213200384.0
-Revenue Per Share,43.118
-Revenue Growth,0.191
+Total Revenue,10071900160.0
+Revenue Per Share,45.918
+Revenue Growth,0.261
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=10.22)"
-Net Earnings,1137200000.0
-Earnings Growth,0.076
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.43, forward_eps=11.47)"
+Net Earnings,969500032.0
+Earnings Growth,None
 
 DEBT
-Total Debt,7049299968.0
-Debt to Equity,67.072
+Total Debt,8317199872.0
+Debt to Equity,76.902
 
 MARGINS
-Profit Margins,0.123430006
-Gross Profit Margins,0.43794
-Operating Margins,0.17504999
+Profit Margins,0.096260004
+Gross Profit Margins,0.43594003
+Operating Margins,0.13348
 
 DIVIDEND
-Dividend Rate,2.2
-Dividend Yield,0.0098
-Five Year Avg Dividend Yield,1.45
-Trailing Annual Dividend Rate,2.16
-Trailing Annual Dividend Yield,0.009685665
+Dividend Ex Date,None
+Dividend Rate,2.4
+Dividend Yield,0.010299999
+Dividend Payout Ratio,0.4977
+Five Year Avg Dividend Yield,1.43
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,67.072
-Price to Cash Flow,1.0934223843089636e-07
-Enterprise to EBITDA,21.071
-Price to Book,4.61075
-Price to Earnings,"PriceToEarnings(trailing_pe=42.890594, forward_pe=21.864971)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=10.22)"
-Enterprise to Revenue,5.886
+Debt to Equity,76.902
+Price to Cash Flow,None
+Enterprise to EBITDA,24.457
+Price to Book,5.0578427
+Price to Earnings,"PriceToEarnings(trailing_pe=52.60271, forward_pe=20.316477)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.43, forward_eps=11.47)"
+Enterprise to Revenue,6.144
 
 CASH FLOW
-Free to Cash Flow,2043675008.0
-Operating to Cash Flow,2681400064.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.11924
-Return on Assets,0.02609
-Return on Invested Capital,0.1613209818483892
-Return on Investment,0.017295817490494296
+Return on Equity,0.09656999
+Return on Assets,0.02567
+Return on Invested Capital,0.11656567613498246
+Return on Investment,0.01474524763498099
+
+DIVIDEND SCORE
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0143
+SUM DIVIDEND SCORE,5.0143
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,1

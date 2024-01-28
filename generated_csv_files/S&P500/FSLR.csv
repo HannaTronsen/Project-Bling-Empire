@@ -5,7 +5,8 @@ Country,United States
 Industry,Solar
 Sector,Technology
 Website,https://www.firstsolar.com
-Financial_summary,None
+Price,149.23
+Currency,USD
 
 REVENUE
 Total Revenue,3162439936.0
@@ -13,7 +14,7 @@ Revenue Per Share,29.625
 Revenue Growth,0.274
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=13.35)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=13.38)"
 Net Earnings,473990016.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.27171
 Operating Margins,0.34048
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,8.621
-Price to Cash Flow,-1.7145470238425173e-07
-Enterprise to EBITDA,23.362
-Price to Book,2.9365792
-Price to Earnings,"PriceToEarnings(trailing_pe=39.190044, forward_pe=12.975281)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=13.35)"
-Enterprise to Revenue,5.448
+Price to Cash Flow,-1.463234537204938e-07
+Enterprise to EBITDA,19.684
+Price to Book,2.5061455
+Price to Earnings,"PriceToEarnings(trailing_pe=33.4457, forward_pe=11.04858)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=13.38)"
+Enterprise to Revenue,4.59
 
 CASH FLOW
 Free to Cash Flow,-1010296000.0
@@ -51,6 +54,14 @@ Return on Equity,0.078150004
 Return on Assets,0.03284
 Return on Invested Capital,0.8723987620167821
 Return on Investment,-0.0035144109901060574
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

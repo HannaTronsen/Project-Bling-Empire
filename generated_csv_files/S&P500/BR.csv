@@ -5,7 +5,8 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.broadridge.com
-Financial_summary,None
+Price,208.25
+Currency,USD
 
 REVENUE
 Total Revenue,6208699904.0
@@ -13,7 +14,7 @@ Revenue Per Share,52.705
 Revenue Growth,0.115
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.64, forward_eps=8.53)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.63, forward_eps=8.54)"
 Net Earnings,671100032.0
 Earnings Growth,0.81
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.29770002
 Operating Margins,0.103769995
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.2
-Dividend Yield,0.0155
+Dividend Yield,0.0154
+Dividend Payout Ratio,0.5275
 Five Year Avg Dividend Yield,1.64
 Trailing Annual Dividend Rate,2.975
-Trailing Annual Dividend Yield,0.014564057
+Trailing Annual Dividend Yield,0.014285713
 
 FINANCIAL RATIO
 Debt to Equity,185.256
-Price to Cash Flow,2.578192470406364e-07
-Enterprise to EBITDA,19.464
-Price to Book,11.457278
-Price to Earnings,"PriceToEarnings(trailing_pe=36.494682, forward_pe=24.13013)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.64, forward_eps=8.53)"
-Enterprise to Revenue,4.493
+Price to Cash Flow,2.603870430685881e-07
+Enterprise to EBITDA,19.633
+Price to Book,11.571389
+Price to Earnings,"PriceToEarnings(trailing_pe=36.923622, forward_pe=24.34192)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.63, forward_eps=8.54)"
+Enterprise to Revenue,4.532
 
 CASH FLOW
 Free to Cash Flow,798350016.0
@@ -51,6 +54,14 @@ Return on Equity,0.33418
 Return on Assets,0.07713
 Return on Invested Capital,0.17146580736163697
 Return on Investment,0.029408415074496055
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.016399999999999998
+SUM DIVIDEND SCORE,9.0164
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

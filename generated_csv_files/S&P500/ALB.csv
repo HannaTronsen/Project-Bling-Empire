@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.albemarle.com
-Financial_summary,None
+Price,118.45
+Currency,USD
 
 REVENUE
 Total Revenue,9882015744.0
@@ -13,7 +14,7 @@ Revenue Per Share,84.268
 Revenue Growth,0.105
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.21, forward_eps=13.15)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.21, forward_eps=10.39)"
 Net Earnings,3323600896.0
 Earnings Growth,-0.662
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.29258
 Operating Margins,-0.05545
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0107
-Five Year Avg Dividend Yield,1.24
+Dividend Yield,0.0134000005
+Dividend Payout Ratio,0.056500003
+Five Year Avg Dividend Yield,1.22
 Trailing Annual Dividend Rate,1.595
-Trailing Annual Dividend Yield,0.010681757
+Trailing Annual Dividend Yield,0.013465598
 
 FINANCIAL RATIO
 Debt to Equity,37.472
-Price to Cash Flow,-1.1994823591857318e-07
-Enterprise to EBITDA,7.663
-Price to Book,1.7716941
-Price to Earnings,"PriceToEarnings(trailing_pe=5.2970576, forward_pe=11.363498)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.21, forward_eps=13.15)"
-Enterprise to Revenue,2.025
+Price to Cash Flow,-9.619618946986422e-08
+Enterprise to EBITDA,6.333
+Price to Book,1.4208647
+Price to Earnings,"PriceToEarnings(trailing_pe=4.248139, forward_pe=11.534166)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.21, forward_eps=10.39)"
+Enterprise to Revenue,1.673
 
 CASH FLOW
 Free to Cash Flow,-1245787392.0
@@ -51,6 +54,14 @@ Return on Equity,0.40118998
 Return on Assets,0.08558
 Return on Invested Capital,0.8727713921908009
 Return on Investment,-0.0195568632061455
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.012199999999999999
+SUM DIVIDEND SCORE,5.0122
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

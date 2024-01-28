@@ -5,52 +5,63 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.humana.com
-Financial_summary,None
+Price,355.36
+Currency,USD
 
 REVENUE
-Total Revenue,102351003648.0
-Revenue Per Share,821.03
-Revenue Growth,0.159
+Total Revenue,106373996544.0
+Revenue Per Share,858.783
+Revenue Growth,0.179
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=24.19, forward_eps=31.56)"
-Net Earnings,3015000064.0
-Earnings Growth,-0.285
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.01, forward_eps=33.98)"
+Net Earnings,2488999936.0
+Earnings Growth,None
 
 DEBT
-Total Debt,11973999616.0
-Debt to Equity,70.419
+Total Debt,12008999936.0
+Debt to Equity,73.594
 
 MARGINS
-Profit Margins,0.029460002
-Gross Profit Margins,0.1774
-Operating Margins,0.04818
+Profit Margins,0.0234
+Gross Profit Margins,0.16903
+Operating Margins,0.0013600001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.54
-Dividend Yield,0.0078
+Dividend Yield,0.0098
+Dividend Payout Ratio,0.177
 Five Year Avg Dividend Yield,0.66
-Trailing Annual Dividend Rate,3.443
-Trailing Annual Dividend Yield,0.0076420256
+Trailing Annual Dividend Rate,3.54
+Trailing Annual Dividend Yield,0.009961729
 
 FINANCIAL RATIO
-Debt to Equity,70.419
-Price to Cash Flow,1.423169742425075e-07
-Enterprise to EBITDA,7.273
-Price to Book,3.3093634
-Price to Earnings,"PriceToEarnings(trailing_pe=18.83464, forward_pe=14.436312)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=24.19, forward_eps=31.56)"
-Enterprise to Revenue,0.37
+Debt to Equity,73.594
+Price to Cash Flow,4.031022493790688e-07
+Enterprise to EBITDA,6.378
+Price to Book,2.7149742
+Price to Earnings,"PriceToEarnings(trailing_pe=18.052475, forward_pe=10.630666)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.01, forward_eps=33.98)"
+Enterprise to Revenue,0.328
 
 CASH FLOW
-Free to Cash Flow,3201374976.0
-Operating to Cash Flow,5987999744.0
+Free to Cash Flow,896124992.0
+Operating to Cash Flow,3980999936.0
 
 PROFITABILITY
-Return on Equity,0.18043
-Return on Assets,0.056599997
-Return on Invested Capital,0.25179556756506155
-Return on Investment,-0.4369565310144928
+Return on Equity,0.15678
+Return on Assets,0.06317
+Return on Invested Capital,0.20726121423002797
+Return on Investment,-0.3607246284057971
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0066
+SUM DIVIDEND SCORE,4.0066
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.dentsplysirona.com
-Financial_summary,None
+Price,35.05
+Currency,USD
 
 REVENUE
 Total Revenue,3936000000.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.52973
 Operating Margins,0.082370006
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.56
-Dividend Yield,0.015700001
-Five Year Avg Dividend Yield,0.98
+Dividend Yield,0.016
+Dividend Payout Ratio,0.2883
+Five Year Avg Dividend Yield,0.99
 Trailing Annual Dividend Rate,0.545
-Trailing Annual Dividend Yield,0.015356438
+Trailing Annual Dividend Yield,0.015549216
 
 FINANCIAL RATIO
 Debt to Equity,64.076
-Price to Cash Flow,1.322433852594411e-07
-Enterprise to EBITDA,14.971
-Price to Book,2.2334483
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=17.360975)"
+Price to Cash Flow,1.2975383571957524e-07
+Enterprise to EBITDA,14.745
+Price to Book,2.1914024
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=17.034145)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.01, forward_eps=2.05)"
-Enterprise to Revenue,2.385
+Enterprise to Revenue,2.349
 
 CASH FLOW
 Free to Cash Flow,269124992.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,-0.06271
 Return on Assets,0.024619998
 Return on Invested Capital,-0.09907407334317345
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.1646153846153846
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.009899999999999999
+SUM DIVIDEND SCORE,8.0099
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

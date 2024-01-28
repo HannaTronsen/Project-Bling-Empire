@@ -5,7 +5,8 @@ Country,United States
 Industry,Software—Application
 Sector,Technology
 Website,https://www.ptc.com
-Financial_summary,None
+Price,180.03
+Currency,USD
 
 REVENUE
 Total Revenue,2097053056.0
@@ -13,7 +14,7 @@ Revenue Per Share,17.72
 Revenue Growth,0.076
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.06, forward_eps=6.02)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.06, forward_eps=6.11)"
 Net Earnings,245540000.0
 Earnings Growth,-0.576
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.78970003
 Operating Margins,0.22397
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,70.556
-Price to Cash Flow,1.4528872854404597e-07
-Enterprise to EBITDA,41.28
-Price to Book,7.809295
-Price to Earnings,"PriceToEarnings(trailing_pe=85.398056, forward_pe=29.222591)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.06, forward_eps=6.02)"
-Enterprise to Revenue,10.767
+Price to Cash Flow,1.491951387646766e-07
+Enterprise to EBITDA,42.311
+Price to Book,8.019265
+Price to Earnings,"PriceToEarnings(trailing_pe=87.694176, forward_pe=29.566282)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.06, forward_eps=6.11)"
+Enterprise to Revenue,11.036
 
 CASH FLOW
 Free to Cash Flow,1210830336.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.09874
 Return on Assets,0.054419998
 Return on Invested Capital,0.12998569805357896
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.010483306293228589
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

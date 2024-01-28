@@ -5,7 +5,8 @@ Country,United States
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://www.quantaservices.com
-Financial_summary,None
+Price,197.99
+Currency,USD
 
 REVENUE
 Total Revenue,19514875904.0
@@ -13,7 +14,7 @@ Revenue Per Share,134.92
 Revenue Growth,0.26
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.7, forward_eps=8.34)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=8.36)"
 Net Earnings,696353024.0
 Earnings Growth,0.726
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.1441
 Operating Margins,0.06928
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.36
-Dividend Yield,0.0017
+Dividend Yield,0.0018000001
+Dividend Payout Ratio,0.0682
 Five Year Avg Dividend Yield,0.26
 Trailing Annual Dividend Rate,0.32
-Trailing Annual Dividend Yield,0.0014818244
+Trailing Annual Dividend Yield,0.0016162432
 
 FINANCIAL RATIO
 Debt to Equity,70.844
-Price to Cash Flow,5.470197528941431e-07
-Enterprise to EBITDA,21.748
-Price to Book,5.2520866
-Price to Earnings,"PriceToEarnings(trailing_pe=46.05745, forward_pe=25.955635)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.7, forward_eps=8.34)"
-Enterprise to Revenue,1.814
+Price to Cash Flow,4.960501570338629e-07
+Enterprise to EBITDA,19.948
+Price to Book,4.7627134
+Price to Earnings,"PriceToEarnings(trailing_pe=41.85501, forward_pe=23.480862)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=8.36)"
+Enterprise to Revenue,1.664
 
 CASH FLOW
 Free to Cash Flow,395726112.0
@@ -52,20 +55,26 @@ Return on Assets,0.04559
 Return on Invested Capital,0.16393637000650557
 Return on Investment,-0.09326239841427156
 
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0026
+SUM DIVIDEND SCORE,8.0026
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
 Net Income,False
-Total Revenue,False
+Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

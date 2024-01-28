@@ -5,52 +5,63 @@ Country,United States
 Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.berkley.com
-Financial_summary,None
+Price,83.27
+Currency,USD
 
 REVENUE
-Total Revenue,11935357952.0
-Revenue Per Share,43.736
-Revenue Growth,0.112
+Total Revenue,12142938112.0
+Revenue Per Share,44.808
+Revenue Growth,0.069
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.96, forward_eps=5.79)"
-Net Earnings,1366242944.0
-Earnings Growth,0.5
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.05, forward_eps=6.48)"
+Net Earnings,1381358976.0
+Earnings Growth,0.073
 
 DEBT
 Total Debt,3025096960.0
 Debt to Equity,43.653
 
 MARGINS
-Profit Margins,0.11447
-Gross Profit Margins,0.43058997
-Operating Margins,0.14167
+Profit Margins,0.11376
+Gross Profit Margins,0.432
+Operating Margins,0.1759
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.43
-Dividend Yield,0.0061000003
+Dividend Yield,0.0053
+Dividend Payout Ratio,0.0851
 Five Year Avg Dividend Yield,0.64
-Trailing Annual Dividend Rate,0.42
-Trailing Annual Dividend Yield,0.005995717
+Trailing Annual Dividend Rate,0.43
+Trailing Annual Dividend Yield,0.005163925
 
 FINANCIAL RATIO
 Debt to Equity,43.653
-Price to Cash Flow,2.560532888243632e-08
-Enterprise to EBITDA,9.833
-Price to Book,2.6276119
-Price to Earnings,"PriceToEarnings(trailing_pe=14.19758, forward_pe=12.162349)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.96, forward_eps=5.79)"
-Enterprise to Revenue,1.569
+Price to Cash Flow,None
+Enterprise to EBITDA,11.193
+Price to Book,3.0399256
+Price to Earnings,"PriceToEarnings(trailing_pe=16.132673, forward_pe=12.572531)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.05, forward_eps=6.48)"
+Enterprise to Revenue,1.768
 
 CASH FLOW
-Free to Cash Flow,2750208768.0
-Operating to Cash Flow,3026462976.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.20555
-Return on Assets,0.03417
-Return on Invested Capital,0.45163607975598674
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.20205
+Return on Assets,None
+Return on Invested Capital,0.45663295491931494
+Return on Investment,0.07068631191120708
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0064
+SUM DIVIDEND SCORE,7.0064
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

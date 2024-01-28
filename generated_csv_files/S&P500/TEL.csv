@@ -5,52 +5,63 @@ Country,Switzerland
 Industry,Electronic Components
 Sector,Technology
 Website,https://www.te.com
-Financial_summary,None
+Price,144.26
+Currency,USD
 
 REVENUE
-Total Revenue,16033999872.0
-Revenue Per Share,50.902
-Revenue Growth,-0.074
+Total Revenue,16024000512.0
+Revenue Per Share,51.113
+Revenue Growth,-0.003
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.01, forward_eps=8.32)"
-Net Earnings,1904000000.0
-Earnings Growth,-0.207
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.52, forward_eps=8.34)"
+Net Earnings,3310000128.0
+Earnings Growth,3.617
 
 DEBT
-Total Debt,4623000064.0
-Debt to Equity,39.665
+Total Debt,4198000128.0
+Debt to Equity,31.685
 
 MARGINS
-Profit Margins,0.119119994
-Gross Profit Margins,0.31527
-Operating Margins,0.17224
+Profit Margins,0.20694
+Gross Profit Margins,0.32401
+Operating Margins,0.18977
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.36
-Dividend Yield,0.0167
-Five Year Avg Dividend Yield,1.79
-Trailing Annual Dividend Rate,2.3
-Trailing Annual Dividend Yield,0.016338708
+Dividend Yield,0.0163
+Dividend Payout Ratio,0.2215
+Five Year Avg Dividend Yield,1.78
+Trailing Annual Dividend Rate,2.33
+Trailing Annual Dividend Yield,0.016151393
 
 FINANCIAL RATIO
-Debt to Equity,39.665
-Price to Cash Flow,7.78424617163633e-08
-Enterprise to EBITDA,13.589
-Price to Book,3.8101285
-Price to Earnings,"PriceToEarnings(trailing_pe=23.472546, forward_pe=16.95553)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.01, forward_eps=8.32)"
-Enterprise to Revenue,2.926
+Debt to Equity,31.685
+Price to Cash Flow,7.37236886441745e-08
+Enterprise to EBITDA,13.425
+Price to Book,3.4032128
+Price to Earnings,"PriceToEarnings(trailing_pe=13.733839, forward_pe=17.32374)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.52, forward_eps=8.34)"
+Enterprise to Revenue,2.986
 
 CASH FLOW
-Free to Cash Flow,1812249984.0
-Operating to Cash Flow,3132000000.0
+Free to Cash Flow,1959750016.0
+Operating to Cash Flow,3270000128.0
 
 PROFITABILITY
-Return on Equity,0.16885
-Return on Assets,0.07819
-Return on Invested Capital,0.4118537656051208
-Return on Investment,-0.03328671328671329
+Return on Equity,0.26783
+Return on Assets,0.07775
+Return on Invested Capital,0.7884706988094368
+Return on Investment,-0.05786713510489511
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0178
+SUM DIVIDEND SCORE,8.0178
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

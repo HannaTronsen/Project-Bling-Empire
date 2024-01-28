@@ -5,7 +5,8 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.f5.com
-Financial_summary,None
+Price,184.64
+Currency,USD
 
 REVENUE
 Total Revenue,2813168896.0
@@ -13,7 +14,7 @@ Revenue Per Share,46.957
 Revenue Growth,0.01
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.54, forward_eps=13.79)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=13.76)"
 Net Earnings,394948000.0
 Earnings Growth,0.719
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.78910005
 Operating Margins,0.24292
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,10.034
-Price to Cash Flow,3.0085256896819963e-07
-Enterprise to EBITDA,15.687
-Price to Book,3.7994754
-Price to Earnings,"PriceToEarnings(trailing_pe=27.477064, forward_pe=13.031182)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.54, forward_eps=13.79)"
-Enterprise to Revenue,3.628
+Price to Cash Flow,3.074321493579883e-07
+Enterprise to EBITDA,16.048
+Price to Book,3.8825693
+Price to Earnings,"PriceToEarnings(trailing_pe=27.992378, forward_pe=13.345203)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=13.76)"
+Enterprise to Revenue,3.712
 
 CASH FLOW
 Free to Cash Flow,597302528.0
@@ -51,6 +54,14 @@ Return on Equity,0.14991
 Return on Assets,0.06389
 Return on Invested Capital,1.405578769088164
 Return on Investment,-0.07289015207441311
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

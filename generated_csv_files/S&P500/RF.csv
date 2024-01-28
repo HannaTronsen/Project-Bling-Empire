@@ -5,16 +5,17 @@ Country,United States
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.regions.com
-Financial_summary,None
+Price,19.13
+Currency,USD
 
 REVENUE
-Total Revenue,7255000064.0
-Revenue Per Share,7.747
+Total Revenue,7021000192.0
+Revenue Per Share,7.501
 Revenue Growth,0.156
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=1.97)"
-Net Earnings,2268999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.11, forward_eps=2.19)"
+Net Earnings,1976000000.0
 Earnings Growth,None
 
 DEBT
@@ -22,35 +23,45 @@ Total Debt,None
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.32639998
+Profit Margins,0.29540002
 Gross Profit Margins,0.0
 Operating Margins,0.46976003
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.96
-Dividend Yield,0.049099997
-Five Year Avg Dividend Yield,3.79
-Trailing Annual Dividend Rate,0.84
-Trailing Annual Dividend Yield,0.042988736
+Dividend Yield,0.050100002
+Dividend Payout Ratio,0.41709998
+Five Year Avg Dividend Yield,3.81
+Trailing Annual Dividend Rate,0.88
+Trailing Annual Dividend Yield,0.046001047
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.2703879
-Price to Earnings,"PriceToEarnings(trailing_pe=8.112033, forward_pe=9.923858)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=1.97)"
+Price to Book,1.1220484
+Price to Earnings,"PriceToEarnings(trailing_pe=9.0758295, forward_pe=8.744292)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.11, forward_eps=2.19)"
 Enterprise to Revenue,None
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,2728999936.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.15132
-Return on Assets,0.01521
+Return on Equity,0.12403
+Return on Assets,0.01349
 Return on Invested Capital,None
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.018891013384321222
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0381
+SUM DIVIDEND SCORE,9.0381
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.targaresources.com
-Financial_summary,None
+Price,85.99
+Currency,USD
 
 REVENUE
 Total Revenue,16375600128.0
@@ -13,7 +14,7 @@ Revenue Per Share,72.619
 Revenue Growth,-0.273
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=6.48)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=6.53)"
 Net Earnings,868400000.0
 Earnings Growth,0.155
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.32202998
 Operating Margins,0.12963
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.0232
-Five Year Avg Dividend Yield,5.89
+Dividend Yield,0.023
+Dividend Payout Ratio,0.44619998
+Five Year Avg Dividend Yield,5.76
 Trailing Annual Dividend Rate,1.85
-Trailing Annual Dividend Yield,0.021249713
+Trailing Annual Dividend Yield,0.02151413
 
 FINANCIAL RATIO
 Debt to Equity,295.945
-Price to Cash Flow,4.6068688580061327e-07
-Enterprise to EBITDA,8.779
-Price to Book,7.686487
-Price to Earnings,"PriceToEarnings(trailing_pe=22.664042, forward_pe=13.325617)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=6.48)"
-Enterprise to Revenue,2.073
+Price to Cash Flow,4.6314103713203524e-07
+Enterprise to EBITDA,8.805
+Price to Book,7.727434
+Price to Earnings,"PriceToEarnings(trailing_pe=22.784777, forward_pe=13.294026)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=6.53)"
+Enterprise to Revenue,2.079
 
 CASH FLOW
 Free to Cash Flow,187437504.0
@@ -51,6 +54,14 @@ Return on Equity,0.35516
 Return on Assets,0.080299996
 Return on Invested Capital,0.06702737792678569
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0576
+SUM DIVIDEND SCORE,9.0576
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.iff.com
-Financial_summary,None
+Price,82.37
+Currency,USD
 
 REVENUE
 Total Revenue,11619999744.0
@@ -13,7 +14,7 @@ Revenue Per Share,45.569
 Revenue Growth,-0.079
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.06, forward_eps=4.05)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.06, forward_eps=4.06)"
 Net Earnings,17000000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.31756002
 Operating Margins,0.055320002
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.24
-Dividend Yield,0.0396
-Five Year Avg Dividend Yield,2.7
+Dividend Yield,0.0394
+Dividend Payout Ratio,54.0
+Five Year Avg Dividend Yield,2.73
 Trailing Annual Dividend Rate,3.24
-Trailing Annual Dividend Yield,0.03979855
+Trailing Annual Dividend Yield,0.039334707
 
 FINANCIAL RATIO
 Debt to Equity,64.667
-Price to Cash Flow,2.1115769542537647e-07
-Enterprise to EBITDA,17.971
-Price to Book,1.230642
-Price to Earnings,"PriceToEarnings(trailing_pe=1364.1666, forward_pe=20.209875)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.06, forward_eps=4.05)"
-Enterprise to Revenue,2.702
+Price to Cash Flow,2.12215418762266e-07
+Enterprise to EBITDA,18.03
+Price to Book,1.2368065
+Price to Earnings,"PriceToEarnings(trailing_pe=1371.0001, forward_pe=20.261084)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.06, forward_eps=4.06)"
+Enterprise to Revenue,2.711
 
 CASH FLOW
 Free to Cash Flow,387624992.0
@@ -51,6 +54,14 @@ Return on Equity,0.0012899999
 Return on Assets,0.01122
 Return on Invested Capital,0.001540134055121265
 Return on Investment,0.0005120481927710843
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0273
+SUM DIVIDEND SCORE,7.0273
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

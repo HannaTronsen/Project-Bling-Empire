@@ -5,52 +5,63 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.kimberly-clark.com
-Financial_summary,None
+Price,120.49
+Currency,USD
 
 REVENUE
-Total Revenue,20425000960.0
-Revenue Per Share,60.456
-Revenue Growth,0.016
+Total Revenue,20430999552.0
+Revenue Per Share,60.459
+Revenue Growth,0.001
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=7.08)"
-Net Earnings,1762000000.0
-Earnings Growth,0.254
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=7.41)"
+Net Earnings,1764000000.0
+Earnings Growth,0.001
 
 DEBT
-Total Debt,8300000256.0
-Debt to Equity,988.095
+Total Debt,8009999872.0
+Debt to Equity,750.0
 
 MARGINS
-Profit Margins,0.08627
-Gross Profit Margins,0.3389
-Operating Margins,0.15394
+Profit Margins,0.086339995
+Gross Profit Margins,0.34418
+Operating Margins,0.13481
 
 DIVIDEND
-Dividend Rate,4.72
-Dividend Yield,0.039100002
+Dividend Ex Date,None
+Dividend Rate,4.88
+Dividend Yield,0.0403
+Dividend Payout Ratio,0.90599996
 Five Year Avg Dividend Yield,3.31
-Trailing Annual Dividend Rate,4.7
-Trailing Annual Dividend Yield,0.039065745
+Trailing Annual Dividend Rate,4.72
+Trailing Annual Dividend Yield,0.039173376
 
 FINANCIAL RATIO
-Debt to Equity,988.095
-Price to Cash Flow,5.754703413121929e-08
-Enterprise to EBITDA,13.091
-Price to Book,60.049698
-Price to Earnings,"PriceToEarnings(trailing_pe=23.234615, forward_pe=17.064972)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=7.08)"
-Enterprise to Revenue,2.373
+Debt to Equity,750.0
+Price to Cash Flow,4.8567565841217655e-08
+Enterprise to EBITDA,13.014
+Price to Book,44.629833
+Price to Earnings,"PriceToEarnings(trailing_pe=23.257196, forward_pe=16.352226)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=7.41)"
+Enterprise to Revenue,2.345
 
 CASH FLOW
-Free to Cash Flow,2099500032.0
-Operating to Cash Flow,3318000128.0
+Free to Cash Flow,2494874880.0
+Operating to Cash Flow,3542000128.0
 
 PROFITABILITY
-Return on Equity,2.48349
-Return on Assets,0.10543
-Return on Invested Capital,0.21228915002733154
-Return on Investment,-0.11905405405405406
+Return on Equity,1.9954801
+Return on Assets,0.103640005
+Return on Invested Capital,0.2202247225456747
+Return on Investment,-0.11918918918918919
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0331
+SUM DIVIDEND SCORE,8.0331
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

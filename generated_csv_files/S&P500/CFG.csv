@@ -2,55 +2,66 @@ GENERAL STOCK INFO
 Ticker,CFG
 Company,"Citizens Financial Group, Inc."
 Country,United States
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.citizensbank.com
-Financial_summary,None
+Price,33.6
+Currency,USD
 
 REVENUE
-Total Revenue,7757000192.0
-Revenue Per Share,16.096
-Revenue Growth,-0.103
+Total Revenue,7536999936.0
+Revenue Per Share,15.864
+Revenue Growth,-0.108
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.04, forward_eps=3.38)"
-Net Earnings,1952999936.0
-Earnings Growth,-0.309
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=4.08)"
+Net Earnings,1491000064.0
+Earnings Growth,-0.728
 
 DEBT
-Total Debt,19694999552.0
+Total Debt,15534000128.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.26711
+Profit Margins,0.21335
 Gross Profit Margins,0.0
-Operating Margins,0.29805002
+Operating Margins,0.11557999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.68
 Dividend Yield,0.05
-Five Year Avg Dividend Yield,4.38
+Dividend Payout Ratio,0.5367
+Five Year Avg Dividend Yield,4.41
 Trailing Annual Dividend Rate,1.68
-Trailing Annual Dividend Yield,0.049940545
+Trailing Annual Dividend Yield,0.05
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.75015086
-Price to Earnings,"PriceToEarnings(trailing_pe=8.309406, forward_pe=9.931952)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.04, forward_eps=3.38)"
-Enterprise to Revenue,2.722
+Price to Book,0.70167744
+Price to Earnings,"PriceToEarnings(trailing_pe=10.731629, forward_pe=8.232843)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=4.08)"
+Enterprise to Revenue,2.752
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,3732000000.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.09004
-Return on Assets,0.00921
-Return on Invested Capital,0.09916222269545912
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.06696
+Return on Assets,0.00717
+Return on Invested Capital,0.09598300805454953
+Return on Investment,0.004626124927086565
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,3.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0441
+SUM DIVIDEND SCORE,7.0441
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

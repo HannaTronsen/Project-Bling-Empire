@@ -5,52 +5,63 @@ Country,United States
 Industry,Telecom Services
 Sector,Communication Services
 Website,https://www.t-mobile.com
-Financial_summary,None
+Price,162.56
+Currency,USD
 
 REVENUE
-Total Revenue,78352998400.0
-Revenue Per Share,64.967
-Revenue Growth,-0.012
+Total Revenue,78558003200.0
+Revenue Per Share,66.287
+Revenue Growth,0.01
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.44, forward_eps=9.96)"
-Net Earnings,7779999744.0
-Earnings Growth,3.55
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.92, forward_eps=12.04)"
+Net Earnings,8317000192.0
+Earnings Growth,0.408
 
 DEBT
-Total Debt,113897996288.0
-Debt to Equity,176.046
+Total Debt,113085997056.0
+Debt to Equity,174.745
 
 MARGINS
-Profit Margins,0.09929
-Gross Profit Margins,0.62198
-Operating Margins,0.19468
+Profit Margins,0.10587
+Gross Profit Margins,0.62387
+Operating Margins,0.18415001
 
 DIVIDEND
-Dividend Rate,0.65
-Dividend Yield,0.0041
+Dividend Ex Date,None
+Dividend Rate,1.3
+Dividend Yield,0.008
+Dividend Payout Ratio,0.0938
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.65
-Trailing Annual Dividend Yield,0.0041154865
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,176.046
-Price to Cash Flow,1.859281745586373e-08
-Enterprise to EBITDA,10.742
-Price to Book,2.8547566
-Price to Earnings,"PriceToEarnings(trailing_pe=24.681677, forward_pe=15.958835)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.44, forward_eps=9.96)"
-Enterprise to Revenue,3.736
+Debt to Equity,174.745
+Price to Cash Flow,1.9292130373213314e-08
+Enterprise to EBITDA,10.745
+Price to Book,2.9964154
+Price to Earnings,"PriceToEarnings(trailing_pe=23.433527, forward_pe=13.468439)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.92, forward_eps=12.04)"
+Enterprise to Revenue,3.843
 
 CASH FLOW
-Free to Cash Flow,8549000192.0
-Operating to Cash Flow,18036000768.0
+Free to Cash Flow,8405499904.0
+Operating to Cash Flow,18559000576.0
 
 PROFITABILITY
-Return on Equity,0.115389995
-Return on Assets,0.04289
-Return on Invested Capital,0.06830673052864258
-Return on Investment,-0.014909926684553468
+Return on Equity,0.123789996
+Return on Assets,0.04557
+Return on Invested Capital,0.07354580058131586
+Return on Investment,-0.015939057477960903
+
+DIVIDEND SCORE
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,4.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.genpt.com
-Financial_summary,None
+Price,142.52
+Currency,USD
 
 REVENUE
 Total Revenue,23028375552.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.35743
 Operating Margins,0.08203
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.8
-Dividend Yield,0.0275
+Dividend Yield,0.026600001
+Dividend Payout Ratio,0.42270002
 Five Year Avg Dividend Yield,2.77
 Trailing Annual Dividend Rate,3.745
-Trailing Annual Dividend Yield,0.0269871
+Trailing Annual Dividend Yield,0.026277011
 
 FINANCIAL RATIO
 Debt to Equity,100.849
-Price to Cash Flow,1.8390532660629202e-07
-Enterprise to EBITDA,11.248
-Price to Book,4.6360254
-Price to Earnings,"PriceToEarnings(trailing_pe=15.619639, forward_pe=14.007085)"
+Price to Cash Flow,1.8953982754429823e-07
+Enterprise to EBITDA,11.539
+Price to Book,4.7780647
+Price to Earnings,"PriceToEarnings(trailing_pe=16.098196, forward_pe=14.436235)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=8.86, forward_eps=9.88)"
-Enterprise to Revenue,0.999
+Enterprise to Revenue,1.025
 
 CASH FLOW
 Free to Cash Flow,752506752.0
@@ -51,6 +54,14 @@ Return on Equity,0.31768999
 Return on Assets,0.06343
 Return on Invested Capital,0.29540811392614863
 Return on Investment,-0.03960061506919529
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0277
+SUM DIVIDEND SCORE,9.0277
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

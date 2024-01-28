@@ -5,7 +5,8 @@ Country,United States
 Industry,Apparel Manufacturing
 Sector,Consumer Cyclical
 Website,https://www.ralphlauren.com
-Financial_summary,None
+Price,141.85
+Currency,USD
 
 REVENUE
 Total Revenue,6502600192.0
@@ -13,7 +14,7 @@ Revenue Per Share,98.45
 Revenue Growth,0.034
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.53)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.57)"
 Net Earnings,527800000.0
 Earnings Growth,0.005
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.65296996
 Operating Margins,0.10514
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.0
-Dividend Yield,0.020599999
+Dividend Yield,0.0208
+Dividend Payout Ratio,0.3831
 Five Year Avg Dividend Yield,2.23
 Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.020706791
+Trailing Annual Dividend Yield,0.0211491
 
 FINANCIAL RATIO
 Debt to Equity,117.124
-Price to Cash Flow,2.951409134389662e-07
-Enterprise to EBITDA,11.337
-Price to Book,3.9789174
-Price to Earnings,"PriceToEarnings(trailing_pe=18.631712, forward_pe=13.836658)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.53)"
-Enterprise to Revenue,1.649
+Price to Cash Flow,2.918998327148595e-07
+Enterprise to EBITDA,11.228
+Price to Book,3.9352233
+Price to Earnings,"PriceToEarnings(trailing_pe=18.42711, forward_pe=13.632924)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.57)"
+Enterprise to Revenue,1.633
 
 CASH FLOW
 Free to Cash Flow,493662496.0
@@ -51,6 +54,14 @@ Return on Equity,0.22825001
 Return on Assets,0.06658
 Return on Invested Capital,0.19020505211778194
 Return on Investment,-0.03830188679245283
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0223
+SUM DIVIDEND SCORE,4.0223
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

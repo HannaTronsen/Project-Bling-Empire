@@ -75,6 +75,16 @@ class test_earnings_history(unittest.TestCase):
                 periodType=None
             ),
         ]
+        self.one_value_list = [
+            EarningsHistoryDataClass(
+                epsActual=1.29,
+                epsEstimate=1.27,
+                epsDifference=0.02,
+                quarter=Date(year=2022, quarter=Quarter.THIRD_QUARTER),
+                asOfDate=None,
+                periodType=None
+            ),
+        ]
 
     def test_convert_data_frame_to_model(self):
         json_file_name = "resources/aapl.data.earnings.csv"
@@ -105,6 +115,11 @@ class test_earnings_history(unittest.TestCase):
                 model_list=self.earnings_history_up_trending_list,
                 attribute="epsActual",
                 expected_result=True
+            ),
+            TestCase(
+                model_list=self.one_value_list,
+                attribute="epsActual",
+                expected_result=False
             ),
         ]
 

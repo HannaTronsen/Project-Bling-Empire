@@ -5,7 +5,8 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.kraftheinzcompany.com
-Financial_summary,None
+Price,37.26
+Currency,USD
 
 REVENUE
 Total Revenue,27160999936.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.33243
 Operating Margins,0.21080999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0435
-Five Year Avg Dividend Yield,4.93
+Dividend Yield,0.043
+Dividend Payout Ratio,0.66120005
+Five Year Avg Dividend Yield,4.91
 Trailing Annual Dividend Rate,1.6
-Trailing Annual Dividend Yield,0.04381161
+Trailing Annual Dividend Yield,0.042941496
 
 FINANCIAL RATIO
 Debt to Equity,40.273
-Price to Cash Flow,1.5143489783900077e-08
-Enterprise to EBITDA,9.883
-Price to Book,0.9148407
-Price to Earnings,"PriceToEarnings(trailing_pe=15.181818, forward_pe=12.125413)"
+Price to Cash Flow,1.5337214340199288e-08
+Enterprise to EBITDA,9.972
+Price to Book,0.92654383
+Price to Earnings,"PriceToEarnings(trailing_pe=15.376032, forward_pe=12.280528)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=2.42, forward_eps=3.03)"
-Enterprise to Revenue,2.36
+Enterprise to Revenue,2.382
 
 CASH FLOW
 Free to Cash Flow,2426125056.0
@@ -52,12 +55,20 @@ Return on Assets,0.03847
 Return on Invested Capital,0.1500150604866687
 Return on Investment,0.0405427408412483
 
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.049100000000000005
+SUM DIVIDEND SCORE,7.0491
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
-Net Income,False
+Net Income,True
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

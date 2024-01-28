@@ -5,7 +5,8 @@ Country,United States
 Industry,Beverages—Non-Alcoholic
 Sector,Consumer Defensive
 Website,https://www.pepsico.com
-Financial_summary,None
+Price,166.56
+Currency,USD
 
 REVENUE
 Total Revenue,91617001472.0
@@ -13,7 +14,7 @@ Revenue Per Share,66.57
 Revenue Growth,0.067
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.0, forward_eps=8.15)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.99, forward_eps=8.15)"
 Net Earnings,8289999872.0
 Earnings Growth,0.149
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.54028
 Operating Margins,0.17942
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,4.95
-Dividend Yield,0.0292
+Dividend Yield,0.0295
+Dividend Payout Ratio,0.805
 Five Year Avg Dividend Yield,2.75
 Trailing Annual Dividend Rate,4.83
-Trailing Annual Dividend Yield,0.028512398
+Trailing Annual Dividend Yield,0.02899856
 
 FINANCIAL RATIO
 Debt to Equity,236.025
-Price to Cash Flow,2.694664813235303e-08
-Enterprise to EBITDA,16.592
-Price to Book,12.385026
-Price to Earnings,"PriceToEarnings(trailing_pe=28.231667, forward_pe=20.78405)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.0, forward_eps=8.15)"
-Enterprise to Revenue,2.92
+Price to Cash Flow,2.6703254947144343e-08
+Enterprise to EBITDA,16.461
+Price to Book,12.273159
+Price to Earnings,"PriceToEarnings(trailing_pe=28.023373, forward_pe=20.59632)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.99, forward_eps=8.15)"
+Enterprise to Revenue,2.897
 
 CASH FLOW
 Free to Cash Flow,6286125056.0
@@ -51,6 +54,14 @@ Return on Equity,0.4391
 Return on Assets,0.085939996
 Return on Invested Capital,0.1851521001063526
 Return on Investment,-0.02411285593949971
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0275
+SUM DIVIDEND SCORE,8.0275
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Communication Equipment
 Sector,Technology
 Website,https://www.zebra.com
-Financial_summary,None
+Price,256.99
+Currency,USD
 
 REVENUE
 Total Revenue,5078000128.0
@@ -13,7 +14,7 @@ Revenue Per Share,98.693
 Revenue Growth,-0.306
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.95, forward_eps=11.22)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.96, forward_eps=11.19)"
 Net Earnings,465000000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.46475
 Operating Margins,0.05021
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,83.04
-Price to Cash Flow,9.812027005777164e-07
-Enterprise to EBITDA,17.542
-Price to Book,4.693599
-Price to Earnings,"PriceToEarnings(trailing_pe=30.765364, forward_pe=24.540998)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.95, forward_eps=11.22)"
-Enterprise to Revenue,3.258
+Price to Cash Flow,8.986013619200387e-07
+Enterprise to EBITDA,16.279
+Price to Book,4.2984743
+Price to Earnings,"PriceToEarnings(trailing_pe=28.143972, forward_pe=22.5353)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.96, forward_eps=11.19)"
+Enterprise to Revenue,3.023
 
 CASH FLOW
 Free to Cash Flow,280624992.0
@@ -51,6 +54,14 @@ Return on Equity,0.16402
 Return on Assets,0.0647
 Return on Invested Capital,0.18585130507916311
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

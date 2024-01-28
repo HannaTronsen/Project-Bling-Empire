@@ -5,7 +5,8 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.cmegroup.com
-Financial_summary,None
+Price,205.61
+Currency,USD
 
 REVENUE
 Total Revenue,5337699840.0
@@ -13,7 +14,7 @@ Revenue Per Share,14.871
 Revenue Growth,0.09
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.38, forward_eps=9.43)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.38, forward_eps=9.47)"
 Net Earnings,3011300096.0
 Earnings Growth,0.102
 
@@ -27,20 +28,22 @@ Gross Profit Margins,1.0
 Operating Margins,0.61424
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,9.65
-Dividend Yield,0.045700002
-Five Year Avg Dividend Yield,2.87
+Dividend Yield,0.0466
+Dividend Payout Ratio,1.0501
+Five Year Avg Dividend Yield,2.9
 Trailing Annual Dividend Rate,4.3
-Trailing Annual Dividend Yield,0.020423673
+Trailing Annual Dividend Yield,0.020913381
 
 FINANCIAL RATIO
 Debt to Equity,13.828
-Price to Cash Flow,9.326438874256205e-08
-Enterprise to EBITDA,21.608
-Price to Book,2.6924403
-Price to Earnings,"PriceToEarnings(trailing_pe=25.181385, forward_pe=22.377518)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.38, forward_eps=9.43)"
-Enterprise to Revenue,14.511
+Price to Cash Flow,9.139043836691773e-08
+Enterprise to EBITDA,21.182
+Price to Book,2.6383412
+Price to Earnings,"PriceToEarnings(trailing_pe=24.675417, forward_pe=21.835268)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.38, forward_eps=9.47)"
+Enterprise to Revenue,14.225
 
 CASH FLOW
 Free to Cash Flow,2262599936.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.10813
 Return on Assets,0.01327
 Return on Invested Capital,0.7735563181700893
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.1258904722408027
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.028999999999999998
+SUM DIVIDEND SCORE,8.029
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

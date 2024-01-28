@@ -104,6 +104,13 @@ class test_earnings(unittest.TestCase):
                 earnings=99803000000
             )
         ]
+        self.one_value_list = [
+            YearlyFinancialsDataChart(
+                date=Date(year=2019),
+                revenue=260174000000,
+                earnings=55256000000
+            ),
+        ]
         self.exception_list = [
             YearlyFinancialsDataChart(date=Date(year=2019), revenue=0, earnings=0),
             YearlyFinancialsDataChart(date=Date(year=2020), revenue=None, earnings=""),  # type: Ignore
@@ -235,6 +242,11 @@ class test_earnings(unittest.TestCase):
                 attribute='revenue',
                 expected_result=False
             ),
+            TestCase(
+                model_list=self.one_value_list,
+                attribute='revenue',
+                expected_result=False
+            ),
         ]
 
         for case in test_cases:
@@ -257,16 +269,6 @@ class test_earnings(unittest.TestCase):
             ),
             TestCase(
                 model_list=self.exception_list,
-                attribute='earnings',
-                expected_exception=ValueError
-            ),
-            TestCase(
-                model_list=[],
-                attribute='earnings',
-                expected_exception=ValueError
-            ),
-            TestCase(
-                model_list=self.one_value_list,
                 attribute='earnings',
                 expected_exception=ValueError
             ),

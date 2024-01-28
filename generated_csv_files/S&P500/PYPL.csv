@@ -5,7 +5,8 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.paypal.com
-Financial_summary,None
+Price,60.71
+Currency,USD
 
 REVENUE
 Total Revenue,29127999488.0
@@ -13,7 +14,7 @@ Revenue Per Share,26.054
 Revenue Growth,0.084
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=5.01)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=5.49)"
 Net Earnings,3764999936.0
 Earnings Growth,-0.191
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.40195
 Operating Margins,0.15988
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,56.92
-Price to Cash Flow,1.4067797413326524e-08
-Enterprise to EBITDA,12.422
-Price to Book,3.4511435
-Price to Earnings,"PriceToEarnings(trailing_pe=18.829851, forward_pe=12.590818)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=5.01)"
-Enterprise to Revenue,2.324
+Price to Cash Flow,1.3777877682233873e-08
+Enterprise to EBITDA,12.164
+Price to Book,3.3800197
+Price to Earnings,"PriceToEarnings(trailing_pe=18.441792, forward_pe=11.253188)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=5.49)"
+Enterprise to Revenue,2.276
 
 CASH FLOW
 Free to Cash Flow,4483999744.0
@@ -51,6 +54,14 @@ Return on Equity,0.18823
 Return on Assets,0.03877
 Return on Invested Capital,0.3350836610588072
 Return on Investment,0.6072580541935484
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

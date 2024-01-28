@@ -5,7 +5,8 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.cdw.com
-Financial_summary,None
+Price,228.99
+Currency,USD
 
 REVENUE
 Total Revenue,21795799040.0
@@ -13,7 +14,7 @@ Revenue Per Share,161.48
 Revenue Growth,-0.094
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.0, forward_eps=10.55)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.02, forward_eps=10.52)"
 Net Earnings,1095399936.0
 Earnings Growth,0.069
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.21471001
 Operating Margins,0.085
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.48
 Dividend Yield,0.0108
+Dividend Payout Ratio,0.29459998
 Five Year Avg Dividend Yield,1.08
 Trailing Annual Dividend Rate,2.36
-Trailing Annual Dividend Yield,0.010325967
+Trailing Annual Dividend Yield,0.010306126
 
 FINANCIAL RATIO
 Debt to Equity,358.58
-Price to Cash Flow,2.3913526613239336e-07
-Enterprise to EBITDA,18.198
-Price to Book,16.931961
-Price to Earnings,"PriceToEarnings(trailing_pe=28.5875, forward_pe=21.677725)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.0, forward_eps=10.55)"
-Enterprise to Revenue,1.683
+Price to Cash Flow,2.4017043846938973e-07
+Enterprise to EBITDA,18.264
+Price to Book,17.005257
+Price to Earnings,"PriceToEarnings(trailing_pe=28.63965, forward_pe=21.833649)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.02, forward_eps=10.52)"
+Enterprise to Revenue,1.689
 
 CASH FLOW
 Free to Cash Flow,956362496.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.6986
 Return on Assets,0.08258
 Return on Invested Capital,0.16877493335019192
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.034220554076850984
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0108
+SUM DIVIDEND SCORE,8.0108
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

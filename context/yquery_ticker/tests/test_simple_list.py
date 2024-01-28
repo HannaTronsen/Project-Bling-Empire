@@ -30,8 +30,6 @@ class test_time_series(unittest.TestCase):
             )
             assert result is case.expected_result
 
-        self.assertRaises(ValueError, TimeSeriesDataCollection.is_consistently_up_trending_simple_list, simple_list=[1])
-
     def test_get_consecutive_upward_trend_interval(self):
 
         test_cases = [

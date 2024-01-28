@@ -5,7 +5,8 @@ Country,United States
 Industry,Apparel Manufacturing
 Sector,Consumer Cyclical
 Website,https://www.vfc.com
-Financial_summary,None
+Price,17.05
+Currency,USD
 
 REVENUE
 Total Revenue,11390855168.0
@@ -13,7 +14,7 @@ Revenue Per Share,29.352
 Revenue Growth,-0.015
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=1.94)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=1.92)"
 Net Earnings,-215146000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.52294
 Operating Margins,0.11978
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.36
-Dividend Yield,0.0189
-Five Year Avg Dividend Yield,4.07
+Dividend Yield,0.0207
+Dividend Payout Ratio,5.3666997
+Five Year Avg Dividend Yield,4.11
 Trailing Annual Dividend Rate,1.41
-Trailing Annual Dividend Yield,0.07484076
+Trailing Annual Dividend Yield,0.08269795
 
 FINANCIAL RATIO
 Debt to Equity,353.053
-Price to Cash Flow,2.9307396293763906e-08
-Enterprise to EBITDA,11.482
-Price to Book,3.3538623
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.824741)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=1.94)"
-Enterprise to Revenue,1.292
+Price to Cash Flow,2.667803387706211e-08
+Enterprise to EBITDA,10.963
+Price to Book,3.052965
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.036459)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=1.92)"
+Enterprise to Revenue,1.234
 
 CASH FLOW
 Free to Cash Flow,650347776.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,-0.08125
 Return on Assets,0.04679
 Return on Invested Capital,-0.02757354085087193
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.011744226034837576
+
+DIVIDEND SCORE
+Dividend  Rate,1.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.041100000000000005
+SUM DIVIDEND SCORE,2.0411
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

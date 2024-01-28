@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.eastman.com
-Financial_summary,None
+Price,84.62
+Currency,USD
 
 REVENUE
 Total Revenue,9376000000.0
@@ -13,7 +14,7 @@ Revenue Per Share,78.889
 Revenue Growth,-0.163
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.98, forward_eps=7.88)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.98, forward_eps=7.85)"
 Net Earnings,585000000.0
 Earnings Growth,-0.394
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.21170999
 Operating Margins,0.11734
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.24
-Dividend Yield,0.0358
+Dividend Yield,0.0382
+Dividend Payout Ratio,0.6345
 Five Year Avg Dividend Yield,3.25
 Trailing Annual Dividend Rate,3.16
-Trailing Annual Dividend Yield,0.03483245
+Trailing Annual Dividend Yield,0.037343416
 
 FINANCIAL RATIO
 Debt to Equity,97.824
-Price to Cash Flow,1.591730878735942e-07
-Enterprise to EBITDA,10.299
-Price to Book,2.0033216
-Price to Earnings,"PriceToEarnings(trailing_pe=18.166666, forward_pe=11.480965)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.98, forward_eps=7.88)"
-Enterprise to Revenue,1.669
+Price to Cash Flow,1.494084074524773e-07
+Enterprise to EBITDA,9.866
+Price to Book,1.8804251
+Price to Earnings,"PriceToEarnings(trailing_pe=17.052208, forward_pe=10.817834)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.98, forward_eps=7.85)"
+Enterprise to Revenue,1.598
 
 CASH FLOW
 Free to Cash Flow,568374976.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.1078
 Return on Assets,0.044159997
 Return on Invested Capital,0.11025254601080305
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.014096385542168674
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0325
+SUM DIVIDEND SCORE,8.0325
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

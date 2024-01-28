@@ -5,7 +5,8 @@ Country,United States
 Industry,Insurance—Life
 Sector,Financial Services
 Website,https://www.prudential.com
-Financial_summary,None
+Price,105.77
+Currency,USD
 
 REVENUE
 Total Revenue,51527000064.0
@@ -13,7 +14,7 @@ Revenue Per Share,141.015
 Revenue Growth,-0.587
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=13.31)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=13.38)"
 Net Earnings,1304999936.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.21565
 Operating Margins,-0.12668
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,5.0
-Dividend Yield,0.048
-Five Year Avg Dividend Yield,4.96
+Dividend Yield,0.0471
+Dividend Payout Ratio,1.3983
+Five Year Avg Dividend Yield,4.97
 Trailing Annual Dividend Rate,4.95
-Trailing Annual Dividend Yield,0.04767867
+Trailing Annual Dividend Yield,0.04679966
 
 FINANCIAL RATIO
 Debt to Equity,118.369
-Price to Cash Flow,1.9381261387695074e-08
-Enterprise to EBITDA,-27.453
-Price to Book,1.4588845
-Price to Earnings,"PriceToEarnings(trailing_pe=29.443504, forward_pe=7.830954)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=13.31)"
-Enterprise to Revenue,0.807
+Price to Cash Flow,1.9751296024186613e-08
+Enterprise to EBITDA,-27.928
+Price to Book,1.4867381
+Price to Earnings,"PriceToEarnings(trailing_pe=30.00565, forward_pe=7.9387145)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=13.38)"
+Enterprise to Revenue,0.821
 
 CASH FLOW
 Free to Cash Flow,5377874944.0
@@ -51,6 +54,14 @@ Return on Equity,0.06123
 Return on Assets,-0.00145
 Return on Invested Capital,0.040912936504856355
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.049699999999999994
+SUM DIVIDEND SCORE,8.0497
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

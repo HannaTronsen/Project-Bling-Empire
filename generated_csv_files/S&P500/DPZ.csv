@@ -5,7 +5,8 @@ Country,United States
 Industry,Restaurants
 Sector,Consumer Cyclical
 Website,https://www.ir.dominos.com
-Financial_summary,None
+Price,418.08
+Currency,USD
 
 REVENUE
 Total Revenue,4468617216.0
@@ -13,7 +14,7 @@ Revenue Per Share,126.85
 Revenue Growth,0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.6, forward_eps=15.71)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.63, forward_eps=15.73)"
 Net Earnings,520128000.0
 Earnings Growth,0.301
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.27101
 Operating Margins,0.18064
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,4.84
-Dividend Yield,0.0117999995
-Five Year Avg Dividend Yield,0.96
+Dividend Yield,0.0115
+Dividend Payout Ratio,0.3238
+Five Year Avg Dividend Yield,0.97
 Trailing Annual Dividend Rate,4.73
-Trailing Annual Dividend Yield,0.011429261
+Trailing Annual Dividend Yield,0.011313625
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.0463491688932599e-06
-Enterprise to EBITDA,23.048
+Price to Cash Flow,1.0664766510214807e-06
+Enterprise to EBITDA,23.381
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=28.165068, forward_pe=26.175047)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.6, forward_eps=15.71)"
-Enterprise to Revenue,4.468
+Price to Earnings,"PriceToEarnings(trailing_pe=28.647984, forward_pe=26.644629)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.63, forward_eps=15.73)"
+Enterprise to Revenue,4.533
 
 CASH FLOW
 Free to Cash Flow,392995008.0
@@ -51,6 +54,14 @@ Return on Equity,None
 Return on Assets,0.31216
 Return on Invested Capital,0.09814350903094904
 Return on Investment,0.017410666764856513
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0097
+SUM DIVIDEND SCORE,8.0097
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

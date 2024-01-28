@@ -5,17 +5,18 @@ Country,United States
 Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.jnj.com
-Financial_summary,None
+Price,159.56
+Currency,USD
 
 REVENUE
 Total Revenue,98656002048.0
 Revenue Per Share,38.161
-Revenue Growth,0.068
+Revenue Growth,-0.097
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.32, forward_eps=9.69)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=11.08)"
 Net Earnings,13991999488.0
-Earnings Growth,5.092
+Earnings Growth,None
 
 DEBT
 Total Debt,29920999424.0
@@ -24,23 +25,25 @@ Debt to Equity,42.007
 MARGINS
 Profit Margins,0.35096002
 Gross Profit Margins,0.67557997
-Operating Margins,0.30074
+Operating Margins,0.20131001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,4.76
-Dividend Yield,0.0304
+Dividend Yield,0.0298
+Dividend Payout Ratio,0.90379995
 Five Year Avg Dividend Yield,2.65
 Trailing Annual Dividend Rate,4.64
-Trailing Annual Dividend Yield,0.029677005
+Trailing Annual Dividend Yield,0.02907997
 
 FINANCIAL RATIO
 Debt to Equity,42.007
-Price to Cash Flow,7.397145687194181e-09
-Enterprise to EBITDA,10.984
-Price to Book,5.2916527
-Price to Earnings,"PriceToEarnings(trailing_pe=29.432331, forward_pe=16.158928)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.32, forward_eps=9.69)"
-Enterprise to Revenue,3.898
+Price to Cash Flow,7.535092202755599e-09
+Enterprise to EBITDA,11.149
+Price to Book,5.3903346
+Price to Earnings,"PriceToEarnings(trailing_pe=30.673079, forward_pe=14.395307)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=11.08)"
+Enterprise to Revenue,3.957
 
 CASH FLOW
 Free to Cash Flow,21167624192.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.1919
 Return on Assets,0.101110004
 Return on Invested Capital,0.4676314208588779
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.04751103391511036
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0265
+SUM DIVIDEND SCORE,8.0265
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

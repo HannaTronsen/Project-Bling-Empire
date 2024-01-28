@@ -5,7 +5,8 @@ Country,United States
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.fortive.com
-Financial_summary,None
+Price,74.29
+Currency,USD
 
 REVENUE
 Total Revenue,6011500032.0
@@ -13,7 +14,7 @@ Revenue Per Share,17.025
 Revenue Growth,0.026
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.33, forward_eps=3.66)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.33, forward_eps=3.68)"
 Net Earnings,827800000.0
 Earnings Growth,0.151
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.58872
 Operating Margins,0.19478
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.32
 Dividend Yield,0.0043
+Dividend Payout Ratio,0.12020001
 Five Year Avg Dividend Yield,0.41
 Trailing Annual Dividend Rate,0.28
-Trailing Annual Dividend Yield,0.0037997013
+Trailing Annual Dividend Yield,0.0037690133
 
 FINANCIAL RATIO
 Debt to Equity,28.73
-Price to Cash Flow,6.373045687091307e-08
-Enterprise to EBITDA,17.604
-Price to Book,2.5656404
-Price to Earnings,"PriceToEarnings(trailing_pe=31.579401, forward_pe=20.103825)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.33, forward_eps=3.66)"
-Enterprise to Revenue,4.666
+Price to Cash Flow,6.406825081192498e-08
+Enterprise to EBITDA,17.69
+Price to Book,2.5792391
+Price to Earnings,"PriceToEarnings(trailing_pe=31.746782, forward_pe=20.100544)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.33, forward_eps=3.68)"
+Enterprise to Revenue,4.688
 
 CASH FLOW
 Free to Cash Flow,1154550016.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.084989995
 Return on Assets,0.04498
 Return on Invested Capital,0.28574387645590593
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.05732686980609418
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0040999999999999995
+SUM DIVIDEND SCORE,8.0041
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

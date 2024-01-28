@@ -5,7 +5,8 @@ Country,United States
 Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.loews.com
-Financial_summary,None
+Price,72.98
+Currency,USD
 
 REVENUE
 Total Revenue,15436000256.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.36415002
 Operating Margins,0.10902
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.25
-Dividend Yield,0.0036000002
+Dividend Yield,0.0034
+Dividend Payout Ratio,0.0381
 Five Year Avg Dividend Yield,0.49
 Trailing Annual Dividend Rate,0.25
-Trailing Annual Dividend Yield,0.0036137612
+Trailing Annual Dividend Yield,0.0034255958
 
 FINANCIAL RATIO
 Debt to Equity,60.602
-Price to Cash Flow,1.2924651162790697e-05
-Enterprise to EBITDA,6.942
-Price to Book,1.0782746
-Price to Earnings,"PriceToEarnings(trailing_pe=10.57382, forward_pe=23.955172)"
+Price to Cash Flow,1.354046511627907e-05
+Enterprise to EBITDA,7.195
+Price to Book,1.1296506
+Price to Earnings,"PriceToEarnings(trailing_pe=11.077625, forward_pe=25.09655)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=6.57, forward_eps=2.9)"
-Enterprise to Revenue,1.314
+Enterprise to Revenue,1.362
 
 CASH FLOW
 Free to Cash Flow,5375000.0
@@ -52,6 +55,14 @@ Return on Assets,0.01977
 Return on Invested Capital,0.1668843834758699
 Return on Investment,0.24725805419354838
 
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0049
+SUM DIVIDEND SCORE,4.0049
+
 
 
 PASSES GROWTH CRITERIA
@@ -59,13 +70,11 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,False
+Operating Cash Flow,True
 Free Cash Flow,True
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 
-
-
-CRITERIA PASS COUNT,1

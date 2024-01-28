@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.diamondbackenergy.com
-Financial_summary,None
+Price,156.32
+Currency,USD
 
 REVENUE
 Total Revenue,7744000000.0
@@ -13,7 +14,7 @@ Revenue Per Share,43.091
 Revenue Growth,-0.083
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.63, forward_eps=20.15)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.62, forward_eps=18.52)"
 Net Earnings,3164999936.0
 Earnings Growth,-0.246
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.85615
 Operating Margins,0.5898
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,7.99
-Dividend Yield,0.0514
-Five Year Avg Dividend Yield,2.97
+Dividend Yield,0.0511
+Dividend Payout Ratio,0.39020002
+Five Year Avg Dividend Yield,3.05
 Trailing Annual Dividend Rate,7.99
-Trailing Annual Dividend Yield,0.05054083
+Trailing Annual Dividend Yield,0.0511131
 
 FINANCIAL RATIO
 Debt to Equity,38.042
-Price to Cash Flow,-2.9446445497630334e-06
-Enterprise to EBITDA,5.625
-Price to Book,1.7060982
-Price to Earnings,"PriceToEarnings(trailing_pe=8.810551, forward_pe=7.708685)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.63, forward_eps=20.15)"
-Enterprise to Revenue,4.409
+Price to Cash Flow,-2.9618957345971565e-06
+Enterprise to EBITDA,5.652
+Price to Book,1.7160934
+Price to Earnings,"PriceToEarnings(trailing_pe=8.867196, forward_pe=8.436285)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.62, forward_eps=18.52)"
+Enterprise to Revenue,4.43
 
 CASH FLOW
 Free to Cash Flow,-52750000.0
@@ -51,6 +54,14 @@ Return on Equity,0.21260999
 Return on Assets,0.106639996
 Return on Invested Capital,0.48986221906012045
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0305
+SUM DIVIDEND SCORE,4.0305
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

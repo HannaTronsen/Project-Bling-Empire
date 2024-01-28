@@ -5,52 +5,63 @@ Country,United States
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.kindermorgan.com
-Financial_summary,None
+Price,17.33
+Currency,USD
 
 REVENUE
-Total Revenue,15875000320.0
-Revenue Per Share,7.087
-Revenue Growth,-0.245
+Total Revenue,15333999616.0
+Revenue Per Share,6.864
+Revenue Growth,-0.118
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.21)"
-Net Earnings,2452000000.0
-Earnings Growth,-0.067
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.3)"
+Net Earnings,2391000064.0
+Earnings Growth,-0.097
 
 DEBT
-Total Debt,31441999872.0
-Debt to Equity,99.56
+Total Debt,32116000768.0
+Debt to Equity,101.217
 
 MARGINS
-Profit Margins,0.1554
-Gross Profit Margins,0.4766
-Operating Margins,0.23931
+Profit Margins,0.15593
+Gross Profit Margins,0.49491
+Operating Margins,0.27291
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.13
-Dividend Yield,0.0639
-Five Year Avg Dividend Yield,6.05
-Trailing Annual Dividend Rate,1.125
-Trailing Annual Dividend Yield,0.06330895
+Dividend Yield,0.0648
+Dividend Payout Ratio,1.0275
+Five Year Avg Dividend Yield,6.08
+Trailing Annual Dividend Rate,1.13
+Trailing Annual Dividend Yield,0.065204844
 
 FINANCIAL RATIO
-Debt to Equity,99.56
-Price to Cash Flow,8.095646257547028e-09
-Enterprise to EBITDA,11.188
-Price to Book,1.3024592
-Price to Earnings,"PriceToEarnings(trailing_pe=16.229359, forward_pe=14.619835)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.21)"
-Enterprise to Revenue,4.535
+Debt to Equity,101.217
+Price to Cash Flow,None
+Enterprise to EBITDA,11.12
+Price to Book,1.2781239
+Price to Earnings,"PriceToEarnings(trailing_pe=16.0, forward_pe=13.415385)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.3)"
+Enterprise to Revenue,4.708
 
 CASH FLOW
-Free to Cash Flow,2185125120.0
-Operating to Cash Flow,5573000192.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.08039
-Return on Assets,0.03824
-Return on Invested Capital,0.07798486129771871
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.07788
+Return on Assets,0.03763
+Return on Invested Capital,0.0744488730167957
+Return on Investment,-0.060531647189873417
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0608
+SUM DIVIDEND SCORE,4.0608
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

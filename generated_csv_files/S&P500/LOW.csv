@@ -5,7 +5,8 @@ Country,United States
 Industry,Home Improvement Retail
 Sector,Consumer Cyclical
 Website,https://www.lowes.com
-Financial_summary,None
+Price,212.08
+Currency,USD
 
 REVENUE
 Total Revenue,90220003328.0
@@ -13,7 +14,7 @@ Revenue Per Share,153.11
 Revenue Growth,-0.128
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.04, forward_eps=12.88)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.04, forward_eps=12.91)"
 Net Earnings,7641999872.0
 Earnings Growth,11.441
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.33334
 Operating Margins,0.1317
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,4.4
-Dividend Yield,0.0197
+Dividend Yield,0.0208
+Dividend Payout Ratio,0.3298
 Five Year Avg Dividend Yield,1.68
 Trailing Annual Dividend Rate,4.3
-Trailing Annual Dividend Yield,0.019292029
+Trailing Annual Dividend Yield,0.02027537
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,4.7032756601199525e-08
-Enterprise to EBITDA,12.414
+Price to Cash Flow,4.4728594635811014e-08
+Enterprise to EBITDA,11.947
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=17.093557, forward_pe=17.3059)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.04, forward_eps=12.88)"
-Enterprise to Revenue,1.849
+Price to Earnings,"PriceToEarnings(trailing_pe=16.256134, forward_pe=16.41983)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.04, forward_eps=12.91)"
+Enterprise to Revenue,1.779
 
 CASH FLOW
 Free to Cash Flow,4739250176.0
@@ -51,6 +54,14 @@ Return on Equity,None
 Return on Assets,0.16115999
 Return on Invested Capital,0.19035994972202197
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0168
+SUM DIVIDEND SCORE,8.0168
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

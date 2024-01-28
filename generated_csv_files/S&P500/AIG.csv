@@ -5,7 +5,8 @@ Country,United States
 Industry,Insurance - Diversified
 Sector,Financial Services
 Website,https://www.aig.com
-Financial_summary,None
+Price,68.98
+Currency,USD
 
 REVENUE
 Total Revenue,50150998016.0
@@ -13,7 +14,7 @@ Revenue Per Share,68.663
 Revenue Growth,-0.09
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.76, forward_eps=7.56)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.76, forward_eps=7.43)"
 Net Earnings,4121999872.0
 Earnings Growth,-0.208
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.31086
 Operating Margins,0.306
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.44
-Dividend Yield,0.0212
-Five Year Avg Dividend Yield,2.75
+Dividend Yield,0.0207
+Dividend Payout Ratio,0.2361
+Five Year Avg Dividend Yield,2.73
 Trailing Annual Dividend Rate,1.36
-Trailing Annual Dividend Yield,0.020253165
+Trailing Annual Dividend Yield,0.019715859
 
 FINANCIAL RATIO
 Debt to Equity,55.666
-Price to Cash Flow,4.0904021718612e-08
-Enterprise to EBITDA,5.109
-Price to Book,1.2106456
-Price to Earnings,"PriceToEarnings(trailing_pe=11.782986, forward_pe=8.977513)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.76, forward_eps=7.56)"
-Enterprise to Revenue,1.204
+Price to Cash Flow,4.190447370112115e-08
+Enterprise to EBITDA,5.208
+Price to Book,1.2402561
+Price to Earnings,"PriceToEarnings(trailing_pe=12.071179, forward_pe=9.358008)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.76, forward_eps=7.43)"
+Enterprise to Revenue,1.227
 
 CASH FLOW
 Free to Cash Flow,1659250048.0
@@ -51,6 +54,14 @@ Return on Equity,0.11637
 Return on Assets,0.00843
 Return on Invested Capital,0.17135730729148005
 Return on Investment,0.01748091548770144
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0273
+SUM DIVIDEND SCORE,8.0273
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

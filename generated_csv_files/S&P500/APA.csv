@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.apachecorp.com
-Financial_summary,None
+Price,32.04
+Currency,USD
 
 REVENUE
 Total Revenue,8439000064.0
@@ -13,7 +14,7 @@ Revenue Per Share,27.267
 Revenue Growth,-0.2
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.63)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.19)"
 Net Earnings,1524999936.0
 Earnings Growth,0.164
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.71442
 Operating Margins,0.39775002
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.0
-Dividend Yield,0.0277
-Five Year Avg Dividend Yield,2.75
+Dividend Yield,0.0311
+Dividend Payout Ratio,0.1996
+Five Year Avg Dividend Yield,2.74
 Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.026903419
+Trailing Annual Dividend Yield,0.031210985
 
 FINANCIAL RATIO
 Debt to Equity,270.147
-Price to Cash Flow,2.3239720323652234e-08
-Enterprise to EBITDA,3.356
-Price to Book,10.273192
-Price to Earnings,"PriceToEarnings(trailing_pe=7.2055883, forward_pe=6.412078)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.63)"
-Enterprise to Revenue,2.097
+Price to Cash Flow,2.0671119656301197e-08
+Enterprise to EBITDA,3.124
+Price to Book,9.137735
+Price to Earnings,"PriceToEarnings(trailing_pe=6.4091816, forward_pe=6.1868978)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.19)"
+Enterprise to Revenue,1.952
 
 CASH FLOW
 Free to Cash Flow,1553374976.0
@@ -51,6 +54,14 @@ Return on Equity,1.02898
 Return on Assets,0.16643
 Return on Invested Capital,0.26791986410243224
 Return on Investment,-0.008645124353741497
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0274
+SUM DIVIDEND SCORE,4.0274
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

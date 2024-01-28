@@ -5,7 +5,8 @@ Country,United States
 Industry,REIT—Diversified
 Sector,Real Estate
 Website,https://www.viciproperties.com
-Financial_summary,None
+Price,30.52
+Currency,USD
 
 REVENUE
 Total Revenue,3473224960.0
@@ -13,7 +14,7 @@ Revenue Per Share,3.486
 Revenue Growth,0.168
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.63)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.64)"
 Net Earnings,2369824000.0
 Earnings Growth,0.615
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.99084
 Operating Margins,0.84573
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.66
-Dividend Yield,0.051599998
+Dividend Yield,0.0546
+Dividend Payout Ratio,0.65769994
 Five Year Avg Dividend Yield,4.91
 Trailing Annual Dividend Rate,1.585
-Trailing Annual Dividend Yield,0.04981144
+Trailing Annual Dividend Yield,0.05193316
 
 FINANCIAL RATIO
 Debt to Equity,71.483
-Price to Cash Flow,-6.200053081394167e-09
-Enterprise to EBITDA,15.964
-Price to Book,1.3540922
-Price to Earnings,"PriceToEarnings(trailing_pe=13.352696, forward_pe=12.235741)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.63)"
-Enterprise to Revenue,14.589
+Price to Cash Flow,-5.857104216108846e-09
+Enterprise to EBITDA,15.384
+Price to Book,1.2791921
+Price to Earnings,"PriceToEarnings(trailing_pe=12.614107, forward_pe=11.515151)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.64)"
+Enterprise to Revenue,14.058
 
 CASH FLOW
 Free to Cash Flow,-5190278144.0
@@ -51,6 +54,14 @@ Return on Equity,0.10343
 Return on Assets,0.049450003
 Return on Invested Capital,0.13511772419717988
 Return on Investment,0.015173593681169516
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.049100000000000005
+SUM DIVIDEND SCORE,8.0491
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,4.0
 
-
-
-CRITERIA PASS COUNT,4

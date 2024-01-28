@@ -5,52 +5,63 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.visa.com
-Financial_summary,None
+Price,272.61
+Currency,USD
 
 REVENUE
-Total Revenue,32653000704.0
-Revenue Per Share,15.947
-Revenue Growth,0.106
+Total Revenue,33351000064.0
+Revenue Per Share,16.386
+Revenue Growth,0.088
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.28, forward_eps=11.17)"
-Net Earnings,16988999680.0
-Earnings Growth,0.217
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.68, forward_eps=11.15)"
+Net Earnings,17699999744.0
+Earnings Growth,0.202
 
 DEBT
-Total Debt,21294999552.0
-Debt to Equity,54.979
+Total Debt,20703000576.0
+Debt to Equity,52.105
 
 MARGINS
-Profit Margins,0.52899
-Gross Profit Margins,0.97746
-Operating Margins,0.65966004
+Profit Margins,0.53923
+Gross Profit Margins,0.97783995
+Operating Margins,0.69064003
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.08
-Dividend Yield,0.008
+Dividend Yield,0.0078
+Dividend Payout Ratio,0.21540001
 Five Year Avg Dividend Yield,0.64
-Trailing Annual Dividend Rate,1.87
-Trailing Annual Dividend Yield,0.0072220294
+Trailing Annual Dividend Rate,1.94
+Trailing Annual Dividend Yield,0.007116394
 
 FINANCIAL RATIO
-Debt to Equity,54.979
-Price to Cash Flow,1.5577074295471755e-08
-Enterprise to EBITDA,23.006
-Price to Book,14.2232895
-Price to Earnings,"PriceToEarnings(trailing_pe=31.449276, forward_pe=23.312443)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.28, forward_eps=11.17)"
-Enterprise to Revenue,16.114
+Debt to Equity,52.105
+Price to Cash Flow,1.766118172647229e-08
+Enterprise to EBITDA,21.471
+Price to Book,13.095157
+Price to Earnings,"PriceToEarnings(trailing_pe=30.868662, forward_pe=24.030495)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.68, forward_eps=11.15)"
+Enterprise to Revenue,15.079
 
 CASH FLOW
-Free to Cash Flow,16716874752.0
-Operating to Cash Flow,20754999296.0
+Free to Cash Flow,15171125248.0
+Operating to Cash Flow,20198000640.0
 
 PROFITABILITY
-Return on Equity,0.46487
-Return on Assets,0.15573
-Return on Invested Capital,0.797792910204519
-Return on Investment,0.7418777152838428
+Return on Equity,0.46921003
+Return on Assets,0.15878999
+Return on Invested Capital,0.8549485211832368
+Return on Investment,0.7729257530131004
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0064
+SUM DIVIDEND SCORE,8.0064
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

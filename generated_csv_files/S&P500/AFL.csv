@@ -5,7 +5,8 @@ Country,United States
 Industry,Insurance - Life
 Sector,Financial Services
 Website,https://www.aflac.com
-Financial_summary,None
+Price,84.89
+Currency,USD
 
 REVENUE
 Total Revenue,19232999424.0
@@ -13,7 +14,7 @@ Revenue Per Share,31.755
 Revenue Growth,0.052
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.3, forward_eps=6.37)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.3, forward_eps=6.43)"
 Net Earnings,4369999872.0
 Earnings Growth,-0.064
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.44584998
 Operating Margins,0.37455
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.024400001
+Dividend Yield,0.0234
+Dividend Payout Ratio,0.2274
 Five Year Avg Dividend Yield,2.38
 Trailing Annual Dividend Rate,1.66
-Trailing Annual Dividend Yield,0.020266144
+Trailing Annual Dividend Yield,0.019554717
 
 FINANCIAL RATIO
 Debt to Equity,53.836
-Price to Cash Flow,-5.08775480437721e-08
-Enterprise to EBITDA,9.539
-Price to Book,2.1258252
-Price to Earnings,"PriceToEarnings(trailing_pe=11.247945, forward_pe=12.89011)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.3, forward_eps=6.37)"
-Enterprise to Revenue,2.724
+Price to Cash Flow,-5.2860353472344384e-08
+Enterprise to EBITDA,9.879
+Price to Book,2.208673
+Price to Earnings,"PriceToEarnings(trailing_pe=11.6863, forward_pe=13.267496)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.3, forward_eps=6.43)"
+Enterprise to Revenue,2.822
 
 CASH FLOW
 Free to Cash Flow,-1613874944.0
@@ -51,6 +54,14 @@ Return on Equity,0.18667
 Return on Assets,0.026889998
 Return on Invested Capital,0.35807929912331093
 Return on Investment,0.10763546482758621
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.023799999999999998
+SUM DIVIDEND SCORE,8.0238
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

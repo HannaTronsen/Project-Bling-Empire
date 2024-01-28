@@ -5,7 +5,8 @@ Country,United States
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.keysight.com
-Financial_summary,None
+Price,155.6
+Currency,USD
 
 REVENUE
 Total Revenue,5464000000.0
@@ -13,7 +14,7 @@ Revenue Per Share,30.697
 Revenue Growth,-0.091
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=8.01)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.91, forward_eps=8.03)"
 Net Earnings,1057000000.0
 Earnings Growth,-0.231
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.64641
 Operating Margins,0.24714
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,43.532
-Price to Cash Flow,1.8550674378315667e-07
-Enterprise to EBITDA,17.315
-Price to Book,5.990336
-Price to Earnings,"PriceToEarnings(trailing_pe=27.015202, forward_pe=19.966291)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.92, forward_eps=8.01)"
-Enterprise to Revenue,5.042
+Price to Cash Flow,1.8086704532050036e-07
+Enterprise to EBITDA,16.875
+Price to Book,5.8405123
+Price to Earnings,"PriceToEarnings(trailing_pe=26.384094, forward_pe=19.41843)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.91, forward_eps=8.03)"
+Enterprise to Revenue,4.914
 
 CASH FLOW
 Free to Cash Flow,862124992.0
@@ -51,6 +54,14 @@ Return on Equity,0.23982
 Return on Assets,0.10272
 Return on Invested Capital,0.5217176634112447
 Return on Investment,-0.26425
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

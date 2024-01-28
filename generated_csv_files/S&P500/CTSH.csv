@@ -5,7 +5,8 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.cognizant.com
-Financial_summary,None
+Price,78.3
+Currency,USD
 
 REVENUE
 Total Revenue,19434000384.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.34774
 Operating Margins,0.15479
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.16
-Dividend Yield,0.0153
+Dividend Yield,0.015
+Dividend Payout Ratio,0.278
 Five Year Avg Dividend Yield,1.39
 Trailing Annual Dividend Rate,1.16
-Trailing Annual Dividend Yield,0.015343916
+Trailing Annual Dividend Yield,0.014814814
 
 FINANCIAL RATIO
 Debt to Equity,11.217
-Price to Cash Flow,3.811294786573281e-08
-Enterprise to EBITDA,10.799
-Price to Book,2.9494808
-Price to Earnings,"PriceToEarnings(trailing_pe=18.49756, forward_pe=16.380129)"
+Price to Cash Flow,3.883661143280369e-08
+Enterprise to EBITDA,11.009
+Price to Book,3.0054836
+Price to Earnings,"PriceToEarnings(trailing_pe=18.84878, forward_pe=16.691145)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=4.1, forward_eps=4.63)"
-Enterprise to Revenue,1.909
+Enterprise to Revenue,1.946
 
 CASH FLOW
 Free to Cash Flow,1989874944.0
@@ -51,6 +54,14 @@ Return on Equity,0.1682
 Return on Assets,0.10278
 Return on Invested Capital,1.4456747344986494
 Return on Investment,-0.08256916743083004
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0139
+SUM DIVIDEND SCORE,7.0139
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

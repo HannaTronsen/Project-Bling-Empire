@@ -5,52 +5,63 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.intel.com
-Financial_summary,None
+Price,49.55
+Currency,USD
 
 REVENUE
-Total Revenue,52864000000.0
-Revenue Per Share,12.692
-Revenue Growth,-0.077
+Total Revenue,54228000768.0
+Revenue Per Share,12.942
+Revenue Growth,0.097
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.39, forward_eps=1.71)"
-Net Earnings,-1644000000.0
-Earnings Growth,-0.717
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.4, forward_eps=2.6)"
+Net Earnings,1688999936.0
+Earnings Growth,None
 
 DEBT
-Total Debt,48882999296.0
-Debt to Equity,46.253
+Total Debt,49265999872.0
+Debt to Equity,44.802
 
 MARGINS
-Profit Margins,-0.0311
-Gross Profit Margins,0.38143003
-Operating Margins,0.05707
+Profit Margins,0.03115
+Gross Profit Margins,0.40037
+Operating Margins,0.093660004
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.5
-Dividend Yield,0.0099
-Five Year Avg Dividend Yield,2.99
-Trailing Annual Dividend Rate,0.98
-Trailing Annual Dividend Yield,0.019306542
+Dividend Yield,0.0115
+Dividend Payout Ratio,1.85
+Five Year Avg Dividend Yield,2.98
+Trailing Annual Dividend Rate,0.74
+Trailing Annual Dividend Yield,0.01493441
 
 FINANCIAL RATIO
-Debt to Equity,46.253
-Price to Cash Flow,-1.1259705718851861e-08
-Enterprise to EBITDA,28.957
-Price to Book,2.086629
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=29.467834)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.39, forward_eps=1.71)"
-Enterprise to Revenue,4.543
+Debt to Equity,44.802
+Price to Cash Flow,-4.003255906633229e-09
+Enterprise to EBITDA,22.128
+Price to Book,1.7445346
+Price to Earnings,"PriceToEarnings(trailing_pe=109.125, forward_pe=16.788464)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.4, forward_eps=2.6)"
+Enterprise to Revenue,3.931
 
 CASH FLOW
-Free to Cash Flow,-4475250176.0
-Operating to Cash Flow,14549999616.0
+Free to Cash Flow,-10903624704.0
+Operating to Cash Flow,11470999552.0
 
 PROFITABILITY
-Return on Equity,-0.01601
-Return on Assets,-0.00716
-Return on Invested Capital,-0.033631324240825836
-Return on Investment,0.0006963741104710268
+Return on Equity,0.01571
+Return on Assets,0.0001
+Return on Invested Capital,0.034283277301393605
+Return on Investment,-0.0007154354185022027
+
+DIVIDEND SCORE
+Dividend  Rate,1.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0298
+SUM DIVIDEND SCORE,2.0298
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

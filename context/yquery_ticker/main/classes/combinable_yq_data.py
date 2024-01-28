@@ -129,7 +129,10 @@ class CombinableYQData(TimeSeriesDataCollection):
         else:
             raise TypeError(WRONG_TYPE_STRING.format(type=self.combination))
 
-        if self.is_consistently_up_trending_model_list(model_list=model_list, attribute="value"):
+        if self.is_consistently_up_trending_model_list(
+                model_list=model_list,
+                attribute="value"
+        ) and len(model_list) > 1:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
                     model_list=model_list,

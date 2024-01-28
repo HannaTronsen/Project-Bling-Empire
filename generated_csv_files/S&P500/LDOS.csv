@@ -5,7 +5,8 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.leidos.com
-Financial_summary,None
+Price,110.73
+Currency,USD
 
 REVENUE
 Total Revenue,15155000320.0
@@ -13,7 +14,7 @@ Revenue Per Share,110.62
 Revenue Growth,0.087
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.06, forward_eps=7.59)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.06, forward_eps=7.6)"
 Net Earnings,147000000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.14319
 Operating Margins,0.08875
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.52
-Dividend Yield,0.014099999
-Five Year Avg Dividend Yield,1.5
+Dividend Yield,0.0136
+Dividend Payout Ratio,1.3585
+Five Year Avg Dividend Yield,1.48
 Trailing Annual Dividend Rate,1.44
-Trailing Annual Dividend Yield,0.013355593
+Trailing Annual Dividend Yield,0.013004606
 
 FINANCIAL RATIO
 Debt to Equity,124.007
-Price to Cash Flow,1.8961792364319151e-07
-Enterprise to EBITDA,12.316
-Price to Book,3.5799809
-Price to Earnings,"PriceToEarnings(trailing_pe=101.8302, forward_pe=14.221344)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.06, forward_eps=7.59)"
-Enterprise to Revenue,1.278
+Price to Cash Flow,1.9595960146746353e-07
+Enterprise to EBITDA,12.632
+Price to Book,3.6997116
+Price to Earnings,"PriceToEarnings(trailing_pe=105.235855, forward_pe=14.677632)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.06, forward_eps=7.6)"
+Enterprise to Revenue,1.31
 
 CASH FLOW
 Free to Cash Flow,569249984.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.03788
 Return on Assets,0.059949998
 Return on Invested Capital,0.028204142733951717
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.005975609756097561
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0148
+SUM DIVIDEND SCORE,8.0148
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

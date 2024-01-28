@@ -5,52 +5,63 @@ Country,United States
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.northropgrumman.com
-Financial_summary,None
+Price,434.55
+Currency,USD
 
 REVENUE
-Total Revenue,38684999680.0
-Revenue Per Share,254.047
-Revenue Growth,0.09
+Total Revenue,39289999360.0
+Revenue Per Share,259.34
+Revenue Growth,0.06
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.41, forward_eps=24.19)"
-Net Earnings,4671000064.0
-Earnings Growth,0.049
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.53, forward_eps=27.43)"
+Net Earnings,2056000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,15592999936.0
-Debt to Equity,97.897
+Total Debt,16048000000.0
+Debt to Equity,108.469
 
 MARGINS
-Profit Margins,0.120740004
-Gross Profit Margins,0.20396
-Operating Margins,0.11744001
+Profit Margins,0.05233
+Gross Profit Margins,0.16673
+Operating Margins,-0.064109996
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,7.48
-Dividend Yield,0.0161
+Dividend Yield,0.0171
+Dividend Payout Ratio,0.5425
 Five Year Avg Dividend Yield,1.58
-Trailing Annual Dividend Rate,7.2
-Trailing Annual Dividend Yield,0.015509887
+Trailing Annual Dividend Rate,7.34
+Trailing Annual Dividend Yield,0.016891038
 
 FINANCIAL RATIO
-Debt to Equity,97.897
-Price to Cash Flow,1.4625628140703517e-07
-Enterprise to EBITDA,11.693
-Price to Book,4.410767
-Price to Earnings,"PriceToEarnings(trailing_pe=15.313384, forward_pe=19.250929)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.41, forward_eps=24.19)"
-Enterprise to Revenue,2.164
+Debt to Equity,108.469
+Price to Cash Flow,2.682756561009623e-07
+Enterprise to EBITDA,19.746
+Price to Book,4.4434977
+Price to Earnings,"PriceToEarnings(trailing_pe=32.36955, forward_pe=15.966459)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.53, forward_eps=27.43)"
+Enterprise to Revenue,2.002
 
 CASH FLOW
-Free to Cash Flow,3184000000.0
-Operating to Cash Flow,3696000000.0
+Free to Cash Flow,1632499968.0
+Operating to Cash Flow,3875000064.0
 
 PROFITABILITY
-Return on Equity,0.31274
-Return on Assets,0.08332
-Return on Invested Capital,0.2995574970528441
-Return on Investment,-0.08813207667924529
+Return on Equity,0.13658
+Return on Assets,0.03661
+Return on Invested Capital,0.1281156522540295
+Return on Investment,-0.030014598540145987
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0158
+SUM DIVIDEND SCORE,9.0158
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

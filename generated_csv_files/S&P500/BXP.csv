@@ -5,7 +5,8 @@ Country,United States
 Industry,REIT - Office
 Sector,Real Estate
 Website,https://www.bxp.com
-Financial_summary,None
+Price,71.5
+Currency,USD
 
 REVENUE
 Total Revenue,2964101888.0
@@ -13,7 +14,7 @@ Revenue Per Share,18.901
 Revenue Growth,-0.262
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.23, forward_eps=2.48)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.23, forward_eps=2.43)"
 Net Earnings,192204000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.59548
 Operating Margins,0.05223
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.92
-Dividend Yield,0.0545
-Five Year Avg Dividend Yield,4.25
+Dividend Yield,0.0551
+Dividend Payout Ratio,3.187
+Five Year Avg Dividend Yield,4.29
 Trailing Annual Dividend Rate,3.92
-Trailing Annual Dividend Yield,0.05540636
+Trailing Annual Dividend Yield,0.054825176
 
 FINANCIAL RATIO
 Debt to Equity,193.64
-Price to Cash Flow,7.114728108573928e-08
-Enterprise to EBITDA,17.657
-Price to Book,1.9508688
-Price to Earnings,"PriceToEarnings(trailing_pe=58.49593, forward_pe=29.012094)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.23, forward_eps=2.48)"
-Enterprise to Revenue,9.518
+Price to Cash Flow,7.040564855183651e-08
+Enterprise to EBITDA,17.584
+Price to Book,1.9305332
+Price to Earnings,"PriceToEarnings(trailing_pe=57.886177, forward_pe=29.30041)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.23, forward_eps=2.43)"
+Enterprise to Revenue,9.478
 
 CASH FLOW
 Free to Cash Flow,1011282496.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.03579
 Return on Assets,0.02017
 Return on Invested Capital,0.012355465680888925
-Return on Investment,0.0018901010720839258
+Return on Investment,0.0017652342422600407
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0429
+SUM DIVIDEND SCORE,7.0429
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

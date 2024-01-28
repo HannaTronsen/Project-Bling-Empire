@@ -5,7 +5,8 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://churchdwight.com
-Financial_summary,None
+Price,98.07
+Currency,USD
 
 REVENUE
 Total Revenue,5775900160.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.43451
 Operating Margins,0.1757
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.09
-Dividend Yield,0.0116
+Dividend Yield,0.011
+Dividend Payout Ratio,0.6136
 Five Year Avg Dividend Yield,1.18
 Trailing Annual Dividend Rate,1.078
-Trailing Annual Dividend Yield,0.01159389
+Trailing Annual Dividend Yield,0.010992148
 
 FINANCIAL RATIO
 Debt to Equity,63.456
-Price to Cash Flow,1.239646531258243e-07
-Enterprise to EBITDA,20.039
-Price to Book,5.7161098
-Price to Earnings,"PriceToEarnings(trailing_pe=53.403408, forward_pe=27.56305)"
+Price to Cash Flow,1.3073067792139278e-07
+Enterprise to EBITDA,21.045
+Price to Book,6.028097
+Price to Earnings,"PriceToEarnings(trailing_pe=56.318184, forward_pe=29.06745)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.76, forward_eps=3.41)"
-Enterprise to Revenue,4.355
+Enterprise to Revenue,4.574
 
 CASH FLOW
 Free to Cash Flow,758200000.0
@@ -51,6 +54,14 @@ Return on Equity,0.113000005
 Return on Assets,0.07754
 Return on Invested Capital,0.17009688111597773
 Return on Investment,0.17078125
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0118
+SUM DIVIDEND SCORE,8.0118
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

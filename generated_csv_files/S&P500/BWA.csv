@@ -5,7 +5,8 @@ Country,United States
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.borgwarner.com
-Financial_summary,None
+Price,33.79
+Currency,USD
 
 REVENUE
 Total Revenue,17159000064.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.19115
 Operating Margins,0.0889
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.44
-Dividend Yield,0.012200001
-Five Year Avg Dividend Yield,1.71
+Dividend Yield,0.0128999995
+Dividend Payout Ratio,0.1512
+Five Year Avg Dividend Yield,1.7
 Trailing Annual Dividend Rate,0.62
-Trailing Annual Dividend Yield,0.017299106
+Trailing Annual Dividend Yield,0.018348623
 
 FINANCIAL RATIO
 Debt to Equity,64.258
-Price to Cash Flow,3.5638073736745053e-08
-Enterprise to EBITDA,4.795
-Price to Book,1.466645
-Price to Earnings,"PriceToEarnings(trailing_pe=8.778049, forward_pe=8.428572)"
+Price to Cash Flow,3.3806163861419174e-08
+Enterprise to EBITDA,4.616
+Price to Book,1.3912548
+Price to Earnings,"PriceToEarnings(trailing_pe=8.326829, forward_pe=7.995316)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=4.1, forward_eps=4.27)"
-Enterprise to Revenue,0.677
+Enterprise to Revenue,0.651
 
 CASH FLOW
 Free to Cash Flow,1009875008.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.15885
 Return on Assets,0.06979
 Return on Invested Capital,0.24948186369895453
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.011464285714285715
+
+DIVIDEND SCORE
+Dividend  Rate,1.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.017
+SUM DIVIDEND SCORE,2.017
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

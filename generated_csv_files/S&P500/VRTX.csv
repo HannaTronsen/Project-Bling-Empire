@@ -5,7 +5,8 @@ Country,United States
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.vrtx.com
-Financial_summary,None
+Price,429.96
+Currency,USD
 
 REVENUE
 Total Revenue,9654200320.0
@@ -13,7 +14,7 @@ Revenue Per Share,37.488
 Revenue Growth,0.064
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.3, forward_eps=16.41)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.34, forward_eps=16.41)"
 Net Earnings,3469700096.0
 Earnings Growth,0.106
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.61604
 Operating Margins,0.4393
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,4.51
-Price to Cash Flow,1.0442193104855505e-07
-Enterprise to EBITDA,20.629
-Price to Book,6.3902507
-Price to Earnings,"PriceToEarnings(trailing_pe=30.772179, forward_pe=24.940279)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.3, forward_eps=16.41)"
-Enterprise to Revenue,9.766
+Price to Cash Flow,1.097543970463433e-07
+Enterprise to EBITDA,21.808
+Price to Book,6.716579
+Price to Earnings,"PriceToEarnings(trailing_pe=32.246628, forward_pe=26.213896)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.34, forward_eps=16.41)"
+Enterprise to Revenue,10.323
 
 CASH FLOW
 Free to Cash Flow,3919387392.0
@@ -51,6 +54,14 @@ Return on Equity,0.2349
 Return on Assets,0.14341
 Return on Invested Capital,4.659191148789213
 Return on Investment,-0.4048658221703617
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,1

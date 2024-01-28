@@ -5,7 +5,8 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.stryker.com
-Financial_summary,None
+Price,311.91
+Currency,USD
 
 REVENUE
 Total Revenue,19885000704.0
@@ -13,7 +14,7 @@ Revenue Per Share,52.432
 Revenue Growth,0.096
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=11.55)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=11.56)"
 Net Earnings,2584999936.0
 Earnings Growth,-0.159
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.63606
 Operating Margins,0.19719
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.2
-Dividend Yield,0.0107
-Five Year Avg Dividend Yield,1.07
+Dividend Yield,0.010299999
+Dividend Payout Ratio,0.44509998
+Five Year Avg Dividend Yield,1.06
 Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.010060025
+Trailing Annual Dividend Yield,0.009618159
 
 FINANCIAL RATIO
 Debt to Equity,73.661
-Price to Cash Flow,1.3869820410345482e-07
-Enterprise to EBITDA,25.012
-Price to Book,6.3465657
-Price to Earnings,"PriceToEarnings(trailing_pe=44.445763, forward_pe=25.897835)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=11.55)"
-Enterprise to Revenue,6.28
+Price to Cash Flow,1.4437373906676817e-07
+Enterprise to EBITDA,25.944
+Price to Book,6.6062675
+Price to Earnings,"PriceToEarnings(trailing_pe=46.264484, forward_pe=26.934254)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=11.56)"
+Enterprise to Revenue,6.514
 
 CASH FLOW
 Free to Cash Flow,2156624896.0
@@ -51,6 +54,14 @@ Return on Equity,0.15043001
 Return on Assets,0.0669
 Return on Invested Capital,0.1959966554804097
 Return on Investment,-0.041828477928802586
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0106
+SUM DIVIDEND SCORE,9.0106
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,57 +5,68 @@ Country,United States
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.teledyne.com
-Financial_summary,None
+Price,424.91
+Currency,USD
 
 REVENUE
-Total Revenue,5628700160.0
-Revenue Per Share,119.887
-Revenue Growth,0.029
+Total Revenue,5635500032.0
+Revenue Per Share,304.786
+Revenue Growth,0.005
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.48, forward_eps=20.67)"
-Net Earnings,789000000.0
-Earnings Growth,0.11
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.48, forward_eps=22.49)"
+Net Earnings,885699968.0
+Earnings Growth,2.691
 
 DEBT
-Total Debt,3244100096.0
-Debt to Equity,37.177
+Total Debt,3244900096.0
+Debt to Equity,35.172
 
 MARGINS
-Profit Margins,0.14017001
-Gross Profit Margins,0.43228
-Operating Margins,0.19479999
+Profit Margins,0.15716
+Gross Profit Margins,0.43286
+Operating Margins,0.18863001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,37.177
-Price to Cash Flow,5.960749917061292e-07
-Enterprise to EBITDA,17.231
-Price to Book,2.4030704
-Price to Earnings,"PriceToEarnings(trailing_pe=26.95449, forward_pe=21.490566)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.48, forward_eps=20.67)"
-Enterprise to Revenue,4.21
+Debt to Equity,35.172
+Price to Cash Flow,None
+Enterprise to EBITDA,7.578
+Price to Book,0.84008235
+Price to Earnings,"PriceToEarnings(trailing_pe=22.670996, forward_pe=18.628723)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.48, forward_eps=22.49)"
+Enterprise to Revenue,1.836
 
 CASH FLOW
-Free to Cash Flow,745225024.0
-Operating to Cash Flow,909400000.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.09623
-Return on Assets,0.04701
-Return on Invested Capital,0.24321073077094513
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.10192
+Return on Assets,0.04531
+Return on Invested Capital,0.272951340772378
+Return on Investment,0.14860737718120806
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

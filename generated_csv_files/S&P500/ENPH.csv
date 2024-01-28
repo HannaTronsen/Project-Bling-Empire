@@ -5,7 +5,8 @@ Country,United States
 Industry,Solar
 Sector,Technology
 Website,https://www.enphase.com
-Financial_summary,None
+Price,106.83
+Currency,USD
 
 REVENUE
 Total Revenue,2712868096.0
@@ -13,7 +14,7 @@ Revenue Per Share,19.885
 Revenue Growth,-0.132
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.99, forward_eps=4.22)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.99, forward_eps=4.02)"
 Net Earnings,571769984.0
 Earnings Growth,0.007
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.45060003
 Operating Margins,0.2141
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,129.765
-Price to Cash Flow,2.4870621840606246e-07
-Enterprise to EBITDA,26.363
-Price to Book,18.078058
-Price to Earnings,"PriceToEarnings(trailing_pe=33.78195, forward_pe=31.940758)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.99, forward_eps=4.22)"
-Enterprise to Revenue,6.591
+Price to Cash Flow,1.9442224373801324e-07
+Enterprise to EBITDA,20.459
+Price to Book,14.132243
+Price to Earnings,"PriceToEarnings(trailing_pe=26.408522, forward_pe=26.211443)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.99, forward_eps=4.02)"
+Enterprise to Revenue,5.115
 
 CASH FLOW
 Free to Cash Flow,541964736.0
@@ -51,6 +54,14 @@ Return on Equity,0.70382005
 Return on Assets,0.1236
 Return on Invested Capital,0.43423678360682083
 Return on Investment,-0.0642041417101791
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 
-
-
-CRITERIA PASS COUNT,2

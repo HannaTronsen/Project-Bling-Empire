@@ -5,7 +5,8 @@ Country,United States
 Industry,Apparel Retail
 Sector,Consumer Cyclical
 Website,https://www.tjx.com
-Financial_summary,None
+Price,95.51
+Currency,USD
 
 REVENUE
 Total Revenue,52325998592.0
@@ -13,7 +14,7 @@ Revenue Per Share,45.491
 Revenue Growth,0.09
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=4.11)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=4.12)"
 Net Earnings,4108999936.0
 Earnings Growth,0.132
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.35257998
 Operating Margins,0.1167
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.33
-Dividend Yield,0.0143
-Five Year Avg Dividend Yield,1.36
+Dividend Yield,0.0138
+Dividend Payout Ratio,0.3545
+Five Year Avg Dividend Yield,1.35
 Trailing Annual Dividend Rate,1.293
-Trailing Annual Dividend Yield,0.013937696
+Trailing Annual Dividend Yield,0.013537849
 
 FINANCIAL RATIO
 Debt to Equity,183.214
-Price to Cash Flow,2.5717767329737126e-08
-Enterprise to EBITDA,18.295
-Price to Book,15.565944
-Price to Earnings,"PriceToEarnings(trailing_pe=26.338984, forward_pe=22.68613)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=4.11)"
-Enterprise to Revenue,2.188
+Price to Cash Flow,2.6583852587302276e-08
+Enterprise to EBITDA,18.867
+Price to Book,16.09015
+Price to Earnings,"PriceToEarnings(trailing_pe=27.225988, forward_pe=23.393204)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=4.12)"
+Enterprise to Revenue,2.256
 
 CASH FLOW
 Free to Cash Flow,3625509120.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.65756
 Return on Assets,0.11303
 Return on Invested Capital,0.3282210969748227
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.027819904779959378
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.013500000000000002
+SUM DIVIDEND SCORE,8.0135
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Travel Services
 Sector,Consumer Cyclical
 Website,https://www.expediagroup.com
-Financial_summary,None
+Price,152.3
+Currency,USD
 
 REVENUE
 Total Revenue,12570000384.0
@@ -13,7 +14,7 @@ Revenue Per Share,84.2
 Revenue Growth,0.086
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.46, forward_eps=12.33)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=12.25)"
 Net Earnings,842000000.0
 Earnings Growth,-0.037
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.86913
 Operating Margins,0.2339
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,0.96
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,223.445
-Price to Cash Flow,7.289068509391881e-08
-Enterprise to EBITDA,15.24
-Price to Book,12.8139105
-Price to Earnings,"PriceToEarnings(trailing_pe=28.07326, forward_pe=12.431468)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.46, forward_eps=12.33)"
-Enterprise to Revenue,1.911
+Price to Cash Flow,7.224870685229049e-08
+Enterprise to EBITDA,15.121
+Price to Book,12.701053
+Price to Earnings,"PriceToEarnings(trailing_pe=27.877064, forward_pe=12.402449)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=12.25)"
+Enterprise to Revenue,1.896
 
 CASH FLOW
 Free to Cash Flow,2102875008.0
@@ -52,12 +55,20 @@ Return on Assets,0.03871
 Return on Invested Capital,0.12878556361945842
 Return on Investment,-0.0235195530726257
 
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0096
+SUM DIVIDEND SCORE,0.0096
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
-Net Income,False
+Net Income,True
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,52 +5,63 @@ Country,United States
 Industry,Railroads
 Sector,Industrials
 Website,https://www.csx.com
-Financial_summary,None
+Price,35.0
+Currency,USD
 
 REVENUE
-Total Revenue,14707000320.0
-Revenue Per Share,7.225
-Revenue Growth,-0.083
+Total Revenue,14657000448.0
+Revenue Per Share,7.281
+Revenue Growth,-0.013
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.89, forward_eps=1.98)"
-Net Earnings,3847000064.0
-Earnings Growth,-0.192
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.85, forward_eps=2.2)"
+Net Earnings,3715000064.0
+Earnings Growth,-0.078
 
 DEBT
-Total Debt,19107999744.0
-Debt to Equity,159.846
+Total Debt,18532999168.0
+Debt to Equity,152.749
 
 MARGINS
-Profit Margins,0.26158002
-Gross Profit Margins,0.49453
-Operating Margins,0.36254
+Profit Margins,0.25346002
+Gross Profit Margins,0.48700002
+Operating Margins,0.35652
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.44
-Dividend Yield,0.0127
+Dividend Yield,0.0124
+Dividend Payout Ratio,0.2378
 Five Year Avg Dividend Yield,1.26
-Trailing Annual Dividend Rate,0.43
-Trailing Annual Dividend Yield,0.012409812
+Trailing Annual Dividend Rate,0.44
+Trailing Annual Dividend Yield,0.012571429
 
 FINANCIAL RATIO
-Debt to Equity,159.846
-Price to Cash Flow,1.4312494034400875e-08
-Enterprise to EBITDA,11.869
-Price to Book,5.744998
-Price to Earnings,"PriceToEarnings(trailing_pe=18.380953, forward_pe=17.545456)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.89, forward_eps=1.98)"
-Enterprise to Revenue,5.87
+Debt to Equity,152.749
+Price to Cash Flow,1.4112252649016967e-08
+Enterprise to EBITDA,12.157
+Price to Book,5.7432647
+Price to Earnings,"PriceToEarnings(trailing_pe=19.129728, forward_pe=16.086363)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.85, forward_eps=2.2)"
+Enterprise to Revenue,5.921
 
 CASH FLOW
-Free to Cash Flow,2427249920.0
-Operating to Cash Flow,5413000192.0
+Free to Cash Flow,2507749888.0
+Operating to Cash Flow,5549000192.0
 
 PROFITABILITY
-Return on Equity,0.30978
-Return on Assets,0.08452
-Return on Invested Capital,0.20132929214584783
-Return on Investment,-0.05674041392330383
+Return on Equity,0.30010998
+Return on Assets,0.08193
+Return on Invested Capital,0.2004532579475486
+Return on Investment,-0.05479351126843658
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0126
+SUM DIVIDEND SCORE,4.0126
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.coterra.com
-Financial_summary,None
+Price,25.26
+Currency,USD
 
 REVENUE
 Total Revenue,6393999872.0
@@ -13,7 +14,7 @@ Revenue Per Share,8.38
 Revenue Growth,-0.497
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=2.64)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=2.2)"
 Net Earnings,2232999936.0
 Earnings Growth,-0.72
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.75601995
 Operating Margins,0.31804
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0312
-Five Year Avg Dividend Yield,3.87
+Dividend Yield,0.031600002
+Dividend Payout Ratio,0.5709
+Five Year Avg Dividend Yield,3.93
 Trailing Annual Dividend Rate,1.65
-Trailing Annual Dividend Yield,0.06387921
+Trailing Annual Dividend Yield,0.06532066
 
 FINANCIAL RATIO
 Debt to Equity,19.966
-Price to Cash Flow,1.507493359835564e-08
-Enterprise to EBITDA,4.664
-Price to Book,1.510245
-Price to Earnings,"PriceToEarnings(trailing_pe=8.875432, forward_pe=9.715909)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=2.64)"
-Enterprise to Revenue,3.286
+Price to Cash Flow,1.4863355582940124e-08
+Enterprise to EBITDA,4.604
+Price to Book,1.4890486
+Price to Earnings,"PriceToEarnings(trailing_pe=8.750865, forward_pe=11.495455)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=2.2)"
+Enterprise to Revenue,3.243
 
 CASH FLOW
 Free to Cash Flow,1701500032.0
@@ -51,6 +54,14 @@ Return on Equity,0.17599002
 Return on Assets,0.08913
 Return on Invested Capital,0.873972549989122
 Return on Investment,-0.011335025055837564
+
+DIVIDEND SCORE
+Dividend  Rate,1.0
+Dividend Yield,1.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0393
+SUM DIVIDEND SCORE,3.0393
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

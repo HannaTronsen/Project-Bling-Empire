@@ -5,7 +5,8 @@ Country,United States
 Industry,Beverages—Brewers
 Sector,Consumer Defensive
 Website,https://www.molsoncoors.com
-Financial_summary,None
+Price,62.88
+Currency,USD
 
 REVENUE
 Total Revenue,11540799488.0
@@ -13,7 +14,7 @@ Revenue Per Share,53.337
 Revenue Growth,0.124
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=5.48)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=5.52)"
 Net Earnings,255100000.0
 Earnings Growth,1.0
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.36908
 Operating Margins,0.18247999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.64
-Dividend Yield,0.026800001
+Dividend Yield,0.026099999
+Dividend Payout Ratio,1.3761001
 Five Year Avg Dividend Yield,2.65
 Trailing Annual Dividend Rate,1.61
-Trailing Annual Dividend Yield,0.026341625
+Trailing Annual Dividend Yield,0.025604326
 
 FINANCIAL RATIO
 Debt to Equity,47.375
-Price to Cash Flow,5.612314940397637e-08
-Enterprise to EBITDA,8.811
-Price to Book,0.9978658
-Price to Earnings,"PriceToEarnings(trailing_pe=52.35043, forward_pe=11.177008)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=5.48)"
-Enterprise to Revenue,1.65
+Price to Cash Flow,5.7488430916007796e-08
+Enterprise to EBITDA,8.96
+Price to Book,1.0221404
+Price to Earnings,"PriceToEarnings(trailing_pe=53.623936, forward_pe=11.365942)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=5.52)"
+Enterprise to Revenue,1.678
 
 CASH FLOW
 Free to Cash Flow,1091350016.0
@@ -51,6 +54,14 @@ Return on Equity,0.01942
 Return on Assets,0.0348
 Return on Invested Capital,0.03992175155548964
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0265
+SUM DIVIDEND SCORE,8.0265
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

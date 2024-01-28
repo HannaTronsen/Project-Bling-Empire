@@ -5,7 +5,8 @@ Country,Ireland
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.medtronic.com
-Financial_summary,None
+Price,85.79
+Currency,USD
 
 REVENUE
 Total Revenue,31957999616.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.65667
 Operating Margins,0.19264
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.76
-Dividend Yield,0.0334
-Five Year Avg Dividend Yield,2.43
+Dividend Yield,0.0319
+Dividend Payout Ratio,0.8896
+Five Year Avg Dividend Yield,2.45
 Trailing Annual Dividend Rate,2.74
-Trailing Annual Dividend Yield,0.03324436
+Trailing Annual Dividend Yield,0.031938452
 
 FINANCIAL RATIO
 Debt to Equity,48.56
-Price to Cash Flow,1.851611565356437e-08
-Enterprise to EBITDA,15.032
-Price to Book,2.1384444
-Price to Earnings,"PriceToEarnings(trailing_pe=26.860392, forward_pe=15.179817)"
+Price to Cash Flow,1.9368846230623242e-08
+Enterprise to EBITDA,15.63
+Price to Book,2.236927
+Price to Earnings,"PriceToEarnings(trailing_pe=28.097404, forward_pe=15.8789)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=3.08, forward_eps=5.45)"
-Enterprise to Revenue,3.991
+Enterprise to Revenue,4.149
 
 CASH FLOW
 Free to Cash Flow,4467999744.0
@@ -51,6 +54,14 @@ Return on Equity,0.079569995
 Return on Assets,0.041149996
 Return on Invested Capital,0.16355662033219678
 Return on Investment,-0.25798742943396225
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0245
+SUM DIVIDEND SCORE,5.0245
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

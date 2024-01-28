@@ -5,7 +5,8 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.synopsys.com
-Financial_summary,None
+Price,536.68
+Currency,USD
 
 REVENUE
 Total Revenue,5842618880.0
@@ -13,7 +14,7 @@ Revenue Per Share,38.401
 Revenue Growth,0.245
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=15.65)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=15.64)"
 Net Earnings,1229888000.0
 Earnings Growth,1.288
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.80363
 Operating Margins,0.26836002
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,11.122
-Price to Cash Flow,3.895957612029371e-07
-Enterprise to EBITDA,51.295
-Price to Book,12.797991
-Price to Earnings,"PriceToEarnings(trailing_pe=65.329544, forward_pe=33.06134)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=15.65)"
-Enterprise to Revenue,13.311
+Price to Cash Flow,3.976676317893106e-07
+Enterprise to EBITDA,52.37
+Price to Book,13.063148
+Price to Earnings,"PriceToEarnings(trailing_pe=66.68308, forward_pe=33.767902)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=15.64)"
+Enterprise to Revenue,13.59
 
 CASH FLOW
 Free to Cash Flow,1328068864.0
@@ -50,13 +53,21 @@ PROFITABILITY
 Return on Equity,0.20746
 Return on Assets,0.085200004
 Return on Invested Capital,1.7881397920657194
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.06491338815407514
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 
-
-
-CRITERIA PASS COUNT,1

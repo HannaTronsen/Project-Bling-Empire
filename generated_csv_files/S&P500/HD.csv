@@ -5,7 +5,8 @@ Country,United States
 Industry,Home Improvement Retail
 Sector,Consumer Cyclical
 Website,https://www.homedepot.com
-Financial_summary,None
+Price,350.97
+Currency,USD
 
 REVENUE
 Total Revenue,153713999872.0
@@ -13,7 +14,7 @@ Revenue Per Share,152.873
 Revenue Growth,-0.03
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.6, forward_eps=15.58)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.6, forward_eps=15.63)"
 Net Earnings,15704000512.0
 Earnings Growth,-0.101
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.33424
 Operating Margins,0.14336
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,8.36
-Dividend Yield,0.0241
+Dividend Yield,0.0235
+Dividend Payout Ratio,0.5237
 Five Year Avg Dividend Yield,2.29
-Trailing Annual Dividend Rate,2.09
-Trailing Annual Dividend Yield,0.005996614
+Trailing Annual Dividend Rate,8.36
+Trailing Annual Dividend Yield,0.023819698
 
 FINANCIAL RATIO
 Debt to Equity,3444.406
-Price to Cash Flow,2.3616074946818036e-08
-Enterprise to EBITDA,15.425
-Price to Book,241.89413
-Price to Earnings,"PriceToEarnings(trailing_pe=22.266665, forward_pe=22.29525)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.6, forward_eps=15.58)"
-Enterprise to Revenue,2.556
+Price to Cash Flow,2.4155894255540212e-08
+Enterprise to EBITDA,15.735
+Price to Book,247.42339
+Price to Earnings,"PriceToEarnings(trailing_pe=22.77564, forward_pe=22.731924)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.6, forward_eps=15.63)"
+Enterprise to Revenue,2.608
 
 CASH FLOW
 Free to Cash Flow,14708625408.0
@@ -51,6 +54,14 @@ Return on Equity,11.5132
 Return on Assets,0.18284
 Return on Invested Capital,0.3188305988042243
 Return on Investment,0.31983707763747454
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0229
+SUM DIVIDEND SCORE,5.0229
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

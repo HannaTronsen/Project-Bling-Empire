@@ -5,52 +5,63 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.northerntrust.com
-Financial_summary,None
+Price,81.79
+Currency,USD
 
 REVENUE
-Total Revenue,6728699904.0
-Revenue Per Share,32.378
-Revenue Growth,-0.024
+Total Revenue,6749000192.0
+Revenue Per Share,32.565
+Revenue Growth,0.013
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=5.81)"
-Net Earnings,1096099968.0
-Earnings Growth,-0.172
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.08, forward_eps=6.68)"
+Net Earnings,1053900032.0
+Earnings Growth,-0.273
 
 DEBT
-Total Debt,20612200448.0
+Total Debt,17236099072.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.17089
+Profit Margins,0.16407
 Gross Profit Margins,0.0
-Operating Margins,0.25361001
+Operating Margins,0.09503
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.0
-Dividend Yield,0.0353
-Five Year Avg Dividend Yield,2.95
+Dividend Yield,0.0368
+Dividend Payout Ratio,0.5906
+Five Year Avg Dividend Yield,2.97
 Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.035473574
+Trailing Annual Dividend Yield,0.0366793
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.6045629
-Price to Earnings,"PriceToEarnings(trailing_pe=16.121443, forward_pe=14.623064)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=5.81)"
-Enterprise to Revenue,4.363
+Price to Book,1.5198644
+Price to Earnings,"PriceToEarnings(trailing_pe=16.062992, forward_pe=12.215569)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.08, forward_eps=6.68)"
+Enterprise to Revenue,4.045
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,3974400000.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.100530006
-Return on Assets,0.00751
-Return on Invested Capital,0.05317724169962031
-Return on Investment,0.0030711683048472963
+Return on Equity,0.09563
+Return on Assets,0.0072399997
+Return on Invested Capital,0.06114492753347235
+Return on Investment,0.0029529280806948727
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0297
+SUM DIVIDEND SCORE,8.0297
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Internet Content & Information
 Sector,Communication Services
 Website,https://investor.fb.com
-Financial_summary,None
+Price,393.18
+Currency,USD
 
 REVENUE
 Total Revenue,126956003328.0
@@ -13,7 +14,7 @@ Revenue Per Share,48.97
 Revenue Growth,0.232
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.32, forward_eps=15.88)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.31, forward_eps=17.57)"
 Net Earnings,29734000640.0
 Earnings Growth,1.679
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.80114996
 Operating Margins,0.41375
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,25.81
-Price to Cash Flow,1.2171144004188922e-08
-Enterprise to EBITDA,16.584
-Price to Book,6.4479675
-Price to Earnings,"PriceToEarnings(trailing_pe=31.653711, forward_pe=22.564232)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.32, forward_eps=15.88)"
-Enterprise to Revenue,7.062
+Price to Cash Flow,1.3387850797641831e-08
+Enterprise to EBITDA,18.287
+Price to Book,7.092549
+Price to Earnings,"PriceToEarnings(trailing_pe=34.848804, forward_pe=22.432556)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.31, forward_eps=17.57)"
+Enterprise to Revenue,7.787
 
 CASH FLOW
 Free to Cash Flow,29440124928.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.22275
 Return on Assets,0.13817
 Return on Invested Capital,0.8063238844532271
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.010572840962912918
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

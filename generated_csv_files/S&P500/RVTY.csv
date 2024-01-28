@@ -5,7 +5,8 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.revvity.com
-Financial_summary,None
+Price,108.69
+Currency,USD
 
 REVENUE
 Total Revenue,2795884032.0
@@ -13,7 +14,7 @@ Revenue Per Share,22.292
 Revenue Growth,-0.058
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.69, forward_eps=4.61)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.71, forward_eps=4.59)"
 Net Earnings,213432992.0
 Earnings Growth,-0.889
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.57091
 Operating Margins,0.13835
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.28
 Dividend Yield,0.0025
+Dividend Payout Ratio,0.16469999
 Five Year Avg Dividend Yield,0.24
 Trailing Annual Dividend Rate,0.28
-Trailing Annual Dividend Yield,0.0025295871
+Trailing Annual Dividend Yield,0.002576134
 
 FINANCIAL RATIO
 Debt to Equity,52.168
-Price to Cash Flow,6.943024820018143e-08
-Enterprise to EBITDA,18.321
-Price to Book,1.7757863
-Price to Earnings,"PriceToEarnings(trailing_pe=65.54437, forward_pe=24.028198)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.69, forward_eps=4.61)"
-Enterprise to Revenue,5.814
+Price to Cash Flow,6.894761489591006e-08
+Enterprise to EBITDA,18.214
+Price to Book,1.7634423
+Price to Earnings,"PriceToEarnings(trailing_pe=64.327484, forward_pe=23.965141)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.71, forward_eps=4.59)"
+Enterprise to Revenue,5.78
 
 CASH FLOW
 Free to Cash Flow,1595414144.0
@@ -51,6 +54,14 @@ Return on Equity,0.02892
 Return on Assets,0.02096
 Return on Invested Capital,0.05317327224516471
 Return on Investment,0.019386080511553553
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0024
+SUM DIVIDEND SCORE,4.0024
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

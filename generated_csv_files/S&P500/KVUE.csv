@@ -5,7 +5,8 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.kenvue.com
-Financial_summary,None
+Price,20.75
+Currency,USD
 
 REVENUE
 Total Revenue,15544999936.0
@@ -13,7 +14,7 @@ Revenue Per Share,8.118
 Revenue Growth,0.033
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.57, forward_eps=1.27)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.57, forward_eps=1.26)"
 Net Earnings,1720999936.0
 Earnings Growth,-0.328
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.55973
 Operating Margins,0.21507
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0373
+Dividend Yield,0.038399998
+Dividend Payout Ratio,0.35169998
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.2
-Trailing Annual Dividend Yield,0.009280743
+Trailing Annual Dividend Yield,0.009638554
 
 FINANCIAL RATIO
 Debt to Equity,76.655
-Price to Cash Flow,7.981413019189913e-09
-Enterprise to EBITDA,13.1
-Price to Book,3.7739496
-Price to Earnings,"PriceToEarnings(trailing_pe=37.666664, forward_pe=16.905512)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.57, forward_eps=1.27)"
-Enterprise to Revenue,3.114
+Price to Cash Flow,7.747212264551365e-09
+Enterprise to EBITDA,12.773
+Price to Book,3.6632097
+Price to Earnings,"PriceToEarnings(trailing_pe=36.561405, forward_pe=16.539682)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.57, forward_eps=1.26)"
+Enterprise to Revenue,3.036
 
 CASH FLOW
 Free to Cash Flow,2689999872.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.115430005
 Return on Assets,0.07241
 Return on Invested Capital,0.20610777346654585
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.04249382558024691
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,8.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

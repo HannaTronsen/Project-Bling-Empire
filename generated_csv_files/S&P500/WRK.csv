@@ -5,7 +5,8 @@ Country,United States
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.westrock.com
-Financial_summary,None
+Price,42.43
+Currency,USD
 
 REVENUE
 Total Revenue,20309999616.0
@@ -13,7 +14,7 @@ Revenue Per Share,79.367
 Revenue Growth,-0.077
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.44, forward_eps=3.27)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-6.44, forward_eps=3.64)"
 Net Earnings,-1648999936.0
 Earnings Growth,-0.683
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.17627001
 Operating Margins,0.06078
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.21
-Dividend Yield,0.0287
-Five Year Avg Dividend Yield,3.43
+Dividend Yield,0.028499998
+Dividend Payout Ratio,0.32959998
+Five Year Avg Dividend Yield,3.39
 Trailing Annual Dividend Rate,1.1
-Trailing Annual Dividend Yield,0.025730995
+Trailing Annual Dividend Yield,0.025925053
 
 FINANCIAL RATIO
 Debt to Equity,91.962
-Price to Cash Flow,6.145652883813473e-08
-Enterprise to EBITDA,7.28
-Price to Book,1.0713195
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.8807335)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.44, forward_eps=3.27)"
-Enterprise to Revenue,0.971
+Price to Cash Flow,6.185048094607149e-08
+Enterprise to EBITDA,7.306
+Price to Book,1.078187
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=11.645604)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-6.44, forward_eps=3.64)"
+Enterprise to Revenue,0.974
 
 CASH FLOW
 Free to Cash Flow,685362496.0
@@ -51,6 +54,14 @@ Return on Equity,-0.15279001
 Return on Assets,0.02691
 Return on Invested Capital,-0.1775791511101327
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0339
+SUM DIVIDEND SCORE,8.0339
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

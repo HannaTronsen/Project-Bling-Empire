@@ -5,58 +5,69 @@ Country,United States
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www3.mtb.com
-Financial_summary,None
+Price,142.04
+Currency,USD
 
 REVENUE
-Total Revenue,9341577216.0
-Revenue Per Share,55.709
-Revenue Growth,0.027
+Total Revenue,8997999616.0
+Revenue Per Share,54.104
+Revenue Growth,-0.142
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.44, forward_eps=14.68)"
-Net Earnings,2918871040.0
-Earnings Growth,0.128
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.79, forward_eps=16.03)"
+Net Earnings,2636000000.0
+Earnings Growth,-0.362
 
 DEBT
-Total Debt,15343884288.0
+Total Debt,13516999680.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.32371
+Profit Margins,0.30462
 Gross Profit Margins,0.0
-Operating Margins,0.43558997
+Operating Margins,0.41831002
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,5.2
-Dividend Yield,0.0376
-Five Year Avg Dividend Yield,3.16
-Trailing Annual Dividend Rate,5.1
-Trailing Annual Dividend Yield,0.036988683
+Dividend Yield,0.0367
+Dividend Payout Ratio,0.32930002
+Five Year Avg Dividend Yield,3.18
+Trailing Annual Dividend Rate,5.2
+Trailing Annual Dividend Yield,0.036609408
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.9496003
-Price to Earnings,"PriceToEarnings(trailing_pe=7.935206, forward_pe=9.427112)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.44, forward_eps=14.68)"
-Enterprise to Revenue,0.846
+Price to Book,0.9425744
+Price to Earnings,"PriceToEarnings(trailing_pe=8.962635, forward_pe=8.828446)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.79, forward_eps=16.03)"
+Enterprise to Revenue,1.015
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,4058340096.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.117539994
-Return on Assets,0.0148599995
-Return on Invested Capital,0.19023025444473385
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.10487001
+Return on Assets,0.0134000005
+Return on Invested Capital,0.1950136889194818
+Return on Investment,0.01267141989124499
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0318
+SUM DIVIDEND SCORE,7.0318
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

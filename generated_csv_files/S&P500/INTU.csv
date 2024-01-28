@@ -5,7 +5,8 @@ Country,United States
 Industry,Software—Application
 Sector,Technology
 Website,https://www.intuit.com
-Financial_summary,None
+Price,641.49
+Currency,USD
 
 REVENUE
 Total Revenue,14748999680.0
@@ -13,7 +14,7 @@ Revenue Per Share,52.534
 Revenue Growth,0.41
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.11, forward_eps=18.81)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.11, forward_eps=18.83)"
 Net Earnings,2584999936.0
 Earnings Growth,-0.185
 
@@ -27,19 +28,21 @@ Gross Profit Margins,0.79205
 Operating Margins,0.15697
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.6
-Dividend Yield,0.0057
-Five Year Avg Dividend Yield,0.64
+Dividend Yield,0.0056
+Dividend Payout Ratio,0.3549
+Five Year Avg Dividend Yield,0.63
 Trailing Annual Dividend Rate,3.24
-Trailing Annual Dividend Yield,0.005150051
+Trailing Annual Dividend Yield,0.005050741
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.4637454514579738e-07
+Price to Cash Flow,1.4948373980877776e-07
 Enterprise to EBITDA,None
-Price to Book,10.352604
-Price to Earnings,"PriceToEarnings(trailing_pe=68.93744, forward_pe=33.38756)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.11, forward_eps=18.81)"
+Price to Book,10.572507
+Price to Earnings,"PriceToEarnings(trailing_pe=70.40176, forward_pe=34.06054)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.11, forward_eps=18.83)"
 Enterprise to Revenue,None
 
 CASH FLOW
@@ -51,6 +54,14 @@ Return on Equity,0.15639
 Return on Assets,0.07585
 Return on Invested Capital,None
 Return on Investment,0.09609665189591078
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0063
+SUM DIVIDEND SCORE,8.0063
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,1

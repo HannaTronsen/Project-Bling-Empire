@@ -5,7 +5,8 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.labcorp.com
-Financial_summary,None
+Price,226.65
+Currency,USD
 
 REVENUE
 Total Revenue,15070900224.0
@@ -13,7 +14,7 @@ Revenue Per Share,171.066
 Revenue Growth,0.066
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.72, forward_eps=14.6)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.72, forward_eps=14.61)"
 Net Earnings,860200000.0
 Earnings Growth,-0.459
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.26659
 Operating Margins,0.08833
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.88
-Dividend Yield,0.0127
+Dividend Yield,0.0128
+Dividend Payout Ratio,0.29659998
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,2.88
-Trailing Annual Dividend Yield,0.0127062565
+Trailing Annual Dividend Yield,0.012706817
 
 FINANCIAL RATIO
 Debt to Equity,81.404
-Price to Cash Flow,1.6625297260842208e-07
-Enterprise to EBITDA,11.746
-Price to Book,2.4485085
-Price to Earnings,"PriceToEarnings(trailing_pe=23.36008, forward_pe=15.552054)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.72, forward_eps=14.6)"
-Enterprise to Revenue,1.658
+Price to Cash Flow,1.6468606799562357e-07
+Enterprise to EBITDA,11.661
+Price to Book,2.4254317
+Price to Earnings,"PriceToEarnings(trailing_pe=23.139917, forward_pe=15.394936)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.72, forward_eps=14.61)"
+Enterprise to Revenue,1.646
 
 CASH FLOW
 Free to Cash Flow,1365750016.0
@@ -51,6 +54,14 @@ Return on Equity,0.095690005
 Return on Assets,0.05333
 Return on Invested Capital,0.13388742891746067
 Return on Investment,-0.23061662198391422
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,7.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

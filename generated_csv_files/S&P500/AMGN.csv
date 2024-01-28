@@ -5,7 +5,8 @@ Country,United States
 Industry,Drug Manufacturers - General
 Sector,Healthcare
 Website,https://www.amgen.com
-Financial_summary,None
+Price,310.26
+Currency,USD
 
 REVENUE
 Total Revenue,26833000448.0
@@ -13,7 +14,7 @@ Revenue Per Share,50.155
 Revenue Growth,0.038
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.05, forward_eps=18.11)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.06, forward_eps=20.06)"
 Net Earnings,7566000128.0
 Earnings Growth,-0.191
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.73726
 Operating Margins,0.38939998
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,9.0
-Dividend Yield,0.0312
+Dividend Yield,0.028900001
+Dividend Payout Ratio,0.5925
 Five Year Avg Dividend Yield,2.96
 Trailing Annual Dividend Rate,8.33
-Trailing Annual Dividend Yield,0.029072
+Trailing Annual Dividend Yield,0.026848448
 
 FINANCIAL RATIO
 Debt to Equity,789.812
-Price to Cash Flow,3.239394675970513e-08
-Enterprise to EBITDA,13.541
-Price to Book,20.16075
-Price to Earnings,"PriceToEarnings(trailing_pe=20.53096, forward_pe=15.928215)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.05, forward_eps=18.11)"
-Enterprise to Revenue,6.712
+Price to Cash Flow,3.501165077055144e-08
+Enterprise to EBITDA,14.479
+Price to Book,21.789907
+Price to Earnings,"PriceToEarnings(trailing_pe=22.174252, forward_pe=15.541874)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.06, forward_eps=20.06)"
+Enterprise to Revenue,7.177
 
 CASH FLOW
 Free to Cash Flow,8904750080.0
@@ -51,6 +54,14 @@ Return on Equity,1.3380499
 Return on Assets,0.07861
 Return on Invested Capital,0.12512403728200855
 Return on Investment,0.02025702845515395
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0296
+SUM DIVIDEND SCORE,9.0296
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.moodys.com
-Financial_summary,None
+Price,392.6
+Currency,USD
 
 REVENUE
 Total Revenue,5726000128.0
@@ -13,7 +14,7 @@ Revenue Per Share,31.226
 Revenue Growth,0.155
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.2, forward_eps=11.18)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.21, forward_eps=11.16)"
 Net Earnings,1512999936.0
 Earnings Growth,0.279
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.7073
 Operating Margins,0.38314998
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.08
 Dividend Yield,0.007900001
-Five Year Avg Dividend Yield,0.86
+Dividend Payout Ratio,0.3662
+Five Year Avg Dividend Yield,0.85
 Trailing Annual Dividend Rate,3.01
-Trailing Annual Dividend Yield,0.007713795
+Trailing Annual Dividend Yield,0.0076668365
 
 FINANCIAL RATIO
 Debt to Equity,225.089
-Price to Cash Flow,2.4103663353034835e-07
-Enterprise to EBITDA,31.463
-Price to Book,22.402363
-Price to Earnings,"PriceToEarnings(trailing_pe=47.637806, forward_pe=34.94007)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.2, forward_eps=11.18)"
-Enterprise to Revenue,13.467
+Price to Cash Flow,2.4020979204625683e-07
+Enterprise to EBITDA,31.363
+Price to Book,22.325516
+Price to Earnings,"PriceToEarnings(trailing_pe=47.416565, forward_pe=34.882618)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.21, forward_eps=11.16)"
+Enterprise to Revenue,13.425
 
 CASH FLOW
 Free to Cash Flow,1620625024.0
@@ -51,6 +54,14 @@ Return on Equity,0.52369
 Return on Assets,0.09269
 Return on Invested Capital,0.20053014517392778
 Return on Investment,0.044110785306122446
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0085
+SUM DIVIDEND SCORE,8.0085
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

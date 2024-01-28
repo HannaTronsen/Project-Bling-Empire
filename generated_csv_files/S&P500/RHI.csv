@@ -5,7 +5,8 @@ Country,United States
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.roberthalf.com
-Financial_summary,None
+Price,81.13
+Currency,USD
 
 REVENUE
 Total Revenue,6646650880.0
@@ -13,7 +14,7 @@ Revenue Per Share,62.584
 Revenue Growth,-0.147
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=3.95)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=3.9)"
 Net Earnings,471495008.0
 Earnings Growth,-0.412
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.40771
 Operating Margins,0.09175
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.92
-Dividend Yield,0.0218
+Dividend Yield,0.0235
+Dividend Payout Ratio,0.42310002
 Five Year Avg Dividend Yield,2.07
 Trailing Annual Dividend Rate,1.87
-Trailing Annual Dividend Yield,0.021247584
+Trailing Annual Dividend Yield,0.023049427
 
 FINANCIAL RATIO
 Debt to Equity,13.633
-Price to Cash Flow,1.5830085436493778e-07
-Enterprise to EBITDA,13.878
-Price to Book,5.810704
-Price to Earnings,"PriceToEarnings(trailing_pe=19.945702, forward_pe=22.318989)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=3.95)"
-Enterprise to Revenue,1.304
+Price to Cash Flow,1.4697056408541465e-07
+Enterprise to EBITDA,12.826
+Price to Book,5.394806
+Price to Earnings,"PriceToEarnings(trailing_pe=18.518099, forward_pe=20.987179)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=3.9)"
+Enterprise to Revenue,1.205
 
 CASH FLOW
 Free to Cash Flow,556914240.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.30707002
 Return on Assets,0.1204
 Return on Invested Capital,2.1889173787544376
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.10110975467490135
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0207
+SUM DIVIDEND SCORE,9.0207
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

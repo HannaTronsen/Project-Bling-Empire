@@ -5,7 +5,8 @@ Country,United States
 Industry,Software - Application
 Sector,Technology
 Website,https://www.ceridian.com
-Financial_summary,None
+Price,68.6
+Currency,USD
 
 REVENUE
 Total Revenue,1450099968.0
@@ -13,7 +14,7 @@ Revenue Per Share,9.374
 Revenue Growth,0.196
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.03, forward_eps=1.69)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.03, forward_eps=1.68)"
 Net Earnings,4000000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.48383
 Operating Margins,0.08185001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,54.952
-Price to Cash Flow,4.461286089238845e-07
-Enterprise to EBITDA,53.87
-Price to Book,4.678318
-Price to Earnings,"PriceToEarnings(trailing_pe=2266.3333, forward_pe=40.230766)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.03, forward_eps=1.69)"
-Enterprise to Revenue,7.827
+Price to Cash Flow,4.4750656167979003e-07
+Enterprise to EBITDA,54.026
+Price to Book,4.692768
+Price to Earnings,"PriceToEarnings(trailing_pe=2273.3333, forward_pe=40.595238)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.03, forward_eps=1.68)"
+Enterprise to Revenue,7.85
 
 CASH FLOW
 Free to Cash Flow,152400000.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.00185
 Return on Assets,0.010729999
 Return on Invested Capital,0.003211046043258683
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.0008676789587852494
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -58,14 +69,12 @@ PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,False
 Net Income,False
-Total Revenue,False
-Operating Cash Flow,False
-Free Cash Flow,False
+Total Revenue,True
+Operating Cash Flow,True
+Free Cash Flow,True
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,3.0
 
-
-
-CRITERIA PASS COUNT,0

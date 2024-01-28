@@ -5,7 +5,8 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.analog.com
-Financial_summary,None
+Price,197.3
+Currency,USD
 
 REVENUE
 Total Revenue,12305539072.0
@@ -13,7 +14,7 @@ Revenue Per Share,24.502
 Revenue Growth,-0.164
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.55, forward_eps=8.73)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=8.73)"
 Net Earnings,3314578944.0
 Earnings Growth,-0.453
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.64014
 Operating Margins,0.27372998
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.44
-Dividend Yield,0.0172
-Five Year Avg Dividend Yield,1.83
+Dividend Yield,0.0177
+Dividend Payout Ratio,0.50990003
+Five Year Avg Dividend Yield,1.82
 Trailing Annual Dividend Rate,3.44
-Trailing Annual Dividend Yield,0.017256081
+Trailing Annual Dividend Yield,0.017435377
 
 FINANCIAL RATIO
 Debt to Equity,20.963
-Price to Cash Flow,6.042824081942685e-08
-Enterprise to EBITDA,16.879
-Price to Book,2.7940726
-Price to Earnings,"PriceToEarnings(trailing_pe=30.570992, forward_pe=22.937)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.55, forward_eps=8.73)"
-Enterprise to Revenue,8.603
+Price to Cash Flow,5.852401489268601e-08
+Enterprise to EBITDA,16.38
+Price to Book,2.7060251
+Price to Earnings,"PriceToEarnings(trailing_pe=29.5625, forward_pe=22.214205)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=8.73)"
+Enterprise to Revenue,8.349
 
 CASH FLOW
 Free to Cash Flow,3313682432.0
@@ -52,10 +55,18 @@ Return on Assets,0.05019
 Return on Invested Capital,0.4445793078104355
 Return on Investment,-0.04526993931828332
 
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0182
+SUM DIVIDEND SCORE,8.0182
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

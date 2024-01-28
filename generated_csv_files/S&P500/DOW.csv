@@ -5,52 +5,63 @@ Country,United States
 Industry,Chemicals
 Sector,Basic Materials
 Website,https://www.dow.com
-Financial_summary,None
+Price,54.94
+Currency,USD
 
 REVENUE
-Total Revenue,45859999744.0
-Revenue Per Share,64.854
-Revenue Growth,-0.24
+Total Revenue,44622000128.0
+Revenue Per Share,63.231
+Revenue Growth,-0.104
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.84, forward_eps=3.22)"
-Net Earnings,1296000000.0
-Earnings Growth,-0.588
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.82, forward_eps=4.26)"
+Net Earnings,589000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,16490999808.0
-Debt to Equity,82.126
+Total Debt,16446999552.0
+Debt to Equity,86.074
 
 MARGINS
-Profit Margins,0.028499998
-Gross Profit Margins,0.11524
-Operating Margins,0.05377
+Profit Margins,0.013200001
+Gross Profit Margins,0.10936
+Operating Margins,0.032390002
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.0507
+Dividend Yield,0.051799998
+Dividend Payout Ratio,3.4146
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.050260276
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,82.126
-Price to Cash Flow,2.2396594836481807e-08
-Enterprise to EBITDA,9.534
-Price to Book,1.9797828
-Price to Earnings,"PriceToEarnings(trailing_pe=30.016304, forward_pe=17.152174)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.84, forward_eps=3.22)"
-Enterprise to Revenue,1.128
+Debt to Equity,86.074
+Price to Cash Flow,6.639238693555811e-08
+Enterprise to EBITDA,11.022
+Price to Book,2.040385
+Price to Earnings,"PriceToEarnings(trailing_pe=65.926834, forward_pe=12.690141)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.82, forward_eps=4.26)"
+Enterprise to Revenue,1.164
 
 CASH FLOW
-Free to Cash Flow,2465999872.0
-Operating to Cash Flow,5617999872.0
+Free to Cash Flow,814249984.0
+Operating to Cash Flow,5196000256.0
 
 PROFITABILITY
-Return on Equity,0.07244
-Return on Assets,0.03076
-Return on Invested Capital,0.07858832168434779
-Return on Investment,-0.0125459825750242
+Return on Equity,0.03271
+Return on Assets,0.02214
+Return on Invested Capital,0.03581200310664184
+Return on Investment,-0.005701839303000968
+
+DIVIDEND SCORE
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,4.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

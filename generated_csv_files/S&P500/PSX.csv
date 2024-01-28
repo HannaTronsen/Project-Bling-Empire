@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas Refining & Marketing
 Sector,Energy
 Website,https://www.phillips66.com
-Financial_summary,None
+Price,137.65
+Currency,USD
 
 REVENUE
 Total Revenue,149408006144.0
@@ -13,7 +14,7 @@ Revenue Per Share,325.653
 Revenue Growth,-0.118
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.55, forward_eps=13.12)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.55, forward_eps=13.01)"
 Net Earnings,7629000192.0
 Earnings Growth,-0.58
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.134
 Operating Margins,0.05822
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,4.2
-Dividend Yield,0.031600002
-Five Year Avg Dividend Yield,4.32
+Dividend Yield,0.03
+Dividend Payout Ratio,0.2489
+Five Year Avg Dividend Yield,4.31
 Trailing Annual Dividend Rate,4.12
-Trailing Annual Dividend Yield,0.030586489
+Trailing Annual Dividend Yield,0.029930985
 
 FINANCIAL RATIO
 Debt to Equity,60.783
-Price to Cash Flow,2.8287904599659285e-08
-Enterprise to EBITDA,7.22
-Price to Book,1.8962244
-Price to Earnings,"PriceToEarnings(trailing_pe=8.026587, forward_pe=10.125)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.55, forward_eps=13.12)"
-Enterprise to Revenue,0.505
+Price to Cash Flow,2.985945485519591e-08
+Enterprise to EBITDA,7.53
+Price to Book,2.0015702
+Price to Earnings,"PriceToEarnings(trailing_pe=8.472508, forward_pe=10.7778635)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.55, forward_eps=13.01)"
+Enterprise to Revenue,0.527
 
 CASH FLOW
 Free to Cash Flow,4696000000.0
@@ -51,6 +54,14 @@ Return on Equity,0.24399
 Return on Assets,0.06849
 Return on Invested Capital,0.3923575325644316
 Return on Investment,-0.10852062862019915
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0431
+SUM DIVIDEND SCORE,8.0431
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

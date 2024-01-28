@@ -5,7 +5,8 @@ Country,United States
 Industry,Utilities - Diversified
 Sector,Utilities
 Website,https://www.aes.com
-Financial_summary,None
+Price,17.13
+Currency,USD
 
 REVENUE
 Total Revenue,12760000512.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.20165001
 Operating Margins,0.24811001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.67
-Dividend Yield,0.0346
+Dividend Yield,0.039100002
+Dividend Payout Ratio,0.7626
 Five Year Avg Dividend Yield,2.97
 Trailing Annual Dividend Rate,0.664
-Trailing Annual Dividend Yield,0.034439832
+Trailing Annual Dividend Yield,0.038762406
 
 FINANCIAL RATIO
 Debt to Equity,410.106
-Price to Cash Flow,-5.098142494232497e-09
-Enterprise to EBITDA,12.543
-Price to Book,6.6747155
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.184211)"
+Price to Cash Flow,-4.518508722278414e-09
+Enterprise to EBITDA,12.111
+Price to Book,5.915833
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.026316)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=-0.84, forward_eps=1.9)"
-Enterprise to Revenue,3.353
+Enterprise to Revenue,3.237
 
 CASH FLOW
 Free to Cash Flow,-3795500032.0
@@ -51,6 +54,14 @@ Return on Equity,-0.0787
 Return on Assets,0.03586
 Return on Invested Capital,-0.020444671175371486
 Return on Investment,0.001218715995647443
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0297
+SUM DIVIDEND SCORE,8.0297
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

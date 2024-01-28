@@ -5,67 +5,76 @@ Country,United States
 Industry,Farm & Heavy Construction Machinery
 Sector,Industrials
 Website,https://www.paccar.com
-Financial_summary,None
+Price,102.01
+Currency,USD
 
 REVENUE
-Total Revenue,34180300800.0
-Revenue Per Share,65.283
-Revenue Growth,0.232
+Total Revenue,35127398400.0
+Revenue Per Share,67.05
+Revenue Growth,0.117
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.83, forward_eps=7.49)"
-Net Earnings,4104800000.0
-Earnings Growth,0.592
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.76, forward_eps=8.51)"
+Net Earnings,4600800256.0
+Earnings Growth,0.538
 
 DEBT
-Total Debt,13007099904.0
-Debt to Equity,81.177
+Total Debt,15928800256.0
+Debt to Equity,100.315
 
 MARGINS
-Profit Margins,0.12009
-Gross Profit Margins,0.19193001
-Operating Margins,0.17438999
+Profit Margins,0.13097
+Gross Profit Margins,0.19818
+Operating Margins,0.16715999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.08
-Dividend Yield,0.011
-Five Year Avg Dividend Yield,1.53
-Trailing Annual Dividend Rate,1.02
-Trailing Annual Dividend Yield,0.010430514
+Dividend Yield,0.0106
+Dividend Payout Ratio,0.1187
+Five Year Avg Dividend Yield,1.52
+Trailing Annual Dividend Rate,1.04
+Trailing Annual Dividend Yield,0.010195078
 
 FINANCIAL RATIO
-Debt to Equity,81.177
-Price to Cash Flow,-1.3935897435897436e-06
-Enterprise to EBITDA,9.379
-Price to Book,3.193615
-Price to Earnings,"PriceToEarnings(trailing_pe=12.494253, forward_pe=13.061416)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.83, forward_eps=7.49)"
-Enterprise to Revenue,1.66
+Debt to Equity,100.315
+Price to Cash Flow,6.139403473008804e-09
+Enterprise to EBITDA,8.809
+Price to Book,3.3535461
+Price to Earnings,"PriceToEarnings(trailing_pe=11.616438, forward_pe=11.957697)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.76, forward_eps=8.51)"
+Enterprise to Revenue,1.723
 
 CASH FLOW
-Free to Cash Flow,-70200000.0
-Operating to Cash Flow,4252100096.0
+Free to Cash Flow,16574900224.0
+Operating to Cash Flow,4190000128.0
 
 PROFITABILITY
-Return on Equity,0.28391
-Return on Assets,0.10278
-Return on Invested Capital,0.31558149169519845
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.3168
+Return on Assets,0.10031
+Return on Invested Capital,0.2888353280406394
+Return on Investment,-0.06739124441189395
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0152
+SUM DIVIDEND SCORE,8.0152
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
-Net Income,False
-Total Revenue,False
+Earnings,True
+Revenue,True
+Net Income,True
+Total Revenue,True
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,4.0
 
-
-
-CRITERIA PASS COUNT,0

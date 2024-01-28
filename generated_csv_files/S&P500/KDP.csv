@@ -5,7 +5,8 @@ Country,United States
 Industry,Beverages—Non-Alcoholic
 Sector,Consumer Defensive
 Website,https://www.keurigdrpepper.com
-Financial_summary,None
+Price,31.59
+Currency,USD
 
 REVENUE
 Total Revenue,14750000128.0
@@ -13,7 +14,7 @@ Revenue Per Share,10.5
 Revenue Growth,0.051
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.37, forward_eps=1.92)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.37, forward_eps=1.91)"
 Net Earnings,1940999936.0
 Earnings Growth,1.911
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.53498
 Operating Margins,0.23679
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.86
-Dividend Yield,0.025799999
-Five Year Avg Dividend Yield,2.21
+Dividend Yield,0.0269
+Dividend Payout Ratio,0.5949
+Five Year Avg Dividend Yield,2.17
 Trailing Annual Dividend Rate,0.815
-Trailing Annual Dividend Yield,0.024614919
+Trailing Annual Dividend Yield,0.025799304
 
 FINANCIAL RATIO
 Debt to Equity,57.869
-Price to Cash Flow,3.0786982249919087e-08
-Enterprise to EBITDA,15.535
-Price to Book,1.8385798
-Price to Earnings,"PriceToEarnings(trailing_pe=24.343065, forward_pe=17.369791)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.37, forward_eps=1.92)"
-Enterprise to Revenue,4.139
+Price to Cash Flow,2.9522269635754496e-08
+Enterprise to EBITDA,15.048
+Price to Book,1.763052
+Price to Earnings,"PriceToEarnings(trailing_pe=23.343065, forward_pe=16.743456)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.37, forward_eps=1.91)"
+Enterprise to Revenue,4.009
 
 CASH FLOW
 Free to Cash Flow,1083250048.0
@@ -51,6 +54,14 @@ Return on Equity,0.07692
 Return on Assets,0.03892
 Return on Invested Capital,0.13223872355777297
 Return on Investment,0.028377192046783625
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0217
+SUM DIVIDEND SCORE,9.0217
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

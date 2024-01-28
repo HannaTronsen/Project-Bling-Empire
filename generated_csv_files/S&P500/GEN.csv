@@ -5,7 +5,8 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.gendigital.com
-Financial_summary,None
+Price,23.84
+Currency,USD
 
 REVENUE
 Total Revenue,3776999936.0
@@ -13,7 +14,7 @@ Revenue Per Share,5.879
 Revenue Growth,0.267
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.27)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.28)"
 Net Earnings,1418000000.0
 Earnings Growth,0.967
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.80752
 Operating Margins,0.38608003
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.5
-Dividend Yield,0.0218
-Five Year Avg Dividend Yield,2.05
+Dividend Yield,0.021
+Dividend Payout Ratio,0.2242
+Five Year Avg Dividend Yield,2.06
 Trailing Annual Dividend Rate,0.5
-Trailing Annual Dividend Yield,0.02173913
+Trailing Annual Dividend Yield,0.020973153
 
 FINANCIAL RATIO
 Debt to Equity,395.94
-Price to Cash Flow,2.501564773397682e-08
-Enterprise to EBITDA,12.96
-Price to Book,6.101965
-Price to Earnings,"PriceToEarnings(trailing_pe=10.304933, forward_pe=10.123348)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.27)"
-Enterprise to Revenue,6.262
+Price to Cash Flow,2.587562866129804e-08
+Enterprise to EBITDA,13.238
+Price to Book,6.3117366
+Price to Earnings,"PriceToEarnings(trailing_pe=10.659193, forward_pe=10.425439)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.28)"
+Enterprise to Revenue,6.396
 
 CASH FLOW
 Free to Cash Flow,918625024.0
@@ -51,6 +54,14 @@ Return on Equity,0.68969
 Return on Assets,0.060149997
 Return on Invested Capital,0.14835740284688517
 Return on Investment,0.010750568612585292
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0206
+SUM DIVIDEND SCORE,7.0206
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

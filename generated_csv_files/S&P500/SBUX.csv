@@ -5,7 +5,8 @@ Country,United States
 Industry,Restaurants
 Sector,Consumer Cyclical
 Website,https://www.starbucks.com
-Financial_summary,None
+Price,92.61
+Currency,USD
 
 REVENUE
 Total Revenue,35975598080.0
@@ -13,7 +14,7 @@ Revenue Per Share,31.37
 Revenue Growth,0.114
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.58, forward_eps=4.37)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.58, forward_eps=4.79)"
 Net Earnings,4124499968.0
 Earnings Growth,0.394
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.27434
 Operating Margins,0.17176001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.28
-Dividend Yield,0.0238
-Five Year Avg Dividend Yield,1.91
+Dividend Yield,0.024600001
+Dividend Payout Ratio,0.59220004
+Five Year Avg Dividend Yield,1.92
 Trailing Annual Dividend Rate,2.16
-Trailing Annual Dividend Yield,0.022667646
+Trailing Annual Dividend Yield,0.023323616
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.9399325197193745e-08
-Enterprise to EBITDA,18.597
+Price to Cash Flow,2.8440085252784108e-08
+Enterprise to EBITDA,18.087
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=26.79609, forward_pe=21.951946)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.58, forward_eps=4.37)"
-Enterprise to Revenue,3.606
+Price to Earnings,"PriceToEarnings(trailing_pe=25.92179, forward_pe=19.373695)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.58, forward_eps=4.79)"
+Enterprise to Revenue,3.507
 
 CASH FLOW
 Free to Cash Flow,3263000064.0
@@ -52,11 +55,19 @@ Return on Assets,0.12029
 Return on Invested Capital,0.16738226822339186
 Return on Investment,-0.03344008406032106
 
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0192
+SUM DIVIDEND SCORE,9.0192
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,0

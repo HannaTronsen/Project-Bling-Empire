@@ -5,7 +5,8 @@ Country,United States
 Industry,Medical Distribution
 Sector,Healthcare
 Website,https://www.mckesson.com
-Financial_summary,None
+Price,486.33
+Currency,USD
 
 REVENUE
 Total Revenue,291098001408.0
@@ -13,7 +14,7 @@ Revenue Per Share,2130.245
 Revenue Growth,0.101
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=25.3, forward_eps=30.82)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=25.28, forward_eps=30.8)"
 Net Earnings,3487000064.0
 Earnings Growth,-0.233
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.04192
 Operating Margins,0.01265
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.48
-Dividend Yield,0.0054
-Five Year Avg Dividend Yield,0.86
+Dividend Yield,0.0050999997
+Dividend Payout Ratio,0.088599995
+Five Year Avg Dividend Yield,0.85
 Trailing Annual Dividend Rate,2.24
-Trailing Annual Dividend Yield,0.004896282
+Trailing Annual Dividend Yield,0.004605926
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,9.382449849753488e-08
-Enterprise to EBITDA,13.495
+Price to Cash Flow,9.951959428611749e-08
+Enterprise to EBITDA,14.249
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=18.083004, forward_pe=14.844257)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=25.3, forward_eps=30.82)"
-Enterprise to Revenue,0.227
+Price to Earnings,"PriceToEarnings(trailing_pe=19.195807, forward_pe=15.75552)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=25.28, forward_eps=30.8)"
+Enterprise to Revenue,0.24
 
 CASH FLOW
 Free to Cash Flow,4876125184.0
@@ -51,6 +54,14 @@ Return on Equity,None
 Return on Assets,0.04232
 Return on Invested Capital,0.4732627674405108
 Return on Investment,-0.3962500072727273
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0085
+SUM DIVIDEND SCORE,8.0085
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

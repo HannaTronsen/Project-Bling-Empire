@@ -5,7 +5,8 @@ Country,United States
 Industry,Entertainment
 Sector,Communication Services
 Website,https://www.paramount.com
-Financial_summary,None
+Price,13.96
+Currency,USD
 
 REVENUE
 Total Revenue,30144999424.0
@@ -13,7 +14,7 @@ Revenue Per Share,46.341
 Revenue Growth,0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.33, forward_eps=1.19)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.33, forward_eps=1.14)"
 Net Earnings,-1523000064.0
 Earnings Growth,0.306
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.32476002
 Operating Margins,0.08033
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.2
-Dividend Yield,0.013200001
-Five Year Avg Dividend Yield,3.19
+Dividend Yield,0.0145000005
+Dividend Payout Ratio,0.932
+Five Year Avg Dividend Yield,3.21
 Trailing Annual Dividend Rate,0.58
-Trailing Annual Dividend Yield,0.03869246
+Trailing Annual Dividend Yield,0.041547276
 
 FINANCIAL RATIO
 Debt to Equity,75.842
-Price to Cash Flow,1.013776321664326e-09
-Enterprise to EBITDA,10.85
-Price to Book,0.45178026
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.7310915)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.33, forward_eps=1.19)"
-Enterprise to Revenue,0.848
+Price to Cash Flow,9.234398177536435e-10
+Enterprise to EBITDA,10.476
+Price to Book,0.41152263
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.105264)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.33, forward_eps=1.14)"
+Enterprise to Revenue,0.818
 
 CASH FLOW
 Free to Cash Flow,14944124928.0
@@ -51,6 +54,14 @@ Return on Equity,-0.059109997
 Return on Assets,0.02177
 Return on Invested Capital,-0.08973603806377363
 Return on Investment,-0.010066094276272307
+
+DIVIDEND SCORE
+Dividend  Rate,1.0
+Dividend Yield,1.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0321
+SUM DIVIDEND SCORE,2.0321
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

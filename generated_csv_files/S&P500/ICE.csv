@@ -5,7 +5,8 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.ice.com
-Financial_summary,None
+Price,127.29
+Currency,USD
 
 REVENUE
 Total Revenue,7554999808.0
@@ -13,7 +14,7 @@ Revenue Per Share,13.479
 Revenue Growth,0.106
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=5.79)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=5.83)"
 Net Earnings,2420000000.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,1.0
 Operating Margins,0.49925
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.68
-Dividend Yield,0.013099999
+Dividend Yield,0.013200001
+Dividend Payout Ratio,0.3805
 Five Year Avg Dividend Yield,1.24
 Trailing Annual Dividend Rate,1.64
-Trailing Annual Dividend Yield,0.012833555
+Trailing Annual Dividend Yield,0.012883966
 
 FINANCIAL RATIO
 Debt to Equity,92.525
-Price to Cash Flow,1.724698713856924e-08
-Enterprise to EBITDA,20.534
-Price to Book,2.8893034
-Price to Earnings,"PriceToEarnings(trailing_pe=29.83759, forward_pe=22.210709)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=5.79)"
-Enterprise to Revenue,12.763
+Price to Cash Flow,1.7067275141946514e-08
+Enterprise to EBITDA,20.371
+Price to Book,2.8591971
+Price to Earnings,"PriceToEarnings(trailing_pe=29.526684, forward_pe=21.828474)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=5.83)"
+Enterprise to Revenue,12.662
 
 CASH FLOW
 Free to Cash Flow,7456374784.0
@@ -51,6 +54,14 @@ Return on Equity,0.10381
 Return on Assets,0.0138
 Return on Invested Capital,0.10252065137695164
 Return on Investment,0.02461851475076297
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0124
+SUM DIVIDEND SCORE,8.0124
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.ecolab.com
-Financial_summary,None
+Price,198.62
+Currency,USD
 
 REVENUE
 Total Revenue,15052999680.0
@@ -13,7 +14,7 @@ Revenue Per Share,52.85
 Revenue Growth,0.178
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.32, forward_eps=6.14)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=6.14)"
 Net Earnings,1231500032.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.39547002
 Operating Margins,0.14715
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.28
 Dividend Yield,0.0115
+Dividend Payout Ratio,0.4919
 Five Year Avg Dividend Yield,1.05
 Trailing Annual Dividend Rate,2.12
-Trailing Annual Dividend Yield,0.010632428
+Trailing Annual Dividend Yield,0.010673648
 
 FINANCIAL RATIO
 Debt to Equity,103.915
-Price to Cash Flow,1.1177024299551113e-07
-Enterprise to EBITDA,20.875
-Price to Book,8.477705
-Price to Earnings,"PriceToEarnings(trailing_pe=46.034718, forward_pe=32.38925)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.32, forward_eps=6.14)"
-Enterprise to Revenue,4.152
+Price to Cash Flow,1.1155667286256854e-07
+Enterprise to EBITDA,20.839
+Price to Book,8.461506
+Price to Earnings,"PriceToEarnings(trailing_pe=46.053368, forward_pe=32.327362)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.31, forward_eps=6.14)"
+Enterprise to Revenue,4.145
 
 CASH FLOW
 Free to Cash Flow,1779275008.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.16787
 Return on Assets,0.060159996
 Return on Invested Capital,0.17592857541043821
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.20254934736842106
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.0105
+SUM DIVIDEND SCORE,9.0105
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

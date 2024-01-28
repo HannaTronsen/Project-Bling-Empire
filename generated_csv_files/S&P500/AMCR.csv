@@ -5,7 +5,8 @@ Country,Switzerland
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.amcor.com
-Financial_summary,None
+Price,9.47
+Currency,USD
 
 REVENUE
 Total Revenue,14424999936.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.18731001
 Operating Margins,0.086840004
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,0.5
-Dividend Yield,0.0515
+Dividend Yield,0.052399997
+Dividend Payout Ratio,0.7481
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.493
-Trailing Annual Dividend Yield,0.050720163
+Trailing Annual Dividend Yield,0.052059133
 
 FINANCIAL RATIO
 Debt to Equity,193.365
-Price to Cash Flow,1.1120973616570124e-08
-Enterprise to EBITDA,11.086
-Price to Book,3.5976288
-Price to Earnings,"PriceToEarnings(trailing_pe=14.712121, forward_pe=13.30137)"
+Price to Cash Flow,1.0926270679925743e-08
+Enterprise to EBITDA,10.958
+Price to Book,3.5346427
+Price to Earnings,"PriceToEarnings(trailing_pe=14.454545, forward_pe=13.068493)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=0.66, forward_eps=0.73)"
-Enterprise to Revenue,1.471
+Enterprise to Revenue,1.454
 
 CASH FLOW
 Free to Cash Flow,873124992.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.24635
 Return on Assets,0.0496
 Return on Invested Capital,0.12550554568736014
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,0.0717910447761194
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,8.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

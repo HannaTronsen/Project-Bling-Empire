@@ -5,16 +5,17 @@ Country,United States
 Industry,Computer Hardware
 Sector,Technology
 Website,https://www.westerndigital.com
-Financial_summary,None
+Price,60.33
+Currency,USD
 
 REVENUE
-Total Revenue,11331999744.0
-Revenue Per Share,35.44
+Total Revenue,11256999936.0
+Revenue Per Share,35.014
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=4.14)"
-Net Earnings,-2456999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.15, forward_eps=4.55)"
+Net Earnings,-2292999936.0
 Earnings Growth,None
 
 DEBT
@@ -22,35 +23,45 @@ Total Debt,None
 Debt to Equity,None
 
 MARGINS
-Profit Margins,-0.21338
-Gross Profit Margins,0.088690005
+Profit Margins,-0.19899
+Gross Profit Margins,0.08608
 Operating Margins,0.15403
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,3.23
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-1.217831486321891e-07
+Price to Cash Flow,-7.764e-07
 Enterprise to EBITDA,None
-Price to Book,1.6957679
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.785025)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=4.14)"
+Price to Book,1.8985361
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.797802)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-7.15, forward_eps=4.55)"
 Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,-434624992.0
-Operating to Cash Flow,-1040000000.0
+Free to Cash Flow,-75000000.0
+Operating to Cash Flow,-1167000064.0
 
 PROFITABILITY
-Return on Equity,-0.20938998
-Return on Assets,-0.04541
+Return on Equity,-0.19513
+Return on Assets,-0.043330003
 Return on Invested Capital,None
-Return on Investment,-0.4467272610909091
+Return on Investment,-0.41690907927272725
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0323
+SUM DIVIDEND SCORE,0.0323
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

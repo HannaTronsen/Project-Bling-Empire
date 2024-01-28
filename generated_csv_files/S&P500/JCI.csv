@@ -5,7 +5,8 @@ Country,Ireland
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.johnsoncontrols.com
-Financial_summary,None
+Price,55.7
+Currency,USD
 
 REVENUE
 Total Revenue,26793000960.0
@@ -13,7 +14,7 @@ Revenue Per Share,39.154
 Revenue Growth,0.027
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=4.18)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=4.17)"
 Net Earnings,1848999936.0
 Earnings Growth,-0.271
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.33483002
 Operating Margins,0.11179
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.48
-Dividend Yield,0.0256
-Five Year Avg Dividend Yield,2.35
+Dividend Yield,0.026199998
+Dividend Payout Ratio,0.53900003
+Five Year Avg Dividend Yield,2.34
 Trailing Annual Dividend Rate,1.45
-Trailing Annual Dividend Yield,0.025138697
+Trailing Annual Dividend Yield,0.026032316
 
 FINANCIAL RATIO
 Debt to Equity,57.941
-Price to Cash Flow,2.7707083258884355e-08
-Enterprise to EBITDA,13.545
-Price to Book,2.3727279
-Price to Earnings,"PriceToEarnings(trailing_pe=21.449814, forward_pe=13.803828)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=4.18)"
-Enterprise to Revenue,1.859
+Price to Cash Flow,2.7174070045411883e-08
+Enterprise to EBITDA,13.34
+Price to Book,2.3270826
+Price to Earnings,"PriceToEarnings(trailing_pe=21.037174, forward_pe=13.570744)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=4.17)"
+Enterprise to Revenue,1.831
 
 CASH FLOW
 Free to Cash Flow,2082499968.0
@@ -51,6 +54,14 @@ Return on Equity,0.11585
 Return on Assets,0.04191
 Return on Invested Capital,0.18035504149855983
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.023399999999999997
+SUM DIVIDEND SCORE,9.0234
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

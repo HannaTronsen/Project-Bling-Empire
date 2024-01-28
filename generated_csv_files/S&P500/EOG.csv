@@ -5,7 +5,8 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.eogresources.com
-Financial_summary,None
+Price,114.85
+Currency,USD
 
 REVENUE
 Total Revenue,23726999552.0
@@ -13,7 +14,7 @@ Revenue Per Share,40.803
 Revenue Growth,-0.196
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.48, forward_eps=12.91)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.48, forward_eps=12.04)"
 Net Earnings,7882999808.0
 Earnings Growth,-0.284
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.63118
 Operating Margins,0.41131002
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,3.64
-Dividend Yield,0.03
-Five Year Avg Dividend Yield,2.09
+Dividend Yield,0.0315
+Dividend Payout Ratio,0.2392
+Five Year Avg Dividend Yield,2.12
 Trailing Annual Dividend Rate,3.3
-Trailing Annual Dividend Yield,0.026555082
+Trailing Annual Dividend Yield,0.02873313
 
 FINANCIAL RATIO
 Debt to Equity,14.925
-Price to Cash Flow,3.4525147770478014e-08
-Enterprise to EBITDA,5.129
-Price to Book,2.5485213
-Price to Earnings,"PriceToEarnings(trailing_pe=9.000742, forward_pe=9.398141)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.48, forward_eps=12.91)"
-Enterprise to Revenue,2.932
+Price to Cash Flow,3.287757004369101e-08
+Enterprise to EBITDA,4.88
+Price to Book,2.426903
+Price to Earnings,"PriceToEarnings(trailing_pe=8.571217, forward_pe=9.596346)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.48, forward_eps=12.04)"
+Enterprise to Revenue,2.79
 
 CASH FLOW
 Free to Cash Flow,3514249984.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.3055
 Return on Assets,0.14698
 Return on Invested Capital,1.9027273945547674
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.013793525473315835
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0212
+SUM DIVIDEND SCORE,8.0212
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

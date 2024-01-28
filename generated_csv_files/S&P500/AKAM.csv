@@ -5,7 +5,8 @@ Country,United States
 Industry,Software - Infrastructure
 Sector,Technology
 Website,https://www.akamai.com
-Financial_summary,None
+Price,123.66
+Currency,USD
 
 REVENUE
 Total Revenue,3744681984.0
@@ -13,7 +14,7 @@ Revenue Per Share,24.309
 Revenue Growth,0.095
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.74)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.72)"
 Net Earnings,515225984.0
 Earnings Growth,0.334
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.60707
 Operating Margins,0.18827
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,104.114
-Price to Cash Flow,2.2442307092399583e-07
-Enterprise to EBITDA,19.691
-Price to Book,4.1550007
-Price to Earnings,"PriceToEarnings(trailing_pe=35.957703, forward_pe=17.658754)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.74)"
-Enterprise to Revenue,5.745
+Price to Cash Flow,2.320408595858421e-07
+Enterprise to EBITDA,20.249
+Price to Book,4.2960377
+Price to Earnings,"PriceToEarnings(trailing_pe=37.17825, forward_pe=18.3125)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.72)"
+Enterprise to Revenue,5.908
 
 CASH FLOW
 Free to Cash Flow,530337632.0
@@ -51,6 +54,14 @@ Return on Equity,0.12042
 Return on Assets,0.04917
 Return on Invested Capital,0.11444163470676878
 Return on Investment,-0.007530881106656279
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

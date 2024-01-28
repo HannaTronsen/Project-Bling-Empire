@@ -5,7 +5,8 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.iqvia.com
-Financial_summary,None
+Price,215.5
+Currency,USD
 
 REVENUE
 Total Revenue,14855000064.0
@@ -13,7 +14,7 @@ Revenue Per Share,80.439
 Revenue Growth,0.049
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.96, forward_eps=11.07)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.96, forward_eps=11.06)"
 Net Earnings,1116000000.0
 Earnings Growth,0.094
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.34877
 Operating Margins,0.13678001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,238.553
-Price to Cash Flow,1.7791112472965275e-07
-Enterprise to EBITDA,20.254
-Price to Book,7.3167124
-Price to Earnings,"PriceToEarnings(trailing_pe=39.048656, forward_pe=21.023487)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.96, forward_eps=11.07)"
-Enterprise to Revenue,3.702
+Price to Cash Flow,1.6519062837979918e-07
+Enterprise to EBITDA,19.135
+Price to Book,6.793574
+Price to Earnings,"PriceToEarnings(trailing_pe=36.25671, forward_pe=19.537973)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.96, forward_eps=11.06)"
+Enterprise to Revenue,3.497
 
 CASH FLOW
 Free to Cash Flow,1308125056.0
@@ -51,6 +54,14 @@ Return on Equity,0.20014
 Return on Assets,0.049000002
 Return on Invested Capital,0.0805892516013085
 Return on Investment,0.018693467336683416
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,1

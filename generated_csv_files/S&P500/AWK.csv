@@ -5,7 +5,8 @@ Country,United States
 Industry,Utilities - Regulated Water
 Sector,Utilities
 Website,https://www.amwater.com
-Financial_summary,None
+Price,123.98
+Currency,USD
 
 REVENUE
 Total Revenue,4132999936.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.59327
 Operating Margins,0.41731
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,2.83
-Dividend Yield,0.021300001
+Dividend Yield,0.023
+Dividend Payout Ratio,0.56299996
 Five Year Avg Dividend Yield,1.62
 Trailing Annual Dividend Rate,2.725
-Trailing Annual Dividend Yield,0.020608032
+Trailing Annual Dividend Yield,0.02197935
 
 FINANCIAL RATIO
 Debt to Equity,123.977
-Price to Cash Flow,-1.0447215882488283e-07
-Enterprise to EBITDA,17.044
-Price to Book,2.6161199
-Price to Earnings,"PriceToEarnings(trailing_pe=27.475204, forward_pe=25.821358)"
+Price to Cash Flow,-9.675734005769716e-08
+Enterprise to EBITDA,16.174
+Price to Book,2.422931
+Price to Earnings,"PriceToEarnings(trailing_pe=25.446281, forward_pe=23.914564)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=5.15)"
-Enterprise to Revenue,9.064
+Enterprise to Revenue,8.601
 
 CASH FLOW
 Free to Cash Flow,-1272875008.0
@@ -51,6 +54,14 @@ Return on Equity,0.10422
 Return on Assets,0.03317
 Return on Invested Capital,0.07497962400907245
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.016200000000000003
+SUM DIVIDEND SCORE,9.0162
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

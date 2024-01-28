@@ -2,7 +2,6 @@ from abc import ABC
 
 from ..const import (
     ATTRIBUTE_ERROR_STRING,
-    INVALID_LIST_LENGTH_STRING,
     INVALID_VALUE_COMPARISON
 )
 from ..data_classes.charts import Chart
@@ -120,19 +119,18 @@ class TimeSeriesDataCollection(ABC):
 
     @classmethod
     def is_consistently_up_trending_simple_list(cls, simple_list: list[int | float]) -> [bool, list[int | float]]:
-        if len(simple_list) < 2:
-            raise ValueError(INVALID_LIST_LENGTH_STRING.format(list=simple_list))
+        if len(simple_list) > 1:
+            for index in range(len(simple_list) - 1):
+                earlier, later = simple_list[index], simple_list[index + 1]
 
-        for index in range(len(simple_list) - 1):
-            earlier, later = simple_list[index], simple_list[index + 1]
-
-            if cls._is_invalid_comparison(earlier, later):
-                raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
-            elif cls._not_up_trending(earlier, later):
-                return False, cls._get_consecutive_down_trending_interval_from_reversed_simple_list(
-                    simple_list=simple_list,
-                )
-        return True, simple_list
+                if cls._is_invalid_comparison(earlier, later):
+                    raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
+                elif cls._not_up_trending(earlier, later):
+                    return False, cls._get_consecutive_down_trending_interval_from_reversed_simple_list(
+                        simple_list=simple_list,
+                    )
+            return True, simple_list
+        return False, simple_list
 
     @classmethod
     def is_consistently_up_trending_model_list(
@@ -140,19 +138,17 @@ class TimeSeriesDataCollection(ABC):
             model_list: list[Chart | YQDataFrameData],
             attribute: str
     ) -> [bool, list[Chart | YQDataFrameData]]:
-        if len(model_list) < 2:
-            raise ValueError(INVALID_LIST_LENGTH_STRING.format(list=model_list))
+        if len(model_list) > 1:
+            for index in range(len(model_list) - 1):
+                earlier, later = cls._get_attribute_values(index, model_list, attribute)
 
-        for index in range(len(model_list) - 1):
-            earlier, later = cls._get_attribute_values(index, model_list, attribute)
-
-            if cls._is_invalid_comparison(earlier, later):
-                raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
-            elif cls._not_up_trending(earlier, later):
-                return False, cls._get_consecutive_down_trending_interval_from_reversed_model_list(
-                    model_list=model_list,
-                    attribute=attribute
-                )
-        return True, model_list
-
-
+                if cls._is_invalid_comparison(earlier, later):
+                    raise ValueError(INVALID_VALUE_COMPARISON.format(value1=type(earlier), value2=type(later)))
+                elif cls._not_up_trending(earlier, later):
+                    return False, cls._get_consecutive_down_trending_interval_from_reversed_model_list(
+                        model_list=model_list,
+                        attribute=attribute
+                    )
+            return True, model_list
+        else:
+            return False, model_list

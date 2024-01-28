@@ -5,7 +5,8 @@ Country,United States
 Industry,Integrated Freight & Logistics
 Sector,Industrials
 Website,https://www.expeditors.com
-Financial_summary,None
+Price,129.98
+Currency,USD
 
 REVENUE
 Total Revenue,10463869952.0
@@ -13,7 +14,7 @@ Revenue Per Share,68.747
 Revenue Growth,-0.498
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.35, forward_eps=4.88)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.34, forward_eps=4.87)"
 Net Earnings,813440000.0
 Earnings Growth,-0.543
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.13958
 Operating Margins,0.09866
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.38
-Dividend Yield,0.0108
-Five Year Avg Dividend Yield,1.18
+Dividend Yield,0.0106
+Dividend Payout Ratio,0.2547
+Five Year Avg Dividend Yield,1.17
 Trailing Annual Dividend Rate,1.36
-Trailing Annual Dividend Yield,0.010634971
+Trailing Annual Dividend Yield,0.010463148
 
 FINANCIAL RATIO
 Debt to Equity,20.85
-Price to Cash Flow,1.0343830146441264e-07
-Enterprise to EBITDA,15.473
-Price to Book,7.4499273
-Price to Earnings,"PriceToEarnings(trailing_pe=23.84673, forward_pe=26.143442)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.35, forward_eps=4.88)"
-Enterprise to Revenue,1.666
+Price to Cash Flow,1.0534361584316612e-07
+Enterprise to EBITDA,15.776
+Price to Book,7.587153
+Price to Earnings,"PriceToEarnings(trailing_pe=24.331459, forward_pe=26.67967)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.34, forward_eps=4.87)"
+Enterprise to Revenue,1.698
 
 CASH FLOW
 Free to Cash Flow,1233392256.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.26989
 Return on Assets,0.119040005
 Return on Invested Capital,1.5658794946662644
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,1.1878504672897197
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.011699999999999999
+SUM DIVIDEND SCORE,8.0117
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

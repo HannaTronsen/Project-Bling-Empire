@@ -5,7 +5,8 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.tractorsupply.com
-Financial_summary,None
+Price,226.33
+Currency,USD
 
 REVENUE
 Total Revenue,14902275072.0
@@ -13,7 +14,7 @@ Revenue Per Share,135.905
 Revenue Growth,0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.26, forward_eps=10.39)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.24, forward_eps=10.35)"
 Net Earnings,1130193024.0
 Earnings Growth,0.11
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.35557
 Operating Margins,0.09991
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,4.12
-Dividend Yield,0.0191
-Five Year Avg Dividend Yield,1.34
+Dividend Yield,0.018099999
+Dividend Payout Ratio,0.39119998
+Five Year Avg Dividend Yield,1.35
 Trailing Annual Dividend Rate,4.01
-Trailing Annual Dividend Yield,0.018858165
+Trailing Annual Dividend Yield,0.017717494
 
 FINANCIAL RATIO
 Debt to Equity,235.764
-Price to Cash Flow,4.4441287834500664e-07
-Enterprise to EBITDA,14.772
-Price to Book,11.093412
-Price to Earnings,"PriceToEarnings(trailing_pe=21.042885, forward_pe=20.779594)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.26, forward_eps=10.39)"
-Enterprise to Revenue,1.872
+Price to Cash Flow,4.6853756076373507e-07
+Enterprise to EBITDA,15.443
+Price to Book,11.695612
+Price to Earnings,"PriceToEarnings(trailing_pe=22.228516, forward_pe=21.99227)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.24, forward_eps=10.35)"
+Enterprise to Revenue,1.957
 
 CASH FLOW
 Free to Cash Flow,485809504.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.55781
 Return on Assets,0.10983
 Return on Invested Capital,0.2270699914217651
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Investment,-0.01488404313264817
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.013500000000000002
+SUM DIVIDEND SCORE,8.0135
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,1.0
 
-
-
-CRITERIA PASS COUNT,1

@@ -5,7 +5,8 @@ Country,United States
 Industry,Residential Construction
 Sector,Consumer Cyclical
 Website,https://www.lennar.com
-Financial_summary,None
+Price,149.12
+Currency,USD
 
 REVENUE
 Total Revenue,34233366528.0
@@ -13,7 +14,7 @@ Revenue Per Share,120.83
 Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.72, forward_eps=16.19)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.73, forward_eps=16.11)"
 Net Earnings,3938511104.0
 Earnings Growth,0.059
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.23952
 Operating Margins,0.17444
 
 DIVIDEND
-Dividend Rate,1.5
-Dividend Yield,0.0101
-Five Year Avg Dividend Yield,0.94
+Dividend Ex Date,None
+Dividend Rate,2.0
+Dividend Yield,0.0135
+Dividend Payout Ratio,0.1092
+Five Year Avg Dividend Yield,0.95
 Trailing Annual Dividend Rate,1.5
-Trailing Annual Dividend Yield,0.010046885
+Trailing Annual Dividend Yield,0.010059013
 
 FINANCIAL RATIO
 Debt to Equity,19.712
 Price to Cash Flow,None
-Enterprise to EBITDA,6.857
-Price to Book,1.5683017
-Price to Earnings,"PriceToEarnings(trailing_pe=10.873178, forward_pe=9.214329)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.72, forward_eps=16.19)"
-Enterprise to Revenue,1.133
+Enterprise to EBITDA,6.818
+Price to Book,1.5598916
+Price to Earnings,"PriceToEarnings(trailing_pe=10.806993, forward_pe=9.210428)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.73, forward_eps=16.11)"
+Enterprise to Revenue,1.127
 
 CASH FLOW
 Free to Cash Flow,None
@@ -51,6 +54,14 @@ Return on Equity,0.15552
 Return on Assets,0.089829996
 Return on Invested Capital,0.748265506382721
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0095
+SUM DIVIDEND SCORE,8.0095
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

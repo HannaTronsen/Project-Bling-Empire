@@ -5,7 +5,8 @@ Country,United States
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.boeing.com
-Financial_summary,None
+Price,201.88
+Currency,USD
 
 REVENUE
 Total Revenue,75756003328.0
@@ -13,7 +14,7 @@ Revenue Per Share,125.538
 Revenue Growth,0.135
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.71, forward_eps=3.59)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.71, forward_eps=3.77)"
 Net Earnings,-2832999936.0
 Earnings Growth,None
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.114429995
 Operating Margins,-0.014529999
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,2.48
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,3.893957448634976e-08
-Enterprise to EBITDA,68.367
+Price to Cash Flow,3.073137841256111e-08
+Enterprise to EBITDA,56.811
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=72.5209)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.71, forward_eps=3.59)"
-Enterprise to Revenue,2.593
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=54.501328)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.71, forward_eps=3.77)"
+Enterprise to Revenue,2.155
 
 CASH FLOW
 Free to Cash Flow,6686000128.0
@@ -52,6 +55,14 @@ Return on Assets,0.00456
 Return on Invested Capital,-0.054197273530792324
 Return on Investment,-0.008048295272727274
 
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0248
+SUM DIVIDEND SCORE,0.0248
+
 
 
 PASSES GROWTH CRITERIA
@@ -59,13 +70,11 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,False
-Free Cash Flow,False
+Operating Cash Flow,True
+Free Cash Flow,True
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 
-
-
-CRITERIA PASS COUNT,0

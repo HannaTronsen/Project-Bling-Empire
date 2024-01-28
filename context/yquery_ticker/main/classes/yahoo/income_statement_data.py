@@ -72,7 +72,10 @@ class IncomeStatementData(TimeSeriesDataCollection):
 
     def evaluate_growth_criteria(self, percentage_criteria: int, attribute: str) -> bool:
         model_list = YQDataFrameData.sorted(self.entries)
-        if self.is_consistently_up_trending_model_list(model_list=model_list, attribute=attribute):
+        if self.is_consistently_up_trending_model_list(
+                model_list=model_list,
+                attribute=attribute
+        ) and len(model_list) > 1:
             return self.passes_percentage_increase_requirements(
                 percentages=self.calculate_percentage_increase_for_model_list(
                     model_list=model_list,

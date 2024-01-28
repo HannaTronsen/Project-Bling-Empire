@@ -5,7 +5,8 @@ Country,United States
 Industry,REIT—Residential
 Sector,Real Estate
 Website,https://www.udr.com
-Financial_summary,None
+Price,36.53
+Currency,USD
 
 REVENUE
 Total Revenue,1639556992.0
@@ -27,20 +28,22 @@ Gross Profit Margins,0.66822
 Operating Margins,0.19645001
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.68
-Dividend Yield,0.0433
-Five Year Avg Dividend Yield,3.34
+Dividend Yield,0.0458
+Dividend Payout Ratio,1.1883999
+Five Year Avg Dividend Yield,3.36
 Trailing Annual Dividend Rate,1.64
-Trailing Annual Dividend Yield,0.042786326
+Trailing Annual Dividend Yield,0.04489461
 
 FINANCIAL RATIO
 Debt to Equity,117.419
-Price to Cash Flow,6.204553923011578e-08
-Enterprise to EBITDA,19.598
-Price to Book,3.1053264
-Price to Earnings,"PriceToEarnings(trailing_pe=28.094204, forward_pe=94.560974)"
+Price to Cash Flow,5.871681285408686e-08
+Enterprise to EBITDA,18.915
+Price to Book,2.9387264
+Price to Earnings,"PriceToEarnings(trailing_pe=26.586956, forward_pe=89.4878)"
 Earnings Per Share,"EarningsPerShare(trailing_eps=1.38, forward_eps=0.41)"
-Enterprise to Revenue,11.972
+Enterprise to Revenue,11.554
 
 CASH FLOW
 Free to Cash Flow,624863616.0
@@ -51,6 +54,14 @@ Return on Equity,0.09789
 Return on Assets,0.017549999
 Return on Invested Capital,0.07595997348314362
 Return on Investment,0.1700395793917009
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0336
+SUM DIVIDEND SCORE,8.0336
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -5,52 +5,63 @@ Country,United States
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.usbank.com
-Financial_summary,None
+Price,42.81
+Currency,USD
 
 REVENUE
-Total Revenue,24597999616.0
-Revenue Per Share,16.09
-Revenue Growth,0.093
+Total Revenue,25738000384.0
+Revenue Per Share,16.68
+Revenue Growth,0.215
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=3.98)"
-Net Earnings,5137999872.0
-Earnings Growth,-0.213
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.27, forward_eps=4.37)"
+Net Earnings,5050999808.0
+Earnings Growth,-0.132
 
 DEBT
-Total Debt,72488001536.0
+Total Debt,66759000064.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.22388001
+Profit Margins,0.21093
 Gross Profit Margins,0.0
-Operating Margins,0.37008
+Operating Margins,0.21338
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.96
-Dividend Yield,0.044899996
-Five Year Avg Dividend Yield,3.77
-Trailing Annual Dividend Rate,1.92
-Trailing Annual Dividend Yield,0.04418872
+Dividend Yield,0.046
+Dividend Payout Ratio,0.5902
+Five Year Avg Dividend Yield,3.8
+Trailing Annual Dividend Rate,1.93
+Trailing Annual Dividend Yield,0.045082923
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.4670478
-Price to Earnings,"PriceToEarnings(trailing_pe=13.023881, forward_pe=10.962312)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=3.98)"
-Enterprise to Revenue,3.261
+Price to Book,1.3698277
+Price to Earnings,"PriceToEarnings(trailing_pe=13.039755, forward_pe=9.757437)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.27, forward_eps=4.37)"
+Enterprise to Revenue,3.08
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,14919000064.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.10885
-Return on Assets,0.00871
-Return on Invested Capital,0.07088069419792602
-Return on Investment,0.0048289472481203004
+Return on Equity,0.102019995
+Return on Assets,0.00816
+Return on Invested Capital,0.07566020762447903
+Return on Investment,0.004747180270676692
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,1.0
+Dividend Ex Date,0.0
+5 Year Average,0.038
+SUM DIVIDEND SCORE,9.038
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

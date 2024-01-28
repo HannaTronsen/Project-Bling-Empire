@@ -5,7 +5,8 @@ Country,United States
 Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.pfizer.com
-Financial_summary,None
+Price,27.47
+Currency,USD
 
 REVENUE
 Total Revenue,68536999936.0
@@ -13,7 +14,7 @@ Revenue Per Share,12.163
 Revenue Growth,-0.416
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=2.01)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=2.27)"
 Net Earnings,10469000192.0
 Earnings Growth,None
 
@@ -23,34 +24,44 @@ Debt to Equity,65.978
 
 MARGINS
 Profit Margins,0.15293999
-Gross Profit Margins,0.54627
-Operating Margins,-0.62319
+Gross Profit Margins,0.68995005
+Operating Margins,0.22325
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,1.68
-Dividend Yield,0.0584
-Five Year Avg Dividend Yield,3.78
+Dividend Yield,0.0612
+Dividend Payout Ratio,0.8907
+Five Year Avg Dividend Yield,3.83
 Trailing Annual Dividend Rate,1.63
-Trailing Annual Dividend Yield,0.056973085
+Trailing Annual Dividend Yield,0.05933746
 
 FINANCIAL RATIO
 Debt to Equity,65.978
-Price to Cash Flow,-6.12227559374037e-08
-Enterprise to EBITDA,13.107
-Price to Book,1.6768595
-Price to Earnings,"PriceToEarnings(trailing_pe=15.732241, forward_pe=14.323383)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=2.01)"
-Enterprise to Revenue,2.667
+Price to Cash Flow,4.832757743851969e-09
+Enterprise to EBITDA,7.369
+Price to Book,1.5999767
+Price to Earnings,"PriceToEarnings(trailing_pe=15.010928, forward_pe=12.101321)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=2.27)"
+Enterprise to Revenue,2.558
 
 CASH FLOW
-Free to Cash Flow,-470249984.0
+Free to Cash Flow,5684125184.0
 Operating to Cash Flow,12042000384.0
 
 PROFITABILITY
 Return on Equity,0.11055
-Return on Assets,0.02391
+Return on Assets,0.0539
 Return on Invested Capital,0.16323889402801767
 Return on Investment,-0.5341326628571429
+
+DIVIDEND SCORE
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0383
+SUM DIVIDEND SCORE,8.0383
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

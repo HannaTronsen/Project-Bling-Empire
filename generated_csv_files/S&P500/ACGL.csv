@@ -5,7 +5,8 @@ Country,Bermuda
 Industry,Insurance - Diversified
 Sector,Financial Services
 Website,https://www.archgroup.com
-Financial_summary,None
+Price,79.6
+Currency,USD
 
 REVENUE
 Total Revenue,12731807744.0
@@ -13,7 +14,7 @@ Revenue Per Share,34.617
 Revenue Growth,0.395
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.83)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.81)"
 Net Earnings,2928197120.0
 Earnings Growth,97.085
 
@@ -27,20 +28,22 @@ Gross Profit Margins,0.37015
 Operating Margins,0.22619
 
 DIVIDEND
+Dividend Ex Date,None
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,17.886
-Price to Cash Flow,3.2021930001275133e-08
-Enterprise to EBITDA,8.379
-Price to Book,1.9065516
-Price to Earnings,"PriceToEarnings(trailing_pe=9.5561285, forward_pe=9.458493)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.83)"
-Enterprise to Revenue,2.237
+Price to Cash Flow,3.454701872943402e-08
+Enterprise to EBITDA,9.016
+Price to Book,2.0568929
+Price to Earnings,"PriceToEarnings(trailing_pe=10.309678, forward_pe=10.230474)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.81)"
+Enterprise to Revenue,2.407
 
 CASH FLOW
 Free to Cash Flow,2312790016.0
@@ -50,7 +53,15 @@ PROFITABILITY
 Return on Equity,0.21974
 Return on Assets,0.04064
 Return on Invested Capital,1.0741734925823638
-Return on Investment,0.13870414710744586
+Return on Investment,0.14019903859044336
+
+DIVIDEND SCORE
+Dividend  Rate,0.0
+Dividend Yield,0.0
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,0.0
 
 
 
@@ -65,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 
-
-
-CRITERIA PASS COUNT,2
