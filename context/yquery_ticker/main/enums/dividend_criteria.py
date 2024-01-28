@@ -35,8 +35,8 @@ Returns A score representing the evaluation result.
 
 
 def compare_and_evaluate_dividend_data(trailing_value: Optional[float], present_value: Optional[float]) -> float:
-    if present_value is not None:
-        if trailing_value is not None:
+    if present_value is not None and present_value != 0.0:
+        if trailing_value is not None and trailing_value != 0.0:
             if present_value > trailing_value:
                 return 4.0
             elif present_value == trailing_value:
@@ -45,7 +45,7 @@ def compare_and_evaluate_dividend_data(trailing_value: Optional[float], present_
                 return 1.0
         else:
             return 2.0
-    elif present_value is None and trailing_value is not None:
+    elif (present_value is None or present_value == 0.0) and (trailing_value is not None and trailing_value != 0.0):
         return 0.5
     else:
         return 0.0

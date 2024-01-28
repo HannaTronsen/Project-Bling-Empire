@@ -21,7 +21,7 @@ def main():
         unittest.TextTestRunner().run(test_suite)
 
     if GENERATE_TICKER_CSV:
-        validate_and_get_yahoo_query_ticker_object(ticker_symbol="DNB.OL").to_csv(
+        validate_and_get_yahoo_query_ticker_object(ticker_symbol="ACR.OL").to_csv(
             stock_collection=NORWAY.stock_index_name
         )
 

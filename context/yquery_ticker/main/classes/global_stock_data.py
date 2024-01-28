@@ -101,7 +101,7 @@ class YahooStockDataClass(CsvConverter):
                 ),
                 market_cap=summary_detail.get("marketCap"),
                 currency=Currency.from_str(summary_detail.get("currency")),
-            )
+            ).normalize_values()
         )  # .normalize_values()
 
         self.financial_data: FinancialData = FinancialData(
