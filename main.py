@@ -21,7 +21,7 @@ def main():
         unittest.TextTestRunner().run(test_suite)
 
     if GENERATE_TICKER_CSV:
-        validate_and_get_yahoo_query_ticker_object(ticker_symbol="ACR.OL").to_csv(
+        validate_and_get_yahoo_query_ticker_object(ticker_symbol="DNB.OL").to_csv(
             stock_collection=NORWAY.stock_index_name
         )
 
@@ -31,7 +31,7 @@ def main():
         print("fetching tickers")
         fetch_tickers()
         print("generating comparable csv files")
-        ComparableCSV(stock_collection=get_grouped_yahoo_query_ticker_objects()).create()
+        ComparableCSV(stock_collection=get_grouped_yahoo_query_ticker_objects()).create_csv_files()
 
 
 if __name__ == '__main__':

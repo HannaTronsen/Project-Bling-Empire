@@ -9,17 +9,17 @@ Price,110.6
 Currency,NOK
 
 REVENUE
-Total Revenue,5759000064
+Total Revenue,5759000064.0
 Revenue Per Share,52.742
 Revenue Growth,0.06
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=11.5, forward_eps=13.49)"
-Net Earnings,1256000000
+Net Earnings,1256000000.0
 Earnings Growth,0.022
 
 DEBT
-Total Debt,144867999744
+Total Debt,144867999744.0
 Debt to Equity,None
 
 MARGINS
@@ -28,8 +28,10 @@ Gross Profit Margins,0.0
 Operating Margins,0.72585
 
 DIVIDEND
+Dividend Ex Date,2023-10-26 02:00:00
 Dividend Rate,5.5
 Dividend Yield,0.0495
+Dividend Payout Ratio,0.4783
 Five Year Avg Dividend Yield,4.53
 Trailing Annual Dividend Rate,5.5
 Trailing Annual Dividend Yield,0.04972875
@@ -45,13 +47,21 @@ Enterprise to Revenue,26.292
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,4063000064
+Operating to Cash Flow,4063000064.0
 
 PROFITABILITY
 Return on Equity,0.14652
 Return on Assets,0.011419999
 Return on Invested Capital,0.008669961623772364
 Return on Investment,0.0016411864628250359
+
+DIVIDEND SCORE
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,1.0
+Dividend Ex Date,1.0
+5 Year Average,0.0453
+SUM DIVIDEND SCORE,6.0453
 
 
 
@@ -66,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

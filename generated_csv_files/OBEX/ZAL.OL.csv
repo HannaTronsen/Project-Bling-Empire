@@ -9,17 +9,17 @@ Price,49.8
 Currency,NOK
 
 REVENUE
-Total Revenue,1069340032
+Total Revenue,1069340032.0
 Revenue Per Share,48.966
 Revenue Growth,0.241
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
-Net Earnings,-23291000
+Net Earnings,-23291000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,507166016
+Total Debt,507166016.0
 Debt to Equity,285.626
 
 MARGINS
@@ -28,8 +28,10 @@ Gross Profit Margins,0.42848
 Operating Margins,0.06357
 
 DIVIDEND
+Dividend Ex Date,2022-05-20 02:00:00
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.0
 Trailing Annual Dividend Yield,0.020080322
@@ -44,14 +46,22 @@ Earnings Per Share,"EarningsPerShare(trailing_eps=-1.13, forward_eps=3.56)"
 Enterprise to Revenue,1.369
 
 CASH FLOW
-Free to Cash Flow,59938124
-Operating to Cash Flow,26841000
+Free to Cash Flow,59938124.0
+Operating to Cash Flow,26841000.0
 
 PROFITABILITY
 Return on Equity,-0.13653
 Return on Assets,0.03398
 Return on Invested Capital,-0.045923817611341296
 Return on Investment,-0.004396851166654081
+
+DIVIDEND SCORE
+Dividend  Rate,0.5
+Dividend Yield,0.5
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,1.0
 
 
 
@@ -66,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

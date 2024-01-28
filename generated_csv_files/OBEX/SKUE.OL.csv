@@ -2,24 +2,24 @@ GENERAL STOCK INFO
 Ticker,SKUE.OL
 Company,Skue Sparebank
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://skuesparebank.no
 Price,244.0
 Currency,NOK
 
 REVENUE
-Total Revenue,460808992
+Total Revenue,460808992.0
 Revenue Per Share,220.254
 Revenue Growth,0.215
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=86.67, forward_eps=33.61)"
-Net Earnings,55268000
+Net Earnings,55268000.0
 Earnings Growth,0.327
 
 DEBT
-Total Debt,4281369088
+Total Debt,4281369088.0
 Debt to Equity,None
 
 MARGINS
@@ -28,8 +28,10 @@ Gross Profit Margins,0.0
 Operating Margins,0.56586
 
 DIVIDEND
+Dividend Ex Date,2022-03-25 01:00:00
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,5.24
 Trailing Annual Dividend Rate,12.5
 Trailing Annual Dividend Yield,0.051229507
@@ -45,13 +47,21 @@ Enterprise to Revenue,5.639
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-42208000
+Operating to Cash Flow,-42208000.0
 
 PROFITABILITY
 Return on Equity,0.09934
 Return on Assets,0.01228
 Return on Invested Capital,0.012908951857514365
 Return on Investment,0.0013281171149955064
+
+DIVIDEND SCORE
+Dividend  Rate,0.5
+Dividend Yield,0.5
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0524
+SUM DIVIDEND SCORE,1.0524
 
 
 
@@ -66,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,True
+CRITERIA PASS COUNT,4.0
 
-
-
-CRITERIA PASS COUNT,4

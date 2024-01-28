@@ -11,6 +11,8 @@ from ..enums.currency import Currency
 class FinancialSummary(IterableDataInterface, CastableDataInterface):
     previous_close: Optional[float]
     open: Optional[float]
+    payout_ratio: Optional[float]
+    ex_dividend_date: Optional[str]
     dividend_rate: Optional[float]
     beta: Optional[float]
     price_to_earnings: Optional[PriceToEarnings]

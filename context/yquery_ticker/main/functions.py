@@ -70,6 +70,7 @@ def _get_query_ticker_objects_from_csv(stock_collection: StockCollectionClass) -
         "Price",
         "Currency",
         "CRITERIA PASS COUNT",
+        "DIVIDEND SCORE"
     ]
 
     for file_name in os.listdir(folder_path):
@@ -98,6 +99,7 @@ def _get_query_ticker_objects_from_csv(stock_collection: StockCollectionClass) -
                         price=simple_stock_data["Price"],
                         currency=simple_stock_data["Currency"],
                         criteria_pass_count=simple_stock_data["CRITERIA PASS COUNT"],
+                        dividend_score=simple_stock_data["DIVIDEND SCORE"]
                     )
                 )
     return csv_tickers

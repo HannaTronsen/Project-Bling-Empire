@@ -81,7 +81,9 @@ class test_global_stock_data(unittest.TestCase):
             financial_summary=FinancialSummary(
                 previous_close=None,
                 open=0.0,
-                dividend_rate="",  # type: ignore
+                dividend_rate="2020-05-08 00:00:00",  # type: ignore
+                payout_ratio=0.0,
+                ex_dividend_date="20",  # type: ignore
                 beta=0.0,
                 price_to_earnings=PriceToEarnings(
                     trailing_pe=0.0,

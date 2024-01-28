@@ -2,7 +2,7 @@ import dataclasses
 import math
 from abc import ABC
 from dataclasses import is_dataclass
-from config import ITERABLE_DATA_SHOW_DEBUG_PRINT
+from config import ITERABLE_DATA_SHOW_DEBUG_PRINT, CASTABLE_DATA_SHOW_DEBUG_PRINT
 from context.yquery_ticker.main.interfaces.castable_data import CastableDataInterface
 from context.yquery_ticker.main.const import INVALID_FIELD_STRING
 
@@ -50,7 +50,7 @@ class IterableDataInterface(ABC):
 
             # If any type of invalid values are given, we set a universal `None` value
             if value is None or value == "" or value == 'N/A' or isinstance(value, float | int) and math.isnan(value):  # type: ignore
-                if ITERABLE_DATA_SHOW_DEBUG_PRINT:
+                if ITERABLE_DATA_SHOW_DEBUG_PRINT and CASTABLE_DATA_SHOW_DEBUG_PRINT:
                     print(INVALID_FIELD_STRING.format(field=field))
                 setattr(self, field, None)
             else:

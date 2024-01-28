@@ -1,4 +1,3 @@
-from abc import ABC, abstractmethod
 from typing import Optional
 
 from yahooquery import Ticker
@@ -13,6 +12,12 @@ from ..data_classes.financial_data import FinancialData, PriceToEarnings, Earnin
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
 from ..enums.currency import Currency
+from ..enums.dividend_criteria import (
+    DividendCriteria,
+    compare_and_evaluate_dividend_data,
+    evaluate_dividend_data_within_range,
+    evaluate_dividend_datetime_criteria
+)
 from ..enums.growth_criteria import GrowthCriteria
 from ..utils.csv_converter import CsvConverter
 from ..utils.dict_key_enum import DictKey
@@ -29,6 +34,7 @@ class SimpleStockDataClass:
             price: str,
             currency: str,
             criteria_pass_count: str,
+            dividend_score: str,
     ):
         self.ticker_symbol = ticker_symbol
         self.company = company
@@ -38,6 +44,7 @@ class SimpleStockDataClass:
         self.price = price
         self.currency = currency
         self.criteria_pass_count = criteria_pass_count
+        self.dividend_score = dividend_score
 
 
 class YahooStockDataClass(CsvConverter):
@@ -85,6 +92,8 @@ class YahooStockDataClass(CsvConverter):
                 previous_close=summary_detail.get("previousClose"),
                 open=summary_detail.get("open"),
                 dividend_rate=summary_detail.get("dividendRate"),
+                payout_ratio=summary_detail.get("payoutRatio"),
+                ex_dividend_date=summary_detail.get("exDividendDate"),
                 beta=summary_detail.get("beta"),
                 price_to_earnings=PriceToEarnings(
                     trailing_pe=summary_detail.get("trailingPE"),
@@ -93,7 +102,7 @@ class YahooStockDataClass(CsvConverter):
                 market_cap=summary_detail.get("marketCap"),
                 currency=Currency.from_str(summary_detail.get("currency")),
             )
-        )#.normalize_values()
+        )  # .normalize_values()
 
         self.financial_data: FinancialData = FinancialData(
             price=financial_data.get("currentPrice"),
@@ -132,10 +141,10 @@ class YahooStockDataClass(CsvConverter):
             expenses=self.income_statement.get_most_recent_expenses(
                 capital_expenditure=self.cash_flow.get_most_recent_capital_expenditure()
             )
-        )#.normalize_values()
+        ).normalize_values()
 
         self._evaluated_growth_criteria = self.get_evaluated_growth_criteria()
-        self.criteria_pass_count = sum(1 for value in self._evaluated_growth_criteria.values() if value is True)
+        self._evaluated_dividend_score = self.get_evaluated_dividend_score()
 
     def _get_revenue_data(self):
         return {
@@ -166,8 +175,10 @@ class YahooStockDataClass(CsvConverter):
 
     def _get_dividend_data(self):
         return {
+            DictKey.DIVIDEND_EX_DATE.__str__: self.general_stock_info.financial_summary.ex_dividend_date,
             DictKey.DIVIDEND_RATE.__str__: self.financial_data.dividend_rate,
             DictKey.DIVIDEND_YIELD.__str__: self.financial_data.dividend_yield,
+            DictKey.DIVIDEND_PAYOUT_RATIO.__str__: self.general_stock_info.financial_summary.payout_ratio,
             DictKey.FIVE_YEAR_AVG_DIVIDEND_YIELD.__str__: self.financial_data.five_year_avg_dividend_yield,
             DictKey.TRAILING_ANNUAL_DIVIDEND_RATE.__str__: self.financial_data.trailing_annual_dividend_rate,
             DictKey.TRAILING_ANNUAL_DIVIDEND_YIELD.__str__: self.financial_data.trailing_annual_dividend_yield,
@@ -249,6 +260,44 @@ class YahooStockDataClass(CsvConverter):
             ).combine_process_and_evaluate_growth_criteria(),
         }
 
+    def get_criteria_pass_count(self):
+        return self._get_criteria_pass_count()["CRITERIA PASS COUNT"]
+
+    def _get_criteria_pass_count(self):
+        return {
+            "CRITERIA PASS COUNT": float(sum(1.0 for value in self._evaluated_growth_criteria.values() if value is True))
+        }
+
+    def get_evaluated_dividend_score(self):
+        return {
+            DividendCriteria.DIVIDEND_RATE.__str__: compare_and_evaluate_dividend_data(
+                trailing_value=self.financial_data.trailing_annual_dividend_rate,
+                present_value=self.financial_data.dividend_rate
+            ),
+            DividendCriteria.DIVIDEND_YIELD.__str__: compare_and_evaluate_dividend_data(
+                trailing_value=self.financial_data.trailing_annual_dividend_yield,
+                present_value=self.financial_data.dividend_yield
+            ),
+            DividendCriteria.PAYOUT_RATIO.__str__: evaluate_dividend_data_within_range(
+                value=self.general_stock_info.financial_summary.payout_ratio,
+                lower_bound=0.4,  # 40 %
+                upper_bound=0.6  # 60 %
+            ),
+            DividendCriteria.DIVIDEND_EX_DATE.__str__: evaluate_dividend_datetime_criteria(
+                date=self.general_stock_info.financial_summary.ex_dividend_date,
+            ),
+            DividendCriteria.FIVE_YEAR_AVERAGE.__str__: self.financial_data.five_year_avg_dividend_yield / 100
+            if self.financial_data.five_year_avg_dividend_yield is not None else 0.0,
+        }
+
+    def get_dividend_score(self):
+        return self._get_dividend_score()["SUM DIVIDEND SCORE"]
+
+    def _get_dividend_score(self):
+        return {
+            "SUM DIVIDEND SCORE": sum(value for value in self._evaluated_dividend_score.values())
+        }
+
     def to_csv(self, stock_collection: str):
         self._to_csv(
             stock_collection=stock_collection,
@@ -262,6 +311,8 @@ class YahooStockDataClass(CsvConverter):
             financial_ratio_data=lambda: self._get_financial_ratio_data(),
             cash_flow_data=lambda: self._get_cash_flow_data(),
             profitability_data=lambda: self._get_profitability_data(),
+            evaluated_dividend_score=lambda: self._evaluated_dividend_score,
+            get_dividend_score=lambda: self._get_dividend_score(),
             evaluated_growth_criteria=lambda: self._evaluated_growth_criteria,
-            criteria_pass_count=self.criteria_pass_count
+            get_criteria_pass_count=lambda: self._get_criteria_pass_count()
         )

@@ -9,17 +9,17 @@ Price,5.35
 Currency,NOK
 
 REVENUE
-Total Revenue,688270976
+Total Revenue,688270976.0
 Revenue Per Share,28.948
 Revenue Growth,-0.11
 
 EARNINGS
 Earnings Per Share,"EarningsPerShare(trailing_eps=-2.45, forward_eps=-2.0)"
-Net Earnings,61272000
+Net Earnings,61272000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1717652992
+Total Debt,1717652992.0
 Debt to Equity,3547.844
 
 MARGINS
@@ -28,8 +28,10 @@ Gross Profit Margins,0.40240002
 Operating Margins,0.14037
 
 DIVIDEND
+Dividend Ex Date,2008-05-15 02:00:00
 Dividend Rate,None
 Dividend Yield,None
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
@@ -44,14 +46,22 @@ Earnings Per Share,"EarningsPerShare(trailing_eps=-2.45, forward_eps=-2.0)"
 Enterprise to Revenue,2.55
 
 CASH FLOW
-Free to Cash Flow,-346291744
-Operating to Cash Flow,33491000
+Free to Cash Flow,-346291744.0
+Operating to Cash Flow,33491000.0
 
 PROFITABILITY
 Return on Equity,3.45662
 Return on Assets,0.02694
 Return on Invested Capital,0.03567193153258976
 Return on Investment,0.0006135888417999887
+
+DIVIDEND SCORE
+Dividend  Rate,0.5
+Dividend Yield,0.5
+Payout Ratio,0.0
+Dividend Ex Date,0.0
+5 Year Average,0.0
+SUM DIVIDEND SCORE,1.0
 
 
 
@@ -66,7 +76,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
+CRITERIA PASS COUNT,0.0
 
-
-
-CRITERIA PASS COUNT,0

@@ -4,7 +4,6 @@ from typing import Callable
 from const import GENERATED_CSV_FILES_PATH
 from context.yquery_ticker.main.data_classes.financial_summary import FinancialSummary
 from context.yquery_ticker.main.data_classes.general_stock_info import GeneralStockInfo
-from context.yquery_ticker.main.enums.currency import Currency
 from context.yquery_ticker.main.errors.generic_error import GenericError
 
 
@@ -18,7 +17,26 @@ class Section(Enum):
     FINANCIAL_RATIO = "FINANCIAL RATIO"
     CASH_FLOW = "CASH FLOW"
     PROFITABILITY = "PROFITABILITY"
+    DIVIDEND_SCORE = "DIVIDEND SCORE"
     GROWTH_CRITERIA = "PASSES GROWTH CRITERIA"
+
+
+def _get_items(data_func):
+    if isinstance(data_func, dict):
+        return data_func.items()
+    else:
+        return data_func().items()
+
+
+def _process_data_item(writer, key, value):
+    if not isinstance(value, GenericError) and value is not None:
+        writer.writerow([key, value])
+    else:
+        if value is None:
+            writer.writerow([key, "None"])
+        else:
+            error = GenericError(value.reason)
+            writer.writerow([key, error.reason])
 
 
 class CsvConverter:
@@ -36,8 +54,10 @@ class CsvConverter:
             financial_ratio_data: Callable[[], dict],
             cash_flow_data: Callable[[], dict],
             profitability_data: Callable[[], dict],
+            evaluated_dividend_score: Callable[[], dict],
+            get_dividend_score: Callable[[], dict],
             evaluated_growth_criteria: Callable[[], dict],
-            criteria_pass_count: int,
+            get_criteria_pass_count: Callable[[], dict],
     ):
         mapped_data = {
             Section.REVENUE: revenue_data,
@@ -48,7 +68,8 @@ class CsvConverter:
             Section.FINANCIAL_RATIO: financial_ratio_data,
             Section.CASH_FLOW: cash_flow_data,
             Section.PROFITABILITY: profitability_data,
-            Section.GROWTH_CRITERIA: evaluated_growth_criteria,
+            Section.DIVIDEND_SCORE: {**evaluated_dividend_score(), **get_dividend_score()},
+            Section.GROWTH_CRITERIA: {**evaluated_growth_criteria(), **get_criteria_pass_count()},
         }
 
         with open(f"{GENERATED_CSV_FILES_PATH}/{stock_collection}/{ticker_symbol}.csv", mode='w', newline='') as file:
@@ -77,16 +98,7 @@ class CsvConverter:
 
                 writer.writerow([section.value])  # Write section header
 
-                for key, value in data_func().items():
-                    if not isinstance(value, GenericError) and value is not None:
-                        writer.writerow([key, value])
-                    else:
-                        if value is None:
-                            writer.writerow([key, "None"])
-                        else:
-                            error = GenericError(value.reason)
-                            writer.writerow([key, error.reason])
+                for key, value in _get_items(data_func):
+                    _process_data_item(writer, key, value)
                 writer.writerow([])
-            writer.writerows([[], []])
-            writer.writerow(["CRITERIA PASS COUNT", criteria_pass_count])
         file.close()
